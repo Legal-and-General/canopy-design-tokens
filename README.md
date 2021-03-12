@@ -1,6 +1,8 @@
 # Canopy Design Tokens
 
-A [Design Tokens](https://css-tricks.com/what-are-design-tokens/) implementation for [Canopy](https://github.com/Legal-and-General/canopy). Uses the [Style Dictionary](https://amzn.github.io/style-dictionary) package to turn the design token JSON files into consumable files for your project, e.g. CSS varaibles.
+An exploratory look at a [Design Tokens](https://css-tricks.com/what-are-design-tokens/) implementation for [Canopy](https://github.com/Legal-and-General/canopy). Uses the [Style Dictionary](https://amzn.github.io/style-dictionary) package to turn the design token JSON files into consumable files for your project, e.g. CSS varaibles.
+
+Note this is a proof of concept.
 
 ## Build
 
@@ -12,13 +14,12 @@ npm run build
 
 # Just CSS varaibles
 npm run build:css
-
-# Just SCSS variables
-npm run build:scss
 ```
 
-The resuling build files can be found in the **build/** directory.
+The resulting build files can be found in the **build/** directory.
 
 ## Design token JSON files
 
-All design tokens are defined in the **propeties/** directory.
+All design tokens are defined in JSON files the **propeties/** directory. Here you can edit, add or remove tokens.
+
+It's from these files that the build artifacts are created.
