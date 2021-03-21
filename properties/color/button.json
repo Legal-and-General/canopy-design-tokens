@@ -1,0 +1,9 @@
+{
+  "color": {
+    "button": {
+      "disabled-bg": { "value": "{color.platinum.value}" },
+      "disabled-border": { "value": "{color.platinum.value}" },
+      "disabled": { "value": "{color.taupe-grey.value}" }
+    }
+  }
+}
