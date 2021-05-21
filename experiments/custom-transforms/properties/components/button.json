@@ -1,0 +1,22 @@
+{
+  "btn": {
+    "disabled": {
+      "bg-color": {
+        "value": "{color.platinum.value}",
+        "group": "color"
+      },
+      "border-color": {
+        "value": "{color.platinum.value}",
+        "group": "color"
+      },
+      "color": {
+        "value": "{color.taupe-grey.value}",
+        "group": "color"
+      }
+    }
+  },
+  "horizontal-padding": {
+    "value": "1.1875",
+    "group": "size"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "source": ["properties/**/*.json"],
+  "platforms": {
+    "css": {
+      "transformGroup": "custom/css",
+      "buildPath": "build/css/",
+      "files": [{
+        "destination": "_varaibles.css",
+        "format": "css/variables"
+      }]
+    }
+  }
+}

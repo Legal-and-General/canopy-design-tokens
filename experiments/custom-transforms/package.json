@@ -1,0 +1,13 @@
+{
+  "name": "custom-transforms",
+  "version": "1.0.0",
+  "description": "Quick experiment in using custom transforms",
+  "scripts": {
+    "build": "node ./build.js"
+  },
+  "devDependencies": {
+    "style-dictionary": "^2.10.3"
+  },
+  "author": "",
+  "license": "ISC"
+}
