@@ -5,6 +5,5 @@
       "sm": { "value": "0.125" },
       "lg": { "value": "0.25" }
     }
-  },
-  "default-focus-color": { "value": "{color.dandelion-yellow.value}" }
+  }
 }
