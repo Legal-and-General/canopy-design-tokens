@@ -1,9 +1,18 @@
 {
   "color": {
     "button": {
-      "disabled-bg": { "value": "{color.base.platinum.value}" },
-      "disabled-border": { "value": "{color.base.platinum.value}" },
-      "disabled": { "value": "{color.base.taupe-grey.value}" }
+      "disabled-bg": {
+        "value": "{color.base.platinum.value}",
+        "old": "--btn-disabled-bg-color"
+      },
+      "disabled-border": {
+        "value": "{color.base.platinum.value}",
+        "old": "--btn-disabled-border-color"
+      },
+      "disabled": {
+        "value": "{color.base.taupe-grey.value}",
+        "old": "--btn-disabled-color"
+      }
     }
   }
 }

@@ -1,0 +1,62 @@
+{
+  "size": {
+    "button": {
+      "border-radius": {
+        "value": "{size.border.radius.sm.value}",
+        "old": "--btn-border-radius"
+      },
+      "line-height": {
+        "value": "1.5",
+        "old": "--btn-line-height"
+      },
+      "min-width": {
+        "value": "6",
+        "old": "--btn-min-width"
+      },
+
+      "padding": {
+        "vertical": {
+          "value": "0.5625",
+          "old": "--btn-vertical-padding",
+          "comment": "9px"
+        },
+        "horizontal": {
+          "value": "1.1875",
+          "old": "--btn-horizontal-padding",
+          "comment": "19px"
+        },
+        "vertical--sm": {
+          "value": "0.1875",
+          "old": "--btn-vertical-padding--sm",
+          "comment": "3px"
+        },
+        "horizontal--sm": {
+          "value": "1.1875",
+          "old": "{size.button.padding.horizontal}",
+          "comment": "19px"
+        },
+        "icon": {
+          "text": {
+            "value": "0.625",
+            "old": "--btn-icon-text-padding",
+            "comment": "10px"
+          },
+          "edge": {
+            "value": "0.125",
+            "old": "--btn-icon-edge-padding",
+            "comment": "2px"
+          },
+          "only": {
+            "value": "0.5625",
+            "old": "--btn-icon-only-padding",
+            "comment": "9px"
+          },
+          "only--sm": {
+            "value": "{size.button.padding.vertical--sm.value}",
+            "old": "--btn-icon-only-padding--sm"
+          }
+        }
+      }
+    }
+  }
+}
