@@ -5,9 +5,17 @@
   "main": "config.json",
   "scripts": {
     "build": "npx style-dictionary build",
-    "build:css": "npx style-dictionary build --platform css"
+    "build:css": "npx style-dictionary build --platform css",
+    "commit": "npx git-cz"
   },
   "devDependencies": {
+    "commitizen": "^4.2.4",
+    "cz-conventional-changelog": "^3.2.0",
     "style-dictionary": "^2.10.3"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
   }
 }
