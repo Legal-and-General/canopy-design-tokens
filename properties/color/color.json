@@ -18,7 +18,7 @@
 
       "earth-brown": { "value": "#b65f17" },
       "earth-brown-dark": { "value": "#854612" },
-      "color-earth-brown-darkest": { "value": "#64340d" },
+      "earth-brown-darkest": { "value": "#64340d" },
 
       "super-blue-lightest": { "value": "#e3f2fd" },
       "super-blue-light": { "value": "#8ecafb" },
@@ -37,7 +37,6 @@
       "poppy-red": { "value": "#e22922" },
 
       "poppy-red-dark": { "value": "#b50005" },
-      "earth-brown-darkest": { "value": "#671210" },
 
       "dandelion-yellow-lightest": { "value": "#fdf8cd" },
       "dandelion-yellow-light": { "value": "#ffef67" },
@@ -47,6 +46,7 @@
       "charcoal": { "value": "#333" },
       "battleship-grey": { "value": "#575756" },
       "taupe-grey": { "value": "#929292" },
+      "serenity": { "value": "#faf7f5"},
       "platinum": { "value": "#e3e3e3" },
       "white-smoke": { "value": "#f6f6f6" },
       "white": { "value": "#fff" }
