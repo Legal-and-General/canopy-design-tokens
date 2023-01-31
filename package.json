@@ -7,15 +7,16 @@
     "build": "npx style-dictionary build",
     "build:css": "npx style-dictionary build --platform css",
     "commit": "npx git-cz",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "test": ""
   },
   "devDependencies": {
-    "@commitlint/cli": "^12.1.4",
-    "@commitlint/config-conventional": "^12.1.4",
-    "commitizen": "^4.2.4",
-    "cz-conventional-changelog": "^3.2.0",
-    "husky": "^6.0.0",
-    "style-dictionary": "^2.10.3"
+    "@commitlint/cli": "^17.4.2",
+    "@commitlint/config-conventional": "^17.4.2",
+    "commitizen": "^4.3.0",
+    "cz-conventional-changelog": "^3.3.0",
+    "husky": "^8.0.3",
+    "style-dictionary": "^3.7.2"
   },
   "config": {
     "commitizen": {
