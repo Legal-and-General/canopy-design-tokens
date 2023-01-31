@@ -7,8 +7,7 @@
     "build": "npx style-dictionary build",
     "build:css": "npx style-dictionary build --platform css",
     "commit": "npx git-cz",
-    "prepare": "husky install",
-    "test": ""
+    "prepare": "husky install"
   },
   "devDependencies": {
     "@commitlint/cli": "^17.4.2",
