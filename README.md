@@ -1,4 +1,4 @@
-# Canopy Design Tokens
+# Canopy Design Tokens Repository
 
 An exploratory look at a [Design Tokens](https://css-tricks.com/what-are-design-tokens/) implementation for [Canopy](https://github.com/Legal-and-General/canopy). Uses the [Style Dictionary](https://amzn.github.io/style-dictionary) package to turn the design token JSON files into consumable files for your project, e.g. CSS variables.
 
