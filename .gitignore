@@ -6,7 +6,6 @@
 
 # misc
 .env
-/build
 
 # IDE - VSCode
 .vscode/*
