@@ -46,6 +46,10 @@ jobs:
         if: steps.check_changes.outputs.has_changes == 'true'
         run: npm run tokens:process-raw
       
+      - name: Build CSS tokens with Style Dictionary
+        if: steps.check_changes.outputs.has_changes == 'true'
+        run: npm run build:tokens
+      
       - name: Create Pull Request
         if: steps.check_changes.outputs.has_changes == 'true'
         uses: peter-evans/create-pull-request@v6
@@ -61,10 +65,12 @@ jobs:
             ### Changes
             - Updated `figma-variables-raw.json` with latest design tokens from Figma
             - Processed tokens into individual collection files
+            - Built CSS files with Style Dictionary
             
             ### Review Checklist
             - [ ] Review the changes in `figma-variables-raw.json`
             - [ ] Verify processed token files are correctly formatted
+            - [ ] Check generated CSS files in `build/css/` for correctness
             - [ ] Check for any unexpected changes in generated tokens
             
             ---
