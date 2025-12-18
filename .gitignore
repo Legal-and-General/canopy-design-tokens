@@ -1,3 +1,12 @@
-build/
-node_modules/
-.idea/
+# dependencies
+/node_modules
+
+# IDEs and editors
+/.idea
+
+# misc
+.env
+/build
+
+# IDE - VSCode
+.vscode/*

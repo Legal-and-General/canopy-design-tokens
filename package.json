@@ -1,11 +1,12 @@
 {
   "name": "canopy-design-tokens",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Design tokens for the Canopy design system",
   "main": "config.json",
   "scripts": {
-    "build": "npx style-dictionary build",
-    "build:css": "npx style-dictionary build --platform css",
+    "tokens:fetch-raw": "node fetch-figma-tokens.js",
+    "tokens:process-raw": "node figma-raw-to-tokens.js",
+    "build:tokens": "style-dictionary build --config style-dictionary.config.js",
     "commit": "npx git-cz",
     "prepare": "husky install"
   },
@@ -15,7 +16,7 @@
     "commitizen": "^4.3.0",
     "cz-conventional-changelog": "^3.3.0",
     "husky": "^8.0.3",
-    "style-dictionary": "^3.7.2"
+    "style-dictionary": "^5.1.1"
   },
   "config": {
     "commitizen": {

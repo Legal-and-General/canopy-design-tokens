@@ -1,0 +1,1729 @@
+{
+  "$description": "Design tokens from Layout collection",
+  "$timestamp": "2025-12-16T16:36:33.942Z",
+  "page": {
+    "cols": {
+      "SM": {
+        "value": 1,
+        "type": "sizing"
+      },
+      "MD": {
+        "value": 12,
+        "type": "sizing"
+      },
+      "LG": {
+        "value": 12,
+        "type": "sizing"
+      },
+      "XL": {
+        "value": 12,
+        "type": "sizing"
+      },
+      "XXL": {
+        "value": 12,
+        "type": "sizing"
+      }
+    },
+    "gutter": {
+      "SM": {
+        "value": 28,
+        "type": "sizing"
+      },
+      "MD": {
+        "value": 28,
+        "type": "sizing"
+      },
+      "LG": {
+        "value": 32,
+        "type": "sizing"
+      },
+      "XL": {
+        "value": 32,
+        "type": "sizing"
+      },
+      "XXL": {
+        "value": 32,
+        "type": "sizing"
+      }
+    },
+    "min-width": {
+      "SM": {
+        "value": 320,
+        "type": "sizing",
+        "description": "Use to set the min-width property of a page width. Use modes to switch between breakpoints"
+      },
+      "MD": {
+        "value": 768,
+        "type": "sizing",
+        "description": "Use to set the min-width property of a page width. Use modes to switch between breakpoints"
+      },
+      "LG": {
+        "value": 1024,
+        "type": "sizing",
+        "description": "Use to set the min-width property of a page width. Use modes to switch between breakpoints"
+      },
+      "XL": {
+        "value": 1280,
+        "type": "sizing",
+        "description": "Use to set the min-width property of a page width. Use modes to switch between breakpoints"
+      },
+      "XXL": {
+        "value": 1440,
+        "type": "sizing",
+        "description": "Use to set the min-width property of a page width. Use modes to switch between breakpoints"
+      }
+    },
+    "margin": {
+      "SM": {
+        "value": 16,
+        "type": "spacing"
+      },
+      "MD": {
+        "value": 28,
+        "type": "spacing"
+      },
+      "LG": {
+        "value": 32,
+        "type": "spacing"
+      },
+      "XL": {
+        "value": 72,
+        "type": "spacing"
+      },
+      "XXL": {
+        "value": 104,
+        "type": "spacing"
+      }
+    },
+    "max-width": {
+      "SM": {
+        "value": 767,
+        "type": "sizing"
+      },
+      "MD": {
+        "value": 1023,
+        "type": "sizing"
+      },
+      "LG": {
+        "value": 1279,
+        "type": "sizing"
+      },
+      "XL": {
+        "value": 1439,
+        "type": "sizing"
+      },
+      "XXL": {
+        "value": 1680,
+        "type": "sizing"
+      }
+    }
+  },
+  "border-radius": {
+    "1": {
+      "SM": {
+        "value": 4,
+        "type": "borderRadius",
+        "description": "For use on border / corner radiuses"
+      },
+      "MD": {
+        "value": 4,
+        "type": "borderRadius",
+        "description": "For use on border / corner radiuses"
+      },
+      "LG": {
+        "value": 4,
+        "type": "borderRadius",
+        "description": "For use on border / corner radiuses"
+      },
+      "XL": {
+        "value": 4,
+        "type": "borderRadius",
+        "description": "For use on border / corner radiuses"
+      },
+      "XXL": {
+        "value": 4,
+        "type": "borderRadius",
+        "description": "For use on border / corner radiuses"
+      }
+    },
+    "2": {
+      "SM": {
+        "value": 8,
+        "type": "borderRadius",
+        "description": "For use on border / corner radiuses"
+      },
+      "MD": {
+        "value": 8,
+        "type": "borderRadius",
+        "description": "For use on border / corner radiuses"
+      },
+      "LG": {
+        "value": 8,
+        "type": "borderRadius",
+        "description": "For use on border / corner radiuses"
+      },
+      "XL": {
+        "value": 8,
+        "type": "borderRadius",
+        "description": "For use on border / corner radiuses"
+      },
+      "XXL": {
+        "value": 8,
+        "type": "borderRadius",
+        "description": "For use on border / corner radiuses"
+      }
+    },
+    "3": {
+      "SM": {
+        "value": 12,
+        "type": "borderRadius",
+        "description": "For use on border / corner radiuses"
+      },
+      "MD": {
+        "value": 12,
+        "type": "borderRadius",
+        "description": "For use on border / corner radiuses"
+      },
+      "LG": {
+        "value": 12,
+        "type": "borderRadius",
+        "description": "For use on border / corner radiuses"
+      },
+      "XL": {
+        "value": 12,
+        "type": "borderRadius",
+        "description": "For use on border / corner radiuses"
+      },
+      "XXL": {
+        "value": 12,
+        "type": "borderRadius",
+        "description": "For use on border / corner radiuses"
+      }
+    },
+    "4": {
+      "SM": {
+        "value": 16,
+        "type": "borderRadius",
+        "description": "For use on border / corner radiuses"
+      },
+      "MD": {
+        "value": 16,
+        "type": "borderRadius",
+        "description": "For use on border / corner radiuses"
+      },
+      "LG": {
+        "value": 16,
+        "type": "borderRadius",
+        "description": "For use on border / corner radiuses"
+      },
+      "XL": {
+        "value": 16,
+        "type": "borderRadius",
+        "description": "For use on border / corner radiuses"
+      },
+      "XXL": {
+        "value": 16,
+        "type": "borderRadius",
+        "description": "For use on border / corner radiuses"
+      }
+    },
+    "5": {
+      "SM": {
+        "value": 20,
+        "type": "borderRadius",
+        "description": "For use on border / corner radiuses"
+      },
+      "MD": {
+        "value": 20,
+        "type": "borderRadius",
+        "description": "For use on border / corner radiuses"
+      },
+      "LG": {
+        "value": 24,
+        "type": "borderRadius",
+        "description": "For use on border / corner radiuses"
+      },
+      "XL": {
+        "value": 24,
+        "type": "borderRadius",
+        "description": "For use on border / corner radiuses"
+      },
+      "XXL": {
+        "value": 24,
+        "type": "borderRadius",
+        "description": "For use on border / corner radiuses"
+      }
+    },
+    "6": {
+      "SM": {
+        "value": 28,
+        "type": "borderRadius",
+        "description": "For use on border / corner radiuses"
+      },
+      "MD": {
+        "value": 28,
+        "type": "borderRadius",
+        "description": "For use on border / corner radiuses"
+      },
+      "LG": {
+        "value": 32,
+        "type": "borderRadius",
+        "description": "For use on border / corner radiuses"
+      },
+      "XL": {
+        "value": 32,
+        "type": "borderRadius",
+        "description": "For use on border / corner radiuses"
+      },
+      "XXL": {
+        "value": 32,
+        "type": "borderRadius",
+        "description": "For use on border / corner radiuses"
+      }
+    },
+    "7": {
+      "SM": {
+        "value": 36,
+        "type": "borderRadius",
+        "description": "For use on border / corner radiuses"
+      },
+      "MD": {
+        "value": 36,
+        "type": "borderRadius",
+        "description": "For use on border / corner radiuses"
+      },
+      "LG": {
+        "value": 48,
+        "type": "borderRadius",
+        "description": "For use on border / corner radiuses"
+      },
+      "XL": {
+        "value": 48,
+        "type": "borderRadius",
+        "description": "For use on border / corner radiuses"
+      },
+      "XXL": {
+        "value": 48,
+        "type": "borderRadius",
+        "description": "For use on border / corner radiuses"
+      }
+    },
+    "8": {
+      "SM": {
+        "value": 48,
+        "type": "borderRadius",
+        "description": "For use on border / corner radiuses"
+      },
+      "MD": {
+        "value": 48,
+        "type": "borderRadius",
+        "description": "For use on border / corner radiuses"
+      },
+      "LG": {
+        "value": 72,
+        "type": "borderRadius",
+        "description": "For use on border / corner radiuses"
+      },
+      "XL": {
+        "value": 72,
+        "type": "borderRadius",
+        "description": "For use on border / corner radiuses"
+      },
+      "XXL": {
+        "value": 72,
+        "type": "borderRadius",
+        "description": "For use on border / corner radiuses"
+      }
+    },
+    "9": {
+      "SM": {
+        "value": 60,
+        "type": "borderRadius",
+        "description": "For use on border / corner radiuses"
+      },
+      "MD": {
+        "value": 60,
+        "type": "borderRadius",
+        "description": "For use on border / corner radiuses"
+      },
+      "LG": {
+        "value": 104,
+        "type": "borderRadius",
+        "description": "For use on border / corner radiuses"
+      },
+      "XL": {
+        "value": 104,
+        "type": "borderRadius",
+        "description": "For use on border / corner radiuses"
+      },
+      "XXL": {
+        "value": 104,
+        "type": "borderRadius",
+        "description": "For use on border / corner radiuses"
+      }
+    },
+    "10": {
+      "SM": {
+        "value": 84,
+        "type": "borderRadius",
+        "description": "For use on border / corner radiuses"
+      },
+      "MD": {
+        "value": 84,
+        "type": "borderRadius",
+        "description": "For use on border / corner radiuses"
+      },
+      "LG": {
+        "value": 156,
+        "type": "borderRadius",
+        "description": "For use on border / corner radiuses"
+      },
+      "XL": {
+        "value": 156,
+        "type": "borderRadius",
+        "description": "For use on border / corner radiuses"
+      },
+      "XXL": {
+        "value": 156,
+        "type": "borderRadius",
+        "description": "For use on border / corner radiuses"
+      }
+    }
+  },
+  "border-width": {
+    "sm": {
+      "SM": {
+        "value": 1,
+        "type": "borderWidth",
+        "description": "Use for thin border widths"
+      },
+      "MD": {
+        "value": 1,
+        "type": "borderWidth",
+        "description": "Use for thin border widths"
+      },
+      "LG": {
+        "value": 1,
+        "type": "borderWidth",
+        "description": "Use for thin border widths"
+      },
+      "XL": {
+        "value": 1,
+        "type": "borderWidth",
+        "description": "Use for thin border widths"
+      },
+      "XXL": {
+        "value": 1,
+        "type": "borderWidth",
+        "description": "Use for thin border widths"
+      }
+    },
+    "md": {
+      "SM": {
+        "value": 2,
+        "type": "borderWidth",
+        "description": "Use for medium border widths"
+      },
+      "MD": {
+        "value": 2,
+        "type": "borderWidth",
+        "description": "Use for medium border widths"
+      },
+      "LG": {
+        "value": 2,
+        "type": "borderWidth",
+        "description": "Use for medium border widths"
+      },
+      "XL": {
+        "value": 2,
+        "type": "borderWidth",
+        "description": "Use for medium border widths"
+      },
+      "XXL": {
+        "value": 2,
+        "type": "borderWidth",
+        "description": "Use for medium border widths"
+      }
+    },
+    "lg": {
+      "SM": {
+        "value": 4,
+        "type": "borderWidth",
+        "description": "use for thick border widths"
+      },
+      "MD": {
+        "value": 4,
+        "type": "borderWidth",
+        "description": "use for thick border widths"
+      },
+      "LG": {
+        "value": 4,
+        "type": "borderWidth",
+        "description": "use for thick border widths"
+      },
+      "XL": {
+        "value": 4,
+        "type": "borderWidth",
+        "description": "use for thick border widths"
+      },
+      "XXL": {
+        "value": 4,
+        "type": "borderWidth",
+        "description": "use for thick border widths"
+      }
+    }
+  },
+  "colspan": {
+    "1": {
+      "SM": {
+        "value": 288,
+        "type": "sizing",
+        "description": "Use to make an element span 1 column in a page"
+      },
+      "MD": {
+        "value": 34,
+        "type": "sizing",
+        "description": "Use to make an element span 1 column in a page"
+      },
+      "LG": {
+        "value": 51,
+        "type": "sizing",
+        "description": "Use to make an element span 1 column in a page"
+      },
+      "XL": {
+        "value": 65,
+        "type": "sizing",
+        "description": "Use to make an element span 1 column in a page"
+      },
+      "XXL": {
+        "value": 73,
+        "type": "sizing",
+        "description": "Use to make an element span 1 column in a page"
+      }
+    },
+    "2": {
+      "SM": {
+        "value": 288,
+        "type": "sizing",
+        "description": "Use to make an element span 2 columns in a page"
+      },
+      "MD": {
+        "value": 95,
+        "type": "sizing",
+        "description": "Use to make an element span 2 columns in a page"
+      },
+      "LG": {
+        "value": 133,
+        "type": "sizing",
+        "description": "Use to make an element span 2 columns in a page"
+      },
+      "XL": {
+        "value": 162,
+        "type": "sizing",
+        "description": "Use to make an element span 2 columns in a page"
+      },
+      "XXL": {
+        "value": 178,
+        "type": "sizing",
+        "description": "Use to make an element span 2 columns in a page"
+      }
+    },
+    "3": {
+      "SM": {
+        "value": 288,
+        "type": "sizing",
+        "description": "Use to make an element span 3 columns in a page"
+      },
+      "MD": {
+        "value": 157,
+        "type": "sizing",
+        "description": "Use to make an element span 3 columns in a page"
+      },
+      "LG": {
+        "value": 216,
+        "type": "sizing",
+        "description": "Use to make an element span 3 columns in a page"
+      },
+      "XL": {
+        "value": 260,
+        "type": "sizing",
+        "description": "Use to make an element span 3 columns in a page"
+      },
+      "XXL": {
+        "value": 284,
+        "type": "sizing",
+        "description": "Use to make an element span 3 columns in a page"
+      }
+    },
+    "4": {
+      "SM": {
+        "value": 288,
+        "type": "sizing",
+        "description": "Use to make an element span 4 columns in a page"
+      },
+      "MD": {
+        "value": 218.5,
+        "type": "sizing",
+        "description": "Use to make an element span 4 columns in a page"
+      },
+      "LG": {
+        "value": 298.5,
+        "type": "sizing",
+        "description": "Use to make an element span 4 columns in a page"
+      },
+      "XL": {
+        "value": 357,
+        "type": "sizing",
+        "description": "Use to make an element span 4 columns in a page"
+      },
+      "XXL": {
+        "value": 389,
+        "type": "sizing",
+        "description": "Use to make an element span 4 columns in a page"
+      }
+    },
+    "5": {
+      "SM": {
+        "value": 288,
+        "type": "sizing",
+        "description": "Use to make an element span 5 columns in a page"
+      },
+      "MD": {
+        "value": 280,
+        "type": "sizing",
+        "description": "Use to make an element span 5 columns in a page"
+      },
+      "LG": {
+        "value": 381,
+        "type": "sizing",
+        "description": "Use to make an element span 5 columns in a page"
+      },
+      "XL": {
+        "value": 454,
+        "type": "sizing",
+        "description": "Use to make an element span 5 columns in a page"
+      },
+      "XXL": {
+        "value": 494,
+        "type": "sizing",
+        "description": "Use to make an element span 5 columns in a page"
+      }
+    },
+    "6": {
+      "SM": {
+        "value": 288,
+        "type": "sizing",
+        "description": "Use to make an element span 6 columns in a page"
+      },
+      "MD": {
+        "value": 341,
+        "type": "sizing",
+        "description": "Use to make an element span 6 columns in a page"
+      },
+      "LG": {
+        "value": 464,
+        "type": "sizing",
+        "description": "Use to make an element span 6 columns in a page"
+      },
+      "XL": {
+        "value": 552,
+        "type": "sizing",
+        "description": "Use to make an element span 6 columns in a page"
+      },
+      "XXL": {
+        "value": 600,
+        "type": "sizing",
+        "description": "Use to make an element span 6 columns in a page"
+      }
+    },
+    "7": {
+      "SM": {
+        "value": 288,
+        "type": "sizing",
+        "description": "Use to make an element span 7 columns in a page"
+      },
+      "MD": {
+        "value": 404,
+        "type": "sizing",
+        "description": "Use to make an element span 7 columns in a page"
+      },
+      "LG": {
+        "value": 547,
+        "type": "sizing",
+        "description": "Use to make an element span 7 columns in a page"
+      },
+      "XL": {
+        "value": 649,
+        "type": "sizing",
+        "description": "Use to make an element span 7 columns in a page"
+      },
+      "XXL": {
+        "value": 705,
+        "type": "sizing",
+        "description": "Use to make an element span 7 columns in a page"
+      }
+    },
+    "8": {
+      "SM": {
+        "value": 288,
+        "type": "sizing",
+        "description": "Use to make an element span 8 columns in a page"
+      },
+      "MD": {
+        "value": 465,
+        "type": "sizing",
+        "description": "Use to make an element span 8 columns in a page"
+      },
+      "LG": {
+        "value": 629,
+        "type": "sizing",
+        "description": "Use to make an element span 8 columns in a page"
+      },
+      "XL": {
+        "value": 746,
+        "type": "sizing",
+        "description": "Use to make an element span 8 columns in a page"
+      },
+      "XXL": {
+        "value": 810,
+        "type": "sizing",
+        "description": "Use to make an element span 8 columns in a page"
+      }
+    },
+    "9": {
+      "SM": {
+        "value": 288,
+        "type": "sizing",
+        "description": "Use to make an element span 9 columns in a page"
+      },
+      "MD": {
+        "value": 527,
+        "type": "sizing",
+        "description": "Use to make an element span 9 columns in a page"
+      },
+      "LG": {
+        "value": 712,
+        "type": "sizing",
+        "description": "Use to make an element span 9 columns in a page"
+      },
+      "XL": {
+        "value": 844,
+        "type": "sizing",
+        "description": "Use to make an element span 9 columns in a page"
+      },
+      "XXL": {
+        "value": 916,
+        "type": "sizing",
+        "description": "Use to make an element span 9 columns in a page"
+      }
+    },
+    "10": {
+      "SM": {
+        "value": 288,
+        "type": "sizing",
+        "description": "Use to make an element span 10 columns in a page"
+      },
+      "MD": {
+        "value": 589,
+        "type": "sizing",
+        "description": "Use to make an element span 10 columns in a page"
+      },
+      "LG": {
+        "value": 795,
+        "type": "sizing",
+        "description": "Use to make an element span 10 columns in a page"
+      },
+      "XL": {
+        "value": 941,
+        "type": "sizing",
+        "description": "Use to make an element span 10 columns in a page"
+      },
+      "XXL": {
+        "value": 1021,
+        "type": "sizing",
+        "description": "Use to make an element span 10 columns in a page"
+      }
+    },
+    "11": {
+      "SM": {
+        "value": 288,
+        "type": "sizing",
+        "description": "Use to make an element span 11 columns in a page"
+      },
+      "MD": {
+        "value": 650,
+        "type": "sizing",
+        "description": "Use to make an element span 11 columns in a page"
+      },
+      "LG": {
+        "value": 877,
+        "type": "sizing",
+        "description": "Use to make an element span 11 columns in a page"
+      },
+      "XL": {
+        "value": 1038,
+        "type": "sizing",
+        "description": "Use to make an element span 11 columns in a page"
+      },
+      "XXL": {
+        "value": 1126,
+        "type": "sizing",
+        "description": "Use to make an element span 11 columns in a page"
+      }
+    },
+    "12": {
+      "SM": {
+        "value": 288,
+        "type": "sizing",
+        "description": "Use to make an element span 12 columns in a page"
+      },
+      "MD": {
+        "value": 712,
+        "type": "sizing",
+        "description": "Use to make an element span 12 columns in a page"
+      },
+      "LG": {
+        "value": 960,
+        "type": "sizing",
+        "description": "Use to make an element span 12 columns in a page"
+      },
+      "XL": {
+        "value": 1136,
+        "type": "sizing",
+        "description": "Use to make an element span 12 columns in a page"
+      },
+      "XXL": {
+        "value": 1232,
+        "type": "sizing",
+        "description": "Use to make an element span 12 columns in a page"
+      }
+    }
+  },
+  "font-size": {
+    "1": {
+      "SM": {
+        "value": 16,
+        "type": "fontSizes",
+        "description": "Not for use with Expressive"
+      },
+      "MD": {
+        "value": 16,
+        "type": "fontSizes",
+        "description": "Not for use with Expressive"
+      },
+      "LG": {
+        "value": 16,
+        "type": "fontSizes",
+        "description": "Not for use with Expressive"
+      },
+      "XL": {
+        "value": 16,
+        "type": "fontSizes",
+        "description": "Not for use with Expressive"
+      },
+      "XXL": {
+        "value": 16,
+        "type": "fontSizes",
+        "description": "Not for use with Expressive"
+      }
+    },
+    "2": {
+      "SM": {
+        "value": 20,
+        "type": "fontSizes",
+        "description": "Not for use with Expressive"
+      },
+      "MD": {
+        "value": 20,
+        "type": "fontSizes",
+        "description": "Not for use with Expressive"
+      },
+      "LG": {
+        "value": 20,
+        "type": "fontSizes",
+        "description": "Not for use with Expressive"
+      },
+      "XL": {
+        "value": 20,
+        "type": "fontSizes",
+        "description": "Not for use with Expressive"
+      },
+      "XXL": {
+        "value": 20,
+        "type": "fontSizes",
+        "description": "Not for use with Expressive"
+      }
+    },
+    "3": {
+      "SM": {
+        "value": 24,
+        "type": "fontSizes",
+        "description": "Not for use with Expressive"
+      },
+      "MD": {
+        "value": 24,
+        "type": "fontSizes",
+        "description": "Not for use with Expressive"
+      },
+      "LG": {
+        "value": 24,
+        "type": "fontSizes",
+        "description": "Not for use with Expressive"
+      },
+      "XL": {
+        "value": 24,
+        "type": "fontSizes",
+        "description": "Not for use with Expressive"
+      },
+      "XXL": {
+        "value": 24,
+        "type": "fontSizes",
+        "description": "Not for use with Expressive"
+      }
+    },
+    "4": {
+      "SM": {
+        "value": 28,
+        "type": "fontSizes"
+      },
+      "MD": {
+        "value": 28,
+        "type": "fontSizes"
+      },
+      "LG": {
+        "value": 32,
+        "type": "fontSizes"
+      },
+      "XL": {
+        "value": 32,
+        "type": "fontSizes"
+      },
+      "XXL": {
+        "value": 32,
+        "type": "fontSizes"
+      }
+    },
+    "5": {
+      "SM": {
+        "value": 32,
+        "type": "fontSizes"
+      },
+      "MD": {
+        "value": 32,
+        "type": "fontSizes"
+      },
+      "LG": {
+        "value": 40,
+        "type": "fontSizes"
+      },
+      "XL": {
+        "value": 40,
+        "type": "fontSizes"
+      },
+      "XXL": {
+        "value": 40,
+        "type": "fontSizes"
+      }
+    },
+    "6": {
+      "SM": {
+        "value": 40,
+        "type": "fontSizes"
+      },
+      "MD": {
+        "value": 40,
+        "type": "fontSizes"
+      },
+      "LG": {
+        "value": 48,
+        "type": "fontSizes"
+      },
+      "XL": {
+        "value": 48,
+        "type": "fontSizes"
+      },
+      "XXL": {
+        "value": 48,
+        "type": "fontSizes"
+      }
+    },
+    "7": {
+      "SM": {
+        "value": 48,
+        "type": "fontSizes"
+      },
+      "MD": {
+        "value": 48,
+        "type": "fontSizes"
+      },
+      "LG": {
+        "value": 62,
+        "type": "fontSizes"
+      },
+      "XL": {
+        "value": 62,
+        "type": "fontSizes"
+      },
+      "XXL": {
+        "value": 62,
+        "type": "fontSizes"
+      }
+    },
+    "8": {
+      "SM": {
+        "value": 56,
+        "type": "fontSizes"
+      },
+      "MD": {
+        "value": 56,
+        "type": "fontSizes"
+      },
+      "LG": {
+        "value": 76,
+        "type": "fontSizes"
+      },
+      "XL": {
+        "value": 76,
+        "type": "fontSizes"
+      },
+      "XXL": {
+        "value": 76,
+        "type": "fontSizes"
+      }
+    },
+    "9": {
+      "SM": {
+        "value": 68,
+        "type": "fontSizes"
+      },
+      "MD": {
+        "value": 68,
+        "type": "fontSizes"
+      },
+      "LG": {
+        "value": 115,
+        "type": "fontSizes"
+      },
+      "XL": {
+        "value": 115,
+        "type": "fontSizes"
+      },
+      "XXL": {
+        "value": 115,
+        "type": "fontSizes"
+      }
+    },
+    "0-6": {
+      "SM": {
+        "value": 12,
+        "type": "fontSizes",
+        "description": "Not for use with Expressive"
+      },
+      "MD": {
+        "value": 12,
+        "type": "fontSizes",
+        "description": "Not for use with Expressive"
+      },
+      "LG": {
+        "value": 12,
+        "type": "fontSizes",
+        "description": "Not for use with Expressive"
+      },
+      "XL": {
+        "value": 12,
+        "type": "fontSizes",
+        "description": "Not for use with Expressive"
+      },
+      "XXL": {
+        "value": 12,
+        "type": "fontSizes",
+        "description": "Not for use with Expressive"
+      }
+    },
+    "0-8": {
+      "SM": {
+        "value": 14,
+        "type": "fontSizes",
+        "description": "Not for use with Expressive"
+      },
+      "MD": {
+        "value": 14,
+        "type": "fontSizes",
+        "description": "Not for use with Expressive"
+      },
+      "LG": {
+        "value": 14,
+        "type": "fontSizes",
+        "description": "Not for use with Expressive"
+      },
+      "XL": {
+        "value": 14,
+        "type": "fontSizes",
+        "description": "Not for use with Expressive"
+      },
+      "XXL": {
+        "value": 14,
+        "type": "fontSizes",
+        "description": "Not for use with Expressive"
+      }
+    }
+  },
+  "line-height": {
+    "1": {
+      "SM": {
+        "value": 22,
+        "type": "lineHeights"
+      },
+      "MD": {
+        "value": 22,
+        "type": "lineHeights"
+      },
+      "LG": {
+        "value": 22,
+        "type": "lineHeights"
+      },
+      "XL": {
+        "value": 22,
+        "type": "lineHeights"
+      },
+      "XXL": {
+        "value": 22,
+        "type": "lineHeights"
+      }
+    },
+    "2": {
+      "SM": {
+        "value": 28,
+        "type": "lineHeights"
+      },
+      "MD": {
+        "value": 28,
+        "type": "lineHeights"
+      },
+      "LG": {
+        "value": 28,
+        "type": "lineHeights"
+      },
+      "XL": {
+        "value": 28,
+        "type": "lineHeights"
+      },
+      "XXL": {
+        "value": 28,
+        "type": "lineHeights"
+      }
+    },
+    "3": {
+      "SM": {
+        "value": 34,
+        "type": "lineHeights"
+      },
+      "MD": {
+        "value": 34,
+        "type": "lineHeights"
+      },
+      "LG": {
+        "value": 34,
+        "type": "lineHeights"
+      },
+      "XL": {
+        "value": 34,
+        "type": "lineHeights"
+      },
+      "XXL": {
+        "value": 34,
+        "type": "lineHeights"
+      }
+    },
+    "4": {
+      "SM": {
+        "value": 36,
+        "type": "lineHeights"
+      },
+      "MD": {
+        "value": 36,
+        "type": "lineHeights"
+      },
+      "LG": {
+        "value": 42,
+        "type": "lineHeights"
+      },
+      "XL": {
+        "value": 42,
+        "type": "lineHeights"
+      },
+      "XXL": {
+        "value": 42,
+        "type": "lineHeights"
+      }
+    },
+    "5": {
+      "SM": {
+        "value": 38,
+        "type": "lineHeights"
+      },
+      "MD": {
+        "value": 38,
+        "type": "lineHeights"
+      },
+      "LG": {
+        "value": 48,
+        "type": "lineHeights"
+      },
+      "XL": {
+        "value": 48,
+        "type": "lineHeights"
+      },
+      "XXL": {
+        "value": 48,
+        "type": "lineHeights"
+      }
+    },
+    "6": {
+      "SM": {
+        "value": 48,
+        "type": "lineHeights"
+      },
+      "MD": {
+        "value": 48,
+        "type": "lineHeights"
+      },
+      "LG": {
+        "value": 58,
+        "type": "lineHeights"
+      },
+      "XL": {
+        "value": 58,
+        "type": "lineHeights"
+      },
+      "XXL": {
+        "value": 58,
+        "type": "lineHeights"
+      }
+    },
+    "7": {
+      "SM": {
+        "value": 58,
+        "type": "lineHeights"
+      },
+      "MD": {
+        "value": 58,
+        "type": "lineHeights"
+      },
+      "LG": {
+        "value": 74,
+        "type": "lineHeights"
+      },
+      "XL": {
+        "value": 74,
+        "type": "lineHeights"
+      },
+      "XXL": {
+        "value": 74,
+        "type": "lineHeights"
+      }
+    },
+    "8": {
+      "SM": {
+        "value": 67,
+        "type": "lineHeights"
+      },
+      "MD": {
+        "value": 67,
+        "type": "lineHeights"
+      },
+      "LG": {
+        "value": 91,
+        "type": "lineHeights"
+      },
+      "XL": {
+        "value": 91,
+        "type": "lineHeights"
+      },
+      "XXL": {
+        "value": 91,
+        "type": "lineHeights"
+      }
+    },
+    "9": {
+      "SM": {
+        "value": 77,
+        "type": "lineHeights"
+      },
+      "MD": {
+        "value": 77,
+        "type": "lineHeights"
+      },
+      "LG": {
+        "value": 115,
+        "type": "lineHeights"
+      },
+      "XL": {
+        "value": 115,
+        "type": "lineHeights"
+      },
+      "XXL": {
+        "value": 115,
+        "type": "lineHeights"
+      }
+    },
+    "0-6": {
+      "SM": {
+        "value": 14,
+        "type": "lineHeights"
+      },
+      "MD": {
+        "value": 14,
+        "type": "lineHeights"
+      },
+      "LG": {
+        "value": 14,
+        "type": "lineHeights"
+      },
+      "XL": {
+        "value": 14,
+        "type": "lineHeights"
+      },
+      "XXL": {
+        "value": 14,
+        "type": "lineHeights"
+      }
+    },
+    "0-8": {
+      "SM": {
+        "value": 17,
+        "type": "lineHeights"
+      },
+      "MD": {
+        "value": 17,
+        "type": "lineHeights"
+      },
+      "LG": {
+        "value": 17,
+        "type": "lineHeights"
+      },
+      "XL": {
+        "value": 17,
+        "type": "lineHeights"
+      },
+      "XXL": {
+        "value": 17,
+        "type": "lineHeights"
+      }
+    }
+  },
+  "space": {
+    "1": {
+      "SM": {
+        "value": 4,
+        "type": "spacing",
+        "description": "Use for applying consistent spacing on margin, padding and gaps"
+      },
+      "MD": {
+        "value": 4,
+        "type": "spacing",
+        "description": "Use for applying consistent spacing on margin, padding and gaps"
+      },
+      "LG": {
+        "value": 4,
+        "type": "spacing",
+        "description": "Use for applying consistent spacing on margin, padding and gaps"
+      },
+      "XL": {
+        "value": 4,
+        "type": "spacing",
+        "description": "Use for applying consistent spacing on margin, padding and gaps"
+      },
+      "XXL": {
+        "value": 4,
+        "type": "spacing",
+        "description": "Use for applying consistent spacing on margin, padding and gaps"
+      }
+    },
+    "2": {
+      "SM": {
+        "value": 8,
+        "type": "spacing",
+        "description": "Use for applying consistent spacing on margin, padding and gaps"
+      },
+      "MD": {
+        "value": 8,
+        "type": "spacing",
+        "description": "Use for applying consistent spacing on margin, padding and gaps"
+      },
+      "LG": {
+        "value": 8,
+        "type": "spacing",
+        "description": "Use for applying consistent spacing on margin, padding and gaps"
+      },
+      "XL": {
+        "value": 8,
+        "type": "spacing",
+        "description": "Use for applying consistent spacing on margin, padding and gaps"
+      },
+      "XXL": {
+        "value": 8,
+        "type": "spacing",
+        "description": "Use for applying consistent spacing on margin, padding and gaps"
+      }
+    },
+    "3": {
+      "SM": {
+        "value": 12,
+        "type": "spacing",
+        "description": "Use for applying consistent spacing on margin, padding and gaps"
+      },
+      "MD": {
+        "value": 12,
+        "type": "spacing",
+        "description": "Use for applying consistent spacing on margin, padding and gaps"
+      },
+      "LG": {
+        "value": 12,
+        "type": "spacing",
+        "description": "Use for applying consistent spacing on margin, padding and gaps"
+      },
+      "XL": {
+        "value": 12,
+        "type": "spacing",
+        "description": "Use for applying consistent spacing on margin, padding and gaps"
+      },
+      "XXL": {
+        "value": 12,
+        "type": "spacing",
+        "description": "Use for applying consistent spacing on margin, padding and gaps"
+      }
+    },
+    "4": {
+      "SM": {
+        "value": 16,
+        "type": "spacing",
+        "description": "Use for applying consistent spacing on margin, padding and gaps"
+      },
+      "MD": {
+        "value": 16,
+        "type": "spacing",
+        "description": "Use for applying consistent spacing on margin, padding and gaps"
+      },
+      "LG": {
+        "value": 16,
+        "type": "spacing",
+        "description": "Use for applying consistent spacing on margin, padding and gaps"
+      },
+      "XL": {
+        "value": 16,
+        "type": "spacing",
+        "description": "Use for applying consistent spacing on margin, padding and gaps"
+      },
+      "XXL": {
+        "value": 16,
+        "type": "spacing",
+        "description": "Use for applying consistent spacing on margin, padding and gaps"
+      }
+    },
+    "5": {
+      "SM": {
+        "value": 20,
+        "type": "spacing",
+        "description": "Use for applying consistent spacing on margin, padding and gaps"
+      },
+      "MD": {
+        "value": 20,
+        "type": "spacing",
+        "description": "Use for applying consistent spacing on margin, padding and gaps"
+      },
+      "LG": {
+        "value": 24,
+        "type": "spacing",
+        "description": "Use for applying consistent spacing on margin, padding and gaps"
+      },
+      "XL": {
+        "value": 24,
+        "type": "spacing",
+        "description": "Use for applying consistent spacing on margin, padding and gaps"
+      },
+      "XXL": {
+        "value": 24,
+        "type": "spacing",
+        "description": "Use for applying consistent spacing on margin, padding and gaps"
+      }
+    },
+    "6": {
+      "SM": {
+        "value": 28,
+        "type": "spacing",
+        "description": "Use for applying consistent spacing on margin, padding and gaps"
+      },
+      "MD": {
+        "value": 28,
+        "type": "spacing",
+        "description": "Use for applying consistent spacing on margin, padding and gaps"
+      },
+      "LG": {
+        "value": 32,
+        "type": "spacing",
+        "description": "Use for applying consistent spacing on margin, padding and gaps"
+      },
+      "XL": {
+        "value": 32,
+        "type": "spacing",
+        "description": "Use for applying consistent spacing on margin, padding and gaps"
+      },
+      "XXL": {
+        "value": 32,
+        "type": "spacing",
+        "description": "Use for applying consistent spacing on margin, padding and gaps"
+      }
+    },
+    "7": {
+      "SM": {
+        "value": 36,
+        "type": "spacing",
+        "description": "Use for applying consistent spacing on margin, padding and gaps"
+      },
+      "MD": {
+        "value": 36,
+        "type": "spacing",
+        "description": "Use for applying consistent spacing on margin, padding and gaps"
+      },
+      "LG": {
+        "value": 48,
+        "type": "spacing",
+        "description": "Use for applying consistent spacing on margin, padding and gaps"
+      },
+      "XL": {
+        "value": 48,
+        "type": "spacing",
+        "description": "Use for applying consistent spacing on margin, padding and gaps"
+      },
+      "XXL": {
+        "value": 48,
+        "type": "spacing",
+        "description": "Use for applying consistent spacing on margin, padding and gaps"
+      }
+    },
+    "8": {
+      "SM": {
+        "value": 48,
+        "type": "spacing",
+        "description": "Use for applying consistent spacing on margin, padding and gaps"
+      },
+      "MD": {
+        "value": 48,
+        "type": "spacing",
+        "description": "Use for applying consistent spacing on margin, padding and gaps"
+      },
+      "LG": {
+        "value": 72,
+        "type": "spacing",
+        "description": "Use for applying consistent spacing on margin, padding and gaps"
+      },
+      "XL": {
+        "value": 72,
+        "type": "spacing",
+        "description": "Use for applying consistent spacing on margin, padding and gaps"
+      },
+      "XXL": {
+        "value": 72,
+        "type": "spacing",
+        "description": "Use for applying consistent spacing on margin, padding and gaps"
+      }
+    },
+    "9": {
+      "SM": {
+        "value": 60,
+        "type": "spacing",
+        "description": "Use for applying consistent spacing on margin, padding and gaps"
+      },
+      "MD": {
+        "value": 60,
+        "type": "spacing",
+        "description": "Use for applying consistent spacing on margin, padding and gaps"
+      },
+      "LG": {
+        "value": 104,
+        "type": "spacing",
+        "description": "Use for applying consistent spacing on margin, padding and gaps"
+      },
+      "XL": {
+        "value": 104,
+        "type": "spacing",
+        "description": "Use for applying consistent spacing on margin, padding and gaps"
+      },
+      "XXL": {
+        "value": 104,
+        "type": "spacing",
+        "description": "Use for applying consistent spacing on margin, padding and gaps"
+      }
+    },
+    "10": {
+      "SM": {
+        "value": 84,
+        "type": "spacing",
+        "description": "Use for applying consistent spacing on margin, padding and gaps"
+      },
+      "MD": {
+        "value": 84,
+        "type": "spacing",
+        "description": "Use for applying consistent spacing on margin, padding and gaps"
+      },
+      "LG": {
+        "value": 156,
+        "type": "spacing",
+        "description": "Use for applying consistent spacing on margin, padding and gaps"
+      },
+      "XL": {
+        "value": 156,
+        "type": "spacing",
+        "description": "Use for applying consistent spacing on margin, padding and gaps"
+      },
+      "XXL": {
+        "value": 156,
+        "type": "spacing",
+        "description": "Use for applying consistent spacing on margin, padding and gaps"
+      }
+    }
+  },
+  "visibility": {
+    "hide-at": {
+      "SM": {
+        "SM": {
+          "value": true,
+          "type": "other",
+          "description": "Shows content at SM breakpoint only"
+        }
+      },
+      "MD": {
+        "SM": {
+          "value": true,
+          "type": "other",
+          "description": "Shows content at MD and smaller breakpoints"
+        },
+        "MD": {
+          "value": true,
+          "type": "other",
+          "description": "Shows content at MD and smaller breakpoints"
+        }
+      },
+      "LG": {
+        "SM": {
+          "value": true,
+          "type": "other",
+          "description": "Shows content at LG and smaller breakpoints"
+        },
+        "MD": {
+          "value": true,
+          "type": "other",
+          "description": "Shows content at LG and smaller breakpoints"
+        },
+        "LG": {
+          "value": true,
+          "type": "other",
+          "description": "Shows content at LG and smaller breakpoints"
+        }
+      },
+      "XL": {
+        "SM": {
+          "value": true,
+          "type": "other",
+          "description": "Shows content at XL and smaller breakpoints"
+        },
+        "MD": {
+          "value": true,
+          "type": "other",
+          "description": "Shows content at XL and smaller breakpoints"
+        },
+        "LG": {
+          "value": true,
+          "type": "other",
+          "description": "Shows content at XL and smaller breakpoints"
+        },
+        "XL": {
+          "value": true,
+          "type": "other",
+          "description": "Shows content at XL and smaller breakpoints"
+        }
+      }
+    },
+    "show-at": {
+      "SM": {
+        "SM": {
+          "value": true,
+          "type": "other",
+          "description": "Shows content at all breakpoints"
+        },
+        "MD": {
+          "value": true,
+          "type": "other",
+          "description": "Shows content at all breakpoints"
+        },
+        "LG": {
+          "value": true,
+          "type": "other",
+          "description": "Shows content at all breakpoints"
+        },
+        "XL": {
+          "value": true,
+          "type": "other",
+          "description": "Shows content at all breakpoints"
+        },
+        "XXL": {
+          "value": true,
+          "type": "other",
+          "description": "Shows content at all breakpoints"
+        }
+      },
+      "MD": {
+        "MD": {
+          "value": true,
+          "type": "other",
+          "description": "Show content at MD breakpoint and above"
+        },
+        "LG": {
+          "value": true,
+          "type": "other",
+          "description": "Show content at MD breakpoint and above"
+        },
+        "XL": {
+          "value": true,
+          "type": "other",
+          "description": "Show content at MD breakpoint and above"
+        },
+        "XXL": {
+          "value": true,
+          "type": "other",
+          "description": "Show content at MD breakpoint and above"
+        }
+      },
+      "LG": {
+        "LG": {
+          "value": true,
+          "type": "other",
+          "description": "Show content at LG breakpoint and above"
+        },
+        "XL": {
+          "value": true,
+          "type": "other",
+          "description": "Show content at LG breakpoint and above"
+        },
+        "XXL": {
+          "value": true,
+          "type": "other",
+          "description": "Show content at LG breakpoint and above"
+        }
+      },
+      "XL": {
+        "XL": {
+          "value": true,
+          "type": "other",
+          "description": "Show content at XL breakpoint and above"
+        },
+        "XXL": {
+          "value": true,
+          "type": "other",
+          "description": "Show content at XL breakpoint and above"
+        }
+      }
+    }
+  }
+}

@@ -1,9 +1,0 @@
-{
-  "border": {
-    "width": { "value": "0.0625" },
-    "radius": {
-      "sm": { "value": "0.125" },
-      "lg": { "value": "0.25" }
-    }
-  }
-}
