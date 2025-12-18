@@ -1,6 +1,6 @@
 {
   "$description": "Design tokens from Component themes collection",
-  "$timestamp": "2025-12-16T16:36:33.943Z",
+  "$timestamp": "2025-12-18T10:47:15.252Z",
   "body": {
     "background-colour-default": {
       "Neutral": {
@@ -3967,88 +3967,88 @@
     "border-width": {
       "Neutral": {
         "Blue": {
-          "value": 2,
+          "value": 1.5,
           "type": "borderWidth",
           "description": "Component border width"
         },
         "Green": {
-          "value": 2,
+          "value": 1.5,
           "type": "borderWidth",
           "description": "Component border width"
         },
         "Red": {
-          "value": 2,
+          "value": 1.5,
           "type": "borderWidth",
           "description": "Component border width"
         },
         "Yellow": {
-          "value": 2,
+          "value": 1.5,
           "type": "borderWidth",
           "description": "Component border width"
         }
       },
       "Subtle": {
         "Blue": {
-          "value": 2,
+          "value": 1.5,
           "type": "borderWidth",
           "description": "Component border width"
         },
         "Green": {
-          "value": 2,
+          "value": 1.5,
           "type": "borderWidth",
           "description": "Component border width"
         },
         "Red": {
-          "value": 2,
+          "value": 1.5,
           "type": "borderWidth",
           "description": "Component border width"
         },
         "Yellow": {
-          "value": 2,
+          "value": 1.5,
           "type": "borderWidth",
           "description": "Component border width"
         }
       },
       "Bold": {
         "Blue": {
-          "value": 2,
+          "value": 1.5,
           "type": "borderWidth",
           "description": "Component border width"
         },
         "Green": {
-          "value": 2,
+          "value": 1.5,
           "type": "borderWidth",
           "description": "Component border width"
         },
         "Red": {
-          "value": 2,
+          "value": 1.5,
           "type": "borderWidth",
           "description": "Component border width"
         },
         "Yellow": {
-          "value": 2,
+          "value": 1.5,
           "type": "borderWidth",
           "description": "Component border width"
         }
       },
       "Neutral inverse": {
         "Blue": {
-          "value": 2,
+          "value": 1.5,
           "type": "borderWidth",
           "description": "Component border width"
         },
         "Green": {
-          "value": 2,
+          "value": 1.5,
           "type": "borderWidth",
           "description": "Component border width"
         },
         "Red": {
-          "value": 2,
+          "value": 1.5,
           "type": "borderWidth",
           "description": "Component border width"
         },
         "Yellow": {
-          "value": 2,
+          "value": 1.5,
           "type": "borderWidth",
           "description": "Component border width"
         }
@@ -7925,37 +7925,45 @@
         "Neutral": {
           "Blue": {
             "value": true,
-            "type": "other"
+            "type": "other",
+            "description": "Enables or disables the fill on pictograms"
           },
           "Green": {
             "value": true,
-            "type": "other"
+            "type": "other",
+            "description": "Enables or disables the fill on pictograms"
           },
           "Red": {
             "value": true,
-            "type": "other"
+            "type": "other",
+            "description": "Enables or disables the fill on pictograms"
           },
           "Yellow": {
             "value": true,
-            "type": "other"
+            "type": "other",
+            "description": "Enables or disables the fill on pictograms"
           }
         },
         "Neutral inverse": {
           "Blue": {
             "value": true,
-            "type": "other"
+            "type": "other",
+            "description": "Enables or disables the fill on pictograms"
           },
           "Green": {
             "value": true,
-            "type": "other"
+            "type": "other",
+            "description": "Enables or disables the fill on pictograms"
           },
           "Red": {
             "value": true,
-            "type": "other"
+            "type": "other",
+            "description": "Enables or disables the fill on pictograms"
           },
           "Yellow": {
             "value": true,
-            "type": "other"
+            "type": "other",
+            "description": "Enables or disables the fill on pictograms"
           }
         }
       }
