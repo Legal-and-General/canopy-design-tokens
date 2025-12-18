@@ -197,7 +197,10 @@ Rounds to 5 decimal places:
 ## File Structure
 
 ```
-design-tokens-script-poc/
+canopy-design-tokens/
+├── .github/
+│   └── workflows/
+│       └── sync-figma-tokens.yml
 ├── build/
 │   └── css/
 │       ├── colour.css
@@ -214,9 +217,10 @@ design-tokens-script-poc/
 │   ├── layout.json
 │   └── typography.json
 ├── fetch-figma-tokens.js
-├── fetch-figma-raw-to-tokens.js
+├── figma-raw-to-tokens.js
 ├── style-dictionary.config.js
-└── package.json
+├── package.json
+└── README.md
 ```
 
 ## Configuration
