@@ -1,6 +1,6 @@
 {
   "$description": "Design tokens from Layout collection",
-  "$timestamp": "2025-12-16T16:36:33.942Z",
+  "$timestamp": "2025-12-18T10:47:15.244Z",
   "page": {
     "cols": {
       "SM": {
@@ -391,7 +391,7 @@
     }
   },
   "border-width": {
-    "sm": {
+    "xs": {
       "SM": {
         "value": 1,
         "type": "borderWidth",
@@ -414,6 +414,33 @@
       },
       "XXL": {
         "value": 1,
+        "type": "borderWidth",
+        "description": "Use for thin border widths"
+      }
+    },
+    "sm": {
+      "SM": {
+        "value": 1.5,
+        "type": "borderWidth",
+        "description": "Use for thin border widths"
+      },
+      "MD": {
+        "value": 1.5,
+        "type": "borderWidth",
+        "description": "Use for thin border widths"
+      },
+      "LG": {
+        "value": 1.5,
+        "type": "borderWidth",
+        "description": "Use for thin border widths"
+      },
+      "XL": {
+        "value": 1.5,
+        "type": "borderWidth",
+        "description": "Use for thin border widths"
+      },
+      "XXL": {
+        "value": 1.5,
         "type": "borderWidth",
         "description": "Use for thin border widths"
       }
