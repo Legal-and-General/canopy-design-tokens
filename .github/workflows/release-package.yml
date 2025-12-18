@@ -1,0 +1,51 @@
+name: Release Design Tokens Package
+
+on:
+  workflow_dispatch:
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      issues: write
+      pull-requests: write
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          persist-credentials: false
+      
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+          cache: 'npm'
+      
+      - name: Install dependencies
+        run: npm ci
+      
+      - name: Build tokens
+        run: npm run build:tokens
+      
+      - name: Get version from package.json
+        id: package_version
+        run: echo "version=$(node -p "require('./package.json').version")" >> $GITHUB_OUTPUT
+      
+      - name: Create package archives
+        run: |
+          mkdir -p release-package
+          cp -r build/css release-package/
+          cp README.md release-package/
+          cp package.json release-package/
+          cd release-package
+          zip -r ../canopy-design-tokens-v${{ steps.package_version.outputs.version }}.zip .
+          cd ..
+          tar -czf canopy-design-tokens-v${{ steps.package_version.outputs.version }}.tar.gz -C release-package .
+      
+      - name: Run semantic-release
+        run: npx semantic-release
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
