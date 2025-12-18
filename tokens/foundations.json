@@ -1,0 +1,534 @@
+{
+  "$description": "Design tokens from Foundations collection",
+  "$timestamp": "2025-12-16T16:36:33.940Z",
+  "dimensions": {
+    "small": {
+      "1": {
+        "value": 4,
+        "type": "sizing"
+      },
+      "2": {
+        "value": 8,
+        "type": "sizing"
+      },
+      "3": {
+        "value": 12,
+        "type": "sizing"
+      },
+      "4": {
+        "value": 16,
+        "type": "sizing"
+      },
+      "5": {
+        "value": 20,
+        "type": "sizing"
+      },
+      "6": {
+        "value": 28,
+        "type": "sizing"
+      },
+      "7": {
+        "value": 36,
+        "type": "sizing"
+      },
+      "8": {
+        "value": 48,
+        "type": "sizing"
+      },
+      "9": {
+        "value": 60,
+        "type": "sizing"
+      },
+      "10": {
+        "value": 84,
+        "type": "sizing"
+      }
+    },
+    "large": {
+      "1": {
+        "value": 4,
+        "type": "sizing"
+      },
+      "2": {
+        "value": 8,
+        "type": "sizing"
+      },
+      "3": {
+        "value": 12,
+        "type": "sizing"
+      },
+      "4": {
+        "value": 16,
+        "type": "sizing"
+      },
+      "5": {
+        "value": 24,
+        "type": "sizing"
+      },
+      "6": {
+        "value": 32,
+        "type": "sizing"
+      },
+      "7": {
+        "value": 48,
+        "type": "sizing"
+      },
+      "8": {
+        "value": 72,
+        "type": "sizing"
+      },
+      "9": {
+        "value": 104,
+        "type": "sizing"
+      },
+      "10": {
+        "value": 156,
+        "type": "sizing"
+      }
+    }
+  },
+  "colour": {
+    "blue": {
+      "0": {
+        "value": "#ffffff",
+        "type": "color"
+      },
+      "100": {
+        "value": "#d2effb",
+        "type": "color"
+      },
+      "200": {
+        "value": "#aee1f7",
+        "type": "color",
+        "description": "Light Blue"
+      },
+      "300": {
+        "value": "#76c8f1",
+        "type": "color"
+      },
+      "400": {
+        "value": "#42aeea",
+        "type": "color",
+        "description": "Accent Blue"
+      },
+      "500": {
+        "value": "#1e84d2",
+        "type": "color"
+      },
+      "600": {
+        "value": "#005dba",
+        "type": "color",
+        "description": "Breezy Blue"
+      },
+      "700": {
+        "value": "#003894",
+        "type": "color"
+      },
+      "800": {
+        "value": "#001d6e",
+        "type": "color",
+        "description": "Regal Blue"
+      },
+      "900": {
+        "value": "#000a52",
+        "type": "color"
+      },
+      "1000": {
+        "value": "#000039",
+        "type": "color"
+      }
+    },
+    "green": {
+      "0": {
+        "value": "#ffffff",
+        "type": "color"
+      },
+      "100": {
+        "value": "#dff6eb",
+        "type": "color"
+      },
+      "200": {
+        "value": "#caeedd",
+        "type": "color",
+        "description": "Light Green"
+      },
+      "300": {
+        "value": "#7fce9f",
+        "type": "color"
+      },
+      "400": {
+        "value": "#43af6e",
+        "type": "color",
+        "description": "Accent Green"
+      },
+      "500": {
+        "value": "#1a8952",
+        "type": "color"
+      },
+      "600": {
+        "value": "#00633d",
+        "type": "color",
+        "description": "Plush Green"
+      },
+      "700": {
+        "value": "#014a39",
+        "type": "color"
+      },
+      "800": {
+        "value": "#01312e",
+        "type": "color",
+        "description": "Regal Green"
+      },
+      "900": {
+        "value": "#012425",
+        "type": "color"
+      },
+      "1000": {
+        "value": "#011b1f",
+        "type": "color"
+      }
+    },
+    "red": {
+      "0": {
+        "value": "#ffffff",
+        "type": "color"
+      },
+      "100": {
+        "value": "#ffd5d2",
+        "type": "color"
+      },
+      "200": {
+        "value": "#ffc2bd",
+        "type": "color",
+        "description": "Light Red"
+      },
+      "300": {
+        "value": "#ff7e7e",
+        "type": "color"
+      },
+      "400": {
+        "value": "#ff3e51",
+        "type": "color",
+        "description": "Accent Red"
+      },
+      "500": {
+        "value": "#e2223e",
+        "type": "color"
+      },
+      "600": {
+        "value": "#c50b30",
+        "type": "color",
+        "description": "Crimson Blaze"
+      },
+      "700": {
+        "value": "#ad092a",
+        "type": "color"
+      },
+      "800": {
+        "value": "#940824",
+        "type": "color",
+        "description": "Regal Red"
+      },
+      "900": {
+        "value": "#6e061b",
+        "type": "color"
+      },
+      "1000": {
+        "value": "#480411",
+        "type": "color"
+      }
+    },
+    "yellow": {
+      "0": {
+        "value": "#ffffff",
+        "type": "color"
+      },
+      "100": {
+        "value": "#fffbdc",
+        "type": "color"
+      },
+      "200": {
+        "value": "#fff9c7",
+        "type": "color",
+        "description": "Light Yellow"
+      },
+      "300": {
+        "value": "#fff298",
+        "type": "color"
+      },
+      "400": {
+        "value": "#ffe969",
+        "type": "color",
+        "description": "Accent Yellow"
+      },
+      "500": {
+        "value": "#ffd335",
+        "type": "color"
+      },
+      "600": {
+        "value": "#ffb600",
+        "type": "color",
+        "description": "Golden Sun"
+      },
+      "700": {
+        "value": "#e48616",
+        "type": "color"
+      },
+      "800": {
+        "value": "#c86426",
+        "type": "color",
+        "description": "Regal Yellow"
+      },
+      "900": {
+        "value": "#904029",
+        "type": "color"
+      },
+      "1000": {
+        "value": "#572722",
+        "type": "color"
+      }
+    },
+    "greyscale": {
+      "0": {
+        "value": "#ffffff",
+        "type": "color",
+        "description": "White"
+      },
+      "100": {
+        "value": "#f4f4f4",
+        "type": "color",
+        "description": "Off White"
+      },
+      "200": {
+        "value": "#d3d3d3",
+        "type": "color",
+        "description": "Light Grey"
+      },
+      "300": {
+        "value": "#bcbdbd",
+        "type": "color"
+      },
+      "400": {
+        "value": "#a6a7a7",
+        "type": "color",
+        "description": "Warm Grey"
+      },
+      "500": {
+        "value": "#858686",
+        "type": "color"
+      },
+      "600": {
+        "value": "#7a7b7b",
+        "type": "color",
+        "description": "Taupe Grey"
+      },
+      "700": {
+        "value": "#4d4f4f",
+        "type": "color",
+        "description": "Dark Grey"
+      },
+      "800": {
+        "value": "#000000",
+        "type": "color"
+      },
+      "900": {
+        "value": "#1d1d1b",
+        "type": "color",
+        "description": "Off Black"
+      },
+      "1000": {
+        "value": "#000000",
+        "type": "color",
+        "description": "Black"
+      }
+    }
+  },
+  "font-size": {
+    "small": {
+      "1": {
+        "value": 16,
+        "type": "fontSizes"
+      },
+      "2": {
+        "value": 20,
+        "type": "fontSizes"
+      },
+      "3": {
+        "value": 24,
+        "type": "fontSizes"
+      },
+      "4": {
+        "value": 28,
+        "type": "fontSizes"
+      },
+      "5": {
+        "value": 32,
+        "type": "fontSizes"
+      },
+      "6": {
+        "value": 40,
+        "type": "fontSizes"
+      },
+      "7": {
+        "value": 48,
+        "type": "fontSizes"
+      },
+      "8": {
+        "value": 56,
+        "type": "fontSizes"
+      },
+      "9": {
+        "value": 68,
+        "type": "fontSizes"
+      },
+      "0-6": {
+        "value": 12,
+        "type": "fontSizes"
+      },
+      "0-8": {
+        "value": 14,
+        "type": "fontSizes"
+      }
+    },
+    "large": {
+      "1": {
+        "value": 16,
+        "type": "fontSizes"
+      },
+      "2": {
+        "value": 20,
+        "type": "fontSizes"
+      },
+      "3": {
+        "value": 24,
+        "type": "fontSizes"
+      },
+      "4": {
+        "value": 32,
+        "type": "fontSizes"
+      },
+      "5": {
+        "value": 40,
+        "type": "fontSizes"
+      },
+      "6": {
+        "value": 48,
+        "type": "fontSizes"
+      },
+      "7": {
+        "value": 62,
+        "type": "fontSizes"
+      },
+      "8": {
+        "value": 76,
+        "type": "fontSizes"
+      },
+      "9": {
+        "value": 115,
+        "type": "fontSizes"
+      },
+      "0-6": {
+        "value": 12,
+        "type": "fontSizes"
+      },
+      "0-8": {
+        "value": 14,
+        "type": "fontSizes"
+      }
+    }
+  },
+  "line-height": {
+    "small": {
+      "1": {
+        "value": 22,
+        "type": "lineHeights"
+      },
+      "2": {
+        "value": 28,
+        "type": "lineHeights"
+      },
+      "3": {
+        "value": 34,
+        "type": "lineHeights"
+      },
+      "4": {
+        "value": 36,
+        "type": "lineHeights"
+      },
+      "5": {
+        "value": 38,
+        "type": "lineHeights"
+      },
+      "6": {
+        "value": 48,
+        "type": "lineHeights"
+      },
+      "7": {
+        "value": 58,
+        "type": "lineHeights"
+      },
+      "8": {
+        "value": 67,
+        "type": "lineHeights"
+      },
+      "9": {
+        "value": 77,
+        "type": "lineHeights"
+      },
+      "0-6": {
+        "value": 14,
+        "type": "lineHeights"
+      },
+      "0-8": {
+        "value": 17,
+        "type": "lineHeights"
+      }
+    },
+    "large": {
+      "1": {
+        "value": 22,
+        "type": "lineHeights"
+      },
+      "2": {
+        "value": 28,
+        "type": "lineHeights"
+      },
+      "3": {
+        "value": 34,
+        "type": "lineHeights"
+      },
+      "4": {
+        "value": 42,
+        "type": "lineHeights"
+      },
+      "5": {
+        "value": 48,
+        "type": "lineHeights"
+      },
+      "6": {
+        "value": 58,
+        "type": "lineHeights"
+      },
+      "7": {
+        "value": 74,
+        "type": "lineHeights"
+      },
+      "8": {
+        "value": 91,
+        "type": "lineHeights"
+      },
+      "9": {
+        "value": 115,
+        "type": "lineHeights"
+      },
+      "0-6": {
+        "value": 14,
+        "type": "lineHeights"
+      },
+      "0-8": {
+        "value": 17,
+        "type": "lineHeights"
+      }
+    }
+  }
+}

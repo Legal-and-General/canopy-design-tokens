@@ -1,0 +1,1027 @@
+{
+  "$description": "Design tokens from Colour collection",
+  "$timestamp": "2025-12-16T16:36:33.942Z",
+  "brand": {
+    "tint": {
+      "1": {
+        "Blue": {
+          "value": "#d2effb",
+          "type": "color",
+          "description": "Tints that can be used to pull brand colours into elements. Lowest numbers should always be lighter and run sequentially to darkest."
+        },
+        "Green": {
+          "value": "#dff6eb",
+          "type": "color",
+          "description": "Tints that can be used to pull brand colours into elements. Lowest numbers should always be lighter and run sequentially to darkest."
+        },
+        "Red": {
+          "value": "#ffd5d2",
+          "type": "color",
+          "description": "Tints that can be used to pull brand colours into elements. Lowest numbers should always be lighter and run sequentially to darkest."
+        },
+        "Yellow": {
+          "value": "#fffbdc",
+          "type": "color",
+          "description": "Tints that can be used to pull brand colours into elements. Lowest numbers should always be lighter and run sequentially to darkest."
+        }
+      },
+      "2": {
+        "Blue": {
+          "value": "#aee1f7",
+          "type": "color",
+          "description": "Tints that can be used to pull brand colours into elements. Lowest numbers should always be lighter and run sequentially to darkest."
+        },
+        "Green": {
+          "value": "#caeedd",
+          "type": "color",
+          "description": "Tints that can be used to pull brand colours into elements. Lowest numbers should always be lighter and run sequentially to darkest."
+        },
+        "Red": {
+          "value": "#ffc2bd",
+          "type": "color",
+          "description": "Tints that can be used to pull brand colours into elements. Lowest numbers should always be lighter and run sequentially to darkest."
+        },
+        "Yellow": {
+          "value": "#fff9c7",
+          "type": "color",
+          "description": "Tints that can be used to pull brand colours into elements. Lowest numbers should always be lighter and run sequentially to darkest."
+        }
+      },
+      "3": {
+        "Blue": {
+          "value": "#42aeea",
+          "type": "color",
+          "description": "Tints that can be used to pull brand colours into elements. Lowest numbers should always be lighter and run sequentially to darkest."
+        },
+        "Green": {
+          "value": "#43af6e",
+          "type": "color",
+          "description": "Tints that can be used to pull brand colours into elements. Lowest numbers should always be lighter and run sequentially to darkest."
+        },
+        "Red": {
+          "value": "#ff3e51",
+          "type": "color",
+          "description": "Tints that can be used to pull brand colours into elements. Lowest numbers should always be lighter and run sequentially to darkest."
+        },
+        "Yellow": {
+          "value": "#ffe969",
+          "type": "color",
+          "description": "Tints that can be used to pull brand colours into elements. Lowest numbers should always be lighter and run sequentially to darkest."
+        }
+      },
+      "4": {
+        "Blue": {
+          "value": "#005dba",
+          "type": "color",
+          "description": "Tints that can be used to pull brand colours into elements. Lowest numbers should always be lighter and run sequentially to darkest."
+        },
+        "Green": {
+          "value": "#00633d",
+          "type": "color",
+          "description": "Tints that can be used to pull brand colours into elements. Lowest numbers should always be lighter and run sequentially to darkest."
+        },
+        "Red": {
+          "value": "#c50b30",
+          "type": "color",
+          "description": "Tints that can be used to pull brand colours into elements. Lowest numbers should always be lighter and run sequentially to darkest."
+        },
+        "Yellow": {
+          "value": "#ffb600",
+          "type": "color",
+          "description": "Tints that can be used to pull brand colours into elements. Lowest numbers should always be lighter and run sequentially to darkest."
+        }
+      },
+      "5": {
+        "Blue": {
+          "value": "#001d6e",
+          "type": "color",
+          "description": "Tints that can be used to pull brand colours into elements. Lowest numbers should always be lighter and run sequentially to darkest."
+        },
+        "Green": {
+          "value": "#01312e",
+          "type": "color",
+          "description": "Tints that can be used to pull brand colours into elements. Lowest numbers should always be lighter and run sequentially to darkest."
+        },
+        "Red": {
+          "value": "#940824",
+          "type": "color",
+          "description": "Tints that can be used to pull brand colours into elements. Lowest numbers should always be lighter and run sequentially to darkest."
+        },
+        "Yellow": {
+          "value": "#c86426",
+          "type": "color",
+          "description": "Tints that can be used to pull brand colours into elements. Lowest numbers should always be lighter and run sequentially to darkest."
+        }
+      },
+      "6": {
+        "Blue": {
+          "value": "#000a52",
+          "type": "color",
+          "description": "Tints that can be used to pull brand colours into elements. Lowest numbers should always be lighter and run sequentially to darkest."
+        },
+        "Green": {
+          "value": "#012425",
+          "type": "color",
+          "description": "Tints that can be used to pull brand colours into elements. Lowest numbers should always be lighter and run sequentially to darkest."
+        },
+        "Red": {
+          "value": "#6e061b",
+          "type": "color",
+          "description": "Tints that can be used to pull brand colours into elements. Lowest numbers should always be lighter and run sequentially to darkest."
+        },
+        "Yellow": {
+          "value": "#904029",
+          "type": "color",
+          "description": "Tints that can be used to pull brand colours into elements. Lowest numbers should always be lighter and run sequentially to darkest."
+        }
+      },
+      "7": {
+        "Blue": {
+          "value": "#000039",
+          "type": "color",
+          "description": "Tints that can be used to pull brand colours into elements. Lowest numbers should always be lighter and run sequentially to darkest."
+        },
+        "Green": {
+          "value": "#011b1f",
+          "type": "color",
+          "description": "Tints that can be used to pull brand colours into elements. Lowest numbers should always be lighter and run sequentially to darkest."
+        },
+        "Red": {
+          "value": "#480411",
+          "type": "color",
+          "description": "Tints that can be used to pull brand colours into elements. Lowest numbers should always be lighter and run sequentially to darkest."
+        },
+        "Yellow": {
+          "value": "#572722",
+          "type": "color",
+          "description": "Tints that can be used to pull brand colours into elements. Lowest numbers should always be lighter and run sequentially to darkest."
+        }
+      }
+    }
+  },
+  "border": {
+    "mono": {
+      "1": {
+        "Blue": {
+          "value": "#ffffff",
+          "type": "color",
+          "description": "Use for borders / outlines. Switches colour on yellow theme."
+        },
+        "Green": {
+          "value": "#ffffff",
+          "type": "color",
+          "description": "Use for borders / outlines. Switches colour on yellow theme."
+        },
+        "Red": {
+          "value": "#ffffff",
+          "type": "color",
+          "description": "Use for borders / outlines. Switches colour on yellow theme."
+        },
+        "Yellow": {
+          "value": "#ffffff",
+          "type": "color",
+          "description": "Use for borders / outlines. Switches colour on yellow theme."
+        }
+      },
+      "2": {
+        "Blue": {
+          "value": "#f4f4f4",
+          "type": "color",
+          "description": "Use for borders / outlines. Switches colour on yellow theme."
+        },
+        "Green": {
+          "value": "#f4f4f4",
+          "type": "color",
+          "description": "Use for borders / outlines. Switches colour on yellow theme."
+        },
+        "Red": {
+          "value": "#f4f4f4",
+          "type": "color",
+          "description": "Use for borders / outlines. Switches colour on yellow theme."
+        },
+        "Yellow": {
+          "value": "#1d1d1b",
+          "type": "color",
+          "description": "Use for borders / outlines. Switches colour on yellow theme."
+        }
+      },
+      "3": {
+        "Blue": {
+          "value": "#d3d3d3",
+          "type": "color",
+          "description": "Use for borders / outlines"
+        },
+        "Green": {
+          "value": "#d3d3d3",
+          "type": "color",
+          "description": "Use for borders / outlines"
+        },
+        "Red": {
+          "value": "#d3d3d3",
+          "type": "color",
+          "description": "Use for borders / outlines"
+        },
+        "Yellow": {
+          "value": "#d3d3d3",
+          "type": "color",
+          "description": "Use for borders / outlines"
+        }
+      },
+      "4": {
+        "Blue": {
+          "value": "#a6a7a7",
+          "type": "color",
+          "description": "Use for borders / outlines"
+        },
+        "Green": {
+          "value": "#a6a7a7",
+          "type": "color",
+          "description": "Use for borders / outlines"
+        },
+        "Red": {
+          "value": "#a6a7a7",
+          "type": "color",
+          "description": "Use for borders / outlines"
+        },
+        "Yellow": {
+          "value": "#a6a7a7",
+          "type": "color",
+          "description": "Use for borders / outlines"
+        }
+      },
+      "5": {
+        "Blue": {
+          "value": "#1d1d1b",
+          "type": "color",
+          "description": "Use for borders / outlines"
+        },
+        "Green": {
+          "value": "#1d1d1b",
+          "type": "color",
+          "description": "Use for borders / outlines"
+        },
+        "Red": {
+          "value": "#1d1d1b",
+          "type": "color",
+          "description": "Use for borders / outlines"
+        },
+        "Yellow": {
+          "value": "#1d1d1b",
+          "type": "color",
+          "description": "Use for borders / outlines"
+        }
+      }
+    },
+    "colour": {
+      "1": {
+        "Blue": {
+          "value": "#42aeea",
+          "type": "color",
+          "description": "Use for borders / outlines"
+        },
+        "Green": {
+          "value": "#43af6e",
+          "type": "color",
+          "description": "Use for borders / outlines"
+        },
+        "Red": {
+          "value": "#ff3e51",
+          "type": "color",
+          "description": "Use for borders / outlines"
+        },
+        "Yellow": {
+          "value": "#ffe969",
+          "type": "color",
+          "description": "Use for borders / outlines"
+        }
+      },
+      "2": {
+        "Blue": {
+          "value": "#001d6e",
+          "type": "color",
+          "description": "Use for borders / outlines"
+        },
+        "Green": {
+          "value": "#01312e",
+          "type": "color",
+          "description": "Use for borders / outlines"
+        },
+        "Red": {
+          "value": "#940824",
+          "type": "color",
+          "description": "Use for borders / outlines"
+        },
+        "Yellow": {
+          "value": "#c86426",
+          "type": "color",
+          "description": "Use for borders / outlines"
+        }
+      }
+    }
+  },
+  "interactive": {
+    "default": {
+      "1": {
+        "Blue": {
+          "value": "#ffffff",
+          "type": "color",
+          "description": "Use to style foreground, background and border properties of interactive elements"
+        },
+        "Green": {
+          "value": "#ffffff",
+          "type": "color",
+          "description": "Use to style foreground, background and border properties of interactive elements"
+        },
+        "Red": {
+          "value": "#ffffff",
+          "type": "color",
+          "description": "Use to style foreground, background and border properties of interactive elements"
+        },
+        "Yellow": {
+          "value": "#1d1d1b",
+          "type": "color",
+          "description": "Use to style foreground, background and border properties of interactive elements"
+        }
+      },
+      "2": {
+        "Blue": {
+          "value": "#d2effb",
+          "type": "color",
+          "description": "Use to style foreground, background and border properties of interactive elements"
+        },
+        "Green": {
+          "value": "#dff6eb",
+          "type": "color",
+          "description": "Use to style foreground, background and border properties of interactive elements"
+        },
+        "Red": {
+          "value": "#ffd5d2",
+          "type": "color",
+          "description": "Use to style foreground, background and border properties of interactive elements"
+        },
+        "Yellow": {
+          "value": "#fffbdc",
+          "type": "color",
+          "description": "Use to style foreground, background and border properties of interactive elements"
+        }
+      },
+      "3": {
+        "Blue": {
+          "value": "#42aeea",
+          "type": "color",
+          "description": "Use to style foreground, background and border properties of interactive elements"
+        },
+        "Green": {
+          "value": "#43af6e",
+          "type": "color",
+          "description": "Use to style foreground, background and border properties of interactive elements"
+        },
+        "Red": {
+          "value": "#ff3e51",
+          "type": "color",
+          "description": "Use to style foreground, background and border properties of interactive elements"
+        },
+        "Yellow": {
+          "value": "#ffe969",
+          "type": "color",
+          "description": "Use to style foreground, background and border properties of interactive elements"
+        }
+      },
+      "4": {
+        "Blue": {
+          "value": "#005dba",
+          "type": "color",
+          "description": "Use to style foreground, background and border properties of interactive elements"
+        },
+        "Green": {
+          "value": "#00633d",
+          "type": "color",
+          "description": "Use to style foreground, background and border properties of interactive elements"
+        },
+        "Red": {
+          "value": "#c50b30",
+          "type": "color",
+          "description": "Use to style foreground, background and border properties of interactive elements"
+        },
+        "Yellow": {
+          "value": "#ffb600",
+          "type": "color",
+          "description": "Use to style foreground, background and border properties of interactive elements"
+        }
+      },
+      "5": {
+        "Blue": {
+          "value": "#1d1d1b",
+          "type": "color",
+          "description": "Use to style foreground, background and border properties of interactive elements"
+        },
+        "Green": {
+          "value": "#1d1d1b",
+          "type": "color",
+          "description": "Use to style foreground, background and border properties of interactive elements"
+        },
+        "Red": {
+          "value": "#1d1d1b",
+          "type": "color",
+          "description": "Use to style foreground, background and border properties of interactive elements"
+        },
+        "Yellow": {
+          "value": "#000000",
+          "type": "color",
+          "description": "Use to style foreground, background and border properties of interactive elements"
+        }
+      }
+    },
+    "reversed": {
+      "1": {
+        "Blue": {
+          "value": "#1d1d1b",
+          "type": "color",
+          "description": "Use to style foreground, background and border properties of reversed interactive elements"
+        },
+        "Green": {
+          "value": "#1d1d1b",
+          "type": "color",
+          "description": "Use to style foreground, background and border properties of reversed interactive elements"
+        },
+        "Red": {
+          "value": "#1d1d1b",
+          "type": "color",
+          "description": "Use to style foreground, background and border properties of reversed interactive elements"
+        },
+        "Yellow": {
+          "value": "#000000",
+          "type": "color",
+          "description": "Use to style foreground, background and border properties of reversed interactive elements"
+        }
+      },
+      "2": {
+        "Blue": {
+          "value": "#4d4f4f",
+          "type": "color",
+          "description": "Use to style foreground, background and border properties of reversed interactive elements"
+        },
+        "Green": {
+          "value": "#4d4f4f",
+          "type": "color",
+          "description": "Use to style foreground, background and border properties of reversed interactive elements"
+        },
+        "Red": {
+          "value": "#4d4f4f",
+          "type": "color",
+          "description": "Use to style foreground, background and border properties of reversed interactive elements"
+        },
+        "Yellow": {
+          "value": "#4d4f4f",
+          "type": "color",
+          "description": "Use to style foreground, background and border properties of reversed interactive elements"
+        }
+      },
+      "3": {
+        "Blue": {
+          "value": "#001d6e",
+          "type": "color",
+          "description": "Use to style foreground, background and border properties of reversed interactive elements"
+        },
+        "Green": {
+          "value": "#01312e",
+          "type": "color",
+          "description": "Use to style foreground, background and border properties of reversed interactive elements"
+        },
+        "Red": {
+          "value": "#480411",
+          "type": "color",
+          "description": "Use to style foreground, background and border properties of reversed interactive elements"
+        },
+        "Yellow": {
+          "value": "#572722",
+          "type": "color",
+          "description": "Use to style foreground, background and border properties of reversed interactive elements"
+        }
+      },
+      "4": {
+        "Blue": {
+          "value": "#005dba",
+          "type": "color",
+          "description": "Use to style foreground, background and border properties of reversed interactive elements"
+        },
+        "Green": {
+          "value": "#00633d",
+          "type": "color",
+          "description": "Use to style foreground, background and border properties of reversed interactive elements"
+        },
+        "Red": {
+          "value": "#c50b30",
+          "type": "color",
+          "description": "Use to style foreground, background and border properties of reversed interactive elements"
+        },
+        "Yellow": {
+          "value": "#ffb600",
+          "type": "color",
+          "description": "Use to style foreground, background and border properties of reversed interactive elements"
+        }
+      },
+      "5": {
+        "Blue": {
+          "value": "#42aeea",
+          "type": "color",
+          "description": "Use to style foreground, background and border properties of reversed interactive elements"
+        },
+        "Green": {
+          "value": "#43af6e",
+          "type": "color",
+          "description": "Use to style foreground, background and border properties of reversed interactive elements"
+        },
+        "Red": {
+          "value": "#ff3e51",
+          "type": "color",
+          "description": "Use to style foreground, background and border properties of reversed interactive elements"
+        },
+        "Yellow": {
+          "value": "#ffe969",
+          "type": "color",
+          "description": "Use to style foreground, background and border properties of reversed interactive elements"
+        }
+      },
+      "6": {
+        "Blue": {
+          "value": "#aee1f7",
+          "type": "color",
+          "description": "Use to style foreground, background and border properties of reversed interactive elements"
+        },
+        "Green": {
+          "value": "#caeedd",
+          "type": "color",
+          "description": "Use to style foreground, background and border properties of reversed interactive elements"
+        },
+        "Red": {
+          "value": "#ffd5d2",
+          "type": "color",
+          "description": "Use to style foreground, background and border properties of reversed interactive elements"
+        },
+        "Yellow": {
+          "value": "#fff9c7",
+          "type": "color",
+          "description": "Use to style foreground, background and border properties of reversed interactive elements"
+        }
+      },
+      "7": {
+        "Blue": {
+          "value": "#f4f4f4",
+          "type": "color",
+          "description": "Use to style foreground, background and border properties of reversed interactive elements"
+        },
+        "Green": {
+          "value": "#f4f4f4",
+          "type": "color",
+          "description": "Use to style foreground, background and border properties of reversed interactive elements"
+        },
+        "Red": {
+          "value": "#f4f4f4",
+          "type": "color",
+          "description": "Use to style foreground, background and border properties of reversed interactive elements"
+        },
+        "Yellow": {
+          "value": "#f4f4f4",
+          "type": "color",
+          "description": "Use to style foreground, background and border properties of reversed interactive elements"
+        }
+      },
+      "8": {
+        "Blue": {
+          "value": "#ffffff",
+          "type": "color",
+          "description": "Use to style foreground, background and border properties of reversed interactive elements"
+        },
+        "Green": {
+          "value": "#ffffff",
+          "type": "color",
+          "description": "Use to style foreground, background and border properties of reversed interactive elements"
+        },
+        "Red": {
+          "value": "#ffffff",
+          "type": "color",
+          "description": "Use to style foreground, background and border properties of reversed interactive elements"
+        },
+        "Yellow": {
+          "value": "#1d1d1b",
+          "type": "color",
+          "description": "Use to style foreground, background and border properties of reversed interactive elements"
+        }
+      },
+      "9": {
+        "Blue": {
+          "value": "#ffffff",
+          "type": "color",
+          "description": "Use to style foreground, background and border properties of reversed interactive elements"
+        },
+        "Green": {
+          "value": "#ffffff",
+          "type": "color",
+          "description": "Use to style foreground, background and border properties of reversed interactive elements"
+        },
+        "Red": {
+          "value": "#ffffff",
+          "type": "color",
+          "description": "Use to style foreground, background and border properties of reversed interactive elements"
+        },
+        "Yellow": {
+          "value": "#ffffff",
+          "type": "color",
+          "description": "Use to style foreground, background and border properties of reversed interactive elements"
+        }
+      }
+    }
+  },
+  "surface": {
+    "has-fill": {
+      "Blue": {
+        "value": true,
+        "type": "other",
+        "description": "Controls whether or not a fill is visible"
+      }
+    },
+    "fill": {
+      "1": {
+        "Blue": {
+          "value": "#ffffff",
+          "type": "color",
+          "description": "Use in containers and page backgrounds"
+        },
+        "Green": {
+          "value": "#ffffff",
+          "type": "color",
+          "description": "Use in containers and page backgrounds"
+        },
+        "Red": {
+          "value": "#ffffff",
+          "type": "color",
+          "description": "Use in containers and page backgrounds"
+        },
+        "Yellow": {
+          "value": "#ffffff",
+          "type": "color",
+          "description": "Use in containers and page backgrounds"
+        }
+      },
+      "2": {
+        "Blue": {
+          "value": "#f4f4f4",
+          "type": "color",
+          "description": "Use in containers and page backgrounds"
+        },
+        "Green": {
+          "value": "#f4f4f4",
+          "type": "color",
+          "description": "Use in containers and page backgrounds"
+        },
+        "Red": {
+          "value": "#f4f4f4",
+          "type": "color",
+          "description": "Use in containers and page backgrounds"
+        },
+        "Yellow": {
+          "value": "#f4f4f4",
+          "type": "color",
+          "description": "Use in containers and page backgrounds"
+        }
+      },
+      "3": {
+        "Blue": {
+          "value": "#aee1f7",
+          "type": "color",
+          "description": "Use in containers and page backgrounds"
+        },
+        "Green": {
+          "value": "#caeedd",
+          "type": "color",
+          "description": "Use in containers and page backgrounds"
+        },
+        "Red": {
+          "value": "#ffd5d2",
+          "type": "color",
+          "description": "Use in containers and page backgrounds"
+        },
+        "Yellow": {
+          "value": "#fff9c7",
+          "type": "color",
+          "description": "Use in containers and page backgrounds"
+        }
+      },
+      "4": {
+        "Blue": {
+          "value": "#42aeea",
+          "type": "color",
+          "description": "Use sparingly for containers"
+        },
+        "Green": {
+          "value": "#43af6e",
+          "type": "color",
+          "description": "Use sparingly for containers"
+        },
+        "Red": {
+          "value": "#ff3e51",
+          "type": "color",
+          "description": "Use sparingly for containers"
+        },
+        "Yellow": {
+          "value": "#ffe969",
+          "type": "color",
+          "description": "Use sparingly for containers"
+        }
+      },
+      "5": {
+        "Blue": {
+          "value": "#005dba",
+          "type": "color",
+          "description": "Use sparingly on page backgrounds and containers"
+        },
+        "Green": {
+          "value": "#00633d",
+          "type": "color",
+          "description": "Use sparingly on page backgrounds and containers"
+        },
+        "Red": {
+          "value": "#c50b30",
+          "type": "color",
+          "description": "Use sparingly on page backgrounds and containers"
+        },
+        "Yellow": {
+          "value": "#ffb600",
+          "type": "color",
+          "description": "Use sparingly on page backgrounds and containers"
+        }
+      },
+      "6": {
+        "Blue": {
+          "value": "#001d6e",
+          "type": "color",
+          "description": "Use sparingly in containers and page backgrounds"
+        },
+        "Green": {
+          "value": "#01312e",
+          "type": "color",
+          "description": "Use sparingly in containers and page backgrounds"
+        },
+        "Red": {
+          "value": "#940824",
+          "type": "color",
+          "description": "Use sparingly in containers and page backgrounds"
+        },
+        "Yellow": {
+          "value": "#c86426",
+          "type": "color",
+          "description": "Use sparingly in containers and page backgrounds"
+        }
+      }
+    }
+  },
+  "text": {
+    "static": {
+      "1": {
+        "Blue": {
+          "value": "#1d1d1b",
+          "type": "color",
+          "description": "Text colour for neutral and subtle backgrounds"
+        },
+        "Green": {
+          "value": "#1d1d1b",
+          "type": "color",
+          "description": "Text colour for neutral and subtle backgrounds"
+        },
+        "Red": {
+          "value": "#1d1d1b",
+          "type": "color",
+          "description": "Text colour for neutral and subtle backgrounds"
+        },
+        "Yellow": {
+          "value": "#1d1d1b",
+          "type": "color",
+          "description": "Text colour for neutral and subtle backgrounds"
+        }
+      },
+      "2": {
+        "Blue": {
+          "value": "#4d4f4f",
+          "type": "color",
+          "description": "Text colour for neutral backgrounds"
+        },
+        "Green": {
+          "value": "#4d4f4f",
+          "type": "color",
+          "description": "Text colour for neutral backgrounds"
+        },
+        "Red": {
+          "value": "#4d4f4f",
+          "type": "color",
+          "description": "Text colour for neutral backgrounds"
+        },
+        "Yellow": {
+          "value": "#4d4f4f",
+          "type": "color",
+          "description": "Text colour for neutral backgrounds"
+        }
+      },
+      "3": {
+        "Blue": {
+          "value": "#001d6e",
+          "type": "color",
+          "description": "Text colour for subtle backgrounds"
+        },
+        "Green": {
+          "value": "#01312e",
+          "type": "color",
+          "description": "Text colour for subtle backgrounds"
+        },
+        "Red": {
+          "value": "#940824",
+          "type": "color",
+          "description": "Text colour for subtle backgrounds"
+        },
+        "Yellow": {
+          "value": "#904029",
+          "type": "color",
+          "description": "Text colour for subtle backgrounds"
+        }
+      },
+      "4": {
+        "Blue": {
+          "value": "#d2effb",
+          "type": "color",
+          "description": "Text colour for bold backgrounds"
+        },
+        "Green": {
+          "value": "#dff6eb",
+          "type": "color",
+          "description": "Text colour for bold backgrounds"
+        },
+        "Red": {
+          "value": "#ffd5d2",
+          "type": "color",
+          "description": "Text colour for bold backgrounds"
+        },
+        "Yellow": {
+          "value": "#572722",
+          "type": "color",
+          "description": "Text colour for bold backgrounds"
+        }
+      },
+      "5": {
+        "Blue": {
+          "value": "#ffffff",
+          "type": "color",
+          "description": "Text colour for bold backgrounds"
+        },
+        "Green": {
+          "value": "#ffffff",
+          "type": "color",
+          "description": "Text colour for bold backgrounds"
+        },
+        "Red": {
+          "value": "#ffffff",
+          "type": "color",
+          "description": "Text colour for bold backgrounds"
+        },
+        "Yellow": {
+          "value": "#1d1d1b",
+          "type": "color",
+          "description": "Text colour for bold backgrounds"
+        }
+      }
+    },
+    "interactive": {
+      "1": {
+        "Blue": {
+          "value": "#f4f4f4",
+          "type": "color",
+          "description": "Use to style interactive text such as links"
+        },
+        "Green": {
+          "value": "#f4f4f4",
+          "type": "color",
+          "description": "Use to style interactive text such as links"
+        },
+        "Red": {
+          "value": "#f4f4f4",
+          "type": "color",
+          "description": "Use to style interactive text such as links"
+        },
+        "Yellow": {
+          "value": "#1d1d1b",
+          "type": "color",
+          "description": "Use to style interactive text such as links"
+        }
+      },
+      "2": {
+        "Blue": {
+          "value": "#005dba",
+          "type": "color",
+          "description": "Use to style interactive text such as links"
+        },
+        "Green": {
+          "value": "#00633d",
+          "type": "color",
+          "description": "Use to style interactive text such as links"
+        },
+        "Red": {
+          "value": "#c50b30",
+          "type": "color",
+          "description": "Use to style interactive text such as links"
+        },
+        "Yellow": {
+          "value": "#1d1d1b",
+          "type": "color",
+          "description": "Use to style interactive text such as links"
+        }
+      },
+      "3": {
+        "Blue": {
+          "value": "#001d6e",
+          "type": "color",
+          "description": "Use to style interactive text such as links"
+        },
+        "Green": {
+          "value": "#01312e",
+          "type": "color",
+          "description": "Use to style interactive text such as links"
+        },
+        "Red": {
+          "value": "#940824",
+          "type": "color",
+          "description": "Use to style interactive text such as links"
+        },
+        "Yellow": {
+          "value": "#1d1d1b",
+          "type": "color",
+          "description": "Use to style interactive text such as links"
+        }
+      },
+      "4": {
+        "Blue": {
+          "value": "#000a52",
+          "type": "color",
+          "description": "Use to style interactive text such as links"
+        },
+        "Green": {
+          "value": "#012425",
+          "type": "color",
+          "description": "Use to style interactive text such as links"
+        },
+        "Red": {
+          "value": "#6e061b",
+          "type": "color",
+          "description": "Use to style interactive text such as links"
+        },
+        "Yellow": {
+          "value": "#1d1d1b",
+          "type": "color",
+          "description": "Use to style interactive text such as links"
+        }
+      },
+      "5": {
+        "Blue": {
+          "value": "#000039",
+          "type": "color",
+          "description": "Use to style interactive text such as links"
+        },
+        "Green": {
+          "value": "#011b1f",
+          "type": "color",
+          "description": "Use to style interactive text such as links"
+        },
+        "Red": {
+          "value": "#480411",
+          "type": "color",
+          "description": "Use to style interactive text such as links"
+        },
+        "Yellow": {
+          "value": "#000000",
+          "type": "color",
+          "description": "Use to style interactive text such as links"
+        }
+      },
+      "6": {
+        "Blue": {
+          "value": "#000000",
+          "type": "color",
+          "description": "Use to style interactive text such as links"
+        },
+        "Green": {
+          "value": "#000000",
+          "type": "color",
+          "description": "Use to style interactive text such as links"
+        },
+        "Red": {
+          "value": "#000000",
+          "type": "color",
+          "description": "Use to style interactive text such as links"
+        },
+        "Yellow": {
+          "value": "#000000",
+          "type": "color",
+          "description": "Use to style interactive text such as links"
+        }
+      }
+    }
+  }
+}
