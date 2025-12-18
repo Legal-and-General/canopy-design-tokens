@@ -548,7 +548,6 @@
           "VariableID:3598:3806",
           "VariableID:3598:3807",
           "VariableID:3598:3808",
-          "VariableID:3598:3809",
           "VariableID:3598:3810"
         ]
       },
@@ -9516,26 +9515,7 @@
         ],
         "codeSyntax": {}
       },
-      "VariableID:3598:3809": {
-        "name": "link/focus/border-width",
-        "id": "VariableID:3598:3809",
-        "remote": false,
-        "key": "cd066bf50809666ae3997cf8170420f3eb119a78",
-        "variableCollectionId": "VariableCollectionId:3598:3788",
-        "resolvedType": "FLOAT",
-        "description": "",
-        "hiddenFromPublishing": false,
-        "valuesByMode": {
-          "3598:3": {
-            "type": "VARIABLE_ALIAS",
-            "id": "VariableID:1209:2376"
-          }
-        },
-        "scopes": [
-          "STROKE_FLOAT"
-        ],
-        "codeSyntax": {}
-      },
+    
       "VariableID:3598:3810": {
         "name": "link-group/gap",
         "id": "VariableID:3598:3810",
