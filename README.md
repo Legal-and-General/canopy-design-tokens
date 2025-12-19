@@ -22,6 +22,8 @@ The build process generates 6 CSS files in `build/css/`:
 - **`typography.css`** - Typography tokens (font families, weights, letter-spacing)
 - **`variables.css`** - Combined file with all tokens in `:root`
 
+[All output files can be found here](https://github.com/Legal-and-General/canopy-design-tokens/blob/master/build/css/)
+
 ## Setup
 
 ### 1. Prerequisites
