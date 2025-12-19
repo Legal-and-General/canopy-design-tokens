@@ -1,0 +1,10 @@
+# Build outputs
+build/
+dist/
+node_modules/
+
+# Generated files
+tokens/figma-variables-raw.json
+
+# Package files
+package-lock.json

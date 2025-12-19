@@ -8,6 +8,8 @@
     "tokens:process-raw": "node figma-raw-to-tokens.js",
     "build:tokens": "style-dictionary build --config style-dictionary.config.js",
     "commit": "npx git-cz",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
     "prepare": "husky install"
   },
   "devDependencies": {
@@ -18,8 +20,12 @@
     "commitizen": "^4.3.0",
     "cz-conventional-changelog": "^3.3.0",
     "husky": "^8.0.3",
+    "prettier": "^3.7.4",
     "semantic-release": "^25.0.2",
     "style-dictionary": "^5.1.1"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
   },
   "config": {
     "commitizen": {

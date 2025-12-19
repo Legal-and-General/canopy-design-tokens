@@ -61,14 +61,30 @@ FIGMA_FILE_KEY=your_file_key_here
 
 ## Usage
 
+### Committing Changes
+
+This project uses Prettier and Commitizen for code formatting and conventional commits:
+
+```bash
+npm run commit
+```
+
+This command will:
+
+- Automatically format your staged files with Prettier (via pre-commit hook)
+- Guide you through creating a conventional commit message
+- Ensure proper commit formatting for automated releases
+
 ### Automated Workflow (Recommended)
 
 The repository includes a GitHub Actions workflow that automatically:
+
 1. Fetches design tokens from Figma
 2. Processes them into token files
 3. Creates a pull request with any changes
 
 To run the workflow:
+
 1. Go to **Actions** tab in your GitHub repository
 2. Select **Sync Figma Design Tokens**
 3. Click **Run workflow**
@@ -88,17 +104,21 @@ npm run build:tokens          # Step 3: Generate CSS files
 ### Individual Steps
 
 #### 1. Fetch Raw Data
+
 ```bash
 npm run tokens:fetch-raw
 ```
+
 - Fetches raw Figma variables via REST API
 - Saves to `tokens/figma-variables-raw.json`
 - Includes all collection and mode metadata
 
 #### 2. Process into Token Files
+
 ```bash
 npm run tokens:process-raw
 ```
+
 - Reads `tokens/figma-variables-raw.json`
 - Expands component themes across all colour modes
 - Generates 5 token files:
@@ -109,9 +129,11 @@ npm run tokens:process-raw
   - `tokens/typography.json`
 
 #### 3. Build CSS Files
+
 ```bash
 npm run build:tokens
 ```
+
 - Transforms token files into CSS using Style Dictionary
 - Applies custom transforms (rem conversion, naming conventions, etc.)
 - Outputs 6 CSS files to `build/css/`
@@ -119,6 +141,7 @@ npm run build:tokens
 ## Token Structure
 
 ### Colour Tokens
+
 Organised by colour mode with class selectors:
 
 ```css
@@ -136,6 +159,7 @@ Organised by colour mode with class selectors:
 ```
 
 ### Component Theme Tokens
+
 Organised by colour and theme mode combinations:
 
 ```css
@@ -153,6 +177,7 @@ Organised by colour and theme mode combinations:
 ```
 
 ### Layout Tokens
+
 Grouped by breakpoint suffix (sm, md, lg, xl, xxl):
 
 ```css
@@ -168,6 +193,7 @@ Grouped by breakpoint suffix (sm, md, lg, xl, xxl):
 ```
 
 ### Typography Tokens
+
 ```css
 --font-family-productive: 'Nunito Sans';
 --font-family-expressive: 'ABC Otto';
@@ -178,22 +204,30 @@ Grouped by breakpoint suffix (sm, md, lg, xl, xxl):
 ## Custom Transforms
 
 ### Size to REM
+
 Converts numeric pixel values to rem units (16px base):
+
 - `12` → `0.75rem`
 - `16` → `1rem`
 - `48` → `3rem`
 
 ### Kebab-case Normalization
+
 Converts all token names to kebab-case:
+
 - `Neutral inverse` → `neutral-inverse`
 - `Blue` → `blue`
 
 ### Font Family Quoting
+
 Wraps font families in single quotes:
+
 - `Nunito Sans` → `'Nunito Sans'`
 
 ### Letter-spacing Rounding
+
 Rounds to 5 decimal places:
+
 - `-0.012500000186264515rem` → `-0.01250rem`
 
 ## File Structure
@@ -228,6 +262,7 @@ canopy-design-tokens/
 ## Configuration
 
 ### Style Dictionary Config
+
 The `style-dictionary.config.js` file includes:
 
 - **Custom Transforms**: `size/pxToRem`, `name/kebab`, `asset/fontFamily`, `size/letterSpacingRound`
@@ -235,6 +270,7 @@ The `style-dictionary.config.js` file includes:
 - **Platform Configurations**: Separate build targets for each output file
 
 ### Mode Configuration
+
 - **Colour Modes**: Blue, Green, Red, Yellow
 - **Theme Modes**: Neutral, Subtle, Bold, Neutral inverse
 - **Breakpoints**: sm, md, lg, xl, xxl
@@ -242,13 +278,15 @@ The `style-dictionary.config.js` file includes:
 ## Usage in Projects
 
 ### Import Individual Files
+
 ```html
-<link rel="stylesheet" href="build/css/foundations.css">
-<link rel="stylesheet" href="build/css/colour.css">
-<link rel="stylesheet" href="build/css/component-themes.css">
+<link rel="stylesheet" href="build/css/foundations.css" />
+<link rel="stylesheet" href="build/css/colour.css" />
+<link rel="stylesheet" href="build/css/component-themes.css" />
 ```
 
 ### Apply Themes with Classes
+
 ```html
 <!-- Blue colour with neutral theme -->
 <div class="mode-blue neutral">
@@ -262,6 +300,7 @@ The `style-dictionary.config.js` file includes:
 ```
 
 ### Responsive Layout Tokens
+
 ```css
 @media (min-width: 768px) {
   .container {
@@ -291,10 +330,10 @@ The `style-dictionary.config.js` file includes:
 - Component themes are expanded across all colour modes for consistent theming
 
 ```javascript
-const { 
-  fetchFromFigma, 
-  processVariables, 
-  convertVariableValue 
+const {
+  fetchFromFigma,
+  processVariables,
+  convertVariableValue,
 } = require('./fetch-figma-variables.js');
 ```
 
