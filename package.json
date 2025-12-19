@@ -1,5 +1,5 @@
 {
-  "name": "canopy-design-tokens",
+  "name": "@legal-and-general/canopy-design-tokens",
   "version": "1.0.0",
   "description": "Design tokens for the Canopy design system",
   "main": "config.json",
