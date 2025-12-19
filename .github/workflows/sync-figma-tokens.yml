@@ -34,9 +34,13 @@ jobs:
       - name: Check for changes
         id: check_changes
         run: |
-          if git diff --quiet tokens/figma-variables-raw.json; then
+          # Compare files excluding the $timestamp field
+          OLD_CONTENT=$(git show HEAD:tokens/figma-variables-raw.json | jq 'del(."$timestamp")')
+          NEW_CONTENT=$(jq 'del(."$timestamp")' tokens/figma-variables-raw.json)
+          
+          if [ "$OLD_CONTENT" = "$NEW_CONTENT" ]; then
             echo "has_changes=false" >> $GITHUB_OUTPUT
-            echo "No changes detected in figma-variables-raw.json"
+            echo "No changes detected in figma-variables-raw.json (excluding timestamp)"
           else
             echo "has_changes=true" >> $GITHUB_OUTPUT
             echo "Changes detected in figma-variables-raw.json"
