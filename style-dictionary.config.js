@@ -216,7 +216,7 @@ module.exports = {
           const group = grouped[key];
 
           // Create class selector
-          output += `.mode-${group.colorClass}.${group.themeClass} {\n`;
+          output += `.lg-mode-${group.colorClass}.lg-${group.themeClass} {\n`;
 
           // Sort tokens by name for consistent output
           group.tokens.sort((a, b) => a.name.localeCompare(b.name));
@@ -284,7 +284,7 @@ module.exports = {
           const group = grouped[key];
 
           // Create class selector
-          output += `.mode-${group.colorClass} {\n`;
+          output += `.lg-mode-${group.colorClass} {\n`;
 
           // Sort tokens by name for consistent output
           group.tokens.sort((a, b) => a.name.localeCompare(b.name));

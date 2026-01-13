@@ -4,7 +4,7 @@
   "description": "Design tokens for the Canopy design system",
   "main": "config.json",
   "files": [
-    "build/"
+    "build/css/"
   ],
   "scripts": {
     "tokens:fetch-raw": "node fetch-figma-tokens.js",
