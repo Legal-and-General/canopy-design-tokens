@@ -2,7 +2,7 @@
  * Do not edit directly, this file was auto-generated.
  */
 
-.mode-blue.neutral {
+.lg-mode-blue.lg-neutral {
   --body-background-colour-bold: #005dba;
   --body-background-colour-default: #f4f4f4;
   --body-background-colour-regal: #001d6e;
@@ -141,7 +141,7 @@
   --text-muted: #4d4f4f;
 }
 
-.mode-blue.neutral-inverse {
+.lg-mode-blue.lg-neutral-inverse {
   --body-background-colour-bold: #005dba;
   --body-background-colour-default: #ffffff;
   --body-background-colour-regal: #001d6e;
@@ -280,7 +280,7 @@
   --text-muted: #4d4f4f;
 }
 
-.mode-blue.subtle {
+.lg-mode-blue.lg-subtle {
   --body-background-colour-bold: #005dba;
   --body-background-colour-default: #f4f4f4;
   --body-background-colour-regal: #001d6e;
@@ -418,7 +418,7 @@
   --text-muted: #1d1d1b;
 }
 
-.mode-blue.bold {
+.lg-mode-blue.lg-bold {
   --body-background-colour-bold: #005dba;
   --body-background-colour-default: #f4f4f4;
   --body-background-colour-regal: #001d6e;
@@ -556,7 +556,7 @@
   --text-muted: #d2effb;
 }
 
-.mode-green.neutral {
+.lg-mode-green.lg-neutral {
   --body-background-colour-bold: #00633d;
   --body-background-colour-default: #f4f4f4;
   --body-background-colour-regal: #01312e;
@@ -694,7 +694,7 @@
   --text-muted: #4d4f4f;
 }
 
-.mode-green.neutral-inverse {
+.lg-mode-green.lg-neutral-inverse {
   --body-background-colour-bold: #00633d;
   --body-background-colour-default: #ffffff;
   --body-background-colour-regal: #01312e;
@@ -832,7 +832,7 @@
   --text-muted: #4d4f4f;
 }
 
-.mode-green.subtle {
+.lg-mode-green.lg-subtle {
   --body-background-colour-bold: #00633d;
   --body-background-colour-default: #f4f4f4;
   --body-background-colour-regal: #01312e;
@@ -969,7 +969,7 @@
   --text-muted: #1d1d1b;
 }
 
-.mode-green.bold {
+.lg-mode-green.lg-bold {
   --body-background-colour-bold: #00633d;
   --body-background-colour-default: #f4f4f4;
   --body-background-colour-regal: #01312e;
@@ -1106,7 +1106,7 @@
   --text-muted: #dff6eb;
 }
 
-.mode-red.neutral {
+.lg-mode-red.lg-neutral {
   --body-background-colour-bold: #c50b30;
   --body-background-colour-default: #f4f4f4;
   --body-background-colour-regal: #940824;
@@ -1244,7 +1244,7 @@
   --text-muted: #4d4f4f;
 }
 
-.mode-red.neutral-inverse {
+.lg-mode-red.lg-neutral-inverse {
   --body-background-colour-bold: #c50b30;
   --body-background-colour-default: #ffffff;
   --body-background-colour-regal: #940824;
@@ -1382,7 +1382,7 @@
   --text-muted: #4d4f4f;
 }
 
-.mode-red.subtle {
+.lg-mode-red.lg-subtle {
   --body-background-colour-bold: #c50b30;
   --body-background-colour-default: #f4f4f4;
   --body-background-colour-regal: #940824;
@@ -1519,7 +1519,7 @@
   --text-muted: #1d1d1b;
 }
 
-.mode-red.bold {
+.lg-mode-red.lg-bold {
   --body-background-colour-bold: #c50b30;
   --body-background-colour-default: #f4f4f4;
   --body-background-colour-regal: #940824;
@@ -1656,7 +1656,7 @@
   --text-muted: #ffd5d2;
 }
 
-.mode-yellow.neutral {
+.lg-mode-yellow.lg-neutral {
   --body-background-colour-bold: #ffb600;
   --body-background-colour-default: #f4f4f4;
   --body-background-colour-regal: #c86426;
@@ -1794,7 +1794,7 @@
   --text-muted: #4d4f4f;
 }
 
-.mode-yellow.neutral-inverse {
+.lg-mode-yellow.lg-neutral-inverse {
   --body-background-colour-bold: #ffb600;
   --body-background-colour-default: #ffffff;
   --body-background-colour-regal: #c86426;
@@ -1932,7 +1932,7 @@
   --text-muted: #4d4f4f;
 }
 
-.mode-yellow.subtle {
+.lg-mode-yellow.lg-subtle {
   --body-background-colour-bold: #ffb600;
   --body-background-colour-default: #f4f4f4;
   --body-background-colour-regal: #c86426;
@@ -2069,7 +2069,7 @@
   --text-muted: #1d1d1b;
 }
 
-.mode-yellow.bold {
+.lg-mode-yellow.lg-bold {
   --body-background-colour-bold: #ffb600;
   --body-background-colour-default: #f4f4f4;
   --body-background-colour-regal: #c86426;

@@ -2,6 +2,14 @@
 
 A design tokens system that fetches variables from Figma's REST API and transforms them into CSS custom properties using Style Dictionary.
 
+## Table of Contents
+
+- [Features](#features)
+- [Output Files](#output-files)
+- [Usage in Your Project](#usage-in-your-project)
+- [Token Structure](#token-structure)
+- [How to Contribute](#how-to-contribute)
+
 ## Features
 
 - 🎨 **Figma Variables Integration** - Direct fetch from Figma API
@@ -15,8 +23,8 @@ A design tokens system that fetches variables from Figma's REST API and transfor
 
 The build process generates 6 CSS files in `build/css/`:
 
-- **`colour.css`** - Colour tokens with class selectors: `.mode-blue`, `.mode-green`, `.mode-red`, `.mode-yellow`
-- **`component-themes.css`** - Component theme tokens with class selectors: `.mode-blue.neutral`, `.mode-green.subtle`, etc. (16 combinations)
+- **`colour.css`** - Colour tokens with class selectors: `.lg-mode-blue`, `.lg-mode-green`, `.lg-mode-red`, `.lg-mode-yellow`
+- **`component-themes.css`** - Component theme tokens with class selectors: `.lg-mode-blue.lg-neutral`, `.lg-mode-green.lg-subtle`, etc. (16 combinations)
 - **`foundations.css`** - Foundation tokens (dimensions, colours)
 - **`layout.css`** - Layout tokens grouped by breakpoint suffix (sm, md, lg, xl, xxl)
 - **`typography.css`** - Typography tokens (font families, weights, letter-spacing)
@@ -24,7 +32,127 @@ The build process generates 6 CSS files in `build/css/`:
 
 [All output files can be found here](https://github.com/Legal-and-General/canopy-design-tokens/blob/master/build/css/)
 
-## Setup
+## Usage in Your Project
+
+### Install the Package
+
+```bash
+npm install @legal-and-general/canopy-design-tokens
+```
+
+### Import Individual Files
+
+```html
+<link
+  rel="stylesheet"
+  href="node_modules/@legal-and-general/canopy-design-tokens/build/css/foundations.css"
+/>
+<link
+  rel="stylesheet"
+  href="node_modules/@legal-and-general/canopy-design-tokens/build/css/colour.css"
+/>
+<link
+  rel="stylesheet"
+  href="node_modules/@legal-and-general/canopy-design-tokens/build/css/component-themes.css"
+/>
+```
+
+### Apply Themes with Classes
+
+```html
+<!-- Blue colour with neutral theme -->
+<div class="lg-mode-blue lg-neutral">
+  <button>Primary Button</button>
+</div>
+
+<!-- Green colour with subtle theme -->
+<div class="lg-mode-green lg-subtle">
+  <button>Primary Button</button>
+</div>
+```
+
+### Responsive Layout Tokens
+
+```css
+@media (min-width: 768px) {
+  .container {
+    font-size: var(--font-size-3-md);
+    padding: var(--space-4-md);
+  }
+}
+
+@media (min-width: 1024px) {
+  .container {
+    font-size: var(--font-size-3-lg);
+    padding: var(--space-4-lg);
+  }
+}
+```
+
+## Token Structure
+
+### Colour Tokens
+
+Organised by colour mode with class selectors:
+
+```css
+.lg-mode-blue {
+  --brand-tint-1: #d2effb;
+  --brand-tint-2: #aee1f7;
+  /* ... */
+}
+
+.lg-mode-green {
+  --brand-tint-1: #dff6eb;
+  --brand-tint-2: #caeedd;
+  /* ... */
+}
+```
+
+### Component Theme Tokens
+
+Organised by colour and theme mode combinations:
+
+```css
+.lg-mode-blue.lg-neutral {
+  --container-accent-1: #42aeea;
+  --interactive-primary-default-background-colour: #005dba;
+  /* ... */
+}
+
+.lg-mode-green.lg-subtle {
+  --container-accent-1: #43af6e;
+  --interactive-primary-default-background-colour: #00633d;
+  /* ... */
+}
+```
+
+### Layout Tokens
+
+Grouped by breakpoint suffix (sm, md, lg, xl, xxl):
+
+```css
+/* Small breakpoint */
+--font-size-1-sm: 1rem;
+--line-height-1-sm: 1.375rem;
+--space-1-sm: 0.25rem;
+
+/* Medium breakpoint */
+--font-size-1-md: 1rem;
+--line-height-1-md: 1.375rem;
+--space-1-md: 0.25rem;
+```
+
+### Typography Tokens
+
+```css
+--font-family-productive: 'Nunito Sans';
+--font-family-expressive: 'ABC Otto';
+--letter-spacing-condensed-productive: -0.00625rem;
+--font-weight-700-productive: 700;
+```
+
+## How to Contribute
 
 ### 1. Prerequisites
 
@@ -59,9 +187,9 @@ FIGMA_FILE_KEY=your_file_key_here
 
 ⚠️ **Important**: Never commit the `.env` file to the repository. It should be in `.gitignore`.
 
-## Usage
+### Making Changes
 
-### Committing Changes
+#### Committing Changes
 
 This project uses Prettier and Commitizen for code formatting and conventional commits:
 
@@ -75,7 +203,7 @@ This command will:
 - Guide you through creating a conventional commit message
 - Ensure proper commit formatting for automated releases
 
-### Automated Workflow (Recommended)
+#### Automated Workflow (Recommended)
 
 The repository includes a GitHub Actions workflow that automatically:
 
@@ -91,7 +219,7 @@ To run the workflow:
 
 The workflow will create a PR if there are any changes to the tokens.
 
-### Manual Build Pipeline
+#### Manual Build Pipeline
 
 For local development or manual updates:
 
@@ -101,9 +229,9 @@ npm run tokens:process-raw    # Step 2: Process into token files
 npm run build:tokens          # Step 3: Generate CSS files
 ```
 
-### Individual Steps
+##### Individual Steps
 
-#### 1. Fetch Raw Data
+**1. Fetch Raw Data**
 
 ```bash
 npm run tokens:fetch-raw
@@ -113,7 +241,7 @@ npm run tokens:fetch-raw
 - Saves to `tokens/figma-variables-raw.json`
 - Includes all collection and mode metadata
 
-#### 2. Process into Token Files
+**2. Process into Token Files**
 
 ```bash
 npm run tokens:process-raw
@@ -128,7 +256,7 @@ npm run tokens:process-raw
   - `tokens/layout.json`
   - `tokens/typography.json`
 
-#### 3. Build CSS Files
+**3. Build CSS Files**
 
 ```bash
 npm run build:tokens
@@ -137,206 +265,3 @@ npm run build:tokens
 - Transforms token files into CSS using Style Dictionary
 - Applies custom transforms (rem conversion, naming conventions, etc.)
 - Outputs 6 CSS files to `build/css/`
-
-## Token Structure
-
-### Colour Tokens
-
-Organised by colour mode with class selectors:
-
-```css
-.mode-blue {
-  --brand-tint-1: #d2effb;
-  --brand-tint-2: #aee1f7;
-  /* ... */
-}
-
-.mode-green {
-  --brand-tint-1: #dff6eb;
-  --brand-tint-2: #caeedd;
-  /* ... */
-}
-```
-
-### Component Theme Tokens
-
-Organised by colour and theme mode combinations:
-
-```css
-.mode-blue.neutral {
-  --container-accent-1: #42aeea;
-  --interactive-primary-default-background-colour: #005dba;
-  /* ... */
-}
-
-.mode-green.subtle {
-  --container-accent-1: #43af6e;
-  --interactive-primary-default-background-colour: #00633d;
-  /* ... */
-}
-```
-
-### Layout Tokens
-
-Grouped by breakpoint suffix (sm, md, lg, xl, xxl):
-
-```css
-/* Small breakpoint */
---font-size-1-sm: 1rem;
---line-height-1-sm: 1.375rem;
---space-1-sm: 0.25rem;
-
-/* Medium breakpoint */
---font-size-1-md: 1rem;
---line-height-1-md: 1.375rem;
---space-1-md: 0.25rem;
-```
-
-### Typography Tokens
-
-```css
---font-family-productive: 'Nunito Sans';
---font-family-expressive: 'ABC Otto';
---letter-spacing-condensed-productive: -0.00625rem;
---font-weight-700-productive: 700;
-```
-
-## Custom Transforms
-
-### Size to REM
-
-Converts numeric pixel values to rem units (16px base):
-
-- `12` → `0.75rem`
-- `16` → `1rem`
-- `48` → `3rem`
-
-### Kebab-case Normalization
-
-Converts all token names to kebab-case:
-
-- `Neutral inverse` → `neutral-inverse`
-- `Blue` → `blue`
-
-### Font Family Quoting
-
-Wraps font families in single quotes:
-
-- `Nunito Sans` → `'Nunito Sans'`
-
-### Letter-spacing Rounding
-
-Rounds to 5 decimal places:
-
-- `-0.012500000186264515rem` → `-0.01250rem`
-
-## File Structure
-
-```
-canopy-design-tokens/
-├── .github/
-│   └── workflows/
-│       └── sync-figma-tokens.yml
-├── build/
-│   └── css/
-│       ├── colour.css
-│       ├── component-themes.css
-│       ├── foundations.css
-│       ├── layout.css
-│       ├── typography.css
-│       └── variables.css
-├── tokens/
-│   ├── figma-variables-raw.json
-│   ├── colour.json
-│   ├── component-themes.json
-│   ├── foundations.json
-│   ├── layout.json
-│   └── typography.json
-├── fetch-figma-tokens.js
-├── figma-raw-to-tokens.js
-├── style-dictionary.config.js
-├── package.json
-└── README.md
-```
-
-## Configuration
-
-### Style Dictionary Config
-
-The `style-dictionary.config.js` file includes:
-
-- **Custom Transforms**: `size/pxToRem`, `name/kebab`, `asset/fontFamily`, `size/letterSpacingRound`
-- **Custom Formats**: `css/component-themes-classes`, `css/colour-classes`, `css/layout-grouped`
-- **Platform Configurations**: Separate build targets for each output file
-
-### Mode Configuration
-
-- **Colour Modes**: Blue, Green, Red, Yellow
-- **Theme Modes**: Neutral, Subtle, Bold, Neutral inverse
-- **Breakpoints**: sm, md, lg, xl, xxl
-
-## Usage in Projects
-
-### Import Individual Files
-
-```html
-<link rel="stylesheet" href="build/css/foundations.css" />
-<link rel="stylesheet" href="build/css/colour.css" />
-<link rel="stylesheet" href="build/css/component-themes.css" />
-```
-
-### Apply Themes with Classes
-
-```html
-<!-- Blue colour with neutral theme -->
-<div class="mode-blue neutral">
-  <button>Primary Button</button>
-</div>
-
-<!-- Green colour with subtle theme -->
-<div class="mode-green subtle">
-  <button>Primary Button</button>
-</div>
-```
-
-### Responsive Layout Tokens
-
-```css
-@media (min-width: 768px) {
-  .container {
-    font-size: var(--font-size-3-md);
-    padding: var(--space-4-md);
-  }
-}
-
-@media (min-width: 1024px) {
-  .container {
-    font-size: var(--font-size-3-lg);
-    padding: var(--space-4-lg);
-  }
-}
-```
-
-## Dependencies
-
-- **style-dictionary**: ^5.1.1
-
-## Notes
-
-- All numeric dimension values are converted to rem (16px base)
-- Font families are automatically quoted
-- Letter-spacing values are rounded to 5 decimal places
-- Token names use kebab-case throughout
-- Component themes are expanded across all colour modes for consistent theming
-
-```javascript
-const {
-  fetchFromFigma,
-  processVariables,
-  convertVariableValue,
-} = require('./fetch-figma-variables.js');
-```
-
-## Examples
-
-See the `tokens/` directory for examples of the expected output format.

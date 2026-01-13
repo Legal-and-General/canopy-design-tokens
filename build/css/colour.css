@@ -2,7 +2,7 @@
  * Do not edit directly, this file was auto-generated.
  */
 
-.mode-blue {
+.lg-mode-blue {
   --border-colour-1: #42aeea;
   --border-colour-2: #001d6e;
   --border-mono-1: #ffffff;
@@ -51,7 +51,7 @@
   --text-static-5: #ffffff;
 }
 
-.mode-green {
+.lg-mode-green {
   --border-colour-1: #43af6e;
   --border-colour-2: #01312e;
   --border-mono-1: #ffffff;
@@ -99,7 +99,7 @@
   --text-static-5: #ffffff;
 }
 
-.mode-red {
+.lg-mode-red {
   --border-colour-1: #ff3e51;
   --border-colour-2: #940824;
   --border-mono-1: #ffffff;
@@ -147,7 +147,7 @@
   --text-static-5: #ffffff;
 }
 
-.mode-yellow {
+.lg-mode-yellow {
   --border-colour-1: #ffe969;
   --border-colour-2: #c86426;
   --border-mono-1: #ffffff;
