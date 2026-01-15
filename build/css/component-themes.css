@@ -2,146 +2,7 @@
  * Do not edit directly, this file was auto-generated.
  */
 
-.lg-mode-blue.lg-neutral {
-  --body-background-colour-bold: #005dba;
-  --body-background-colour-default: #f4f4f4;
-  --body-background-colour-regal: #001d6e;
-  --body-background-colour-subtle: #42aeea;
-  --colour-border-colour-1: #42aeea;
-  --colour-border-colour-2: #001d6e;
-  --colour-border-mono-1: #ffffff;
-  --colour-border-mono-2: #f4f4f4;
-  --colour-border-mono-3: #d3d3d3;
-  --colour-border-mono-4: #a6a7a7;
-  --colour-border-mono-5: #1d1d1b;
-  --colour-brand-tint-1: #d2effb;
-  --colour-brand-tint-2: #aee1f7;
-  --colour-brand-tint-3: #42aeea;
-  --colour-brand-tint-4: #005dba;
-  --colour-brand-tint-5: #001d6e;
-  --colour-brand-tint-6: #000a52;
-  --colour-brand-tint-7: #000039;
-  --colour-interactive-default-1: #ffffff;
-  --colour-interactive-default-2: #d2effb;
-  --colour-interactive-default-3: #42aeea;
-  --colour-interactive-default-4: #005dba;
-  --colour-interactive-default-5: #1d1d1b;
-  --colour-interactive-reversed-1: #1d1d1b;
-  --colour-interactive-reversed-2: #4d4f4f;
-  --colour-interactive-reversed-3: #001d6e;
-  --colour-interactive-reversed-4: #005dba;
-  --colour-interactive-reversed-5: #42aeea;
-  --colour-interactive-reversed-6: #aee1f7;
-  --colour-interactive-reversed-7: #f4f4f4;
-  --colour-interactive-reversed-8: #ffffff;
-  --colour-interactive-reversed-9: #ffffff;
-  --colour-surface-fill-1: #ffffff;
-  --colour-surface-fill-2: #f4f4f4;
-  --colour-surface-fill-3: #aee1f7;
-  --colour-surface-fill-4: #42aeea;
-  --colour-surface-fill-5: #005dba;
-  --colour-surface-fill-6: #001d6e;
-  --colour-surface-has-fill: true;
-  --colour-text-interactive-1: #f4f4f4;
-  --colour-text-interactive-2: #005dba;
-  --colour-text-interactive-3: #001d6e;
-  --colour-text-interactive-4: #000a52;
-  --colour-text-interactive-5: #000039;
-  --colour-text-interactive-6: #000000;
-  --colour-text-static-1: #1d1d1b;
-  --colour-text-static-2: #4d4f4f;
-  --colour-text-static-3: #001d6e;
-  --colour-text-static-4: #d2effb;
-  --colour-text-static-5: #ffffff;
-  --container-accent-1: #42aeea;
-  --container-accent-2: #005dba;
-  --container-background-colour: #ffffff;
-  --container-border-colour-1: #d3d3d3;
-  --container-border-colour-2: #d3d3d3;
-  --content-gap-column-lg: 2.25rem;
-  --content-gap-column-md: 1.75rem;
-  --content-gap-column-sm: 1.25rem;
-  --content-gap-column-xl: 3rem;
-  --content-gap-column-xs: 1rem;
-  --content-gap-inside-lg: 1rem;
-  --content-gap-inside-md: 0.75rem;
-  --content-gap-inside-sm: 0.5rem;
-  --content-gap-inside-xl: 1.25rem;
-  --content-gap-inside-xs: 0.25rem;
-  --content-gap-row-lg: 2.25rem;
-  --content-gap-row-md: 1.75rem;
-  --content-gap-row-sm: 1.25rem;
-  --content-gap-row-xl: 3rem;
-  --content-gap-row-xs: 1rem;
-  --content-pictogram-fill: #42aeea;
-  --content-pictogram-has-fill: true;
-  --content-pictogram-outline: #1d1d1b;
-  --input-default-background-colour: #ffffff;
-  --input-default-border-colour: #a6a7a7;
-  --interactive-border-radius: 0.75rem;
-  --interactive-border-width-focus: 0.25rem;
-  --interactive-border-width: 0.09375rem;
-  --interactive-gap: 0.5rem;
-  --interactive-min-height: 3rem;
-  --interactive-min-width: 3rem;
-  --interactive-padding-bottom: 0.75rem;
-  --interactive-padding-left: 0.75rem;
-  --interactive-padding-right: 0.75rem;
-  --interactive-padding-top: 0.75rem;
-  --interactive-primary-active-background-colour: #d2effb;
-  --interactive-primary-active-border-colour: #1d1d1b;
-  --interactive-primary-active-colour: #1d1d1b;
-  --interactive-primary-default-background-colour: #005dba;
-  --interactive-primary-default-border-colour: #005dba;
-  --interactive-primary-default-colour: #ffffff;
-  --interactive-primary-focus-background-colour: #005dba;
-  --interactive-primary-focus-border-colour: #005dba;
-  --interactive-primary-focus-colour: #ffffff;
-  --interactive-primary-hover-background-colour: #42aeea;
-  --interactive-primary-hover-border-colour: #1d1d1b;
-  --interactive-primary-hover-colour: #1d1d1b;
-  --interactive-primary-reversed-active-background-colour: #005dba;
-  --interactive-primary-reversed-active-border-colour-dark: #005dba;
-  --interactive-primary-reversed-active-border-colour-light: #ffffff;
-  --interactive-primary-reversed-active-colour-muted: #ffffff;
-  --interactive-primary-reversed-active-colour: #ffffff;
-  --interactive-primary-reversed-default-background-colour: #ffffff;
-  --interactive-primary-reversed-default-border-colour-dark: #1d1d1b;
-  --interactive-primary-reversed-default-border-colour-light: #d3d3d3;
-  --interactive-primary-reversed-default-colour-muted: #4d4f4f;
-  --interactive-primary-reversed-default-colour: #1d1d1b;
-  --interactive-primary-reversed-focus-background-colour: #ffffff;
-  --interactive-primary-reversed-focus-border-colour-dark: #ffffff;
-  --interactive-primary-reversed-focus-border-colour-light: #ffffff;
-  --interactive-primary-reversed-focus-colour-muted: #1d1d1b;
-  --interactive-primary-reversed-focus-colour: #1d1d1b;
-  --interactive-primary-reversed-hover-background-colour: #aee1f7;
-  --interactive-primary-reversed-hover-border-colour-dark: #1d1d1b;
-  --interactive-primary-reversed-hover-border-colour-light: #001d6e;
-  --interactive-primary-reversed-hover-colour-muted: #1d1d1b;
-  --interactive-primary-reversed-hover-colour: #1d1d1b;
-  --interactive-secondary-active-background-colour: #d2effb;
-  --interactive-secondary-active-border-colour: #1d1d1b;
-  --interactive-secondary-active-colour: #1d1d1b;
-  --interactive-secondary-default-background-colour: #ffffff;
-  --interactive-secondary-default-border-colour: #1d1d1b;
-  --interactive-secondary-default-colour: #1d1d1b;
-  --interactive-secondary-focus-background-colour: #ffffff;
-  --interactive-secondary-focus-border-colour: #1d1d1b;
-  --interactive-secondary-focus-colour: #1d1d1b;
-  --interactive-secondary-hover-background-colour: #42aeea;
-  --interactive-secondary-hover-border-colour: #1d1d1b;
-  --interactive-secondary-hover-colour: #1d1d1b;
-  --interactive-text-active: #000a52;
-  --interactive-text-default: #005dba;
-  --interactive-text-focus: #005dba;
-  --interactive-text-hover: #001d6e;
-  --interactive-text-visited: #005dba;
-  --text-default: #1d1d1b;
-  --text-muted: #4d4f4f;
-}
-
-.lg-mode-blue.lg-neutral-inverse {
+.lg-mode-blue.lg-theme-neutral-inverse {
   --body-background-colour-bold: #005dba;
   --body-background-colour-default: #ffffff;
   --body-background-colour-regal: #001d6e;
@@ -280,7 +141,7 @@
   --text-muted: #4d4f4f;
 }
 
-.lg-mode-blue.lg-subtle {
+.lg-mode-blue.lg-theme-subtle {
   --body-background-colour-bold: #005dba;
   --body-background-colour-default: #f4f4f4;
   --body-background-colour-regal: #001d6e;
@@ -418,7 +279,7 @@
   --text-muted: #1d1d1b;
 }
 
-.lg-mode-blue.lg-bold {
+.lg-mode-blue.lg-theme-bold {
   --body-background-colour-bold: #005dba;
   --body-background-colour-default: #f4f4f4;
   --body-background-colour-regal: #001d6e;
@@ -556,7 +417,7 @@
   --text-muted: #d2effb;
 }
 
-.lg-mode-green.lg-neutral {
+.lg-mode-green.lg-theme-neutral {
   --body-background-colour-bold: #00633d;
   --body-background-colour-default: #f4f4f4;
   --body-background-colour-regal: #01312e;
@@ -694,7 +555,7 @@
   --text-muted: #4d4f4f;
 }
 
-.lg-mode-green.lg-neutral-inverse {
+.lg-mode-green.lg-theme-neutral-inverse {
   --body-background-colour-bold: #00633d;
   --body-background-colour-default: #ffffff;
   --body-background-colour-regal: #01312e;
@@ -832,7 +693,7 @@
   --text-muted: #4d4f4f;
 }
 
-.lg-mode-green.lg-subtle {
+.lg-mode-green.lg-theme-subtle {
   --body-background-colour-bold: #00633d;
   --body-background-colour-default: #f4f4f4;
   --body-background-colour-regal: #01312e;
@@ -969,7 +830,7 @@
   --text-muted: #1d1d1b;
 }
 
-.lg-mode-green.lg-bold {
+.lg-mode-green.lg-theme-bold {
   --body-background-colour-bold: #00633d;
   --body-background-colour-default: #f4f4f4;
   --body-background-colour-regal: #01312e;
@@ -1106,7 +967,7 @@
   --text-muted: #dff6eb;
 }
 
-.lg-mode-red.lg-neutral {
+.lg-mode-red.lg-theme-neutral {
   --body-background-colour-bold: #c50b30;
   --body-background-colour-default: #f4f4f4;
   --body-background-colour-regal: #940824;
@@ -1244,7 +1105,7 @@
   --text-muted: #4d4f4f;
 }
 
-.lg-mode-red.lg-neutral-inverse {
+.lg-mode-red.lg-theme-neutral-inverse {
   --body-background-colour-bold: #c50b30;
   --body-background-colour-default: #ffffff;
   --body-background-colour-regal: #940824;
@@ -1382,7 +1243,7 @@
   --text-muted: #4d4f4f;
 }
 
-.lg-mode-red.lg-subtle {
+.lg-mode-red.lg-theme-subtle {
   --body-background-colour-bold: #c50b30;
   --body-background-colour-default: #f4f4f4;
   --body-background-colour-regal: #940824;
@@ -1519,7 +1380,7 @@
   --text-muted: #1d1d1b;
 }
 
-.lg-mode-red.lg-bold {
+.lg-mode-red.lg-theme-bold {
   --body-background-colour-bold: #c50b30;
   --body-background-colour-default: #f4f4f4;
   --body-background-colour-regal: #940824;
@@ -1656,7 +1517,7 @@
   --text-muted: #ffd5d2;
 }
 
-.lg-mode-yellow.lg-neutral {
+.lg-mode-yellow.lg-theme-neutral {
   --body-background-colour-bold: #ffb600;
   --body-background-colour-default: #f4f4f4;
   --body-background-colour-regal: #c86426;
@@ -1794,7 +1655,7 @@
   --text-muted: #4d4f4f;
 }
 
-.lg-mode-yellow.lg-neutral-inverse {
+.lg-mode-yellow.lg-theme-neutral-inverse {
   --body-background-colour-bold: #ffb600;
   --body-background-colour-default: #ffffff;
   --body-background-colour-regal: #c86426;
@@ -1932,7 +1793,7 @@
   --text-muted: #4d4f4f;
 }
 
-.lg-mode-yellow.lg-subtle {
+.lg-mode-yellow.lg-theme-subtle {
   --body-background-colour-bold: #ffb600;
   --body-background-colour-default: #f4f4f4;
   --body-background-colour-regal: #c86426;
@@ -2069,7 +1930,7 @@
   --text-muted: #1d1d1b;
 }
 
-.lg-mode-yellow.lg-bold {
+.lg-mode-yellow.lg-theme-bold {
   --body-background-colour-bold: #ffb600;
   --body-background-colour-default: #f4f4f4;
   --body-background-colour-regal: #c86426;
