@@ -120,6 +120,58 @@ module.exports = {
       },
     },
     formats: {
+      'css/variables-with-defaults': function ({ dictionary, file, options }) {
+        let output =
+          '/**\n * Do not edit directly, this file was auto-generated.\n */\n\n:root {\n';
+
+        // First, add all non-theme/color specific tokens
+        const regularTokens = dictionary.allTokens.filter((token) => {
+          const isComponentTheme = token.filePath.includes('component-themes');
+          const isColour = token.filePath.includes('colour.json');
+          return !isComponentTheme && !isColour;
+        });
+
+        regularTokens.forEach((token) => {
+          output += `  --${token.name}: ${token.value};\n`;
+        });
+
+        // Now add default theme tokens (blue + neutral)
+        const defaultThemeTokens = dictionary.allTokens.filter((token) => {
+          const isComponentTheme = token.filePath.includes('component-themes');
+          const isColour = token.filePath.includes('colour.json');
+
+          if (!isComponentTheme && !isColour) return false;
+
+          const path = token.path;
+
+          if (isComponentTheme) {
+            const colorMode = path[path.length - 1];
+            const themeMode = path[path.length - 2];
+            return colorMode === 'Blue' && themeMode === 'Neutral';
+          } else if (isColour) {
+            const colorMode = path[path.length - 1];
+            return colorMode === 'Blue';
+          }
+
+          return false;
+        });
+
+        defaultThemeTokens.forEach((token) => {
+          let varName;
+
+          if (token.filePath.includes('colour.json')) {
+            varName = 'colour-' + token.path.slice(0, -1).join('-');
+          } else {
+            const pathWithoutModes = token.path.slice(0, -2);
+            varName = pathWithoutModes.join('-');
+          }
+
+          output += `  --${varName}: ${token.value};\n`;
+        });
+
+        output += '}\n';
+        return output;
+      },
       'css/component-themes-classes': function ({ dictionary }) {
         // Group tokens by color mode and theme mode
         const grouped = {};
@@ -215,8 +267,13 @@ module.exports = {
         sortedKeys.forEach((key) => {
           const group = grouped[key];
 
+          // Skip the default (blue + neutral) combination as it will be in :root in variables.css
+          if (group.colorClass === 'blue' && group.themeClass === 'neutral') {
+            return;
+          }
+
           // Create class selector
-          output += `.lg-mode-${group.colorClass}.lg-${group.themeClass} {\n`;
+          output += `.lg-mode-${group.colorClass}.lg-theme-${group.themeClass} {\n`;
 
           // Sort tokens by name for consistent output
           group.tokens.sort((a, b) => a.name.localeCompare(b.name));
@@ -575,7 +632,7 @@ module.exports = {
       files: [
         {
           destination: 'variables.css',
-          format: 'css/variables',
+          format: 'css/variables-with-defaults',
           filter: function (token) {
             return token.value !== null && token.value !== undefined;
           },
