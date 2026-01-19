@@ -414,6 +414,154 @@ module.exports = {
         output += '}\n';
         return output;
       },
+      'typescript/variables-with-typography': function ({ dictionary }) {
+        const { allTokens } = dictionary;
+
+        // Helper to format value for TypeScript
+        const formatValue = (value) => {
+          if (typeof value === 'string') {
+            return `"${value.replace(/"/g, '\\"')}"`;
+          }
+          return JSON.stringify(value);
+        };
+
+        // Check if token is typography-related
+        const isTypographyToken = (token) => {
+          const typographyTypes = [
+            'fontWeights',
+            'fontFamilies',
+            'fontSizes',
+            'lineHeights',
+            'letterSpacing',
+            'fontSize',
+            'fontWeight',
+            'fontFamily',
+            'lineHeight',
+          ];
+          const isTypographyType = typographyTypes.includes(token.type);
+          const hasTypographyPath = token.path.some(
+            (p) =>
+              p.toLowerCase().includes('font') ||
+              p.toLowerCase().includes('letter-spacing') ||
+              p.toLowerCase().includes('line-height') ||
+              p.toLowerCase().includes('typography'),
+          );
+          return isTypographyType || hasTypographyPath;
+        };
+
+        let output = `/**\n * Do not edit directly, this file was auto-generated.\n */\n\n`;
+
+        // Generate tokens - skip typography tokens, simple exports for others
+        allTokens.forEach((token) => {
+          const name = token.name.replace(/-/g, '_').replace(/^_+/, '');
+
+          if (!isTypographyToken(token)) {
+            // Simple export for non-typography tokens
+            output += `export const ${name} = ${formatValue(token.value)};\n`;
+          }
+        });
+
+        // Now add typography composite styles
+
+        // Group font sizes and line heights by scale and mode
+        const fontSizeTokens = {};
+        const lineHeightTokens = {};
+        const fontFamilyTokens = {};
+
+        allTokens.forEach((token) => {
+          if (token.type === 'fontSizes' && token.path.includes('font-size')) {
+            const key = token.path.join('|');
+            fontSizeTokens[key] = token;
+          } else if (token.type === 'lineHeights' && token.path.includes('line-height')) {
+            const key = token.path.join('|');
+            lineHeightTokens[key] = token;
+          } else if (
+            token.type === 'fontFamilies' &&
+            token.path.includes('font-family')
+          ) {
+            const mode = token.path[token.path.length - 1];
+            fontFamilyTokens[mode] = token;
+          }
+        });
+
+        // Create composite typography objects
+        const typographyStyles = [];
+
+        Object.keys(fontSizeTokens).forEach((sizeKey) => {
+          const sizeToken = fontSizeTokens[sizeKey];
+          const sizePath = sizeKey.split('|');
+
+          // Try to find matching line height
+          const lineHeightKey = sizePath
+            .map((p) => (p === 'font-size' ? 'line-height' : p))
+            .join('|');
+          const lineHeightToken = lineHeightTokens[lineHeightKey];
+
+          if (lineHeightToken) {
+            const scale = sizePath[1];
+            const mode = sizePath[2];
+
+            // Determine font family based on scale and mode
+            const useExpressive =
+              parseInt(scale) >= 6 && ['LG', 'XL', 'XXL'].includes(mode);
+            const fontFamily = useExpressive
+              ? fontFamilyTokens['Expressive']
+                ? fontFamilyTokens['Expressive'].value
+                : 'ABC Otto'
+              : fontFamilyTokens['Productive']
+                ? fontFamilyTokens['Productive'].value
+                : 'Nunito Sans';
+
+            // Create meaningful name
+            const scaleNames = {
+              '0-6': 'Caption2',
+              '0-8': 'Caption1',
+              1: 'Body',
+              2: 'Callout',
+              3: 'Subheadline',
+              4: 'Headline',
+              5: 'Title3',
+              6: 'Title2',
+              7: 'Title1',
+              8: 'LargeTitle',
+              9: 'LargeTitle2',
+            };
+
+            const scaleName = scaleNames[scale] || `Size${scale}`;
+            const modeName = mode.charAt(0).toUpperCase() + mode.slice(1).toLowerCase();
+            const styleName = `typography${scaleName}${modeName}${useExpressive ? 'Expressive' : 'Productive'}`;
+
+            typographyStyles.push({
+              name: styleName,
+              fontFamily,
+              fontSize: sizeToken.value,
+              lineHeight: lineHeightToken.value,
+            });
+          }
+        });
+
+        // Sort and deduplicate typography styles
+        const uniqueStyles = {};
+        typographyStyles.forEach((style) => {
+          const key = `${style.fontSize}-${style.lineHeight}-${style.fontFamily}`;
+          if (!uniqueStyles[key] || style.name.length < uniqueStyles[key].name.length) {
+            uniqueStyles[key] = style;
+          }
+        });
+
+        // Output typography composite objects
+        Object.values(uniqueStyles)
+          .sort((a, b) => a.name.localeCompare(b.name))
+          .forEach((style) => {
+            output += `export const ${style.name} = {\n`;
+            output += `  fontFamily: "${style.fontFamily}",\n`;
+            output += `  fontSize: ${style.fontSize},\n`;
+            output += `  lineHeight: ${style.lineHeight},\n`;
+            output += `};\n`;
+          });
+
+        return output;
+      },
     },
   },
   preprocessors: ['tokens-studio'],
@@ -638,6 +786,21 @@ module.exports = {
           },
           options: {
             outputReferences: false,
+          },
+        },
+      ],
+    },
+
+    // TypeScript tokens
+    ts: {
+      transformGroup: 'react-native',
+      buildPath: 'build/ts/',
+      files: [
+        {
+          destination: 'variables.ts',
+          format: 'typescript/variables-with-typography',
+          filter: function (token) {
+            return token.value !== null && token.value !== undefined;
           },
         },
       ],

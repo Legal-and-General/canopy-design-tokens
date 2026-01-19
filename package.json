@@ -4,7 +4,8 @@
   "description": "Design tokens for the Canopy design system",
   "main": "config.json",
   "files": [
-    "css/"
+    "css/",
+    "ts/"
   ],
   "scripts": {
     "tokens:fetch-raw": "node fetch-figma-tokens.js",
@@ -14,7 +15,7 @@
     "format": "prettier --write .",
     "format:check": "prettier --check .",
     "prepare": "husky install",
-    "prepublishOnly": "cp -r build/css css"
+    "prepublishOnly": "cp -r build/css css && cp -r build/ts ts"
   },
   "devDependencies": {
     "@commitlint/cli": "^17.4.2",
