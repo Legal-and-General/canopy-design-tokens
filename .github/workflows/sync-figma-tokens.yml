@@ -59,7 +59,7 @@ jobs:
         uses: peter-evans/create-pull-request@v6
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          commit-message: 'chore: update Figma design tokens'
+          commit-message: 'chore(design-tokens): update Figma design tokens'
           title: 'chore: Update Figma design tokens'
           body: |
             ## Automated Figma Token Update
