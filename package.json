@@ -4,7 +4,7 @@
   "description": "Design tokens for the Canopy design system",
   "main": "config.json",
   "files": [
-    "build/css/"
+    "css/"
   ],
   "scripts": {
     "tokens:fetch-raw": "node fetch-figma-tokens.js",
@@ -13,7 +13,8 @@
     "commit": "npx git-cz",
     "format": "prettier --write .",
     "format:check": "prettier --check .",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "prepublishOnly": "cp -r build/css css"
   },
   "devDependencies": {
     "@commitlint/cli": "^17.4.2",
