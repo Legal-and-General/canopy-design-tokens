@@ -1,6 +1,6 @@
 {
   "$description": "Design tokens from Component themes collection",
-  "$timestamp": "2025-12-19T14:39:17.213Z",
+  "$timestamp": "2026-01-19T14:30:17.914Z",
   "body": {
     "background-colour-default": {
       "Neutral": {
@@ -765,6 +765,426 @@
           "description": "Border colours for containers. Use for separators and borders, when required."
         }
       }
+    },
+    "padding-x": {
+      "Neutral": {
+        "Blue": {
+          "value": 28,
+          "type": "spacing",
+          "description": "Container padding left and right"
+        },
+        "Green": {
+          "value": 28,
+          "type": "spacing",
+          "description": "Container padding left and right"
+        },
+        "Red": {
+          "value": 28,
+          "type": "spacing",
+          "description": "Container padding left and right"
+        },
+        "Yellow": {
+          "value": 28,
+          "type": "spacing",
+          "description": "Container padding left and right"
+        }
+      },
+      "Subtle": {
+        "Blue": {
+          "value": 28,
+          "type": "spacing",
+          "description": "Container padding left and right"
+        },
+        "Green": {
+          "value": 28,
+          "type": "spacing",
+          "description": "Container padding left and right"
+        },
+        "Red": {
+          "value": 28,
+          "type": "spacing",
+          "description": "Container padding left and right"
+        },
+        "Yellow": {
+          "value": 28,
+          "type": "spacing",
+          "description": "Container padding left and right"
+        }
+      },
+      "Bold": {
+        "Blue": {
+          "value": 28,
+          "type": "spacing",
+          "description": "Container padding left and right"
+        },
+        "Green": {
+          "value": 28,
+          "type": "spacing",
+          "description": "Container padding left and right"
+        },
+        "Red": {
+          "value": 28,
+          "type": "spacing",
+          "description": "Container padding left and right"
+        },
+        "Yellow": {
+          "value": 28,
+          "type": "spacing",
+          "description": "Container padding left and right"
+        }
+      },
+      "Neutral inverse": {
+        "Blue": {
+          "value": 28,
+          "type": "spacing",
+          "description": "Container padding left and right"
+        },
+        "Green": {
+          "value": 28,
+          "type": "spacing",
+          "description": "Container padding left and right"
+        },
+        "Red": {
+          "value": 28,
+          "type": "spacing",
+          "description": "Container padding left and right"
+        },
+        "Yellow": {
+          "value": 28,
+          "type": "spacing",
+          "description": "Container padding left and right"
+        }
+      }
+    },
+    "padding-y": {
+      "Neutral": {
+        "Blue": {
+          "value": 20,
+          "type": "spacing",
+          "description": "Container padding top and bottom"
+        },
+        "Green": {
+          "value": 20,
+          "type": "spacing",
+          "description": "Container padding top and bottom"
+        },
+        "Red": {
+          "value": 20,
+          "type": "spacing",
+          "description": "Container padding top and bottom"
+        },
+        "Yellow": {
+          "value": 20,
+          "type": "spacing",
+          "description": "Container padding top and bottom"
+        }
+      },
+      "Subtle": {
+        "Blue": {
+          "value": 20,
+          "type": "spacing",
+          "description": "Container padding top and bottom"
+        },
+        "Green": {
+          "value": 20,
+          "type": "spacing",
+          "description": "Container padding top and bottom"
+        },
+        "Red": {
+          "value": 20,
+          "type": "spacing",
+          "description": "Container padding top and bottom"
+        },
+        "Yellow": {
+          "value": 20,
+          "type": "spacing",
+          "description": "Container padding top and bottom"
+        }
+      },
+      "Bold": {
+        "Blue": {
+          "value": 20,
+          "type": "spacing",
+          "description": "Container padding top and bottom"
+        },
+        "Green": {
+          "value": 20,
+          "type": "spacing",
+          "description": "Container padding top and bottom"
+        },
+        "Red": {
+          "value": 20,
+          "type": "spacing",
+          "description": "Container padding top and bottom"
+        },
+        "Yellow": {
+          "value": 20,
+          "type": "spacing",
+          "description": "Container padding top and bottom"
+        }
+      },
+      "Neutral inverse": {
+        "Blue": {
+          "value": 20,
+          "type": "spacing",
+          "description": "Container padding top and bottom"
+        },
+        "Green": {
+          "value": 20,
+          "type": "spacing",
+          "description": "Container padding top and bottom"
+        },
+        "Red": {
+          "value": 20,
+          "type": "spacing",
+          "description": "Container padding top and bottom"
+        },
+        "Yellow": {
+          "value": 20,
+          "type": "spacing",
+          "description": "Container padding top and bottom"
+        }
+      }
+    },
+    "border-radius": {
+      "Neutral": {
+        "Blue": {
+          "value": 28,
+          "type": "borderRadius"
+        },
+        "Green": {
+          "value": 28,
+          "type": "borderRadius"
+        },
+        "Red": {
+          "value": 28,
+          "type": "borderRadius"
+        },
+        "Yellow": {
+          "value": 28,
+          "type": "borderRadius"
+        }
+      },
+      "Subtle": {
+        "Blue": {
+          "value": 28,
+          "type": "borderRadius"
+        },
+        "Green": {
+          "value": 28,
+          "type": "borderRadius"
+        },
+        "Red": {
+          "value": 28,
+          "type": "borderRadius"
+        },
+        "Yellow": {
+          "value": 28,
+          "type": "borderRadius"
+        }
+      },
+      "Bold": {
+        "Blue": {
+          "value": 28,
+          "type": "borderRadius"
+        },
+        "Green": {
+          "value": 28,
+          "type": "borderRadius"
+        },
+        "Red": {
+          "value": 28,
+          "type": "borderRadius"
+        },
+        "Yellow": {
+          "value": 28,
+          "type": "borderRadius"
+        }
+      },
+      "Neutral inverse": {
+        "Blue": {
+          "value": 28,
+          "type": "borderRadius"
+        },
+        "Green": {
+          "value": 28,
+          "type": "borderRadius"
+        },
+        "Red": {
+          "value": 28,
+          "type": "borderRadius"
+        },
+        "Yellow": {
+          "value": 28,
+          "type": "borderRadius"
+        }
+      }
+    },
+    "border-width": {
+      "Neutral": {
+        "Blue": {
+          "value": 1,
+          "type": "borderWidth"
+        },
+        "Green": {
+          "value": 1,
+          "type": "borderWidth"
+        },
+        "Red": {
+          "value": 1,
+          "type": "borderWidth"
+        },
+        "Yellow": {
+          "value": 1,
+          "type": "borderWidth"
+        }
+      },
+      "Subtle": {
+        "Blue": {
+          "value": 1,
+          "type": "borderWidth"
+        },
+        "Green": {
+          "value": 1,
+          "type": "borderWidth"
+        },
+        "Red": {
+          "value": 1,
+          "type": "borderWidth"
+        },
+        "Yellow": {
+          "value": 1,
+          "type": "borderWidth"
+        }
+      },
+      "Bold": {
+        "Blue": {
+          "value": 1,
+          "type": "borderWidth"
+        },
+        "Green": {
+          "value": 1,
+          "type": "borderWidth"
+        },
+        "Red": {
+          "value": 1,
+          "type": "borderWidth"
+        },
+        "Yellow": {
+          "value": 1,
+          "type": "borderWidth"
+        }
+      },
+      "Neutral inverse": {
+        "Blue": {
+          "value": 1,
+          "type": "borderWidth"
+        },
+        "Green": {
+          "value": 1,
+          "type": "borderWidth"
+        },
+        "Red": {
+          "value": 1,
+          "type": "borderWidth"
+        },
+        "Yellow": {
+          "value": 1,
+          "type": "borderWidth"
+        }
+      }
+    },
+    "situational": {
+      "background-colour": {
+        "Neutral": {
+          "Blue": {
+            "value": "#aee1f7",
+            "type": "color",
+            "description": "Use for background colours on info, success, warning and error containers"
+          },
+          "Green": {
+            "value": "#caeedd",
+            "type": "color",
+            "description": "Use for background colours on info, success, warning and error containers"
+          },
+          "Red": {
+            "value": "#ffd5d2",
+            "type": "color",
+            "description": "Use for background colours on info, success, warning and error containers"
+          },
+          "Yellow": {
+            "value": "#fff9c7",
+            "type": "color",
+            "description": "Use for background colours on info, success, warning and error containers"
+          }
+        },
+        "Subtle": {
+          "Blue": {
+            "value": "#aee1f7",
+            "type": "color",
+            "description": "Use for background colours on info, success, warning and error containers"
+          },
+          "Green": {
+            "value": "#caeedd",
+            "type": "color",
+            "description": "Use for background colours on info, success, warning and error containers"
+          },
+          "Red": {
+            "value": "#ffd5d2",
+            "type": "color",
+            "description": "Use for background colours on info, success, warning and error containers"
+          },
+          "Yellow": {
+            "value": "#fff9c7",
+            "type": "color",
+            "description": "Use for background colours on info, success, warning and error containers"
+          }
+        },
+        "Bold": {
+          "Blue": {
+            "value": "#005dba",
+            "type": "color",
+            "description": "Use for background colours on info, success, warning and error containers"
+          },
+          "Green": {
+            "value": "#00633d",
+            "type": "color",
+            "description": "Use for background colours on info, success, warning and error containers"
+          },
+          "Red": {
+            "value": "#c50b30",
+            "type": "color",
+            "description": "Use for background colours on info, success, warning and error containers"
+          },
+          "Yellow": {
+            "value": "#ffb600",
+            "type": "color",
+            "description": "Use for background colours on info, success, warning and error containers"
+          }
+        },
+        "Neutral inverse": {
+          "Blue": {
+            "value": "#aee1f7",
+            "type": "color",
+            "description": "Use for background colours on info, success, warning and error containers"
+          },
+          "Green": {
+            "value": "#caeedd",
+            "type": "color",
+            "description": "Use for background colours on info, success, warning and error containers"
+          },
+          "Red": {
+            "value": "#ffd5d2",
+            "type": "color",
+            "description": "Use for background colours on info, success, warning and error containers"
+          },
+          "Yellow": {
+            "value": "#fff9c7",
+            "type": "color",
+            "description": "Use for background colours on info, success, warning and error containers"
+          }
+        }
+      }
     }
   },
   "interactive": {
@@ -997,22 +1417,22 @@
           },
           "Bold": {
             "Blue": {
-              "value": "#005dba",
+              "value": "#1d1d1b",
               "type": "color",
               "description": "Primary default foreground colour for interactive components. Use for text and icons."
             },
             "Green": {
-              "value": "#00633d",
+              "value": "#1d1d1b",
               "type": "color",
               "description": "Primary default foreground colour for interactive components. Use for text and icons."
             },
             "Red": {
-              "value": "#c50b30",
+              "value": "#1d1d1b",
               "type": "color",
               "description": "Primary default foreground colour for interactive components. Use for text and icons."
             },
             "Yellow": {
-              "value": "#ffb600",
+              "value": "#f4f4f4",
               "type": "color",
               "description": "Primary default foreground colour for interactive components. Use for text and icons."
             }
@@ -1045,61 +1465,61 @@
         "background-colour": {
           "Neutral": {
             "Blue": {
-              "value": "#42aeea",
+              "value": "#001d6e",
               "type": "color",
               "description": "Primary hover background colour for interactive components"
             },
             "Green": {
-              "value": "#43af6e",
+              "value": "#01312e",
               "type": "color",
               "description": "Primary hover background colour for interactive components"
             },
             "Red": {
-              "value": "#ff3e51",
+              "value": "#940824",
               "type": "color",
               "description": "Primary hover background colour for interactive components"
             },
             "Yellow": {
-              "value": "#ffe969",
+              "value": "#904029",
               "type": "color",
               "description": "Primary hover background colour for interactive components"
             }
           },
           "Subtle": {
             "Blue": {
-              "value": "#42aeea",
+              "value": "#001d6e",
               "type": "color",
               "description": "Primary hover background colour for interactive components"
             },
             "Green": {
-              "value": "#43af6e",
+              "value": "#01312e",
               "type": "color",
               "description": "Primary hover background colour for interactive components"
             },
             "Red": {
-              "value": "#ff3e51",
+              "value": "#940824",
               "type": "color",
               "description": "Primary hover background colour for interactive components"
             },
             "Yellow": {
-              "value": "#ffe969",
+              "value": "#904029",
               "type": "color",
               "description": "Primary hover background colour for interactive components"
             }
           },
           "Bold": {
             "Blue": {
-              "value": "#42aeea",
+              "value": "#001d6e",
               "type": "color",
               "description": "Primary hover background colour for interactive components"
             },
             "Green": {
-              "value": "#43af6e",
+              "value": "#01312e",
               "type": "color",
               "description": "Primary hover background colour for interactive components"
             },
             "Red": {
-              "value": "#ff3e51",
+              "value": "#940824",
               "type": "color",
               "description": "Primary hover background colour for interactive components"
             },
@@ -1111,22 +1531,22 @@
           },
           "Neutral inverse": {
             "Blue": {
-              "value": "#42aeea",
+              "value": "#001d6e",
               "type": "color",
               "description": "Primary hover background colour for interactive components"
             },
             "Green": {
-              "value": "#43af6e",
+              "value": "#01312e",
               "type": "color",
               "description": "Primary hover background colour for interactive components"
             },
             "Red": {
-              "value": "#ff3e51",
+              "value": "#940824",
               "type": "color",
               "description": "Primary hover background colour for interactive components"
             },
             "Yellow": {
-              "value": "#ffe969",
+              "value": "#904029",
               "type": "color",
               "description": "Primary hover background colour for interactive components"
             }
@@ -1135,88 +1555,88 @@
         "border-colour": {
           "Neutral": {
             "Blue": {
-              "value": "#1d1d1b",
+              "value": "#001d6e",
               "type": "color",
               "description": "Primary hover border colour for interactive components"
             },
             "Green": {
-              "value": "#1d1d1b",
+              "value": "#01312e",
               "type": "color",
               "description": "Primary hover border colour for interactive components"
             },
             "Red": {
-              "value": "#1d1d1b",
+              "value": "#940824",
               "type": "color",
               "description": "Primary hover border colour for interactive components"
             },
             "Yellow": {
-              "value": "#000000",
+              "value": "#904029",
               "type": "color",
               "description": "Primary hover border colour for interactive components"
             }
           },
           "Subtle": {
             "Blue": {
-              "value": "#1d1d1b",
+              "value": "#001d6e",
               "type": "color",
               "description": "Primary hover border colour for interactive components"
             },
             "Green": {
-              "value": "#1d1d1b",
+              "value": "#01312e",
               "type": "color",
               "description": "Primary hover border colour for interactive components"
             },
             "Red": {
-              "value": "#1d1d1b",
+              "value": "#940824",
               "type": "color",
               "description": "Primary hover border colour for interactive components"
             },
             "Yellow": {
-              "value": "#000000",
+              "value": "#904029",
               "type": "color",
               "description": "Primary hover border colour for interactive components"
             }
           },
           "Bold": {
             "Blue": {
-              "value": "#1d1d1b",
+              "value": "#ffffff",
               "type": "color",
               "description": "Primary hover border colour for interactive components"
             },
             "Green": {
-              "value": "#1d1d1b",
+              "value": "#ffffff",
               "type": "color",
               "description": "Primary hover border colour for interactive components"
             },
             "Red": {
-              "value": "#1d1d1b",
+              "value": "#ffffff",
               "type": "color",
               "description": "Primary hover border colour for interactive components"
             },
             "Yellow": {
-              "value": "#000000",
+              "value": "#1d1d1b",
               "type": "color",
               "description": "Primary hover border colour for interactive components"
             }
           },
           "Neutral inverse": {
             "Blue": {
-              "value": "#1d1d1b",
+              "value": "#001d6e",
               "type": "color",
               "description": "Primary hover border colour for interactive components"
             },
             "Green": {
-              "value": "#1d1d1b",
+              "value": "#01312e",
               "type": "color",
               "description": "Primary hover border colour for interactive components"
             },
             "Red": {
-              "value": "#1d1d1b",
+              "value": "#940824",
               "type": "color",
               "description": "Primary hover border colour for interactive components"
             },
             "Yellow": {
-              "value": "#000000",
+              "value": "#904029",
               "type": "color",
               "description": "Primary hover border colour for interactive components"
             }
@@ -1225,88 +1645,88 @@
         "colour": {
           "Neutral": {
             "Blue": {
-              "value": "#1d1d1b",
+              "value": "#ffffff",
               "type": "color",
               "description": "Primary hover foreground colour for interactive components. Use for text and icons."
             },
             "Green": {
-              "value": "#1d1d1b",
+              "value": "#ffffff",
               "type": "color",
               "description": "Primary hover foreground colour for interactive components. Use for text and icons."
             },
             "Red": {
-              "value": "#1d1d1b",
+              "value": "#ffffff",
               "type": "color",
               "description": "Primary hover foreground colour for interactive components. Use for text and icons."
             },
             "Yellow": {
-              "value": "#000000",
+              "value": "#ffffff",
               "type": "color",
               "description": "Primary hover foreground colour for interactive components. Use for text and icons."
             }
           },
           "Subtle": {
             "Blue": {
-              "value": "#1d1d1b",
+              "value": "#ffffff",
               "type": "color",
               "description": "Primary hover foreground colour for interactive components. Use for text and icons."
             },
             "Green": {
-              "value": "#1d1d1b",
+              "value": "#ffffff",
               "type": "color",
               "description": "Primary hover foreground colour for interactive components. Use for text and icons."
             },
             "Red": {
-              "value": "#1d1d1b",
+              "value": "#ffffff",
               "type": "color",
               "description": "Primary hover foreground colour for interactive components. Use for text and icons."
             },
             "Yellow": {
-              "value": "#000000",
+              "value": "#ffffff",
               "type": "color",
               "description": "Primary hover foreground colour for interactive components. Use for text and icons."
             }
           },
           "Bold": {
             "Blue": {
-              "value": "#1d1d1b",
+              "value": "#ffffff",
               "type": "color",
               "description": "Primary hover foreground colour for interactive components. Use for text and icons."
             },
             "Green": {
-              "value": "#1d1d1b",
+              "value": "#ffffff",
               "type": "color",
               "description": "Primary hover foreground colour for interactive components. Use for text and icons."
             },
             "Red": {
-              "value": "#1d1d1b",
+              "value": "#ffffff",
               "type": "color",
               "description": "Primary hover foreground colour for interactive components. Use for text and icons."
             },
             "Yellow": {
-              "value": "#000000",
+              "value": "#1d1d1b",
               "type": "color",
               "description": "Primary hover foreground colour for interactive components. Use for text and icons."
             }
           },
           "Neutral inverse": {
             "Blue": {
-              "value": "#1d1d1b",
+              "value": "#ffffff",
               "type": "color",
               "description": "Primary hover foreground colour for interactive components. Use for text and icons."
             },
             "Green": {
-              "value": "#1d1d1b",
+              "value": "#ffffff",
               "type": "color",
               "description": "Primary hover foreground colour for interactive components. Use for text and icons."
             },
             "Red": {
-              "value": "#1d1d1b",
+              "value": "#ffffff",
               "type": "color",
               "description": "Primary hover foreground colour for interactive components. Use for text and icons."
             },
             "Yellow": {
-              "value": "#000000",
+              "value": "#ffffff",
               "type": "color",
               "description": "Primary hover foreground colour for interactive components. Use for text and icons."
             }
@@ -1317,61 +1737,61 @@
         "background-colour": {
           "Neutral": {
             "Blue": {
-              "value": "#d2effb",
+              "value": "#000039",
               "type": "color",
               "description": "Primary active background colour for interactive components"
             },
             "Green": {
-              "value": "#dff6eb",
+              "value": "#011b1f",
               "type": "color",
               "description": "Primary active background colour for interactive components"
             },
             "Red": {
-              "value": "#ffd5d2",
+              "value": "#480411",
               "type": "color",
               "description": "Primary active background colour for interactive components"
             },
             "Yellow": {
-              "value": "#fffbdc",
+              "value": "#572722",
               "type": "color",
               "description": "Primary active background colour for interactive components"
             }
           },
           "Subtle": {
             "Blue": {
-              "value": "#d2effb",
+              "value": "#000039",
               "type": "color",
               "description": "Primary active background colour for interactive components"
             },
             "Green": {
-              "value": "#dff6eb",
+              "value": "#011b1f",
               "type": "color",
               "description": "Primary active background colour for interactive components"
             },
             "Red": {
-              "value": "#ffd5d2",
+              "value": "#480411",
               "type": "color",
               "description": "Primary active background colour for interactive components"
             },
             "Yellow": {
-              "value": "#fffbdc",
+              "value": "#572722",
               "type": "color",
               "description": "Primary active background colour for interactive components"
             }
           },
           "Bold": {
             "Blue": {
-              "value": "#d2effb",
+              "value": "#000039",
               "type": "color",
               "description": "Primary active background colour for interactive components"
             },
             "Green": {
-              "value": "#dff6eb",
+              "value": "#011b1f",
               "type": "color",
               "description": "Primary active background colour for interactive components"
             },
             "Red": {
-              "value": "#ffd5d2",
+              "value": "#480411",
               "type": "color",
               "description": "Primary active background colour for interactive components"
             },
@@ -1383,22 +1803,22 @@
           },
           "Neutral inverse": {
             "Blue": {
-              "value": "#d2effb",
+              "value": "#000039",
               "type": "color",
               "description": "Primary active background colour for interactive components"
             },
             "Green": {
-              "value": "#dff6eb",
+              "value": "#011b1f",
               "type": "color",
               "description": "Primary active background colour for interactive components"
             },
             "Red": {
-              "value": "#ffd5d2",
+              "value": "#480411",
               "type": "color",
               "description": "Primary active background colour for interactive components"
             },
             "Yellow": {
-              "value": "#fffbdc",
+              "value": "#572722",
               "type": "color",
               "description": "Primary active background colour for interactive components"
             }
@@ -1407,88 +1827,88 @@
         "border-colour": {
           "Neutral": {
             "Blue": {
-              "value": "#1d1d1b",
+              "value": "#000039",
               "type": "color",
               "description": "Primary active border colour for interactive components"
             },
             "Green": {
-              "value": "#1d1d1b",
+              "value": "#011b1f",
               "type": "color",
               "description": "Primary active border colour for interactive components"
             },
             "Red": {
-              "value": "#1d1d1b",
+              "value": "#480411",
               "type": "color",
               "description": "Primary active border colour for interactive components"
             },
             "Yellow": {
-              "value": "#000000",
+              "value": "#572722",
               "type": "color",
               "description": "Primary active border colour for interactive components"
             }
           },
           "Subtle": {
             "Blue": {
-              "value": "#1d1d1b",
+              "value": "#000039",
               "type": "color",
               "description": "Primary active border colour for interactive components"
             },
             "Green": {
-              "value": "#1d1d1b",
+              "value": "#011b1f",
               "type": "color",
               "description": "Primary active border colour for interactive components"
             },
             "Red": {
-              "value": "#1d1d1b",
+              "value": "#480411",
               "type": "color",
               "description": "Primary active border colour for interactive components"
             },
             "Yellow": {
-              "value": "#000000",
+              "value": "#572722",
               "type": "color",
               "description": "Primary active border colour for interactive components"
             }
           },
           "Bold": {
             "Blue": {
-              "value": "#1d1d1b",
+              "value": "#ffffff",
               "type": "color",
               "description": "Primary active border colour for interactive components"
             },
             "Green": {
-              "value": "#1d1d1b",
+              "value": "#ffffff",
               "type": "color",
               "description": "Primary active border colour for interactive components"
             },
             "Red": {
-              "value": "#1d1d1b",
+              "value": "#ffffff",
               "type": "color",
               "description": "Primary active border colour for interactive components"
             },
             "Yellow": {
-              "value": "#000000",
+              "value": "#1d1d1b",
               "type": "color",
               "description": "Primary active border colour for interactive components"
             }
           },
           "Neutral inverse": {
             "Blue": {
-              "value": "#1d1d1b",
+              "value": "#000039",
               "type": "color",
               "description": "Primary active border colour for interactive components"
             },
             "Green": {
-              "value": "#1d1d1b",
+              "value": "#011b1f",
               "type": "color",
               "description": "Primary active border colour for interactive components"
             },
             "Red": {
-              "value": "#1d1d1b",
+              "value": "#480411",
               "type": "color",
               "description": "Primary active border colour for interactive components"
             },
             "Yellow": {
-              "value": "#000000",
+              "value": "#572722",
               "type": "color",
               "description": "Primary active border colour for interactive components"
             }
@@ -1497,88 +1917,88 @@
         "colour": {
           "Neutral": {
             "Blue": {
-              "value": "#1d1d1b",
+              "value": "#ffffff",
               "type": "color",
               "description": "Primary active foreground colour for interactive components. Use for text and icons."
             },
             "Green": {
-              "value": "#1d1d1b",
+              "value": "#ffffff",
               "type": "color",
               "description": "Primary active foreground colour for interactive components. Use for text and icons."
             },
             "Red": {
-              "value": "#1d1d1b",
+              "value": "#ffffff",
               "type": "color",
               "description": "Primary active foreground colour for interactive components. Use for text and icons."
             },
             "Yellow": {
-              "value": "#000000",
+              "value": "#ffffff",
               "type": "color",
               "description": "Primary active foreground colour for interactive components. Use for text and icons."
             }
           },
           "Subtle": {
             "Blue": {
-              "value": "#1d1d1b",
+              "value": "#ffffff",
               "type": "color",
               "description": "Primary active foreground colour for interactive components. Use for text and icons."
             },
             "Green": {
-              "value": "#1d1d1b",
+              "value": "#ffffff",
               "type": "color",
               "description": "Primary active foreground colour for interactive components. Use for text and icons."
             },
             "Red": {
-              "value": "#1d1d1b",
+              "value": "#ffffff",
               "type": "color",
               "description": "Primary active foreground colour for interactive components. Use for text and icons."
             },
             "Yellow": {
-              "value": "#000000",
+              "value": "#ffffff",
               "type": "color",
               "description": "Primary active foreground colour for interactive components. Use for text and icons."
             }
           },
           "Bold": {
             "Blue": {
-              "value": "#1d1d1b",
+              "value": "#ffffff",
               "type": "color",
               "description": "Primary active foreground colour for interactive components. Use for text and icons."
             },
             "Green": {
-              "value": "#1d1d1b",
+              "value": "#ffffff",
               "type": "color",
               "description": "Primary active foreground colour for interactive components. Use for text and icons."
             },
             "Red": {
-              "value": "#1d1d1b",
+              "value": "#ffffff",
               "type": "color",
               "description": "Primary active foreground colour for interactive components. Use for text and icons."
             },
             "Yellow": {
-              "value": "#000000",
+              "value": "#1d1d1b",
               "type": "color",
               "description": "Primary active foreground colour for interactive components. Use for text and icons."
             }
           },
           "Neutral inverse": {
             "Blue": {
-              "value": "#1d1d1b",
+              "value": "#ffffff",
               "type": "color",
               "description": "Primary active foreground colour for interactive components. Use for text and icons."
             },
             "Green": {
-              "value": "#1d1d1b",
+              "value": "#ffffff",
               "type": "color",
               "description": "Primary active foreground colour for interactive components. Use for text and icons."
             },
             "Red": {
-              "value": "#1d1d1b",
+              "value": "#ffffff",
               "type": "color",
               "description": "Primary active foreground colour for interactive components. Use for text and icons."
             },
             "Yellow": {
-              "value": "#000000",
+              "value": "#ffffff",
               "type": "color",
               "description": "Primary active foreground colour for interactive components. Use for text and icons."
             }
@@ -1813,22 +2233,22 @@
           },
           "Bold": {
             "Blue": {
-              "value": "#005dba",
+              "value": "#1d1d1b",
               "type": "color",
               "description": "Primary focus foreground colour for interactive components. Use for text and icons."
             },
             "Green": {
-              "value": "#00633d",
+              "value": "#1d1d1b",
               "type": "color",
               "description": "Primary focus foreground colour for interactive components. Use for text and icons."
             },
             "Red": {
-              "value": "#c50b30",
+              "value": "#1d1d1b",
               "type": "color",
               "description": "Primary focus foreground colour for interactive components. Use for text and icons."
             },
             "Yellow": {
-              "value": "#ffb600",
+              "value": "#f4f4f4",
               "type": "color",
               "description": "Primary focus foreground colour for interactive components. Use for text and icons."
             }
@@ -1853,6 +2273,278 @@
               "value": "#1d1d1b",
               "type": "color",
               "description": "Primary focus foreground colour for interactive components. Use for text and icons."
+            }
+          }
+        }
+      },
+      "disabled": {
+        "background-colour": {
+          "Neutral": {
+            "Blue": {
+              "value": "#d3d3d3",
+              "type": "color",
+              "description": "Primary disabled background colour for interactive components"
+            },
+            "Green": {
+              "value": "#d3d3d3",
+              "type": "color",
+              "description": "Primary disabled background colour for interactive components"
+            },
+            "Red": {
+              "value": "#d3d3d3",
+              "type": "color",
+              "description": "Primary disabled background colour for interactive components"
+            },
+            "Yellow": {
+              "value": "#d3d3d3",
+              "type": "color",
+              "description": "Primary disabled background colour for interactive components"
+            }
+          },
+          "Subtle": {
+            "Blue": {
+              "value": "#d3d3d3",
+              "type": "color",
+              "description": "Primary disabled background colour for interactive components"
+            },
+            "Green": {
+              "value": "#d3d3d3",
+              "type": "color",
+              "description": "Primary disabled background colour for interactive components"
+            },
+            "Red": {
+              "value": "#d3d3d3",
+              "type": "color",
+              "description": "Primary disabled background colour for interactive components"
+            },
+            "Yellow": {
+              "value": "#d3d3d3",
+              "type": "color",
+              "description": "Primary disabled background colour for interactive components"
+            }
+          },
+          "Bold": {
+            "Blue": {
+              "value": "#d3d3d3",
+              "type": "color",
+              "description": "Primary disabled background colour for interactive components"
+            },
+            "Green": {
+              "value": "#d3d3d3",
+              "type": "color",
+              "description": "Primary disabled background colour for interactive components"
+            },
+            "Red": {
+              "value": "#d3d3d3",
+              "type": "color",
+              "description": "Primary disabled background colour for interactive components"
+            },
+            "Yellow": {
+              "value": "#d3d3d3",
+              "type": "color",
+              "description": "Primary disabled background colour for interactive components"
+            }
+          },
+          "Neutral inverse": {
+            "Blue": {
+              "value": "#d3d3d3",
+              "type": "color",
+              "description": "Primary disabled background colour for interactive components"
+            },
+            "Green": {
+              "value": "#d3d3d3",
+              "type": "color",
+              "description": "Primary disabled background colour for interactive components"
+            },
+            "Red": {
+              "value": "#d3d3d3",
+              "type": "color",
+              "description": "Primary disabled background colour for interactive components"
+            },
+            "Yellow": {
+              "value": "#d3d3d3",
+              "type": "color",
+              "description": "Primary disabled background colour for interactive components"
+            }
+          }
+        },
+        "border-colour": {
+          "Neutral": {
+            "Blue": {
+              "value": "#d3d3d3",
+              "type": "color",
+              "description": "Primary disabled foreground colour for interactive components. Use for text and icons."
+            },
+            "Green": {
+              "value": "#d3d3d3",
+              "type": "color",
+              "description": "Primary disabled foreground colour for interactive components. Use for text and icons."
+            },
+            "Red": {
+              "value": "#d3d3d3",
+              "type": "color",
+              "description": "Primary disabled foreground colour for interactive components. Use for text and icons."
+            },
+            "Yellow": {
+              "value": "#d3d3d3",
+              "type": "color",
+              "description": "Primary disabled foreground colour for interactive components. Use for text and icons."
+            }
+          },
+          "Subtle": {
+            "Blue": {
+              "value": "#d3d3d3",
+              "type": "color",
+              "description": "Primary disabled foreground colour for interactive components. Use for text and icons."
+            },
+            "Green": {
+              "value": "#d3d3d3",
+              "type": "color",
+              "description": "Primary disabled foreground colour for interactive components. Use for text and icons."
+            },
+            "Red": {
+              "value": "#d3d3d3",
+              "type": "color",
+              "description": "Primary disabled foreground colour for interactive components. Use for text and icons."
+            },
+            "Yellow": {
+              "value": "#d3d3d3",
+              "type": "color",
+              "description": "Primary disabled foreground colour for interactive components. Use for text and icons."
+            }
+          },
+          "Bold": {
+            "Blue": {
+              "value": "#d3d3d3",
+              "type": "color",
+              "description": "Primary disabled foreground colour for interactive components. Use for text and icons."
+            },
+            "Green": {
+              "value": "#d3d3d3",
+              "type": "color",
+              "description": "Primary disabled foreground colour for interactive components. Use for text and icons."
+            },
+            "Red": {
+              "value": "#d3d3d3",
+              "type": "color",
+              "description": "Primary disabled foreground colour for interactive components. Use for text and icons."
+            },
+            "Yellow": {
+              "value": "#d3d3d3",
+              "type": "color",
+              "description": "Primary disabled foreground colour for interactive components. Use for text and icons."
+            }
+          },
+          "Neutral inverse": {
+            "Blue": {
+              "value": "#d3d3d3",
+              "type": "color",
+              "description": "Primary disabled foreground colour for interactive components. Use for text and icons."
+            },
+            "Green": {
+              "value": "#d3d3d3",
+              "type": "color",
+              "description": "Primary disabled foreground colour for interactive components. Use for text and icons."
+            },
+            "Red": {
+              "value": "#d3d3d3",
+              "type": "color",
+              "description": "Primary disabled foreground colour for interactive components. Use for text and icons."
+            },
+            "Yellow": {
+              "value": "#d3d3d3",
+              "type": "color",
+              "description": "Primary disabled foreground colour for interactive components. Use for text and icons."
+            }
+          }
+        },
+        "colour": {
+          "Neutral": {
+            "Blue": {
+              "value": "#7a7b7b",
+              "type": "color",
+              "description": "Primary disabled border colour for interactive components"
+            },
+            "Green": {
+              "value": "#7a7b7b",
+              "type": "color",
+              "description": "Primary disabled border colour for interactive components"
+            },
+            "Red": {
+              "value": "#7a7b7b",
+              "type": "color",
+              "description": "Primary disabled border colour for interactive components"
+            },
+            "Yellow": {
+              "value": "#7a7b7b",
+              "type": "color",
+              "description": "Primary disabled border colour for interactive components"
+            }
+          },
+          "Subtle": {
+            "Blue": {
+              "value": "#7a7b7b",
+              "type": "color",
+              "description": "Primary disabled border colour for interactive components"
+            },
+            "Green": {
+              "value": "#7a7b7b",
+              "type": "color",
+              "description": "Primary disabled border colour for interactive components"
+            },
+            "Red": {
+              "value": "#7a7b7b",
+              "type": "color",
+              "description": "Primary disabled border colour for interactive components"
+            },
+            "Yellow": {
+              "value": "#7a7b7b",
+              "type": "color",
+              "description": "Primary disabled border colour for interactive components"
+            }
+          },
+          "Bold": {
+            "Blue": {
+              "value": "#7a7b7b",
+              "type": "color",
+              "description": "Primary disabled border colour for interactive components"
+            },
+            "Green": {
+              "value": "#7a7b7b",
+              "type": "color",
+              "description": "Primary disabled border colour for interactive components"
+            },
+            "Red": {
+              "value": "#7a7b7b",
+              "type": "color",
+              "description": "Primary disabled border colour for interactive components"
+            },
+            "Yellow": {
+              "value": "#7a7b7b",
+              "type": "color",
+              "description": "Primary disabled border colour for interactive components"
+            }
+          },
+          "Neutral inverse": {
+            "Blue": {
+              "value": "#7a7b7b",
+              "type": "color",
+              "description": "Primary disabled border colour for interactive components"
+            },
+            "Green": {
+              "value": "#7a7b7b",
+              "type": "color",
+              "description": "Primary disabled border colour for interactive components"
+            },
+            "Red": {
+              "value": "#7a7b7b",
+              "type": "color",
+              "description": "Primary disabled border colour for interactive components"
+            },
+            "Yellow": {
+              "value": "#7a7b7b",
+              "type": "color",
+              "description": "Primary disabled border colour for interactive components"
             }
           }
         }
@@ -3602,6 +4294,278 @@
             }
           }
         }
+      },
+      "disabled": {
+        "background-colour": {
+          "Neutral": {
+            "Blue": {
+              "value": "#d3d3d3",
+              "type": "color",
+              "description": "Primary disabled background colour for reversed interactive components"
+            },
+            "Green": {
+              "value": "#d3d3d3",
+              "type": "color",
+              "description": "Primary disabled background colour for reversed interactive components"
+            },
+            "Red": {
+              "value": "#d3d3d3",
+              "type": "color",
+              "description": "Primary disabled background colour for reversed interactive components"
+            },
+            "Yellow": {
+              "value": "#d3d3d3",
+              "type": "color",
+              "description": "Primary disabled background colour for reversed interactive components"
+            }
+          },
+          "Subtle": {
+            "Blue": {
+              "value": "#d3d3d3",
+              "type": "color",
+              "description": "Primary disabled background colour for reversed interactive components"
+            },
+            "Green": {
+              "value": "#d3d3d3",
+              "type": "color",
+              "description": "Primary disabled background colour for reversed interactive components"
+            },
+            "Red": {
+              "value": "#d3d3d3",
+              "type": "color",
+              "description": "Primary disabled background colour for reversed interactive components"
+            },
+            "Yellow": {
+              "value": "#d3d3d3",
+              "type": "color",
+              "description": "Primary disabled background colour for reversed interactive components"
+            }
+          },
+          "Bold": {
+            "Blue": {
+              "value": "#d3d3d3",
+              "type": "color",
+              "description": "Primary disabled background colour for reversed interactive components"
+            },
+            "Green": {
+              "value": "#d3d3d3",
+              "type": "color",
+              "description": "Primary disabled background colour for reversed interactive components"
+            },
+            "Red": {
+              "value": "#d3d3d3",
+              "type": "color",
+              "description": "Primary disabled background colour for reversed interactive components"
+            },
+            "Yellow": {
+              "value": "#d3d3d3",
+              "type": "color",
+              "description": "Primary disabled background colour for reversed interactive components"
+            }
+          },
+          "Neutral inverse": {
+            "Blue": {
+              "value": "#d3d3d3",
+              "type": "color",
+              "description": "Primary disabled background colour for reversed interactive components"
+            },
+            "Green": {
+              "value": "#d3d3d3",
+              "type": "color",
+              "description": "Primary disabled background colour for reversed interactive components"
+            },
+            "Red": {
+              "value": "#d3d3d3",
+              "type": "color",
+              "description": "Primary disabled background colour for reversed interactive components"
+            },
+            "Yellow": {
+              "value": "#d3d3d3",
+              "type": "color",
+              "description": "Primary disabled background colour for reversed interactive components"
+            }
+          }
+        },
+        "border-colour": {
+          "Neutral": {
+            "Blue": {
+              "value": "#d3d3d3",
+              "type": "color",
+              "description": "Primary disabled border colour for reversed interactive components"
+            },
+            "Green": {
+              "value": "#d3d3d3",
+              "type": "color",
+              "description": "Primary disabled border colour for reversed interactive components"
+            },
+            "Red": {
+              "value": "#d3d3d3",
+              "type": "color",
+              "description": "Primary disabled border colour for reversed interactive components"
+            },
+            "Yellow": {
+              "value": "#d3d3d3",
+              "type": "color",
+              "description": "Primary disabled border colour for reversed interactive components"
+            }
+          },
+          "Subtle": {
+            "Blue": {
+              "value": "#d3d3d3",
+              "type": "color",
+              "description": "Primary disabled border colour for reversed interactive components"
+            },
+            "Green": {
+              "value": "#d3d3d3",
+              "type": "color",
+              "description": "Primary disabled border colour for reversed interactive components"
+            },
+            "Red": {
+              "value": "#d3d3d3",
+              "type": "color",
+              "description": "Primary disabled border colour for reversed interactive components"
+            },
+            "Yellow": {
+              "value": "#d3d3d3",
+              "type": "color",
+              "description": "Primary disabled border colour for reversed interactive components"
+            }
+          },
+          "Bold": {
+            "Blue": {
+              "value": "#d3d3d3",
+              "type": "color",
+              "description": "Primary disabled border colour for reversed interactive components"
+            },
+            "Green": {
+              "value": "#d3d3d3",
+              "type": "color",
+              "description": "Primary disabled border colour for reversed interactive components"
+            },
+            "Red": {
+              "value": "#d3d3d3",
+              "type": "color",
+              "description": "Primary disabled border colour for reversed interactive components"
+            },
+            "Yellow": {
+              "value": "#d3d3d3",
+              "type": "color",
+              "description": "Primary disabled border colour for reversed interactive components"
+            }
+          },
+          "Neutral inverse": {
+            "Blue": {
+              "value": "#d3d3d3",
+              "type": "color",
+              "description": "Primary disabled border colour for reversed interactive components"
+            },
+            "Green": {
+              "value": "#d3d3d3",
+              "type": "color",
+              "description": "Primary disabled border colour for reversed interactive components"
+            },
+            "Red": {
+              "value": "#d3d3d3",
+              "type": "color",
+              "description": "Primary disabled border colour for reversed interactive components"
+            },
+            "Yellow": {
+              "value": "#d3d3d3",
+              "type": "color",
+              "description": "Primary disabled border colour for reversed interactive components"
+            }
+          }
+        },
+        "colour": {
+          "Neutral": {
+            "Blue": {
+              "value": "#7a7b7b",
+              "type": "color",
+              "description": "Primary disabled foreground colour for reversed interactive components. Use for text and icons."
+            },
+            "Green": {
+              "value": "#7a7b7b",
+              "type": "color",
+              "description": "Primary disabled foreground colour for reversed interactive components. Use for text and icons."
+            },
+            "Red": {
+              "value": "#7a7b7b",
+              "type": "color",
+              "description": "Primary disabled foreground colour for reversed interactive components. Use for text and icons."
+            },
+            "Yellow": {
+              "value": "#7a7b7b",
+              "type": "color",
+              "description": "Primary disabled foreground colour for reversed interactive components. Use for text and icons."
+            }
+          },
+          "Subtle": {
+            "Blue": {
+              "value": "#7a7b7b",
+              "type": "color",
+              "description": "Primary disabled foreground colour for reversed interactive components. Use for text and icons."
+            },
+            "Green": {
+              "value": "#7a7b7b",
+              "type": "color",
+              "description": "Primary disabled foreground colour for reversed interactive components. Use for text and icons."
+            },
+            "Red": {
+              "value": "#7a7b7b",
+              "type": "color",
+              "description": "Primary disabled foreground colour for reversed interactive components. Use for text and icons."
+            },
+            "Yellow": {
+              "value": "#7a7b7b",
+              "type": "color",
+              "description": "Primary disabled foreground colour for reversed interactive components. Use for text and icons."
+            }
+          },
+          "Bold": {
+            "Blue": {
+              "value": "#7a7b7b",
+              "type": "color",
+              "description": "Primary disabled foreground colour for reversed interactive components. Use for text and icons."
+            },
+            "Green": {
+              "value": "#7a7b7b",
+              "type": "color",
+              "description": "Primary disabled foreground colour for reversed interactive components. Use for text and icons."
+            },
+            "Red": {
+              "value": "#7a7b7b",
+              "type": "color",
+              "description": "Primary disabled foreground colour for reversed interactive components. Use for text and icons."
+            },
+            "Yellow": {
+              "value": "#7a7b7b",
+              "type": "color",
+              "description": "Primary disabled foreground colour for reversed interactive components. Use for text and icons."
+            }
+          },
+          "Neutral inverse": {
+            "Blue": {
+              "value": "#7a7b7b",
+              "type": "color",
+              "description": "Primary disabled foreground colour for reversed interactive components. Use for text and icons."
+            },
+            "Green": {
+              "value": "#7a7b7b",
+              "type": "color",
+              "description": "Primary disabled foreground colour for reversed interactive components. Use for text and icons."
+            },
+            "Red": {
+              "value": "#7a7b7b",
+              "type": "color",
+              "description": "Primary disabled foreground colour for reversed interactive components. Use for text and icons."
+            },
+            "Yellow": {
+              "value": "#7a7b7b",
+              "type": "color",
+              "description": "Primary disabled foreground colour for reversed interactive components. Use for text and icons."
+            }
+          }
+        }
       }
     },
     "padding-left": {
@@ -3964,6 +4928,276 @@
         }
       }
     },
+    "padding-xs": {
+      "Neutral": {
+        "Blue": {
+          "value": 8,
+          "type": "spacing",
+          "description": "Component bottom padding"
+        },
+        "Green": {
+          "value": 8,
+          "type": "spacing",
+          "description": "Component bottom padding"
+        },
+        "Red": {
+          "value": 8,
+          "type": "spacing",
+          "description": "Component bottom padding"
+        },
+        "Yellow": {
+          "value": 8,
+          "type": "spacing",
+          "description": "Component bottom padding"
+        }
+      },
+      "Subtle": {
+        "Blue": {
+          "value": 8,
+          "type": "spacing",
+          "description": "Component bottom padding"
+        },
+        "Green": {
+          "value": 8,
+          "type": "spacing",
+          "description": "Component bottom padding"
+        },
+        "Red": {
+          "value": 8,
+          "type": "spacing",
+          "description": "Component bottom padding"
+        },
+        "Yellow": {
+          "value": 8,
+          "type": "spacing",
+          "description": "Component bottom padding"
+        }
+      },
+      "Bold": {
+        "Blue": {
+          "value": 8,
+          "type": "spacing",
+          "description": "Component bottom padding"
+        },
+        "Green": {
+          "value": 8,
+          "type": "spacing",
+          "description": "Component bottom padding"
+        },
+        "Red": {
+          "value": 8,
+          "type": "spacing",
+          "description": "Component bottom padding"
+        },
+        "Yellow": {
+          "value": 8,
+          "type": "spacing",
+          "description": "Component bottom padding"
+        }
+      },
+      "Neutral inverse": {
+        "Blue": {
+          "value": 8,
+          "type": "spacing",
+          "description": "Component bottom padding"
+        },
+        "Green": {
+          "value": 8,
+          "type": "spacing",
+          "description": "Component bottom padding"
+        },
+        "Red": {
+          "value": 8,
+          "type": "spacing",
+          "description": "Component bottom padding"
+        },
+        "Yellow": {
+          "value": 8,
+          "type": "spacing",
+          "description": "Component bottom padding"
+        }
+      }
+    },
+    "padding-sm": {
+      "Neutral": {
+        "Blue": {
+          "value": 12,
+          "type": "spacing",
+          "description": "Component bottom padding"
+        },
+        "Green": {
+          "value": 12,
+          "type": "spacing",
+          "description": "Component bottom padding"
+        },
+        "Red": {
+          "value": 12,
+          "type": "spacing",
+          "description": "Component bottom padding"
+        },
+        "Yellow": {
+          "value": 12,
+          "type": "spacing",
+          "description": "Component bottom padding"
+        }
+      },
+      "Subtle": {
+        "Blue": {
+          "value": 12,
+          "type": "spacing",
+          "description": "Component bottom padding"
+        },
+        "Green": {
+          "value": 12,
+          "type": "spacing",
+          "description": "Component bottom padding"
+        },
+        "Red": {
+          "value": 12,
+          "type": "spacing",
+          "description": "Component bottom padding"
+        },
+        "Yellow": {
+          "value": 12,
+          "type": "spacing",
+          "description": "Component bottom padding"
+        }
+      },
+      "Bold": {
+        "Blue": {
+          "value": 12,
+          "type": "spacing",
+          "description": "Component bottom padding"
+        },
+        "Green": {
+          "value": 12,
+          "type": "spacing",
+          "description": "Component bottom padding"
+        },
+        "Red": {
+          "value": 12,
+          "type": "spacing",
+          "description": "Component bottom padding"
+        },
+        "Yellow": {
+          "value": 12,
+          "type": "spacing",
+          "description": "Component bottom padding"
+        }
+      },
+      "Neutral inverse": {
+        "Blue": {
+          "value": 12,
+          "type": "spacing",
+          "description": "Component bottom padding"
+        },
+        "Green": {
+          "value": 12,
+          "type": "spacing",
+          "description": "Component bottom padding"
+        },
+        "Red": {
+          "value": 12,
+          "type": "spacing",
+          "description": "Component bottom padding"
+        },
+        "Yellow": {
+          "value": 12,
+          "type": "spacing",
+          "description": "Component bottom padding"
+        }
+      }
+    },
+    "padding-md": {
+      "Neutral": {
+        "Blue": {
+          "value": 16,
+          "type": "spacing",
+          "description": "Component bottom padding"
+        },
+        "Green": {
+          "value": 16,
+          "type": "spacing",
+          "description": "Component bottom padding"
+        },
+        "Red": {
+          "value": 16,
+          "type": "spacing",
+          "description": "Component bottom padding"
+        },
+        "Yellow": {
+          "value": 16,
+          "type": "spacing",
+          "description": "Component bottom padding"
+        }
+      },
+      "Subtle": {
+        "Blue": {
+          "value": 16,
+          "type": "spacing",
+          "description": "Component bottom padding"
+        },
+        "Green": {
+          "value": 16,
+          "type": "spacing",
+          "description": "Component bottom padding"
+        },
+        "Red": {
+          "value": 16,
+          "type": "spacing",
+          "description": "Component bottom padding"
+        },
+        "Yellow": {
+          "value": 16,
+          "type": "spacing",
+          "description": "Component bottom padding"
+        }
+      },
+      "Bold": {
+        "Blue": {
+          "value": 16,
+          "type": "spacing",
+          "description": "Component bottom padding"
+        },
+        "Green": {
+          "value": 16,
+          "type": "spacing",
+          "description": "Component bottom padding"
+        },
+        "Red": {
+          "value": 16,
+          "type": "spacing",
+          "description": "Component bottom padding"
+        },
+        "Yellow": {
+          "value": 16,
+          "type": "spacing",
+          "description": "Component bottom padding"
+        }
+      },
+      "Neutral inverse": {
+        "Blue": {
+          "value": 16,
+          "type": "spacing",
+          "description": "Component bottom padding"
+        },
+        "Green": {
+          "value": 16,
+          "type": "spacing",
+          "description": "Component bottom padding"
+        },
+        "Red": {
+          "value": 16,
+          "type": "spacing",
+          "description": "Component bottom padding"
+        },
+        "Yellow": {
+          "value": 16,
+          "type": "spacing",
+          "description": "Component bottom padding"
+        }
+      }
+    },
     "border-width": {
       "Neutral": {
         "Blue": {
@@ -4101,22 +5335,22 @@
       },
       "Bold": {
         "Blue": {
-          "value": 2,
+          "value": 4,
           "type": "borderWidth",
           "description": "Component border width on focus"
         },
         "Green": {
-          "value": 2,
+          "value": 4,
           "type": "borderWidth",
           "description": "Component border width on focus"
         },
         "Red": {
-          "value": 2,
+          "value": 4,
           "type": "borderWidth",
           "description": "Component border width on focus"
         },
         "Yellow": {
-          "value": 2,
+          "value": 4,
           "type": "borderWidth",
           "description": "Component border width on focus"
         }
@@ -4144,7 +5378,7 @@
         }
       }
     },
-    "border-radius": {
+    "border-radius-default": {
       "Neutral": {
         "Blue": {
           "value": 12,
@@ -4229,6 +5463,96 @@
         },
         "Yellow": {
           "value": 12,
+          "type": "borderRadius",
+          "description": "Component border radius"
+        }
+      }
+    },
+    "border-radius-pill": {
+      "Neutral": {
+        "Blue": {
+          "value": 28,
+          "type": "borderRadius",
+          "description": "Component border radius"
+        },
+        "Green": {
+          "value": 28,
+          "type": "borderRadius",
+          "description": "Component border radius"
+        },
+        "Red": {
+          "value": 28,
+          "type": "borderRadius",
+          "description": "Component border radius"
+        },
+        "Yellow": {
+          "value": 28,
+          "type": "borderRadius",
+          "description": "Component border radius"
+        }
+      },
+      "Subtle": {
+        "Blue": {
+          "value": 28,
+          "type": "borderRadius",
+          "description": "Component border radius"
+        },
+        "Green": {
+          "value": 28,
+          "type": "borderRadius",
+          "description": "Component border radius"
+        },
+        "Red": {
+          "value": 28,
+          "type": "borderRadius",
+          "description": "Component border radius"
+        },
+        "Yellow": {
+          "value": 28,
+          "type": "borderRadius",
+          "description": "Component border radius"
+        }
+      },
+      "Bold": {
+        "Blue": {
+          "value": 28,
+          "type": "borderRadius",
+          "description": "Component border radius"
+        },
+        "Green": {
+          "value": 28,
+          "type": "borderRadius",
+          "description": "Component border radius"
+        },
+        "Red": {
+          "value": 28,
+          "type": "borderRadius",
+          "description": "Component border radius"
+        },
+        "Yellow": {
+          "value": 28,
+          "type": "borderRadius",
+          "description": "Component border radius"
+        }
+      },
+      "Neutral inverse": {
+        "Blue": {
+          "value": 28,
+          "type": "borderRadius",
+          "description": "Component border radius"
+        },
+        "Green": {
+          "value": 28,
+          "type": "borderRadius",
+          "description": "Component border radius"
+        },
+        "Red": {
+          "value": 28,
+          "type": "borderRadius",
+          "description": "Component border radius"
+        },
+        "Yellow": {
+          "value": 28,
           "type": "borderRadius",
           "description": "Component border radius"
         }
@@ -4501,6 +5825,1304 @@
           "value": 48,
           "type": "sizing",
           "description": "Component minimum width"
+        }
+      }
+    },
+    "primary-reversed-subtle": {
+      "default": {
+        "background-colour": {
+          "Neutral": {
+            "Blue": {
+              "value": "#aee1f7",
+              "type": "color",
+              "description": "Primary default background colour for reversed interactive components"
+            },
+            "Green": {
+              "value": "#caeedd",
+              "type": "color",
+              "description": "Primary default background colour for reversed interactive components"
+            },
+            "Red": {
+              "value": "#ffd5d2",
+              "type": "color",
+              "description": "Primary default background colour for reversed interactive components"
+            },
+            "Yellow": {
+              "value": "#fff9c7",
+              "type": "color",
+              "description": "Primary default background colour for reversed interactive components"
+            }
+          },
+          "Subtle": {
+            "Blue": {
+              "value": "#aee1f7",
+              "type": "color",
+              "description": "Primary default background colour for reversed interactive components"
+            },
+            "Green": {
+              "value": "#caeedd",
+              "type": "color",
+              "description": "Primary default background colour for reversed interactive components"
+            },
+            "Red": {
+              "value": "#ffd5d2",
+              "type": "color",
+              "description": "Primary default background colour for reversed interactive components"
+            },
+            "Yellow": {
+              "value": "#fff9c7",
+              "type": "color",
+              "description": "Primary default background colour for reversed interactive components"
+            }
+          },
+          "Bold": {
+            "Blue": {
+              "value": "#42aeea",
+              "type": "color",
+              "description": "Primary default background colour for reversed interactive components"
+            },
+            "Green": {
+              "value": "#43af6e",
+              "type": "color",
+              "description": "Primary default background colour for reversed interactive components"
+            },
+            "Red": {
+              "value": "#ff3e51",
+              "type": "color",
+              "description": "Primary default background colour for reversed interactive components"
+            },
+            "Yellow": {
+              "value": "#ffe969",
+              "type": "color",
+              "description": "Primary default background colour for reversed interactive components"
+            }
+          },
+          "Neutral inverse": {
+            "Blue": {
+              "value": "#aee1f7",
+              "type": "color",
+              "description": "Primary default background colour for reversed interactive components"
+            },
+            "Green": {
+              "value": "#caeedd",
+              "type": "color",
+              "description": "Primary default background colour for reversed interactive components"
+            },
+            "Red": {
+              "value": "#ffd5d2",
+              "type": "color",
+              "description": "Primary default background colour for reversed interactive components"
+            },
+            "Yellow": {
+              "value": "#fff9c7",
+              "type": "color",
+              "description": "Primary default background colour for reversed interactive components"
+            }
+          }
+        },
+        "border-colour": {
+          "Neutral": {
+            "Blue": {
+              "value": "#001d6e",
+              "type": "color"
+            },
+            "Green": {
+              "value": "#01312e",
+              "type": "color"
+            },
+            "Red": {
+              "value": "#940824",
+              "type": "color"
+            },
+            "Yellow": {
+              "value": "#c86426",
+              "type": "color"
+            }
+          },
+          "Subtle": {
+            "Blue": {
+              "value": "#001d6e",
+              "type": "color"
+            },
+            "Green": {
+              "value": "#01312e",
+              "type": "color"
+            },
+            "Red": {
+              "value": "#940824",
+              "type": "color"
+            },
+            "Yellow": {
+              "value": "#c86426",
+              "type": "color"
+            }
+          },
+          "Bold": {
+            "Blue": {
+              "value": "#1d1d1b",
+              "type": "color"
+            },
+            "Green": {
+              "value": "#1d1d1b",
+              "type": "color"
+            },
+            "Red": {
+              "value": "#1d1d1b",
+              "type": "color"
+            },
+            "Yellow": {
+              "value": "#000000",
+              "type": "color"
+            }
+          },
+          "Neutral inverse": {
+            "Blue": {
+              "value": "#001d6e",
+              "type": "color"
+            },
+            "Green": {
+              "value": "#01312e",
+              "type": "color"
+            },
+            "Red": {
+              "value": "#940824",
+              "type": "color"
+            },
+            "Yellow": {
+              "value": "#c86426",
+              "type": "color"
+            }
+          }
+        },
+        "colour": {
+          "Neutral": {
+            "Blue": {
+              "value": "#001d6e",
+              "type": "color",
+              "description": "Primary default foreground colour for reversed interactive components. Use for text and icons."
+            },
+            "Green": {
+              "value": "#01312e",
+              "type": "color",
+              "description": "Primary default foreground colour for reversed interactive components. Use for text and icons."
+            },
+            "Red": {
+              "value": "#480411",
+              "type": "color",
+              "description": "Primary default foreground colour for reversed interactive components. Use for text and icons."
+            },
+            "Yellow": {
+              "value": "#572722",
+              "type": "color",
+              "description": "Primary default foreground colour for reversed interactive components. Use for text and icons."
+            }
+          },
+          "Subtle": {
+            "Blue": {
+              "value": "#001d6e",
+              "type": "color",
+              "description": "Primary default foreground colour for reversed interactive components. Use for text and icons."
+            },
+            "Green": {
+              "value": "#01312e",
+              "type": "color",
+              "description": "Primary default foreground colour for reversed interactive components. Use for text and icons."
+            },
+            "Red": {
+              "value": "#480411",
+              "type": "color",
+              "description": "Primary default foreground colour for reversed interactive components. Use for text and icons."
+            },
+            "Yellow": {
+              "value": "#572722",
+              "type": "color",
+              "description": "Primary default foreground colour for reversed interactive components. Use for text and icons."
+            }
+          },
+          "Bold": {
+            "Blue": {
+              "value": "#1d1d1b",
+              "type": "color",
+              "description": "Primary default foreground colour for reversed interactive components. Use for text and icons."
+            },
+            "Green": {
+              "value": "#1d1d1b",
+              "type": "color",
+              "description": "Primary default foreground colour for reversed interactive components. Use for text and icons."
+            },
+            "Red": {
+              "value": "#1d1d1b",
+              "type": "color",
+              "description": "Primary default foreground colour for reversed interactive components. Use for text and icons."
+            },
+            "Yellow": {
+              "value": "#000000",
+              "type": "color",
+              "description": "Primary default foreground colour for reversed interactive components. Use for text and icons."
+            }
+          },
+          "Neutral inverse": {
+            "Blue": {
+              "value": "#001d6e",
+              "type": "color",
+              "description": "Primary default foreground colour for reversed interactive components. Use for text and icons."
+            },
+            "Green": {
+              "value": "#01312e",
+              "type": "color",
+              "description": "Primary default foreground colour for reversed interactive components. Use for text and icons."
+            },
+            "Red": {
+              "value": "#480411",
+              "type": "color",
+              "description": "Primary default foreground colour for reversed interactive components. Use for text and icons."
+            },
+            "Yellow": {
+              "value": "#572722",
+              "type": "color",
+              "description": "Primary default foreground colour for reversed interactive components. Use for text and icons."
+            }
+          }
+        }
+      },
+      "hover": {
+        "background-colour": {
+          "Neutral": {
+            "Blue": {
+              "value": "#005dba",
+              "type": "color",
+              "description": "Primary hover background colour for reversed interactive components"
+            },
+            "Green": {
+              "value": "#00633d",
+              "type": "color",
+              "description": "Primary hover background colour for reversed interactive components"
+            },
+            "Red": {
+              "value": "#c50b30",
+              "type": "color",
+              "description": "Primary hover background colour for reversed interactive components"
+            },
+            "Yellow": {
+              "value": "#ffb600",
+              "type": "color",
+              "description": "Primary hover background colour for reversed interactive components"
+            }
+          },
+          "Subtle": {
+            "Blue": {
+              "value": "#005dba",
+              "type": "color",
+              "description": "Primary hover background colour for reversed interactive components"
+            },
+            "Green": {
+              "value": "#00633d",
+              "type": "color",
+              "description": "Primary hover background colour for reversed interactive components"
+            },
+            "Red": {
+              "value": "#c50b30",
+              "type": "color",
+              "description": "Primary hover background colour for reversed interactive components"
+            },
+            "Yellow": {
+              "value": "#ffb600",
+              "type": "color",
+              "description": "Primary hover background colour for reversed interactive components"
+            }
+          },
+          "Bold": {
+            "Blue": {
+              "value": "#aee1f7",
+              "type": "color",
+              "description": "Primary hover background colour for reversed interactive components"
+            },
+            "Green": {
+              "value": "#caeedd",
+              "type": "color",
+              "description": "Primary hover background colour for reversed interactive components"
+            },
+            "Red": {
+              "value": "#ffd5d2",
+              "type": "color",
+              "description": "Primary hover background colour for reversed interactive components"
+            },
+            "Yellow": {
+              "value": "#fff9c7",
+              "type": "color",
+              "description": "Primary hover background colour for reversed interactive components"
+            }
+          },
+          "Neutral inverse": {
+            "Blue": {
+              "value": "#005dba",
+              "type": "color",
+              "description": "Primary hover background colour for reversed interactive components"
+            },
+            "Green": {
+              "value": "#00633d",
+              "type": "color",
+              "description": "Primary hover background colour for reversed interactive components"
+            },
+            "Red": {
+              "value": "#c50b30",
+              "type": "color",
+              "description": "Primary hover background colour for reversed interactive components"
+            },
+            "Yellow": {
+              "value": "#ffb600",
+              "type": "color",
+              "description": "Primary hover background colour for reversed interactive components"
+            }
+          }
+        },
+        "border-colour": {
+          "Neutral": {
+            "Blue": {
+              "value": "#005dba",
+              "type": "color"
+            },
+            "Green": {
+              "value": "#00633d",
+              "type": "color"
+            },
+            "Red": {
+              "value": "#c50b30",
+              "type": "color"
+            },
+            "Yellow": {
+              "value": "#ffb600",
+              "type": "color"
+            }
+          },
+          "Subtle": {
+            "Blue": {
+              "value": "#1d1d1b",
+              "type": "color"
+            },
+            "Green": {
+              "value": "#1d1d1b",
+              "type": "color"
+            },
+            "Red": {
+              "value": "#1d1d1b",
+              "type": "color"
+            },
+            "Yellow": {
+              "value": "#000000",
+              "type": "color"
+            }
+          },
+          "Bold": {
+            "Blue": {
+              "value": "#1d1d1b",
+              "type": "color"
+            },
+            "Green": {
+              "value": "#1d1d1b",
+              "type": "color"
+            },
+            "Red": {
+              "value": "#1d1d1b",
+              "type": "color"
+            },
+            "Yellow": {
+              "value": "#000000",
+              "type": "color"
+            }
+          },
+          "Neutral inverse": {
+            "Blue": {
+              "value": "#005dba",
+              "type": "color"
+            },
+            "Green": {
+              "value": "#00633d",
+              "type": "color"
+            },
+            "Red": {
+              "value": "#c50b30",
+              "type": "color"
+            },
+            "Yellow": {
+              "value": "#ffb600",
+              "type": "color"
+            }
+          }
+        },
+        "colour": {
+          "Neutral": {
+            "Blue": {
+              "value": "#ffffff",
+              "type": "color",
+              "description": "Primary hover foreground colour for reversed interactive components. Use for text and icons."
+            },
+            "Green": {
+              "value": "#ffffff",
+              "type": "color",
+              "description": "Primary hover foreground colour for reversed interactive components. Use for text and icons."
+            },
+            "Red": {
+              "value": "#ffffff",
+              "type": "color",
+              "description": "Primary hover foreground colour for reversed interactive components. Use for text and icons."
+            },
+            "Yellow": {
+              "value": "#1d1d1b",
+              "type": "color",
+              "description": "Primary hover foreground colour for reversed interactive components. Use for text and icons."
+            }
+          },
+          "Subtle": {
+            "Blue": {
+              "value": "#ffffff",
+              "type": "color",
+              "description": "Primary hover foreground colour for reversed interactive components. Use for text and icons."
+            },
+            "Green": {
+              "value": "#ffffff",
+              "type": "color",
+              "description": "Primary hover foreground colour for reversed interactive components. Use for text and icons."
+            },
+            "Red": {
+              "value": "#ffffff",
+              "type": "color",
+              "description": "Primary hover foreground colour for reversed interactive components. Use for text and icons."
+            },
+            "Yellow": {
+              "value": "#1d1d1b",
+              "type": "color",
+              "description": "Primary hover foreground colour for reversed interactive components. Use for text and icons."
+            }
+          },
+          "Bold": {
+            "Blue": {
+              "value": "#1d1d1b",
+              "type": "color",
+              "description": "Primary hover foreground colour for reversed interactive components. Use for text and icons."
+            },
+            "Green": {
+              "value": "#1d1d1b",
+              "type": "color",
+              "description": "Primary hover foreground colour for reversed interactive components. Use for text and icons."
+            },
+            "Red": {
+              "value": "#1d1d1b",
+              "type": "color",
+              "description": "Primary hover foreground colour for reversed interactive components. Use for text and icons."
+            },
+            "Yellow": {
+              "value": "#000000",
+              "type": "color",
+              "description": "Primary hover foreground colour for reversed interactive components. Use for text and icons."
+            }
+          },
+          "Neutral inverse": {
+            "Blue": {
+              "value": "#ffffff",
+              "type": "color",
+              "description": "Primary hover foreground colour for reversed interactive components. Use for text and icons."
+            },
+            "Green": {
+              "value": "#ffffff",
+              "type": "color",
+              "description": "Primary hover foreground colour for reversed interactive components. Use for text and icons."
+            },
+            "Red": {
+              "value": "#ffffff",
+              "type": "color",
+              "description": "Primary hover foreground colour for reversed interactive components. Use for text and icons."
+            },
+            "Yellow": {
+              "value": "#1d1d1b",
+              "type": "color",
+              "description": "Primary hover foreground colour for reversed interactive components. Use for text and icons."
+            }
+          }
+        }
+      },
+      "active": {
+        "background-colour": {
+          "Neutral": {
+            "Blue": {
+              "value": "#001d6e",
+              "type": "color",
+              "description": "Primary active background colour for reversed interactive components"
+            },
+            "Green": {
+              "value": "#01312e",
+              "type": "color",
+              "description": "Primary active background colour for reversed interactive components"
+            },
+            "Red": {
+              "value": "#480411",
+              "type": "color",
+              "description": "Primary active background colour for reversed interactive components"
+            },
+            "Yellow": {
+              "value": "#572722",
+              "type": "color",
+              "description": "Primary active background colour for reversed interactive components"
+            }
+          },
+          "Subtle": {
+            "Blue": {
+              "value": "#001d6e",
+              "type": "color",
+              "description": "Primary active background colour for reversed interactive components"
+            },
+            "Green": {
+              "value": "#01312e",
+              "type": "color",
+              "description": "Primary active background colour for reversed interactive components"
+            },
+            "Red": {
+              "value": "#480411",
+              "type": "color",
+              "description": "Primary active background colour for reversed interactive components"
+            },
+            "Yellow": {
+              "value": "#572722",
+              "type": "color",
+              "description": "Primary active background colour for reversed interactive components"
+            }
+          },
+          "Bold": {
+            "Blue": {
+              "value": "#ffffff",
+              "type": "color",
+              "description": "Primary active background colour for reversed interactive components"
+            },
+            "Green": {
+              "value": "#ffffff",
+              "type": "color",
+              "description": "Primary active background colour for reversed interactive components"
+            },
+            "Red": {
+              "value": "#ffffff",
+              "type": "color",
+              "description": "Primary active background colour for reversed interactive components"
+            },
+            "Yellow": {
+              "value": "#ffffff",
+              "type": "color",
+              "description": "Primary active background colour for reversed interactive components"
+            }
+          },
+          "Neutral inverse": {
+            "Blue": {
+              "value": "#001d6e",
+              "type": "color",
+              "description": "Primary active background colour for reversed interactive components"
+            },
+            "Green": {
+              "value": "#01312e",
+              "type": "color",
+              "description": "Primary active background colour for reversed interactive components"
+            },
+            "Red": {
+              "value": "#480411",
+              "type": "color",
+              "description": "Primary active background colour for reversed interactive components"
+            },
+            "Yellow": {
+              "value": "#572722",
+              "type": "color",
+              "description": "Primary active background colour for reversed interactive components"
+            }
+          }
+        },
+        "border-colour": {
+          "Neutral": {
+            "Blue": {
+              "value": "#001d6e",
+              "type": "color"
+            },
+            "Green": {
+              "value": "#01312e",
+              "type": "color"
+            },
+            "Red": {
+              "value": "#480411",
+              "type": "color"
+            },
+            "Yellow": {
+              "value": "#572722",
+              "type": "color"
+            }
+          },
+          "Subtle": {
+            "Blue": {
+              "value": "#001d6e",
+              "type": "color"
+            },
+            "Green": {
+              "value": "#01312e",
+              "type": "color"
+            },
+            "Red": {
+              "value": "#480411",
+              "type": "color"
+            },
+            "Yellow": {
+              "value": "#572722",
+              "type": "color"
+            }
+          },
+          "Bold": {
+            "Blue": {
+              "value": "#ffffff",
+              "type": "color"
+            },
+            "Green": {
+              "value": "#ffffff",
+              "type": "color"
+            },
+            "Red": {
+              "value": "#ffffff",
+              "type": "color"
+            },
+            "Yellow": {
+              "value": "#ffffff",
+              "type": "color"
+            }
+          },
+          "Neutral inverse": {
+            "Blue": {
+              "value": "#001d6e",
+              "type": "color"
+            },
+            "Green": {
+              "value": "#01312e",
+              "type": "color"
+            },
+            "Red": {
+              "value": "#480411",
+              "type": "color"
+            },
+            "Yellow": {
+              "value": "#572722",
+              "type": "color"
+            }
+          }
+        },
+        "colour": {
+          "Neutral": {
+            "Blue": {
+              "value": "#ffffff",
+              "type": "color",
+              "description": "Primary active foreground colour for reversed interactive components. Use for text and icons."
+            },
+            "Green": {
+              "value": "#ffffff",
+              "type": "color",
+              "description": "Primary active foreground colour for reversed interactive components. Use for text and icons."
+            },
+            "Red": {
+              "value": "#ffffff",
+              "type": "color",
+              "description": "Primary active foreground colour for reversed interactive components. Use for text and icons."
+            },
+            "Yellow": {
+              "value": "#ffffff",
+              "type": "color",
+              "description": "Primary active foreground colour for reversed interactive components. Use for text and icons."
+            }
+          },
+          "Subtle": {
+            "Blue": {
+              "value": "#ffffff",
+              "type": "color",
+              "description": "Primary active foreground colour for reversed interactive components. Use for text and icons."
+            },
+            "Green": {
+              "value": "#ffffff",
+              "type": "color",
+              "description": "Primary active foreground colour for reversed interactive components. Use for text and icons."
+            },
+            "Red": {
+              "value": "#ffffff",
+              "type": "color",
+              "description": "Primary active foreground colour for reversed interactive components. Use for text and icons."
+            },
+            "Yellow": {
+              "value": "#ffffff",
+              "type": "color",
+              "description": "Primary active foreground colour for reversed interactive components. Use for text and icons."
+            }
+          },
+          "Bold": {
+            "Blue": {
+              "value": "#1d1d1b",
+              "type": "color",
+              "description": "Primary active foreground colour for reversed interactive components. Use for text and icons."
+            },
+            "Green": {
+              "value": "#1d1d1b",
+              "type": "color",
+              "description": "Primary active foreground colour for reversed interactive components. Use for text and icons."
+            },
+            "Red": {
+              "value": "#1d1d1b",
+              "type": "color",
+              "description": "Primary active foreground colour for reversed interactive components. Use for text and icons."
+            },
+            "Yellow": {
+              "value": "#000000",
+              "type": "color",
+              "description": "Primary active foreground colour for reversed interactive components. Use for text and icons."
+            }
+          },
+          "Neutral inverse": {
+            "Blue": {
+              "value": "#ffffff",
+              "type": "color",
+              "description": "Primary active foreground colour for reversed interactive components. Use for text and icons."
+            },
+            "Green": {
+              "value": "#ffffff",
+              "type": "color",
+              "description": "Primary active foreground colour for reversed interactive components. Use for text and icons."
+            },
+            "Red": {
+              "value": "#ffffff",
+              "type": "color",
+              "description": "Primary active foreground colour for reversed interactive components. Use for text and icons."
+            },
+            "Yellow": {
+              "value": "#ffffff",
+              "type": "color",
+              "description": "Primary active foreground colour for reversed interactive components. Use for text and icons."
+            }
+          }
+        }
+      },
+      "focus": {
+        "background-colour": {
+          "Neutral": {
+            "Blue": {
+              "value": "#aee1f7",
+              "type": "color",
+              "description": "Primary focus background colour for reversed interactive components"
+            },
+            "Green": {
+              "value": "#caeedd",
+              "type": "color",
+              "description": "Primary focus background colour for reversed interactive components"
+            },
+            "Red": {
+              "value": "#ffd5d2",
+              "type": "color",
+              "description": "Primary focus background colour for reversed interactive components"
+            },
+            "Yellow": {
+              "value": "#fff9c7",
+              "type": "color",
+              "description": "Primary focus background colour for reversed interactive components"
+            }
+          },
+          "Subtle": {
+            "Blue": {
+              "value": "#aee1f7",
+              "type": "color",
+              "description": "Primary focus background colour for reversed interactive components"
+            },
+            "Green": {
+              "value": "#caeedd",
+              "type": "color",
+              "description": "Primary focus background colour for reversed interactive components"
+            },
+            "Red": {
+              "value": "#ffd5d2",
+              "type": "color",
+              "description": "Primary focus background colour for reversed interactive components"
+            },
+            "Yellow": {
+              "value": "#fff9c7",
+              "type": "color",
+              "description": "Primary focus background colour for reversed interactive components"
+            }
+          },
+          "Bold": {
+            "Blue": {
+              "value": "#42aeea",
+              "type": "color",
+              "description": "Primary focus background colour for reversed interactive components"
+            },
+            "Green": {
+              "value": "#43af6e",
+              "type": "color",
+              "description": "Primary focus background colour for reversed interactive components"
+            },
+            "Red": {
+              "value": "#ff3e51",
+              "type": "color",
+              "description": "Primary focus background colour for reversed interactive components"
+            },
+            "Yellow": {
+              "value": "#ffe969",
+              "type": "color",
+              "description": "Primary focus background colour for reversed interactive components"
+            }
+          },
+          "Neutral inverse": {
+            "Blue": {
+              "value": "#aee1f7",
+              "type": "color",
+              "description": "Primary focus background colour for reversed interactive components"
+            },
+            "Green": {
+              "value": "#caeedd",
+              "type": "color",
+              "description": "Primary focus background colour for reversed interactive components"
+            },
+            "Red": {
+              "value": "#ffd5d2",
+              "type": "color",
+              "description": "Primary focus background colour for reversed interactive components"
+            },
+            "Yellow": {
+              "value": "#fff9c7",
+              "type": "color",
+              "description": "Primary focus background colour for reversed interactive components"
+            }
+          }
+        },
+        "border-colour": {
+          "Neutral": {
+            "Blue": {
+              "value": "#001d6e",
+              "type": "color"
+            },
+            "Green": {
+              "value": "#01312e",
+              "type": "color"
+            },
+            "Red": {
+              "value": "#940824",
+              "type": "color"
+            },
+            "Yellow": {
+              "value": "#c86426",
+              "type": "color"
+            }
+          },
+          "Subtle": {
+            "Blue": {
+              "value": "#001d6e",
+              "type": "color"
+            },
+            "Green": {
+              "value": "#01312e",
+              "type": "color"
+            },
+            "Red": {
+              "value": "#940824",
+              "type": "color"
+            },
+            "Yellow": {
+              "value": "#c86426",
+              "type": "color"
+            }
+          },
+          "Bold": {
+            "Blue": {
+              "value": "#1d1d1b",
+              "type": "color"
+            },
+            "Green": {
+              "value": "#1d1d1b",
+              "type": "color"
+            },
+            "Red": {
+              "value": "#1d1d1b",
+              "type": "color"
+            },
+            "Yellow": {
+              "value": "#000000",
+              "type": "color"
+            }
+          },
+          "Neutral inverse": {
+            "Blue": {
+              "value": "#001d6e",
+              "type": "color"
+            },
+            "Green": {
+              "value": "#01312e",
+              "type": "color"
+            },
+            "Red": {
+              "value": "#940824",
+              "type": "color"
+            },
+            "Yellow": {
+              "value": "#c86426",
+              "type": "color"
+            }
+          }
+        },
+        "colour": {
+          "Neutral": {
+            "Blue": {
+              "value": "#001d6e",
+              "type": "color",
+              "description": "Primary focus foreground colour for reversed interactive components. Use for text and icons."
+            },
+            "Green": {
+              "value": "#01312e",
+              "type": "color",
+              "description": "Primary focus foreground colour for reversed interactive components. Use for text and icons."
+            },
+            "Red": {
+              "value": "#480411",
+              "type": "color",
+              "description": "Primary focus foreground colour for reversed interactive components. Use for text and icons."
+            },
+            "Yellow": {
+              "value": "#572722",
+              "type": "color",
+              "description": "Primary focus foreground colour for reversed interactive components. Use for text and icons."
+            }
+          },
+          "Subtle": {
+            "Blue": {
+              "value": "#001d6e",
+              "type": "color",
+              "description": "Primary focus foreground colour for reversed interactive components. Use for text and icons."
+            },
+            "Green": {
+              "value": "#01312e",
+              "type": "color",
+              "description": "Primary focus foreground colour for reversed interactive components. Use for text and icons."
+            },
+            "Red": {
+              "value": "#480411",
+              "type": "color",
+              "description": "Primary focus foreground colour for reversed interactive components. Use for text and icons."
+            },
+            "Yellow": {
+              "value": "#572722",
+              "type": "color",
+              "description": "Primary focus foreground colour for reversed interactive components. Use for text and icons."
+            }
+          },
+          "Bold": {
+            "Blue": {
+              "value": "#1d1d1b",
+              "type": "color",
+              "description": "Primary focus foreground colour for reversed interactive components. Use for text and icons."
+            },
+            "Green": {
+              "value": "#1d1d1b",
+              "type": "color",
+              "description": "Primary focus foreground colour for reversed interactive components. Use for text and icons."
+            },
+            "Red": {
+              "value": "#1d1d1b",
+              "type": "color",
+              "description": "Primary focus foreground colour for reversed interactive components. Use for text and icons."
+            },
+            "Yellow": {
+              "value": "#000000",
+              "type": "color",
+              "description": "Primary focus foreground colour for reversed interactive components. Use for text and icons."
+            }
+          },
+          "Neutral inverse": {
+            "Blue": {
+              "value": "#001d6e",
+              "type": "color",
+              "description": "Primary focus foreground colour for reversed interactive components. Use for text and icons."
+            },
+            "Green": {
+              "value": "#01312e",
+              "type": "color",
+              "description": "Primary focus foreground colour for reversed interactive components. Use for text and icons."
+            },
+            "Red": {
+              "value": "#480411",
+              "type": "color",
+              "description": "Primary focus foreground colour for reversed interactive components. Use for text and icons."
+            },
+            "Yellow": {
+              "value": "#572722",
+              "type": "color",
+              "description": "Primary focus foreground colour for reversed interactive components. Use for text and icons."
+            }
+          }
+        }
+      },
+      "disabled": {
+        "background-colour": {
+          "Neutral": {
+            "Blue": {
+              "value": "#d3d3d3",
+              "type": "color",
+              "description": "Primary disabled background colour for reversed interactive components"
+            },
+            "Green": {
+              "value": "#d3d3d3",
+              "type": "color",
+              "description": "Primary disabled background colour for reversed interactive components"
+            },
+            "Red": {
+              "value": "#d3d3d3",
+              "type": "color",
+              "description": "Primary disabled background colour for reversed interactive components"
+            },
+            "Yellow": {
+              "value": "#d3d3d3",
+              "type": "color",
+              "description": "Primary disabled background colour for reversed interactive components"
+            }
+          },
+          "Subtle": {
+            "Blue": {
+              "value": "#d3d3d3",
+              "type": "color",
+              "description": "Primary disabled background colour for reversed interactive components"
+            },
+            "Green": {
+              "value": "#d3d3d3",
+              "type": "color",
+              "description": "Primary disabled background colour for reversed interactive components"
+            },
+            "Red": {
+              "value": "#d3d3d3",
+              "type": "color",
+              "description": "Primary disabled background colour for reversed interactive components"
+            },
+            "Yellow": {
+              "value": "#d3d3d3",
+              "type": "color",
+              "description": "Primary disabled background colour for reversed interactive components"
+            }
+          },
+          "Bold": {
+            "Blue": {
+              "value": "#d3d3d3",
+              "type": "color",
+              "description": "Primary disabled background colour for reversed interactive components"
+            },
+            "Green": {
+              "value": "#d3d3d3",
+              "type": "color",
+              "description": "Primary disabled background colour for reversed interactive components"
+            },
+            "Red": {
+              "value": "#d3d3d3",
+              "type": "color",
+              "description": "Primary disabled background colour for reversed interactive components"
+            },
+            "Yellow": {
+              "value": "#d3d3d3",
+              "type": "color",
+              "description": "Primary disabled background colour for reversed interactive components"
+            }
+          },
+          "Neutral inverse": {
+            "Blue": {
+              "value": "#d3d3d3",
+              "type": "color",
+              "description": "Primary disabled background colour for reversed interactive components"
+            },
+            "Green": {
+              "value": "#d3d3d3",
+              "type": "color",
+              "description": "Primary disabled background colour for reversed interactive components"
+            },
+            "Red": {
+              "value": "#d3d3d3",
+              "type": "color",
+              "description": "Primary disabled background colour for reversed interactive components"
+            },
+            "Yellow": {
+              "value": "#d3d3d3",
+              "type": "color",
+              "description": "Primary disabled background colour for reversed interactive components"
+            }
+          }
+        },
+        "border-colour": {
+          "Neutral": {
+            "Blue": {
+              "value": "#d3d3d3",
+              "type": "color",
+              "description": "Primary disabled border colour for reversed interactive components"
+            },
+            "Green": {
+              "value": "#d3d3d3",
+              "type": "color",
+              "description": "Primary disabled border colour for reversed interactive components"
+            },
+            "Red": {
+              "value": "#d3d3d3",
+              "type": "color",
+              "description": "Primary disabled border colour for reversed interactive components"
+            },
+            "Yellow": {
+              "value": "#d3d3d3",
+              "type": "color",
+              "description": "Primary disabled border colour for reversed interactive components"
+            }
+          },
+          "Subtle": {
+            "Blue": {
+              "value": "#d3d3d3",
+              "type": "color",
+              "description": "Primary disabled border colour for reversed interactive components"
+            },
+            "Green": {
+              "value": "#d3d3d3",
+              "type": "color",
+              "description": "Primary disabled border colour for reversed interactive components"
+            },
+            "Red": {
+              "value": "#d3d3d3",
+              "type": "color",
+              "description": "Primary disabled border colour for reversed interactive components"
+            },
+            "Yellow": {
+              "value": "#d3d3d3",
+              "type": "color",
+              "description": "Primary disabled border colour for reversed interactive components"
+            }
+          },
+          "Bold": {
+            "Blue": {
+              "value": "#d3d3d3",
+              "type": "color",
+              "description": "Primary disabled border colour for reversed interactive components"
+            },
+            "Green": {
+              "value": "#d3d3d3",
+              "type": "color",
+              "description": "Primary disabled border colour for reversed interactive components"
+            },
+            "Red": {
+              "value": "#d3d3d3",
+              "type": "color",
+              "description": "Primary disabled border colour for reversed interactive components"
+            },
+            "Yellow": {
+              "value": "#d3d3d3",
+              "type": "color",
+              "description": "Primary disabled border colour for reversed interactive components"
+            }
+          },
+          "Neutral inverse": {
+            "Blue": {
+              "value": "#d3d3d3",
+              "type": "color",
+              "description": "Primary disabled border colour for reversed interactive components"
+            },
+            "Green": {
+              "value": "#d3d3d3",
+              "type": "color",
+              "description": "Primary disabled border colour for reversed interactive components"
+            },
+            "Red": {
+              "value": "#d3d3d3",
+              "type": "color",
+              "description": "Primary disabled border colour for reversed interactive components"
+            },
+            "Yellow": {
+              "value": "#d3d3d3",
+              "type": "color",
+              "description": "Primary disabled border colour for reversed interactive components"
+            }
+          }
+        },
+        "colour": {
+          "Neutral": {
+            "Blue": {
+              "value": "#7a7b7b",
+              "type": "color",
+              "description": "Primary disabled foreground colour for reversed interactive components. Use for text and icons."
+            },
+            "Green": {
+              "value": "#7a7b7b",
+              "type": "color",
+              "description": "Primary disabled foreground colour for reversed interactive components. Use for text and icons."
+            },
+            "Red": {
+              "value": "#7a7b7b",
+              "type": "color",
+              "description": "Primary disabled foreground colour for reversed interactive components. Use for text and icons."
+            },
+            "Yellow": {
+              "value": "#7a7b7b",
+              "type": "color",
+              "description": "Primary disabled foreground colour for reversed interactive components. Use for text and icons."
+            }
+          },
+          "Subtle": {
+            "Blue": {
+              "value": "#7a7b7b",
+              "type": "color",
+              "description": "Primary disabled foreground colour for reversed interactive components. Use for text and icons."
+            },
+            "Green": {
+              "value": "#7a7b7b",
+              "type": "color",
+              "description": "Primary disabled foreground colour for reversed interactive components. Use for text and icons."
+            },
+            "Red": {
+              "value": "#7a7b7b",
+              "type": "color",
+              "description": "Primary disabled foreground colour for reversed interactive components. Use for text and icons."
+            },
+            "Yellow": {
+              "value": "#7a7b7b",
+              "type": "color",
+              "description": "Primary disabled foreground colour for reversed interactive components. Use for text and icons."
+            }
+          },
+          "Bold": {
+            "Blue": {
+              "value": "#7a7b7b",
+              "type": "color",
+              "description": "Primary disabled foreground colour for reversed interactive components. Use for text and icons."
+            },
+            "Green": {
+              "value": "#7a7b7b",
+              "type": "color",
+              "description": "Primary disabled foreground colour for reversed interactive components. Use for text and icons."
+            },
+            "Red": {
+              "value": "#7a7b7b",
+              "type": "color",
+              "description": "Primary disabled foreground colour for reversed interactive components. Use for text and icons."
+            },
+            "Yellow": {
+              "value": "#7a7b7b",
+              "type": "color",
+              "description": "Primary disabled foreground colour for reversed interactive components. Use for text and icons."
+            }
+          },
+          "Neutral inverse": {
+            "Blue": {
+              "value": "#7a7b7b",
+              "type": "color",
+              "description": "Primary disabled foreground colour for reversed interactive components. Use for text and icons."
+            },
+            "Green": {
+              "value": "#7a7b7b",
+              "type": "color",
+              "description": "Primary disabled foreground colour for reversed interactive components. Use for text and icons."
+            },
+            "Red": {
+              "value": "#7a7b7b",
+              "type": "color",
+              "description": "Primary disabled foreground colour for reversed interactive components. Use for text and icons."
+            },
+            "Yellow": {
+              "value": "#7a7b7b",
+              "type": "color",
+              "description": "Primary disabled foreground colour for reversed interactive components. Use for text and icons."
+            }
+          }
         }
       }
     },
@@ -4781,61 +7403,61 @@
         "background-colour": {
           "Neutral": {
             "Blue": {
-              "value": "#42aeea",
+              "value": "#001d6e",
               "type": "color",
               "description": "Secondary hover background colour for interactive components"
             },
             "Green": {
-              "value": "#43af6e",
+              "value": "#01312e",
               "type": "color",
               "description": "Secondary hover background colour for interactive components"
             },
             "Red": {
-              "value": "#ff3e51",
+              "value": "#940824",
               "type": "color",
               "description": "Secondary hover background colour for interactive components"
             },
             "Yellow": {
-              "value": "#ffe969",
+              "value": "#904029",
               "type": "color",
               "description": "Secondary hover background colour for interactive components"
             }
           },
           "Subtle": {
             "Blue": {
-              "value": "#42aeea",
+              "value": "#001d6e",
               "type": "color",
               "description": "Secondary hover background colour for interactive components"
             },
             "Green": {
-              "value": "#43af6e",
+              "value": "#01312e",
               "type": "color",
               "description": "Secondary hover background colour for interactive components"
             },
             "Red": {
-              "value": "#ff3e51",
+              "value": "#940824",
               "type": "color",
               "description": "Secondary hover background colour for interactive components"
             },
             "Yellow": {
-              "value": "#ffe969",
+              "value": "#904029",
               "type": "color",
               "description": "Secondary hover background colour for interactive components"
             }
           },
           "Bold": {
             "Blue": {
-              "value": "#42aeea",
+              "value": "#001d6e",
               "type": "color",
               "description": "Secondary hover background colour for interactive components"
             },
             "Green": {
-              "value": "#43af6e",
+              "value": "#01312e",
               "type": "color",
               "description": "Secondary hover background colour for interactive components"
             },
             "Red": {
-              "value": "#ff3e51",
+              "value": "#940824",
               "type": "color",
               "description": "Secondary hover background colour for interactive components"
             },
@@ -4847,22 +7469,22 @@
           },
           "Neutral inverse": {
             "Blue": {
-              "value": "#42aeea",
+              "value": "#001d6e",
               "type": "color",
               "description": "Secondary hover background colour for interactive components"
             },
             "Green": {
-              "value": "#43af6e",
+              "value": "#01312e",
               "type": "color",
               "description": "Secondary hover background colour for interactive components"
             },
             "Red": {
-              "value": "#ff3e51",
+              "value": "#940824",
               "type": "color",
               "description": "Secondary hover background colour for interactive components"
             },
             "Yellow": {
-              "value": "#ffe969",
+              "value": "#904029",
               "type": "color",
               "description": "Secondary hover background colour for interactive components"
             }
@@ -4871,88 +7493,88 @@
         "border-colour": {
           "Neutral": {
             "Blue": {
-              "value": "#1d1d1b",
+              "value": "#001d6e",
               "type": "color",
               "description": "Secondary hover border colour for interactive components"
             },
             "Green": {
-              "value": "#1d1d1b",
+              "value": "#01312e",
               "type": "color",
               "description": "Secondary hover border colour for interactive components"
             },
             "Red": {
-              "value": "#1d1d1b",
+              "value": "#940824",
               "type": "color",
               "description": "Secondary hover border colour for interactive components"
             },
             "Yellow": {
-              "value": "#000000",
+              "value": "#904029",
               "type": "color",
               "description": "Secondary hover border colour for interactive components"
             }
           },
           "Subtle": {
             "Blue": {
-              "value": "#1d1d1b",
+              "value": "#001d6e",
               "type": "color",
               "description": "Secondary hover border colour for interactive components"
             },
             "Green": {
-              "value": "#1d1d1b",
+              "value": "#01312e",
               "type": "color",
               "description": "Secondary hover border colour for interactive components"
             },
             "Red": {
-              "value": "#1d1d1b",
+              "value": "#940824",
               "type": "color",
               "description": "Secondary hover border colour for interactive components"
             },
             "Yellow": {
-              "value": "#000000",
+              "value": "#904029",
               "type": "color",
               "description": "Secondary hover border colour for interactive components"
             }
           },
           "Bold": {
             "Blue": {
-              "value": "#1d1d1b",
+              "value": "#ffffff",
               "type": "color",
               "description": "Secondary hover border colour for interactive components"
             },
             "Green": {
-              "value": "#1d1d1b",
+              "value": "#ffffff",
               "type": "color",
               "description": "Secondary hover border colour for interactive components"
             },
             "Red": {
-              "value": "#1d1d1b",
+              "value": "#ffffff",
               "type": "color",
               "description": "Secondary hover border colour for interactive components"
             },
             "Yellow": {
-              "value": "#000000",
+              "value": "#1d1d1b",
               "type": "color",
               "description": "Secondary hover border colour for interactive components"
             }
           },
           "Neutral inverse": {
             "Blue": {
-              "value": "#1d1d1b",
+              "value": "#001d6e",
               "type": "color",
               "description": "Secondary hover border colour for interactive components"
             },
             "Green": {
-              "value": "#1d1d1b",
+              "value": "#01312e",
               "type": "color",
               "description": "Secondary hover border colour for interactive components"
             },
             "Red": {
-              "value": "#1d1d1b",
+              "value": "#940824",
               "type": "color",
               "description": "Secondary hover border colour for interactive components"
             },
             "Yellow": {
-              "value": "#000000",
+              "value": "#904029",
               "type": "color",
               "description": "Secondary hover border colour for interactive components"
             }
@@ -4961,88 +7583,88 @@
         "colour": {
           "Neutral": {
             "Blue": {
-              "value": "#1d1d1b",
+              "value": "#ffffff",
               "type": "color",
               "description": "Secondary hover foreground colour for interactive components. Use for text and icons."
             },
             "Green": {
-              "value": "#1d1d1b",
+              "value": "#ffffff",
               "type": "color",
               "description": "Secondary hover foreground colour for interactive components. Use for text and icons."
             },
             "Red": {
-              "value": "#1d1d1b",
+              "value": "#ffffff",
               "type": "color",
               "description": "Secondary hover foreground colour for interactive components. Use for text and icons."
             },
             "Yellow": {
-              "value": "#000000",
+              "value": "#ffffff",
               "type": "color",
               "description": "Secondary hover foreground colour for interactive components. Use for text and icons."
             }
           },
           "Subtle": {
             "Blue": {
-              "value": "#1d1d1b",
+              "value": "#ffffff",
               "type": "color",
               "description": "Secondary hover foreground colour for interactive components. Use for text and icons."
             },
             "Green": {
-              "value": "#1d1d1b",
+              "value": "#ffffff",
               "type": "color",
               "description": "Secondary hover foreground colour for interactive components. Use for text and icons."
             },
             "Red": {
-              "value": "#1d1d1b",
+              "value": "#ffffff",
               "type": "color",
               "description": "Secondary hover foreground colour for interactive components. Use for text and icons."
             },
             "Yellow": {
-              "value": "#000000",
+              "value": "#ffffff",
               "type": "color",
               "description": "Secondary hover foreground colour for interactive components. Use for text and icons."
             }
           },
           "Bold": {
             "Blue": {
-              "value": "#1d1d1b",
+              "value": "#ffffff",
               "type": "color",
               "description": "Secondary hover foreground colour for interactive components. Use for text and icons."
             },
             "Green": {
-              "value": "#1d1d1b",
+              "value": "#ffffff",
               "type": "color",
               "description": "Secondary hover foreground colour for interactive components. Use for text and icons."
             },
             "Red": {
-              "value": "#1d1d1b",
+              "value": "#ffffff",
               "type": "color",
               "description": "Secondary hover foreground colour for interactive components. Use for text and icons."
             },
             "Yellow": {
-              "value": "#000000",
+              "value": "#1d1d1b",
               "type": "color",
               "description": "Secondary hover foreground colour for interactive components. Use for text and icons."
             }
           },
           "Neutral inverse": {
             "Blue": {
-              "value": "#1d1d1b",
+              "value": "#ffffff",
               "type": "color",
               "description": "Secondary hover foreground colour for interactive components. Use for text and icons."
             },
             "Green": {
-              "value": "#1d1d1b",
+              "value": "#ffffff",
               "type": "color",
               "description": "Secondary hover foreground colour for interactive components. Use for text and icons."
             },
             "Red": {
-              "value": "#1d1d1b",
+              "value": "#ffffff",
               "type": "color",
               "description": "Secondary hover foreground colour for interactive components. Use for text and icons."
             },
             "Yellow": {
-              "value": "#000000",
+              "value": "#ffffff",
               "type": "color",
               "description": "Secondary hover foreground colour for interactive components. Use for text and icons."
             }
@@ -5053,61 +7675,61 @@
         "background-colour": {
           "Neutral": {
             "Blue": {
-              "value": "#d2effb",
+              "value": "#000039",
               "type": "color",
               "description": "Secondary active background colour for interactive components"
             },
             "Green": {
-              "value": "#dff6eb",
+              "value": "#011b1f",
               "type": "color",
               "description": "Secondary active background colour for interactive components"
             },
             "Red": {
-              "value": "#ffd5d2",
+              "value": "#480411",
               "type": "color",
               "description": "Secondary active background colour for interactive components"
             },
             "Yellow": {
-              "value": "#fffbdc",
+              "value": "#572722",
               "type": "color",
               "description": "Secondary active background colour for interactive components"
             }
           },
           "Subtle": {
             "Blue": {
-              "value": "#d2effb",
+              "value": "#000039",
               "type": "color",
               "description": "Secondary active background colour for interactive components"
             },
             "Green": {
-              "value": "#dff6eb",
+              "value": "#011b1f",
               "type": "color",
               "description": "Secondary active background colour for interactive components"
             },
             "Red": {
-              "value": "#ffd5d2",
+              "value": "#480411",
               "type": "color",
               "description": "Secondary active background colour for interactive components"
             },
             "Yellow": {
-              "value": "#fffbdc",
+              "value": "#572722",
               "type": "color",
               "description": "Secondary active background colour for interactive components"
             }
           },
           "Bold": {
             "Blue": {
-              "value": "#d2effb",
+              "value": "#000039",
               "type": "color",
               "description": "Secondary active background colour for interactive components"
             },
             "Green": {
-              "value": "#dff6eb",
+              "value": "#011b1f",
               "type": "color",
               "description": "Secondary active background colour for interactive components"
             },
             "Red": {
-              "value": "#ffd5d2",
+              "value": "#480411",
               "type": "color",
               "description": "Secondary active background colour for interactive components"
             },
@@ -5119,22 +7741,22 @@
           },
           "Neutral inverse": {
             "Blue": {
-              "value": "#d2effb",
+              "value": "#000039",
               "type": "color",
               "description": "Secondary active background colour for interactive components"
             },
             "Green": {
-              "value": "#dff6eb",
+              "value": "#011b1f",
               "type": "color",
               "description": "Secondary active background colour for interactive components"
             },
             "Red": {
-              "value": "#ffd5d2",
+              "value": "#480411",
               "type": "color",
               "description": "Secondary active background colour for interactive components"
             },
             "Yellow": {
-              "value": "#fffbdc",
+              "value": "#572722",
               "type": "color",
               "description": "Secondary active background colour for interactive components"
             }
@@ -5143,88 +7765,88 @@
         "border-colour": {
           "Neutral": {
             "Blue": {
-              "value": "#1d1d1b",
+              "value": "#000039",
               "type": "color",
               "description": "Secondary active border colour for interactive components"
             },
             "Green": {
-              "value": "#1d1d1b",
+              "value": "#011b1f",
               "type": "color",
               "description": "Secondary active border colour for interactive components"
             },
             "Red": {
-              "value": "#1d1d1b",
+              "value": "#480411",
               "type": "color",
               "description": "Secondary active border colour for interactive components"
             },
             "Yellow": {
-              "value": "#000000",
+              "value": "#572722",
               "type": "color",
               "description": "Secondary active border colour for interactive components"
             }
           },
           "Subtle": {
             "Blue": {
-              "value": "#1d1d1b",
+              "value": "#000039",
               "type": "color",
               "description": "Secondary active border colour for interactive components"
             },
             "Green": {
-              "value": "#1d1d1b",
+              "value": "#011b1f",
               "type": "color",
               "description": "Secondary active border colour for interactive components"
             },
             "Red": {
-              "value": "#1d1d1b",
+              "value": "#480411",
               "type": "color",
               "description": "Secondary active border colour for interactive components"
             },
             "Yellow": {
-              "value": "#000000",
+              "value": "#572722",
               "type": "color",
               "description": "Secondary active border colour for interactive components"
             }
           },
           "Bold": {
             "Blue": {
-              "value": "#1d1d1b",
+              "value": "#ffffff",
               "type": "color",
               "description": "Secondary active border colour for interactive components"
             },
             "Green": {
-              "value": "#1d1d1b",
+              "value": "#ffffff",
               "type": "color",
               "description": "Secondary active border colour for interactive components"
             },
             "Red": {
-              "value": "#1d1d1b",
+              "value": "#ffffff",
               "type": "color",
               "description": "Secondary active border colour for interactive components"
             },
             "Yellow": {
-              "value": "#000000",
+              "value": "#1d1d1b",
               "type": "color",
               "description": "Secondary active border colour for interactive components"
             }
           },
           "Neutral inverse": {
             "Blue": {
-              "value": "#1d1d1b",
+              "value": "#000039",
               "type": "color",
               "description": "Secondary active border colour for interactive components"
             },
             "Green": {
-              "value": "#1d1d1b",
+              "value": "#011b1f",
               "type": "color",
               "description": "Secondary active border colour for interactive components"
             },
             "Red": {
-              "value": "#1d1d1b",
+              "value": "#480411",
               "type": "color",
               "description": "Secondary active border colour for interactive components"
             },
             "Yellow": {
-              "value": "#000000",
+              "value": "#572722",
               "type": "color",
               "description": "Secondary active border colour for interactive components"
             }
@@ -5233,88 +7855,88 @@
         "colour": {
           "Neutral": {
             "Blue": {
-              "value": "#1d1d1b",
+              "value": "#ffffff",
               "type": "color",
               "description": "Secondary active foreground colour for interactive components. Use for text and icons."
             },
             "Green": {
-              "value": "#1d1d1b",
+              "value": "#ffffff",
               "type": "color",
               "description": "Secondary active foreground colour for interactive components. Use for text and icons."
             },
             "Red": {
-              "value": "#1d1d1b",
+              "value": "#ffffff",
               "type": "color",
               "description": "Secondary active foreground colour for interactive components. Use for text and icons."
             },
             "Yellow": {
-              "value": "#000000",
+              "value": "#ffffff",
               "type": "color",
               "description": "Secondary active foreground colour for interactive components. Use for text and icons."
             }
           },
           "Subtle": {
             "Blue": {
-              "value": "#1d1d1b",
+              "value": "#ffffff",
               "type": "color",
               "description": "Secondary active foreground colour for interactive components. Use for text and icons."
             },
             "Green": {
-              "value": "#1d1d1b",
+              "value": "#ffffff",
               "type": "color",
               "description": "Secondary active foreground colour for interactive components. Use for text and icons."
             },
             "Red": {
-              "value": "#1d1d1b",
+              "value": "#ffffff",
               "type": "color",
               "description": "Secondary active foreground colour for interactive components. Use for text and icons."
             },
             "Yellow": {
-              "value": "#000000",
+              "value": "#ffffff",
               "type": "color",
               "description": "Secondary active foreground colour for interactive components. Use for text and icons."
             }
           },
           "Bold": {
             "Blue": {
-              "value": "#1d1d1b",
+              "value": "#ffffff",
               "type": "color",
               "description": "Secondary active foreground colour for interactive components. Use for text and icons."
             },
             "Green": {
-              "value": "#1d1d1b",
+              "value": "#ffffff",
               "type": "color",
               "description": "Secondary active foreground colour for interactive components. Use for text and icons."
             },
             "Red": {
-              "value": "#1d1d1b",
+              "value": "#ffffff",
               "type": "color",
               "description": "Secondary active foreground colour for interactive components. Use for text and icons."
             },
             "Yellow": {
-              "value": "#000000",
+              "value": "#1d1d1b",
               "type": "color",
               "description": "Secondary active foreground colour for interactive components. Use for text and icons."
             }
           },
           "Neutral inverse": {
             "Blue": {
-              "value": "#1d1d1b",
+              "value": "#ffffff",
               "type": "color",
               "description": "Secondary active foreground colour for interactive components. Use for text and icons."
             },
             "Green": {
-              "value": "#1d1d1b",
+              "value": "#ffffff",
               "type": "color",
               "description": "Secondary active foreground colour for interactive components. Use for text and icons."
             },
             "Red": {
-              "value": "#1d1d1b",
+              "value": "#ffffff",
               "type": "color",
               "description": "Secondary active foreground colour for interactive components. Use for text and icons."
             },
             "Yellow": {
-              "value": "#000000",
+              "value": "#ffffff",
               "type": "color",
               "description": "Secondary active foreground colour for interactive components. Use for text and icons."
             }
@@ -5589,6 +8211,278 @@
               "value": "#000000",
               "type": "color",
               "description": "Secondary focus foreground colour for interactive components. Use for text and icons."
+            }
+          }
+        }
+      },
+      "disabled": {
+        "background-colour": {
+          "Neutral": {
+            "Blue": {
+              "value": "#d3d3d3",
+              "type": "color",
+              "description": "Secondary disabled background colour for interactive components"
+            },
+            "Green": {
+              "value": "#d3d3d3",
+              "type": "color",
+              "description": "Secondary disabled background colour for interactive components"
+            },
+            "Red": {
+              "value": "#d3d3d3",
+              "type": "color",
+              "description": "Secondary disabled background colour for interactive components"
+            },
+            "Yellow": {
+              "value": "#d3d3d3",
+              "type": "color",
+              "description": "Secondary disabled background colour for interactive components"
+            }
+          },
+          "Subtle": {
+            "Blue": {
+              "value": "#d3d3d3",
+              "type": "color",
+              "description": "Secondary disabled background colour for interactive components"
+            },
+            "Green": {
+              "value": "#d3d3d3",
+              "type": "color",
+              "description": "Secondary disabled background colour for interactive components"
+            },
+            "Red": {
+              "value": "#d3d3d3",
+              "type": "color",
+              "description": "Secondary disabled background colour for interactive components"
+            },
+            "Yellow": {
+              "value": "#d3d3d3",
+              "type": "color",
+              "description": "Secondary disabled background colour for interactive components"
+            }
+          },
+          "Bold": {
+            "Blue": {
+              "value": "#d3d3d3",
+              "type": "color",
+              "description": "Secondary disabled background colour for interactive components"
+            },
+            "Green": {
+              "value": "#d3d3d3",
+              "type": "color",
+              "description": "Secondary disabled background colour for interactive components"
+            },
+            "Red": {
+              "value": "#d3d3d3",
+              "type": "color",
+              "description": "Secondary disabled background colour for interactive components"
+            },
+            "Yellow": {
+              "value": "#d3d3d3",
+              "type": "color",
+              "description": "Secondary disabled background colour for interactive components"
+            }
+          },
+          "Neutral inverse": {
+            "Blue": {
+              "value": "#d3d3d3",
+              "type": "color",
+              "description": "Secondary disabled background colour for interactive components"
+            },
+            "Green": {
+              "value": "#d3d3d3",
+              "type": "color",
+              "description": "Secondary disabled background colour for interactive components"
+            },
+            "Red": {
+              "value": "#d3d3d3",
+              "type": "color",
+              "description": "Secondary disabled background colour for interactive components"
+            },
+            "Yellow": {
+              "value": "#d3d3d3",
+              "type": "color",
+              "description": "Secondary disabled background colour for interactive components"
+            }
+          }
+        },
+        "border-color": {
+          "Neutral": {
+            "Blue": {
+              "value": "#d3d3d3",
+              "type": "color",
+              "description": "Secondary disabled border colour for interactive components"
+            },
+            "Green": {
+              "value": "#d3d3d3",
+              "type": "color",
+              "description": "Secondary disabled border colour for interactive components"
+            },
+            "Red": {
+              "value": "#d3d3d3",
+              "type": "color",
+              "description": "Secondary disabled border colour for interactive components"
+            },
+            "Yellow": {
+              "value": "#d3d3d3",
+              "type": "color",
+              "description": "Secondary disabled border colour for interactive components"
+            }
+          },
+          "Subtle": {
+            "Blue": {
+              "value": "#d3d3d3",
+              "type": "color",
+              "description": "Secondary disabled border colour for interactive components"
+            },
+            "Green": {
+              "value": "#d3d3d3",
+              "type": "color",
+              "description": "Secondary disabled border colour for interactive components"
+            },
+            "Red": {
+              "value": "#d3d3d3",
+              "type": "color",
+              "description": "Secondary disabled border colour for interactive components"
+            },
+            "Yellow": {
+              "value": "#d3d3d3",
+              "type": "color",
+              "description": "Secondary disabled border colour for interactive components"
+            }
+          },
+          "Bold": {
+            "Blue": {
+              "value": "#d3d3d3",
+              "type": "color",
+              "description": "Secondary disabled border colour for interactive components"
+            },
+            "Green": {
+              "value": "#d3d3d3",
+              "type": "color",
+              "description": "Secondary disabled border colour for interactive components"
+            },
+            "Red": {
+              "value": "#d3d3d3",
+              "type": "color",
+              "description": "Secondary disabled border colour for interactive components"
+            },
+            "Yellow": {
+              "value": "#d3d3d3",
+              "type": "color",
+              "description": "Secondary disabled border colour for interactive components"
+            }
+          },
+          "Neutral inverse": {
+            "Blue": {
+              "value": "#d3d3d3",
+              "type": "color",
+              "description": "Secondary disabled border colour for interactive components"
+            },
+            "Green": {
+              "value": "#d3d3d3",
+              "type": "color",
+              "description": "Secondary disabled border colour for interactive components"
+            },
+            "Red": {
+              "value": "#d3d3d3",
+              "type": "color",
+              "description": "Secondary disabled border colour for interactive components"
+            },
+            "Yellow": {
+              "value": "#d3d3d3",
+              "type": "color",
+              "description": "Secondary disabled border colour for interactive components"
+            }
+          }
+        },
+        "color": {
+          "Neutral": {
+            "Blue": {
+              "value": "#7a7b7b",
+              "type": "color",
+              "description": "Secondary disabled foreground colour for interactive components. Use for text and icons."
+            },
+            "Green": {
+              "value": "#7a7b7b",
+              "type": "color",
+              "description": "Secondary disabled foreground colour for interactive components. Use for text and icons."
+            },
+            "Red": {
+              "value": "#7a7b7b",
+              "type": "color",
+              "description": "Secondary disabled foreground colour for interactive components. Use for text and icons."
+            },
+            "Yellow": {
+              "value": "#7a7b7b",
+              "type": "color",
+              "description": "Secondary disabled foreground colour for interactive components. Use for text and icons."
+            }
+          },
+          "Subtle": {
+            "Blue": {
+              "value": "#7a7b7b",
+              "type": "color",
+              "description": "Secondary disabled foreground colour for interactive components. Use for text and icons."
+            },
+            "Green": {
+              "value": "#7a7b7b",
+              "type": "color",
+              "description": "Secondary disabled foreground colour for interactive components. Use for text and icons."
+            },
+            "Red": {
+              "value": "#7a7b7b",
+              "type": "color",
+              "description": "Secondary disabled foreground colour for interactive components. Use for text and icons."
+            },
+            "Yellow": {
+              "value": "#7a7b7b",
+              "type": "color",
+              "description": "Secondary disabled foreground colour for interactive components. Use for text and icons."
+            }
+          },
+          "Bold": {
+            "Blue": {
+              "value": "#7a7b7b",
+              "type": "color",
+              "description": "Secondary disabled foreground colour for interactive components. Use for text and icons."
+            },
+            "Green": {
+              "value": "#7a7b7b",
+              "type": "color",
+              "description": "Secondary disabled foreground colour for interactive components. Use for text and icons."
+            },
+            "Red": {
+              "value": "#7a7b7b",
+              "type": "color",
+              "description": "Secondary disabled foreground colour for interactive components. Use for text and icons."
+            },
+            "Yellow": {
+              "value": "#7a7b7b",
+              "type": "color",
+              "description": "Secondary disabled foreground colour for interactive components. Use for text and icons."
+            }
+          },
+          "Neutral inverse": {
+            "Blue": {
+              "value": "#7a7b7b",
+              "type": "color",
+              "description": "Secondary disabled foreground colour for interactive components. Use for text and icons."
+            },
+            "Green": {
+              "value": "#7a7b7b",
+              "type": "color",
+              "description": "Secondary disabled foreground colour for interactive components. Use for text and icons."
+            },
+            "Red": {
+              "value": "#7a7b7b",
+              "type": "color",
+              "description": "Secondary disabled foreground colour for interactive components. Use for text and icons."
+            },
+            "Yellow": {
+              "value": "#7a7b7b",
+              "type": "color",
+              "description": "Secondary disabled foreground colour for interactive components. Use for text and icons."
             }
           }
         }
@@ -6376,6 +9270,98 @@
           "Yellow": {
             "value": "#ffffff",
             "type": "color"
+          }
+        }
+      }
+    },
+    "validation": {
+      "colour-error": {
+        "Neutral": {
+          "Blue": {
+            "value": "#c50b30",
+            "type": "color",
+            "description": "Use for text and icons for info, success, warning and error states"
+          },
+          "Green": {
+            "value": "#c50b30",
+            "type": "color",
+            "description": "Use for text and icons for info, success, warning and error states"
+          },
+          "Red": {
+            "value": "#c50b30",
+            "type": "color",
+            "description": "Use for text and icons for info, success, warning and error states"
+          },
+          "Yellow": {
+            "value": "#c50b30",
+            "type": "color",
+            "description": "Use for text and icons for info, success, warning and error states"
+          }
+        },
+        "Subtle": {
+          "Blue": {
+            "value": "#1d1d1b",
+            "type": "color",
+            "description": "Use for text and icons for info, success, warning and error states"
+          },
+          "Green": {
+            "value": "#1d1d1b",
+            "type": "color",
+            "description": "Use for text and icons for info, success, warning and error states"
+          },
+          "Red": {
+            "value": "#1d1d1b",
+            "type": "color",
+            "description": "Use for text and icons for info, success, warning and error states"
+          },
+          "Yellow": {
+            "value": "#1d1d1b",
+            "type": "color",
+            "description": "Use for text and icons for info, success, warning and error states"
+          }
+        },
+        "Bold": {
+          "Blue": {
+            "value": "#ffffff",
+            "type": "color",
+            "description": "Use for text and icons for info, success, warning and error states"
+          },
+          "Green": {
+            "value": "#ffffff",
+            "type": "color",
+            "description": "Use for text and icons for info, success, warning and error states"
+          },
+          "Red": {
+            "value": "#ffffff",
+            "type": "color",
+            "description": "Use for text and icons for info, success, warning and error states"
+          },
+          "Yellow": {
+            "value": "#1d1d1b",
+            "type": "color",
+            "description": "Use for text and icons for info, success, warning and error states"
+          }
+        },
+        "Neutral inverse": {
+          "Blue": {
+            "value": "#c50b30",
+            "type": "color",
+            "description": "Use for text and icons for info, success, warning and error states"
+          },
+          "Green": {
+            "value": "#c50b30",
+            "type": "color",
+            "description": "Use for text and icons for info, success, warning and error states"
+          },
+          "Red": {
+            "value": "#c50b30",
+            "type": "color",
+            "description": "Use for text and icons for info, success, warning and error states"
+          },
+          "Yellow": {
+            "value": "#c50b30",
+            "type": "color",
+            "description": "Use for text and icons for info, success, warning and error states"
           }
         }
       }

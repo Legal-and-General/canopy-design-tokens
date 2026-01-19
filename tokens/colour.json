@@ -1,6 +1,6 @@
 {
   "$description": "Design tokens from Colour collection",
-  "$timestamp": "2025-12-19T14:39:17.217Z",
+  "$timestamp": "2026-01-19T14:30:17.913Z",
   "brand": {
     "tint": {
       "1": {
@@ -338,12 +338,34 @@
           "description": "Use to style foreground, background and border properties of interactive elements"
         },
         "Yellow": {
-          "value": "#1d1d1b",
+          "value": "#ffffff",
           "type": "color",
           "description": "Use to style foreground, background and border properties of interactive elements"
         }
       },
       "2": {
+        "Blue": {
+          "value": "#ffffff",
+          "type": "color",
+          "description": "Use to style foreground, background and border properties of interactive elements"
+        },
+        "Green": {
+          "value": "#ffffff",
+          "type": "color",
+          "description": "Use to style foreground, background and border properties of interactive elements"
+        },
+        "Red": {
+          "value": "#ffffff",
+          "type": "color",
+          "description": "Use to style foreground, background and border properties of interactive elements"
+        },
+        "Yellow": {
+          "value": "#1d1d1b",
+          "type": "color",
+          "description": "Use to style foreground, background and border properties of interactive elements"
+        }
+      },
+      "3": {
         "Blue": {
           "value": "#d2effb",
           "type": "color",
@@ -361,28 +383,6 @@
         },
         "Yellow": {
           "value": "#fffbdc",
-          "type": "color",
-          "description": "Use to style foreground, background and border properties of interactive elements"
-        }
-      },
-      "3": {
-        "Blue": {
-          "value": "#42aeea",
-          "type": "color",
-          "description": "Use to style foreground, background and border properties of interactive elements"
-        },
-        "Green": {
-          "value": "#43af6e",
-          "type": "color",
-          "description": "Use to style foreground, background and border properties of interactive elements"
-        },
-        "Red": {
-          "value": "#ff3e51",
-          "type": "color",
-          "description": "Use to style foreground, background and border properties of interactive elements"
-        },
-        "Yellow": {
-          "value": "#ffe969",
           "type": "color",
           "description": "Use to style foreground, background and border properties of interactive elements"
         }
@@ -410,6 +410,116 @@
         }
       },
       "5": {
+        "Blue": {
+          "value": "#001d6e",
+          "type": "color",
+          "description": "Use to style foreground, background and border properties of interactive elements"
+        },
+        "Green": {
+          "value": "#01312e",
+          "type": "color",
+          "description": "Use to style foreground, background and border properties of interactive elements"
+        },
+        "Red": {
+          "value": "#940824",
+          "type": "color",
+          "description": "Use to style foreground, background and border properties of interactive elements"
+        },
+        "Yellow": {
+          "value": "#904029",
+          "type": "color",
+          "description": "Use to style foreground, background and border properties of interactive elements"
+        }
+      },
+      "6": {
+        "Blue": {
+          "value": "#001d6e",
+          "type": "color",
+          "description": "Use to style foreground, background and border properties of interactive elements"
+        },
+        "Green": {
+          "value": "#01312e",
+          "type": "color",
+          "description": "Use to style foreground, background and border properties of interactive elements"
+        },
+        "Red": {
+          "value": "#940824",
+          "type": "color",
+          "description": "Use to style foreground, background and border properties of interactive elements"
+        },
+        "Yellow": {
+          "value": "#ffe969",
+          "type": "color",
+          "description": "Use to style foreground, background and border properties of interactive elements"
+        }
+      },
+      "7": {
+        "Blue": {
+          "value": "#000039",
+          "type": "color",
+          "description": "Use to style foreground, background and border properties of interactive elements"
+        },
+        "Green": {
+          "value": "#011b1f",
+          "type": "color",
+          "description": "Use to style foreground, background and border properties of interactive elements"
+        },
+        "Red": {
+          "value": "#480411",
+          "type": "color",
+          "description": "Use to style foreground, background and border properties of interactive elements"
+        },
+        "Yellow": {
+          "value": "#572722",
+          "type": "color",
+          "description": "Use to style foreground, background and border properties of interactive elements"
+        }
+      },
+      "8": {
+        "Blue": {
+          "value": "#000039",
+          "type": "color",
+          "description": "Use to style foreground, background and border properties of interactive elements"
+        },
+        "Green": {
+          "value": "#011b1f",
+          "type": "color",
+          "description": "Use to style foreground, background and border properties of interactive elements"
+        },
+        "Red": {
+          "value": "#480411",
+          "type": "color",
+          "description": "Use to style foreground, background and border properties of interactive elements"
+        },
+        "Yellow": {
+          "value": "#fffbdc",
+          "type": "color",
+          "description": "Use to style foreground, background and border properties of interactive elements"
+        }
+      },
+      "9": {
+        "Blue": {
+          "value": "#1d1d1b",
+          "type": "color",
+          "description": "Use to style foreground, background and border properties of interactive elements"
+        },
+        "Green": {
+          "value": "#1d1d1b",
+          "type": "color",
+          "description": "Use to style foreground, background and border properties of interactive elements"
+        },
+        "Red": {
+          "value": "#1d1d1b",
+          "type": "color",
+          "description": "Use to style foreground, background and border properties of interactive elements"
+        },
+        "Yellow": {
+          "value": "#f4f4f4",
+          "type": "color",
+          "description": "Use to style foreground, background and border properties of interactive elements"
+        }
+      },
+      "10": {
         "Blue": {
           "value": "#1d1d1b",
           "type": "color",
@@ -631,6 +741,44 @@
           "description": "Use to style foreground, background and border properties of reversed interactive elements"
         }
       }
+    },
+    "disabled": {
+      "1": {
+        "Blue": {
+          "value": "#d3d3d3",
+          "type": "color"
+        },
+        "Green": {
+          "value": "#d3d3d3",
+          "type": "color"
+        },
+        "Red": {
+          "value": "#d3d3d3",
+          "type": "color"
+        },
+        "Yellow": {
+          "value": "#d3d3d3",
+          "type": "color"
+        }
+      },
+      "2": {
+        "Blue": {
+          "value": "#7a7b7b",
+          "type": "color"
+        },
+        "Green": {
+          "value": "#7a7b7b",
+          "type": "color"
+        },
+        "Red": {
+          "value": "#7a7b7b",
+          "type": "color"
+        },
+        "Yellow": {
+          "value": "#7a7b7b",
+          "type": "color"
+        }
+      }
     }
   },
   "surface": {
@@ -773,10 +921,124 @@
           "type": "color",
           "description": "Use sparingly in containers and page backgrounds"
         }
+      },
+      "situational": {
+        "1": {
+          "Blue": {
+            "value": "#aee1f7",
+            "type": "color",
+            "description": "Use to style situational backgrounds such as info, success, warning or error"
+          },
+          "Green": {
+            "value": "#caeedd",
+            "type": "color",
+            "description": "Use to style situational backgrounds such as info, success, warning or error"
+          },
+          "Red": {
+            "value": "#ffd5d2",
+            "type": "color",
+            "description": "Use to style situational backgrounds such as info, success, warning or error"
+          },
+          "Yellow": {
+            "value": "#fff9c7",
+            "type": "color",
+            "description": "Use to style situational backgrounds such as info, success, warning or error"
+          }
+        },
+        "2": {
+          "Blue": {
+            "value": "#005dba",
+            "type": "color",
+            "description": "Use to style situational backgrounds such as info, success, warning or error"
+          },
+          "Green": {
+            "value": "#00633d",
+            "type": "color",
+            "description": "Use to style situational backgrounds such as info, success, warning or error"
+          },
+          "Red": {
+            "value": "#c50b30",
+            "type": "color",
+            "description": "Use to style situational backgrounds such as info, success, warning or error"
+          },
+          "Yellow": {
+            "value": "#ffb600",
+            "type": "color",
+            "description": "Use to style situational backgrounds such as info, success, warning or error"
+          }
+        }
       }
     }
   },
   "text": {
+    "situational": {
+      "1": {
+        "Blue": {
+          "value": "#c50b30",
+          "type": "color",
+          "description": "Use for styling text for situational purposes, such as info, success, warning and error"
+        },
+        "Green": {
+          "value": "#c50b30",
+          "type": "color",
+          "description": "Use for styling text for situational purposes, such as info, success, warning and error"
+        },
+        "Red": {
+          "value": "#c50b30",
+          "type": "color",
+          "description": "Use for styling text for situational purposes, such as info, success, warning and error"
+        },
+        "Yellow": {
+          "value": "#c50b30",
+          "type": "color",
+          "description": "Use for styling text for situational purposes, such as info, success, warning and error"
+        }
+      },
+      "2": {
+        "Blue": {
+          "value": "#1d1d1b",
+          "type": "color",
+          "description": "Use for styling text for situational purposes, such as info, success, warning and error"
+        },
+        "Green": {
+          "value": "#1d1d1b",
+          "type": "color",
+          "description": "Use for styling text for situational purposes, such as info, success, warning and error"
+        },
+        "Red": {
+          "value": "#1d1d1b",
+          "type": "color",
+          "description": "Use for styling text for situational purposes, such as info, success, warning and error"
+        },
+        "Yellow": {
+          "value": "#1d1d1b",
+          "type": "color",
+          "description": "Use for styling text for situational purposes, such as info, success, warning and error"
+        }
+      },
+      "3": {
+        "Blue": {
+          "value": "#ffffff",
+          "type": "color",
+          "description": "Use for styling text for situational purposes, such as info, success, warning and error"
+        },
+        "Green": {
+          "value": "#ffffff",
+          "type": "color",
+          "description": "Use for styling text for situational purposes, such as info, success, warning and error"
+        },
+        "Red": {
+          "value": "#ffffff",
+          "type": "color",
+          "description": "Use for styling text for situational purposes, such as info, success, warning and error"
+        },
+        "Yellow": {
+          "value": "#1d1d1b",
+          "type": "color",
+          "description": "Use for styling text for situational purposes, such as info, success, warning and error"
+        }
+      }
+    },
     "static": {
       "1": {
         "Blue": {
