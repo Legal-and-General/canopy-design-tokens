@@ -84,7 +84,11 @@ module.exports = {
           return (
             token.type === 'fontFamily' ||
             (token.path &&
-              token.path.some((p) => p.toLowerCase().includes('font-family')))
+              token.path.some(
+                (p) =>
+                  p.toLowerCase().includes('font-family') ||
+                  p.toLowerCase().includes('typeface'),
+              ))
           );
         },
         transform: function (token) {

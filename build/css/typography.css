@@ -18,6 +18,6 @@
   --letter-spacing-normal-productive: 0.01250rem;
   --letter-spacing-normal-expressive: -0.03125rem;
   --letter-spacing-expanded-productive: 0.01875rem;
-  --typeface-productive: Nunito Sans;
-  --typeface-expressive: ABC Otto;
+  --typeface-productive: 'Nunito Sans';
+  --typeface-expressive: 'ABC Otto';
 }
