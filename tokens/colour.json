@@ -1,6 +1,6 @@
 {
   "$description": "Design tokens from Colour collection",
-  "$timestamp": "2026-01-22T12:11:54.472Z",
+  "$timestamp": "2026-01-26T08:15:45.367Z",
   "brand": {
     "tint": {
       "1": {
@@ -921,121 +921,125 @@
           "type": "color",
           "description": "Use sparingly in containers and page backgrounds"
         }
-      },
-      "situational": {
-        "1": {
-          "Blue": {
-            "value": "#aee1f7",
-            "type": "color",
-            "description": "Use to style situational backgrounds such as info, success, warning or error"
-          },
-          "Green": {
-            "value": "#caeedd",
-            "type": "color",
-            "description": "Use to style situational backgrounds such as info, success, warning or error"
-          },
-          "Red": {
-            "value": "#ffd5d2",
-            "type": "color",
-            "description": "Use to style situational backgrounds such as info, success, warning or error"
-          },
-          "Yellow": {
-            "value": "#fff9c7",
-            "type": "color",
-            "description": "Use to style situational backgrounds such as info, success, warning or error"
-          }
-        },
-        "2": {
-          "Blue": {
-            "value": "#005dba",
-            "type": "color",
-            "description": "Use to style situational backgrounds such as info, success, warning or error"
-          },
-          "Green": {
-            "value": "#00633d",
-            "type": "color",
-            "description": "Use to style situational backgrounds such as info, success, warning or error"
-          },
-          "Red": {
-            "value": "#c50b30",
-            "type": "color",
-            "description": "Use to style situational backgrounds such as info, success, warning or error"
-          },
-          "Yellow": {
-            "value": "#ffb600",
-            "type": "color",
-            "description": "Use to style situational backgrounds such as info, success, warning or error"
-          }
-        }
       }
     }
   },
   "text": {
-    "situational": {
+    "interactive": {
       "1": {
         "Blue": {
-          "value": "#c50b30",
-          "type": "color",
-          "description": "Use for styling text for situational purposes, such as info, success, warning and error"
+          "value": "#f4f4f4",
+          "type": "color"
         },
         "Green": {
-          "value": "#c50b30",
-          "type": "color",
-          "description": "Use for styling text for situational purposes, such as info, success, warning and error"
+          "value": "#f4f4f4",
+          "type": "color"
         },
         "Red": {
-          "value": "#c50b30",
-          "type": "color",
-          "description": "Use for styling text for situational purposes, such as info, success, warning and error"
+          "value": "#f4f4f4",
+          "type": "color"
         },
         "Yellow": {
-          "value": "#c50b30",
-          "type": "color",
-          "description": "Use for styling text for situational purposes, such as info, success, warning and error"
+          "value": "#1d1d1b",
+          "type": "color"
         }
       },
       "2": {
         "Blue": {
-          "value": "#1d1d1b",
-          "type": "color",
-          "description": "Use for styling text for situational purposes, such as info, success, warning and error"
+          "value": "#005dba",
+          "type": "color"
         },
         "Green": {
-          "value": "#1d1d1b",
-          "type": "color",
-          "description": "Use for styling text for situational purposes, such as info, success, warning and error"
+          "value": "#00633d",
+          "type": "color"
         },
         "Red": {
-          "value": "#1d1d1b",
-          "type": "color",
-          "description": "Use for styling text for situational purposes, such as info, success, warning and error"
+          "value": "#c50b30",
+          "type": "color"
         },
         "Yellow": {
           "value": "#1d1d1b",
-          "type": "color",
-          "description": "Use for styling text for situational purposes, such as info, success, warning and error"
+          "type": "color"
         }
       },
       "3": {
         "Blue": {
-          "value": "#ffffff",
-          "type": "color",
-          "description": "Use for styling text for situational purposes, such as info, success, warning and error"
+          "value": "#001d6e",
+          "type": "color"
         },
         "Green": {
-          "value": "#ffffff",
-          "type": "color",
-          "description": "Use for styling text for situational purposes, such as info, success, warning and error"
+          "value": "#01312e",
+          "type": "color"
         },
         "Red": {
-          "value": "#ffffff",
-          "type": "color",
-          "description": "Use for styling text for situational purposes, such as info, success, warning and error"
+          "value": "#940824",
+          "type": "color"
         },
         "Yellow": {
           "value": "#1d1d1b",
+          "type": "color"
+        }
+      },
+      "4": {
+        "Blue": {
+          "value": "#000a52",
+          "type": "color"
+        },
+        "Green": {
+          "value": "#012425",
+          "type": "color"
+        },
+        "Red": {
+          "value": "#6e061b",
+          "type": "color"
+        },
+        "Yellow": {
+          "value": "#1d1d1b",
+          "type": "color"
+        }
+      },
+      "5": {
+        "Blue": {
+          "value": "#000039",
           "type": "color",
-          "description": "Use for styling text for situational purposes, such as info, success, warning and error"
+          "description": "Use to style interactive text such as links"
+        },
+        "Green": {
+          "value": "#011b1f",
+          "type": "color",
+          "description": "Use to style interactive text such as links"
+        },
+        "Red": {
+          "value": "#480411",
+          "type": "color",
+          "description": "Use to style interactive text such as links"
+        },
+        "Yellow": {
+          "value": "#000000",
+          "type": "color",
+          "description": "Use to style interactive text such as links"
+        }
+      },
+      "6": {
+        "Blue": {
+          "value": "#000000",
+          "type": "color",
+          "description": "Use to style interactive text such as links"
+        },
+        "Green": {
+          "value": "#000000",
+          "type": "color",
+          "description": "Use to style interactive text such as links"
+        },
+        "Red": {
+          "value": "#000000",
+          "type": "color",
+          "description": "Use to style interactive text such as links"
+        },
+        "Yellow": {
+          "value": "#000000",
+          "type": "color",
+          "description": "Use to style interactive text such as links"
         }
       }
     },
@@ -1148,140 +1152,6 @@
           "value": "#1d1d1b",
           "type": "color",
           "description": "Text colour for bold backgrounds"
-        }
-      }
-    },
-    "interactive": {
-      "1": {
-        "Blue": {
-          "value": "#f4f4f4",
-          "type": "color",
-          "description": "Use to style interactive text such as links"
-        },
-        "Green": {
-          "value": "#f4f4f4",
-          "type": "color",
-          "description": "Use to style interactive text such as links"
-        },
-        "Red": {
-          "value": "#f4f4f4",
-          "type": "color",
-          "description": "Use to style interactive text such as links"
-        },
-        "Yellow": {
-          "value": "#1d1d1b",
-          "type": "color",
-          "description": "Use to style interactive text such as links"
-        }
-      },
-      "2": {
-        "Blue": {
-          "value": "#005dba",
-          "type": "color",
-          "description": "Use to style interactive text such as links"
-        },
-        "Green": {
-          "value": "#00633d",
-          "type": "color",
-          "description": "Use to style interactive text such as links"
-        },
-        "Red": {
-          "value": "#c50b30",
-          "type": "color",
-          "description": "Use to style interactive text such as links"
-        },
-        "Yellow": {
-          "value": "#1d1d1b",
-          "type": "color",
-          "description": "Use to style interactive text such as links"
-        }
-      },
-      "3": {
-        "Blue": {
-          "value": "#001d6e",
-          "type": "color",
-          "description": "Use to style interactive text such as links"
-        },
-        "Green": {
-          "value": "#01312e",
-          "type": "color",
-          "description": "Use to style interactive text such as links"
-        },
-        "Red": {
-          "value": "#940824",
-          "type": "color",
-          "description": "Use to style interactive text such as links"
-        },
-        "Yellow": {
-          "value": "#1d1d1b",
-          "type": "color",
-          "description": "Use to style interactive text such as links"
-        }
-      },
-      "4": {
-        "Blue": {
-          "value": "#000a52",
-          "type": "color",
-          "description": "Use to style interactive text such as links"
-        },
-        "Green": {
-          "value": "#012425",
-          "type": "color",
-          "description": "Use to style interactive text such as links"
-        },
-        "Red": {
-          "value": "#6e061b",
-          "type": "color",
-          "description": "Use to style interactive text such as links"
-        },
-        "Yellow": {
-          "value": "#1d1d1b",
-          "type": "color",
-          "description": "Use to style interactive text such as links"
-        }
-      },
-      "5": {
-        "Blue": {
-          "value": "#000039",
-          "type": "color",
-          "description": "Use to style interactive text such as links"
-        },
-        "Green": {
-          "value": "#011b1f",
-          "type": "color",
-          "description": "Use to style interactive text such as links"
-        },
-        "Red": {
-          "value": "#480411",
-          "type": "color",
-          "description": "Use to style interactive text such as links"
-        },
-        "Yellow": {
-          "value": "#000000",
-          "type": "color",
-          "description": "Use to style interactive text such as links"
-        }
-      },
-      "6": {
-        "Blue": {
-          "value": "#000000",
-          "type": "color",
-          "description": "Use to style interactive text such as links"
-        },
-        "Green": {
-          "value": "#000000",
-          "type": "color",
-          "description": "Use to style interactive text such as links"
-        },
-        "Red": {
-          "value": "#000000",
-          "type": "color",
-          "description": "Use to style interactive text such as links"
-        },
-        "Yellow": {
-          "value": "#000000",
-          "type": "color",
-          "description": "Use to style interactive text such as links"
         }
       }
     }

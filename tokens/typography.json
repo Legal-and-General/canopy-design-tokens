@@ -1,6 +1,6 @@
 {
   "$description": "Design tokens from Typography collection",
-  "$timestamp": "2026-01-22T12:11:54.469Z",
+  "$timestamp": "2026-01-26T08:15:45.366Z",
   "font-weight": {
     "300": {
       "Productive": {
@@ -89,15 +89,15 @@
       }
     }
   },
-  "font-family": {
+  "typeface": {
     "Productive": {
       "value": "Nunito Sans",
-      "type": "fontFamilies",
+      "type": "other",
       "description": "Defines the font family"
     },
     "Expressive": {
       "value": "ABC Otto",
-      "type": "fontFamilies",
+      "type": "other",
       "description": "Defines the font family"
     }
   }
