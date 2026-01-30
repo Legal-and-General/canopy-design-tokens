@@ -1,6 +1,6 @@
 {
   "$description": "Design tokens from Foundations collection",
-  "$timestamp": "2026-01-26T08:40:13.993Z",
+  "$timestamp": "2026-01-30T08:47:05.305Z",
   "dimensions": {
     "small": {
       "1": {
@@ -328,7 +328,7 @@
         "description": "Dark Grey"
       },
       "800": {
-        "value": "#000000",
+        "value": "#343634",
         "type": "color"
       },
       "900": {

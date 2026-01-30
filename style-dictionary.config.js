@@ -139,7 +139,7 @@ module.exports = {
           output += `  --${token.name}: ${token.value};\n`;
         });
 
-        // Now add default theme tokens (blue + neutral)
+        // Now add default theme tokens (blue + neutral, and status generic + neutral)
         const defaultThemeTokens = dictionary.allTokens.filter((token) => {
           const isComponentTheme = token.filePath.includes('component-themes');
           const isColour = token.filePath.includes('colour.json');
@@ -149,9 +149,19 @@ module.exports = {
           const path = token.path;
 
           if (isComponentTheme) {
-            const colorMode = path[path.length - 1];
-            const themeMode = path[path.length - 2];
-            return colorMode === 'Blue' && themeMode === 'Neutral';
+            const isStatus = token.path.includes('status');
+
+            if (isStatus) {
+              // For status tokens: path is [..., themeMode, statusMode]
+              const statusMode = path[path.length - 1];
+              const themeMode = path[path.length - 2];
+              return statusMode === 'Generic' && themeMode === 'Neutral';
+            } else {
+              // For color mode tokens: path is [..., themeMode, colorMode]
+              const colorMode = path[path.length - 1];
+              const themeMode = path[path.length - 2];
+              return colorMode === 'Blue' && themeMode === 'Neutral';
+            }
           } else if (isColour) {
             const colorMode = path[path.length - 1];
             return colorMode === 'Blue';
@@ -356,6 +366,97 @@ module.exports = {
             const varName = pathWithoutMode.join('-');
 
             output += `  --${varName}: ${token.value};\n`;
+          });
+
+          output += '}\n\n';
+        });
+
+        return output;
+      },
+      'css/status-classes': function ({ dictionary }) {
+        // Group tokens by status mode and theme mode
+        const grouped = {};
+
+        dictionary.allTokens.forEach((token) => {
+          // Only process status tokens
+          if (!token.path.includes('status')) return;
+
+          // Extract status mode and theme mode from path
+          // Path structure: [component, 'status', property, themeMode, statusMode]
+          const path = token.path;
+          const statusMode = path[path.length - 1]; // Info, Success, Warning, Error, Generic
+          const themeMode = path[path.length - 2]; // Neutral, Subtle, Bold, Neutral inverse
+
+          if (!statusMode || !themeMode) return;
+
+          // Normalize mode names
+          const statusClass = statusMode.toLowerCase();
+          const themeClass = themeMode.toLowerCase().replace(/\s+/g, '-');
+
+          const key = `${statusClass}-${themeClass}`;
+
+          if (!grouped[key]) {
+            grouped[key] = {
+              statusMode,
+              themeMode,
+              statusClass,
+              themeClass,
+              tokens: [],
+            };
+          }
+
+          grouped[key].tokens.push(token);
+        });
+
+        // Generate CSS output
+        let output =
+          '/**\n * Do not edit directly, this file was auto-generated.\n */\n\n';
+
+        // Sort by status type then theme mode
+        const statusOrder = ['info', 'success', 'warning', 'error', 'generic'];
+        const themeOrder = ['neutral', 'neutral-inverse', 'subtle', 'bold'];
+        const sortedKeys = Object.keys(grouped).sort((a, b) => {
+          const parts = a.split('-');
+          const sitA = parts[0];
+          const themeAParts = parts.slice(1);
+
+          const partsB = b.split('-');
+          const sitB = partsB[0];
+          const themeBParts = partsB.slice(1);
+
+          const sitAIndex = statusOrder.indexOf(sitA);
+          const sitBIndex = statusOrder.indexOf(sitB);
+
+          if (sitAIndex !== sitBIndex) {
+            return sitAIndex - sitBIndex;
+          }
+
+          // Rejoin theme parts for comparison
+          const themeA = themeAParts.join('-');
+          const themeB = themeBParts.join('-');
+
+          return themeOrder.indexOf(themeA) - themeOrder.indexOf(themeB);
+        });
+
+        sortedKeys.forEach((key) => {
+          const group = grouped[key];
+
+          // Create class selector
+          output += `.lg-status-${group.statusClass}.lg-theme-${group.themeClass} {\n`;
+
+          // Sort tokens by name for consistent output
+          group.tokens.sort((a, b) => a.name.localeCompare(b.name));
+
+          group.tokens.forEach((token) => {
+            // Remove theme mode and status mode from variable name
+            // Find 'status' in path and build varName from there
+            const statusIndex = token.path.indexOf('status');
+            if (statusIndex >= 0) {
+              const pathBeforeStatus = token.path.slice(0, statusIndex);
+              const propertyPath = token.path.slice(statusIndex + 1, -2); // exclude themeMode and statusMode
+              const varName = [...pathBeforeStatus, 'status', ...propertyPath].join('-');
+              output += `  --${varName}: ${token.value};\n`;
+            }
           });
 
           output += '}\n\n';
@@ -640,6 +741,44 @@ module.exports = {
               token.value !== null &&
               token.value !== undefined &&
               token.filePath.includes('colour.json')
+            );
+          },
+          options: {
+            outputReferences: false,
+          },
+        },
+      ],
+    },
+
+    // Status tokens - single file with class-based selectors
+    'css-status': {
+      transforms: [
+        'attribute/cti',
+        'name/kebab',
+        'time/seconds',
+        'html/icon',
+        'size/pxToRem',
+        'color/css',
+        'asset/url',
+        'fontFamily/css',
+        'cubicBezier/css',
+        'strokeStyle/css/shorthand',
+        'border/css/shorthand',
+        'typography/css/shorthand',
+        'transition/css/shorthand',
+        'shadow/css/shorthand',
+      ],
+      buildPath: 'build/css/',
+      files: [
+        {
+          destination: 'status.css',
+          format: 'css/status-classes',
+          filter: function (token) {
+            return (
+              token.value !== null &&
+              token.value !== undefined &&
+              token.path &&
+              token.path.includes('status')
             );
           },
           options: {
