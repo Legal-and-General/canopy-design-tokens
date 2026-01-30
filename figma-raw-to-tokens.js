@@ -224,11 +224,29 @@ function getColorModes(collections) {
 }
 
 /**
+ * Gets the status modes from the Status collection
+ */
+function getStatusModes(collections) {
+  const statusCollection = Object.values(collections).find((c) => c.name === 'Status');
+  if (!statusCollection || !statusCollection.modes) {
+    return [
+      { name: 'Info', modeId: null },
+      { name: 'Success', modeId: null },
+      { name: 'Warning', modeId: null },
+      { name: 'Error', modeId: null },
+      { name: 'Generic', modeId: null },
+    ];
+  }
+  return statusCollection.modes.map((m) => ({ name: m.name, modeId: m.modeId }));
+}
+
+/**
  * Processes variables and organizes them by collection
  */
 function processVariablesByCollection(variables, collections) {
   const tokensByCollection = {};
   const colorModes = getColorModes(collections);
+  const statusModes = getStatusModes(collections);
 
   Object.values(variables).forEach((variable) => {
     const collection = collections[variable.variableCollectionId];
@@ -240,7 +258,7 @@ function processVariablesByCollection(variables, collections) {
       tokensByCollection[collectionName] = {};
     }
 
-    // For Component themes, expand across color modes
+    // For Component themes, expand across color or status modes
     if (collectionName === 'Component themes') {
       processComponentThemeVariable(
         variable,
@@ -248,6 +266,7 @@ function processVariablesByCollection(variables, collections) {
         variables,
         tokensByCollection[collectionName],
         colorModes,
+        statusModes,
       );
     } else {
       processStandardVariable(
@@ -268,7 +287,13 @@ function processVariablesByCollection(variables, collections) {
 function processStandardVariable(variable, collection, allVariables, output) {
   Object.entries(variable.valuesByMode).forEach(([modeId, value]) => {
     const mode = collection.modes?.find((m) => m.modeId === modeId);
-    const modeName = mode?.name || 'default';
+
+    // Skip if mode doesn't exist in collection (orphaned/stale mode data)
+    if (!mode) {
+      return;
+    }
+
+    const modeName = mode.name || 'default';
 
     const convertedValue = convertVariableValue(variable, value, allVariables, modeId);
     if (convertedValue === null) return;
@@ -286,9 +311,9 @@ function processStandardVariable(variable, collection, allVariables, output) {
 
     const namePath = parseVariableName(variable.name);
 
-    // Include mode in path if there are multiple modes
+    // Include mode in path if collection has multiple modes
     const fullPath =
-      Object.keys(variable.valuesByMode).length > 1 && modeName !== 'default'
+      collection.modes.length > 1 && modeName !== 'default'
         ? [...namePath, modeName]
         : namePath;
 
@@ -297,7 +322,7 @@ function processStandardVariable(variable, collection, allVariables, output) {
 }
 
 /**
- * Processes a component theme variable - expands across color modes
+ * Processes a component theme variable - expands across color or status modes
  */
 function processComponentThemeVariable(
   variable,
@@ -305,8 +330,10 @@ function processComponentThemeVariable(
   allVariables,
   output,
   colorModes,
+  statusModes,
 ) {
   const namePath = parseVariableName(variable.name);
+  const isStatus = variable.name.toLowerCase().includes('status');
 
   // Get the original modes (Neutral, Subtle, Bold, Neutral inverse)
   Object.entries(variable.valuesByMode).forEach(([modeId, value]) => {
@@ -315,14 +342,17 @@ function processComponentThemeVariable(
 
     const tokenType = getTokenType(variable);
 
-    // For each color mode, resolve the value in that color mode's context
-    colorModes.forEach((colorMode) => {
-      // Resolve the value using the specific color mode ID
+    // Determine which modes to expand across
+    const modesToExpand = isStatus ? statusModes : colorModes;
+
+    // For each mode (color or status), resolve the value in that mode's context
+    modesToExpand.forEach((modeToExpand) => {
+      // Resolve the value using the specific mode ID
       const convertedValue = convertVariableValue(
         variable,
         value,
         allVariables,
-        colorMode.modeId,
+        modeToExpand.modeId,
       );
       if (convertedValue === null) return;
 
@@ -335,8 +365,8 @@ function processComponentThemeVariable(
         token.description = variable.description;
       }
 
-      // Path: name parts + theme mode + color mode name
-      const fullPath = [...namePath, modeName, colorMode.name];
+      // Path: name parts + theme mode + mode name (color or status)
+      const fullPath = [...namePath, modeName, modeToExpand.name];
       setNestedValue(output, fullPath, token);
     });
   });

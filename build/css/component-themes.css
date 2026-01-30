@@ -2,6 +2,526 @@
  * Do not edit directly, this file was auto-generated.
  */
 
+.lg-mode-info.lg-theme-neutral {
+  --container-status-background-colour: #aee1f7;
+  --interactive-status-active-background-colour: #000a52;
+  --interactive-status-active-border-colour: #000a52;
+  --interactive-status-active-colour: #ffffff;
+  --interactive-status-disabled-background-colour: #d3d3d3;
+  --interactive-status-disabled-border-colour: #d3d3d3;
+  --interactive-status-disabled-colour: #7a7b7b;
+  --interactive-status-focus-background-colour: #005dba;
+  --interactive-status-focus-border-colour: #005dba;
+  --interactive-status-focus-colour: #ffffff;
+  --interactive-status-hover-background-colour: #001d6e;
+  --interactive-status-hover-border-colour: #001d6e;
+  --interactive-status-hover-colour: #ffffff;
+  --interactive-status-rest-background-colour: #005dba;
+  --interactive-status-rest-border-colour: #005dba;
+  --interactive-status-rest-colour: #ffffff;
+  --interactive-text-status-active: #000a52;
+  --interactive-text-status-focus: #005dba;
+  --interactive-text-status-hover: #001d6e;
+  --interactive-text-status-rest: #005dba;
+  --interactive-text-status-visited: #005dba;
+  --text-status-primary-colour: #1d1d1b;
+  --text-status-secondary-colour: #4d4f4f;
+}
+
+.lg-mode-success.lg-theme-neutral {
+  --container-status-background-colour: #caeedd;
+  --interactive-status-active-background-colour: #012425;
+  --interactive-status-active-border-colour: #012425;
+  --interactive-status-active-colour: #ffffff;
+  --interactive-status-disabled-background-colour: #d3d3d3;
+  --interactive-status-disabled-border-colour: #d3d3d3;
+  --interactive-status-disabled-colour: #7a7b7b;
+  --interactive-status-focus-background-colour: #00633d;
+  --interactive-status-focus-border-colour: #00633d;
+  --interactive-status-focus-colour: #ffffff;
+  --interactive-status-hover-background-colour: #01312e;
+  --interactive-status-hover-border-colour: #01312e;
+  --interactive-status-hover-colour: #ffffff;
+  --interactive-status-rest-background-colour: #00633d;
+  --interactive-status-rest-border-colour: #00633d;
+  --interactive-status-rest-colour: #ffffff;
+  --interactive-text-status-active: #012425;
+  --interactive-text-status-focus: #00633d;
+  --interactive-text-status-hover: #01312e;
+  --interactive-text-status-rest: #00633d;
+  --interactive-text-status-visited: #00633d;
+  --text-status-primary-colour: #1d1d1b;
+  --text-status-secondary-colour: #4d4f4f;
+}
+
+.lg-mode-warning.lg-theme-neutral {
+  --container-status-background-colour: #fff9c7;
+  --interactive-status-active-background-colour: #572722;
+  --interactive-status-active-border-colour: #572722;
+  --interactive-status-active-colour: #ffffff;
+  --interactive-status-disabled-background-colour: #d3d3d3;
+  --interactive-status-disabled-border-colour: #d3d3d3;
+  --interactive-status-disabled-colour: #7a7b7b;
+  --interactive-status-focus-background-colour: #ffb600;
+  --interactive-status-focus-border-colour: #ffb600;
+  --interactive-status-focus-colour: #1d1d1b;
+  --interactive-status-hover-background-colour: #904029;
+  --interactive-status-hover-border-colour: #904029;
+  --interactive-status-hover-colour: #ffffff;
+  --interactive-status-rest-background-colour: #ffb600;
+  --interactive-status-rest-border-colour: #ffb600;
+  --interactive-status-rest-colour: #ffffff;
+  --interactive-text-status-active: #1d1d1b;
+  --interactive-text-status-focus: #1d1d1b;
+  --interactive-text-status-hover: #1d1d1b;
+  --interactive-text-status-rest: #1d1d1b;
+  --interactive-text-status-visited: #1d1d1b;
+  --text-status-primary-colour: #1d1d1b;
+  --text-status-secondary-colour: #4d4f4f;
+}
+
+.lg-mode-error.lg-theme-neutral {
+  --container-status-background-colour: #ffc2bd;
+  --interactive-status-active-background-colour: #6e061b;
+  --interactive-status-active-border-colour: #6e061b;
+  --interactive-status-active-colour: #ffffff;
+  --interactive-status-disabled-background-colour: #d3d3d3;
+  --interactive-status-disabled-border-colour: #d3d3d3;
+  --interactive-status-disabled-colour: #7a7b7b;
+  --interactive-status-focus-background-colour: #c50b30;
+  --interactive-status-focus-border-colour: #c50b30;
+  --interactive-status-focus-colour: #ffffff;
+  --interactive-status-hover-background-colour: #940824;
+  --interactive-status-hover-border-colour: #940824;
+  --interactive-status-hover-colour: #ffffff;
+  --interactive-status-rest-background-colour: #c50b30;
+  --interactive-status-rest-border-colour: #c50b30;
+  --interactive-status-rest-colour: #ffffff;
+  --interactive-text-status-active: #6e061b;
+  --interactive-text-status-focus: #c50b30;
+  --interactive-text-status-hover: #940824;
+  --interactive-text-status-rest: #c50b30;
+  --interactive-text-status-visited: #c50b30;
+  --text-status-primary-colour: #1d1d1b;
+  --text-status-secondary-colour: #4d4f4f;
+}
+
+.lg-mode-generic.lg-theme-neutral {
+  --container-status-background-colour: #f4f4f4;
+  --interactive-status-active-background-colour: #1d1d1b;
+  --interactive-status-active-border-colour: #1d1d1b;
+  --interactive-status-active-colour: #ffffff;
+  --interactive-status-disabled-background-colour: #d3d3d3;
+  --interactive-status-disabled-border-colour: #d3d3d3;
+  --interactive-status-disabled-colour: #7a7b7b;
+  --interactive-status-focus-background-colour: #4d4f4f;
+  --interactive-status-focus-border-colour: #4d4f4f;
+  --interactive-status-focus-colour: #ffffff;
+  --interactive-status-hover-background-colour: #343634;
+  --interactive-status-hover-border-colour: #343634;
+  --interactive-status-hover-colour: #ffffff;
+  --interactive-status-rest-background-colour: #4d4f4f;
+  --interactive-status-rest-border-colour: #4d4f4f;
+  --interactive-status-rest-colour: #ffffff;
+  --interactive-text-status-active: #1d1d1b;
+  --interactive-text-status-focus: #1d1d1b;
+  --interactive-text-status-hover: #1d1d1b;
+  --interactive-text-status-rest: #1d1d1b;
+  --interactive-text-status-visited: #1d1d1b;
+  --text-status-primary-colour: #1d1d1b;
+  --text-status-secondary-colour: #4d4f4f;
+}
+
+.lg-mode-info.lg-theme-neutral-inverse {
+  --container-status-background-colour: #aee1f7;
+  --interactive-status-active-background-colour: #000a52;
+  --interactive-status-active-border-colour: #000a52;
+  --interactive-status-active-colour: #ffffff;
+  --interactive-status-disabled-background-colour: #d3d3d3;
+  --interactive-status-disabled-border-colour: #d3d3d3;
+  --interactive-status-disabled-colour: #7a7b7b;
+  --interactive-status-focus-background-colour: #005dba;
+  --interactive-status-focus-border-colour: #005dba;
+  --interactive-status-focus-colour: #ffffff;
+  --interactive-status-hover-background-colour: #001d6e;
+  --interactive-status-hover-border-colour: #001d6e;
+  --interactive-status-hover-colour: #ffffff;
+  --interactive-status-rest-background-colour: #005dba;
+  --interactive-status-rest-border-colour: #005dba;
+  --interactive-status-rest-colour: #ffffff;
+  --interactive-text-status-active: #000a52;
+  --interactive-text-status-focus: #005dba;
+  --interactive-text-status-hover: #001d6e;
+  --interactive-text-status-rest: #005dba;
+  --interactive-text-status-visited: #005dba;
+  --text-status-primary-colour: #1d1d1b;
+  --text-status-secondary-colour: #4d4f4f;
+}
+
+.lg-mode-success.lg-theme-neutral-inverse {
+  --container-status-background-colour: #caeedd;
+  --interactive-status-active-background-colour: #012425;
+  --interactive-status-active-border-colour: #012425;
+  --interactive-status-active-colour: #ffffff;
+  --interactive-status-disabled-background-colour: #d3d3d3;
+  --interactive-status-disabled-border-colour: #d3d3d3;
+  --interactive-status-disabled-colour: #7a7b7b;
+  --interactive-status-focus-background-colour: #00633d;
+  --interactive-status-focus-border-colour: #00633d;
+  --interactive-status-focus-colour: #ffffff;
+  --interactive-status-hover-background-colour: #01312e;
+  --interactive-status-hover-border-colour: #01312e;
+  --interactive-status-hover-colour: #ffffff;
+  --interactive-status-rest-background-colour: #00633d;
+  --interactive-status-rest-border-colour: #00633d;
+  --interactive-status-rest-colour: #ffffff;
+  --interactive-text-status-active: #012425;
+  --interactive-text-status-focus: #00633d;
+  --interactive-text-status-hover: #01312e;
+  --interactive-text-status-rest: #00633d;
+  --interactive-text-status-visited: #00633d;
+  --text-status-primary-colour: #1d1d1b;
+  --text-status-secondary-colour: #4d4f4f;
+}
+
+.lg-mode-warning.lg-theme-neutral-inverse {
+  --container-status-background-colour: #fff9c7;
+  --interactive-status-active-background-colour: #572722;
+  --interactive-status-active-border-colour: #572722;
+  --interactive-status-active-colour: #ffffff;
+  --interactive-status-disabled-background-colour: #d3d3d3;
+  --interactive-status-disabled-border-colour: #d3d3d3;
+  --interactive-status-disabled-colour: #7a7b7b;
+  --interactive-status-focus-background-colour: #ffb600;
+  --interactive-status-focus-border-colour: #ffb600;
+  --interactive-status-focus-colour: #1d1d1b;
+  --interactive-status-hover-background-colour: #904029;
+  --interactive-status-hover-border-colour: #904029;
+  --interactive-status-hover-colour: #ffffff;
+  --interactive-status-rest-background-colour: #ffb600;
+  --interactive-status-rest-border-colour: #ffb600;
+  --interactive-status-rest-colour: #1d1d1b;
+  --interactive-text-status-active: #1d1d1b;
+  --interactive-text-status-focus: #1d1d1b;
+  --interactive-text-status-hover: #1d1d1b;
+  --interactive-text-status-rest: #1d1d1b;
+  --interactive-text-status-visited: #1d1d1b;
+  --text-status-primary-colour: #1d1d1b;
+  --text-status-secondary-colour: #4d4f4f;
+}
+
+.lg-mode-error.lg-theme-neutral-inverse {
+  --container-status-background-colour: #ffc2bd;
+  --interactive-status-active-background-colour: #6e061b;
+  --interactive-status-active-border-colour: #6e061b;
+  --interactive-status-active-colour: #ffffff;
+  --interactive-status-disabled-background-colour: #d3d3d3;
+  --interactive-status-disabled-border-colour: #d3d3d3;
+  --interactive-status-disabled-colour: #7a7b7b;
+  --interactive-status-focus-background-colour: #c50b30;
+  --interactive-status-focus-border-colour: #c50b30;
+  --interactive-status-focus-colour: #ffffff;
+  --interactive-status-hover-background-colour: #940824;
+  --interactive-status-hover-border-colour: #940824;
+  --interactive-status-hover-colour: #ffffff;
+  --interactive-status-rest-background-colour: #c50b30;
+  --interactive-status-rest-border-colour: #c50b30;
+  --interactive-status-rest-colour: #ffffff;
+  --interactive-text-status-active: #6e061b;
+  --interactive-text-status-focus: #c50b30;
+  --interactive-text-status-hover: #940824;
+  --interactive-text-status-rest: #c50b30;
+  --interactive-text-status-visited: #c50b30;
+  --text-status-primary-colour: #1d1d1b;
+  --text-status-secondary-colour: #4d4f4f;
+}
+
+.lg-mode-generic.lg-theme-neutral-inverse {
+  --container-status-background-colour: #f4f4f4;
+  --interactive-status-active-background-colour: #1d1d1b;
+  --interactive-status-active-border-colour: #1d1d1b;
+  --interactive-status-active-colour: #ffffff;
+  --interactive-status-disabled-background-colour: #d3d3d3;
+  --interactive-status-disabled-border-colour: #d3d3d3;
+  --interactive-status-disabled-colour: #7a7b7b;
+  --interactive-status-focus-background-colour: #4d4f4f;
+  --interactive-status-focus-border-colour: #4d4f4f;
+  --interactive-status-focus-colour: #ffffff;
+  --interactive-status-hover-background-colour: #343634;
+  --interactive-status-hover-border-colour: #343634;
+  --interactive-status-hover-colour: #ffffff;
+  --interactive-status-rest-background-colour: #4d4f4f;
+  --interactive-status-rest-border-colour: #4d4f4f;
+  --interactive-status-rest-colour: #ffffff;
+  --interactive-text-status-active: #1d1d1b;
+  --interactive-text-status-focus: #1d1d1b;
+  --interactive-text-status-hover: #1d1d1b;
+  --interactive-text-status-rest: #1d1d1b;
+  --interactive-text-status-visited: #1d1d1b;
+  --text-status-primary-colour: #1d1d1b;
+  --text-status-secondary-colour: #4d4f4f;
+}
+
+.lg-mode-info.lg-theme-subtle {
+  --container-status-background-colour: #aee1f7;
+  --interactive-status-active-background-colour: #000a52;
+  --interactive-status-active-border-colour: #000a52;
+  --interactive-status-active-colour: #ffffff;
+  --interactive-status-disabled-background-colour: #d3d3d3;
+  --interactive-status-disabled-border-colour: #d3d3d3;
+  --interactive-status-disabled-colour: #7a7b7b;
+  --interactive-status-focus-background-colour: #005dba;
+  --interactive-status-focus-border-colour: #005dba;
+  --interactive-status-focus-colour: #ffffff;
+  --interactive-status-hover-background-colour: #001d6e;
+  --interactive-status-hover-border-colour: #001d6e;
+  --interactive-status-hover-colour: #ffffff;
+  --interactive-status-rest-background-colour: #005dba;
+  --interactive-status-rest-border-colour: #005dba;
+  --interactive-status-rest-colour: #ffffff;
+  --interactive-text-status-active: #000a52;
+  --interactive-text-status-focus: #005dba;
+  --interactive-text-status-hover: #001d6e;
+  --interactive-text-status-rest: #005dba;
+  --interactive-text-status-visited: #005dba;
+  --text-status-primary-colour: #1d1d1b;
+  --text-status-secondary-colour: #4d4f4f;
+}
+
+.lg-mode-success.lg-theme-subtle {
+  --container-status-background-colour: #caeedd;
+  --interactive-status-active-background-colour: #012425;
+  --interactive-status-active-border-colour: #012425;
+  --interactive-status-active-colour: #ffffff;
+  --interactive-status-disabled-background-colour: #d3d3d3;
+  --interactive-status-disabled-border-colour: #d3d3d3;
+  --interactive-status-disabled-colour: #7a7b7b;
+  --interactive-status-focus-background-colour: #00633d;
+  --interactive-status-focus-border-colour: #00633d;
+  --interactive-status-focus-colour: #ffffff;
+  --interactive-status-hover-background-colour: #01312e;
+  --interactive-status-hover-border-colour: #01312e;
+  --interactive-status-hover-colour: #ffffff;
+  --interactive-status-rest-background-colour: #00633d;
+  --interactive-status-rest-border-colour: #00633d;
+  --interactive-status-rest-colour: #ffffff;
+  --interactive-text-status-active: #012425;
+  --interactive-text-status-focus: #00633d;
+  --interactive-text-status-hover: #01312e;
+  --interactive-text-status-rest: #00633d;
+  --interactive-text-status-visited: #00633d;
+  --text-status-primary-colour: #1d1d1b;
+  --text-status-secondary-colour: #4d4f4f;
+}
+
+.lg-mode-warning.lg-theme-subtle {
+  --container-status-background-colour: #fff9c7;
+  --interactive-status-active-background-colour: #572722;
+  --interactive-status-active-border-colour: #572722;
+  --interactive-status-active-colour: #ffffff;
+  --interactive-status-disabled-background-colour: #d3d3d3;
+  --interactive-status-disabled-border-colour: #d3d3d3;
+  --interactive-status-disabled-colour: #7a7b7b;
+  --interactive-status-focus-background-colour: #ffb600;
+  --interactive-status-focus-border-colour: #ffb600;
+  --interactive-status-focus-colour: #1d1d1b;
+  --interactive-status-hover-background-colour: #904029;
+  --interactive-status-hover-border-colour: #904029;
+  --interactive-status-hover-colour: #ffffff;
+  --interactive-status-rest-background-colour: #ffb600;
+  --interactive-status-rest-border-colour: #ffb600;
+  --interactive-status-rest-colour: #1d1d1b;
+  --interactive-text-status-active: #1d1d1b;
+  --interactive-text-status-focus: #1d1d1b;
+  --interactive-text-status-hover: #1d1d1b;
+  --interactive-text-status-rest: #1d1d1b;
+  --interactive-text-status-visited: #1d1d1b;
+  --text-status-primary-colour: #1d1d1b;
+  --text-status-secondary-colour: #4d4f4f;
+}
+
+.lg-mode-error.lg-theme-subtle {
+  --container-status-background-colour: #ffc2bd;
+  --interactive-status-active-background-colour: #6e061b;
+  --interactive-status-active-border-colour: #6e061b;
+  --interactive-status-active-colour: #ffffff;
+  --interactive-status-disabled-background-colour: #d3d3d3;
+  --interactive-status-disabled-border-colour: #d3d3d3;
+  --interactive-status-disabled-colour: #7a7b7b;
+  --interactive-status-focus-background-colour: #c50b30;
+  --interactive-status-focus-border-colour: #c50b30;
+  --interactive-status-focus-colour: #ffffff;
+  --interactive-status-hover-background-colour: #940824;
+  --interactive-status-hover-border-colour: #940824;
+  --interactive-status-hover-colour: #ffffff;
+  --interactive-status-rest-background-colour: #c50b30;
+  --interactive-status-rest-border-colour: #c50b30;
+  --interactive-status-rest-colour: #ffffff;
+  --interactive-text-status-active: #6e061b;
+  --interactive-text-status-focus: #c50b30;
+  --interactive-text-status-hover: #940824;
+  --interactive-text-status-rest: #c50b30;
+  --interactive-text-status-visited: #c50b30;
+  --text-status-primary-colour: #1d1d1b;
+  --text-status-secondary-colour: #4d4f4f;
+}
+
+.lg-mode-generic.lg-theme-subtle {
+  --container-status-background-colour: #f4f4f4;
+  --interactive-status-active-background-colour: #1d1d1b;
+  --interactive-status-active-border-colour: #1d1d1b;
+  --interactive-status-active-colour: #ffffff;
+  --interactive-status-disabled-background-colour: #d3d3d3;
+  --interactive-status-disabled-border-colour: #d3d3d3;
+  --interactive-status-disabled-colour: #7a7b7b;
+  --interactive-status-focus-background-colour: #4d4f4f;
+  --interactive-status-focus-border-colour: #4d4f4f;
+  --interactive-status-focus-colour: #ffffff;
+  --interactive-status-hover-background-colour: #343634;
+  --interactive-status-hover-border-colour: #343634;
+  --interactive-status-hover-colour: #ffffff;
+  --interactive-status-rest-background-colour: #4d4f4f;
+  --interactive-status-rest-border-colour: #4d4f4f;
+  --interactive-status-rest-colour: #ffffff;
+  --interactive-text-status-active: #1d1d1b;
+  --interactive-text-status-focus: #1d1d1b;
+  --interactive-text-status-hover: #1d1d1b;
+  --interactive-text-status-rest: #1d1d1b;
+  --interactive-text-status-visited: #1d1d1b;
+  --text-status-primary-colour: #1d1d1b;
+  --text-status-secondary-colour: #4d4f4f;
+}
+
+.lg-mode-info.lg-theme-bold {
+  --container-status-background-colour: #005dba;
+  --interactive-status-active-background-colour: #000a52;
+  --interactive-status-active-border-colour: #ffffff;
+  --interactive-status-active-colour: #ffffff;
+  --interactive-status-disabled-background-colour: #d3d3d3;
+  --interactive-status-disabled-border-colour: #d3d3d3;
+  --interactive-status-disabled-colour: #7a7b7b;
+  --interactive-status-focus-background-colour: #ffffff;
+  --interactive-status-focus-border-colour: #ffffff;
+  --interactive-status-focus-colour: #1d1d1b;
+  --interactive-status-hover-background-colour: #001d6e;
+  --interactive-status-hover-border-colour: #ffffff;
+  --interactive-status-hover-colour: #ffffff;
+  --interactive-status-rest-background-colour: #ffffff;
+  --interactive-status-rest-border-colour: #ffffff;
+  --interactive-status-rest-colour: #1d1d1b;
+  --interactive-text-status-active: #f4f4f4;
+  --interactive-text-status-focus: #f4f4f4;
+  --interactive-text-status-hover: #f4f4f4;
+  --interactive-text-status-rest: #f4f4f4;
+  --interactive-text-status-visited: #f4f4f4;
+  --text-status-primary-colour: #ffffff;
+  --text-status-secondary-colour: #ffffff;
+}
+
+.lg-mode-success.lg-theme-bold {
+  --container-status-background-colour: #00633d;
+  --interactive-status-active-background-colour: #012425;
+  --interactive-status-active-border-colour: #ffffff;
+  --interactive-status-active-colour: #ffffff;
+  --interactive-status-disabled-background-colour: #d3d3d3;
+  --interactive-status-disabled-border-colour: #d3d3d3;
+  --interactive-status-disabled-colour: #7a7b7b;
+  --interactive-status-focus-background-colour: #ffffff;
+  --interactive-status-focus-border-colour: #ffffff;
+  --interactive-status-focus-colour: #1d1d1b;
+  --interactive-status-hover-background-colour: #01312e;
+  --interactive-status-hover-border-colour: #ffffff;
+  --interactive-status-hover-colour: #ffffff;
+  --interactive-status-rest-background-colour: #ffffff;
+  --interactive-status-rest-border-colour: #ffffff;
+  --interactive-status-rest-colour: #1d1d1b;
+  --interactive-text-status-active: #f4f4f4;
+  --interactive-text-status-focus: #f4f4f4;
+  --interactive-text-status-hover: #f4f4f4;
+  --interactive-text-status-rest: #f4f4f4;
+  --interactive-text-status-visited: #f4f4f4;
+  --text-status-primary-colour: #ffffff;
+  --text-status-secondary-colour: #ffffff;
+}
+
+.lg-mode-warning.lg-theme-bold {
+  --container-status-background-colour: #ffb600;
+  --interactive-status-active-background-colour: #572722;
+  --interactive-status-active-border-colour: #1d1d1b;
+  --interactive-status-active-colour: #1d1d1b;
+  --interactive-status-disabled-background-colour: #d3d3d3;
+  --interactive-status-disabled-border-colour: #d3d3d3;
+  --interactive-status-disabled-colour: #7a7b7b;
+  --interactive-status-focus-background-colour: #1d1d1b;
+  --interactive-status-focus-border-colour: #1d1d1b;
+  --interactive-status-focus-colour: #1d1d1b;
+  --interactive-status-hover-background-colour: #904029;
+  --interactive-status-hover-border-colour: #1d1d1b;
+  --interactive-status-hover-colour: #1d1d1b;
+  --interactive-status-rest-background-colour: #1d1d1b;
+  --interactive-status-rest-border-colour: #1d1d1b;
+  --interactive-status-rest-colour: #ffffff;
+  --interactive-text-status-active: #1d1d1b;
+  --interactive-text-status-focus: #1d1d1b;
+  --interactive-text-status-hover: #1d1d1b;
+  --interactive-text-status-rest: #1d1d1b;
+  --interactive-text-status-visited: #1d1d1b;
+  --text-status-primary-colour: #1d1d1b;
+  --text-status-secondary-colour: #1d1d1b;
+}
+
+.lg-mode-error.lg-theme-bold {
+  --container-status-background-colour: #c50b30;
+  --interactive-status-active-background-colour: #6e061b;
+  --interactive-status-active-border-colour: #ffffff;
+  --interactive-status-active-colour: #ffffff;
+  --interactive-status-disabled-background-colour: #d3d3d3;
+  --interactive-status-disabled-border-colour: #d3d3d3;
+  --interactive-status-disabled-colour: #7a7b7b;
+  --interactive-status-focus-background-colour: #ffffff;
+  --interactive-status-focus-border-colour: #ffffff;
+  --interactive-status-focus-colour: #f4f4f4;
+  --interactive-status-hover-background-colour: #940824;
+  --interactive-status-hover-border-colour: #ffffff;
+  --interactive-status-hover-colour: #ffffff;
+  --interactive-status-rest-background-colour: #ffffff;
+  --interactive-status-rest-border-colour: #ffffff;
+  --interactive-status-rest-colour: #000000;
+  --interactive-text-status-active: #f4f4f4;
+  --interactive-text-status-focus: #f4f4f4;
+  --interactive-text-status-hover: #f4f4f4;
+  --interactive-text-status-rest: #f4f4f4;
+  --interactive-text-status-visited: #f4f4f4;
+  --text-status-primary-colour: #ffffff;
+  --text-status-secondary-colour: #ffffff;
+}
+
+.lg-mode-generic.lg-theme-bold {
+  --container-status-background-colour: #4d4f4f;
+  --interactive-status-active-background-colour: #1d1d1b;
+  --interactive-status-active-border-colour: #ffffff;
+  --interactive-status-active-colour: #ffffff;
+  --interactive-status-disabled-background-colour: #d3d3d3;
+  --interactive-status-disabled-border-colour: #d3d3d3;
+  --interactive-status-disabled-colour: #7a7b7b;
+  --interactive-status-focus-background-colour: #ffffff;
+  --interactive-status-focus-border-colour: #ffffff;
+  --interactive-status-focus-colour: #f4f4f4;
+  --interactive-status-hover-background-colour: #343634;
+  --interactive-status-hover-border-colour: #ffffff;
+  --interactive-status-hover-colour: #ffffff;
+  --interactive-status-rest-background-colour: #ffffff;
+  --interactive-status-rest-border-colour: #ffffff;
+  --interactive-status-rest-colour: #000000;
+  --interactive-text-status-active: #f4f4f4;
+  --interactive-text-status-focus: #f4f4f4;
+  --interactive-text-status-hover: #f4f4f4;
+  --interactive-text-status-rest: #f4f4f4;
+  --interactive-text-status-visited: #f4f4f4;
+  --text-status-primary-colour: #ffffff;
+  --text-status-secondary-colour: #ffffff;
+}
+
 .lg-mode-blue.lg-theme-neutral-inverse {
   --body-bold-background-colour: #005dba;
   --body-default-background-colour: #ffffff;
@@ -69,7 +589,6 @@
   --container-default-border-colour-2: #d3d3d3;
   --container-padding-x: 1.75rem;
   --container-padding-y: 1.25rem;
-  --container-situational-background-colour: #aee1f7;
   --content-gap-column-lg: 1rem;
   --content-gap-column-md: 0.75rem;
   --content-gap-column-sm: 0.5rem;
@@ -169,35 +688,13 @@
   --interactive-secondary-rest-background-colour: #ffffff;
   --interactive-secondary-rest-border-colour: #1d1d1b;
   --interactive-secondary-rest-colour: #1d1d1b;
-  --interactive-situational-active-background-colour: #000a52;
-  --interactive-situational-active-border-colour: #000a52;
-  --interactive-situational-active-colour: #ffffff;
-  --interactive-situational-disabled-background-colour: #d3d3d3;
-  --interactive-situational-disabled-border-colour: #d3d3d3;
-  --interactive-situational-disabled-colour: #7a7b7b;
-  --interactive-situational-focus-background-colour: #005dba;
-  --interactive-situational-focus-border-colour: #005dba;
-  --interactive-situational-focus-colour: #ffffff;
-  --interactive-situational-hover-background-colour: #001d6e;
-  --interactive-situational-hover-border-colour: #001d6e;
-  --interactive-situational-hover-colour: #ffffff;
-  --interactive-situational-rest-background-colour: #005dba;
-  --interactive-situational-rest-border-colour: #005dba;
-  --interactive-situational-rest-colour: #ffffff;
   --interactive-text-default-active: #000a52;
   --interactive-text-default-focus: #005dba;
   --interactive-text-default-hover: #001d6e;
   --interactive-text-default-rest: #005dba;
   --interactive-text-default-visited: #005dba;
-  --interactive-text-situational-active: #000a52;
-  --interactive-text-situational-focus: #005dba;
-  --interactive-text-situational-hover: #001d6e;
-  --interactive-text-situational-rest: #005dba;
-  --interactive-text-situational-visited: #005dba;
   --text-default-primary-colour: #1d1d1b;
   --text-default-secondary-colour: #4d4f4f;
-  --text-situational-primary-colour: #1d1d1b;
-  --text-situational-secondary-colour: #4d4f4f;
 }
 
 .lg-mode-blue.lg-theme-subtle {
@@ -267,7 +764,6 @@
   --container-default-border-colour-2: #001d6e;
   --container-padding-x: 1.75rem;
   --container-padding-y: 1.25rem;
-  --container-situational-background-colour: #aee1f7;
   --content-gap-column-lg: 1rem;
   --content-gap-column-md: 0.75rem;
   --content-gap-column-sm: 0.5rem;
@@ -366,35 +862,13 @@
   --interactive-secondary-rest-background-colour: #d2effb;
   --interactive-secondary-rest-border-colour: #1d1d1b;
   --interactive-secondary-rest-colour: #1d1d1b;
-  --interactive-situational-active-background-colour: #000a52;
-  --interactive-situational-active-border-colour: #000a52;
-  --interactive-situational-active-colour: #ffffff;
-  --interactive-situational-disabled-background-colour: #d3d3d3;
-  --interactive-situational-disabled-border-colour: #d3d3d3;
-  --interactive-situational-disabled-colour: #7a7b7b;
-  --interactive-situational-focus-background-colour: #005dba;
-  --interactive-situational-focus-border-colour: #005dba;
-  --interactive-situational-focus-colour: #ffffff;
-  --interactive-situational-hover-background-colour: #001d6e;
-  --interactive-situational-hover-border-colour: #001d6e;
-  --interactive-situational-hover-colour: #ffffff;
-  --interactive-situational-rest-background-colour: #005dba;
-  --interactive-situational-rest-border-colour: #005dba;
-  --interactive-situational-rest-colour: #ffffff;
   --interactive-text-default-active: #000a52;
   --interactive-text-default-focus: #005dba;
   --interactive-text-default-hover: #001d6e;
   --interactive-text-default-rest: #005dba;
   --interactive-text-default-visited: #005dba;
-  --interactive-text-situational-active: #000a52;
-  --interactive-text-situational-focus: #005dba;
-  --interactive-text-situational-hover: #001d6e;
-  --interactive-text-situational-rest: #005dba;
-  --interactive-text-situational-visited: #005dba;
   --text-default-primary-colour: #1d1d1b;
   --text-default-secondary-colour: #1d1d1b;
-  --text-situational-primary-colour: #1d1d1b;
-  --text-situational-secondary-colour: #4d4f4f;
 }
 
 .lg-mode-blue.lg-theme-bold {
@@ -464,7 +938,6 @@
   --container-default-border-colour-2: #f4f4f4;
   --container-padding-x: 1.75rem;
   --container-padding-y: 1.25rem;
-  --container-situational-background-colour: #005dba;
   --content-gap-column-lg: 1rem;
   --content-gap-column-md: 0.75rem;
   --content-gap-column-sm: 0.5rem;
@@ -563,35 +1036,13 @@
   --interactive-secondary-rest-background-colour: #005dba;
   --interactive-secondary-rest-border-colour: #ffffff;
   --interactive-secondary-rest-colour: #ffffff;
-  --interactive-situational-active-background-colour: #000a52;
-  --interactive-situational-active-border-colour: #ffffff;
-  --interactive-situational-active-colour: #ffffff;
-  --interactive-situational-disabled-background-colour: #d3d3d3;
-  --interactive-situational-disabled-border-colour: #d3d3d3;
-  --interactive-situational-disabled-colour: #7a7b7b;
-  --interactive-situational-focus-background-colour: #ffffff;
-  --interactive-situational-focus-border-colour: #ffffff;
-  --interactive-situational-focus-colour: #1d1d1b;
-  --interactive-situational-hover-background-colour: #001d6e;
-  --interactive-situational-hover-border-colour: #ffffff;
-  --interactive-situational-hover-colour: #ffffff;
-  --interactive-situational-rest-background-colour: #ffffff;
-  --interactive-situational-rest-border-colour: #ffffff;
-  --interactive-situational-rest-colour: #1d1d1b;
   --interactive-text-default-active: #f4f4f4;
   --interactive-text-default-focus: #f4f4f4;
   --interactive-text-default-hover: #f4f4f4;
   --interactive-text-default-rest: #f4f4f4;
   --interactive-text-default-visited: #f4f4f4;
-  --interactive-text-situational-active: #f4f4f4;
-  --interactive-text-situational-focus: #f4f4f4;
-  --interactive-text-situational-hover: #f4f4f4;
-  --interactive-text-situational-rest: #f4f4f4;
-  --interactive-text-situational-visited: #f4f4f4;
   --text-default-primary-colour: #ffffff;
   --text-default-secondary-colour: #d2effb;
-  --text-situational-primary-colour: #ffffff;
-  --text-situational-secondary-colour: #ffffff;
 }
 
 .lg-mode-green.lg-theme-neutral {
@@ -660,7 +1111,6 @@
   --container-default-border-colour-2: #d3d3d3;
   --container-padding-x: 1.75rem;
   --container-padding-y: 1.25rem;
-  --container-situational-background-colour: #aee1f7;
   --content-gap-column-lg: 2.25rem;
   --content-gap-column-md: 1.75rem;
   --content-gap-column-sm: 1.25rem;
@@ -760,35 +1210,13 @@
   --interactive-secondary-rest-background-colour: #ffffff;
   --interactive-secondary-rest-border-colour: #1d1d1b;
   --interactive-secondary-rest-colour: #1d1d1b;
-  --interactive-situational-active-background-colour: #000a52;
-  --interactive-situational-active-border-colour: #000a52;
-  --interactive-situational-active-colour: #ffffff;
-  --interactive-situational-disabled-background-colour: #d3d3d3;
-  --interactive-situational-disabled-border-colour: #d3d3d3;
-  --interactive-situational-disabled-colour: #7a7b7b;
-  --interactive-situational-focus-background-colour: #005dba;
-  --interactive-situational-focus-border-colour: #005dba;
-  --interactive-situational-focus-colour: #ffffff;
-  --interactive-situational-hover-background-colour: #001d6e;
-  --interactive-situational-hover-border-colour: #001d6e;
-  --interactive-situational-hover-colour: #ffffff;
-  --interactive-situational-rest-background-colour: #005dba;
-  --interactive-situational-rest-border-colour: #005dba;
-  --interactive-situational-rest-colour: #ffffff;
   --interactive-text-default-active: #012425;
   --interactive-text-default-focus: #00633d;
   --interactive-text-default-hover: #01312e;
   --interactive-text-default-rest: #00633d;
   --interactive-text-default-visited: #00633d;
-  --interactive-text-situational-active: #000a52;
-  --interactive-text-situational-focus: #005dba;
-  --interactive-text-situational-hover: #001d6e;
-  --interactive-text-situational-rest: #005dba;
-  --interactive-text-situational-visited: #005dba;
   --text-default-primary-colour: #1d1d1b;
   --text-default-secondary-colour: #4d4f4f;
-  --text-situational-primary-colour: #1d1d1b;
-  --text-situational-secondary-colour: #4d4f4f;
 }
 
 .lg-mode-green.lg-theme-neutral-inverse {
@@ -857,7 +1285,6 @@
   --container-default-border-colour-2: #d3d3d3;
   --container-padding-x: 1.75rem;
   --container-padding-y: 1.25rem;
-  --container-situational-background-colour: #aee1f7;
   --content-gap-column-lg: 1rem;
   --content-gap-column-md: 0.75rem;
   --content-gap-column-sm: 0.5rem;
@@ -957,35 +1384,13 @@
   --interactive-secondary-rest-background-colour: #ffffff;
   --interactive-secondary-rest-border-colour: #1d1d1b;
   --interactive-secondary-rest-colour: #1d1d1b;
-  --interactive-situational-active-background-colour: #000a52;
-  --interactive-situational-active-border-colour: #000a52;
-  --interactive-situational-active-colour: #ffffff;
-  --interactive-situational-disabled-background-colour: #d3d3d3;
-  --interactive-situational-disabled-border-colour: #d3d3d3;
-  --interactive-situational-disabled-colour: #7a7b7b;
-  --interactive-situational-focus-background-colour: #005dba;
-  --interactive-situational-focus-border-colour: #005dba;
-  --interactive-situational-focus-colour: #ffffff;
-  --interactive-situational-hover-background-colour: #001d6e;
-  --interactive-situational-hover-border-colour: #001d6e;
-  --interactive-situational-hover-colour: #ffffff;
-  --interactive-situational-rest-background-colour: #005dba;
-  --interactive-situational-rest-border-colour: #005dba;
-  --interactive-situational-rest-colour: #ffffff;
   --interactive-text-default-active: #012425;
   --interactive-text-default-focus: #00633d;
   --interactive-text-default-hover: #01312e;
   --interactive-text-default-rest: #00633d;
   --interactive-text-default-visited: #00633d;
-  --interactive-text-situational-active: #000a52;
-  --interactive-text-situational-focus: #005dba;
-  --interactive-text-situational-hover: #001d6e;
-  --interactive-text-situational-rest: #005dba;
-  --interactive-text-situational-visited: #005dba;
   --text-default-primary-colour: #1d1d1b;
   --text-default-secondary-colour: #4d4f4f;
-  --text-situational-primary-colour: #1d1d1b;
-  --text-situational-secondary-colour: #4d4f4f;
 }
 
 .lg-mode-green.lg-theme-subtle {
@@ -1054,7 +1459,6 @@
   --container-default-border-colour-2: #01312e;
   --container-padding-x: 1.75rem;
   --container-padding-y: 1.25rem;
-  --container-situational-background-colour: #aee1f7;
   --content-gap-column-lg: 1rem;
   --content-gap-column-md: 0.75rem;
   --content-gap-column-sm: 0.5rem;
@@ -1153,35 +1557,13 @@
   --interactive-secondary-rest-background-colour: #dff6eb;
   --interactive-secondary-rest-border-colour: #1d1d1b;
   --interactive-secondary-rest-colour: #1d1d1b;
-  --interactive-situational-active-background-colour: #000a52;
-  --interactive-situational-active-border-colour: #000a52;
-  --interactive-situational-active-colour: #ffffff;
-  --interactive-situational-disabled-background-colour: #d3d3d3;
-  --interactive-situational-disabled-border-colour: #d3d3d3;
-  --interactive-situational-disabled-colour: #7a7b7b;
-  --interactive-situational-focus-background-colour: #005dba;
-  --interactive-situational-focus-border-colour: #005dba;
-  --interactive-situational-focus-colour: #ffffff;
-  --interactive-situational-hover-background-colour: #001d6e;
-  --interactive-situational-hover-border-colour: #001d6e;
-  --interactive-situational-hover-colour: #ffffff;
-  --interactive-situational-rest-background-colour: #005dba;
-  --interactive-situational-rest-border-colour: #005dba;
-  --interactive-situational-rest-colour: #ffffff;
   --interactive-text-default-active: #012425;
   --interactive-text-default-focus: #00633d;
   --interactive-text-default-hover: #01312e;
   --interactive-text-default-rest: #00633d;
   --interactive-text-default-visited: #00633d;
-  --interactive-text-situational-active: #000a52;
-  --interactive-text-situational-focus: #005dba;
-  --interactive-text-situational-hover: #001d6e;
-  --interactive-text-situational-rest: #005dba;
-  --interactive-text-situational-visited: #005dba;
   --text-default-primary-colour: #1d1d1b;
   --text-default-secondary-colour: #1d1d1b;
-  --text-situational-primary-colour: #1d1d1b;
-  --text-situational-secondary-colour: #4d4f4f;
 }
 
 .lg-mode-green.lg-theme-bold {
@@ -1250,7 +1632,6 @@
   --container-default-border-colour-2: #f4f4f4;
   --container-padding-x: 1.75rem;
   --container-padding-y: 1.25rem;
-  --container-situational-background-colour: #005dba;
   --content-gap-column-lg: 1rem;
   --content-gap-column-md: 0.75rem;
   --content-gap-column-sm: 0.5rem;
@@ -1349,35 +1730,13 @@
   --interactive-secondary-rest-background-colour: #00633d;
   --interactive-secondary-rest-border-colour: #ffffff;
   --interactive-secondary-rest-colour: #ffffff;
-  --interactive-situational-active-background-colour: #000a52;
-  --interactive-situational-active-border-colour: #ffffff;
-  --interactive-situational-active-colour: #ffffff;
-  --interactive-situational-disabled-background-colour: #d3d3d3;
-  --interactive-situational-disabled-border-colour: #d3d3d3;
-  --interactive-situational-disabled-colour: #7a7b7b;
-  --interactive-situational-focus-background-colour: #ffffff;
-  --interactive-situational-focus-border-colour: #ffffff;
-  --interactive-situational-focus-colour: #1d1d1b;
-  --interactive-situational-hover-background-colour: #001d6e;
-  --interactive-situational-hover-border-colour: #ffffff;
-  --interactive-situational-hover-colour: #ffffff;
-  --interactive-situational-rest-background-colour: #ffffff;
-  --interactive-situational-rest-border-colour: #ffffff;
-  --interactive-situational-rest-colour: #1d1d1b;
   --interactive-text-default-active: #f4f4f4;
   --interactive-text-default-focus: #f4f4f4;
   --interactive-text-default-hover: #f4f4f4;
   --interactive-text-default-rest: #f4f4f4;
   --interactive-text-default-visited: #f4f4f4;
-  --interactive-text-situational-active: #f4f4f4;
-  --interactive-text-situational-focus: #f4f4f4;
-  --interactive-text-situational-hover: #f4f4f4;
-  --interactive-text-situational-rest: #f4f4f4;
-  --interactive-text-situational-visited: #f4f4f4;
   --text-default-primary-colour: #ffffff;
   --text-default-secondary-colour: #dff6eb;
-  --text-situational-primary-colour: #ffffff;
-  --text-situational-secondary-colour: #ffffff;
 }
 
 .lg-mode-red.lg-theme-neutral {
@@ -1446,7 +1805,6 @@
   --container-default-border-colour-2: #d3d3d3;
   --container-padding-x: 1.75rem;
   --container-padding-y: 1.25rem;
-  --container-situational-background-colour: #aee1f7;
   --content-gap-column-lg: 2.25rem;
   --content-gap-column-md: 1.75rem;
   --content-gap-column-sm: 1.25rem;
@@ -1546,35 +1904,13 @@
   --interactive-secondary-rest-background-colour: #ffffff;
   --interactive-secondary-rest-border-colour: #1d1d1b;
   --interactive-secondary-rest-colour: #1d1d1b;
-  --interactive-situational-active-background-colour: #000a52;
-  --interactive-situational-active-border-colour: #000a52;
-  --interactive-situational-active-colour: #ffffff;
-  --interactive-situational-disabled-background-colour: #d3d3d3;
-  --interactive-situational-disabled-border-colour: #d3d3d3;
-  --interactive-situational-disabled-colour: #7a7b7b;
-  --interactive-situational-focus-background-colour: #005dba;
-  --interactive-situational-focus-border-colour: #005dba;
-  --interactive-situational-focus-colour: #ffffff;
-  --interactive-situational-hover-background-colour: #001d6e;
-  --interactive-situational-hover-border-colour: #001d6e;
-  --interactive-situational-hover-colour: #ffffff;
-  --interactive-situational-rest-background-colour: #005dba;
-  --interactive-situational-rest-border-colour: #005dba;
-  --interactive-situational-rest-colour: #ffffff;
   --interactive-text-default-active: #6e061b;
   --interactive-text-default-focus: #c50b30;
   --interactive-text-default-hover: #940824;
   --interactive-text-default-rest: #c50b30;
   --interactive-text-default-visited: #c50b30;
-  --interactive-text-situational-active: #000a52;
-  --interactive-text-situational-focus: #005dba;
-  --interactive-text-situational-hover: #001d6e;
-  --interactive-text-situational-rest: #005dba;
-  --interactive-text-situational-visited: #005dba;
   --text-default-primary-colour: #1d1d1b;
   --text-default-secondary-colour: #4d4f4f;
-  --text-situational-primary-colour: #1d1d1b;
-  --text-situational-secondary-colour: #4d4f4f;
 }
 
 .lg-mode-red.lg-theme-neutral-inverse {
@@ -1643,7 +1979,6 @@
   --container-default-border-colour-2: #d3d3d3;
   --container-padding-x: 1.75rem;
   --container-padding-y: 1.25rem;
-  --container-situational-background-colour: #aee1f7;
   --content-gap-column-lg: 1rem;
   --content-gap-column-md: 0.75rem;
   --content-gap-column-sm: 0.5rem;
@@ -1743,35 +2078,13 @@
   --interactive-secondary-rest-background-colour: #ffffff;
   --interactive-secondary-rest-border-colour: #1d1d1b;
   --interactive-secondary-rest-colour: #1d1d1b;
-  --interactive-situational-active-background-colour: #000a52;
-  --interactive-situational-active-border-colour: #000a52;
-  --interactive-situational-active-colour: #ffffff;
-  --interactive-situational-disabled-background-colour: #d3d3d3;
-  --interactive-situational-disabled-border-colour: #d3d3d3;
-  --interactive-situational-disabled-colour: #7a7b7b;
-  --interactive-situational-focus-background-colour: #005dba;
-  --interactive-situational-focus-border-colour: #005dba;
-  --interactive-situational-focus-colour: #ffffff;
-  --interactive-situational-hover-background-colour: #001d6e;
-  --interactive-situational-hover-border-colour: #001d6e;
-  --interactive-situational-hover-colour: #ffffff;
-  --interactive-situational-rest-background-colour: #005dba;
-  --interactive-situational-rest-border-colour: #005dba;
-  --interactive-situational-rest-colour: #ffffff;
   --interactive-text-default-active: #6e061b;
   --interactive-text-default-focus: #c50b30;
   --interactive-text-default-hover: #940824;
   --interactive-text-default-rest: #c50b30;
   --interactive-text-default-visited: #c50b30;
-  --interactive-text-situational-active: #000a52;
-  --interactive-text-situational-focus: #005dba;
-  --interactive-text-situational-hover: #001d6e;
-  --interactive-text-situational-rest: #005dba;
-  --interactive-text-situational-visited: #005dba;
   --text-default-primary-colour: #1d1d1b;
   --text-default-secondary-colour: #4d4f4f;
-  --text-situational-primary-colour: #1d1d1b;
-  --text-situational-secondary-colour: #4d4f4f;
 }
 
 .lg-mode-red.lg-theme-subtle {
@@ -1840,7 +2153,6 @@
   --container-default-border-colour-2: #940824;
   --container-padding-x: 1.75rem;
   --container-padding-y: 1.25rem;
-  --container-situational-background-colour: #aee1f7;
   --content-gap-column-lg: 1rem;
   --content-gap-column-md: 0.75rem;
   --content-gap-column-sm: 0.5rem;
@@ -1939,35 +2251,13 @@
   --interactive-secondary-rest-background-colour: #ffd5d2;
   --interactive-secondary-rest-border-colour: #1d1d1b;
   --interactive-secondary-rest-colour: #1d1d1b;
-  --interactive-situational-active-background-colour: #000a52;
-  --interactive-situational-active-border-colour: #000a52;
-  --interactive-situational-active-colour: #ffffff;
-  --interactive-situational-disabled-background-colour: #d3d3d3;
-  --interactive-situational-disabled-border-colour: #d3d3d3;
-  --interactive-situational-disabled-colour: #7a7b7b;
-  --interactive-situational-focus-background-colour: #005dba;
-  --interactive-situational-focus-border-colour: #005dba;
-  --interactive-situational-focus-colour: #ffffff;
-  --interactive-situational-hover-background-colour: #001d6e;
-  --interactive-situational-hover-border-colour: #001d6e;
-  --interactive-situational-hover-colour: #ffffff;
-  --interactive-situational-rest-background-colour: #005dba;
-  --interactive-situational-rest-border-colour: #005dba;
-  --interactive-situational-rest-colour: #ffffff;
   --interactive-text-default-active: #6e061b;
   --interactive-text-default-focus: #c50b30;
   --interactive-text-default-hover: #940824;
   --interactive-text-default-rest: #c50b30;
   --interactive-text-default-visited: #c50b30;
-  --interactive-text-situational-active: #000a52;
-  --interactive-text-situational-focus: #005dba;
-  --interactive-text-situational-hover: #001d6e;
-  --interactive-text-situational-rest: #005dba;
-  --interactive-text-situational-visited: #005dba;
   --text-default-primary-colour: #1d1d1b;
   --text-default-secondary-colour: #1d1d1b;
-  --text-situational-primary-colour: #1d1d1b;
-  --text-situational-secondary-colour: #4d4f4f;
 }
 
 .lg-mode-red.lg-theme-bold {
@@ -2036,7 +2326,6 @@
   --container-default-border-colour-2: #f4f4f4;
   --container-padding-x: 1.75rem;
   --container-padding-y: 1.25rem;
-  --container-situational-background-colour: #005dba;
   --content-gap-column-lg: 1rem;
   --content-gap-column-md: 0.75rem;
   --content-gap-column-sm: 0.5rem;
@@ -2135,35 +2424,13 @@
   --interactive-secondary-rest-background-colour: #c50b30;
   --interactive-secondary-rest-border-colour: #ffffff;
   --interactive-secondary-rest-colour: #ffffff;
-  --interactive-situational-active-background-colour: #000a52;
-  --interactive-situational-active-border-colour: #ffffff;
-  --interactive-situational-active-colour: #ffffff;
-  --interactive-situational-disabled-background-colour: #d3d3d3;
-  --interactive-situational-disabled-border-colour: #d3d3d3;
-  --interactive-situational-disabled-colour: #7a7b7b;
-  --interactive-situational-focus-background-colour: #ffffff;
-  --interactive-situational-focus-border-colour: #ffffff;
-  --interactive-situational-focus-colour: #1d1d1b;
-  --interactive-situational-hover-background-colour: #001d6e;
-  --interactive-situational-hover-border-colour: #ffffff;
-  --interactive-situational-hover-colour: #ffffff;
-  --interactive-situational-rest-background-colour: #ffffff;
-  --interactive-situational-rest-border-colour: #ffffff;
-  --interactive-situational-rest-colour: #1d1d1b;
   --interactive-text-default-active: #f4f4f4;
   --interactive-text-default-focus: #f4f4f4;
   --interactive-text-default-hover: #f4f4f4;
   --interactive-text-default-rest: #f4f4f4;
   --interactive-text-default-visited: #f4f4f4;
-  --interactive-text-situational-active: #f4f4f4;
-  --interactive-text-situational-focus: #f4f4f4;
-  --interactive-text-situational-hover: #f4f4f4;
-  --interactive-text-situational-rest: #f4f4f4;
-  --interactive-text-situational-visited: #f4f4f4;
   --text-default-primary-colour: #ffffff;
   --text-default-secondary-colour: #ffd5d2;
-  --text-situational-primary-colour: #ffffff;
-  --text-situational-secondary-colour: #ffffff;
 }
 
 .lg-mode-yellow.lg-theme-neutral {
@@ -2232,7 +2499,6 @@
   --container-default-border-colour-2: #d3d3d3;
   --container-padding-x: 1.75rem;
   --container-padding-y: 1.25rem;
-  --container-situational-background-colour: #aee1f7;
   --content-gap-column-lg: 2.25rem;
   --content-gap-column-md: 1.75rem;
   --content-gap-column-sm: 1.25rem;
@@ -2332,35 +2598,13 @@
   --interactive-secondary-rest-background-colour: #1d1d1b;
   --interactive-secondary-rest-border-colour: #000000;
   --interactive-secondary-rest-colour: #000000;
-  --interactive-situational-active-background-colour: #000a52;
-  --interactive-situational-active-border-colour: #000a52;
-  --interactive-situational-active-colour: #ffffff;
-  --interactive-situational-disabled-background-colour: #d3d3d3;
-  --interactive-situational-disabled-border-colour: #d3d3d3;
-  --interactive-situational-disabled-colour: #7a7b7b;
-  --interactive-situational-focus-background-colour: #005dba;
-  --interactive-situational-focus-border-colour: #005dba;
-  --interactive-situational-focus-colour: #ffffff;
-  --interactive-situational-hover-background-colour: #001d6e;
-  --interactive-situational-hover-border-colour: #001d6e;
-  --interactive-situational-hover-colour: #ffffff;
-  --interactive-situational-rest-background-colour: #005dba;
-  --interactive-situational-rest-border-colour: #005dba;
-  --interactive-situational-rest-colour: #ffffff;
   --interactive-text-default-active: #1d1d1b;
   --interactive-text-default-focus: #1d1d1b;
   --interactive-text-default-hover: #1d1d1b;
   --interactive-text-default-rest: #1d1d1b;
   --interactive-text-default-visited: #1d1d1b;
-  --interactive-text-situational-active: #000a52;
-  --interactive-text-situational-focus: #005dba;
-  --interactive-text-situational-hover: #001d6e;
-  --interactive-text-situational-rest: #005dba;
-  --interactive-text-situational-visited: #005dba;
   --text-default-primary-colour: #1d1d1b;
   --text-default-secondary-colour: #4d4f4f;
-  --text-situational-primary-colour: #1d1d1b;
-  --text-situational-secondary-colour: #4d4f4f;
 }
 
 .lg-mode-yellow.lg-theme-neutral-inverse {
@@ -2429,7 +2673,6 @@
   --container-default-border-colour-2: #d3d3d3;
   --container-padding-x: 1.75rem;
   --container-padding-y: 1.25rem;
-  --container-situational-background-colour: #aee1f7;
   --content-gap-column-lg: 1rem;
   --content-gap-column-md: 0.75rem;
   --content-gap-column-sm: 0.5rem;
@@ -2529,35 +2772,13 @@
   --interactive-secondary-rest-background-colour: #1d1d1b;
   --interactive-secondary-rest-border-colour: #000000;
   --interactive-secondary-rest-colour: #000000;
-  --interactive-situational-active-background-colour: #000a52;
-  --interactive-situational-active-border-colour: #000a52;
-  --interactive-situational-active-colour: #ffffff;
-  --interactive-situational-disabled-background-colour: #d3d3d3;
-  --interactive-situational-disabled-border-colour: #d3d3d3;
-  --interactive-situational-disabled-colour: #7a7b7b;
-  --interactive-situational-focus-background-colour: #005dba;
-  --interactive-situational-focus-border-colour: #005dba;
-  --interactive-situational-focus-colour: #ffffff;
-  --interactive-situational-hover-background-colour: #001d6e;
-  --interactive-situational-hover-border-colour: #001d6e;
-  --interactive-situational-hover-colour: #ffffff;
-  --interactive-situational-rest-background-colour: #005dba;
-  --interactive-situational-rest-border-colour: #005dba;
-  --interactive-situational-rest-colour: #ffffff;
   --interactive-text-default-active: #1d1d1b;
   --interactive-text-default-focus: #1d1d1b;
   --interactive-text-default-hover: #1d1d1b;
   --interactive-text-default-rest: #1d1d1b;
   --interactive-text-default-visited: #1d1d1b;
-  --interactive-text-situational-active: #000a52;
-  --interactive-text-situational-focus: #005dba;
-  --interactive-text-situational-hover: #001d6e;
-  --interactive-text-situational-rest: #005dba;
-  --interactive-text-situational-visited: #005dba;
   --text-default-primary-colour: #1d1d1b;
   --text-default-secondary-colour: #4d4f4f;
-  --text-situational-primary-colour: #1d1d1b;
-  --text-situational-secondary-colour: #4d4f4f;
 }
 
 .lg-mode-yellow.lg-theme-subtle {
@@ -2626,7 +2847,6 @@
   --container-default-border-colour-2: #c86426;
   --container-padding-x: 1.75rem;
   --container-padding-y: 1.25rem;
-  --container-situational-background-colour: #aee1f7;
   --content-gap-column-lg: 1rem;
   --content-gap-column-md: 0.75rem;
   --content-gap-column-sm: 0.5rem;
@@ -2725,35 +2945,13 @@
   --interactive-secondary-rest-background-colour: #fffbdc;
   --interactive-secondary-rest-border-colour: #000000;
   --interactive-secondary-rest-colour: #000000;
-  --interactive-situational-active-background-colour: #000a52;
-  --interactive-situational-active-border-colour: #000a52;
-  --interactive-situational-active-colour: #ffffff;
-  --interactive-situational-disabled-background-colour: #d3d3d3;
-  --interactive-situational-disabled-border-colour: #d3d3d3;
-  --interactive-situational-disabled-colour: #7a7b7b;
-  --interactive-situational-focus-background-colour: #005dba;
-  --interactive-situational-focus-border-colour: #005dba;
-  --interactive-situational-focus-colour: #ffffff;
-  --interactive-situational-hover-background-colour: #001d6e;
-  --interactive-situational-hover-border-colour: #001d6e;
-  --interactive-situational-hover-colour: #ffffff;
-  --interactive-situational-rest-background-colour: #005dba;
-  --interactive-situational-rest-border-colour: #005dba;
-  --interactive-situational-rest-colour: #ffffff;
   --interactive-text-default-active: #1d1d1b;
   --interactive-text-default-focus: #1d1d1b;
   --interactive-text-default-hover: #1d1d1b;
   --interactive-text-default-rest: #1d1d1b;
   --interactive-text-default-visited: #1d1d1b;
-  --interactive-text-situational-active: #000a52;
-  --interactive-text-situational-focus: #005dba;
-  --interactive-text-situational-hover: #001d6e;
-  --interactive-text-situational-rest: #005dba;
-  --interactive-text-situational-visited: #005dba;
   --text-default-primary-colour: #1d1d1b;
   --text-default-secondary-colour: #1d1d1b;
-  --text-situational-primary-colour: #1d1d1b;
-  --text-situational-secondary-colour: #4d4f4f;
 }
 
 .lg-mode-yellow.lg-theme-bold {
@@ -2822,7 +3020,6 @@
   --container-default-border-colour-2: #1d1d1b;
   --container-padding-x: 1.75rem;
   --container-padding-y: 1.25rem;
-  --container-situational-background-colour: #005dba;
   --content-gap-column-lg: 1rem;
   --content-gap-column-md: 0.75rem;
   --content-gap-column-sm: 0.5rem;
@@ -2921,34 +3118,12 @@
   --interactive-secondary-rest-background-colour: #ffb600;
   --interactive-secondary-rest-border-colour: #1d1d1b;
   --interactive-secondary-rest-colour: #1d1d1b;
-  --interactive-situational-active-background-colour: #000a52;
-  --interactive-situational-active-border-colour: #ffffff;
-  --interactive-situational-active-colour: #ffffff;
-  --interactive-situational-disabled-background-colour: #d3d3d3;
-  --interactive-situational-disabled-border-colour: #d3d3d3;
-  --interactive-situational-disabled-colour: #7a7b7b;
-  --interactive-situational-focus-background-colour: #ffffff;
-  --interactive-situational-focus-border-colour: #ffffff;
-  --interactive-situational-focus-colour: #1d1d1b;
-  --interactive-situational-hover-background-colour: #001d6e;
-  --interactive-situational-hover-border-colour: #ffffff;
-  --interactive-situational-hover-colour: #ffffff;
-  --interactive-situational-rest-background-colour: #1d1d1b;
-  --interactive-situational-rest-border-colour: #ffffff;
-  --interactive-situational-rest-colour: #1d1d1b;
   --interactive-text-default-active: #1d1d1b;
   --interactive-text-default-focus: #1d1d1b;
   --interactive-text-default-hover: #1d1d1b;
   --interactive-text-default-rest: #1d1d1b;
   --interactive-text-default-visited: #1d1d1b;
-  --interactive-text-situational-active: #f4f4f4;
-  --interactive-text-situational-focus: #f4f4f4;
-  --interactive-text-situational-hover: #f4f4f4;
-  --interactive-text-situational-rest: #f4f4f4;
-  --interactive-text-situational-visited: #f4f4f4;
   --text-default-primary-colour: #1d1d1b;
   --text-default-secondary-colour: #572722;
-  --text-situational-primary-colour: #ffffff;
-  --text-situational-secondary-colour: #ffffff;
 }
 
