@@ -121,6 +121,11 @@ function saveRawData(data) {
     throw new Error('Invalid data format received from API');
   }
 
+  // Validate expected Figma API response structure
+  if (!data.meta || typeof data.meta !== 'object') {
+    throw new Error('Invalid Figma API response: missing meta object');
+  }
+
   // Validate the output path to prevent directory traversal
   const resolvedPath = path.resolve(CONFIG.OUTPUT_PATH);
   const expectedDir = path.resolve('./tokens');
@@ -128,16 +133,24 @@ function saveRawData(data) {
     throw new Error('Invalid output path: potential directory traversal detected');
   }
 
+  // Create output with validated data - only include known safe properties
   const output = {
     $description: 'Raw design variables from Figma API (unprocessed)',
     $timestamp: new Date().toISOString(),
     $source: `figma://file/${CONFIG.FIGMA_FILE_KEY}`,
     $endpoint: `/files/${CONFIG.FIGMA_FILE_KEY}/variables/local`,
-    ...data,
+    meta: data.meta,
+    error: data.error || undefined,
+    status: data.status || undefined,
   };
 
   try {
     const content = JSON.stringify(output, null, 2);
+
+    // Additional safety check: ensure content size is reasonable (< 50MB)
+    if (content.length > 50 * 1024 * 1024) {
+      throw new Error('Response data exceeds safe file size limit');
+    }
 
     fs.writeFileSync(resolvedPath, content, 'utf8');
     console.log(`✅ Raw data saved to: ${resolvedPath}`);
