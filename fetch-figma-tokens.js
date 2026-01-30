@@ -116,6 +116,18 @@ function ensureOutputDirectory() {
 function saveRawData(data) {
   ensureOutputDirectory();
 
+  // Validate that data is a plain object (not null, not an array)
+  if (!data || typeof data !== 'object' || Array.isArray(data)) {
+    throw new Error('Invalid data format received from API');
+  }
+
+  // Validate the output path to prevent directory traversal
+  const resolvedPath = path.resolve(CONFIG.OUTPUT_PATH);
+  const expectedDir = path.resolve('./tokens');
+  if (!resolvedPath.startsWith(expectedDir)) {
+    throw new Error('Invalid output path: potential directory traversal detected');
+  }
+
   const output = {
     $description: 'Raw design variables from Figma API (unprocessed)',
     $timestamp: new Date().toISOString(),
@@ -127,8 +139,8 @@ function saveRawData(data) {
   try {
     const content = JSON.stringify(output, null, 2);
 
-    fs.writeFileSync(CONFIG.OUTPUT_PATH, content, 'utf8');
-    console.log(`✅ Raw data saved to: ${CONFIG.OUTPUT_PATH}`);
+    fs.writeFileSync(resolvedPath, content, 'utf8');
+    console.log(`✅ Raw data saved to: ${resolvedPath}`);
   } catch (error) {
     console.error(`❌ Failed to save raw data: ${error.message}`);
     throw error;
