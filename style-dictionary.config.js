@@ -197,6 +197,12 @@ module.exports = {
 
           if (!isComponentTheme && !isColour) return;
 
+          // Check if this is a status token (has 'status' in path)
+          const isStatus = token.path.includes('status');
+
+          // Skip status tokens - they're handled by css/status-classes formatter
+          if (isStatus) return;
+
           // Extract color mode (and optionally theme mode) from path
           const path = token.path;
           let colorMode, themeMode;
