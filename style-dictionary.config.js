@@ -531,7 +531,8 @@ module.exports = {
         // Helper to format value for TypeScript
         const formatValue = (value) => {
           if (typeof value === 'string') {
-            return `"${value.replace(/"/g, '\\"')}"`;
+            // Escape backslashes first, then quotes
+            return `"${value.replace(/\\/g, '\\\\').replace(/"/g, '\\"')}"`;
           }
           return JSON.stringify(value);
         };

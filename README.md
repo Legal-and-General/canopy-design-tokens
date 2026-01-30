@@ -21,13 +21,14 @@ A design tokens system that fetches variables from Figma's REST API and transfor
 
 ## Output Files
 
-The build process generates 6 CSS files in `build/css/`:
+The build process generates 7 CSS files in `build/css/`:
 
 - **`colour.css`** - Colour tokens with class selectors: `.lg-mode-blue`, `.lg-mode-green`, `.lg-mode-red`, `.lg-mode-yellow`
 - **`component-themes.css`** - Component theme tokens with class selectors: `.lg-mode-blue.lg-neutral`, `.lg-mode-green.lg-subtle`, etc. (16 combinations)
+- **`status.css`** - Status tokens with class selectors: `.lg-status-info`, `.lg-status-success`, `.lg-status-warning`, `.lg-status-error`, `.lg-status-generic` combined with theme modes (20 combinations)
 - **`foundations.css`** - Foundation tokens (dimensions, colours)
 - **`layout.css`** - Layout tokens grouped by breakpoint suffix (sm, md, lg, xl, xxl)
-- **`typography.css`** - Typography tokens (font families, weights, letter-spacing)
+- **`typography.css`** - Typography tokens (typeface, weights, letter-spacing)
 - **`variables.css`** - Combined file with all tokens in `:root`
 
 [All output files can be found here](https://github.com/Legal-and-General/canopy-design-tokens/blob/master/build/css/)
@@ -45,15 +46,19 @@ npm install @legal-and-general/canopy-design-tokens
 ```html
 <link
   rel="stylesheet"
-  href="node_modules/@legal-and-general/canopy-design-tokens/build/css/foundations.css"
+  href="node_modules/@legal-and-general/canopy-design-tokens/css/foundations.css"
 />
 <link
   rel="stylesheet"
-  href="node_modules/@legal-and-general/canopy-design-tokens/build/css/colour.css"
+  href="node_modules/@legal-and-general/canopy-design-tokens/css/colour.css"
 />
 <link
   rel="stylesheet"
-  href="node_modules/@legal-and-general/canopy-design-tokens/build/css/component-themes.css"
+  href="node_modules/@legal-and-general/canopy-design-tokens/css/component-themes.css"
+/>
+<link
+  rel="stylesheet"
+  href="node_modules/@legal-and-general/canopy-design-tokens/css/status.css"
 />
 ```
 
@@ -68,6 +73,15 @@ npm install @legal-and-general/canopy-design-tokens
 <!-- Green colour with subtle theme -->
 <div class="lg-mode-green lg-subtle">
   <button>Primary Button</button>
+</div>
+
+<!-- Status with theme -->
+<div class="lg-status-info lg-theme-neutral">
+  <p>Information message</p>
+</div>
+
+<div class="lg-status-error lg-theme-bold">
+  <p>Error message</p>
 </div>
 ```
 
@@ -127,6 +141,24 @@ Organised by colour and theme mode combinations:
 }
 ```
 
+### Status Tokens
+
+Organised by status mode (info, success, warning, error, generic) and theme mode combinations:
+
+```css
+.lg-status-info.lg-theme-neutral {
+  --container-status-background-colour: #aee1f7;
+  --interactive-status-rest-background-colour: #005dba;
+  /* ... */
+}
+
+.lg-status-error.lg-theme-bold {
+  --container-status-background-colour: #ff3e51;
+  --interactive-status-rest-background-colour: #c50b30;
+  /* ... */
+}
+```
+
 ### Layout Tokens
 
 Grouped by breakpoint suffix (sm, md, lg, xl, xxl):
@@ -146,8 +178,8 @@ Grouped by breakpoint suffix (sm, md, lg, xl, xxl):
 ### Typography Tokens
 
 ```css
---font-family-productive: 'Nunito Sans';
---font-family-expressive: 'ABC Otto';
+--typeface-productive: 'Nunito Sans';
+--typeface-expressive: 'ABC Otto';
 --letter-spacing-condensed-productive: -0.00625rem;
 --font-weight-700-productive: 700;
 ```
@@ -264,4 +296,4 @@ npm run build:tokens
 
 - Transforms token files into CSS using Style Dictionary
 - Applies custom transforms (rem conversion, naming conventions, etc.)
-- Outputs 6 CSS files to `build/css/`
+- Outputs 7 CSS files to `build/css/`

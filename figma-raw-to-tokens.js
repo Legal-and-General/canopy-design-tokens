@@ -198,13 +198,30 @@ function setNestedValue(obj, path, value) {
 
   for (let i = 0; i < keys.length - 1; i++) {
     const key = keys[i];
+
+    // Guard against prototype pollution
+    if (key === '__proto__' || key === 'constructor' || key === 'prototype') {
+      throw new Error(`Prototype pollution attempt detected: ${key}`);
+    }
+
     if (!(key in current) || typeof current[key] !== 'object' || current[key] === null) {
       current[key] = {};
     }
     current = current[key];
   }
 
-  current[keys[keys.length - 1]] = value;
+  const finalKey = keys[keys.length - 1];
+
+  // Guard against prototype pollution on final key
+  if (
+    finalKey === '__proto__' ||
+    finalKey === 'constructor' ||
+    finalKey === 'prototype'
+  ) {
+    throw new Error(`Prototype pollution attempt detected: ${finalKey}`);
+  }
+
+  current[finalKey] = value;
 }
 
 /**
