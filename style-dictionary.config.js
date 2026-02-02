@@ -128,11 +128,48 @@ module.exports = {
         let output =
           '/**\n * Do not edit directly, this file was auto-generated.\n */\n\n:root {\n';
 
-        // First, add all non-theme/color specific tokens
+        // Helper to check if a token is a breakpoint-specific layout token
+        const isBreakpointLayoutToken = (token) => {
+          if (!token.filePath.includes('layout')) return false;
+
+          const name = token.name;
+          const breakpointSuffixes = ['-sm', '-md', '-lg', '-xl', '-xxl'];
+
+          // List of token patterns that should be excluded (they're in layout.css)
+          const excludePatterns = [
+            'font-size-',
+            'line-height-',
+            'space-',
+            'border-radius-',
+            'border-width-',
+            'colspan-',
+            'page-cols-',
+            'page-gutter-',
+            'page-margin-',
+            'page-min-width-',
+            'page-max-width-',
+            'visibility-',
+          ];
+
+          // Check if token ends with a breakpoint suffix
+          const hasBreakpointSuffix = breakpointSuffixes.some((suffix) =>
+            name.endsWith(suffix),
+          );
+
+          // Check if token matches any exclude pattern
+          const matchesExcludePattern = excludePatterns.some((pattern) =>
+            name.includes(pattern),
+          );
+
+          return hasBreakpointSuffix && matchesExcludePattern;
+        };
+
+        // First, add all non-theme/color specific tokens, excluding breakpoint layout tokens
         const regularTokens = dictionary.allTokens.filter((token) => {
           const isComponentTheme = token.filePath.includes('component-themes');
           const isColour = token.filePath.includes('colour.json');
-          return !isComponentTheme && !isColour;
+          const isBreakpointLayout = isBreakpointLayoutToken(token);
+          return !isComponentTheme && !isColour && !isBreakpointLayout;
         });
 
         regularTokens.forEach((token) => {
@@ -786,43 +823,6 @@ module.exports = {
               token.value !== undefined &&
               token.path &&
               token.path.includes('status')
-            );
-          },
-          options: {
-            outputReferences: false,
-          },
-        },
-      ],
-    },
-
-    // Foundations - single file
-    'css-foundations': {
-      transforms: [
-        'attribute/cti',
-        'name/kebab',
-        'time/seconds',
-        'html/icon',
-        'size/pxToRem',
-        'color/css',
-        'asset/url',
-        'fontFamily/css',
-        'cubicBezier/css',
-        'strokeStyle/css/shorthand',
-        'border/css/shorthand',
-        'typography/css/shorthand',
-        'transition/css/shorthand',
-        'shadow/css/shorthand',
-      ],
-      buildPath: 'build/css/',
-      files: [
-        {
-          destination: 'foundations.css',
-          format: 'css/variables',
-          filter: function (token) {
-            return (
-              token.value !== null &&
-              token.value !== undefined &&
-              token.filePath.includes('foundations')
             );
           },
           options: {
