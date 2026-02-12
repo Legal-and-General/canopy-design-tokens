@@ -31,7 +31,98 @@ function rgbToHex(r, g, b) {
 }
 
 /**
- * Resolves a variable alias to its actual value
+ * Resolves a variable alias through multiple mode dimensions
+ * This function can resolve through Component themes (theme modes) and Colour (color modes)
+ */
+function resolveAliasWithModeContext(
+  aliasId,
+  variables,
+  collections,
+  modeContext = {},
+  seenIds = new Set(),
+) {
+  if (seenIds.has(aliasId)) {
+    return null;
+  }
+
+  let referencedVariable = variables[aliasId];
+
+  if (!referencedVariable) {
+    const idParts = aliasId.split(':');
+    const shortId = idParts[idParts.length - 1];
+    referencedVariable = variables[shortId];
+  }
+
+  if (!referencedVariable) {
+    const varIdKey = Object.keys(variables).find(
+      (key) => key === aliasId || key.endsWith(aliasId) || aliasId.endsWith(key),
+    );
+    if (varIdKey) {
+      referencedVariable = variables[varIdKey];
+    }
+  }
+
+  if (!referencedVariable) {
+    return null;
+  }
+
+  seenIds.add(aliasId);
+
+  // Get the collection for this variable to determine which mode to use
+  const collection = Object.values(collections).find(
+    (c) => c.id === referencedVariable.variableCollectionId,
+  );
+
+  let modeId = null;
+
+  if (collection) {
+    // Check if this is Component themes collection - use theme mode
+    if (collection.name === 'Component themes' && modeContext.themeModeId) {
+      modeId = modeContext.themeModeId;
+    }
+    // Check if this is Colour collection - use color mode
+    else if (collection.name === 'Colour' && modeContext.colorModeId) {
+      modeId = modeContext.colorModeId;
+    }
+    // Check if this is Status collection - use status mode
+    else if (collection.name === 'Status' && modeContext.statusModeId) {
+      modeId = modeContext.statusModeId;
+    }
+  }
+
+  // Fallback to first available mode if no context matches
+  if (!modeId || !referencedVariable.valuesByMode[modeId]) {
+    modeId = Object.keys(referencedVariable.valuesByMode)[0];
+  }
+
+  const referencedValue = referencedVariable.valuesByMode[modeId];
+
+  if (
+    referencedValue &&
+    typeof referencedValue === 'object' &&
+    referencedValue.type === 'VARIABLE_ALIAS'
+  ) {
+    // Continue resolving with the same mode context
+    return resolveAliasWithModeContext(
+      referencedValue.id,
+      variables,
+      collections,
+      modeContext,
+      seenIds,
+    );
+  }
+
+  return convertVariableValue(
+    referencedVariable,
+    referencedValue,
+    variables,
+    modeId,
+    seenIds,
+  );
+}
+
+/**
+ * Resolves a variable alias to its actual value (legacy single-mode version)
  */
 function resolveVariableAlias(
   aliasId,
@@ -258,16 +349,45 @@ function getStatusModes(collections) {
 }
 
 /**
+ * Gets the theme modes from the Component themes collection
+ */
+function getThemeModes(collections) {
+  const themeCollection = Object.values(collections).find(
+    (c) => c.name === 'Component themes',
+  );
+  if (!themeCollection || !themeCollection.modes) {
+    return [
+      { name: 'Neutral', modeId: null },
+      { name: 'Neutral inverse', modeId: null },
+      { name: 'Subtle', modeId: null },
+      { name: 'Bold', modeId: null },
+    ];
+  }
+  return themeCollection.modes.map((m) => ({ name: m.name, modeId: m.modeId }));
+}
+
+/**
  * Processes variables and organizes them by collection
  */
 function processVariablesByCollection(variables, collections) {
   const tokensByCollection = {};
   const colorModes = getColorModes(collections);
   const statusModes = getStatusModes(collections);
+  const themeModes = getThemeModes(collections);
 
   Object.values(variables).forEach((variable) => {
     const collection = collections[variable.variableCollectionId];
     if (!collection) return;
+
+    // Skip variables with spaces in the final name segment (invalid for CSS)
+    const nameParts = variable.name.split('/');
+    const finalSegment = nameParts[nameParts.length - 1];
+    if (finalSegment.includes(' ')) {
+      console.warn(
+        `Skipping variable with invalid name (contains space): ${variable.name}`,
+      );
+      return;
+    }
 
     const collectionName = collection.name;
 
@@ -283,6 +403,22 @@ function processVariablesByCollection(variables, collections) {
         variables,
         tokensByCollection[collectionName],
         colorModes,
+        statusModes,
+      );
+    } else if (collectionName === 'Link' || collectionName === 'Link menu') {
+      // Merge Link tokens into Component themes, expanding across color/theme modes
+      // Link collections have a "Default" mode that should map to all theme modes
+      if (!tokensByCollection['Component themes']) {
+        tokensByCollection['Component themes'] = {};
+      }
+      processLinkVariable(
+        variable,
+        collection,
+        variables,
+        collections,
+        tokensByCollection['Component themes'],
+        colorModes,
+        themeModes,
         statusModes,
       );
     } else {
@@ -390,6 +526,116 @@ function processComponentThemeVariable(
 }
 
 /**
+ * Processes a link variable - resolves through theme and color/status modes properly
+ */
+function processLinkVariable(
+  variable,
+  collection,
+  allVariables,
+  allCollections,
+  output,
+  colorModes,
+  themeModes,
+  statusModes,
+) {
+  const namePath = parseVariableName(variable.name);
+
+  // Check if this is a status-related link token (contains 'status' in the path)
+  const isStatusToken = namePath.includes('status');
+
+  // Get the value from the Default mode
+  Object.entries(variable.valuesByMode).forEach(([modeId, value]) => {
+    const tokenType = getTokenType(variable);
+
+    // If it's a status token, expand across status modes instead of color modes
+    if (isStatusToken) {
+      themeModes.forEach((themeMode) => {
+        statusModes.forEach((statusMode) => {
+          let resolvedValue = null;
+
+          // If this is an alias, resolve it with both theme and status mode context
+          if (typeof value === 'object' && value.type === 'VARIABLE_ALIAS') {
+            resolvedValue = resolveAliasWithModeContext(
+              value.id,
+              allVariables,
+              allCollections,
+              {
+                themeModeId: themeMode.modeId,
+                statusModeId: statusMode.modeId,
+              },
+            );
+          } else {
+            // Direct value (not an alias)
+            resolvedValue = convertVariableValue(
+              variable,
+              value,
+              allVariables,
+              statusMode.modeId,
+            );
+          }
+
+          if (resolvedValue === null) return;
+
+          const token = {
+            value: resolvedValue,
+            type: tokenType,
+          };
+
+          if (variable.description) {
+            token.description = variable.description;
+          }
+
+          const fullPath = [...namePath, themeMode.name, statusMode.name];
+          setNestedValue(output, fullPath, token);
+        });
+      });
+    } else {
+      // Regular link token - expand across color modes
+      themeModes.forEach((themeMode) => {
+        colorModes.forEach((colorMode) => {
+          let resolvedValue = null;
+
+          // If this is an alias, resolve it with both theme and color mode context
+          if (typeof value === 'object' && value.type === 'VARIABLE_ALIAS') {
+            resolvedValue = resolveAliasWithModeContext(
+              value.id,
+              allVariables,
+              allCollections,
+              {
+                themeModeId: themeMode.modeId,
+                colorModeId: colorMode.modeId,
+              },
+            );
+          } else {
+            // Direct value (not an alias)
+            resolvedValue = convertVariableValue(
+              variable,
+              value,
+              allVariables,
+              colorMode.modeId,
+            );
+          }
+
+          if (resolvedValue === null) return;
+
+          const token = {
+            value: resolvedValue,
+            type: tokenType,
+          };
+
+          if (variable.description) {
+            token.description = variable.description;
+          }
+
+          const fullPath = [...namePath, themeMode.name, colorMode.name];
+          setNestedValue(output, fullPath, token);
+        });
+      });
+    }
+  });
+}
+
+/**
  * Normalizes collection name for filename
  */
 function normalizeCollectionName(name) {
@@ -453,6 +699,7 @@ async function main() {
     );
 
     // Filter to specific collections
+    // Note: Link and Link menu are merged into Component themes
     const targetCollections = [
       'Colour',
       'Component themes',
