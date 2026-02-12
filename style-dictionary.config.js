@@ -425,12 +425,37 @@ module.exports = {
           if (!token.path.includes('status')) return;
 
           // Extract status mode and theme mode from path
-          // Path structure: [component, 'status', property, themeMode, statusMode]
+          // Path structure: [component, 'status', variant, property, themeMode, statusMode]
+          // or: [component, 'status', property, themeMode, statusMode]
           const path = token.path;
           const statusMode = path[path.length - 1]; // Info, Success, Warning, Error, Generic
           const themeMode = path[path.length - 2]; // Neutral, Subtle, Bold, Neutral inverse
 
           if (!statusMode || !themeMode) return;
+
+          // // Check if token has a component theme variant (bold/subtle) in its path
+          // const hasVariant = path.some(part =>
+          //   part.toLowerCase() === 'bold' || part.toLowerCase() === 'subtle'
+          // );
+
+          // // If token has a variant, only include it in matching theme class
+          // if (hasVariant) {
+          //   const variantInPath = path.find(part =>
+          //     part.toLowerCase() === 'bold' || part.toLowerCase() === 'subtle'
+          //   );
+          //   const normalizedVariant = variantInPath.toLowerCase();
+          //   const normalizedTheme = themeMode.toLowerCase().replace(/\s+/g, '-');
+
+          //   // Skip if variant doesn't match theme
+          //   // For neutral/neutral-inverse: include all variants
+          //   // For subtle theme: only include subtle variants
+          //   // For bold theme: only include bold variants
+          //   if (normalizedTheme !== 'neutral' && normalizedTheme !== 'neutral-inverse') {
+          //     if (normalizedVariant !== normalizedTheme) {
+          //       return;
+          //     }
+          //   }
+          // }
 
           // Normalize mode names
           const statusClass = statusMode.toLowerCase();
@@ -497,6 +522,9 @@ module.exports = {
             if (statusIndex >= 0) {
               const pathBeforeStatus = token.path.slice(0, statusIndex);
               const propertyPath = token.path.slice(statusIndex + 1, -2); // exclude themeMode and statusMode
+
+              // // Keep bold/subtle in the variable names
+
               const varName = [...pathBeforeStatus, 'status', ...propertyPath].join('-');
               output += `  --${varName}: ${token.value};\n`;
             }
@@ -899,6 +927,80 @@ module.exports = {
               token.value !== null &&
               token.value !== undefined &&
               token.filePath.includes('typography')
+            );
+          },
+          options: {
+            outputReferences: false,
+          },
+        },
+      ],
+    },
+
+    // Link - single file
+    'css-link': {
+      transforms: [
+        'attribute/cti',
+        'name/kebab',
+        'time/seconds',
+        'html/icon',
+        'size/pxToRem',
+        'color/css',
+        'asset/url',
+        'fontFamily/css',
+        'cubicBezier/css',
+        'strokeStyle/css/shorthand',
+        'border/css/shorthand',
+        'typography/css/shorthand',
+        'transition/css/shorthand',
+        'shadow/css/shorthand',
+      ],
+      buildPath: 'build/css/',
+      files: [
+        {
+          destination: 'link.css',
+          format: 'css/variables',
+          filter: function (token) {
+            return (
+              token.value !== null &&
+              token.value !== undefined &&
+              token.filePath.includes('link.json')
+            );
+          },
+          options: {
+            outputReferences: false,
+          },
+        },
+      ],
+    },
+
+    // Link menu - single file
+    'css-link-menu': {
+      transforms: [
+        'attribute/cti',
+        'name/kebab',
+        'time/seconds',
+        'html/icon',
+        'size/pxToRem',
+        'color/css',
+        'asset/url',
+        'fontFamily/css',
+        'cubicBezier/css',
+        'strokeStyle/css/shorthand',
+        'border/css/shorthand',
+        'typography/css/shorthand',
+        'transition/css/shorthand',
+        'shadow/css/shorthand',
+      ],
+      buildPath: 'build/css/',
+      files: [
+        {
+          destination: 'link-menu.css',
+          format: 'css/variables',
+          filter: function (token) {
+            return (
+              token.value !== null &&
+              token.value !== undefined &&
+              token.filePath.includes('link-menu.json')
             );
           },
           options: {
