@@ -433,30 +433,6 @@ module.exports = {
 
           if (!statusMode || !themeMode) return;
 
-          // // Check if token has a component theme variant (bold/subtle) in its path
-          // const hasVariant = path.some(part =>
-          //   part.toLowerCase() === 'bold' || part.toLowerCase() === 'subtle'
-          // );
-
-          // // If token has a variant, only include it in matching theme class
-          // if (hasVariant) {
-          //   const variantInPath = path.find(part =>
-          //     part.toLowerCase() === 'bold' || part.toLowerCase() === 'subtle'
-          //   );
-          //   const normalizedVariant = variantInPath.toLowerCase();
-          //   const normalizedTheme = themeMode.toLowerCase().replace(/\s+/g, '-');
-
-          //   // Skip if variant doesn't match theme
-          //   // For neutral/neutral-inverse: include all variants
-          //   // For subtle theme: only include subtle variants
-          //   // For bold theme: only include bold variants
-          //   if (normalizedTheme !== 'neutral' && normalizedTheme !== 'neutral-inverse') {
-          //     if (normalizedVariant !== normalizedTheme) {
-          //       return;
-          //     }
-          //   }
-          // }
-
           // Normalize mode names
           const statusClass = statusMode.toLowerCase();
           const themeClass = themeMode.toLowerCase().replace(/\s+/g, '-');
@@ -522,8 +498,6 @@ module.exports = {
             if (statusIndex >= 0) {
               const pathBeforeStatus = token.path.slice(0, statusIndex);
               const propertyPath = token.path.slice(statusIndex + 1, -2); // exclude themeMode and statusMode
-
-              // // Keep bold/subtle in the variable names
 
               const varName = [...pathBeforeStatus, 'status', ...propertyPath].join('-');
               output += `  --${varName}: ${token.value};\n`;
