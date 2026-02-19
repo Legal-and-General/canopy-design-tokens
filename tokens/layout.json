@@ -1,123 +1,6 @@
 {
   "$description": "Design tokens from Layout collection",
-  "$timestamp": "2026-02-11T11:45:25.283Z",
-  "page": {
-    "cols": {
-      "SM": {
-        "value": 1,
-        "type": "sizing"
-      },
-      "MD": {
-        "value": 12,
-        "type": "sizing"
-      },
-      "LG": {
-        "value": 12,
-        "type": "sizing"
-      },
-      "XL": {
-        "value": 12,
-        "type": "sizing"
-      },
-      "XXL": {
-        "value": 12,
-        "type": "sizing"
-      }
-    },
-    "gutter": {
-      "SM": {
-        "value": 28,
-        "type": "sizing"
-      },
-      "MD": {
-        "value": 28,
-        "type": "sizing"
-      },
-      "LG": {
-        "value": 32,
-        "type": "sizing"
-      },
-      "XL": {
-        "value": 32,
-        "type": "sizing"
-      },
-      "XXL": {
-        "value": 32,
-        "type": "sizing"
-      }
-    },
-    "min-width": {
-      "SM": {
-        "value": 320,
-        "type": "sizing",
-        "description": "Use to set the min-width property of a page width. Use modes to switch between breakpoints"
-      },
-      "MD": {
-        "value": 768,
-        "type": "sizing",
-        "description": "Use to set the min-width property of a page width. Use modes to switch between breakpoints"
-      },
-      "LG": {
-        "value": 1024,
-        "type": "sizing",
-        "description": "Use to set the min-width property of a page width. Use modes to switch between breakpoints"
-      },
-      "XL": {
-        "value": 1280,
-        "type": "sizing",
-        "description": "Use to set the min-width property of a page width. Use modes to switch between breakpoints"
-      },
-      "XXL": {
-        "value": 1440,
-        "type": "sizing",
-        "description": "Use to set the min-width property of a page width. Use modes to switch between breakpoints"
-      }
-    },
-    "margin": {
-      "SM": {
-        "value": 16,
-        "type": "spacing"
-      },
-      "MD": {
-        "value": 28,
-        "type": "spacing"
-      },
-      "LG": {
-        "value": 32,
-        "type": "spacing"
-      },
-      "XL": {
-        "value": 72,
-        "type": "spacing"
-      },
-      "XXL": {
-        "value": 104,
-        "type": "spacing"
-      }
-    },
-    "max-width": {
-      "SM": {
-        "value": 767,
-        "type": "sizing"
-      },
-      "MD": {
-        "value": 1023,
-        "type": "sizing"
-      },
-      "LG": {
-        "value": 1279,
-        "type": "sizing"
-      },
-      "XL": {
-        "value": 1439,
-        "type": "sizing"
-      },
-      "XXL": {
-        "value": 1680,
-        "type": "sizing"
-      }
-    }
-  },
+  "$timestamp": "2026-02-19T10:59:06.456Z",
   "border-radius": {
     "1": {
       "SM": {
@@ -255,16 +138,6 @@
       }
     },
     "6": {
-      "SM": {
-        "value": 28,
-        "type": "borderRadius",
-        "description": "For use on border / corner radiuses"
-      },
-      "MD": {
-        "value": 28,
-        "type": "borderRadius",
-        "description": "For use on border / corner radiuses"
-      },
       "LG": {
         "value": 32,
         "type": "borderRadius",
@@ -277,6 +150,16 @@
       },
       "XXL": {
         "value": 32,
+        "type": "borderRadius",
+        "description": "For use on border / corner radiuses"
+      },
+      "SM": {
+        "value": 28,
+        "type": "borderRadius",
+        "description": "For use on border / corner radiuses"
+      },
+      "MD": {
+        "value": 28,
         "type": "borderRadius",
         "description": "For use on border / corner radiuses"
       }
@@ -391,6 +274,33 @@
     }
   },
   "border-width": {
+    "lg": {
+      "SM": {
+        "value": 4,
+        "type": "borderWidth",
+        "description": "use for thick border widths"
+      },
+      "MD": {
+        "value": 4,
+        "type": "borderWidth",
+        "description": "use for thick border widths"
+      },
+      "LG": {
+        "value": 4,
+        "type": "borderWidth",
+        "description": "use for thick border widths"
+      },
+      "XL": {
+        "value": 4,
+        "type": "borderWidth",
+        "description": "use for thick border widths"
+      },
+      "XXL": {
+        "value": 4,
+        "type": "borderWidth",
+        "description": "use for thick border widths"
+      }
+    },
     "xs": {
       "SM": {
         "value": 1,
@@ -470,33 +380,6 @@
         "value": 2,
         "type": "borderWidth",
         "description": "Use for medium border widths"
-      }
-    },
-    "lg": {
-      "SM": {
-        "value": 4,
-        "type": "borderWidth",
-        "description": "use for thick border widths"
-      },
-      "MD": {
-        "value": 4,
-        "type": "borderWidth",
-        "description": "use for thick border widths"
-      },
-      "LG": {
-        "value": 4,
-        "type": "borderWidth",
-        "description": "use for thick border widths"
-      },
-      "XL": {
-        "value": 4,
-        "type": "borderWidth",
-        "description": "use for thick border widths"
-      },
-      "XXL": {
-        "value": 4,
-        "type": "borderWidth",
-        "description": "use for thick border widths"
       }
     }
   },
@@ -823,6 +706,395 @@
         "value": 1232,
         "type": "sizing",
         "description": "Use to make an element span 12 columns in a page"
+      }
+    }
+  },
+  "space": {
+    "1": {
+      "SM": {
+        "value": 4,
+        "type": "spacing",
+        "description": "Use for applying consistent spacing on margin, padding and gaps"
+      },
+      "MD": {
+        "value": 4,
+        "type": "spacing",
+        "description": "Use for applying consistent spacing on margin, padding and gaps"
+      },
+      "LG": {
+        "value": 4,
+        "type": "spacing",
+        "description": "Use for applying consistent spacing on margin, padding and gaps"
+      },
+      "XL": {
+        "value": 4,
+        "type": "spacing",
+        "description": "Use for applying consistent spacing on margin, padding and gaps"
+      },
+      "XXL": {
+        "value": 4,
+        "type": "spacing",
+        "description": "Use for applying consistent spacing on margin, padding and gaps"
+      }
+    },
+    "2": {
+      "SM": {
+        "value": 8,
+        "type": "spacing",
+        "description": "Use for applying consistent spacing on margin, padding and gaps"
+      },
+      "MD": {
+        "value": 8,
+        "type": "spacing",
+        "description": "Use for applying consistent spacing on margin, padding and gaps"
+      },
+      "LG": {
+        "value": 8,
+        "type": "spacing",
+        "description": "Use for applying consistent spacing on margin, padding and gaps"
+      },
+      "XL": {
+        "value": 8,
+        "type": "spacing",
+        "description": "Use for applying consistent spacing on margin, padding and gaps"
+      },
+      "XXL": {
+        "value": 8,
+        "type": "spacing",
+        "description": "Use for applying consistent spacing on margin, padding and gaps"
+      }
+    },
+    "3": {
+      "SM": {
+        "value": 12,
+        "type": "spacing",
+        "description": "Use for applying consistent spacing on margin, padding and gaps"
+      },
+      "MD": {
+        "value": 12,
+        "type": "spacing",
+        "description": "Use for applying consistent spacing on margin, padding and gaps"
+      },
+      "LG": {
+        "value": 12,
+        "type": "spacing",
+        "description": "Use for applying consistent spacing on margin, padding and gaps"
+      },
+      "XL": {
+        "value": 12,
+        "type": "spacing",
+        "description": "Use for applying consistent spacing on margin, padding and gaps"
+      },
+      "XXL": {
+        "value": 12,
+        "type": "spacing",
+        "description": "Use for applying consistent spacing on margin, padding and gaps"
+      }
+    },
+    "4": {
+      "SM": {
+        "value": 16,
+        "type": "spacing",
+        "description": "Use for applying consistent spacing on margin, padding and gaps"
+      },
+      "MD": {
+        "value": 16,
+        "type": "spacing",
+        "description": "Use for applying consistent spacing on margin, padding and gaps"
+      },
+      "LG": {
+        "value": 16,
+        "type": "spacing",
+        "description": "Use for applying consistent spacing on margin, padding and gaps"
+      },
+      "XL": {
+        "value": 16,
+        "type": "spacing",
+        "description": "Use for applying consistent spacing on margin, padding and gaps"
+      },
+      "XXL": {
+        "value": 16,
+        "type": "spacing",
+        "description": "Use for applying consistent spacing on margin, padding and gaps"
+      }
+    },
+    "5": {
+      "SM": {
+        "value": 20,
+        "type": "spacing",
+        "description": "Use for applying consistent spacing on margin, padding and gaps"
+      },
+      "MD": {
+        "value": 20,
+        "type": "spacing",
+        "description": "Use for applying consistent spacing on margin, padding and gaps"
+      },
+      "LG": {
+        "value": 24,
+        "type": "spacing",
+        "description": "Use for applying consistent spacing on margin, padding and gaps"
+      },
+      "XL": {
+        "value": 24,
+        "type": "spacing",
+        "description": "Use for applying consistent spacing on margin, padding and gaps"
+      },
+      "XXL": {
+        "value": 24,
+        "type": "spacing",
+        "description": "Use for applying consistent spacing on margin, padding and gaps"
+      }
+    },
+    "6": {
+      "LG": {
+        "value": 32,
+        "type": "spacing",
+        "description": "Use for applying consistent spacing on margin, padding and gaps"
+      },
+      "XL": {
+        "value": 32,
+        "type": "spacing",
+        "description": "Use for applying consistent spacing on margin, padding and gaps"
+      },
+      "XXL": {
+        "value": 32,
+        "type": "spacing",
+        "description": "Use for applying consistent spacing on margin, padding and gaps"
+      },
+      "SM": {
+        "value": 28,
+        "type": "spacing",
+        "description": "Use for applying consistent spacing on margin, padding and gaps"
+      },
+      "MD": {
+        "value": 28,
+        "type": "spacing",
+        "description": "Use for applying consistent spacing on margin, padding and gaps"
+      }
+    },
+    "7": {
+      "SM": {
+        "value": 36,
+        "type": "spacing",
+        "description": "Use for applying consistent spacing on margin, padding and gaps"
+      },
+      "MD": {
+        "value": 36,
+        "type": "spacing",
+        "description": "Use for applying consistent spacing on margin, padding and gaps"
+      },
+      "LG": {
+        "value": 48,
+        "type": "spacing",
+        "description": "Use for applying consistent spacing on margin, padding and gaps"
+      },
+      "XL": {
+        "value": 48,
+        "type": "spacing",
+        "description": "Use for applying consistent spacing on margin, padding and gaps"
+      },
+      "XXL": {
+        "value": 48,
+        "type": "spacing",
+        "description": "Use for applying consistent spacing on margin, padding and gaps"
+      }
+    },
+    "8": {
+      "SM": {
+        "value": 48,
+        "type": "spacing",
+        "description": "Use for applying consistent spacing on margin, padding and gaps"
+      },
+      "MD": {
+        "value": 48,
+        "type": "spacing",
+        "description": "Use for applying consistent spacing on margin, padding and gaps"
+      },
+      "LG": {
+        "value": 72,
+        "type": "spacing",
+        "description": "Use for applying consistent spacing on margin, padding and gaps"
+      },
+      "XL": {
+        "value": 72,
+        "type": "spacing",
+        "description": "Use for applying consistent spacing on margin, padding and gaps"
+      },
+      "XXL": {
+        "value": 72,
+        "type": "spacing",
+        "description": "Use for applying consistent spacing on margin, padding and gaps"
+      }
+    },
+    "9": {
+      "SM": {
+        "value": 60,
+        "type": "spacing",
+        "description": "Use for applying consistent spacing on margin, padding and gaps"
+      },
+      "MD": {
+        "value": 60,
+        "type": "spacing",
+        "description": "Use for applying consistent spacing on margin, padding and gaps"
+      },
+      "LG": {
+        "value": 104,
+        "type": "spacing",
+        "description": "Use for applying consistent spacing on margin, padding and gaps"
+      },
+      "XL": {
+        "value": 104,
+        "type": "spacing",
+        "description": "Use for applying consistent spacing on margin, padding and gaps"
+      },
+      "XXL": {
+        "value": 104,
+        "type": "spacing",
+        "description": "Use for applying consistent spacing on margin, padding and gaps"
+      }
+    },
+    "10": {
+      "SM": {
+        "value": 84,
+        "type": "spacing",
+        "description": "Use for applying consistent spacing on margin, padding and gaps"
+      },
+      "MD": {
+        "value": 84,
+        "type": "spacing",
+        "description": "Use for applying consistent spacing on margin, padding and gaps"
+      },
+      "LG": {
+        "value": 156,
+        "type": "spacing",
+        "description": "Use for applying consistent spacing on margin, padding and gaps"
+      },
+      "XL": {
+        "value": 156,
+        "type": "spacing",
+        "description": "Use for applying consistent spacing on margin, padding and gaps"
+      },
+      "XXL": {
+        "value": 156,
+        "type": "spacing",
+        "description": "Use for applying consistent spacing on margin, padding and gaps"
+      }
+    }
+  },
+  "page": {
+    "cols": {
+      "SM": {
+        "value": 1,
+        "type": "sizing"
+      },
+      "MD": {
+        "value": 12,
+        "type": "sizing"
+      },
+      "LG": {
+        "value": 12,
+        "type": "sizing"
+      },
+      "XL": {
+        "value": 12,
+        "type": "sizing"
+      },
+      "XXL": {
+        "value": 12,
+        "type": "sizing"
+      }
+    },
+    "gutter": {
+      "SM": {
+        "value": 28,
+        "type": "sizing"
+      },
+      "MD": {
+        "value": 28,
+        "type": "sizing"
+      },
+      "LG": {
+        "value": 32,
+        "type": "sizing"
+      },
+      "XL": {
+        "value": 32,
+        "type": "sizing"
+      },
+      "XXL": {
+        "value": 32,
+        "type": "sizing"
+      }
+    },
+    "min-width": {
+      "SM": {
+        "value": 320,
+        "type": "sizing",
+        "description": "Use to set the min-width property of a page width. Use modes to switch between breakpoints"
+      },
+      "MD": {
+        "value": 768,
+        "type": "sizing",
+        "description": "Use to set the min-width property of a page width. Use modes to switch between breakpoints"
+      },
+      "LG": {
+        "value": 1024,
+        "type": "sizing",
+        "description": "Use to set the min-width property of a page width. Use modes to switch between breakpoints"
+      },
+      "XL": {
+        "value": 1280,
+        "type": "sizing",
+        "description": "Use to set the min-width property of a page width. Use modes to switch between breakpoints"
+      },
+      "XXL": {
+        "value": 1440,
+        "type": "sizing",
+        "description": "Use to set the min-width property of a page width. Use modes to switch between breakpoints"
+      }
+    },
+    "margin": {
+      "SM": {
+        "value": 16,
+        "type": "spacing"
+      },
+      "MD": {
+        "value": 28,
+        "type": "spacing"
+      },
+      "LG": {
+        "value": 32,
+        "type": "spacing"
+      },
+      "XL": {
+        "value": 72,
+        "type": "spacing"
+      },
+      "XXL": {
+        "value": 104,
+        "type": "spacing"
+      }
+    },
+    "max-width": {
+      "SM": {
+        "value": 767,
+        "type": "sizing"
+      },
+      "MD": {
+        "value": 1023,
+        "type": "sizing"
+      },
+      "LG": {
+        "value": 1279,
+        "type": "sizing"
+      },
+      "XL": {
+        "value": 1439,
+        "type": "sizing"
+      },
+      "XXL": {
+        "value": 1680,
+        "type": "sizing"
       }
     }
   },
@@ -1336,278 +1608,6 @@
       "XXL": {
         "value": 17,
         "type": "lineHeights"
-      }
-    }
-  },
-  "space": {
-    "1": {
-      "SM": {
-        "value": 4,
-        "type": "spacing",
-        "description": "Use for applying consistent spacing on margin, padding and gaps"
-      },
-      "MD": {
-        "value": 4,
-        "type": "spacing",
-        "description": "Use for applying consistent spacing on margin, padding and gaps"
-      },
-      "LG": {
-        "value": 4,
-        "type": "spacing",
-        "description": "Use for applying consistent spacing on margin, padding and gaps"
-      },
-      "XL": {
-        "value": 4,
-        "type": "spacing",
-        "description": "Use for applying consistent spacing on margin, padding and gaps"
-      },
-      "XXL": {
-        "value": 4,
-        "type": "spacing",
-        "description": "Use for applying consistent spacing on margin, padding and gaps"
-      }
-    },
-    "2": {
-      "SM": {
-        "value": 8,
-        "type": "spacing",
-        "description": "Use for applying consistent spacing on margin, padding and gaps"
-      },
-      "MD": {
-        "value": 8,
-        "type": "spacing",
-        "description": "Use for applying consistent spacing on margin, padding and gaps"
-      },
-      "LG": {
-        "value": 8,
-        "type": "spacing",
-        "description": "Use for applying consistent spacing on margin, padding and gaps"
-      },
-      "XL": {
-        "value": 8,
-        "type": "spacing",
-        "description": "Use for applying consistent spacing on margin, padding and gaps"
-      },
-      "XXL": {
-        "value": 8,
-        "type": "spacing",
-        "description": "Use for applying consistent spacing on margin, padding and gaps"
-      }
-    },
-    "3": {
-      "SM": {
-        "value": 12,
-        "type": "spacing",
-        "description": "Use for applying consistent spacing on margin, padding and gaps"
-      },
-      "MD": {
-        "value": 12,
-        "type": "spacing",
-        "description": "Use for applying consistent spacing on margin, padding and gaps"
-      },
-      "LG": {
-        "value": 12,
-        "type": "spacing",
-        "description": "Use for applying consistent spacing on margin, padding and gaps"
-      },
-      "XL": {
-        "value": 12,
-        "type": "spacing",
-        "description": "Use for applying consistent spacing on margin, padding and gaps"
-      },
-      "XXL": {
-        "value": 12,
-        "type": "spacing",
-        "description": "Use for applying consistent spacing on margin, padding and gaps"
-      }
-    },
-    "4": {
-      "SM": {
-        "value": 16,
-        "type": "spacing",
-        "description": "Use for applying consistent spacing on margin, padding and gaps"
-      },
-      "MD": {
-        "value": 16,
-        "type": "spacing",
-        "description": "Use for applying consistent spacing on margin, padding and gaps"
-      },
-      "LG": {
-        "value": 16,
-        "type": "spacing",
-        "description": "Use for applying consistent spacing on margin, padding and gaps"
-      },
-      "XL": {
-        "value": 16,
-        "type": "spacing",
-        "description": "Use for applying consistent spacing on margin, padding and gaps"
-      },
-      "XXL": {
-        "value": 16,
-        "type": "spacing",
-        "description": "Use for applying consistent spacing on margin, padding and gaps"
-      }
-    },
-    "5": {
-      "SM": {
-        "value": 20,
-        "type": "spacing",
-        "description": "Use for applying consistent spacing on margin, padding and gaps"
-      },
-      "MD": {
-        "value": 20,
-        "type": "spacing",
-        "description": "Use for applying consistent spacing on margin, padding and gaps"
-      },
-      "LG": {
-        "value": 24,
-        "type": "spacing",
-        "description": "Use for applying consistent spacing on margin, padding and gaps"
-      },
-      "XL": {
-        "value": 24,
-        "type": "spacing",
-        "description": "Use for applying consistent spacing on margin, padding and gaps"
-      },
-      "XXL": {
-        "value": 24,
-        "type": "spacing",
-        "description": "Use for applying consistent spacing on margin, padding and gaps"
-      }
-    },
-    "6": {
-      "SM": {
-        "value": 28,
-        "type": "spacing",
-        "description": "Use for applying consistent spacing on margin, padding and gaps"
-      },
-      "MD": {
-        "value": 28,
-        "type": "spacing",
-        "description": "Use for applying consistent spacing on margin, padding and gaps"
-      },
-      "LG": {
-        "value": 32,
-        "type": "spacing",
-        "description": "Use for applying consistent spacing on margin, padding and gaps"
-      },
-      "XL": {
-        "value": 32,
-        "type": "spacing",
-        "description": "Use for applying consistent spacing on margin, padding and gaps"
-      },
-      "XXL": {
-        "value": 32,
-        "type": "spacing",
-        "description": "Use for applying consistent spacing on margin, padding and gaps"
-      }
-    },
-    "7": {
-      "SM": {
-        "value": 36,
-        "type": "spacing",
-        "description": "Use for applying consistent spacing on margin, padding and gaps"
-      },
-      "MD": {
-        "value": 36,
-        "type": "spacing",
-        "description": "Use for applying consistent spacing on margin, padding and gaps"
-      },
-      "LG": {
-        "value": 48,
-        "type": "spacing",
-        "description": "Use for applying consistent spacing on margin, padding and gaps"
-      },
-      "XL": {
-        "value": 48,
-        "type": "spacing",
-        "description": "Use for applying consistent spacing on margin, padding and gaps"
-      },
-      "XXL": {
-        "value": 48,
-        "type": "spacing",
-        "description": "Use for applying consistent spacing on margin, padding and gaps"
-      }
-    },
-    "8": {
-      "SM": {
-        "value": 48,
-        "type": "spacing",
-        "description": "Use for applying consistent spacing on margin, padding and gaps"
-      },
-      "MD": {
-        "value": 48,
-        "type": "spacing",
-        "description": "Use for applying consistent spacing on margin, padding and gaps"
-      },
-      "LG": {
-        "value": 72,
-        "type": "spacing",
-        "description": "Use for applying consistent spacing on margin, padding and gaps"
-      },
-      "XL": {
-        "value": 72,
-        "type": "spacing",
-        "description": "Use for applying consistent spacing on margin, padding and gaps"
-      },
-      "XXL": {
-        "value": 72,
-        "type": "spacing",
-        "description": "Use for applying consistent spacing on margin, padding and gaps"
-      }
-    },
-    "9": {
-      "SM": {
-        "value": 60,
-        "type": "spacing",
-        "description": "Use for applying consistent spacing on margin, padding and gaps"
-      },
-      "MD": {
-        "value": 60,
-        "type": "spacing",
-        "description": "Use for applying consistent spacing on margin, padding and gaps"
-      },
-      "LG": {
-        "value": 104,
-        "type": "spacing",
-        "description": "Use for applying consistent spacing on margin, padding and gaps"
-      },
-      "XL": {
-        "value": 104,
-        "type": "spacing",
-        "description": "Use for applying consistent spacing on margin, padding and gaps"
-      },
-      "XXL": {
-        "value": 104,
-        "type": "spacing",
-        "description": "Use for applying consistent spacing on margin, padding and gaps"
-      }
-    },
-    "10": {
-      "SM": {
-        "value": 84,
-        "type": "spacing",
-        "description": "Use for applying consistent spacing on margin, padding and gaps"
-      },
-      "MD": {
-        "value": 84,
-        "type": "spacing",
-        "description": "Use for applying consistent spacing on margin, padding and gaps"
-      },
-      "LG": {
-        "value": 156,
-        "type": "spacing",
-        "description": "Use for applying consistent spacing on margin, padding and gaps"
-      },
-      "XL": {
-        "value": 156,
-        "type": "spacing",
-        "description": "Use for applying consistent spacing on margin, padding and gaps"
-      },
-      "XXL": {
-        "value": 156,
-        "type": "spacing",
-        "description": "Use for applying consistent spacing on margin, padding and gaps"
       }
     }
   },

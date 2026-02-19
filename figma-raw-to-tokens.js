@@ -401,6 +401,7 @@ function processVariablesByCollection(variables, collections) {
         variable,
         collection,
         variables,
+        collections,
         tokensByCollection[collectionName],
         colorModes,
         statusModes,
@@ -481,6 +482,7 @@ function processComponentThemeVariable(
   variable,
   collection,
   allVariables,
+  allCollections,
   output,
   colorModes,
   statusModes,
@@ -500,13 +502,30 @@ function processComponentThemeVariable(
 
     // For each mode (color or status), resolve the value in that mode's context
     modesToExpand.forEach((modeToExpand) => {
-      // Resolve the value using the specific mode ID
-      const convertedValue = convertVariableValue(
-        variable,
-        value,
-        allVariables,
-        modeToExpand.modeId,
-      );
+      let convertedValue = null;
+
+      // If this is an alias, resolve it with both theme and color/status mode context
+      if (typeof value === 'object' && value.type === 'VARIABLE_ALIAS') {
+        const modeContext = isStatus
+          ? { themeModeId: modeId, statusModeId: modeToExpand.modeId }
+          : { themeModeId: modeId, colorModeId: modeToExpand.modeId };
+
+        convertedValue = resolveAliasWithModeContext(
+          value.id,
+          allVariables,
+          allCollections,
+          modeContext,
+        );
+      } else {
+        // Direct value (not an alias)
+        convertedValue = convertVariableValue(
+          variable,
+          value,
+          allVariables,
+          modeToExpand.modeId,
+        );
+      }
+
       if (convertedValue === null) return;
 
       const token = {

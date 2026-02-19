@@ -1,6 +1,6 @@
 {
   "$description": "Design tokens from Colour collection",
-  "$timestamp": "2026-02-11T11:45:25.269Z",
+  "$timestamp": "2026-02-19T10:59:06.438Z",
   "brand": {
     "tint": {
       "1": {
@@ -250,6 +250,28 @@
         }
       },
       "5": {
+        "Blue": {
+          "value": "#7a7b7b",
+          "type": "color",
+          "description": "Use for borders / outlines"
+        },
+        "Green": {
+          "value": "#7a7b7b",
+          "type": "color",
+          "description": "Use for borders / outlines"
+        },
+        "Red": {
+          "value": "#7a7b7b",
+          "type": "color",
+          "description": "Use for borders / outlines"
+        },
+        "Yellow": {
+          "value": "#7a7b7b",
+          "type": "color",
+          "description": "Use for borders / outlines"
+        }
+      },
+      "6": {
         "Blue": {
           "value": "#1d1d1b",
           "type": "color",
@@ -776,6 +798,78 @@
         },
         "Yellow": {
           "value": "#7a7b7b",
+          "type": "color"
+        }
+      },
+      "3": {
+        "Blue": {
+          "value": "#76c8f1",
+          "type": "color"
+        },
+        "Green": {
+          "value": "#7fce9f",
+          "type": "color"
+        },
+        "Red": {
+          "value": "#ff7e7e",
+          "type": "color"
+        },
+        "Yellow": {
+          "value": "#ffe969",
+          "type": "color"
+        }
+      },
+      "4": {
+        "Blue": {
+          "value": "#1e84d2",
+          "type": "color"
+        },
+        "Green": {
+          "value": "#1a8952",
+          "type": "color"
+        },
+        "Red": {
+          "value": "#e2223e",
+          "type": "color"
+        },
+        "Yellow": {
+          "value": "#ffb600",
+          "type": "color"
+        }
+      },
+      "5": {
+        "Blue": {
+          "value": "#1e84d2",
+          "type": "color"
+        },
+        "Green": {
+          "value": "#1a8952",
+          "type": "color"
+        },
+        "Red": {
+          "value": "#ff3e51",
+          "type": "color"
+        },
+        "Yellow": {
+          "value": "#e48616",
+          "type": "color"
+        }
+      },
+      "6": {
+        "Blue": {
+          "value": "#001d6e",
+          "type": "color"
+        },
+        "Green": {
+          "value": "#014a39",
+          "type": "color"
+        },
+        "Red": {
+          "value": "#940824",
+          "type": "color"
+        },
+        "Yellow": {
+          "value": "#c86426",
           "type": "color"
         }
       }

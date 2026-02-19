@@ -1,61 +1,93 @@
 {
   "$description": "Design tokens from Foundations collection",
-  "$timestamp": "2026-02-11T11:45:25.279Z",
-  "colour": {
-    "greyscale": {
-      "0": {
-        "value": "#ffffff",
-        "type": "color",
-        "description": "White"
+  "$timestamp": "2026-02-19T10:59:06.432Z",
+  "dimensions": {
+    "small": {
+      "1": {
+        "value": 4,
+        "type": "sizing"
       },
-      "100": {
-        "value": "#f4f4f4",
-        "type": "color",
-        "description": "Off White"
+      "2": {
+        "value": 8,
+        "type": "sizing"
       },
-      "200": {
-        "value": "#d3d3d3",
-        "type": "color",
-        "description": "Light Grey"
+      "3": {
+        "value": 12,
+        "type": "sizing"
       },
-      "300": {
-        "value": "#bcbdbd",
-        "type": "color"
+      "4": {
+        "value": 16,
+        "type": "sizing"
       },
-      "400": {
-        "value": "#a6a7a7",
-        "type": "color",
-        "description": "Warm Grey"
+      "5": {
+        "value": 20,
+        "type": "sizing"
       },
-      "500": {
-        "value": "#858686",
-        "type": "color"
+      "6": {
+        "value": 28,
+        "type": "sizing"
       },
-      "600": {
-        "value": "#7a7b7b",
-        "type": "color",
-        "description": "Taupe Grey"
+      "7": {
+        "value": 36,
+        "type": "sizing"
       },
-      "700": {
-        "value": "#4d4f4f",
-        "type": "color",
-        "description": "Dark Grey"
+      "8": {
+        "value": 48,
+        "type": "sizing"
       },
-      "800": {
-        "value": "#343634",
-        "type": "color"
+      "9": {
+        "value": 60,
+        "type": "sizing"
       },
-      "900": {
-        "value": "#1d1d1b",
-        "type": "color",
-        "description": "Off Black"
-      },
-      "1000": {
-        "value": "#000000",
-        "type": "color",
-        "description": "Black"
+      "10": {
+        "value": 84,
+        "type": "sizing"
       }
     },
+    "large": {
+      "1": {
+        "value": 4,
+        "type": "sizing"
+      },
+      "2": {
+        "value": 8,
+        "type": "sizing"
+      },
+      "3": {
+        "value": 12,
+        "type": "sizing"
+      },
+      "4": {
+        "value": 16,
+        "type": "sizing"
+      },
+      "5": {
+        "value": 24,
+        "type": "sizing"
+      },
+      "6": {
+        "value": 32,
+        "type": "sizing"
+      },
+      "7": {
+        "value": 48,
+        "type": "sizing"
+      },
+      "8": {
+        "value": 72,
+        "type": "sizing"
+      },
+      "9": {
+        "value": 104,
+        "type": "sizing"
+      },
+      "10": {
+        "value": 156,
+        "type": "sizing"
+      }
+    }
+  },
+  "colour": {
     "blue": {
       "0": {
         "value": "#ffffff",
@@ -255,91 +287,59 @@
         "value": "#572722",
         "type": "color"
       }
-    }
-  },
-  "dimensions": {
-    "small": {
-      "1": {
-        "value": 4,
-        "type": "sizing"
-      },
-      "2": {
-        "value": 8,
-        "type": "sizing"
-      },
-      "3": {
-        "value": 12,
-        "type": "sizing"
-      },
-      "4": {
-        "value": 16,
-        "type": "sizing"
-      },
-      "5": {
-        "value": 20,
-        "type": "sizing"
-      },
-      "6": {
-        "value": 28,
-        "type": "sizing"
-      },
-      "7": {
-        "value": 36,
-        "type": "sizing"
-      },
-      "8": {
-        "value": 48,
-        "type": "sizing"
-      },
-      "9": {
-        "value": 60,
-        "type": "sizing"
-      },
-      "10": {
-        "value": 84,
-        "type": "sizing"
-      }
     },
-    "large": {
-      "1": {
-        "value": 4,
-        "type": "sizing"
+    "greyscale": {
+      "0": {
+        "value": "#ffffff",
+        "type": "color",
+        "description": "White"
       },
-      "2": {
-        "value": 8,
-        "type": "sizing"
+      "100": {
+        "value": "#f4f4f4",
+        "type": "color",
+        "description": "Off White"
       },
-      "3": {
-        "value": 12,
-        "type": "sizing"
+      "200": {
+        "value": "#d3d3d3",
+        "type": "color",
+        "description": "Light Grey"
       },
-      "4": {
-        "value": 16,
-        "type": "sizing"
+      "300": {
+        "value": "#bcbdbd",
+        "type": "color"
       },
-      "5": {
-        "value": 24,
-        "type": "sizing"
+      "400": {
+        "value": "#a6a7a7",
+        "type": "color",
+        "description": "Warm Grey"
       },
-      "6": {
-        "value": 32,
-        "type": "sizing"
+      "500": {
+        "value": "#858686",
+        "type": "color"
       },
-      "7": {
-        "value": 48,
-        "type": "sizing"
+      "600": {
+        "value": "#7a7b7b",
+        "type": "color",
+        "description": "Taupe Grey"
       },
-      "8": {
-        "value": 72,
-        "type": "sizing"
+      "700": {
+        "value": "#4d4f4f",
+        "type": "color",
+        "description": "Dark Grey"
       },
-      "9": {
-        "value": 104,
-        "type": "sizing"
+      "800": {
+        "value": "#343634",
+        "type": "color"
       },
-      "10": {
-        "value": 156,
-        "type": "sizing"
+      "900": {
+        "value": "#1d1d1b",
+        "type": "color",
+        "description": "Off Black"
+      },
+      "1000": {
+        "value": "#000000",
+        "type": "color",
+        "description": "Black"
       }
     }
   },
