@@ -1,2016 +1,6 @@
 {
   "$description": "Design tokens from Component themes collection",
-  "$timestamp": "2026-02-23T11:53:59.736Z",
-  "link-menu": {
-    "border-colour": {
-      "Neutral": {
-        "Blue": {
-          "value": "#d3d3d3",
-          "type": "color"
-        },
-        "Green": {
-          "value": "#d3d3d3",
-          "type": "color"
-        },
-        "Red": {
-          "value": "#d3d3d3",
-          "type": "color"
-        },
-        "Yellow": {
-          "value": "#d3d3d3",
-          "type": "color"
-        }
-      },
-      "Neutral inverse": {
-        "Blue": {
-          "value": "#d3d3d3",
-          "type": "color"
-        },
-        "Green": {
-          "value": "#d3d3d3",
-          "type": "color"
-        },
-        "Red": {
-          "value": "#d3d3d3",
-          "type": "color"
-        },
-        "Yellow": {
-          "value": "#d3d3d3",
-          "type": "color"
-        }
-      },
-      "Subtle": {
-        "Blue": {
-          "value": "#001d6e",
-          "type": "color"
-        },
-        "Green": {
-          "value": "#01312e",
-          "type": "color"
-        },
-        "Red": {
-          "value": "#940824",
-          "type": "color"
-        },
-        "Yellow": {
-          "value": "#c86426",
-          "type": "color"
-        }
-      },
-      "Bold": {
-        "Blue": {
-          "value": "#f4f4f4",
-          "type": "color"
-        },
-        "Green": {
-          "value": "#f4f4f4",
-          "type": "color"
-        },
-        "Red": {
-          "value": "#f4f4f4",
-          "type": "color"
-        },
-        "Yellow": {
-          "value": "#1d1d1b",
-          "type": "color"
-        }
-      }
-    },
-    "border-width": {
-      "Neutral": {
-        "Blue": {
-          "value": 1,
-          "type": "borderWidth"
-        },
-        "Green": {
-          "value": 1,
-          "type": "borderWidth"
-        },
-        "Red": {
-          "value": 1,
-          "type": "borderWidth"
-        },
-        "Yellow": {
-          "value": 1,
-          "type": "borderWidth"
-        }
-      },
-      "Neutral inverse": {
-        "Blue": {
-          "value": 1,
-          "type": "borderWidth"
-        },
-        "Green": {
-          "value": 1,
-          "type": "borderWidth"
-        },
-        "Red": {
-          "value": 1,
-          "type": "borderWidth"
-        },
-        "Yellow": {
-          "value": 1,
-          "type": "borderWidth"
-        }
-      },
-      "Subtle": {
-        "Blue": {
-          "value": 1,
-          "type": "borderWidth"
-        },
-        "Green": {
-          "value": 1,
-          "type": "borderWidth"
-        },
-        "Red": {
-          "value": 1,
-          "type": "borderWidth"
-        },
-        "Yellow": {
-          "value": 1,
-          "type": "borderWidth"
-        }
-      },
-      "Bold": {
-        "Blue": {
-          "value": 1,
-          "type": "borderWidth"
-        },
-        "Green": {
-          "value": 1,
-          "type": "borderWidth"
-        },
-        "Red": {
-          "value": 1,
-          "type": "borderWidth"
-        },
-        "Yellow": {
-          "value": 1,
-          "type": "borderWidth"
-        }
-      }
-    },
-    "border-radius": {
-      "Neutral": {
-        "Blue": {
-          "value": 16,
-          "type": "borderRadius"
-        },
-        "Green": {
-          "value": 16,
-          "type": "borderRadius"
-        },
-        "Red": {
-          "value": 16,
-          "type": "borderRadius"
-        },
-        "Yellow": {
-          "value": 16,
-          "type": "borderRadius"
-        }
-      },
-      "Neutral inverse": {
-        "Blue": {
-          "value": 16,
-          "type": "borderRadius"
-        },
-        "Green": {
-          "value": 16,
-          "type": "borderRadius"
-        },
-        "Red": {
-          "value": 16,
-          "type": "borderRadius"
-        },
-        "Yellow": {
-          "value": 16,
-          "type": "borderRadius"
-        }
-      },
-      "Subtle": {
-        "Blue": {
-          "value": 16,
-          "type": "borderRadius"
-        },
-        "Green": {
-          "value": 16,
-          "type": "borderRadius"
-        },
-        "Red": {
-          "value": 16,
-          "type": "borderRadius"
-        },
-        "Yellow": {
-          "value": 16,
-          "type": "borderRadius"
-        }
-      },
-      "Bold": {
-        "Blue": {
-          "value": 16,
-          "type": "borderRadius"
-        },
-        "Green": {
-          "value": 16,
-          "type": "borderRadius"
-        },
-        "Red": {
-          "value": 16,
-          "type": "borderRadius"
-        },
-        "Yellow": {
-          "value": 16,
-          "type": "borderRadius"
-        }
-      }
-    }
-  },
-  "link-menu-item": {
-    "padding-top": {
-      "Neutral": {
-        "Blue": {
-          "value": 16,
-          "type": "spacing"
-        },
-        "Green": {
-          "value": 16,
-          "type": "spacing"
-        },
-        "Red": {
-          "value": 16,
-          "type": "spacing"
-        },
-        "Yellow": {
-          "value": 16,
-          "type": "spacing"
-        }
-      },
-      "Neutral inverse": {
-        "Blue": {
-          "value": 16,
-          "type": "spacing"
-        },
-        "Green": {
-          "value": 16,
-          "type": "spacing"
-        },
-        "Red": {
-          "value": 16,
-          "type": "spacing"
-        },
-        "Yellow": {
-          "value": 16,
-          "type": "spacing"
-        }
-      },
-      "Subtle": {
-        "Blue": {
-          "value": 16,
-          "type": "spacing"
-        },
-        "Green": {
-          "value": 16,
-          "type": "spacing"
-        },
-        "Red": {
-          "value": 16,
-          "type": "spacing"
-        },
-        "Yellow": {
-          "value": 16,
-          "type": "spacing"
-        }
-      },
-      "Bold": {
-        "Blue": {
-          "value": 16,
-          "type": "spacing"
-        },
-        "Green": {
-          "value": 16,
-          "type": "spacing"
-        },
-        "Red": {
-          "value": 16,
-          "type": "spacing"
-        },
-        "Yellow": {
-          "value": 16,
-          "type": "spacing"
-        }
-      }
-    },
-    "padding-bottom": {
-      "Neutral": {
-        "Blue": {
-          "value": 16,
-          "type": "spacing"
-        },
-        "Green": {
-          "value": 16,
-          "type": "spacing"
-        },
-        "Red": {
-          "value": 16,
-          "type": "spacing"
-        },
-        "Yellow": {
-          "value": 16,
-          "type": "spacing"
-        }
-      },
-      "Neutral inverse": {
-        "Blue": {
-          "value": 16,
-          "type": "spacing"
-        },
-        "Green": {
-          "value": 16,
-          "type": "spacing"
-        },
-        "Red": {
-          "value": 16,
-          "type": "spacing"
-        },
-        "Yellow": {
-          "value": 16,
-          "type": "spacing"
-        }
-      },
-      "Subtle": {
-        "Blue": {
-          "value": 16,
-          "type": "spacing"
-        },
-        "Green": {
-          "value": 16,
-          "type": "spacing"
-        },
-        "Red": {
-          "value": 16,
-          "type": "spacing"
-        },
-        "Yellow": {
-          "value": 16,
-          "type": "spacing"
-        }
-      },
-      "Bold": {
-        "Blue": {
-          "value": 16,
-          "type": "spacing"
-        },
-        "Green": {
-          "value": 16,
-          "type": "spacing"
-        },
-        "Red": {
-          "value": 16,
-          "type": "spacing"
-        },
-        "Yellow": {
-          "value": 16,
-          "type": "spacing"
-        }
-      }
-    },
-    "padding-left": {
-      "Neutral": {
-        "Blue": {
-          "value": 16,
-          "type": "spacing"
-        },
-        "Green": {
-          "value": 16,
-          "type": "spacing"
-        },
-        "Red": {
-          "value": 16,
-          "type": "spacing"
-        },
-        "Yellow": {
-          "value": 16,
-          "type": "spacing"
-        }
-      },
-      "Neutral inverse": {
-        "Blue": {
-          "value": 16,
-          "type": "spacing"
-        },
-        "Green": {
-          "value": 16,
-          "type": "spacing"
-        },
-        "Red": {
-          "value": 16,
-          "type": "spacing"
-        },
-        "Yellow": {
-          "value": 16,
-          "type": "spacing"
-        }
-      },
-      "Subtle": {
-        "Blue": {
-          "value": 16,
-          "type": "spacing"
-        },
-        "Green": {
-          "value": 16,
-          "type": "spacing"
-        },
-        "Red": {
-          "value": 16,
-          "type": "spacing"
-        },
-        "Yellow": {
-          "value": 16,
-          "type": "spacing"
-        }
-      },
-      "Bold": {
-        "Blue": {
-          "value": 16,
-          "type": "spacing"
-        },
-        "Green": {
-          "value": 16,
-          "type": "spacing"
-        },
-        "Red": {
-          "value": 16,
-          "type": "spacing"
-        },
-        "Yellow": {
-          "value": 16,
-          "type": "spacing"
-        }
-      }
-    },
-    "padding-right": {
-      "Neutral": {
-        "Blue": {
-          "value": 8,
-          "type": "spacing"
-        },
-        "Green": {
-          "value": 8,
-          "type": "spacing"
-        },
-        "Red": {
-          "value": 8,
-          "type": "spacing"
-        },
-        "Yellow": {
-          "value": 8,
-          "type": "spacing"
-        }
-      },
-      "Neutral inverse": {
-        "Blue": {
-          "value": 8,
-          "type": "spacing"
-        },
-        "Green": {
-          "value": 8,
-          "type": "spacing"
-        },
-        "Red": {
-          "value": 8,
-          "type": "spacing"
-        },
-        "Yellow": {
-          "value": 8,
-          "type": "spacing"
-        }
-      },
-      "Subtle": {
-        "Blue": {
-          "value": 8,
-          "type": "spacing"
-        },
-        "Green": {
-          "value": 8,
-          "type": "spacing"
-        },
-        "Red": {
-          "value": 8,
-          "type": "spacing"
-        },
-        "Yellow": {
-          "value": 8,
-          "type": "spacing"
-        }
-      },
-      "Bold": {
-        "Blue": {
-          "value": 8,
-          "type": "spacing"
-        },
-        "Green": {
-          "value": 8,
-          "type": "spacing"
-        },
-        "Red": {
-          "value": 8,
-          "type": "spacing"
-        },
-        "Yellow": {
-          "value": 8,
-          "type": "spacing"
-        }
-      }
-    },
-    "gap": {
-      "Neutral": {
-        "Blue": {
-          "value": 12,
-          "type": "sizing"
-        },
-        "Green": {
-          "value": 12,
-          "type": "sizing"
-        },
-        "Red": {
-          "value": 12,
-          "type": "sizing"
-        },
-        "Yellow": {
-          "value": 12,
-          "type": "sizing"
-        }
-      },
-      "Neutral inverse": {
-        "Blue": {
-          "value": 12,
-          "type": "sizing"
-        },
-        "Green": {
-          "value": 12,
-          "type": "sizing"
-        },
-        "Red": {
-          "value": 12,
-          "type": "sizing"
-        },
-        "Yellow": {
-          "value": 12,
-          "type": "sizing"
-        }
-      },
-      "Subtle": {
-        "Blue": {
-          "value": 12,
-          "type": "sizing"
-        },
-        "Green": {
-          "value": 12,
-          "type": "sizing"
-        },
-        "Red": {
-          "value": 12,
-          "type": "sizing"
-        },
-        "Yellow": {
-          "value": 12,
-          "type": "sizing"
-        }
-      },
-      "Bold": {
-        "Blue": {
-          "value": 12,
-          "type": "sizing"
-        },
-        "Green": {
-          "value": 12,
-          "type": "sizing"
-        },
-        "Red": {
-          "value": 12,
-          "type": "sizing"
-        },
-        "Yellow": {
-          "value": 12,
-          "type": "sizing"
-        }
-      }
-    },
-    "rest": {
-      "border-colour": {
-        "Neutral": {
-          "Blue": {
-            "value": "#d3d3d3",
-            "type": "color"
-          },
-          "Green": {
-            "value": "#d3d3d3",
-            "type": "color"
-          },
-          "Red": {
-            "value": "#d3d3d3",
-            "type": "color"
-          },
-          "Yellow": {
-            "value": "#d3d3d3",
-            "type": "color"
-          }
-        },
-        "Neutral inverse": {
-          "Blue": {
-            "value": "#d3d3d3",
-            "type": "color"
-          },
-          "Green": {
-            "value": "#d3d3d3",
-            "type": "color"
-          },
-          "Red": {
-            "value": "#d3d3d3",
-            "type": "color"
-          },
-          "Yellow": {
-            "value": "#d3d3d3",
-            "type": "color"
-          }
-        },
-        "Subtle": {
-          "Blue": {
-            "value": "#001d6e",
-            "type": "color"
-          },
-          "Green": {
-            "value": "#01312e",
-            "type": "color"
-          },
-          "Red": {
-            "value": "#940824",
-            "type": "color"
-          },
-          "Yellow": {
-            "value": "#c86426",
-            "type": "color"
-          }
-        },
-        "Bold": {
-          "Blue": {
-            "value": "#f4f4f4",
-            "type": "color"
-          },
-          "Green": {
-            "value": "#f4f4f4",
-            "type": "color"
-          },
-          "Red": {
-            "value": "#f4f4f4",
-            "type": "color"
-          },
-          "Yellow": {
-            "value": "#1d1d1b",
-            "type": "color"
-          }
-        }
-      },
-      "border-width-bottom": {
-        "Neutral": {
-          "Blue": {
-            "value": 1,
-            "type": "borderWidth"
-          },
-          "Green": {
-            "value": 1,
-            "type": "borderWidth"
-          },
-          "Red": {
-            "value": 1,
-            "type": "borderWidth"
-          },
-          "Yellow": {
-            "value": 1,
-            "type": "borderWidth"
-          }
-        },
-        "Neutral inverse": {
-          "Blue": {
-            "value": 1,
-            "type": "borderWidth"
-          },
-          "Green": {
-            "value": 1,
-            "type": "borderWidth"
-          },
-          "Red": {
-            "value": 1,
-            "type": "borderWidth"
-          },
-          "Yellow": {
-            "value": 1,
-            "type": "borderWidth"
-          }
-        },
-        "Subtle": {
-          "Blue": {
-            "value": 1,
-            "type": "borderWidth"
-          },
-          "Green": {
-            "value": 1,
-            "type": "borderWidth"
-          },
-          "Red": {
-            "value": 1,
-            "type": "borderWidth"
-          },
-          "Yellow": {
-            "value": 1,
-            "type": "borderWidth"
-          }
-        },
-        "Bold": {
-          "Blue": {
-            "value": 1,
-            "type": "borderWidth"
-          },
-          "Green": {
-            "value": 1,
-            "type": "borderWidth"
-          },
-          "Red": {
-            "value": 1,
-            "type": "borderWidth"
-          },
-          "Yellow": {
-            "value": 1,
-            "type": "borderWidth"
-          }
-        }
-      },
-      "colour": {
-        "Neutral": {
-          "Blue": {
-            "value": "#1d1d1b",
-            "type": "color"
-          },
-          "Green": {
-            "value": "#1d1d1b",
-            "type": "color"
-          },
-          "Red": {
-            "value": "#1d1d1b",
-            "type": "color"
-          },
-          "Yellow": {
-            "value": "#000000",
-            "type": "color"
-          }
-        },
-        "Neutral inverse": {
-          "Blue": {
-            "value": "#1d1d1b",
-            "type": "color"
-          },
-          "Green": {
-            "value": "#1d1d1b",
-            "type": "color"
-          },
-          "Red": {
-            "value": "#1d1d1b",
-            "type": "color"
-          },
-          "Yellow": {
-            "value": "#000000",
-            "type": "color"
-          }
-        },
-        "Subtle": {
-          "Blue": {
-            "value": "#1d1d1b",
-            "type": "color"
-          },
-          "Green": {
-            "value": "#1d1d1b",
-            "type": "color"
-          },
-          "Red": {
-            "value": "#1d1d1b",
-            "type": "color"
-          },
-          "Yellow": {
-            "value": "#000000",
-            "type": "color"
-          }
-        },
-        "Bold": {
-          "Blue": {
-            "value": "#ffffff",
-            "type": "color"
-          },
-          "Green": {
-            "value": "#ffffff",
-            "type": "color"
-          },
-          "Red": {
-            "value": "#ffffff",
-            "type": "color"
-          },
-          "Yellow": {
-            "value": "#1d1d1b",
-            "type": "color"
-          }
-        }
-      },
-      "colour-muted": {
-        "Neutral": {
-          "Blue": {
-            "value": "#4d4f4f",
-            "type": "color"
-          },
-          "Green": {
-            "value": "#4d4f4f",
-            "type": "color"
-          },
-          "Red": {
-            "value": "#4d4f4f",
-            "type": "color"
-          },
-          "Yellow": {
-            "value": "#4d4f4f",
-            "type": "color"
-          }
-        },
-        "Neutral inverse": {
-          "Blue": {
-            "value": "#4d4f4f",
-            "type": "color"
-          },
-          "Green": {
-            "value": "#4d4f4f",
-            "type": "color"
-          },
-          "Red": {
-            "value": "#4d4f4f",
-            "type": "color"
-          },
-          "Yellow": {
-            "value": "#4d4f4f",
-            "type": "color"
-          }
-        },
-        "Subtle": {
-          "Blue": {
-            "value": "#1d1d1b",
-            "type": "color"
-          },
-          "Green": {
-            "value": "#1d1d1b",
-            "type": "color"
-          },
-          "Red": {
-            "value": "#1d1d1b",
-            "type": "color"
-          },
-          "Yellow": {
-            "value": "#000000",
-            "type": "color"
-          }
-        },
-        "Bold": {
-          "Blue": {
-            "value": "#ffffff",
-            "type": "color"
-          },
-          "Green": {
-            "value": "#ffffff",
-            "type": "color"
-          },
-          "Red": {
-            "value": "#ffffff",
-            "type": "color"
-          },
-          "Yellow": {
-            "value": "#1d1d1b",
-            "type": "color"
-          }
-        }
-      }
-    },
-    "hover": {
-      "background-colour": {
-        "Neutral": {
-          "Blue": {
-            "value": "#aee1f7",
-            "type": "color"
-          },
-          "Green": {
-            "value": "#caeedd",
-            "type": "color"
-          },
-          "Red": {
-            "value": "#ffd5d2",
-            "type": "color"
-          },
-          "Yellow": {
-            "value": "#fff9c7",
-            "type": "color"
-          }
-        },
-        "Neutral inverse": {
-          "Blue": {
-            "value": "#aee1f7",
-            "type": "color"
-          },
-          "Green": {
-            "value": "#caeedd",
-            "type": "color"
-          },
-          "Red": {
-            "value": "#ffd5d2",
-            "type": "color"
-          },
-          "Yellow": {
-            "value": "#fff9c7",
-            "type": "color"
-          }
-        },
-        "Subtle": {
-          "Blue": {
-            "value": "#42aeea",
-            "type": "color"
-          },
-          "Green": {
-            "value": "#43af6e",
-            "type": "color"
-          },
-          "Red": {
-            "value": "#ff3e51",
-            "type": "color"
-          },
-          "Yellow": {
-            "value": "#ffe969",
-            "type": "color"
-          }
-        },
-        "Bold": {
-          "Blue": {
-            "value": "#aee1f7",
-            "type": "color"
-          },
-          "Green": {
-            "value": "#caeedd",
-            "type": "color"
-          },
-          "Red": {
-            "value": "#ffd5d2",
-            "type": "color"
-          },
-          "Yellow": {
-            "value": "#fff9c7",
-            "type": "color"
-          }
-        }
-      },
-      "border-colour": {
-        "Neutral": {
-          "Blue": {
-            "value": "#001d6e",
-            "type": "color"
-          },
-          "Green": {
-            "value": "#01312e",
-            "type": "color"
-          },
-          "Red": {
-            "value": "#480411",
-            "type": "color"
-          },
-          "Yellow": {
-            "value": "#572722",
-            "type": "color"
-          }
-        },
-        "Neutral inverse": {
-          "Blue": {
-            "value": "#001d6e",
-            "type": "color"
-          },
-          "Green": {
-            "value": "#01312e",
-            "type": "color"
-          },
-          "Red": {
-            "value": "#480411",
-            "type": "color"
-          },
-          "Yellow": {
-            "value": "#572722",
-            "type": "color"
-          }
-        },
-        "Subtle": {
-          "Blue": {
-            "value": "#001d6e",
-            "type": "color"
-          },
-          "Green": {
-            "value": "#01312e",
-            "type": "color"
-          },
-          "Red": {
-            "value": "#480411",
-            "type": "color"
-          },
-          "Yellow": {
-            "value": "#572722",
-            "type": "color"
-          }
-        },
-        "Bold": {
-          "Blue": {
-            "value": "#001d6e",
-            "type": "color"
-          },
-          "Green": {
-            "value": "#01312e",
-            "type": "color"
-          },
-          "Red": {
-            "value": "#480411",
-            "type": "color"
-          },
-          "Yellow": {
-            "value": "#572722",
-            "type": "color"
-          }
-        }
-      },
-      "border-width-bottom": {
-        "Neutral": {
-          "Blue": {
-            "value": 4,
-            "type": "borderWidth"
-          },
-          "Green": {
-            "value": 4,
-            "type": "borderWidth"
-          },
-          "Red": {
-            "value": 4,
-            "type": "borderWidth"
-          },
-          "Yellow": {
-            "value": 4,
-            "type": "borderWidth"
-          }
-        },
-        "Neutral inverse": {
-          "Blue": {
-            "value": 4,
-            "type": "borderWidth"
-          },
-          "Green": {
-            "value": 4,
-            "type": "borderWidth"
-          },
-          "Red": {
-            "value": 4,
-            "type": "borderWidth"
-          },
-          "Yellow": {
-            "value": 4,
-            "type": "borderWidth"
-          }
-        },
-        "Subtle": {
-          "Blue": {
-            "value": 4,
-            "type": "borderWidth"
-          },
-          "Green": {
-            "value": 4,
-            "type": "borderWidth"
-          },
-          "Red": {
-            "value": 4,
-            "type": "borderWidth"
-          },
-          "Yellow": {
-            "value": 4,
-            "type": "borderWidth"
-          }
-        },
-        "Bold": {
-          "Blue": {
-            "value": 4,
-            "type": "borderWidth"
-          },
-          "Green": {
-            "value": 4,
-            "type": "borderWidth"
-          },
-          "Red": {
-            "value": 4,
-            "type": "borderWidth"
-          },
-          "Yellow": {
-            "value": 4,
-            "type": "borderWidth"
-          }
-        }
-      },
-      "colour": {
-        "Neutral": {
-          "Blue": {
-            "value": "#1d1d1b",
-            "type": "color"
-          },
-          "Green": {
-            "value": "#1d1d1b",
-            "type": "color"
-          },
-          "Red": {
-            "value": "#1d1d1b",
-            "type": "color"
-          },
-          "Yellow": {
-            "value": "#000000",
-            "type": "color"
-          }
-        },
-        "Neutral inverse": {
-          "Blue": {
-            "value": "#1d1d1b",
-            "type": "color"
-          },
-          "Green": {
-            "value": "#1d1d1b",
-            "type": "color"
-          },
-          "Red": {
-            "value": "#1d1d1b",
-            "type": "color"
-          },
-          "Yellow": {
-            "value": "#000000",
-            "type": "color"
-          }
-        },
-        "Subtle": {
-          "Blue": {
-            "value": "#1d1d1b",
-            "type": "color"
-          },
-          "Green": {
-            "value": "#1d1d1b",
-            "type": "color"
-          },
-          "Red": {
-            "value": "#1d1d1b",
-            "type": "color"
-          },
-          "Yellow": {
-            "value": "#000000",
-            "type": "color"
-          }
-        },
-        "Bold": {
-          "Blue": {
-            "value": "#1d1d1b",
-            "type": "color"
-          },
-          "Green": {
-            "value": "#1d1d1b",
-            "type": "color"
-          },
-          "Red": {
-            "value": "#1d1d1b",
-            "type": "color"
-          },
-          "Yellow": {
-            "value": "#000000",
-            "type": "color"
-          }
-        }
-      },
-      "colour-muted": {
-        "Neutral": {
-          "Blue": {
-            "value": "#1d1d1b",
-            "type": "color"
-          },
-          "Green": {
-            "value": "#1d1d1b",
-            "type": "color"
-          },
-          "Red": {
-            "value": "#1d1d1b",
-            "type": "color"
-          },
-          "Yellow": {
-            "value": "#000000",
-            "type": "color"
-          }
-        },
-        "Neutral inverse": {
-          "Blue": {
-            "value": "#1d1d1b",
-            "type": "color"
-          },
-          "Green": {
-            "value": "#1d1d1b",
-            "type": "color"
-          },
-          "Red": {
-            "value": "#1d1d1b",
-            "type": "color"
-          },
-          "Yellow": {
-            "value": "#000000",
-            "type": "color"
-          }
-        },
-        "Subtle": {
-          "Blue": {
-            "value": "#1d1d1b",
-            "type": "color"
-          },
-          "Green": {
-            "value": "#1d1d1b",
-            "type": "color"
-          },
-          "Red": {
-            "value": "#1d1d1b",
-            "type": "color"
-          },
-          "Yellow": {
-            "value": "#000000",
-            "type": "color"
-          }
-        },
-        "Bold": {
-          "Blue": {
-            "value": "#1d1d1b",
-            "type": "color"
-          },
-          "Green": {
-            "value": "#1d1d1b",
-            "type": "color"
-          },
-          "Red": {
-            "value": "#1d1d1b",
-            "type": "color"
-          },
-          "Yellow": {
-            "value": "#000000",
-            "type": "color"
-          }
-        }
-      },
-      "padding-right": {
-        "Neutral": {
-          "Blue": {
-            "value": 8,
-            "type": "spacing"
-          },
-          "Green": {
-            "value": 8,
-            "type": "spacing"
-          },
-          "Red": {
-            "value": 8,
-            "type": "spacing"
-          },
-          "Yellow": {
-            "value": 8,
-            "type": "spacing"
-          }
-        },
-        "Neutral inverse": {
-          "Blue": {
-            "value": 8,
-            "type": "spacing"
-          },
-          "Green": {
-            "value": 8,
-            "type": "spacing"
-          },
-          "Red": {
-            "value": 8,
-            "type": "spacing"
-          },
-          "Yellow": {
-            "value": 8,
-            "type": "spacing"
-          }
-        },
-        "Subtle": {
-          "Blue": {
-            "value": 8,
-            "type": "spacing"
-          },
-          "Green": {
-            "value": 8,
-            "type": "spacing"
-          },
-          "Red": {
-            "value": 8,
-            "type": "spacing"
-          },
-          "Yellow": {
-            "value": 8,
-            "type": "spacing"
-          }
-        },
-        "Bold": {
-          "Blue": {
-            "value": 8,
-            "type": "spacing"
-          },
-          "Green": {
-            "value": 8,
-            "type": "spacing"
-          },
-          "Red": {
-            "value": 8,
-            "type": "spacing"
-          },
-          "Yellow": {
-            "value": 8,
-            "type": "spacing"
-          }
-        }
-      }
-    },
-    "active": {
-      "background-colour": {
-        "Neutral": {
-          "Blue": {
-            "value": "#005dba",
-            "type": "color"
-          },
-          "Green": {
-            "value": "#00633d",
-            "type": "color"
-          },
-          "Red": {
-            "value": "#c50b30",
-            "type": "color"
-          },
-          "Yellow": {
-            "value": "#ffb600",
-            "type": "color"
-          }
-        },
-        "Neutral inverse": {
-          "Blue": {
-            "value": "#005dba",
-            "type": "color"
-          },
-          "Green": {
-            "value": "#00633d",
-            "type": "color"
-          },
-          "Red": {
-            "value": "#c50b30",
-            "type": "color"
-          },
-          "Yellow": {
-            "value": "#ffb600",
-            "type": "color"
-          }
-        },
-        "Subtle": {
-          "Blue": {
-            "value": "#005dba",
-            "type": "color"
-          },
-          "Green": {
-            "value": "#00633d",
-            "type": "color"
-          },
-          "Red": {
-            "value": "#c50b30",
-            "type": "color"
-          },
-          "Yellow": {
-            "value": "#ffb600",
-            "type": "color"
-          }
-        },
-        "Bold": {
-          "Blue": {
-            "value": "#ffffff",
-            "type": "color"
-          },
-          "Green": {
-            "value": "#ffffff",
-            "type": "color"
-          },
-          "Red": {
-            "value": "#ffffff",
-            "type": "color"
-          },
-          "Yellow": {
-            "value": "#ffffff",
-            "type": "color"
-          }
-        }
-      },
-      "border-width-bottom": {
-        "Neutral": {
-          "Blue": {
-            "value": 1,
-            "type": "borderWidth"
-          },
-          "Green": {
-            "value": 1,
-            "type": "borderWidth"
-          },
-          "Red": {
-            "value": 1,
-            "type": "borderWidth"
-          },
-          "Yellow": {
-            "value": 1,
-            "type": "borderWidth"
-          }
-        },
-        "Neutral inverse": {
-          "Blue": {
-            "value": 1,
-            "type": "borderWidth"
-          },
-          "Green": {
-            "value": 1,
-            "type": "borderWidth"
-          },
-          "Red": {
-            "value": 1,
-            "type": "borderWidth"
-          },
-          "Yellow": {
-            "value": 1,
-            "type": "borderWidth"
-          }
-        },
-        "Subtle": {
-          "Blue": {
-            "value": 1,
-            "type": "borderWidth"
-          },
-          "Green": {
-            "value": 1,
-            "type": "borderWidth"
-          },
-          "Red": {
-            "value": 1,
-            "type": "borderWidth"
-          },
-          "Yellow": {
-            "value": 1,
-            "type": "borderWidth"
-          }
-        },
-        "Bold": {
-          "Blue": {
-            "value": 1,
-            "type": "borderWidth"
-          },
-          "Green": {
-            "value": 1,
-            "type": "borderWidth"
-          },
-          "Red": {
-            "value": 1,
-            "type": "borderWidth"
-          },
-          "Yellow": {
-            "value": 1,
-            "type": "borderWidth"
-          }
-        }
-      },
-      "border-colour": {
-        "Neutral": {
-          "Blue": {
-            "value": "#ffffff",
-            "type": "color"
-          },
-          "Green": {
-            "value": "#ffffff",
-            "type": "color"
-          },
-          "Red": {
-            "value": "#ffffff",
-            "type": "color"
-          },
-          "Yellow": {
-            "value": "#1d1d1b",
-            "type": "color"
-          }
-        },
-        "Neutral inverse": {
-          "Blue": {
-            "value": "#ffffff",
-            "type": "color"
-          },
-          "Green": {
-            "value": "#ffffff",
-            "type": "color"
-          },
-          "Red": {
-            "value": "#ffffff",
-            "type": "color"
-          },
-          "Yellow": {
-            "value": "#1d1d1b",
-            "type": "color"
-          }
-        },
-        "Subtle": {
-          "Blue": {
-            "value": "#ffffff",
-            "type": "color"
-          },
-          "Green": {
-            "value": "#ffffff",
-            "type": "color"
-          },
-          "Red": {
-            "value": "#ffffff",
-            "type": "color"
-          },
-          "Yellow": {
-            "value": "#1d1d1b",
-            "type": "color"
-          }
-        },
-        "Bold": {
-          "Blue": {
-            "value": "#1d1d1b",
-            "type": "color"
-          },
-          "Green": {
-            "value": "#1d1d1b",
-            "type": "color"
-          },
-          "Red": {
-            "value": "#1d1d1b",
-            "type": "color"
-          },
-          "Yellow": {
-            "value": "#000000",
-            "type": "color"
-          }
-        }
-      },
-      "colour": {
-        "Neutral": {
-          "Blue": {
-            "value": "#ffffff",
-            "type": "color"
-          },
-          "Green": {
-            "value": "#ffffff",
-            "type": "color"
-          },
-          "Red": {
-            "value": "#ffffff",
-            "type": "color"
-          },
-          "Yellow": {
-            "value": "#1d1d1b",
-            "type": "color"
-          }
-        },
-        "Neutral inverse": {
-          "Blue": {
-            "value": "#ffffff",
-            "type": "color"
-          },
-          "Green": {
-            "value": "#ffffff",
-            "type": "color"
-          },
-          "Red": {
-            "value": "#ffffff",
-            "type": "color"
-          },
-          "Yellow": {
-            "value": "#1d1d1b",
-            "type": "color"
-          }
-        },
-        "Subtle": {
-          "Blue": {
-            "value": "#ffffff",
-            "type": "color"
-          },
-          "Green": {
-            "value": "#ffffff",
-            "type": "color"
-          },
-          "Red": {
-            "value": "#ffffff",
-            "type": "color"
-          },
-          "Yellow": {
-            "value": "#1d1d1b",
-            "type": "color"
-          }
-        },
-        "Bold": {
-          "Blue": {
-            "value": "#1d1d1b",
-            "type": "color"
-          },
-          "Green": {
-            "value": "#1d1d1b",
-            "type": "color"
-          },
-          "Red": {
-            "value": "#1d1d1b",
-            "type": "color"
-          },
-          "Yellow": {
-            "value": "#000000",
-            "type": "color"
-          }
-        }
-      },
-      "colour-muted": {
-        "Neutral": {
-          "Blue": {
-            "value": "#ffffff",
-            "type": "color"
-          },
-          "Green": {
-            "value": "#ffffff",
-            "type": "color"
-          },
-          "Red": {
-            "value": "#ffffff",
-            "type": "color"
-          },
-          "Yellow": {
-            "value": "#1d1d1b",
-            "type": "color"
-          }
-        },
-        "Neutral inverse": {
-          "Blue": {
-            "value": "#ffffff",
-            "type": "color"
-          },
-          "Green": {
-            "value": "#ffffff",
-            "type": "color"
-          },
-          "Red": {
-            "value": "#ffffff",
-            "type": "color"
-          },
-          "Yellow": {
-            "value": "#1d1d1b",
-            "type": "color"
-          }
-        },
-        "Subtle": {
-          "Blue": {
-            "value": "#ffffff",
-            "type": "color"
-          },
-          "Green": {
-            "value": "#ffffff",
-            "type": "color"
-          },
-          "Red": {
-            "value": "#ffffff",
-            "type": "color"
-          },
-          "Yellow": {
-            "value": "#1d1d1b",
-            "type": "color"
-          }
-        },
-        "Bold": {
-          "Blue": {
-            "value": "#4d4f4f",
-            "type": "color"
-          },
-          "Green": {
-            "value": "#4d4f4f",
-            "type": "color"
-          },
-          "Red": {
-            "value": "#4d4f4f",
-            "type": "color"
-          },
-          "Yellow": {
-            "value": "#4d4f4f",
-            "type": "color"
-          }
-        }
-      }
-    },
-    "focus": {
-      "border-colour": {
-        "Neutral": {
-          "Blue": {
-            "value": "#1d1d1b",
-            "type": "color"
-          },
-          "Green": {
-            "value": "#1d1d1b",
-            "type": "color"
-          },
-          "Red": {
-            "value": "#1d1d1b",
-            "type": "color"
-          },
-          "Yellow": {
-            "value": "#000000",
-            "type": "color"
-          }
-        },
-        "Neutral inverse": {
-          "Blue": {
-            "value": "#1d1d1b",
-            "type": "color"
-          },
-          "Green": {
-            "value": "#1d1d1b",
-            "type": "color"
-          },
-          "Red": {
-            "value": "#1d1d1b",
-            "type": "color"
-          },
-          "Yellow": {
-            "value": "#000000",
-            "type": "color"
-          }
-        },
-        "Subtle": {
-          "Blue": {
-            "value": "#1d1d1b",
-            "type": "color"
-          },
-          "Green": {
-            "value": "#1d1d1b",
-            "type": "color"
-          },
-          "Red": {
-            "value": "#1d1d1b",
-            "type": "color"
-          },
-          "Yellow": {
-            "value": "#000000",
-            "type": "color"
-          }
-        },
-        "Bold": {
-          "Blue": {
-            "value": "#ffffff",
-            "type": "color"
-          },
-          "Green": {
-            "value": "#ffffff",
-            "type": "color"
-          },
-          "Red": {
-            "value": "#ffffff",
-            "type": "color"
-          },
-          "Yellow": {
-            "value": "#1d1d1b",
-            "type": "color"
-          }
-        }
-      },
-      "border-width": {
-        "Neutral": {
-          "Blue": {
-            "value": 4,
-            "type": "borderWidth"
-          },
-          "Green": {
-            "value": 4,
-            "type": "borderWidth"
-          },
-          "Red": {
-            "value": 4,
-            "type": "borderWidth"
-          },
-          "Yellow": {
-            "value": 4,
-            "type": "borderWidth"
-          }
-        },
-        "Neutral inverse": {
-          "Blue": {
-            "value": 4,
-            "type": "borderWidth"
-          },
-          "Green": {
-            "value": 4,
-            "type": "borderWidth"
-          },
-          "Red": {
-            "value": 4,
-            "type": "borderWidth"
-          },
-          "Yellow": {
-            "value": 4,
-            "type": "borderWidth"
-          }
-        },
-        "Subtle": {
-          "Blue": {
-            "value": 4,
-            "type": "borderWidth"
-          },
-          "Green": {
-            "value": 4,
-            "type": "borderWidth"
-          },
-          "Red": {
-            "value": 4,
-            "type": "borderWidth"
-          },
-          "Yellow": {
-            "value": 4,
-            "type": "borderWidth"
-          }
-        },
-        "Bold": {
-          "Blue": {
-            "value": 4,
-            "type": "borderWidth"
-          },
-          "Green": {
-            "value": 4,
-            "type": "borderWidth"
-          },
-          "Red": {
-            "value": 4,
-            "type": "borderWidth"
-          },
-          "Yellow": {
-            "value": 4,
-            "type": "borderWidth"
-          }
-        }
-      },
-      "colour": {
-        "Neutral": {
-          "Blue": {
-            "value": "#1d1d1b",
-            "type": "color"
-          },
-          "Green": {
-            "value": "#1d1d1b",
-            "type": "color"
-          },
-          "Red": {
-            "value": "#1d1d1b",
-            "type": "color"
-          },
-          "Yellow": {
-            "value": "#000000",
-            "type": "color"
-          }
-        },
-        "Neutral inverse": {
-          "Blue": {
-            "value": "#1d1d1b",
-            "type": "color"
-          },
-          "Green": {
-            "value": "#1d1d1b",
-            "type": "color"
-          },
-          "Red": {
-            "value": "#1d1d1b",
-            "type": "color"
-          },
-          "Yellow": {
-            "value": "#000000",
-            "type": "color"
-          }
-        },
-        "Subtle": {
-          "Blue": {
-            "value": "#1d1d1b",
-            "type": "color"
-          },
-          "Green": {
-            "value": "#1d1d1b",
-            "type": "color"
-          },
-          "Red": {
-            "value": "#1d1d1b",
-            "type": "color"
-          },
-          "Yellow": {
-            "value": "#000000",
-            "type": "color"
-          }
-        },
-        "Bold": {
-          "Blue": {
-            "value": "#ffffff",
-            "type": "color"
-          },
-          "Green": {
-            "value": "#ffffff",
-            "type": "color"
-          },
-          "Red": {
-            "value": "#ffffff",
-            "type": "color"
-          },
-          "Yellow": {
-            "value": "#1d1d1b",
-            "type": "color"
-          }
-        }
-      },
-      "colour-muted": {
-        "Neutral": {
-          "Blue": {
-            "value": "#1d1d1b",
-            "type": "color"
-          },
-          "Green": {
-            "value": "#1d1d1b",
-            "type": "color"
-          },
-          "Red": {
-            "value": "#1d1d1b",
-            "type": "color"
-          },
-          "Yellow": {
-            "value": "#000000",
-            "type": "color"
-          }
-        },
-        "Neutral inverse": {
-          "Blue": {
-            "value": "#1d1d1b",
-            "type": "color"
-          },
-          "Green": {
-            "value": "#1d1d1b",
-            "type": "color"
-          },
-          "Red": {
-            "value": "#1d1d1b",
-            "type": "color"
-          },
-          "Yellow": {
-            "value": "#000000",
-            "type": "color"
-          }
-        },
-        "Subtle": {
-          "Blue": {
-            "value": "#1d1d1b",
-            "type": "color"
-          },
-          "Green": {
-            "value": "#1d1d1b",
-            "type": "color"
-          },
-          "Red": {
-            "value": "#1d1d1b",
-            "type": "color"
-          },
-          "Yellow": {
-            "value": "#000000",
-            "type": "color"
-          }
-        },
-        "Bold": {
-          "Blue": {
-            "value": "#ffffff",
-            "type": "color"
-          },
-          "Green": {
-            "value": "#ffffff",
-            "type": "color"
-          },
-          "Red": {
-            "value": "#ffffff",
-            "type": "color"
-          },
-          "Yellow": {
-            "value": "#1d1d1b",
-            "type": "color"
-          }
-        }
-      }
-    }
-  },
+  "$timestamp": "2026-02-27T11:25:33.148Z",
   "body": {
     "default": {
       "background-colour": {
@@ -15006,6 +12996,1452 @@
     }
   },
   "input": {
+    "common": {
+      "border-radius-xs": {
+        "Neutral": {
+          "Blue": {
+            "value": 4,
+            "type": "borderRadius"
+          },
+          "Green": {
+            "value": 4,
+            "type": "borderRadius"
+          },
+          "Red": {
+            "value": 4,
+            "type": "borderRadius"
+          },
+          "Yellow": {
+            "value": 4,
+            "type": "borderRadius"
+          }
+        },
+        "Subtle": {
+          "Blue": {
+            "value": 4,
+            "type": "borderRadius"
+          },
+          "Green": {
+            "value": 4,
+            "type": "borderRadius"
+          },
+          "Red": {
+            "value": 4,
+            "type": "borderRadius"
+          },
+          "Yellow": {
+            "value": 4,
+            "type": "borderRadius"
+          }
+        },
+        "Bold": {
+          "Blue": {
+            "value": 4,
+            "type": "borderRadius"
+          },
+          "Green": {
+            "value": 4,
+            "type": "borderRadius"
+          },
+          "Red": {
+            "value": 4,
+            "type": "borderRadius"
+          },
+          "Yellow": {
+            "value": 4,
+            "type": "borderRadius"
+          }
+        },
+        "Neutral inverse": {
+          "Blue": {
+            "value": 4,
+            "type": "borderRadius"
+          },
+          "Green": {
+            "value": 4,
+            "type": "borderRadius"
+          },
+          "Red": {
+            "value": 4,
+            "type": "borderRadius"
+          },
+          "Yellow": {
+            "value": 4,
+            "type": "borderRadius"
+          }
+        }
+      },
+      "border-radius-sm": {
+        "Neutral": {
+          "Blue": {
+            "value": 8,
+            "type": "borderRadius"
+          },
+          "Green": {
+            "value": 8,
+            "type": "borderRadius"
+          },
+          "Red": {
+            "value": 8,
+            "type": "borderRadius"
+          },
+          "Yellow": {
+            "value": 8,
+            "type": "borderRadius"
+          }
+        },
+        "Subtle": {
+          "Blue": {
+            "value": 8,
+            "type": "borderRadius"
+          },
+          "Green": {
+            "value": 8,
+            "type": "borderRadius"
+          },
+          "Red": {
+            "value": 8,
+            "type": "borderRadius"
+          },
+          "Yellow": {
+            "value": 8,
+            "type": "borderRadius"
+          }
+        },
+        "Bold": {
+          "Blue": {
+            "value": 8,
+            "type": "borderRadius"
+          },
+          "Green": {
+            "value": 8,
+            "type": "borderRadius"
+          },
+          "Red": {
+            "value": 8,
+            "type": "borderRadius"
+          },
+          "Yellow": {
+            "value": 8,
+            "type": "borderRadius"
+          }
+        },
+        "Neutral inverse": {
+          "Blue": {
+            "value": 8,
+            "type": "borderRadius"
+          },
+          "Green": {
+            "value": 8,
+            "type": "borderRadius"
+          },
+          "Red": {
+            "value": 8,
+            "type": "borderRadius"
+          },
+          "Yellow": {
+            "value": 8,
+            "type": "borderRadius"
+          }
+        }
+      },
+      "border-radius-md": {
+        "Neutral": {
+          "Blue": {
+            "value": 12,
+            "type": "borderRadius"
+          },
+          "Green": {
+            "value": 12,
+            "type": "borderRadius"
+          },
+          "Red": {
+            "value": 12,
+            "type": "borderRadius"
+          },
+          "Yellow": {
+            "value": 12,
+            "type": "borderRadius"
+          }
+        },
+        "Subtle": {
+          "Blue": {
+            "value": 12,
+            "type": "borderRadius"
+          },
+          "Green": {
+            "value": 12,
+            "type": "borderRadius"
+          },
+          "Red": {
+            "value": 12,
+            "type": "borderRadius"
+          },
+          "Yellow": {
+            "value": 12,
+            "type": "borderRadius"
+          }
+        },
+        "Bold": {
+          "Blue": {
+            "value": 12,
+            "type": "borderRadius"
+          },
+          "Green": {
+            "value": 12,
+            "type": "borderRadius"
+          },
+          "Red": {
+            "value": 12,
+            "type": "borderRadius"
+          },
+          "Yellow": {
+            "value": 12,
+            "type": "borderRadius"
+          }
+        },
+        "Neutral inverse": {
+          "Blue": {
+            "value": 12,
+            "type": "borderRadius"
+          },
+          "Green": {
+            "value": 12,
+            "type": "borderRadius"
+          },
+          "Red": {
+            "value": 12,
+            "type": "borderRadius"
+          },
+          "Yellow": {
+            "value": 12,
+            "type": "borderRadius"
+          }
+        }
+      },
+      "border-radius-lg": {
+        "Neutral": {
+          "Blue": {
+            "value": 16,
+            "type": "borderRadius"
+          },
+          "Green": {
+            "value": 16,
+            "type": "borderRadius"
+          },
+          "Red": {
+            "value": 16,
+            "type": "borderRadius"
+          },
+          "Yellow": {
+            "value": 16,
+            "type": "borderRadius"
+          }
+        },
+        "Subtle": {
+          "Blue": {
+            "value": 16,
+            "type": "borderRadius"
+          },
+          "Green": {
+            "value": 16,
+            "type": "borderRadius"
+          },
+          "Red": {
+            "value": 16,
+            "type": "borderRadius"
+          },
+          "Yellow": {
+            "value": 16,
+            "type": "borderRadius"
+          }
+        },
+        "Bold": {
+          "Blue": {
+            "value": 16,
+            "type": "borderRadius"
+          },
+          "Green": {
+            "value": 16,
+            "type": "borderRadius"
+          },
+          "Red": {
+            "value": 16,
+            "type": "borderRadius"
+          },
+          "Yellow": {
+            "value": 16,
+            "type": "borderRadius"
+          }
+        },
+        "Neutral inverse": {
+          "Blue": {
+            "value": 16,
+            "type": "borderRadius"
+          },
+          "Green": {
+            "value": 16,
+            "type": "borderRadius"
+          },
+          "Red": {
+            "value": 16,
+            "type": "borderRadius"
+          },
+          "Yellow": {
+            "value": 16,
+            "type": "borderRadius"
+          }
+        }
+      },
+      "gap-sm": {
+        "Neutral": {
+          "Blue": {
+            "value": 4,
+            "type": "sizing"
+          },
+          "Green": {
+            "value": 4,
+            "type": "sizing"
+          },
+          "Red": {
+            "value": 4,
+            "type": "sizing"
+          },
+          "Yellow": {
+            "value": 4,
+            "type": "sizing"
+          }
+        },
+        "Subtle": {
+          "Blue": {
+            "value": 4,
+            "type": "sizing"
+          },
+          "Green": {
+            "value": 4,
+            "type": "sizing"
+          },
+          "Red": {
+            "value": 4,
+            "type": "sizing"
+          },
+          "Yellow": {
+            "value": 4,
+            "type": "sizing"
+          }
+        },
+        "Bold": {
+          "Blue": {
+            "value": 4,
+            "type": "sizing"
+          },
+          "Green": {
+            "value": 4,
+            "type": "sizing"
+          },
+          "Red": {
+            "value": 4,
+            "type": "sizing"
+          },
+          "Yellow": {
+            "value": 4,
+            "type": "sizing"
+          }
+        },
+        "Neutral inverse": {
+          "Blue": {
+            "value": 4,
+            "type": "sizing"
+          },
+          "Green": {
+            "value": 4,
+            "type": "sizing"
+          },
+          "Red": {
+            "value": 4,
+            "type": "sizing"
+          },
+          "Yellow": {
+            "value": 4,
+            "type": "sizing"
+          }
+        }
+      },
+      "gap-md": {
+        "Neutral": {
+          "Blue": {
+            "value": 8,
+            "type": "sizing"
+          },
+          "Green": {
+            "value": 8,
+            "type": "sizing"
+          },
+          "Red": {
+            "value": 8,
+            "type": "sizing"
+          },
+          "Yellow": {
+            "value": 8,
+            "type": "sizing"
+          }
+        },
+        "Subtle": {
+          "Blue": {
+            "value": 8,
+            "type": "sizing"
+          },
+          "Green": {
+            "value": 8,
+            "type": "sizing"
+          },
+          "Red": {
+            "value": 8,
+            "type": "sizing"
+          },
+          "Yellow": {
+            "value": 8,
+            "type": "sizing"
+          }
+        },
+        "Bold": {
+          "Blue": {
+            "value": 8,
+            "type": "sizing"
+          },
+          "Green": {
+            "value": 8,
+            "type": "sizing"
+          },
+          "Red": {
+            "value": 8,
+            "type": "sizing"
+          },
+          "Yellow": {
+            "value": 8,
+            "type": "sizing"
+          }
+        },
+        "Neutral inverse": {
+          "Blue": {
+            "value": 8,
+            "type": "sizing"
+          },
+          "Green": {
+            "value": 8,
+            "type": "sizing"
+          },
+          "Red": {
+            "value": 8,
+            "type": "sizing"
+          },
+          "Yellow": {
+            "value": 8,
+            "type": "sizing"
+          }
+        }
+      },
+      "gap-lg": {
+        "Neutral": {
+          "Blue": {
+            "value": 12,
+            "type": "sizing"
+          },
+          "Green": {
+            "value": 12,
+            "type": "sizing"
+          },
+          "Red": {
+            "value": 12,
+            "type": "sizing"
+          },
+          "Yellow": {
+            "value": 12,
+            "type": "sizing"
+          }
+        },
+        "Subtle": {
+          "Blue": {
+            "value": 12,
+            "type": "sizing"
+          },
+          "Green": {
+            "value": 12,
+            "type": "sizing"
+          },
+          "Red": {
+            "value": 12,
+            "type": "sizing"
+          },
+          "Yellow": {
+            "value": 12,
+            "type": "sizing"
+          }
+        },
+        "Bold": {
+          "Blue": {
+            "value": 12,
+            "type": "sizing"
+          },
+          "Green": {
+            "value": 12,
+            "type": "sizing"
+          },
+          "Red": {
+            "value": 12,
+            "type": "sizing"
+          },
+          "Yellow": {
+            "value": 12,
+            "type": "sizing"
+          }
+        },
+        "Neutral inverse": {
+          "Blue": {
+            "value": 12,
+            "type": "sizing"
+          },
+          "Green": {
+            "value": 12,
+            "type": "sizing"
+          },
+          "Red": {
+            "value": 12,
+            "type": "sizing"
+          },
+          "Yellow": {
+            "value": 12,
+            "type": "sizing"
+          }
+        }
+      },
+      "gap-xl": {
+        "Neutral": {
+          "Blue": {
+            "value": 16,
+            "type": "sizing"
+          },
+          "Green": {
+            "value": 16,
+            "type": "sizing"
+          },
+          "Red": {
+            "value": 16,
+            "type": "sizing"
+          },
+          "Yellow": {
+            "value": 16,
+            "type": "sizing"
+          }
+        },
+        "Subtle": {
+          "Blue": {
+            "value": 16,
+            "type": "sizing"
+          },
+          "Green": {
+            "value": 16,
+            "type": "sizing"
+          },
+          "Red": {
+            "value": 16,
+            "type": "sizing"
+          },
+          "Yellow": {
+            "value": 16,
+            "type": "sizing"
+          }
+        },
+        "Bold": {
+          "Blue": {
+            "value": 16,
+            "type": "sizing"
+          },
+          "Green": {
+            "value": 16,
+            "type": "sizing"
+          },
+          "Red": {
+            "value": 16,
+            "type": "sizing"
+          },
+          "Yellow": {
+            "value": 16,
+            "type": "sizing"
+          }
+        },
+        "Neutral inverse": {
+          "Blue": {
+            "value": 16,
+            "type": "sizing"
+          },
+          "Green": {
+            "value": 16,
+            "type": "sizing"
+          },
+          "Red": {
+            "value": 16,
+            "type": "sizing"
+          },
+          "Yellow": {
+            "value": 16,
+            "type": "sizing"
+          }
+        }
+      },
+      "padding-sm": {
+        "Neutral": {
+          "Blue": {
+            "value": 8,
+            "type": "spacing"
+          },
+          "Green": {
+            "value": 8,
+            "type": "spacing"
+          },
+          "Red": {
+            "value": 8,
+            "type": "spacing"
+          },
+          "Yellow": {
+            "value": 8,
+            "type": "spacing"
+          }
+        },
+        "Subtle": {
+          "Blue": {
+            "value": 8,
+            "type": "spacing"
+          },
+          "Green": {
+            "value": 8,
+            "type": "spacing"
+          },
+          "Red": {
+            "value": 8,
+            "type": "spacing"
+          },
+          "Yellow": {
+            "value": 8,
+            "type": "spacing"
+          }
+        },
+        "Bold": {
+          "Blue": {
+            "value": 8,
+            "type": "spacing"
+          },
+          "Green": {
+            "value": 8,
+            "type": "spacing"
+          },
+          "Red": {
+            "value": 8,
+            "type": "spacing"
+          },
+          "Yellow": {
+            "value": 8,
+            "type": "spacing"
+          }
+        },
+        "Neutral inverse": {
+          "Blue": {
+            "value": 8,
+            "type": "spacing"
+          },
+          "Green": {
+            "value": 8,
+            "type": "spacing"
+          },
+          "Red": {
+            "value": 8,
+            "type": "spacing"
+          },
+          "Yellow": {
+            "value": 8,
+            "type": "spacing"
+          }
+        }
+      },
+      "padding-md": {
+        "Neutral": {
+          "Blue": {
+            "value": 12,
+            "type": "spacing"
+          },
+          "Green": {
+            "value": 12,
+            "type": "spacing"
+          },
+          "Red": {
+            "value": 12,
+            "type": "spacing"
+          },
+          "Yellow": {
+            "value": 12,
+            "type": "spacing"
+          }
+        },
+        "Subtle": {
+          "Blue": {
+            "value": 12,
+            "type": "spacing"
+          },
+          "Green": {
+            "value": 12,
+            "type": "spacing"
+          },
+          "Red": {
+            "value": 12,
+            "type": "spacing"
+          },
+          "Yellow": {
+            "value": 12,
+            "type": "spacing"
+          }
+        },
+        "Bold": {
+          "Blue": {
+            "value": 12,
+            "type": "spacing"
+          },
+          "Green": {
+            "value": 12,
+            "type": "spacing"
+          },
+          "Red": {
+            "value": 12,
+            "type": "spacing"
+          },
+          "Yellow": {
+            "value": 12,
+            "type": "spacing"
+          }
+        },
+        "Neutral inverse": {
+          "Blue": {
+            "value": 12,
+            "type": "spacing"
+          },
+          "Green": {
+            "value": 12,
+            "type": "spacing"
+          },
+          "Red": {
+            "value": 12,
+            "type": "spacing"
+          },
+          "Yellow": {
+            "value": 12,
+            "type": "spacing"
+          }
+        }
+      },
+      "padding-lg": {
+        "Neutral": {
+          "Blue": {
+            "value": 16,
+            "type": "spacing"
+          },
+          "Green": {
+            "value": 16,
+            "type": "spacing"
+          },
+          "Red": {
+            "value": 16,
+            "type": "spacing"
+          },
+          "Yellow": {
+            "value": 16,
+            "type": "spacing"
+          }
+        },
+        "Subtle": {
+          "Blue": {
+            "value": 16,
+            "type": "spacing"
+          },
+          "Green": {
+            "value": 16,
+            "type": "spacing"
+          },
+          "Red": {
+            "value": 16,
+            "type": "spacing"
+          },
+          "Yellow": {
+            "value": 16,
+            "type": "spacing"
+          }
+        },
+        "Bold": {
+          "Blue": {
+            "value": 16,
+            "type": "spacing"
+          },
+          "Green": {
+            "value": 16,
+            "type": "spacing"
+          },
+          "Red": {
+            "value": 16,
+            "type": "spacing"
+          },
+          "Yellow": {
+            "value": 16,
+            "type": "spacing"
+          }
+        },
+        "Neutral inverse": {
+          "Blue": {
+            "value": 16,
+            "type": "spacing"
+          },
+          "Green": {
+            "value": 16,
+            "type": "spacing"
+          },
+          "Red": {
+            "value": 16,
+            "type": "spacing"
+          },
+          "Yellow": {
+            "value": 16,
+            "type": "spacing"
+          }
+        }
+      },
+      "scale-xxs": {
+        "Neutral": {
+          "Blue": {
+            "value": 8,
+            "type": "sizing",
+            "description": "Use for defining width or height of an input"
+          },
+          "Green": {
+            "value": 8,
+            "type": "sizing",
+            "description": "Use for defining width or height of an input"
+          },
+          "Red": {
+            "value": 8,
+            "type": "sizing",
+            "description": "Use for defining width or height of an input"
+          },
+          "Yellow": {
+            "value": 8,
+            "type": "sizing",
+            "description": "Use for defining width or height of an input"
+          }
+        },
+        "Subtle": {
+          "Blue": {
+            "value": 8,
+            "type": "sizing",
+            "description": "Use for defining width or height of an input"
+          },
+          "Green": {
+            "value": 8,
+            "type": "sizing",
+            "description": "Use for defining width or height of an input"
+          },
+          "Red": {
+            "value": 8,
+            "type": "sizing",
+            "description": "Use for defining width or height of an input"
+          },
+          "Yellow": {
+            "value": 8,
+            "type": "sizing",
+            "description": "Use for defining width or height of an input"
+          }
+        },
+        "Bold": {
+          "Blue": {
+            "value": 8,
+            "type": "sizing",
+            "description": "Use for defining width or height of an input"
+          },
+          "Green": {
+            "value": 8,
+            "type": "sizing",
+            "description": "Use for defining width or height of an input"
+          },
+          "Red": {
+            "value": 8,
+            "type": "sizing",
+            "description": "Use for defining width or height of an input"
+          },
+          "Yellow": {
+            "value": 8,
+            "type": "sizing",
+            "description": "Use for defining width or height of an input"
+          }
+        },
+        "Neutral inverse": {
+          "Blue": {
+            "value": 8,
+            "type": "sizing",
+            "description": "Use for defining width or height of an input"
+          },
+          "Green": {
+            "value": 8,
+            "type": "sizing",
+            "description": "Use for defining width or height of an input"
+          },
+          "Red": {
+            "value": 8,
+            "type": "sizing",
+            "description": "Use for defining width or height of an input"
+          },
+          "Yellow": {
+            "value": 8,
+            "type": "sizing",
+            "description": "Use for defining width or height of an input"
+          }
+        }
+      },
+      "scale-xs": {
+        "Neutral": {
+          "Blue": {
+            "value": 12,
+            "type": "sizing",
+            "description": "Use for defining width or height of an input"
+          },
+          "Green": {
+            "value": 12,
+            "type": "sizing",
+            "description": "Use for defining width or height of an input"
+          },
+          "Red": {
+            "value": 12,
+            "type": "sizing",
+            "description": "Use for defining width or height of an input"
+          },
+          "Yellow": {
+            "value": 12,
+            "type": "sizing",
+            "description": "Use for defining width or height of an input"
+          }
+        },
+        "Subtle": {
+          "Blue": {
+            "value": 12,
+            "type": "sizing",
+            "description": "Use for defining width or height of an input"
+          },
+          "Green": {
+            "value": 12,
+            "type": "sizing",
+            "description": "Use for defining width or height of an input"
+          },
+          "Red": {
+            "value": 12,
+            "type": "sizing",
+            "description": "Use for defining width or height of an input"
+          },
+          "Yellow": {
+            "value": 12,
+            "type": "sizing",
+            "description": "Use for defining width or height of an input"
+          }
+        },
+        "Bold": {
+          "Blue": {
+            "value": 12,
+            "type": "sizing",
+            "description": "Use for defining width or height of an input"
+          },
+          "Green": {
+            "value": 12,
+            "type": "sizing",
+            "description": "Use for defining width or height of an input"
+          },
+          "Red": {
+            "value": 12,
+            "type": "sizing",
+            "description": "Use for defining width or height of an input"
+          },
+          "Yellow": {
+            "value": 12,
+            "type": "sizing",
+            "description": "Use for defining width or height of an input"
+          }
+        },
+        "Neutral inverse": {
+          "Blue": {
+            "value": 12,
+            "type": "sizing",
+            "description": "Use for defining width or height of an input"
+          },
+          "Green": {
+            "value": 12,
+            "type": "sizing",
+            "description": "Use for defining width or height of an input"
+          },
+          "Red": {
+            "value": 12,
+            "type": "sizing",
+            "description": "Use for defining width or height of an input"
+          },
+          "Yellow": {
+            "value": 12,
+            "type": "sizing",
+            "description": "Use for defining width or height of an input"
+          }
+        }
+      },
+      "scale-sm": {
+        "Neutral": {
+          "Blue": {
+            "value": 16,
+            "type": "sizing",
+            "description": "Use for defining width or height of an input"
+          },
+          "Green": {
+            "value": 16,
+            "type": "sizing",
+            "description": "Use for defining width or height of an input"
+          },
+          "Red": {
+            "value": 16,
+            "type": "sizing",
+            "description": "Use for defining width or height of an input"
+          },
+          "Yellow": {
+            "value": 16,
+            "type": "sizing",
+            "description": "Use for defining width or height of an input"
+          }
+        },
+        "Subtle": {
+          "Blue": {
+            "value": 16,
+            "type": "sizing",
+            "description": "Use for defining width or height of an input"
+          },
+          "Green": {
+            "value": 16,
+            "type": "sizing",
+            "description": "Use for defining width or height of an input"
+          },
+          "Red": {
+            "value": 16,
+            "type": "sizing",
+            "description": "Use for defining width or height of an input"
+          },
+          "Yellow": {
+            "value": 16,
+            "type": "sizing",
+            "description": "Use for defining width or height of an input"
+          }
+        },
+        "Bold": {
+          "Blue": {
+            "value": 16,
+            "type": "sizing",
+            "description": "Use for defining width or height of an input"
+          },
+          "Green": {
+            "value": 16,
+            "type": "sizing",
+            "description": "Use for defining width or height of an input"
+          },
+          "Red": {
+            "value": 16,
+            "type": "sizing",
+            "description": "Use for defining width or height of an input"
+          },
+          "Yellow": {
+            "value": 16,
+            "type": "sizing",
+            "description": "Use for defining width or height of an input"
+          }
+        },
+        "Neutral inverse": {
+          "Blue": {
+            "value": 16,
+            "type": "sizing",
+            "description": "Use for defining width or height of an input"
+          },
+          "Green": {
+            "value": 16,
+            "type": "sizing",
+            "description": "Use for defining width or height of an input"
+          },
+          "Red": {
+            "value": 16,
+            "type": "sizing",
+            "description": "Use for defining width or height of an input"
+          },
+          "Yellow": {
+            "value": 16,
+            "type": "sizing",
+            "description": "Use for defining width or height of an input"
+          }
+        }
+      },
+      "scale-md": {
+        "Neutral": {
+          "Blue": {
+            "value": 20,
+            "type": "sizing",
+            "description": "Use for defining width or height of an input"
+          },
+          "Green": {
+            "value": 20,
+            "type": "sizing",
+            "description": "Use for defining width or height of an input"
+          },
+          "Red": {
+            "value": 20,
+            "type": "sizing",
+            "description": "Use for defining width or height of an input"
+          },
+          "Yellow": {
+            "value": 20,
+            "type": "sizing",
+            "description": "Use for defining width or height of an input"
+          }
+        },
+        "Subtle": {
+          "Blue": {
+            "value": 20,
+            "type": "sizing",
+            "description": "Use for defining width or height of an input"
+          },
+          "Green": {
+            "value": 20,
+            "type": "sizing",
+            "description": "Use for defining width or height of an input"
+          },
+          "Red": {
+            "value": 20,
+            "type": "sizing",
+            "description": "Use for defining width or height of an input"
+          },
+          "Yellow": {
+            "value": 20,
+            "type": "sizing",
+            "description": "Use for defining width or height of an input"
+          }
+        },
+        "Bold": {
+          "Blue": {
+            "value": 20,
+            "type": "sizing",
+            "description": "Use for defining width or height of an input"
+          },
+          "Green": {
+            "value": 20,
+            "type": "sizing",
+            "description": "Use for defining width or height of an input"
+          },
+          "Red": {
+            "value": 20,
+            "type": "sizing",
+            "description": "Use for defining width or height of an input"
+          },
+          "Yellow": {
+            "value": 20,
+            "type": "sizing",
+            "description": "Use for defining width or height of an input"
+          }
+        },
+        "Neutral inverse": {
+          "Blue": {
+            "value": 20,
+            "type": "sizing",
+            "description": "Use for defining width or height of an input"
+          },
+          "Green": {
+            "value": 20,
+            "type": "sizing",
+            "description": "Use for defining width or height of an input"
+          },
+          "Red": {
+            "value": 20,
+            "type": "sizing",
+            "description": "Use for defining width or height of an input"
+          },
+          "Yellow": {
+            "value": 20,
+            "type": "sizing",
+            "description": "Use for defining width or height of an input"
+          }
+        }
+      },
+      "scale-lg": {
+        "Neutral": {
+          "Blue": {
+            "value": 28,
+            "type": "sizing",
+            "description": "Use for defining width or height of an input"
+          },
+          "Green": {
+            "value": 28,
+            "type": "sizing",
+            "description": "Use for defining width or height of an input"
+          },
+          "Red": {
+            "value": 28,
+            "type": "sizing",
+            "description": "Use for defining width or height of an input"
+          },
+          "Yellow": {
+            "value": 28,
+            "type": "sizing",
+            "description": "Use for defining width or height of an input"
+          }
+        },
+        "Subtle": {
+          "Blue": {
+            "value": 28,
+            "type": "sizing",
+            "description": "Use for defining width or height of an input"
+          },
+          "Green": {
+            "value": 28,
+            "type": "sizing",
+            "description": "Use for defining width or height of an input"
+          },
+          "Red": {
+            "value": 28,
+            "type": "sizing",
+            "description": "Use for defining width or height of an input"
+          },
+          "Yellow": {
+            "value": 28,
+            "type": "sizing",
+            "description": "Use for defining width or height of an input"
+          }
+        },
+        "Bold": {
+          "Blue": {
+            "value": 28,
+            "type": "sizing",
+            "description": "Use for defining width or height of an input"
+          },
+          "Green": {
+            "value": 28,
+            "type": "sizing",
+            "description": "Use for defining width or height of an input"
+          },
+          "Red": {
+            "value": 28,
+            "type": "sizing",
+            "description": "Use for defining width or height of an input"
+          },
+          "Yellow": {
+            "value": 28,
+            "type": "sizing",
+            "description": "Use for defining width or height of an input"
+          }
+        },
+        "Neutral inverse": {
+          "Blue": {
+            "value": 28,
+            "type": "sizing",
+            "description": "Use for defining width or height of an input"
+          },
+          "Green": {
+            "value": 28,
+            "type": "sizing",
+            "description": "Use for defining width or height of an input"
+          },
+          "Red": {
+            "value": 28,
+            "type": "sizing",
+            "description": "Use for defining width or height of an input"
+          },
+          "Yellow": {
+            "value": 28,
+            "type": "sizing",
+            "description": "Use for defining width or height of an input"
+          }
+        }
+      },
+      "scale-xl": {
+        "Neutral": {
+          "Blue": {
+            "value": 36,
+            "type": "sizing",
+            "description": "Use for defining width or height of an input"
+          },
+          "Green": {
+            "value": 36,
+            "type": "sizing",
+            "description": "Use for defining width or height of an input"
+          },
+          "Red": {
+            "value": 36,
+            "type": "sizing",
+            "description": "Use for defining width or height of an input"
+          },
+          "Yellow": {
+            "value": 36,
+            "type": "sizing",
+            "description": "Use for defining width or height of an input"
+          }
+        },
+        "Subtle": {
+          "Blue": {
+            "value": 36,
+            "type": "sizing",
+            "description": "Use for defining width or height of an input"
+          },
+          "Green": {
+            "value": 36,
+            "type": "sizing",
+            "description": "Use for defining width or height of an input"
+          },
+          "Red": {
+            "value": 36,
+            "type": "sizing",
+            "description": "Use for defining width or height of an input"
+          },
+          "Yellow": {
+            "value": 36,
+            "type": "sizing",
+            "description": "Use for defining width or height of an input"
+          }
+        },
+        "Bold": {
+          "Blue": {
+            "value": 36,
+            "type": "sizing",
+            "description": "Use for defining width or height of an input"
+          },
+          "Green": {
+            "value": 36,
+            "type": "sizing",
+            "description": "Use for defining width or height of an input"
+          },
+          "Red": {
+            "value": 36,
+            "type": "sizing",
+            "description": "Use for defining width or height of an input"
+          },
+          "Yellow": {
+            "value": 36,
+            "type": "sizing",
+            "description": "Use for defining width or height of an input"
+          }
+        },
+        "Neutral inverse": {
+          "Blue": {
+            "value": 36,
+            "type": "sizing",
+            "description": "Use for defining width or height of an input"
+          },
+          "Green": {
+            "value": 36,
+            "type": "sizing",
+            "description": "Use for defining width or height of an input"
+          },
+          "Red": {
+            "value": 36,
+            "type": "sizing",
+            "description": "Use for defining width or height of an input"
+          },
+          "Yellow": {
+            "value": 36,
+            "type": "sizing",
+            "description": "Use for defining width or height of an input"
+          }
+        }
+      },
+      "scale-xxl": {
+        "Neutral": {
+          "Blue": {
+            "value": 48,
+            "type": "sizing",
+            "description": "Use for defining width or height of an input"
+          },
+          "Green": {
+            "value": 48,
+            "type": "sizing",
+            "description": "Use for defining width or height of an input"
+          },
+          "Red": {
+            "value": 48,
+            "type": "sizing",
+            "description": "Use for defining width or height of an input"
+          },
+          "Yellow": {
+            "value": 48,
+            "type": "sizing",
+            "description": "Use for defining width or height of an input"
+          }
+        },
+        "Subtle": {
+          "Blue": {
+            "value": 48,
+            "type": "sizing",
+            "description": "Use for defining width or height of an input"
+          },
+          "Green": {
+            "value": 48,
+            "type": "sizing",
+            "description": "Use for defining width or height of an input"
+          },
+          "Red": {
+            "value": 48,
+            "type": "sizing",
+            "description": "Use for defining width or height of an input"
+          },
+          "Yellow": {
+            "value": 48,
+            "type": "sizing",
+            "description": "Use for defining width or height of an input"
+          }
+        },
+        "Bold": {
+          "Blue": {
+            "value": 48,
+            "type": "sizing",
+            "description": "Use for defining width or height of an input"
+          },
+          "Green": {
+            "value": 48,
+            "type": "sizing",
+            "description": "Use for defining width or height of an input"
+          },
+          "Red": {
+            "value": 48,
+            "type": "sizing",
+            "description": "Use for defining width or height of an input"
+          },
+          "Yellow": {
+            "value": 48,
+            "type": "sizing",
+            "description": "Use for defining width or height of an input"
+          }
+        },
+        "Neutral inverse": {
+          "Blue": {
+            "value": 48,
+            "type": "sizing",
+            "description": "Use for defining width or height of an input"
+          },
+          "Green": {
+            "value": 48,
+            "type": "sizing",
+            "description": "Use for defining width or height of an input"
+          },
+          "Red": {
+            "value": 48,
+            "type": "sizing",
+            "description": "Use for defining width or height of an input"
+          },
+          "Yellow": {
+            "value": 48,
+            "type": "sizing",
+            "description": "Use for defining width or height of an input"
+          }
+        }
+      }
+    },
     "rest": {
       "background-colour": {
         "Neutral": {
@@ -15078,6 +14514,96 @@
           "Yellow": {
             "value": "#ffffff",
             "type": "color"
+          }
+        }
+      },
+      "indicator-colour": {
+        "Neutral": {
+          "Blue": {
+            "value": "#005dba",
+            "type": "color",
+            "description": "For inputs that can be selected or deselected, use this colour as the indicator fill for the rest state"
+          },
+          "Green": {
+            "value": "#00633d",
+            "type": "color",
+            "description": "For inputs that can be selected or deselected, use this colour as the indicator fill for the rest state"
+          },
+          "Red": {
+            "value": "#c50b30",
+            "type": "color",
+            "description": "For inputs that can be selected or deselected, use this colour as the indicator fill for the rest state"
+          },
+          "Yellow": {
+            "value": "#c86426",
+            "type": "color",
+            "description": "For inputs that can be selected or deselected, use this colour as the indicator fill for the rest state"
+          }
+        },
+        "Subtle": {
+          "Blue": {
+            "value": "#005dba",
+            "type": "color",
+            "description": "For inputs that can be selected or deselected, use this colour as the indicator fill for the rest state"
+          },
+          "Green": {
+            "value": "#00633d",
+            "type": "color",
+            "description": "For inputs that can be selected or deselected, use this colour as the indicator fill for the rest state"
+          },
+          "Red": {
+            "value": "#c50b30",
+            "type": "color",
+            "description": "For inputs that can be selected or deselected, use this colour as the indicator fill for the rest state"
+          },
+          "Yellow": {
+            "value": "#c86426",
+            "type": "color",
+            "description": "For inputs that can be selected or deselected, use this colour as the indicator fill for the rest state"
+          }
+        },
+        "Bold": {
+          "Blue": {
+            "value": "#005dba",
+            "type": "color",
+            "description": "For inputs that can be selected or deselected, use this colour as the indicator fill for the rest state"
+          },
+          "Green": {
+            "value": "#00633d",
+            "type": "color",
+            "description": "For inputs that can be selected or deselected, use this colour as the indicator fill for the rest state"
+          },
+          "Red": {
+            "value": "#c50b30",
+            "type": "color",
+            "description": "For inputs that can be selected or deselected, use this colour as the indicator fill for the rest state"
+          },
+          "Yellow": {
+            "value": "#c86426",
+            "type": "color",
+            "description": "For inputs that can be selected or deselected, use this colour as the indicator fill for the rest state"
+          }
+        },
+        "Neutral inverse": {
+          "Blue": {
+            "value": "#005dba",
+            "type": "color",
+            "description": "For inputs that can be selected or deselected, use this colour as the indicator fill for the rest state"
+          },
+          "Green": {
+            "value": "#00633d",
+            "type": "color",
+            "description": "For inputs that can be selected or deselected, use this colour as the indicator fill for the rest state"
+          },
+          "Red": {
+            "value": "#c50b30",
+            "type": "color",
+            "description": "For inputs that can be selected or deselected, use this colour as the indicator fill for the rest state"
+          },
+          "Yellow": {
+            "value": "#c86426",
+            "type": "color",
+            "description": "For inputs that can be selected or deselected, use this colour as the indicator fill for the rest state"
           }
         }
       },
@@ -15379,6 +14905,96 @@
           }
         }
       },
+      "indicator-colour": {
+        "Neutral": {
+          "Blue": {
+            "value": "#005dba",
+            "type": "color",
+            "description": "For inputs that can be selected or deselected, use this colour as the indicator fill for the hover state"
+          },
+          "Green": {
+            "value": "#00633d",
+            "type": "color",
+            "description": "For inputs that can be selected or deselected, use this colour as the indicator fill for the hover state"
+          },
+          "Red": {
+            "value": "#c50b30",
+            "type": "color",
+            "description": "For inputs that can be selected or deselected, use this colour as the indicator fill for the hover state"
+          },
+          "Yellow": {
+            "value": "#c86426",
+            "type": "color",
+            "description": "For inputs that can be selected or deselected, use this colour as the indicator fill for the hover state"
+          }
+        },
+        "Subtle": {
+          "Blue": {
+            "value": "#005dba",
+            "type": "color",
+            "description": "For inputs that can be selected or deselected, use this colour as the indicator fill for the hover state"
+          },
+          "Green": {
+            "value": "#00633d",
+            "type": "color",
+            "description": "For inputs that can be selected or deselected, use this colour as the indicator fill for the hover state"
+          },
+          "Red": {
+            "value": "#c50b30",
+            "type": "color",
+            "description": "For inputs that can be selected or deselected, use this colour as the indicator fill for the hover state"
+          },
+          "Yellow": {
+            "value": "#c86426",
+            "type": "color",
+            "description": "For inputs that can be selected or deselected, use this colour as the indicator fill for the hover state"
+          }
+        },
+        "Bold": {
+          "Blue": {
+            "value": "#005dba",
+            "type": "color",
+            "description": "For inputs that can be selected or deselected, use this colour as the indicator fill for the hover state"
+          },
+          "Green": {
+            "value": "#00633d",
+            "type": "color",
+            "description": "For inputs that can be selected or deselected, use this colour as the indicator fill for the hover state"
+          },
+          "Red": {
+            "value": "#c50b30",
+            "type": "color",
+            "description": "For inputs that can be selected or deselected, use this colour as the indicator fill for the hover state"
+          },
+          "Yellow": {
+            "value": "#c86426",
+            "type": "color",
+            "description": "For inputs that can be selected or deselected, use this colour as the indicator fill for the hover state"
+          }
+        },
+        "Neutral inverse": {
+          "Blue": {
+            "value": "#005dba",
+            "type": "color",
+            "description": "For inputs that can be selected or deselected, use this colour as the indicator fill for the hover state"
+          },
+          "Green": {
+            "value": "#00633d",
+            "type": "color",
+            "description": "For inputs that can be selected or deselected, use this colour as the indicator fill for the hover state"
+          },
+          "Red": {
+            "value": "#c50b30",
+            "type": "color",
+            "description": "For inputs that can be selected or deselected, use this colour as the indicator fill for the hover state"
+          },
+          "Yellow": {
+            "value": "#c86426",
+            "type": "color",
+            "description": "For inputs that can be selected or deselected, use this colour as the indicator fill for the hover state"
+          }
+        }
+      },
       "border-colour": {
         "Neutral": {
           "Blue": {
@@ -15530,37 +15146,37 @@
       "border-width": {
         "Neutral": {
           "Blue": {
-            "value": 2,
+            "value": 1.5,
             "type": "borderWidth"
           },
           "Green": {
-            "value": 2,
+            "value": 1.5,
             "type": "borderWidth"
           },
           "Red": {
-            "value": 2,
+            "value": 1.5,
             "type": "borderWidth"
           },
           "Yellow": {
-            "value": 2,
+            "value": 1.5,
             "type": "borderWidth"
           }
         },
         "Subtle": {
           "Blue": {
-            "value": 2,
+            "value": 1.5,
             "type": "borderWidth"
           },
           "Green": {
-            "value": 2,
+            "value": 1.5,
             "type": "borderWidth"
           },
           "Red": {
-            "value": 2,
+            "value": 1.5,
             "type": "borderWidth"
           },
           "Yellow": {
-            "value": 2,
+            "value": 1.5,
             "type": "borderWidth"
           }
         },
@@ -15584,19 +15200,19 @@
         },
         "Neutral inverse": {
           "Blue": {
-            "value": 2,
+            "value": 1.5,
             "type": "borderWidth"
           },
           "Green": {
-            "value": 2,
+            "value": 1.5,
             "type": "borderWidth"
           },
           "Red": {
-            "value": 2,
+            "value": 1.5,
             "type": "borderWidth"
           },
           "Yellow": {
-            "value": 2,
+            "value": 1.5,
             "type": "borderWidth"
           }
         }
@@ -15674,6 +15290,96 @@
           "Yellow": {
             "value": "#ffffff",
             "type": "color"
+          }
+        }
+      },
+      "indicator-colour": {
+        "Neutral": {
+          "Blue": {
+            "value": "#005dba",
+            "type": "color",
+            "description": "For inputs that can be selected or deselected, use this colour as the indicator fill for the focus state"
+          },
+          "Green": {
+            "value": "#00633d",
+            "type": "color",
+            "description": "For inputs that can be selected or deselected, use this colour as the indicator fill for the focus state"
+          },
+          "Red": {
+            "value": "#c50b30",
+            "type": "color",
+            "description": "For inputs that can be selected or deselected, use this colour as the indicator fill for the focus state"
+          },
+          "Yellow": {
+            "value": "#c86426",
+            "type": "color",
+            "description": "For inputs that can be selected or deselected, use this colour as the indicator fill for the focus state"
+          }
+        },
+        "Subtle": {
+          "Blue": {
+            "value": "#005dba",
+            "type": "color",
+            "description": "For inputs that can be selected or deselected, use this colour as the indicator fill for the focus state"
+          },
+          "Green": {
+            "value": "#00633d",
+            "type": "color",
+            "description": "For inputs that can be selected or deselected, use this colour as the indicator fill for the focus state"
+          },
+          "Red": {
+            "value": "#c50b30",
+            "type": "color",
+            "description": "For inputs that can be selected or deselected, use this colour as the indicator fill for the focus state"
+          },
+          "Yellow": {
+            "value": "#c86426",
+            "type": "color",
+            "description": "For inputs that can be selected or deselected, use this colour as the indicator fill for the focus state"
+          }
+        },
+        "Bold": {
+          "Blue": {
+            "value": "#005dba",
+            "type": "color",
+            "description": "For inputs that can be selected or deselected, use this colour as the indicator fill for the focus state"
+          },
+          "Green": {
+            "value": "#00633d",
+            "type": "color",
+            "description": "For inputs that can be selected or deselected, use this colour as the indicator fill for the focus state"
+          },
+          "Red": {
+            "value": "#c50b30",
+            "type": "color",
+            "description": "For inputs that can be selected or deselected, use this colour as the indicator fill for the focus state"
+          },
+          "Yellow": {
+            "value": "#c86426",
+            "type": "color",
+            "description": "For inputs that can be selected or deselected, use this colour as the indicator fill for the focus state"
+          }
+        },
+        "Neutral inverse": {
+          "Blue": {
+            "value": "#005dba",
+            "type": "color",
+            "description": "For inputs that can be selected or deselected, use this colour as the indicator fill for the focus state"
+          },
+          "Green": {
+            "value": "#00633d",
+            "type": "color",
+            "description": "For inputs that can be selected or deselected, use this colour as the indicator fill for the focus state"
+          },
+          "Red": {
+            "value": "#c50b30",
+            "type": "color",
+            "description": "For inputs that can be selected or deselected, use this colour as the indicator fill for the focus state"
+          },
+          "Yellow": {
+            "value": "#c86426",
+            "type": "color",
+            "description": "For inputs that can be selected or deselected, use this colour as the indicator fill for the focus state"
           }
         }
       },
@@ -15975,6 +15681,96 @@
           }
         }
       },
+      "indicator-colour": {
+        "Neutral": {
+          "Blue": {
+            "value": "#c50b30",
+            "type": "color",
+            "description": "For inputs that can be selected or deselected, use this colour as the indicator fill for the error state"
+          },
+          "Green": {
+            "value": "#c50b30",
+            "type": "color",
+            "description": "For inputs that can be selected or deselected, use this colour as the indicator fill for the error state"
+          },
+          "Red": {
+            "value": "#c50b30",
+            "type": "color",
+            "description": "For inputs that can be selected or deselected, use this colour as the indicator fill for the error state"
+          },
+          "Yellow": {
+            "value": "#c50b30",
+            "type": "color",
+            "description": "For inputs that can be selected or deselected, use this colour as the indicator fill for the error state"
+          }
+        },
+        "Subtle": {
+          "Blue": {
+            "value": "#c50b30",
+            "type": "color",
+            "description": "For inputs that can be selected or deselected, use this colour as the indicator fill for the error state"
+          },
+          "Green": {
+            "value": "#c50b30",
+            "type": "color",
+            "description": "For inputs that can be selected or deselected, use this colour as the indicator fill for the error state"
+          },
+          "Red": {
+            "value": "#c50b30",
+            "type": "color",
+            "description": "For inputs that can be selected or deselected, use this colour as the indicator fill for the error state"
+          },
+          "Yellow": {
+            "value": "#c50b30",
+            "type": "color",
+            "description": "For inputs that can be selected or deselected, use this colour as the indicator fill for the error state"
+          }
+        },
+        "Bold": {
+          "Blue": {
+            "value": "#c50b30",
+            "type": "color",
+            "description": "For inputs that can be selected or deselected, use this colour as the indicator fill for the error state"
+          },
+          "Green": {
+            "value": "#c50b30",
+            "type": "color",
+            "description": "For inputs that can be selected or deselected, use this colour as the indicator fill for the error state"
+          },
+          "Red": {
+            "value": "#c50b30",
+            "type": "color",
+            "description": "For inputs that can be selected or deselected, use this colour as the indicator fill for the error state"
+          },
+          "Yellow": {
+            "value": "#c50b30",
+            "type": "color",
+            "description": "For inputs that can be selected or deselected, use this colour as the indicator fill for the error state"
+          }
+        },
+        "Neutral inverse": {
+          "Blue": {
+            "value": "#c50b30",
+            "type": "color",
+            "description": "For inputs that can be selected or deselected, use this colour as the indicator fill for the error state"
+          },
+          "Green": {
+            "value": "#c50b30",
+            "type": "color",
+            "description": "For inputs that can be selected or deselected, use this colour as the indicator fill for the error state"
+          },
+          "Red": {
+            "value": "#c50b30",
+            "type": "color",
+            "description": "For inputs that can be selected or deselected, use this colour as the indicator fill for the error state"
+          },
+          "Yellow": {
+            "value": "#c50b30",
+            "type": "color",
+            "description": "For inputs that can be selected or deselected, use this colour as the indicator fill for the error state"
+          }
+        }
+      },
       "border-colour": {
         "Neutral": {
           "Blue": {
@@ -16126,73 +15922,73 @@
       "border-width": {
         "Neutral": {
           "Blue": {
-            "value": 4,
+            "value": 2,
             "type": "borderWidth"
           },
           "Green": {
-            "value": 4,
+            "value": 2,
             "type": "borderWidth"
           },
           "Red": {
-            "value": 4,
+            "value": 2,
             "type": "borderWidth"
           },
           "Yellow": {
-            "value": 4,
+            "value": 2,
             "type": "borderWidth"
           }
         },
         "Subtle": {
           "Blue": {
-            "value": 4,
+            "value": 2,
             "type": "borderWidth"
           },
           "Green": {
-            "value": 4,
+            "value": 2,
             "type": "borderWidth"
           },
           "Red": {
-            "value": 4,
+            "value": 2,
             "type": "borderWidth"
           },
           "Yellow": {
-            "value": 4,
+            "value": 2,
             "type": "borderWidth"
           }
         },
         "Bold": {
           "Blue": {
-            "value": 4,
+            "value": 2,
             "type": "borderWidth"
           },
           "Green": {
-            "value": 4,
+            "value": 2,
             "type": "borderWidth"
           },
           "Red": {
-            "value": 4,
+            "value": 2,
             "type": "borderWidth"
           },
           "Yellow": {
-            "value": 4,
+            "value": 2,
             "type": "borderWidth"
           }
         },
         "Neutral inverse": {
           "Blue": {
-            "value": 4,
+            "value": 2,
             "type": "borderWidth"
           },
           "Green": {
-            "value": 4,
+            "value": 2,
             "type": "borderWidth"
           },
           "Red": {
-            "value": 4,
+            "value": 2,
             "type": "borderWidth"
           },
           "Yellow": {
-            "value": 4,
+            "value": 2,
             "type": "borderWidth"
           }
         }
@@ -16220,37 +16016,37 @@
         },
         "Subtle": {
           "Blue": {
-            "value": "#ffffff",
+            "value": "#aee1f7",
             "type": "color"
           },
           "Green": {
-            "value": "#ffffff",
+            "value": "#caeedd",
             "type": "color"
           },
           "Red": {
-            "value": "#ffffff",
+            "value": "#ffd5d2",
             "type": "color"
           },
           "Yellow": {
-            "value": "#ffffff",
+            "value": "#fff9c7",
             "type": "color"
           }
         },
         "Bold": {
           "Blue": {
-            "value": "#ffffff",
+            "value": "#005dba",
             "type": "color"
           },
           "Green": {
-            "value": "#ffffff",
+            "value": "#00633d",
             "type": "color"
           },
           "Red": {
-            "value": "#ffffff",
+            "value": "#c50b30",
             "type": "color"
           },
           "Yellow": {
-            "value": "#ffffff",
+            "value": "#ffb600",
             "type": "color"
           }
         },
@@ -16270,6 +16066,96 @@
           "Yellow": {
             "value": "#ffffff",
             "type": "color"
+          }
+        }
+      },
+      "indicator-colour": {
+        "Neutral": {
+          "Blue": {
+            "value": "#d3d3d3",
+            "type": "color",
+            "description": "For inputs that can be selected or deselected, use this colour as the indicator fill for the disabled state"
+          },
+          "Green": {
+            "value": "#d3d3d3",
+            "type": "color",
+            "description": "For inputs that can be selected or deselected, use this colour as the indicator fill for the disabled state"
+          },
+          "Red": {
+            "value": "#d3d3d3",
+            "type": "color",
+            "description": "For inputs that can be selected or deselected, use this colour as the indicator fill for the disabled state"
+          },
+          "Yellow": {
+            "value": "#d3d3d3",
+            "type": "color",
+            "description": "For inputs that can be selected or deselected, use this colour as the indicator fill for the disabled state"
+          }
+        },
+        "Subtle": {
+          "Blue": {
+            "value": "#d3d3d3",
+            "type": "color",
+            "description": "For inputs that can be selected or deselected, use this colour as the indicator fill for the disabled state"
+          },
+          "Green": {
+            "value": "#d3d3d3",
+            "type": "color",
+            "description": "For inputs that can be selected or deselected, use this colour as the indicator fill for the disabled state"
+          },
+          "Red": {
+            "value": "#d3d3d3",
+            "type": "color",
+            "description": "For inputs that can be selected or deselected, use this colour as the indicator fill for the disabled state"
+          },
+          "Yellow": {
+            "value": "#d3d3d3",
+            "type": "color",
+            "description": "For inputs that can be selected or deselected, use this colour as the indicator fill for the disabled state"
+          }
+        },
+        "Bold": {
+          "Blue": {
+            "value": "#d3d3d3",
+            "type": "color",
+            "description": "For inputs that can be selected or deselected, use this colour as the indicator fill for the disabled state"
+          },
+          "Green": {
+            "value": "#d3d3d3",
+            "type": "color",
+            "description": "For inputs that can be selected or deselected, use this colour as the indicator fill for the disabled state"
+          },
+          "Red": {
+            "value": "#d3d3d3",
+            "type": "color",
+            "description": "For inputs that can be selected or deselected, use this colour as the indicator fill for the disabled state"
+          },
+          "Yellow": {
+            "value": "#d3d3d3",
+            "type": "color",
+            "description": "For inputs that can be selected or deselected, use this colour as the indicator fill for the disabled state"
+          }
+        },
+        "Neutral inverse": {
+          "Blue": {
+            "value": "#d3d3d3",
+            "type": "color",
+            "description": "For inputs that can be selected or deselected, use this colour as the indicator fill for the disabled state"
+          },
+          "Green": {
+            "value": "#d3d3d3",
+            "type": "color",
+            "description": "For inputs that can be selected or deselected, use this colour as the indicator fill for the disabled state"
+          },
+          "Red": {
+            "value": "#d3d3d3",
+            "type": "color",
+            "description": "For inputs that can be selected or deselected, use this colour as the indicator fill for the disabled state"
+          },
+          "Yellow": {
+            "value": "#d3d3d3",
+            "type": "color",
+            "description": "For inputs that can be selected or deselected, use this colour as the indicator fill for the disabled state"
           }
         }
       },
@@ -16585,598 +16471,6 @@
             "type": "color",
             "description": "Use for text and icons for info, success, warning and error states"
           }
-        }
-      }
-    },
-    "border-radius-sm": {
-      "Neutral": {
-        "Blue": {
-          "value": 12,
-          "type": "borderRadius"
-        },
-        "Green": {
-          "value": 12,
-          "type": "borderRadius"
-        },
-        "Red": {
-          "value": 12,
-          "type": "borderRadius"
-        },
-        "Yellow": {
-          "value": 12,
-          "type": "borderRadius"
-        }
-      },
-      "Subtle": {
-        "Blue": {
-          "value": 12,
-          "type": "borderRadius"
-        },
-        "Green": {
-          "value": 12,
-          "type": "borderRadius"
-        },
-        "Red": {
-          "value": 12,
-          "type": "borderRadius"
-        },
-        "Yellow": {
-          "value": 12,
-          "type": "borderRadius"
-        }
-      },
-      "Bold": {
-        "Blue": {
-          "value": 12,
-          "type": "borderRadius"
-        },
-        "Green": {
-          "value": 12,
-          "type": "borderRadius"
-        },
-        "Red": {
-          "value": 12,
-          "type": "borderRadius"
-        },
-        "Yellow": {
-          "value": 12,
-          "type": "borderRadius"
-        }
-      },
-      "Neutral inverse": {
-        "Blue": {
-          "value": 12,
-          "type": "borderRadius"
-        },
-        "Green": {
-          "value": 12,
-          "type": "borderRadius"
-        },
-        "Red": {
-          "value": 12,
-          "type": "borderRadius"
-        },
-        "Yellow": {
-          "value": 12,
-          "type": "borderRadius"
-        }
-      }
-    },
-    "gap-sm": {
-      "Neutral": {
-        "Blue": {
-          "value": 4,
-          "type": "sizing"
-        },
-        "Green": {
-          "value": 4,
-          "type": "sizing"
-        },
-        "Red": {
-          "value": 4,
-          "type": "sizing"
-        },
-        "Yellow": {
-          "value": 4,
-          "type": "sizing"
-        }
-      },
-      "Subtle": {
-        "Blue": {
-          "value": 4,
-          "type": "sizing"
-        },
-        "Green": {
-          "value": 4,
-          "type": "sizing"
-        },
-        "Red": {
-          "value": 4,
-          "type": "sizing"
-        },
-        "Yellow": {
-          "value": 4,
-          "type": "sizing"
-        }
-      },
-      "Bold": {
-        "Blue": {
-          "value": 4,
-          "type": "sizing"
-        },
-        "Green": {
-          "value": 4,
-          "type": "sizing"
-        },
-        "Red": {
-          "value": 4,
-          "type": "sizing"
-        },
-        "Yellow": {
-          "value": 4,
-          "type": "sizing"
-        }
-      },
-      "Neutral inverse": {
-        "Blue": {
-          "value": 4,
-          "type": "sizing"
-        },
-        "Green": {
-          "value": 4,
-          "type": "sizing"
-        },
-        "Red": {
-          "value": 4,
-          "type": "sizing"
-        },
-        "Yellow": {
-          "value": 4,
-          "type": "sizing"
-        }
-      }
-    },
-    "gap-md": {
-      "Neutral": {
-        "Blue": {
-          "value": 8,
-          "type": "sizing"
-        },
-        "Green": {
-          "value": 8,
-          "type": "sizing"
-        },
-        "Red": {
-          "value": 8,
-          "type": "sizing"
-        },
-        "Yellow": {
-          "value": 8,
-          "type": "sizing"
-        }
-      },
-      "Subtle": {
-        "Blue": {
-          "value": 8,
-          "type": "sizing"
-        },
-        "Green": {
-          "value": 8,
-          "type": "sizing"
-        },
-        "Red": {
-          "value": 8,
-          "type": "sizing"
-        },
-        "Yellow": {
-          "value": 8,
-          "type": "sizing"
-        }
-      },
-      "Bold": {
-        "Blue": {
-          "value": 8,
-          "type": "sizing"
-        },
-        "Green": {
-          "value": 8,
-          "type": "sizing"
-        },
-        "Red": {
-          "value": 8,
-          "type": "sizing"
-        },
-        "Yellow": {
-          "value": 8,
-          "type": "sizing"
-        }
-      },
-      "Neutral inverse": {
-        "Blue": {
-          "value": 8,
-          "type": "sizing"
-        },
-        "Green": {
-          "value": 8,
-          "type": "sizing"
-        },
-        "Red": {
-          "value": 8,
-          "type": "sizing"
-        },
-        "Yellow": {
-          "value": 8,
-          "type": "sizing"
-        }
-      }
-    },
-    "gap-lg": {
-      "Neutral": {
-        "Blue": {
-          "value": 12,
-          "type": "sizing"
-        },
-        "Green": {
-          "value": 12,
-          "type": "sizing"
-        },
-        "Red": {
-          "value": 12,
-          "type": "sizing"
-        },
-        "Yellow": {
-          "value": 12,
-          "type": "sizing"
-        }
-      },
-      "Subtle": {
-        "Blue": {
-          "value": 12,
-          "type": "sizing"
-        },
-        "Green": {
-          "value": 12,
-          "type": "sizing"
-        },
-        "Red": {
-          "value": 12,
-          "type": "sizing"
-        },
-        "Yellow": {
-          "value": 12,
-          "type": "sizing"
-        }
-      },
-      "Bold": {
-        "Blue": {
-          "value": 12,
-          "type": "sizing"
-        },
-        "Green": {
-          "value": 12,
-          "type": "sizing"
-        },
-        "Red": {
-          "value": 12,
-          "type": "sizing"
-        },
-        "Yellow": {
-          "value": 12,
-          "type": "sizing"
-        }
-      },
-      "Neutral inverse": {
-        "Blue": {
-          "value": 12,
-          "type": "sizing"
-        },
-        "Green": {
-          "value": 12,
-          "type": "sizing"
-        },
-        "Red": {
-          "value": 12,
-          "type": "sizing"
-        },
-        "Yellow": {
-          "value": 12,
-          "type": "sizing"
-        }
-      }
-    },
-    "gap-xl": {
-      "Neutral": {
-        "Blue": {
-          "value": 16,
-          "type": "sizing"
-        },
-        "Green": {
-          "value": 16,
-          "type": "sizing"
-        },
-        "Red": {
-          "value": 16,
-          "type": "sizing"
-        },
-        "Yellow": {
-          "value": 16,
-          "type": "sizing"
-        }
-      },
-      "Subtle": {
-        "Blue": {
-          "value": 16,
-          "type": "sizing"
-        },
-        "Green": {
-          "value": 16,
-          "type": "sizing"
-        },
-        "Red": {
-          "value": 16,
-          "type": "sizing"
-        },
-        "Yellow": {
-          "value": 16,
-          "type": "sizing"
-        }
-      },
-      "Bold": {
-        "Blue": {
-          "value": 16,
-          "type": "sizing"
-        },
-        "Green": {
-          "value": 16,
-          "type": "sizing"
-        },
-        "Red": {
-          "value": 16,
-          "type": "sizing"
-        },
-        "Yellow": {
-          "value": 16,
-          "type": "sizing"
-        }
-      },
-      "Neutral inverse": {
-        "Blue": {
-          "value": 16,
-          "type": "sizing"
-        },
-        "Green": {
-          "value": 16,
-          "type": "sizing"
-        },
-        "Red": {
-          "value": 16,
-          "type": "sizing"
-        },
-        "Yellow": {
-          "value": 16,
-          "type": "sizing"
-        }
-      }
-    },
-    "padding-sm": {
-      "Neutral": {
-        "Blue": {
-          "value": 8,
-          "type": "spacing"
-        },
-        "Green": {
-          "value": 8,
-          "type": "spacing"
-        },
-        "Red": {
-          "value": 8,
-          "type": "spacing"
-        },
-        "Yellow": {
-          "value": 8,
-          "type": "spacing"
-        }
-      },
-      "Subtle": {
-        "Blue": {
-          "value": 8,
-          "type": "spacing"
-        },
-        "Green": {
-          "value": 8,
-          "type": "spacing"
-        },
-        "Red": {
-          "value": 8,
-          "type": "spacing"
-        },
-        "Yellow": {
-          "value": 8,
-          "type": "spacing"
-        }
-      },
-      "Bold": {
-        "Blue": {
-          "value": 8,
-          "type": "spacing"
-        },
-        "Green": {
-          "value": 8,
-          "type": "spacing"
-        },
-        "Red": {
-          "value": 8,
-          "type": "spacing"
-        },
-        "Yellow": {
-          "value": 8,
-          "type": "spacing"
-        }
-      },
-      "Neutral inverse": {
-        "Blue": {
-          "value": 8,
-          "type": "spacing"
-        },
-        "Green": {
-          "value": 8,
-          "type": "spacing"
-        },
-        "Red": {
-          "value": 8,
-          "type": "spacing"
-        },
-        "Yellow": {
-          "value": 8,
-          "type": "spacing"
-        }
-      }
-    },
-    "padding-md": {
-      "Neutral": {
-        "Blue": {
-          "value": 12,
-          "type": "spacing"
-        },
-        "Green": {
-          "value": 12,
-          "type": "spacing"
-        },
-        "Red": {
-          "value": 12,
-          "type": "spacing"
-        },
-        "Yellow": {
-          "value": 12,
-          "type": "spacing"
-        }
-      },
-      "Subtle": {
-        "Blue": {
-          "value": 12,
-          "type": "spacing"
-        },
-        "Green": {
-          "value": 12,
-          "type": "spacing"
-        },
-        "Red": {
-          "value": 12,
-          "type": "spacing"
-        },
-        "Yellow": {
-          "value": 12,
-          "type": "spacing"
-        }
-      },
-      "Bold": {
-        "Blue": {
-          "value": 12,
-          "type": "spacing"
-        },
-        "Green": {
-          "value": 12,
-          "type": "spacing"
-        },
-        "Red": {
-          "value": 12,
-          "type": "spacing"
-        },
-        "Yellow": {
-          "value": 12,
-          "type": "spacing"
-        }
-      },
-      "Neutral inverse": {
-        "Blue": {
-          "value": 12,
-          "type": "spacing"
-        },
-        "Green": {
-          "value": 12,
-          "type": "spacing"
-        },
-        "Red": {
-          "value": 12,
-          "type": "spacing"
-        },
-        "Yellow": {
-          "value": 12,
-          "type": "spacing"
-        }
-      }
-    },
-    "padding-lg": {
-      "Neutral": {
-        "Blue": {
-          "value": 16,
-          "type": "spacing"
-        },
-        "Green": {
-          "value": 16,
-          "type": "spacing"
-        },
-        "Red": {
-          "value": 16,
-          "type": "spacing"
-        },
-        "Yellow": {
-          "value": 16,
-          "type": "spacing"
-        }
-      },
-      "Subtle": {
-        "Blue": {
-          "value": 16,
-          "type": "spacing"
-        },
-        "Green": {
-          "value": 16,
-          "type": "spacing"
-        },
-        "Red": {
-          "value": 16,
-          "type": "spacing"
-        },
-        "Yellow": {
-          "value": 16,
-          "type": "spacing"
-        }
-      },
-      "Bold": {
-        "Blue": {
-          "value": 16,
-          "type": "spacing"
-        },
-        "Green": {
-          "value": 16,
-          "type": "spacing"
-        },
-        "Red": {
-          "value": 16,
-          "type": "spacing"
-        },
-        "Yellow": {
-          "value": 16,
-          "type": "spacing"
-        }
-      },
-      "Neutral inverse": {
-        "Blue": {
-          "value": 16,
-          "type": "spacing"
-        },
-        "Green": {
-          "value": 16,
-          "type": "spacing"
-        },
-        "Red": {
-          "value": 16,
-          "type": "spacing"
-        },
-        "Yellow": {
-          "value": 16,
-          "type": "spacing"
         }
       }
     }
@@ -19244,7 +18538,7 @@
         }
       }
     },
-    "content": {
+    "common": {
       "labelled": {
         "min-height": {
           "Neutral": {
@@ -26621,6 +25915,2016 @@
         "Yellow": {
           "value": 16,
           "type": "sizing"
+        }
+      }
+    }
+  },
+  "link-menu": {
+    "border-colour": {
+      "Neutral": {
+        "Blue": {
+          "value": "#d3d3d3",
+          "type": "color"
+        },
+        "Green": {
+          "value": "#d3d3d3",
+          "type": "color"
+        },
+        "Red": {
+          "value": "#d3d3d3",
+          "type": "color"
+        },
+        "Yellow": {
+          "value": "#d3d3d3",
+          "type": "color"
+        }
+      },
+      "Neutral inverse": {
+        "Blue": {
+          "value": "#d3d3d3",
+          "type": "color"
+        },
+        "Green": {
+          "value": "#d3d3d3",
+          "type": "color"
+        },
+        "Red": {
+          "value": "#d3d3d3",
+          "type": "color"
+        },
+        "Yellow": {
+          "value": "#d3d3d3",
+          "type": "color"
+        }
+      },
+      "Subtle": {
+        "Blue": {
+          "value": "#001d6e",
+          "type": "color"
+        },
+        "Green": {
+          "value": "#01312e",
+          "type": "color"
+        },
+        "Red": {
+          "value": "#940824",
+          "type": "color"
+        },
+        "Yellow": {
+          "value": "#c86426",
+          "type": "color"
+        }
+      },
+      "Bold": {
+        "Blue": {
+          "value": "#f4f4f4",
+          "type": "color"
+        },
+        "Green": {
+          "value": "#f4f4f4",
+          "type": "color"
+        },
+        "Red": {
+          "value": "#f4f4f4",
+          "type": "color"
+        },
+        "Yellow": {
+          "value": "#1d1d1b",
+          "type": "color"
+        }
+      }
+    },
+    "border-width": {
+      "Neutral": {
+        "Blue": {
+          "value": 1,
+          "type": "borderWidth"
+        },
+        "Green": {
+          "value": 1,
+          "type": "borderWidth"
+        },
+        "Red": {
+          "value": 1,
+          "type": "borderWidth"
+        },
+        "Yellow": {
+          "value": 1,
+          "type": "borderWidth"
+        }
+      },
+      "Neutral inverse": {
+        "Blue": {
+          "value": 1,
+          "type": "borderWidth"
+        },
+        "Green": {
+          "value": 1,
+          "type": "borderWidth"
+        },
+        "Red": {
+          "value": 1,
+          "type": "borderWidth"
+        },
+        "Yellow": {
+          "value": 1,
+          "type": "borderWidth"
+        }
+      },
+      "Subtle": {
+        "Blue": {
+          "value": 1,
+          "type": "borderWidth"
+        },
+        "Green": {
+          "value": 1,
+          "type": "borderWidth"
+        },
+        "Red": {
+          "value": 1,
+          "type": "borderWidth"
+        },
+        "Yellow": {
+          "value": 1,
+          "type": "borderWidth"
+        }
+      },
+      "Bold": {
+        "Blue": {
+          "value": 1,
+          "type": "borderWidth"
+        },
+        "Green": {
+          "value": 1,
+          "type": "borderWidth"
+        },
+        "Red": {
+          "value": 1,
+          "type": "borderWidth"
+        },
+        "Yellow": {
+          "value": 1,
+          "type": "borderWidth"
+        }
+      }
+    },
+    "border-radius": {
+      "Neutral": {
+        "Blue": {
+          "value": 16,
+          "type": "borderRadius"
+        },
+        "Green": {
+          "value": 16,
+          "type": "borderRadius"
+        },
+        "Red": {
+          "value": 16,
+          "type": "borderRadius"
+        },
+        "Yellow": {
+          "value": 16,
+          "type": "borderRadius"
+        }
+      },
+      "Neutral inverse": {
+        "Blue": {
+          "value": 16,
+          "type": "borderRadius"
+        },
+        "Green": {
+          "value": 16,
+          "type": "borderRadius"
+        },
+        "Red": {
+          "value": 16,
+          "type": "borderRadius"
+        },
+        "Yellow": {
+          "value": 16,
+          "type": "borderRadius"
+        }
+      },
+      "Subtle": {
+        "Blue": {
+          "value": 16,
+          "type": "borderRadius"
+        },
+        "Green": {
+          "value": 16,
+          "type": "borderRadius"
+        },
+        "Red": {
+          "value": 16,
+          "type": "borderRadius"
+        },
+        "Yellow": {
+          "value": 16,
+          "type": "borderRadius"
+        }
+      },
+      "Bold": {
+        "Blue": {
+          "value": 16,
+          "type": "borderRadius"
+        },
+        "Green": {
+          "value": 16,
+          "type": "borderRadius"
+        },
+        "Red": {
+          "value": 16,
+          "type": "borderRadius"
+        },
+        "Yellow": {
+          "value": 16,
+          "type": "borderRadius"
+        }
+      }
+    }
+  },
+  "link-menu-item": {
+    "padding-top": {
+      "Neutral": {
+        "Blue": {
+          "value": 16,
+          "type": "spacing"
+        },
+        "Green": {
+          "value": 16,
+          "type": "spacing"
+        },
+        "Red": {
+          "value": 16,
+          "type": "spacing"
+        },
+        "Yellow": {
+          "value": 16,
+          "type": "spacing"
+        }
+      },
+      "Neutral inverse": {
+        "Blue": {
+          "value": 16,
+          "type": "spacing"
+        },
+        "Green": {
+          "value": 16,
+          "type": "spacing"
+        },
+        "Red": {
+          "value": 16,
+          "type": "spacing"
+        },
+        "Yellow": {
+          "value": 16,
+          "type": "spacing"
+        }
+      },
+      "Subtle": {
+        "Blue": {
+          "value": 16,
+          "type": "spacing"
+        },
+        "Green": {
+          "value": 16,
+          "type": "spacing"
+        },
+        "Red": {
+          "value": 16,
+          "type": "spacing"
+        },
+        "Yellow": {
+          "value": 16,
+          "type": "spacing"
+        }
+      },
+      "Bold": {
+        "Blue": {
+          "value": 16,
+          "type": "spacing"
+        },
+        "Green": {
+          "value": 16,
+          "type": "spacing"
+        },
+        "Red": {
+          "value": 16,
+          "type": "spacing"
+        },
+        "Yellow": {
+          "value": 16,
+          "type": "spacing"
+        }
+      }
+    },
+    "padding-bottom": {
+      "Neutral": {
+        "Blue": {
+          "value": 16,
+          "type": "spacing"
+        },
+        "Green": {
+          "value": 16,
+          "type": "spacing"
+        },
+        "Red": {
+          "value": 16,
+          "type": "spacing"
+        },
+        "Yellow": {
+          "value": 16,
+          "type": "spacing"
+        }
+      },
+      "Neutral inverse": {
+        "Blue": {
+          "value": 16,
+          "type": "spacing"
+        },
+        "Green": {
+          "value": 16,
+          "type": "spacing"
+        },
+        "Red": {
+          "value": 16,
+          "type": "spacing"
+        },
+        "Yellow": {
+          "value": 16,
+          "type": "spacing"
+        }
+      },
+      "Subtle": {
+        "Blue": {
+          "value": 16,
+          "type": "spacing"
+        },
+        "Green": {
+          "value": 16,
+          "type": "spacing"
+        },
+        "Red": {
+          "value": 16,
+          "type": "spacing"
+        },
+        "Yellow": {
+          "value": 16,
+          "type": "spacing"
+        }
+      },
+      "Bold": {
+        "Blue": {
+          "value": 16,
+          "type": "spacing"
+        },
+        "Green": {
+          "value": 16,
+          "type": "spacing"
+        },
+        "Red": {
+          "value": 16,
+          "type": "spacing"
+        },
+        "Yellow": {
+          "value": 16,
+          "type": "spacing"
+        }
+      }
+    },
+    "padding-left": {
+      "Neutral": {
+        "Blue": {
+          "value": 16,
+          "type": "spacing"
+        },
+        "Green": {
+          "value": 16,
+          "type": "spacing"
+        },
+        "Red": {
+          "value": 16,
+          "type": "spacing"
+        },
+        "Yellow": {
+          "value": 16,
+          "type": "spacing"
+        }
+      },
+      "Neutral inverse": {
+        "Blue": {
+          "value": 16,
+          "type": "spacing"
+        },
+        "Green": {
+          "value": 16,
+          "type": "spacing"
+        },
+        "Red": {
+          "value": 16,
+          "type": "spacing"
+        },
+        "Yellow": {
+          "value": 16,
+          "type": "spacing"
+        }
+      },
+      "Subtle": {
+        "Blue": {
+          "value": 16,
+          "type": "spacing"
+        },
+        "Green": {
+          "value": 16,
+          "type": "spacing"
+        },
+        "Red": {
+          "value": 16,
+          "type": "spacing"
+        },
+        "Yellow": {
+          "value": 16,
+          "type": "spacing"
+        }
+      },
+      "Bold": {
+        "Blue": {
+          "value": 16,
+          "type": "spacing"
+        },
+        "Green": {
+          "value": 16,
+          "type": "spacing"
+        },
+        "Red": {
+          "value": 16,
+          "type": "spacing"
+        },
+        "Yellow": {
+          "value": 16,
+          "type": "spacing"
+        }
+      }
+    },
+    "padding-right": {
+      "Neutral": {
+        "Blue": {
+          "value": 8,
+          "type": "spacing"
+        },
+        "Green": {
+          "value": 8,
+          "type": "spacing"
+        },
+        "Red": {
+          "value": 8,
+          "type": "spacing"
+        },
+        "Yellow": {
+          "value": 8,
+          "type": "spacing"
+        }
+      },
+      "Neutral inverse": {
+        "Blue": {
+          "value": 8,
+          "type": "spacing"
+        },
+        "Green": {
+          "value": 8,
+          "type": "spacing"
+        },
+        "Red": {
+          "value": 8,
+          "type": "spacing"
+        },
+        "Yellow": {
+          "value": 8,
+          "type": "spacing"
+        }
+      },
+      "Subtle": {
+        "Blue": {
+          "value": 8,
+          "type": "spacing"
+        },
+        "Green": {
+          "value": 8,
+          "type": "spacing"
+        },
+        "Red": {
+          "value": 8,
+          "type": "spacing"
+        },
+        "Yellow": {
+          "value": 8,
+          "type": "spacing"
+        }
+      },
+      "Bold": {
+        "Blue": {
+          "value": 8,
+          "type": "spacing"
+        },
+        "Green": {
+          "value": 8,
+          "type": "spacing"
+        },
+        "Red": {
+          "value": 8,
+          "type": "spacing"
+        },
+        "Yellow": {
+          "value": 8,
+          "type": "spacing"
+        }
+      }
+    },
+    "gap": {
+      "Neutral": {
+        "Blue": {
+          "value": 12,
+          "type": "sizing"
+        },
+        "Green": {
+          "value": 12,
+          "type": "sizing"
+        },
+        "Red": {
+          "value": 12,
+          "type": "sizing"
+        },
+        "Yellow": {
+          "value": 12,
+          "type": "sizing"
+        }
+      },
+      "Neutral inverse": {
+        "Blue": {
+          "value": 12,
+          "type": "sizing"
+        },
+        "Green": {
+          "value": 12,
+          "type": "sizing"
+        },
+        "Red": {
+          "value": 12,
+          "type": "sizing"
+        },
+        "Yellow": {
+          "value": 12,
+          "type": "sizing"
+        }
+      },
+      "Subtle": {
+        "Blue": {
+          "value": 12,
+          "type": "sizing"
+        },
+        "Green": {
+          "value": 12,
+          "type": "sizing"
+        },
+        "Red": {
+          "value": 12,
+          "type": "sizing"
+        },
+        "Yellow": {
+          "value": 12,
+          "type": "sizing"
+        }
+      },
+      "Bold": {
+        "Blue": {
+          "value": 12,
+          "type": "sizing"
+        },
+        "Green": {
+          "value": 12,
+          "type": "sizing"
+        },
+        "Red": {
+          "value": 12,
+          "type": "sizing"
+        },
+        "Yellow": {
+          "value": 12,
+          "type": "sizing"
+        }
+      }
+    },
+    "rest": {
+      "border-colour": {
+        "Neutral": {
+          "Blue": {
+            "value": "#d3d3d3",
+            "type": "color"
+          },
+          "Green": {
+            "value": "#d3d3d3",
+            "type": "color"
+          },
+          "Red": {
+            "value": "#d3d3d3",
+            "type": "color"
+          },
+          "Yellow": {
+            "value": "#d3d3d3",
+            "type": "color"
+          }
+        },
+        "Neutral inverse": {
+          "Blue": {
+            "value": "#d3d3d3",
+            "type": "color"
+          },
+          "Green": {
+            "value": "#d3d3d3",
+            "type": "color"
+          },
+          "Red": {
+            "value": "#d3d3d3",
+            "type": "color"
+          },
+          "Yellow": {
+            "value": "#d3d3d3",
+            "type": "color"
+          }
+        },
+        "Subtle": {
+          "Blue": {
+            "value": "#001d6e",
+            "type": "color"
+          },
+          "Green": {
+            "value": "#01312e",
+            "type": "color"
+          },
+          "Red": {
+            "value": "#940824",
+            "type": "color"
+          },
+          "Yellow": {
+            "value": "#c86426",
+            "type": "color"
+          }
+        },
+        "Bold": {
+          "Blue": {
+            "value": "#f4f4f4",
+            "type": "color"
+          },
+          "Green": {
+            "value": "#f4f4f4",
+            "type": "color"
+          },
+          "Red": {
+            "value": "#f4f4f4",
+            "type": "color"
+          },
+          "Yellow": {
+            "value": "#1d1d1b",
+            "type": "color"
+          }
+        }
+      },
+      "border-width-bottom": {
+        "Neutral": {
+          "Blue": {
+            "value": 1,
+            "type": "borderWidth"
+          },
+          "Green": {
+            "value": 1,
+            "type": "borderWidth"
+          },
+          "Red": {
+            "value": 1,
+            "type": "borderWidth"
+          },
+          "Yellow": {
+            "value": 1,
+            "type": "borderWidth"
+          }
+        },
+        "Neutral inverse": {
+          "Blue": {
+            "value": 1,
+            "type": "borderWidth"
+          },
+          "Green": {
+            "value": 1,
+            "type": "borderWidth"
+          },
+          "Red": {
+            "value": 1,
+            "type": "borderWidth"
+          },
+          "Yellow": {
+            "value": 1,
+            "type": "borderWidth"
+          }
+        },
+        "Subtle": {
+          "Blue": {
+            "value": 1,
+            "type": "borderWidth"
+          },
+          "Green": {
+            "value": 1,
+            "type": "borderWidth"
+          },
+          "Red": {
+            "value": 1,
+            "type": "borderWidth"
+          },
+          "Yellow": {
+            "value": 1,
+            "type": "borderWidth"
+          }
+        },
+        "Bold": {
+          "Blue": {
+            "value": 1,
+            "type": "borderWidth"
+          },
+          "Green": {
+            "value": 1,
+            "type": "borderWidth"
+          },
+          "Red": {
+            "value": 1,
+            "type": "borderWidth"
+          },
+          "Yellow": {
+            "value": 1,
+            "type": "borderWidth"
+          }
+        }
+      },
+      "colour": {
+        "Neutral": {
+          "Blue": {
+            "value": "#1d1d1b",
+            "type": "color"
+          },
+          "Green": {
+            "value": "#1d1d1b",
+            "type": "color"
+          },
+          "Red": {
+            "value": "#1d1d1b",
+            "type": "color"
+          },
+          "Yellow": {
+            "value": "#000000",
+            "type": "color"
+          }
+        },
+        "Neutral inverse": {
+          "Blue": {
+            "value": "#1d1d1b",
+            "type": "color"
+          },
+          "Green": {
+            "value": "#1d1d1b",
+            "type": "color"
+          },
+          "Red": {
+            "value": "#1d1d1b",
+            "type": "color"
+          },
+          "Yellow": {
+            "value": "#000000",
+            "type": "color"
+          }
+        },
+        "Subtle": {
+          "Blue": {
+            "value": "#1d1d1b",
+            "type": "color"
+          },
+          "Green": {
+            "value": "#1d1d1b",
+            "type": "color"
+          },
+          "Red": {
+            "value": "#1d1d1b",
+            "type": "color"
+          },
+          "Yellow": {
+            "value": "#000000",
+            "type": "color"
+          }
+        },
+        "Bold": {
+          "Blue": {
+            "value": "#ffffff",
+            "type": "color"
+          },
+          "Green": {
+            "value": "#ffffff",
+            "type": "color"
+          },
+          "Red": {
+            "value": "#ffffff",
+            "type": "color"
+          },
+          "Yellow": {
+            "value": "#1d1d1b",
+            "type": "color"
+          }
+        }
+      },
+      "colour-muted": {
+        "Neutral": {
+          "Blue": {
+            "value": "#4d4f4f",
+            "type": "color"
+          },
+          "Green": {
+            "value": "#4d4f4f",
+            "type": "color"
+          },
+          "Red": {
+            "value": "#4d4f4f",
+            "type": "color"
+          },
+          "Yellow": {
+            "value": "#4d4f4f",
+            "type": "color"
+          }
+        },
+        "Neutral inverse": {
+          "Blue": {
+            "value": "#4d4f4f",
+            "type": "color"
+          },
+          "Green": {
+            "value": "#4d4f4f",
+            "type": "color"
+          },
+          "Red": {
+            "value": "#4d4f4f",
+            "type": "color"
+          },
+          "Yellow": {
+            "value": "#4d4f4f",
+            "type": "color"
+          }
+        },
+        "Subtle": {
+          "Blue": {
+            "value": "#1d1d1b",
+            "type": "color"
+          },
+          "Green": {
+            "value": "#1d1d1b",
+            "type": "color"
+          },
+          "Red": {
+            "value": "#1d1d1b",
+            "type": "color"
+          },
+          "Yellow": {
+            "value": "#000000",
+            "type": "color"
+          }
+        },
+        "Bold": {
+          "Blue": {
+            "value": "#ffffff",
+            "type": "color"
+          },
+          "Green": {
+            "value": "#ffffff",
+            "type": "color"
+          },
+          "Red": {
+            "value": "#ffffff",
+            "type": "color"
+          },
+          "Yellow": {
+            "value": "#1d1d1b",
+            "type": "color"
+          }
+        }
+      }
+    },
+    "hover": {
+      "background-colour": {
+        "Neutral": {
+          "Blue": {
+            "value": "#aee1f7",
+            "type": "color"
+          },
+          "Green": {
+            "value": "#caeedd",
+            "type": "color"
+          },
+          "Red": {
+            "value": "#ffd5d2",
+            "type": "color"
+          },
+          "Yellow": {
+            "value": "#fff9c7",
+            "type": "color"
+          }
+        },
+        "Neutral inverse": {
+          "Blue": {
+            "value": "#aee1f7",
+            "type": "color"
+          },
+          "Green": {
+            "value": "#caeedd",
+            "type": "color"
+          },
+          "Red": {
+            "value": "#ffd5d2",
+            "type": "color"
+          },
+          "Yellow": {
+            "value": "#fff9c7",
+            "type": "color"
+          }
+        },
+        "Subtle": {
+          "Blue": {
+            "value": "#42aeea",
+            "type": "color"
+          },
+          "Green": {
+            "value": "#43af6e",
+            "type": "color"
+          },
+          "Red": {
+            "value": "#ff3e51",
+            "type": "color"
+          },
+          "Yellow": {
+            "value": "#ffe969",
+            "type": "color"
+          }
+        },
+        "Bold": {
+          "Blue": {
+            "value": "#aee1f7",
+            "type": "color"
+          },
+          "Green": {
+            "value": "#caeedd",
+            "type": "color"
+          },
+          "Red": {
+            "value": "#ffd5d2",
+            "type": "color"
+          },
+          "Yellow": {
+            "value": "#fff9c7",
+            "type": "color"
+          }
+        }
+      },
+      "border-colour": {
+        "Neutral": {
+          "Blue": {
+            "value": "#001d6e",
+            "type": "color"
+          },
+          "Green": {
+            "value": "#01312e",
+            "type": "color"
+          },
+          "Red": {
+            "value": "#480411",
+            "type": "color"
+          },
+          "Yellow": {
+            "value": "#572722",
+            "type": "color"
+          }
+        },
+        "Neutral inverse": {
+          "Blue": {
+            "value": "#001d6e",
+            "type": "color"
+          },
+          "Green": {
+            "value": "#01312e",
+            "type": "color"
+          },
+          "Red": {
+            "value": "#480411",
+            "type": "color"
+          },
+          "Yellow": {
+            "value": "#572722",
+            "type": "color"
+          }
+        },
+        "Subtle": {
+          "Blue": {
+            "value": "#001d6e",
+            "type": "color"
+          },
+          "Green": {
+            "value": "#01312e",
+            "type": "color"
+          },
+          "Red": {
+            "value": "#480411",
+            "type": "color"
+          },
+          "Yellow": {
+            "value": "#572722",
+            "type": "color"
+          }
+        },
+        "Bold": {
+          "Blue": {
+            "value": "#001d6e",
+            "type": "color"
+          },
+          "Green": {
+            "value": "#01312e",
+            "type": "color"
+          },
+          "Red": {
+            "value": "#480411",
+            "type": "color"
+          },
+          "Yellow": {
+            "value": "#572722",
+            "type": "color"
+          }
+        }
+      },
+      "border-width-bottom": {
+        "Neutral": {
+          "Blue": {
+            "value": 4,
+            "type": "borderWidth"
+          },
+          "Green": {
+            "value": 4,
+            "type": "borderWidth"
+          },
+          "Red": {
+            "value": 4,
+            "type": "borderWidth"
+          },
+          "Yellow": {
+            "value": 4,
+            "type": "borderWidth"
+          }
+        },
+        "Neutral inverse": {
+          "Blue": {
+            "value": 4,
+            "type": "borderWidth"
+          },
+          "Green": {
+            "value": 4,
+            "type": "borderWidth"
+          },
+          "Red": {
+            "value": 4,
+            "type": "borderWidth"
+          },
+          "Yellow": {
+            "value": 4,
+            "type": "borderWidth"
+          }
+        },
+        "Subtle": {
+          "Blue": {
+            "value": 4,
+            "type": "borderWidth"
+          },
+          "Green": {
+            "value": 4,
+            "type": "borderWidth"
+          },
+          "Red": {
+            "value": 4,
+            "type": "borderWidth"
+          },
+          "Yellow": {
+            "value": 4,
+            "type": "borderWidth"
+          }
+        },
+        "Bold": {
+          "Blue": {
+            "value": 4,
+            "type": "borderWidth"
+          },
+          "Green": {
+            "value": 4,
+            "type": "borderWidth"
+          },
+          "Red": {
+            "value": 4,
+            "type": "borderWidth"
+          },
+          "Yellow": {
+            "value": 4,
+            "type": "borderWidth"
+          }
+        }
+      },
+      "colour": {
+        "Neutral": {
+          "Blue": {
+            "value": "#1d1d1b",
+            "type": "color"
+          },
+          "Green": {
+            "value": "#1d1d1b",
+            "type": "color"
+          },
+          "Red": {
+            "value": "#1d1d1b",
+            "type": "color"
+          },
+          "Yellow": {
+            "value": "#000000",
+            "type": "color"
+          }
+        },
+        "Neutral inverse": {
+          "Blue": {
+            "value": "#1d1d1b",
+            "type": "color"
+          },
+          "Green": {
+            "value": "#1d1d1b",
+            "type": "color"
+          },
+          "Red": {
+            "value": "#1d1d1b",
+            "type": "color"
+          },
+          "Yellow": {
+            "value": "#000000",
+            "type": "color"
+          }
+        },
+        "Subtle": {
+          "Blue": {
+            "value": "#1d1d1b",
+            "type": "color"
+          },
+          "Green": {
+            "value": "#1d1d1b",
+            "type": "color"
+          },
+          "Red": {
+            "value": "#1d1d1b",
+            "type": "color"
+          },
+          "Yellow": {
+            "value": "#000000",
+            "type": "color"
+          }
+        },
+        "Bold": {
+          "Blue": {
+            "value": "#1d1d1b",
+            "type": "color"
+          },
+          "Green": {
+            "value": "#1d1d1b",
+            "type": "color"
+          },
+          "Red": {
+            "value": "#1d1d1b",
+            "type": "color"
+          },
+          "Yellow": {
+            "value": "#000000",
+            "type": "color"
+          }
+        }
+      },
+      "colour-muted": {
+        "Neutral": {
+          "Blue": {
+            "value": "#1d1d1b",
+            "type": "color"
+          },
+          "Green": {
+            "value": "#1d1d1b",
+            "type": "color"
+          },
+          "Red": {
+            "value": "#1d1d1b",
+            "type": "color"
+          },
+          "Yellow": {
+            "value": "#000000",
+            "type": "color"
+          }
+        },
+        "Neutral inverse": {
+          "Blue": {
+            "value": "#1d1d1b",
+            "type": "color"
+          },
+          "Green": {
+            "value": "#1d1d1b",
+            "type": "color"
+          },
+          "Red": {
+            "value": "#1d1d1b",
+            "type": "color"
+          },
+          "Yellow": {
+            "value": "#000000",
+            "type": "color"
+          }
+        },
+        "Subtle": {
+          "Blue": {
+            "value": "#1d1d1b",
+            "type": "color"
+          },
+          "Green": {
+            "value": "#1d1d1b",
+            "type": "color"
+          },
+          "Red": {
+            "value": "#1d1d1b",
+            "type": "color"
+          },
+          "Yellow": {
+            "value": "#000000",
+            "type": "color"
+          }
+        },
+        "Bold": {
+          "Blue": {
+            "value": "#1d1d1b",
+            "type": "color"
+          },
+          "Green": {
+            "value": "#1d1d1b",
+            "type": "color"
+          },
+          "Red": {
+            "value": "#1d1d1b",
+            "type": "color"
+          },
+          "Yellow": {
+            "value": "#000000",
+            "type": "color"
+          }
+        }
+      },
+      "padding-right": {
+        "Neutral": {
+          "Blue": {
+            "value": 8,
+            "type": "spacing"
+          },
+          "Green": {
+            "value": 8,
+            "type": "spacing"
+          },
+          "Red": {
+            "value": 8,
+            "type": "spacing"
+          },
+          "Yellow": {
+            "value": 8,
+            "type": "spacing"
+          }
+        },
+        "Neutral inverse": {
+          "Blue": {
+            "value": 8,
+            "type": "spacing"
+          },
+          "Green": {
+            "value": 8,
+            "type": "spacing"
+          },
+          "Red": {
+            "value": 8,
+            "type": "spacing"
+          },
+          "Yellow": {
+            "value": 8,
+            "type": "spacing"
+          }
+        },
+        "Subtle": {
+          "Blue": {
+            "value": 8,
+            "type": "spacing"
+          },
+          "Green": {
+            "value": 8,
+            "type": "spacing"
+          },
+          "Red": {
+            "value": 8,
+            "type": "spacing"
+          },
+          "Yellow": {
+            "value": 8,
+            "type": "spacing"
+          }
+        },
+        "Bold": {
+          "Blue": {
+            "value": 8,
+            "type": "spacing"
+          },
+          "Green": {
+            "value": 8,
+            "type": "spacing"
+          },
+          "Red": {
+            "value": 8,
+            "type": "spacing"
+          },
+          "Yellow": {
+            "value": 8,
+            "type": "spacing"
+          }
+        }
+      }
+    },
+    "active": {
+      "background-colour": {
+        "Neutral": {
+          "Blue": {
+            "value": "#005dba",
+            "type": "color"
+          },
+          "Green": {
+            "value": "#00633d",
+            "type": "color"
+          },
+          "Red": {
+            "value": "#c50b30",
+            "type": "color"
+          },
+          "Yellow": {
+            "value": "#ffb600",
+            "type": "color"
+          }
+        },
+        "Neutral inverse": {
+          "Blue": {
+            "value": "#005dba",
+            "type": "color"
+          },
+          "Green": {
+            "value": "#00633d",
+            "type": "color"
+          },
+          "Red": {
+            "value": "#c50b30",
+            "type": "color"
+          },
+          "Yellow": {
+            "value": "#ffb600",
+            "type": "color"
+          }
+        },
+        "Subtle": {
+          "Blue": {
+            "value": "#005dba",
+            "type": "color"
+          },
+          "Green": {
+            "value": "#00633d",
+            "type": "color"
+          },
+          "Red": {
+            "value": "#c50b30",
+            "type": "color"
+          },
+          "Yellow": {
+            "value": "#ffb600",
+            "type": "color"
+          }
+        },
+        "Bold": {
+          "Blue": {
+            "value": "#ffffff",
+            "type": "color"
+          },
+          "Green": {
+            "value": "#ffffff",
+            "type": "color"
+          },
+          "Red": {
+            "value": "#ffffff",
+            "type": "color"
+          },
+          "Yellow": {
+            "value": "#ffffff",
+            "type": "color"
+          }
+        }
+      },
+      "border-width-bottom": {
+        "Neutral": {
+          "Blue": {
+            "value": 1,
+            "type": "borderWidth"
+          },
+          "Green": {
+            "value": 1,
+            "type": "borderWidth"
+          },
+          "Red": {
+            "value": 1,
+            "type": "borderWidth"
+          },
+          "Yellow": {
+            "value": 1,
+            "type": "borderWidth"
+          }
+        },
+        "Neutral inverse": {
+          "Blue": {
+            "value": 1,
+            "type": "borderWidth"
+          },
+          "Green": {
+            "value": 1,
+            "type": "borderWidth"
+          },
+          "Red": {
+            "value": 1,
+            "type": "borderWidth"
+          },
+          "Yellow": {
+            "value": 1,
+            "type": "borderWidth"
+          }
+        },
+        "Subtle": {
+          "Blue": {
+            "value": 1,
+            "type": "borderWidth"
+          },
+          "Green": {
+            "value": 1,
+            "type": "borderWidth"
+          },
+          "Red": {
+            "value": 1,
+            "type": "borderWidth"
+          },
+          "Yellow": {
+            "value": 1,
+            "type": "borderWidth"
+          }
+        },
+        "Bold": {
+          "Blue": {
+            "value": 1,
+            "type": "borderWidth"
+          },
+          "Green": {
+            "value": 1,
+            "type": "borderWidth"
+          },
+          "Red": {
+            "value": 1,
+            "type": "borderWidth"
+          },
+          "Yellow": {
+            "value": 1,
+            "type": "borderWidth"
+          }
+        }
+      },
+      "border-colour": {
+        "Neutral": {
+          "Blue": {
+            "value": "#ffffff",
+            "type": "color"
+          },
+          "Green": {
+            "value": "#ffffff",
+            "type": "color"
+          },
+          "Red": {
+            "value": "#ffffff",
+            "type": "color"
+          },
+          "Yellow": {
+            "value": "#1d1d1b",
+            "type": "color"
+          }
+        },
+        "Neutral inverse": {
+          "Blue": {
+            "value": "#ffffff",
+            "type": "color"
+          },
+          "Green": {
+            "value": "#ffffff",
+            "type": "color"
+          },
+          "Red": {
+            "value": "#ffffff",
+            "type": "color"
+          },
+          "Yellow": {
+            "value": "#1d1d1b",
+            "type": "color"
+          }
+        },
+        "Subtle": {
+          "Blue": {
+            "value": "#ffffff",
+            "type": "color"
+          },
+          "Green": {
+            "value": "#ffffff",
+            "type": "color"
+          },
+          "Red": {
+            "value": "#ffffff",
+            "type": "color"
+          },
+          "Yellow": {
+            "value": "#1d1d1b",
+            "type": "color"
+          }
+        },
+        "Bold": {
+          "Blue": {
+            "value": "#1d1d1b",
+            "type": "color"
+          },
+          "Green": {
+            "value": "#1d1d1b",
+            "type": "color"
+          },
+          "Red": {
+            "value": "#1d1d1b",
+            "type": "color"
+          },
+          "Yellow": {
+            "value": "#000000",
+            "type": "color"
+          }
+        }
+      },
+      "colour": {
+        "Neutral": {
+          "Blue": {
+            "value": "#ffffff",
+            "type": "color"
+          },
+          "Green": {
+            "value": "#ffffff",
+            "type": "color"
+          },
+          "Red": {
+            "value": "#ffffff",
+            "type": "color"
+          },
+          "Yellow": {
+            "value": "#1d1d1b",
+            "type": "color"
+          }
+        },
+        "Neutral inverse": {
+          "Blue": {
+            "value": "#ffffff",
+            "type": "color"
+          },
+          "Green": {
+            "value": "#ffffff",
+            "type": "color"
+          },
+          "Red": {
+            "value": "#ffffff",
+            "type": "color"
+          },
+          "Yellow": {
+            "value": "#1d1d1b",
+            "type": "color"
+          }
+        },
+        "Subtle": {
+          "Blue": {
+            "value": "#ffffff",
+            "type": "color"
+          },
+          "Green": {
+            "value": "#ffffff",
+            "type": "color"
+          },
+          "Red": {
+            "value": "#ffffff",
+            "type": "color"
+          },
+          "Yellow": {
+            "value": "#1d1d1b",
+            "type": "color"
+          }
+        },
+        "Bold": {
+          "Blue": {
+            "value": "#1d1d1b",
+            "type": "color"
+          },
+          "Green": {
+            "value": "#1d1d1b",
+            "type": "color"
+          },
+          "Red": {
+            "value": "#1d1d1b",
+            "type": "color"
+          },
+          "Yellow": {
+            "value": "#000000",
+            "type": "color"
+          }
+        }
+      },
+      "colour-muted": {
+        "Neutral": {
+          "Blue": {
+            "value": "#ffffff",
+            "type": "color"
+          },
+          "Green": {
+            "value": "#ffffff",
+            "type": "color"
+          },
+          "Red": {
+            "value": "#ffffff",
+            "type": "color"
+          },
+          "Yellow": {
+            "value": "#1d1d1b",
+            "type": "color"
+          }
+        },
+        "Neutral inverse": {
+          "Blue": {
+            "value": "#ffffff",
+            "type": "color"
+          },
+          "Green": {
+            "value": "#ffffff",
+            "type": "color"
+          },
+          "Red": {
+            "value": "#ffffff",
+            "type": "color"
+          },
+          "Yellow": {
+            "value": "#1d1d1b",
+            "type": "color"
+          }
+        },
+        "Subtle": {
+          "Blue": {
+            "value": "#ffffff",
+            "type": "color"
+          },
+          "Green": {
+            "value": "#ffffff",
+            "type": "color"
+          },
+          "Red": {
+            "value": "#ffffff",
+            "type": "color"
+          },
+          "Yellow": {
+            "value": "#1d1d1b",
+            "type": "color"
+          }
+        },
+        "Bold": {
+          "Blue": {
+            "value": "#4d4f4f",
+            "type": "color"
+          },
+          "Green": {
+            "value": "#4d4f4f",
+            "type": "color"
+          },
+          "Red": {
+            "value": "#4d4f4f",
+            "type": "color"
+          },
+          "Yellow": {
+            "value": "#4d4f4f",
+            "type": "color"
+          }
+        }
+      }
+    },
+    "focus": {
+      "border-colour": {
+        "Neutral": {
+          "Blue": {
+            "value": "#1d1d1b",
+            "type": "color"
+          },
+          "Green": {
+            "value": "#1d1d1b",
+            "type": "color"
+          },
+          "Red": {
+            "value": "#1d1d1b",
+            "type": "color"
+          },
+          "Yellow": {
+            "value": "#000000",
+            "type": "color"
+          }
+        },
+        "Neutral inverse": {
+          "Blue": {
+            "value": "#1d1d1b",
+            "type": "color"
+          },
+          "Green": {
+            "value": "#1d1d1b",
+            "type": "color"
+          },
+          "Red": {
+            "value": "#1d1d1b",
+            "type": "color"
+          },
+          "Yellow": {
+            "value": "#000000",
+            "type": "color"
+          }
+        },
+        "Subtle": {
+          "Blue": {
+            "value": "#1d1d1b",
+            "type": "color"
+          },
+          "Green": {
+            "value": "#1d1d1b",
+            "type": "color"
+          },
+          "Red": {
+            "value": "#1d1d1b",
+            "type": "color"
+          },
+          "Yellow": {
+            "value": "#000000",
+            "type": "color"
+          }
+        },
+        "Bold": {
+          "Blue": {
+            "value": "#ffffff",
+            "type": "color"
+          },
+          "Green": {
+            "value": "#ffffff",
+            "type": "color"
+          },
+          "Red": {
+            "value": "#ffffff",
+            "type": "color"
+          },
+          "Yellow": {
+            "value": "#1d1d1b",
+            "type": "color"
+          }
+        }
+      },
+      "border-width": {
+        "Neutral": {
+          "Blue": {
+            "value": 4,
+            "type": "borderWidth"
+          },
+          "Green": {
+            "value": 4,
+            "type": "borderWidth"
+          },
+          "Red": {
+            "value": 4,
+            "type": "borderWidth"
+          },
+          "Yellow": {
+            "value": 4,
+            "type": "borderWidth"
+          }
+        },
+        "Neutral inverse": {
+          "Blue": {
+            "value": 4,
+            "type": "borderWidth"
+          },
+          "Green": {
+            "value": 4,
+            "type": "borderWidth"
+          },
+          "Red": {
+            "value": 4,
+            "type": "borderWidth"
+          },
+          "Yellow": {
+            "value": 4,
+            "type": "borderWidth"
+          }
+        },
+        "Subtle": {
+          "Blue": {
+            "value": 4,
+            "type": "borderWidth"
+          },
+          "Green": {
+            "value": 4,
+            "type": "borderWidth"
+          },
+          "Red": {
+            "value": 4,
+            "type": "borderWidth"
+          },
+          "Yellow": {
+            "value": 4,
+            "type": "borderWidth"
+          }
+        },
+        "Bold": {
+          "Blue": {
+            "value": 4,
+            "type": "borderWidth"
+          },
+          "Green": {
+            "value": 4,
+            "type": "borderWidth"
+          },
+          "Red": {
+            "value": 4,
+            "type": "borderWidth"
+          },
+          "Yellow": {
+            "value": 4,
+            "type": "borderWidth"
+          }
+        }
+      },
+      "colour": {
+        "Neutral": {
+          "Blue": {
+            "value": "#1d1d1b",
+            "type": "color"
+          },
+          "Green": {
+            "value": "#1d1d1b",
+            "type": "color"
+          },
+          "Red": {
+            "value": "#1d1d1b",
+            "type": "color"
+          },
+          "Yellow": {
+            "value": "#000000",
+            "type": "color"
+          }
+        },
+        "Neutral inverse": {
+          "Blue": {
+            "value": "#1d1d1b",
+            "type": "color"
+          },
+          "Green": {
+            "value": "#1d1d1b",
+            "type": "color"
+          },
+          "Red": {
+            "value": "#1d1d1b",
+            "type": "color"
+          },
+          "Yellow": {
+            "value": "#000000",
+            "type": "color"
+          }
+        },
+        "Subtle": {
+          "Blue": {
+            "value": "#1d1d1b",
+            "type": "color"
+          },
+          "Green": {
+            "value": "#1d1d1b",
+            "type": "color"
+          },
+          "Red": {
+            "value": "#1d1d1b",
+            "type": "color"
+          },
+          "Yellow": {
+            "value": "#000000",
+            "type": "color"
+          }
+        },
+        "Bold": {
+          "Blue": {
+            "value": "#ffffff",
+            "type": "color"
+          },
+          "Green": {
+            "value": "#ffffff",
+            "type": "color"
+          },
+          "Red": {
+            "value": "#ffffff",
+            "type": "color"
+          },
+          "Yellow": {
+            "value": "#1d1d1b",
+            "type": "color"
+          }
+        }
+      },
+      "colour-muted": {
+        "Neutral": {
+          "Blue": {
+            "value": "#1d1d1b",
+            "type": "color"
+          },
+          "Green": {
+            "value": "#1d1d1b",
+            "type": "color"
+          },
+          "Red": {
+            "value": "#1d1d1b",
+            "type": "color"
+          },
+          "Yellow": {
+            "value": "#000000",
+            "type": "color"
+          }
+        },
+        "Neutral inverse": {
+          "Blue": {
+            "value": "#1d1d1b",
+            "type": "color"
+          },
+          "Green": {
+            "value": "#1d1d1b",
+            "type": "color"
+          },
+          "Red": {
+            "value": "#1d1d1b",
+            "type": "color"
+          },
+          "Yellow": {
+            "value": "#000000",
+            "type": "color"
+          }
+        },
+        "Subtle": {
+          "Blue": {
+            "value": "#1d1d1b",
+            "type": "color"
+          },
+          "Green": {
+            "value": "#1d1d1b",
+            "type": "color"
+          },
+          "Red": {
+            "value": "#1d1d1b",
+            "type": "color"
+          },
+          "Yellow": {
+            "value": "#000000",
+            "type": "color"
+          }
+        },
+        "Bold": {
+          "Blue": {
+            "value": "#ffffff",
+            "type": "color"
+          },
+          "Green": {
+            "value": "#ffffff",
+            "type": "color"
+          },
+          "Red": {
+            "value": "#ffffff",
+            "type": "color"
+          },
+          "Yellow": {
+            "value": "#1d1d1b",
+            "type": "color"
+          }
         }
       }
     }
