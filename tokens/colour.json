@@ -1,6 +1,6 @@
 {
   "$description": "Design tokens from Colour collection",
-  "$timestamp": "2026-02-23T11:53:59.735Z",
+  "$timestamp": "2026-02-27T11:25:33.144Z",
   "brand": {
     "tint": {
       "1": {
@@ -995,6 +995,28 @@
         }
       },
       "6": {
+        "Blue": {
+          "value": "#005dba",
+          "type": "color",
+          "description": "Use sparingly on page backgrounds and containers"
+        },
+        "Green": {
+          "value": "#00633d",
+          "type": "color",
+          "description": "Use sparingly on page backgrounds and containers"
+        },
+        "Red": {
+          "value": "#c50b30",
+          "type": "color",
+          "description": "Use sparingly on page backgrounds and containers"
+        },
+        "Yellow": {
+          "value": "#c86426",
+          "type": "color",
+          "description": "Use sparingly on page backgrounds and containers"
+        }
+      },
+      "7": {
         "Blue": {
           "value": "#001d6e",
           "type": "color",
