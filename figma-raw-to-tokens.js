@@ -406,9 +406,13 @@ function processVariablesByCollection(variables, collections) {
         colorModes,
         statusModes,
       );
-    } else if (collectionName === 'Link' || collectionName === 'Link menu') {
-      // Merge Link tokens into Component themes, expanding across color/theme modes
-      // Link collections have a "Default" mode that should map to all theme modes
+    } else if (
+      collectionName === 'Button' ||
+      collectionName === 'Link' ||
+      collectionName === 'Link menu'
+    ) {
+      // Merge Button/Link tokens into Component themes, expanding across color/theme modes
+      // These collections have a "Default" mode that should map to all theme modes
       if (!tokensByCollection['Component themes']) {
         tokensByCollection['Component themes'] = {};
       }

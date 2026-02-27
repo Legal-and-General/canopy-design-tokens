@@ -3,6 +3,20 @@
  */
 
 .lg-status-info.lg-theme-neutral {
+  --button-status-active-background-colour: #000a52;
+  --button-status-active-border-colour: #000a52;
+  --button-status-active-colour: #ffffff;
+  --button-status-disabled-background-colour: #76c8f1;
+  --button-status-disabled-border-colour: #76c8f1;
+  --button-status-disabled-colour: #1e84d2;
+  --button-status-focus-background-colour: #005dba;
+  --button-status-focus-colour: #ffffff;
+  --button-status-hover-background-colour: #001d6e;
+  --button-status-hover-border-colour: #001d6e;
+  --button-status-hover-colour: #ffffff;
+  --button-status-rest-background-colour: #005dba;
+  --button-status-rest-border-colour: #005dba;
+  --button-status-rest-colour: #ffffff;
   --container-status-bold-background-colour: #005dba;
   --container-status-subtle-background-colour: #aee1f7;
   --content-status-subtle-colour: #001d6e;
@@ -52,6 +66,20 @@
 }
 
 .lg-status-info.lg-theme-neutral-inverse {
+  --button-status-active-background-colour: #000a52;
+  --button-status-active-border-colour: #000a52;
+  --button-status-active-colour: #ffffff;
+  --button-status-disabled-background-colour: #76c8f1;
+  --button-status-disabled-border-colour: #76c8f1;
+  --button-status-disabled-colour: #1e84d2;
+  --button-status-focus-background-colour: #005dba;
+  --button-status-focus-colour: #ffffff;
+  --button-status-hover-background-colour: #001d6e;
+  --button-status-hover-border-colour: #001d6e;
+  --button-status-hover-colour: #ffffff;
+  --button-status-rest-background-colour: #005dba;
+  --button-status-rest-border-colour: #005dba;
+  --button-status-rest-colour: #ffffff;
   --container-status-bold-background-colour: #005dba;
   --container-status-subtle-background-colour: #aee1f7;
   --content-status-subtle-colour: #001d6e;
@@ -101,6 +129,20 @@
 }
 
 .lg-status-info.lg-theme-subtle {
+  --button-status-active-background-colour: #000a52;
+  --button-status-active-border-colour: #000a52;
+  --button-status-active-colour: #ffffff;
+  --button-status-disabled-background-colour: #76c8f1;
+  --button-status-disabled-border-colour: #76c8f1;
+  --button-status-disabled-colour: #1e84d2;
+  --button-status-focus-background-colour: #005dba;
+  --button-status-focus-colour: #ffffff;
+  --button-status-hover-background-colour: #001d6e;
+  --button-status-hover-border-colour: #001d6e;
+  --button-status-hover-colour: #ffffff;
+  --button-status-rest-background-colour: #005dba;
+  --button-status-rest-border-colour: #005dba;
+  --button-status-rest-colour: #ffffff;
   --container-status-bold-background-colour: #005dba;
   --container-status-subtle-background-colour: #ffffff;
   --content-status-subtle-colour: #001d6e;
@@ -150,6 +192,20 @@
 }
 
 .lg-status-info.lg-theme-bold {
+  --button-status-active-background-colour: #000a52;
+  --button-status-active-border-colour: #000a52;
+  --button-status-active-colour: #ffffff;
+  --button-status-disabled-background-colour: #76c8f1;
+  --button-status-disabled-border-colour: #76c8f1;
+  --button-status-disabled-colour: #1e84d2;
+  --button-status-focus-background-colour: #005dba;
+  --button-status-focus-colour: #ffffff;
+  --button-status-hover-background-colour: #001d6e;
+  --button-status-hover-border-colour: #001d6e;
+  --button-status-hover-colour: #ffffff;
+  --button-status-rest-background-colour: #005dba;
+  --button-status-rest-border-colour: #005dba;
+  --button-status-rest-colour: #ffffff;
   --container-status-bold-background-colour: #005dba;
   --container-status-subtle-background-colour: #ffffff;
   --content-status-subtle-colour: #001d6e;
@@ -199,6 +255,20 @@
 }
 
 .lg-status-success.lg-theme-neutral {
+  --button-status-active-background-colour: #012425;
+  --button-status-active-border-colour: #012425;
+  --button-status-active-colour: #ffffff;
+  --button-status-disabled-background-colour: #7fce9f;
+  --button-status-disabled-border-colour: #7fce9f;
+  --button-status-disabled-colour: #1a8952;
+  --button-status-focus-background-colour: #00633d;
+  --button-status-focus-colour: #ffffff;
+  --button-status-hover-background-colour: #01312e;
+  --button-status-hover-border-colour: #01312e;
+  --button-status-hover-colour: #ffffff;
+  --button-status-rest-background-colour: #00633d;
+  --button-status-rest-border-colour: #00633d;
+  --button-status-rest-colour: #ffffff;
   --container-status-bold-background-colour: #00633d;
   --container-status-subtle-background-colour: #caeedd;
   --content-status-subtle-colour: #01312e;
@@ -248,6 +318,20 @@
 }
 
 .lg-status-success.lg-theme-neutral-inverse {
+  --button-status-active-background-colour: #012425;
+  --button-status-active-border-colour: #012425;
+  --button-status-active-colour: #ffffff;
+  --button-status-disabled-background-colour: #7fce9f;
+  --button-status-disabled-border-colour: #7fce9f;
+  --button-status-disabled-colour: #1a8952;
+  --button-status-focus-background-colour: #00633d;
+  --button-status-focus-colour: #ffffff;
+  --button-status-hover-background-colour: #01312e;
+  --button-status-hover-border-colour: #01312e;
+  --button-status-hover-colour: #ffffff;
+  --button-status-rest-background-colour: #00633d;
+  --button-status-rest-border-colour: #00633d;
+  --button-status-rest-colour: #ffffff;
   --container-status-bold-background-colour: #00633d;
   --container-status-subtle-background-colour: #caeedd;
   --content-status-subtle-colour: #01312e;
@@ -297,6 +381,20 @@
 }
 
 .lg-status-success.lg-theme-subtle {
+  --button-status-active-background-colour: #012425;
+  --button-status-active-border-colour: #012425;
+  --button-status-active-colour: #ffffff;
+  --button-status-disabled-background-colour: #7fce9f;
+  --button-status-disabled-border-colour: #7fce9f;
+  --button-status-disabled-colour: #1a8952;
+  --button-status-focus-background-colour: #00633d;
+  --button-status-focus-colour: #ffffff;
+  --button-status-hover-background-colour: #01312e;
+  --button-status-hover-border-colour: #01312e;
+  --button-status-hover-colour: #ffffff;
+  --button-status-rest-background-colour: #00633d;
+  --button-status-rest-border-colour: #00633d;
+  --button-status-rest-colour: #ffffff;
   --container-status-bold-background-colour: #00633d;
   --container-status-subtle-background-colour: #ffffff;
   --content-status-subtle-colour: #01312e;
@@ -346,6 +444,20 @@
 }
 
 .lg-status-success.lg-theme-bold {
+  --button-status-active-background-colour: #012425;
+  --button-status-active-border-colour: #012425;
+  --button-status-active-colour: #ffffff;
+  --button-status-disabled-background-colour: #7fce9f;
+  --button-status-disabled-border-colour: #7fce9f;
+  --button-status-disabled-colour: #1a8952;
+  --button-status-focus-background-colour: #00633d;
+  --button-status-focus-colour: #ffffff;
+  --button-status-hover-background-colour: #01312e;
+  --button-status-hover-border-colour: #01312e;
+  --button-status-hover-colour: #ffffff;
+  --button-status-rest-background-colour: #00633d;
+  --button-status-rest-border-colour: #00633d;
+  --button-status-rest-colour: #ffffff;
   --container-status-bold-background-colour: #00633d;
   --container-status-subtle-background-colour: #ffffff;
   --content-status-subtle-colour: #01312e;
@@ -395,6 +507,20 @@
 }
 
 .lg-status-warning.lg-theme-neutral {
+  --button-status-active-background-colour: #572722;
+  --button-status-active-border-colour: #572722;
+  --button-status-active-colour: #ffffff;
+  --button-status-disabled-background-colour: #ffe969;
+  --button-status-disabled-border-colour: #ffe969;
+  --button-status-disabled-colour: #ffb600;
+  --button-status-focus-background-colour: #ffb600;
+  --button-status-focus-colour: #1d1d1b;
+  --button-status-hover-background-colour: #904029;
+  --button-status-hover-border-colour: #904029;
+  --button-status-hover-colour: #ffffff;
+  --button-status-rest-background-colour: #ffb600;
+  --button-status-rest-border-colour: #ffb600;
+  --button-status-rest-colour: #1d1d1b;
   --container-status-bold-background-colour: #ffb600;
   --container-status-subtle-background-colour: #fff9c7;
   --content-status-subtle-colour: #904029;
@@ -444,6 +570,20 @@
 }
 
 .lg-status-warning.lg-theme-neutral-inverse {
+  --button-status-active-background-colour: #572722;
+  --button-status-active-border-colour: #572722;
+  --button-status-active-colour: #ffffff;
+  --button-status-disabled-background-colour: #ffe969;
+  --button-status-disabled-border-colour: #ffe969;
+  --button-status-disabled-colour: #ffb600;
+  --button-status-focus-background-colour: #ffb600;
+  --button-status-focus-colour: #1d1d1b;
+  --button-status-hover-background-colour: #904029;
+  --button-status-hover-border-colour: #904029;
+  --button-status-hover-colour: #ffffff;
+  --button-status-rest-background-colour: #ffb600;
+  --button-status-rest-border-colour: #ffb600;
+  --button-status-rest-colour: #1d1d1b;
   --container-status-bold-background-colour: #ffb600;
   --container-status-subtle-background-colour: #fff9c7;
   --content-status-subtle-colour: #904029;
@@ -493,6 +633,20 @@
 }
 
 .lg-status-warning.lg-theme-subtle {
+  --button-status-active-background-colour: #572722;
+  --button-status-active-border-colour: #572722;
+  --button-status-active-colour: #ffffff;
+  --button-status-disabled-background-colour: #ffe969;
+  --button-status-disabled-border-colour: #ffe969;
+  --button-status-disabled-colour: #ffb600;
+  --button-status-focus-background-colour: #ffb600;
+  --button-status-focus-colour: #1d1d1b;
+  --button-status-hover-background-colour: #904029;
+  --button-status-hover-border-colour: #904029;
+  --button-status-hover-colour: #ffffff;
+  --button-status-rest-background-colour: #ffb600;
+  --button-status-rest-border-colour: #ffb600;
+  --button-status-rest-colour: #1d1d1b;
   --container-status-bold-background-colour: #ffb600;
   --container-status-subtle-background-colour: #ffffff;
   --content-status-subtle-colour: #904029;
@@ -542,6 +696,20 @@
 }
 
 .lg-status-warning.lg-theme-bold {
+  --button-status-active-background-colour: #572722;
+  --button-status-active-border-colour: #572722;
+  --button-status-active-colour: #ffffff;
+  --button-status-disabled-background-colour: #ffe969;
+  --button-status-disabled-border-colour: #ffe969;
+  --button-status-disabled-colour: #ffb600;
+  --button-status-focus-background-colour: #ffb600;
+  --button-status-focus-colour: #1d1d1b;
+  --button-status-hover-background-colour: #904029;
+  --button-status-hover-border-colour: #904029;
+  --button-status-hover-colour: #ffffff;
+  --button-status-rest-background-colour: #ffb600;
+  --button-status-rest-border-colour: #ffb600;
+  --button-status-rest-colour: #1d1d1b;
   --container-status-bold-background-colour: #ffb600;
   --container-status-subtle-background-colour: #ffffff;
   --content-status-subtle-colour: #904029;
@@ -591,6 +759,20 @@
 }
 
 .lg-status-error.lg-theme-neutral {
+  --button-status-active-background-colour: #6e061b;
+  --button-status-active-border-colour: #6e061b;
+  --button-status-active-colour: #ffffff;
+  --button-status-disabled-background-colour: #ff7e7e;
+  --button-status-disabled-border-colour: #ff7e7e;
+  --button-status-disabled-colour: #e2223e;
+  --button-status-focus-background-colour: #c50b30;
+  --button-status-focus-colour: #ffffff;
+  --button-status-hover-background-colour: #940824;
+  --button-status-hover-border-colour: #940824;
+  --button-status-hover-colour: #ffffff;
+  --button-status-rest-background-colour: #c50b30;
+  --button-status-rest-border-colour: #c50b30;
+  --button-status-rest-colour: #ffffff;
   --container-status-bold-background-colour: #c50b30;
   --container-status-subtle-background-colour: #ffc2bd;
   --content-status-subtle-colour: #940824;
@@ -640,6 +822,20 @@
 }
 
 .lg-status-error.lg-theme-neutral-inverse {
+  --button-status-active-background-colour: #6e061b;
+  --button-status-active-border-colour: #6e061b;
+  --button-status-active-colour: #ffffff;
+  --button-status-disabled-background-colour: #ff7e7e;
+  --button-status-disabled-border-colour: #ff7e7e;
+  --button-status-disabled-colour: #e2223e;
+  --button-status-focus-background-colour: #c50b30;
+  --button-status-focus-colour: #ffffff;
+  --button-status-hover-background-colour: #940824;
+  --button-status-hover-border-colour: #940824;
+  --button-status-hover-colour: #ffffff;
+  --button-status-rest-background-colour: #c50b30;
+  --button-status-rest-border-colour: #c50b30;
+  --button-status-rest-colour: #ffffff;
   --container-status-bold-background-colour: #c50b30;
   --container-status-subtle-background-colour: #ffc2bd;
   --content-status-subtle-colour: #940824;
@@ -689,6 +885,20 @@
 }
 
 .lg-status-error.lg-theme-subtle {
+  --button-status-active-background-colour: #6e061b;
+  --button-status-active-border-colour: #6e061b;
+  --button-status-active-colour: #ffffff;
+  --button-status-disabled-background-colour: #ff7e7e;
+  --button-status-disabled-border-colour: #ff7e7e;
+  --button-status-disabled-colour: #e2223e;
+  --button-status-focus-background-colour: #c50b30;
+  --button-status-focus-colour: #ffffff;
+  --button-status-hover-background-colour: #940824;
+  --button-status-hover-border-colour: #940824;
+  --button-status-hover-colour: #ffffff;
+  --button-status-rest-background-colour: #c50b30;
+  --button-status-rest-border-colour: #c50b30;
+  --button-status-rest-colour: #ffffff;
   --container-status-bold-background-colour: #c50b30;
   --container-status-subtle-background-colour: #ffffff;
   --content-status-subtle-colour: #940824;
@@ -738,6 +948,20 @@
 }
 
 .lg-status-error.lg-theme-bold {
+  --button-status-active-background-colour: #6e061b;
+  --button-status-active-border-colour: #6e061b;
+  --button-status-active-colour: #ffffff;
+  --button-status-disabled-background-colour: #ff7e7e;
+  --button-status-disabled-border-colour: #ff7e7e;
+  --button-status-disabled-colour: #e2223e;
+  --button-status-focus-background-colour: #c50b30;
+  --button-status-focus-colour: #ffffff;
+  --button-status-hover-background-colour: #940824;
+  --button-status-hover-border-colour: #940824;
+  --button-status-hover-colour: #ffffff;
+  --button-status-rest-background-colour: #c50b30;
+  --button-status-rest-border-colour: #c50b30;
+  --button-status-rest-colour: #ffffff;
   --container-status-bold-background-colour: #c50b30;
   --container-status-subtle-background-colour: #ffffff;
   --content-status-subtle-colour: #940824;
@@ -787,6 +1011,20 @@
 }
 
 .lg-status-generic.lg-theme-neutral {
+  --button-status-active-background-colour: #1d1d1b;
+  --button-status-active-border-colour: #1d1d1b;
+  --button-status-active-colour: #ffffff;
+  --button-status-disabled-background-colour: #bcbdbd;
+  --button-status-disabled-border-colour: #bcbdbd;
+  --button-status-disabled-colour: #858686;
+  --button-status-focus-background-colour: #4d4f4f;
+  --button-status-focus-colour: #ffffff;
+  --button-status-hover-background-colour: #343634;
+  --button-status-hover-border-colour: #343634;
+  --button-status-hover-colour: #ffffff;
+  --button-status-rest-background-colour: #4d4f4f;
+  --button-status-rest-border-colour: #4d4f4f;
+  --button-status-rest-colour: #ffffff;
   --container-status-bold-background-colour: #4d4f4f;
   --container-status-subtle-background-colour: #f4f4f4;
   --content-status-subtle-colour: #1d1d1b;
@@ -836,6 +1074,20 @@
 }
 
 .lg-status-generic.lg-theme-neutral-inverse {
+  --button-status-active-background-colour: #1d1d1b;
+  --button-status-active-border-colour: #1d1d1b;
+  --button-status-active-colour: #ffffff;
+  --button-status-disabled-background-colour: #bcbdbd;
+  --button-status-disabled-border-colour: #bcbdbd;
+  --button-status-disabled-colour: #858686;
+  --button-status-focus-background-colour: #4d4f4f;
+  --button-status-focus-colour: #ffffff;
+  --button-status-hover-background-colour: #343634;
+  --button-status-hover-border-colour: #343634;
+  --button-status-hover-colour: #ffffff;
+  --button-status-rest-background-colour: #4d4f4f;
+  --button-status-rest-border-colour: #4d4f4f;
+  --button-status-rest-colour: #ffffff;
   --container-status-bold-background-colour: #4d4f4f;
   --container-status-subtle-background-colour: #ffffff;
   --content-status-subtle-colour: #1d1d1b;
@@ -885,6 +1137,20 @@
 }
 
 .lg-status-generic.lg-theme-subtle {
+  --button-status-active-background-colour: #1d1d1b;
+  --button-status-active-border-colour: #1d1d1b;
+  --button-status-active-colour: #ffffff;
+  --button-status-disabled-background-colour: #bcbdbd;
+  --button-status-disabled-border-colour: #bcbdbd;
+  --button-status-disabled-colour: #858686;
+  --button-status-focus-background-colour: #4d4f4f;
+  --button-status-focus-colour: #ffffff;
+  --button-status-hover-background-colour: #343634;
+  --button-status-hover-border-colour: #343634;
+  --button-status-hover-colour: #ffffff;
+  --button-status-rest-background-colour: #4d4f4f;
+  --button-status-rest-border-colour: #4d4f4f;
+  --button-status-rest-colour: #ffffff;
   --container-status-bold-background-colour: #4d4f4f;
   --container-status-subtle-background-colour: #ffffff;
   --content-status-subtle-colour: #1d1d1b;
@@ -934,6 +1200,20 @@
 }
 
 .lg-status-generic.lg-theme-bold {
+  --button-status-active-background-colour: #1d1d1b;
+  --button-status-active-border-colour: #1d1d1b;
+  --button-status-active-colour: #ffffff;
+  --button-status-disabled-background-colour: #bcbdbd;
+  --button-status-disabled-border-colour: #bcbdbd;
+  --button-status-disabled-colour: #858686;
+  --button-status-focus-background-colour: #4d4f4f;
+  --button-status-focus-colour: #ffffff;
+  --button-status-hover-background-colour: #343634;
+  --button-status-hover-border-colour: #343634;
+  --button-status-hover-colour: #ffffff;
+  --button-status-rest-background-colour: #4d4f4f;
+  --button-status-rest-border-colour: #4d4f4f;
+  --button-status-rest-colour: #ffffff;
   --container-status-bold-background-colour: #4d4f4f;
   --container-status-subtle-background-colour: #ffffff;
   --content-status-subtle-colour: #1d1d1b;
