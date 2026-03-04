@@ -20,6 +20,7 @@
   --button-common-labelled-padding-y: 0.75rem;
   --button-gap: 0.5rem;
   --button-group-gap: 1rem;
+  --button-icon-width: 1.5rem;
   --button-primary-active-background-colour: #000039;
   --button-primary-active-border-colour: #000039;
   --button-primary-active-colour: #ffffff;
@@ -137,6 +138,7 @@
   --content-gap-row-sm: 1.25rem;
   --content-gap-row-xl: 3rem;
   --content-gap-row-xs: 1rem;
+  --content-icon-width-sm: 1.5rem;
   --content-pictogram-fill: #42aeea;
   --content-pictogram-has-fill: true;
   --content-pictogram-outline: #1d1d1b;
@@ -331,6 +333,7 @@
   --button-common-labelled-padding-y: 0.75rem;
   --button-gap: 0.5rem;
   --button-group-gap: 1rem;
+  --button-icon-width: 1.5rem;
   --button-primary-active-background-colour: #000039;
   --button-primary-active-border-colour: #000039;
   --button-primary-active-colour: #ffffff;
@@ -448,6 +451,7 @@
   --content-gap-row-sm: 1.25rem;
   --content-gap-row-xl: 3rem;
   --content-gap-row-xs: 1rem;
+  --content-icon-width-sm: 1.5rem;
   --content-pictogram-fill: #aee1f7;
   --content-pictogram-outline: #1d1d1b;
   --input-common-border-radius-lg: 1rem;
@@ -641,6 +645,7 @@
   --button-common-labelled-padding-y: 0.75rem;
   --button-gap: 0.5rem;
   --button-group-gap: 1rem;
+  --button-icon-width: 1.5rem;
   --button-primary-active-background-colour: #000039;
   --button-primary-active-border-colour: #ffffff;
   --button-primary-active-colour: #ffffff;
@@ -758,6 +763,7 @@
   --content-gap-row-sm: 1.25rem;
   --content-gap-row-xl: 3rem;
   --content-gap-row-xs: 1rem;
+  --content-icon-width-sm: 1.5rem;
   --content-pictogram-fill: #005dba;
   --content-pictogram-outline: #f4f4f4;
   --input-common-border-radius-lg: 1rem;
@@ -951,6 +957,7 @@
   --button-common-labelled-padding-y: 0.75rem;
   --button-gap: 0.5rem;
   --button-group-gap: 1rem;
+  --button-icon-width: 1.5rem;
   --button-primary-active-background-colour: #011b1f;
   --button-primary-active-border-colour: #011b1f;
   --button-primary-active-colour: #ffffff;
@@ -1067,6 +1074,7 @@
   --content-gap-row-sm: 1.25rem;
   --content-gap-row-xl: 3rem;
   --content-gap-row-xs: 1rem;
+  --content-icon-width-sm: 1.5rem;
   --content-pictogram-fill: #42aeea;
   --content-pictogram-has-fill: true;
   --content-pictogram-outline: #1d1d1b;
@@ -1261,6 +1269,7 @@
   --button-common-labelled-padding-y: 0.75rem;
   --button-gap: 0.5rem;
   --button-group-gap: 1rem;
+  --button-icon-width: 1.5rem;
   --button-primary-active-background-colour: #011b1f;
   --button-primary-active-border-colour: #011b1f;
   --button-primary-active-colour: #ffffff;
@@ -1377,6 +1386,7 @@
   --content-gap-row-sm: 1.25rem;
   --content-gap-row-xl: 3rem;
   --content-gap-row-xs: 1rem;
+  --content-icon-width-sm: 1.5rem;
   --content-pictogram-fill: #42aeea;
   --content-pictogram-has-fill: true;
   --content-pictogram-outline: #1d1d1b;
@@ -1571,6 +1581,7 @@
   --button-common-labelled-padding-y: 0.75rem;
   --button-gap: 0.5rem;
   --button-group-gap: 1rem;
+  --button-icon-width: 1.5rem;
   --button-primary-active-background-colour: #011b1f;
   --button-primary-active-border-colour: #011b1f;
   --button-primary-active-colour: #ffffff;
@@ -1687,6 +1698,7 @@
   --content-gap-row-sm: 1.25rem;
   --content-gap-row-xl: 3rem;
   --content-gap-row-xs: 1rem;
+  --content-icon-width-sm: 1.5rem;
   --content-pictogram-fill: #aee1f7;
   --content-pictogram-outline: #1d1d1b;
   --input-common-border-radius-lg: 1rem;
@@ -1880,6 +1892,7 @@
   --button-common-labelled-padding-y: 0.75rem;
   --button-gap: 0.5rem;
   --button-group-gap: 1rem;
+  --button-icon-width: 1.5rem;
   --button-primary-active-background-colour: #011b1f;
   --button-primary-active-border-colour: #ffffff;
   --button-primary-active-colour: #ffffff;
@@ -1996,6 +2009,7 @@
   --content-gap-row-sm: 1.25rem;
   --content-gap-row-xl: 3rem;
   --content-gap-row-xs: 1rem;
+  --content-icon-width-sm: 1.5rem;
   --content-pictogram-fill: #005dba;
   --content-pictogram-outline: #f4f4f4;
   --input-common-border-radius-lg: 1rem;
@@ -2189,6 +2203,7 @@
   --button-common-labelled-padding-y: 0.75rem;
   --button-gap: 0.5rem;
   --button-group-gap: 1rem;
+  --button-icon-width: 1.5rem;
   --button-primary-active-background-colour: #480411;
   --button-primary-active-border-colour: #480411;
   --button-primary-active-colour: #ffffff;
@@ -2305,6 +2320,7 @@
   --content-gap-row-sm: 1.25rem;
   --content-gap-row-xl: 3rem;
   --content-gap-row-xs: 1rem;
+  --content-icon-width-sm: 1.5rem;
   --content-pictogram-fill: #42aeea;
   --content-pictogram-has-fill: true;
   --content-pictogram-outline: #1d1d1b;
@@ -2499,6 +2515,7 @@
   --button-common-labelled-padding-y: 0.75rem;
   --button-gap: 0.5rem;
   --button-group-gap: 1rem;
+  --button-icon-width: 1.5rem;
   --button-primary-active-background-colour: #480411;
   --button-primary-active-border-colour: #480411;
   --button-primary-active-colour: #ffffff;
@@ -2615,6 +2632,7 @@
   --content-gap-row-sm: 1.25rem;
   --content-gap-row-xl: 3rem;
   --content-gap-row-xs: 1rem;
+  --content-icon-width-sm: 1.5rem;
   --content-pictogram-fill: #42aeea;
   --content-pictogram-has-fill: true;
   --content-pictogram-outline: #1d1d1b;
@@ -2809,6 +2827,7 @@
   --button-common-labelled-padding-y: 0.75rem;
   --button-gap: 0.5rem;
   --button-group-gap: 1rem;
+  --button-icon-width: 1.5rem;
   --button-primary-active-background-colour: #480411;
   --button-primary-active-border-colour: #480411;
   --button-primary-active-colour: #ffffff;
@@ -2925,6 +2944,7 @@
   --content-gap-row-sm: 1.25rem;
   --content-gap-row-xl: 3rem;
   --content-gap-row-xs: 1rem;
+  --content-icon-width-sm: 1.5rem;
   --content-pictogram-fill: #aee1f7;
   --content-pictogram-outline: #1d1d1b;
   --input-common-border-radius-lg: 1rem;
@@ -3118,6 +3138,7 @@
   --button-common-labelled-padding-y: 0.75rem;
   --button-gap: 0.5rem;
   --button-group-gap: 1rem;
+  --button-icon-width: 1.5rem;
   --button-primary-active-background-colour: #480411;
   --button-primary-active-border-colour: #ffffff;
   --button-primary-active-colour: #ffffff;
@@ -3234,6 +3255,7 @@
   --content-gap-row-sm: 1.25rem;
   --content-gap-row-xl: 3rem;
   --content-gap-row-xs: 1rem;
+  --content-icon-width-sm: 1.5rem;
   --content-pictogram-fill: #005dba;
   --content-pictogram-outline: #f4f4f4;
   --input-common-border-radius-lg: 1rem;
@@ -3427,6 +3449,7 @@
   --button-common-labelled-padding-y: 0.75rem;
   --button-gap: 0.5rem;
   --button-group-gap: 1rem;
+  --button-icon-width: 1.5rem;
   --button-primary-active-background-colour: #572722;
   --button-primary-active-border-colour: #572722;
   --button-primary-active-colour: #ffffff;
@@ -3543,6 +3566,7 @@
   --content-gap-row-sm: 1.25rem;
   --content-gap-row-xl: 3rem;
   --content-gap-row-xs: 1rem;
+  --content-icon-width-sm: 1.5rem;
   --content-pictogram-fill: #42aeea;
   --content-pictogram-has-fill: true;
   --content-pictogram-outline: #1d1d1b;
@@ -3737,6 +3761,7 @@
   --button-common-labelled-padding-y: 0.75rem;
   --button-gap: 0.5rem;
   --button-group-gap: 1rem;
+  --button-icon-width: 1.5rem;
   --button-primary-active-background-colour: #572722;
   --button-primary-active-border-colour: #572722;
   --button-primary-active-colour: #ffffff;
@@ -3853,6 +3878,7 @@
   --content-gap-row-sm: 1.25rem;
   --content-gap-row-xl: 3rem;
   --content-gap-row-xs: 1rem;
+  --content-icon-width-sm: 1.5rem;
   --content-pictogram-fill: #42aeea;
   --content-pictogram-has-fill: true;
   --content-pictogram-outline: #1d1d1b;
@@ -4047,6 +4073,7 @@
   --button-common-labelled-padding-y: 0.75rem;
   --button-gap: 0.5rem;
   --button-group-gap: 1rem;
+  --button-icon-width: 1.5rem;
   --button-primary-active-background-colour: #572722;
   --button-primary-active-border-colour: #572722;
   --button-primary-active-colour: #ffffff;
@@ -4163,6 +4190,7 @@
   --content-gap-row-sm: 1.25rem;
   --content-gap-row-xl: 3rem;
   --content-gap-row-xs: 1rem;
+  --content-icon-width-sm: 1.5rem;
   --content-pictogram-fill: #aee1f7;
   --content-pictogram-outline: #1d1d1b;
   --input-common-border-radius-lg: 1rem;
@@ -4356,6 +4384,7 @@
   --button-common-labelled-padding-y: 0.75rem;
   --button-gap: 0.5rem;
   --button-group-gap: 1rem;
+  --button-icon-width: 1.5rem;
   --button-primary-active-background-colour: #fffbdc;
   --button-primary-active-border-colour: #1d1d1b;
   --button-primary-active-colour: #1d1d1b;
@@ -4472,6 +4501,7 @@
   --content-gap-row-sm: 1.25rem;
   --content-gap-row-xl: 3rem;
   --content-gap-row-xs: 1rem;
+  --content-icon-width-sm: 1.5rem;
   --content-pictogram-fill: #005dba;
   --content-pictogram-outline: #1d1d1b;
   --input-common-border-radius-lg: 1rem;

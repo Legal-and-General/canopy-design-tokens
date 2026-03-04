@@ -1,6 +1,6 @@
 {
   "$description": "Design tokens from Foundations collection",
-  "$timestamp": "2026-02-27T11:25:33.146Z",
+  "$timestamp": "2026-03-04T08:04:22.483Z",
   "dimensions": {
     "small": {
       "1": {
@@ -238,56 +238,6 @@
         "type": "color"
       }
     },
-    "yellow": {
-      "0": {
-        "value": "#ffffff",
-        "type": "color"
-      },
-      "100": {
-        "value": "#fffbdc",
-        "type": "color"
-      },
-      "200": {
-        "value": "#fff9c7",
-        "type": "color",
-        "description": "Light Yellow"
-      },
-      "300": {
-        "value": "#fff298",
-        "type": "color"
-      },
-      "400": {
-        "value": "#ffe969",
-        "type": "color",
-        "description": "Accent Yellow"
-      },
-      "500": {
-        "value": "#ffd335",
-        "type": "color"
-      },
-      "600": {
-        "value": "#ffb600",
-        "type": "color",
-        "description": "Golden Sun"
-      },
-      "700": {
-        "value": "#e48616",
-        "type": "color"
-      },
-      "800": {
-        "value": "#c86426",
-        "type": "color",
-        "description": "Regal Yellow"
-      },
-      "900": {
-        "value": "#904029",
-        "type": "color"
-      },
-      "1000": {
-        "value": "#572722",
-        "type": "color"
-      }
-    },
     "greyscale": {
       "0": {
         "value": "#ffffff",
@@ -340,6 +290,56 @@
         "value": "#000000",
         "type": "color",
         "description": "Black"
+      }
+    },
+    "yellow": {
+      "0": {
+        "value": "#ffffff",
+        "type": "color"
+      },
+      "100": {
+        "value": "#fffbdc",
+        "type": "color"
+      },
+      "200": {
+        "value": "#fff9c7",
+        "type": "color",
+        "description": "Light Yellow"
+      },
+      "300": {
+        "value": "#fff298",
+        "type": "color"
+      },
+      "400": {
+        "value": "#ffe969",
+        "type": "color",
+        "description": "Accent Yellow"
+      },
+      "500": {
+        "value": "#ffd335",
+        "type": "color"
+      },
+      "600": {
+        "value": "#ffb600",
+        "type": "color",
+        "description": "Golden Sun"
+      },
+      "700": {
+        "value": "#e48616",
+        "type": "color"
+      },
+      "800": {
+        "value": "#c86426",
+        "type": "color",
+        "description": "Regal Yellow"
+      },
+      "900": {
+        "value": "#904029",
+        "type": "color"
+      },
+      "1000": {
+        "value": "#572722",
+        "type": "color"
       }
     }
   },

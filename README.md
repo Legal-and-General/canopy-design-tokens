@@ -21,10 +21,9 @@ A design tokens system that fetches variables from Figma's REST API and transfor
 
 ## Output Files
 
-The build process generates 6 CSS files in `build/css/`:
+The build process generates 5 CSS files in `build/css/`:
 
-- **`colour.css`** - Colour tokens with class selectors: `.lg-mode-blue`, `.lg-mode-green`, `.lg-mode-red`, `.lg-mode-yellow`
-- **`component-themes.css`** - Component theme tokens with class selectors: `.lg-mode-blue.lg-neutral`, `.lg-mode-green.lg-subtle`, etc. (16 combinations)
+- **`component-themes.css`** - Component theme tokens including color tokens with class selectors: `.lg-mode-blue.lg-neutral`, `.lg-mode-green.lg-subtle`, etc. (16 combinations)
 - **`status.css`** - Status tokens with class selectors: `.lg-status-info`, `.lg-status-success`, `.lg-status-warning`, `.lg-status-error`, `.lg-status-generic` combined with theme modes (20 combinations)
 - **`layout.css`** - Layout tokens grouped by breakpoint suffix (sm, md, lg, xl, xxl)
 - **`typography.css`** - Typography tokens (typeface, weights, letter-spacing)
@@ -46,10 +45,6 @@ npm install @legal-and-general/canopy-design-tokens
 <link
   rel="stylesheet"
   href="node_modules/@legal-and-general/canopy-design-tokens/css/variables.css"
-/>
-<link
-  rel="stylesheet"
-  href="node_modules/@legal-and-general/canopy-design-tokens/css/colour.css"
 />
 <link
   rel="stylesheet"
@@ -295,4 +290,4 @@ npm run build:tokens
 
 - Transforms token files into CSS using Style Dictionary
 - Applies custom transforms (rem conversion, naming conventions, etc.)
-- Outputs 7 CSS files to `build/css/`
+- Outputs 5 CSS files to `build/css/`
