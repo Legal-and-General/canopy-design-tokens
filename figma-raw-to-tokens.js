@@ -409,9 +409,10 @@ function processVariablesByCollection(variables, collections) {
     } else if (
       collectionName === 'Button' ||
       collectionName === 'Link' ||
-      collectionName === 'Link menu'
+      collectionName === 'Link menu' ||
+      collectionName === 'Content area'
     ) {
-      // Merge Button/Link tokens into Component themes, expanding across color/theme modes
+      // Merge Button/Link/Content area tokens into Component themes, expanding across color/theme modes
       // These collections have a "Default" mode that should map to all theme modes
       if (!tokensByCollection['Component themes']) {
         tokensByCollection['Component themes'] = {};
@@ -722,7 +723,7 @@ async function main() {
     );
 
     // Filter to specific collections
-    // Note: Link and Link menu are merged into Component themes
+    // Note: Button, Link, Link menu, and Content area are merged into Component themes
     const targetCollections = [
       'Colour',
       'Component themes',
