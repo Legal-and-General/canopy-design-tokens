@@ -341,6 +341,14 @@
   --link-status-bold-focus-border-radius: 0.25rem;
   --link-status-bold-focus-border-width: 0.0625rem;
   --link-group-gap: 1rem;
+  --content-area-padding-x: 1.75rem;
+  --content-area-padding-y: 1.25rem;
+  --content-area-border-radius: 1.75rem;
+  --content-area-background-colour: #ffffff;
+  --content-area-border-colour: #d3d3d3;
+  --content-area-border-width: 0.0625rem;
+  --content-area-colour: #1d1d1b;
+  --content-area-gap: 1.75rem;
   --button-border-radius: 0.75rem;
   --button-border-width: 0.09375rem;
   --button-border-width-focus: 0.25rem;

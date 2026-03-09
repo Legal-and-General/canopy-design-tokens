@@ -1,6 +1,6 @@
 {
   "$description": "Design tokens from Component themes collection",
-  "$timestamp": "2026-03-04T08:04:22.487Z",
+  "$timestamp": "2026-03-05T11:24:26.338Z",
   "link": {
     "gap": {
       "Neutral": {
@@ -2373,6 +2373,728 @@
         "Yellow": {
           "value": 16,
           "type": "sizing"
+        }
+      }
+    }
+  },
+  "content-area": {
+    "padding-x": {
+      "Neutral": {
+        "Blue": {
+          "value": 28,
+          "type": "spacing",
+          "description": "Content area padding left and right"
+        },
+        "Green": {
+          "value": 28,
+          "type": "spacing",
+          "description": "Content area padding left and right"
+        },
+        "Red": {
+          "value": 28,
+          "type": "spacing",
+          "description": "Content area padding left and right"
+        },
+        "Yellow": {
+          "value": 28,
+          "type": "spacing",
+          "description": "Content area padding left and right"
+        }
+      },
+      "Neutral inverse": {
+        "Blue": {
+          "value": 28,
+          "type": "spacing",
+          "description": "Content area padding left and right"
+        },
+        "Green": {
+          "value": 28,
+          "type": "spacing",
+          "description": "Content area padding left and right"
+        },
+        "Red": {
+          "value": 28,
+          "type": "spacing",
+          "description": "Content area padding left and right"
+        },
+        "Yellow": {
+          "value": 28,
+          "type": "spacing",
+          "description": "Content area padding left and right"
+        }
+      },
+      "Subtle": {
+        "Blue": {
+          "value": 28,
+          "type": "spacing",
+          "description": "Content area padding left and right"
+        },
+        "Green": {
+          "value": 28,
+          "type": "spacing",
+          "description": "Content area padding left and right"
+        },
+        "Red": {
+          "value": 28,
+          "type": "spacing",
+          "description": "Content area padding left and right"
+        },
+        "Yellow": {
+          "value": 28,
+          "type": "spacing",
+          "description": "Content area padding left and right"
+        }
+      },
+      "Bold": {
+        "Blue": {
+          "value": 28,
+          "type": "spacing",
+          "description": "Content area padding left and right"
+        },
+        "Green": {
+          "value": 28,
+          "type": "spacing",
+          "description": "Content area padding left and right"
+        },
+        "Red": {
+          "value": 28,
+          "type": "spacing",
+          "description": "Content area padding left and right"
+        },
+        "Yellow": {
+          "value": 28,
+          "type": "spacing",
+          "description": "Content area padding left and right"
+        }
+      }
+    },
+    "padding-y": {
+      "Neutral": {
+        "Blue": {
+          "value": 20,
+          "type": "spacing",
+          "description": "Content area padding top and bottom"
+        },
+        "Green": {
+          "value": 20,
+          "type": "spacing",
+          "description": "Content area padding top and bottom"
+        },
+        "Red": {
+          "value": 20,
+          "type": "spacing",
+          "description": "Content area padding top and bottom"
+        },
+        "Yellow": {
+          "value": 20,
+          "type": "spacing",
+          "description": "Content area padding top and bottom"
+        }
+      },
+      "Neutral inverse": {
+        "Blue": {
+          "value": 20,
+          "type": "spacing",
+          "description": "Content area padding top and bottom"
+        },
+        "Green": {
+          "value": 20,
+          "type": "spacing",
+          "description": "Content area padding top and bottom"
+        },
+        "Red": {
+          "value": 20,
+          "type": "spacing",
+          "description": "Content area padding top and bottom"
+        },
+        "Yellow": {
+          "value": 20,
+          "type": "spacing",
+          "description": "Content area padding top and bottom"
+        }
+      },
+      "Subtle": {
+        "Blue": {
+          "value": 20,
+          "type": "spacing",
+          "description": "Content area padding top and bottom"
+        },
+        "Green": {
+          "value": 20,
+          "type": "spacing",
+          "description": "Content area padding top and bottom"
+        },
+        "Red": {
+          "value": 20,
+          "type": "spacing",
+          "description": "Content area padding top and bottom"
+        },
+        "Yellow": {
+          "value": 20,
+          "type": "spacing",
+          "description": "Content area padding top and bottom"
+        }
+      },
+      "Bold": {
+        "Blue": {
+          "value": 20,
+          "type": "spacing",
+          "description": "Content area padding top and bottom"
+        },
+        "Green": {
+          "value": 20,
+          "type": "spacing",
+          "description": "Content area padding top and bottom"
+        },
+        "Red": {
+          "value": 20,
+          "type": "spacing",
+          "description": "Content area padding top and bottom"
+        },
+        "Yellow": {
+          "value": 20,
+          "type": "spacing",
+          "description": "Content area padding top and bottom"
+        }
+      }
+    },
+    "border-radius": {
+      "Neutral": {
+        "Blue": {
+          "value": 28,
+          "type": "borderRadius",
+          "description": "Content area border radius"
+        },
+        "Green": {
+          "value": 28,
+          "type": "borderRadius",
+          "description": "Content area border radius"
+        },
+        "Red": {
+          "value": 28,
+          "type": "borderRadius",
+          "description": "Content area border radius"
+        },
+        "Yellow": {
+          "value": 28,
+          "type": "borderRadius",
+          "description": "Content area border radius"
+        }
+      },
+      "Neutral inverse": {
+        "Blue": {
+          "value": 28,
+          "type": "borderRadius",
+          "description": "Content area border radius"
+        },
+        "Green": {
+          "value": 28,
+          "type": "borderRadius",
+          "description": "Content area border radius"
+        },
+        "Red": {
+          "value": 28,
+          "type": "borderRadius",
+          "description": "Content area border radius"
+        },
+        "Yellow": {
+          "value": 28,
+          "type": "borderRadius",
+          "description": "Content area border radius"
+        }
+      },
+      "Subtle": {
+        "Blue": {
+          "value": 28,
+          "type": "borderRadius",
+          "description": "Content area border radius"
+        },
+        "Green": {
+          "value": 28,
+          "type": "borderRadius",
+          "description": "Content area border radius"
+        },
+        "Red": {
+          "value": 28,
+          "type": "borderRadius",
+          "description": "Content area border radius"
+        },
+        "Yellow": {
+          "value": 28,
+          "type": "borderRadius",
+          "description": "Content area border radius"
+        }
+      },
+      "Bold": {
+        "Blue": {
+          "value": 28,
+          "type": "borderRadius",
+          "description": "Content area border radius"
+        },
+        "Green": {
+          "value": 28,
+          "type": "borderRadius",
+          "description": "Content area border radius"
+        },
+        "Red": {
+          "value": 28,
+          "type": "borderRadius",
+          "description": "Content area border radius"
+        },
+        "Yellow": {
+          "value": 28,
+          "type": "borderRadius",
+          "description": "Content area border radius"
+        }
+      }
+    },
+    "background-colour": {
+      "Neutral": {
+        "Blue": {
+          "value": "#ffffff",
+          "type": "color",
+          "description": "Content area background colour"
+        },
+        "Green": {
+          "value": "#ffffff",
+          "type": "color",
+          "description": "Content area background colour"
+        },
+        "Red": {
+          "value": "#ffffff",
+          "type": "color",
+          "description": "Content area background colour"
+        },
+        "Yellow": {
+          "value": "#ffffff",
+          "type": "color",
+          "description": "Content area background colour"
+        }
+      },
+      "Neutral inverse": {
+        "Blue": {
+          "value": "#f4f4f4",
+          "type": "color",
+          "description": "Content area background colour"
+        },
+        "Green": {
+          "value": "#f4f4f4",
+          "type": "color",
+          "description": "Content area background colour"
+        },
+        "Red": {
+          "value": "#f4f4f4",
+          "type": "color",
+          "description": "Content area background colour"
+        },
+        "Yellow": {
+          "value": "#f4f4f4",
+          "type": "color",
+          "description": "Content area background colour"
+        }
+      },
+      "Subtle": {
+        "Blue": {
+          "value": "#aee1f7",
+          "type": "color",
+          "description": "Content area background colour"
+        },
+        "Green": {
+          "value": "#caeedd",
+          "type": "color",
+          "description": "Content area background colour"
+        },
+        "Red": {
+          "value": "#ffd5d2",
+          "type": "color",
+          "description": "Content area background colour"
+        },
+        "Yellow": {
+          "value": "#fff9c7",
+          "type": "color",
+          "description": "Content area background colour"
+        }
+      },
+      "Bold": {
+        "Blue": {
+          "value": "#005dba",
+          "type": "color",
+          "description": "Content area background colour"
+        },
+        "Green": {
+          "value": "#00633d",
+          "type": "color",
+          "description": "Content area background colour"
+        },
+        "Red": {
+          "value": "#c50b30",
+          "type": "color",
+          "description": "Content area background colour"
+        },
+        "Yellow": {
+          "value": "#ffb600",
+          "type": "color",
+          "description": "Content area background colour"
+        }
+      }
+    },
+    "border-colour": {
+      "Neutral": {
+        "Blue": {
+          "value": "#d3d3d3",
+          "type": "color",
+          "description": "Content area border colour"
+        },
+        "Green": {
+          "value": "#d3d3d3",
+          "type": "color",
+          "description": "Content area border colour"
+        },
+        "Red": {
+          "value": "#d3d3d3",
+          "type": "color",
+          "description": "Content area border colour"
+        },
+        "Yellow": {
+          "value": "#d3d3d3",
+          "type": "color",
+          "description": "Content area border colour"
+        }
+      },
+      "Neutral inverse": {
+        "Blue": {
+          "value": "#d3d3d3",
+          "type": "color",
+          "description": "Content area border colour"
+        },
+        "Green": {
+          "value": "#d3d3d3",
+          "type": "color",
+          "description": "Content area border colour"
+        },
+        "Red": {
+          "value": "#d3d3d3",
+          "type": "color",
+          "description": "Content area border colour"
+        },
+        "Yellow": {
+          "value": "#d3d3d3",
+          "type": "color",
+          "description": "Content area border colour"
+        }
+      },
+      "Subtle": {
+        "Blue": {
+          "value": "#42aeea",
+          "type": "color",
+          "description": "Content area border colour"
+        },
+        "Green": {
+          "value": "#43af6e",
+          "type": "color",
+          "description": "Content area border colour"
+        },
+        "Red": {
+          "value": "#ff3e51",
+          "type": "color",
+          "description": "Content area border colour"
+        },
+        "Yellow": {
+          "value": "#ffe969",
+          "type": "color",
+          "description": "Content area border colour"
+        }
+      },
+      "Bold": {
+        "Blue": {
+          "value": "#001d6e",
+          "type": "color",
+          "description": "Content area border colour"
+        },
+        "Green": {
+          "value": "#01312e",
+          "type": "color",
+          "description": "Content area border colour"
+        },
+        "Red": {
+          "value": "#940824",
+          "type": "color",
+          "description": "Content area border colour"
+        },
+        "Yellow": {
+          "value": "#c86426",
+          "type": "color",
+          "description": "Content area border colour"
+        }
+      }
+    },
+    "border-width": {
+      "Neutral": {
+        "Blue": {
+          "value": 1,
+          "type": "borderWidth",
+          "description": "Content area border width"
+        },
+        "Green": {
+          "value": 1,
+          "type": "borderWidth",
+          "description": "Content area border width"
+        },
+        "Red": {
+          "value": 1,
+          "type": "borderWidth",
+          "description": "Content area border width"
+        },
+        "Yellow": {
+          "value": 1,
+          "type": "borderWidth",
+          "description": "Content area border width"
+        }
+      },
+      "Neutral inverse": {
+        "Blue": {
+          "value": 1,
+          "type": "borderWidth",
+          "description": "Content area border width"
+        },
+        "Green": {
+          "value": 1,
+          "type": "borderWidth",
+          "description": "Content area border width"
+        },
+        "Red": {
+          "value": 1,
+          "type": "borderWidth",
+          "description": "Content area border width"
+        },
+        "Yellow": {
+          "value": 1,
+          "type": "borderWidth",
+          "description": "Content area border width"
+        }
+      },
+      "Subtle": {
+        "Blue": {
+          "value": 1,
+          "type": "borderWidth",
+          "description": "Content area border width"
+        },
+        "Green": {
+          "value": 1,
+          "type": "borderWidth",
+          "description": "Content area border width"
+        },
+        "Red": {
+          "value": 1,
+          "type": "borderWidth",
+          "description": "Content area border width"
+        },
+        "Yellow": {
+          "value": 1,
+          "type": "borderWidth",
+          "description": "Content area border width"
+        }
+      },
+      "Bold": {
+        "Blue": {
+          "value": 1,
+          "type": "borderWidth",
+          "description": "Content area border width"
+        },
+        "Green": {
+          "value": 1,
+          "type": "borderWidth",
+          "description": "Content area border width"
+        },
+        "Red": {
+          "value": 1,
+          "type": "borderWidth",
+          "description": "Content area border width"
+        },
+        "Yellow": {
+          "value": 1,
+          "type": "borderWidth",
+          "description": "Content area border width"
+        }
+      }
+    },
+    "colour": {
+      "Neutral": {
+        "Blue": {
+          "value": "#1d1d1b",
+          "type": "color",
+          "description": "Content area foreground colour"
+        },
+        "Green": {
+          "value": "#1d1d1b",
+          "type": "color",
+          "description": "Content area foreground colour"
+        },
+        "Red": {
+          "value": "#1d1d1b",
+          "type": "color",
+          "description": "Content area foreground colour"
+        },
+        "Yellow": {
+          "value": "#1d1d1b",
+          "type": "color",
+          "description": "Content area foreground colour"
+        }
+      },
+      "Neutral inverse": {
+        "Blue": {
+          "value": "#1d1d1b",
+          "type": "color",
+          "description": "Content area foreground colour"
+        },
+        "Green": {
+          "value": "#1d1d1b",
+          "type": "color",
+          "description": "Content area foreground colour"
+        },
+        "Red": {
+          "value": "#1d1d1b",
+          "type": "color",
+          "description": "Content area foreground colour"
+        },
+        "Yellow": {
+          "value": "#1d1d1b",
+          "type": "color",
+          "description": "Content area foreground colour"
+        }
+      },
+      "Subtle": {
+        "Blue": {
+          "value": "#1d1d1b",
+          "type": "color",
+          "description": "Content area foreground colour"
+        },
+        "Green": {
+          "value": "#1d1d1b",
+          "type": "color",
+          "description": "Content area foreground colour"
+        },
+        "Red": {
+          "value": "#1d1d1b",
+          "type": "color",
+          "description": "Content area foreground colour"
+        },
+        "Yellow": {
+          "value": "#1d1d1b",
+          "type": "color",
+          "description": "Content area foreground colour"
+        }
+      },
+      "Bold": {
+        "Blue": {
+          "value": "#ffffff",
+          "type": "color",
+          "description": "Content area foreground colour"
+        },
+        "Green": {
+          "value": "#ffffff",
+          "type": "color",
+          "description": "Content area foreground colour"
+        },
+        "Red": {
+          "value": "#ffffff",
+          "type": "color",
+          "description": "Content area foreground colour"
+        },
+        "Yellow": {
+          "value": "#1d1d1b",
+          "type": "color",
+          "description": "Content area foreground colour"
+        }
+      }
+    },
+    "gap": {
+      "Neutral": {
+        "Blue": {
+          "value": 28,
+          "type": "sizing",
+          "description": "The row gap between items in a content area"
+        },
+        "Green": {
+          "value": 28,
+          "type": "sizing",
+          "description": "The row gap between items in a content area"
+        },
+        "Red": {
+          "value": 28,
+          "type": "sizing",
+          "description": "The row gap between items in a content area"
+        },
+        "Yellow": {
+          "value": 28,
+          "type": "sizing",
+          "description": "The row gap between items in a content area"
+        }
+      },
+      "Neutral inverse": {
+        "Blue": {
+          "value": 28,
+          "type": "sizing",
+          "description": "The row gap between items in a content area"
+        },
+        "Green": {
+          "value": 28,
+          "type": "sizing",
+          "description": "The row gap between items in a content area"
+        },
+        "Red": {
+          "value": 28,
+          "type": "sizing",
+          "description": "The row gap between items in a content area"
+        },
+        "Yellow": {
+          "value": 28,
+          "type": "sizing",
+          "description": "The row gap between items in a content area"
+        }
+      },
+      "Subtle": {
+        "Blue": {
+          "value": 28,
+          "type": "sizing",
+          "description": "The row gap between items in a content area"
+        },
+        "Green": {
+          "value": 28,
+          "type": "sizing",
+          "description": "The row gap between items in a content area"
+        },
+        "Red": {
+          "value": 28,
+          "type": "sizing",
+          "description": "The row gap between items in a content area"
+        },
+        "Yellow": {
+          "value": 28,
+          "type": "sizing",
+          "description": "The row gap between items in a content area"
+        }
+      },
+      "Bold": {
+        "Blue": {
+          "value": 28,
+          "type": "sizing",
+          "description": "The row gap between items in a content area"
+        },
+        "Green": {
+          "value": 28,
+          "type": "sizing",
+          "description": "The row gap between items in a content area"
+        },
+        "Red": {
+          "value": 28,
+          "type": "sizing",
+          "description": "The row gap between items in a content area"
+        },
+        "Yellow": {
+          "value": 28,
+          "type": "sizing",
+          "description": "The row gap between items in a content area"
         }
       }
     }
