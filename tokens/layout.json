@@ -1,6 +1,6 @@
 {
   "$description": "Design tokens from Layout collection",
-  "$timestamp": "2026-03-27T09:50:12.901Z",
+  "$timestamp": "2026-04-10T08:17:10.043Z",
   "border-radius": {
     "1": {
       "SM": {
@@ -380,332 +380,6 @@
         "value": 2,
         "type": "borderWidth",
         "description": "Use for medium border widths"
-      }
-    }
-  },
-  "colspan": {
-    "1": {
-      "SM": {
-        "value": 288,
-        "type": "sizing",
-        "description": "Use to make an element span 1 column in a page"
-      },
-      "MD": {
-        "value": 34,
-        "type": "sizing",
-        "description": "Use to make an element span 1 column in a page"
-      },
-      "LG": {
-        "value": 51,
-        "type": "sizing",
-        "description": "Use to make an element span 1 column in a page"
-      },
-      "XL": {
-        "value": 65,
-        "type": "sizing",
-        "description": "Use to make an element span 1 column in a page"
-      },
-      "XXL": {
-        "value": 73,
-        "type": "sizing",
-        "description": "Use to make an element span 1 column in a page"
-      }
-    },
-    "2": {
-      "SM": {
-        "value": 288,
-        "type": "sizing",
-        "description": "Use to make an element span 2 columns in a page"
-      },
-      "MD": {
-        "value": 95,
-        "type": "sizing",
-        "description": "Use to make an element span 2 columns in a page"
-      },
-      "LG": {
-        "value": 133,
-        "type": "sizing",
-        "description": "Use to make an element span 2 columns in a page"
-      },
-      "XL": {
-        "value": 162,
-        "type": "sizing",
-        "description": "Use to make an element span 2 columns in a page"
-      },
-      "XXL": {
-        "value": 178,
-        "type": "sizing",
-        "description": "Use to make an element span 2 columns in a page"
-      }
-    },
-    "3": {
-      "SM": {
-        "value": 288,
-        "type": "sizing",
-        "description": "Use to make an element span 3 columns in a page"
-      },
-      "MD": {
-        "value": 157,
-        "type": "sizing",
-        "description": "Use to make an element span 3 columns in a page"
-      },
-      "LG": {
-        "value": 216,
-        "type": "sizing",
-        "description": "Use to make an element span 3 columns in a page"
-      },
-      "XL": {
-        "value": 260,
-        "type": "sizing",
-        "description": "Use to make an element span 3 columns in a page"
-      },
-      "XXL": {
-        "value": 284,
-        "type": "sizing",
-        "description": "Use to make an element span 3 columns in a page"
-      }
-    },
-    "4": {
-      "SM": {
-        "value": 288,
-        "type": "sizing",
-        "description": "Use to make an element span 4 columns in a page"
-      },
-      "MD": {
-        "value": 218.5,
-        "type": "sizing",
-        "description": "Use to make an element span 4 columns in a page"
-      },
-      "LG": {
-        "value": 298.5,
-        "type": "sizing",
-        "description": "Use to make an element span 4 columns in a page"
-      },
-      "XL": {
-        "value": 357,
-        "type": "sizing",
-        "description": "Use to make an element span 4 columns in a page"
-      },
-      "XXL": {
-        "value": 389,
-        "type": "sizing",
-        "description": "Use to make an element span 4 columns in a page"
-      }
-    },
-    "5": {
-      "SM": {
-        "value": 288,
-        "type": "sizing",
-        "description": "Use to make an element span 5 columns in a page"
-      },
-      "MD": {
-        "value": 280,
-        "type": "sizing",
-        "description": "Use to make an element span 5 columns in a page"
-      },
-      "LG": {
-        "value": 381,
-        "type": "sizing",
-        "description": "Use to make an element span 5 columns in a page"
-      },
-      "XL": {
-        "value": 454,
-        "type": "sizing",
-        "description": "Use to make an element span 5 columns in a page"
-      },
-      "XXL": {
-        "value": 494,
-        "type": "sizing",
-        "description": "Use to make an element span 5 columns in a page"
-      }
-    },
-    "6": {
-      "SM": {
-        "value": 288,
-        "type": "sizing",
-        "description": "Use to make an element span 6 columns in a page"
-      },
-      "MD": {
-        "value": 341,
-        "type": "sizing",
-        "description": "Use to make an element span 6 columns in a page"
-      },
-      "LG": {
-        "value": 464,
-        "type": "sizing",
-        "description": "Use to make an element span 6 columns in a page"
-      },
-      "XL": {
-        "value": 552,
-        "type": "sizing",
-        "description": "Use to make an element span 6 columns in a page"
-      },
-      "XXL": {
-        "value": 600,
-        "type": "sizing",
-        "description": "Use to make an element span 6 columns in a page"
-      }
-    },
-    "7": {
-      "SM": {
-        "value": 288,
-        "type": "sizing",
-        "description": "Use to make an element span 7 columns in a page"
-      },
-      "MD": {
-        "value": 404,
-        "type": "sizing",
-        "description": "Use to make an element span 7 columns in a page"
-      },
-      "LG": {
-        "value": 547,
-        "type": "sizing",
-        "description": "Use to make an element span 7 columns in a page"
-      },
-      "XL": {
-        "value": 649,
-        "type": "sizing",
-        "description": "Use to make an element span 7 columns in a page"
-      },
-      "XXL": {
-        "value": 705,
-        "type": "sizing",
-        "description": "Use to make an element span 7 columns in a page"
-      }
-    },
-    "8": {
-      "SM": {
-        "value": 288,
-        "type": "sizing",
-        "description": "Use to make an element span 8 columns in a page"
-      },
-      "MD": {
-        "value": 465,
-        "type": "sizing",
-        "description": "Use to make an element span 8 columns in a page"
-      },
-      "LG": {
-        "value": 629,
-        "type": "sizing",
-        "description": "Use to make an element span 8 columns in a page"
-      },
-      "XL": {
-        "value": 746,
-        "type": "sizing",
-        "description": "Use to make an element span 8 columns in a page"
-      },
-      "XXL": {
-        "value": 810,
-        "type": "sizing",
-        "description": "Use to make an element span 8 columns in a page"
-      }
-    },
-    "9": {
-      "SM": {
-        "value": 288,
-        "type": "sizing",
-        "description": "Use to make an element span 9 columns in a page"
-      },
-      "MD": {
-        "value": 527,
-        "type": "sizing",
-        "description": "Use to make an element span 9 columns in a page"
-      },
-      "LG": {
-        "value": 712,
-        "type": "sizing",
-        "description": "Use to make an element span 9 columns in a page"
-      },
-      "XL": {
-        "value": 844,
-        "type": "sizing",
-        "description": "Use to make an element span 9 columns in a page"
-      },
-      "XXL": {
-        "value": 916,
-        "type": "sizing",
-        "description": "Use to make an element span 9 columns in a page"
-      }
-    },
-    "10": {
-      "SM": {
-        "value": 288,
-        "type": "sizing",
-        "description": "Use to make an element span 10 columns in a page"
-      },
-      "MD": {
-        "value": 589,
-        "type": "sizing",
-        "description": "Use to make an element span 10 columns in a page"
-      },
-      "LG": {
-        "value": 795,
-        "type": "sizing",
-        "description": "Use to make an element span 10 columns in a page"
-      },
-      "XL": {
-        "value": 941,
-        "type": "sizing",
-        "description": "Use to make an element span 10 columns in a page"
-      },
-      "XXL": {
-        "value": 1021,
-        "type": "sizing",
-        "description": "Use to make an element span 10 columns in a page"
-      }
-    },
-    "11": {
-      "SM": {
-        "value": 288,
-        "type": "sizing",
-        "description": "Use to make an element span 11 columns in a page"
-      },
-      "MD": {
-        "value": 650,
-        "type": "sizing",
-        "description": "Use to make an element span 11 columns in a page"
-      },
-      "LG": {
-        "value": 877,
-        "type": "sizing",
-        "description": "Use to make an element span 11 columns in a page"
-      },
-      "XL": {
-        "value": 1038,
-        "type": "sizing",
-        "description": "Use to make an element span 11 columns in a page"
-      },
-      "XXL": {
-        "value": 1126,
-        "type": "sizing",
-        "description": "Use to make an element span 11 columns in a page"
-      }
-    },
-    "12": {
-      "SM": {
-        "value": 288,
-        "type": "sizing",
-        "description": "Use to make an element span 12 columns in a page"
-      },
-      "MD": {
-        "value": 712,
-        "type": "sizing",
-        "description": "Use to make an element span 12 columns in a page"
-      },
-      "LG": {
-        "value": 960,
-        "type": "sizing",
-        "description": "Use to make an element span 12 columns in a page"
-      },
-      "XL": {
-        "value": 1136,
-        "type": "sizing",
-        "description": "Use to make an element span 12 columns in a page"
-      },
-      "XXL": {
-        "value": 1232,
-        "type": "sizing",
-        "description": "Use to make an element span 12 columns in a page"
       }
     }
   },
@@ -1095,6 +769,332 @@
       "XXL": {
         "value": 1680,
         "type": "sizing"
+      }
+    }
+  },
+  "colspan": {
+    "1": {
+      "SM": {
+        "value": 288,
+        "type": "sizing",
+        "description": "Use to make an element span 1 column in a page"
+      },
+      "MD": {
+        "value": 34,
+        "type": "sizing",
+        "description": "Use to make an element span 1 column in a page"
+      },
+      "LG": {
+        "value": 51,
+        "type": "sizing",
+        "description": "Use to make an element span 1 column in a page"
+      },
+      "XL": {
+        "value": 65,
+        "type": "sizing",
+        "description": "Use to make an element span 1 column in a page"
+      },
+      "XXL": {
+        "value": 73,
+        "type": "sizing",
+        "description": "Use to make an element span 1 column in a page"
+      }
+    },
+    "2": {
+      "SM": {
+        "value": 288,
+        "type": "sizing",
+        "description": "Use to make an element span 2 columns in a page"
+      },
+      "MD": {
+        "value": 95,
+        "type": "sizing",
+        "description": "Use to make an element span 2 columns in a page"
+      },
+      "LG": {
+        "value": 133,
+        "type": "sizing",
+        "description": "Use to make an element span 2 columns in a page"
+      },
+      "XL": {
+        "value": 162,
+        "type": "sizing",
+        "description": "Use to make an element span 2 columns in a page"
+      },
+      "XXL": {
+        "value": 178,
+        "type": "sizing",
+        "description": "Use to make an element span 2 columns in a page"
+      }
+    },
+    "3": {
+      "SM": {
+        "value": 288,
+        "type": "sizing",
+        "description": "Use to make an element span 3 columns in a page"
+      },
+      "MD": {
+        "value": 157,
+        "type": "sizing",
+        "description": "Use to make an element span 3 columns in a page"
+      },
+      "LG": {
+        "value": 216,
+        "type": "sizing",
+        "description": "Use to make an element span 3 columns in a page"
+      },
+      "XL": {
+        "value": 260,
+        "type": "sizing",
+        "description": "Use to make an element span 3 columns in a page"
+      },
+      "XXL": {
+        "value": 284,
+        "type": "sizing",
+        "description": "Use to make an element span 3 columns in a page"
+      }
+    },
+    "4": {
+      "SM": {
+        "value": 288,
+        "type": "sizing",
+        "description": "Use to make an element span 4 columns in a page"
+      },
+      "MD": {
+        "value": 218.5,
+        "type": "sizing",
+        "description": "Use to make an element span 4 columns in a page"
+      },
+      "LG": {
+        "value": 298.5,
+        "type": "sizing",
+        "description": "Use to make an element span 4 columns in a page"
+      },
+      "XL": {
+        "value": 357,
+        "type": "sizing",
+        "description": "Use to make an element span 4 columns in a page"
+      },
+      "XXL": {
+        "value": 389,
+        "type": "sizing",
+        "description": "Use to make an element span 4 columns in a page"
+      }
+    },
+    "5": {
+      "SM": {
+        "value": 288,
+        "type": "sizing",
+        "description": "Use to make an element span 5 columns in a page"
+      },
+      "MD": {
+        "value": 280,
+        "type": "sizing",
+        "description": "Use to make an element span 5 columns in a page"
+      },
+      "LG": {
+        "value": 381,
+        "type": "sizing",
+        "description": "Use to make an element span 5 columns in a page"
+      },
+      "XL": {
+        "value": 454,
+        "type": "sizing",
+        "description": "Use to make an element span 5 columns in a page"
+      },
+      "XXL": {
+        "value": 494,
+        "type": "sizing",
+        "description": "Use to make an element span 5 columns in a page"
+      }
+    },
+    "6": {
+      "SM": {
+        "value": 288,
+        "type": "sizing",
+        "description": "Use to make an element span 6 columns in a page"
+      },
+      "MD": {
+        "value": 341,
+        "type": "sizing",
+        "description": "Use to make an element span 6 columns in a page"
+      },
+      "LG": {
+        "value": 464,
+        "type": "sizing",
+        "description": "Use to make an element span 6 columns in a page"
+      },
+      "XL": {
+        "value": 552,
+        "type": "sizing",
+        "description": "Use to make an element span 6 columns in a page"
+      },
+      "XXL": {
+        "value": 600,
+        "type": "sizing",
+        "description": "Use to make an element span 6 columns in a page"
+      }
+    },
+    "7": {
+      "SM": {
+        "value": 288,
+        "type": "sizing",
+        "description": "Use to make an element span 7 columns in a page"
+      },
+      "MD": {
+        "value": 404,
+        "type": "sizing",
+        "description": "Use to make an element span 7 columns in a page"
+      },
+      "LG": {
+        "value": 547,
+        "type": "sizing",
+        "description": "Use to make an element span 7 columns in a page"
+      },
+      "XL": {
+        "value": 649,
+        "type": "sizing",
+        "description": "Use to make an element span 7 columns in a page"
+      },
+      "XXL": {
+        "value": 705,
+        "type": "sizing",
+        "description": "Use to make an element span 7 columns in a page"
+      }
+    },
+    "8": {
+      "SM": {
+        "value": 288,
+        "type": "sizing",
+        "description": "Use to make an element span 8 columns in a page"
+      },
+      "MD": {
+        "value": 465,
+        "type": "sizing",
+        "description": "Use to make an element span 8 columns in a page"
+      },
+      "LG": {
+        "value": 629,
+        "type": "sizing",
+        "description": "Use to make an element span 8 columns in a page"
+      },
+      "XL": {
+        "value": 746,
+        "type": "sizing",
+        "description": "Use to make an element span 8 columns in a page"
+      },
+      "XXL": {
+        "value": 810,
+        "type": "sizing",
+        "description": "Use to make an element span 8 columns in a page"
+      }
+    },
+    "9": {
+      "SM": {
+        "value": 288,
+        "type": "sizing",
+        "description": "Use to make an element span 9 columns in a page"
+      },
+      "MD": {
+        "value": 527,
+        "type": "sizing",
+        "description": "Use to make an element span 9 columns in a page"
+      },
+      "LG": {
+        "value": 712,
+        "type": "sizing",
+        "description": "Use to make an element span 9 columns in a page"
+      },
+      "XL": {
+        "value": 844,
+        "type": "sizing",
+        "description": "Use to make an element span 9 columns in a page"
+      },
+      "XXL": {
+        "value": 916,
+        "type": "sizing",
+        "description": "Use to make an element span 9 columns in a page"
+      }
+    },
+    "10": {
+      "SM": {
+        "value": 288,
+        "type": "sizing",
+        "description": "Use to make an element span 10 columns in a page"
+      },
+      "MD": {
+        "value": 589,
+        "type": "sizing",
+        "description": "Use to make an element span 10 columns in a page"
+      },
+      "LG": {
+        "value": 795,
+        "type": "sizing",
+        "description": "Use to make an element span 10 columns in a page"
+      },
+      "XL": {
+        "value": 941,
+        "type": "sizing",
+        "description": "Use to make an element span 10 columns in a page"
+      },
+      "XXL": {
+        "value": 1021,
+        "type": "sizing",
+        "description": "Use to make an element span 10 columns in a page"
+      }
+    },
+    "11": {
+      "SM": {
+        "value": 288,
+        "type": "sizing",
+        "description": "Use to make an element span 11 columns in a page"
+      },
+      "MD": {
+        "value": 650,
+        "type": "sizing",
+        "description": "Use to make an element span 11 columns in a page"
+      },
+      "LG": {
+        "value": 877,
+        "type": "sizing",
+        "description": "Use to make an element span 11 columns in a page"
+      },
+      "XL": {
+        "value": 1038,
+        "type": "sizing",
+        "description": "Use to make an element span 11 columns in a page"
+      },
+      "XXL": {
+        "value": 1126,
+        "type": "sizing",
+        "description": "Use to make an element span 11 columns in a page"
+      }
+    },
+    "12": {
+      "SM": {
+        "value": 288,
+        "type": "sizing",
+        "description": "Use to make an element span 12 columns in a page"
+      },
+      "MD": {
+        "value": 712,
+        "type": "sizing",
+        "description": "Use to make an element span 12 columns in a page"
+      },
+      "LG": {
+        "value": 960,
+        "type": "sizing",
+        "description": "Use to make an element span 12 columns in a page"
+      },
+      "XL": {
+        "value": 1136,
+        "type": "sizing",
+        "description": "Use to make an element span 12 columns in a page"
+      },
+      "XXL": {
+        "value": 1232,
+        "type": "sizing",
+        "description": "Use to make an element span 12 columns in a page"
       }
     }
   },

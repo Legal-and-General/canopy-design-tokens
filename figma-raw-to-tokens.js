@@ -410,9 +410,15 @@ function processVariablesByCollection(variables, collections) {
       collectionName === 'Button' ||
       collectionName === 'Link' ||
       collectionName === 'Link menu' ||
-      collectionName === 'Content area'
+      collectionName === 'Content area' ||
+      collectionName === 'Form Elements' ||
+      collectionName === 'Footer' ||
+      collectionName === 'Banner' ||
+      collectionName === 'Card' ||
+      collectionName === 'Data point' ||
+      collectionName === 'Filter Button'
     ) {
-      // Merge Button/Link/Content area tokens into Component themes, expanding across color/theme modes
+      // Merge Button/Link/Content area/Form Elements/Footer/Banner/Card/Data point/Filter Button tokens into Component themes, expanding across color/theme modes
       // These collections have a "Default" mode that should map to all theme modes
       if (!tokensByCollection['Component themes']) {
         tokensByCollection['Component themes'] = {};
