@@ -236,9 +236,10 @@ module.exports = {
 
           // Check if this is a status token (has 'status' in path)
           const isStatus = token.path.includes('status');
+          const isValidation = token.path.includes('validation');
 
-          // Skip status tokens - they're handled by css/status-classes formatter
-          if (isStatus) return;
+          // Skip status and validation tokens - they're handled by css/status-classes formatter
+          if (isStatus || isValidation) return;
 
           // Extract color mode (and optionally theme mode) from path
           const path = token.path;
@@ -421,12 +422,14 @@ module.exports = {
         const grouped = {};
 
         dictionary.allTokens.forEach((token) => {
-          // Only process status tokens
-          if (!token.path.includes('status')) return;
+          // Only process status or validation tokens
+          if (!token.path.includes('status') && !token.path.includes('validation'))
+            return;
 
           // Extract status mode and theme mode from path
           // Path structure: [component, 'status', variant, property, themeMode, statusMode]
           // or: [component, 'status', property, themeMode, statusMode]
+          // or: [component, 'validation', property, themeMode, statusMode]
           const path = token.path;
           const statusMode = path[path.length - 1]; // Info, Success, Warning, Error, Generic
           const themeMode = path[path.length - 2]; // Neutral, Subtle, Bold, Neutral inverse
@@ -493,8 +496,10 @@ module.exports = {
 
           group.tokens.forEach((token) => {
             // Remove theme mode and status mode from variable name
-            // Find 'status' in path and build varName
+            // Find 'status' or 'validation' in path and build varName
             const statusIndex = token.path.indexOf('status');
+            const validationIndex = token.path.indexOf('validation');
+
             if (statusIndex >= 0) {
               const pathBeforeStatus = token.path.slice(0, statusIndex);
               const propertyPath = token.path.slice(statusIndex + 1, -2); // exclude themeMode and statusMode
@@ -509,6 +514,11 @@ module.exports = {
                 ? [...pathBeforeStatus, ...propertyPath].join('-')
                 : [...pathBeforeStatus, 'status', ...propertyPath].join('-');
 
+              output += `  --${varName}: ${token.value};\n`;
+            } else if (validationIndex >= 0) {
+              const pathBeforeValidation = token.path.slice(0, validationIndex);
+              const propertyPath = token.path.slice(validationIndex, -2); // include 'validation', exclude themeMode and statusMode
+              const varName = [...pathBeforeValidation, ...propertyPath].join('-');
               output += `  --${varName}: ${token.value};\n`;
             }
           });
@@ -796,7 +806,7 @@ module.exports = {
               token.value !== null &&
               token.value !== undefined &&
               token.path &&
-              token.path.includes('status')
+              (token.path.includes('status') || token.path.includes('validation'))
             );
           },
           options: {
