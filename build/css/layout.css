@@ -15,7 +15,7 @@
   --border-radius-7-sm: 2.25rem;
   --border-radius-8-sm: 3rem;
   --border-radius-9-sm: 3.75rem;
-  --border-width-lg-sm: 0.1875rem;
+  --border-width-lg-sm: 0.25rem;
   --border-width-md-sm: 0.125rem;
   --border-width-sm-sm: 0.09375rem;
   --border-width-xs-sm: 0.0625rem;
@@ -85,7 +85,7 @@
   --border-radius-7-md: 2.25rem;
   --border-radius-8-md: 3rem;
   --border-radius-9-md: 3.75rem;
-  --border-width-lg-md: 0.1875rem;
+  --border-width-lg-md: 0.25rem;
   --border-width-md-md: 0.125rem;
   --border-width-sm-md: 0.09375rem;
   --border-width-xs-md: 0.0625rem;
@@ -155,7 +155,7 @@
   --border-radius-7-lg: 3rem;
   --border-radius-8-lg: 4.5rem;
   --border-radius-9-lg: 6.5rem;
-  --border-width-lg-lg: 0.1875rem;
+  --border-width-lg-lg: 0.25rem;
   --border-width-md-lg: 0.125rem;
   --border-width-sm-lg: 0.09375rem;
   --border-width-xs-lg: 0.0625rem;
@@ -225,7 +225,7 @@
   --border-radius-7-xl: 3rem;
   --border-radius-8-xl: 4.5rem;
   --border-radius-9-xl: 6.5rem;
-  --border-width-lg-xl: 0.1875rem;
+  --border-width-lg-xl: 0.25rem;
   --border-width-md-xl: 0.125rem;
   --border-width-sm-xl: 0.09375rem;
   --border-width-xs-xl: 0.0625rem;
@@ -295,7 +295,7 @@
   --border-radius-7-xxl: 3rem;
   --border-radius-8-xxl: 4.5rem;
   --border-radius-9-xxl: 6.5rem;
-  --border-width-lg-xxl: 0.1875rem;
+  --border-width-lg-xxl: 0.25rem;
   --border-width-md-xxl: 0.125rem;
   --border-width-sm-xxl: 0.09375rem;
   --border-width-xs-xxl: 0.0625rem;

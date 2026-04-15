@@ -450,17 +450,17 @@ function processVariablesByCollection(variables, collections) {
  * Reorganizes validation and error-message tokens into status structure
  */
 function reorganizeValidationTokensToStatus(componentThemesTokens) {
-  // Find and move label-and-hint/error-message-colour to label-and-hint/status/message-colour
+  // Find and move label-and-hint/validation-message-colour to label-and-hint/status/validation-message-colour
   if (
     componentThemesTokens['label-and-hint'] &&
-    componentThemesTokens['label-and-hint']['error-message-colour']
+    componentThemesTokens['label-and-hint']['validation-message-colour']
   ) {
     if (!componentThemesTokens['label-and-hint']['status']) {
       componentThemesTokens['label-and-hint']['status'] = {};
     }
-    componentThemesTokens['label-and-hint']['status']['message-colour'] =
-      componentThemesTokens['label-and-hint']['error-message-colour'];
-    delete componentThemesTokens['label-and-hint']['error-message-colour'];
+    componentThemesTokens['label-and-hint']['status']['validation-message-colour'] =
+      componentThemesTokens['label-and-hint']['validation-message-colour'];
+    delete componentThemesTokens['label-and-hint']['validation-message-colour'];
   }
 
   // Find and move input/validation/colour to input/status/validation-colour
