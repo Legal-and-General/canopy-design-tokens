@@ -416,9 +416,10 @@ function processVariablesByCollection(variables, collections) {
       collectionName === 'Banner' ||
       collectionName === 'Card' ||
       collectionName === 'Data point' ||
-      collectionName === 'Filter Button'
+      collectionName === 'Filter Button' ||
+      collectionName === 'Inline message'
     ) {
-      // Merge Button/Link/Content area/Form Elements/Footer/Banner/Card/Data point/Filter Button tokens into Component themes, expanding across color/theme modes
+      // Merge Button/Link/Content area/Form Elements/Footer/Banner/Card/Data point/Filter Button/Inline message tokens into Component themes, expanding across color/theme modes
       // These collections have a "Default" mode that should map to all theme modes
       if (!tokensByCollection['Component themes']) {
         tokensByCollection['Component themes'] = {};
@@ -487,6 +488,37 @@ function processStandardVariable(variable, collection, allVariables, output) {
 }
 
 /**
+ * Checks if a variable resolves through the Status collection
+ * by examining its alias chain
+ */
+function resolvesToStatusCollection(variable, allVariables, allCollections) {
+  // Check all values in all modes
+  for (const value of Object.values(variable.valuesByMode)) {
+    if (typeof value === 'object' && value.type === 'VARIABLE_ALIAS') {
+      // Follow the alias chain
+      const aliasedVar = allVariables[value.id];
+      if (!aliasedVar) continue;
+
+      // Check if the aliased variable is in the Status collection
+      const collection = Object.values(allCollections).find(
+        (c) => c.id === aliasedVar.variableCollectionId,
+      );
+
+      if (collection?.name === 'Status') {
+        return true;
+      }
+
+      // Recursively check if the aliased variable itself resolves to Status
+      if (resolvesToStatusCollection(aliasedVar, allVariables, allCollections)) {
+        return true;
+      }
+    }
+  }
+
+  return false;
+}
+
+/**
  * Processes a component theme variable - expands across color or status modes
  */
 function processComponentThemeVariable(
@@ -498,11 +530,23 @@ function processComponentThemeVariable(
   colorModes,
   statusModes,
 ) {
-  const namePath = parseVariableName(variable.name);
-  const isStatus =
-    variable.name.toLowerCase().includes('status') ||
-    variable.name.toLowerCase().includes('validation') ||
-    variable.name.toLowerCase().includes('error-message');
+  let namePath = parseVariableName(variable.name);
+
+  // Check if this variable resolves through the Status collection
+  const isStatus = resolvesToStatusCollection(variable, allVariables, allCollections);
+
+  // Special case: link/status/* tokens that are border-radius or border-width
+  // These should be treated as status tokens even if they don't resolve to Status collection
+  const isLinkStatusBorder =
+    namePath.includes('link') &&
+    namePath.includes('status') &&
+    (namePath.includes('border-radius') || namePath.includes('border-width'));
+
+  // If it resolves to Status collection but doesn't have 'status' in path, inject it
+  if (isStatus && !namePath.includes('status')) {
+    // Insert 'status' after the component name (first element)
+    namePath = [namePath[0], 'status', ...namePath.slice(1)];
+  }
 
   // Get the original modes (Neutral, Subtle, Bold, Neutral inverse)
   Object.entries(variable.valuesByMode).forEach(([modeId, value]) => {
@@ -512,7 +556,7 @@ function processComponentThemeVariable(
     const tokenType = getTokenType(variable);
 
     // Determine which modes to expand across
-    const modesToExpand = isStatus ? statusModes : colorModes;
+    const modesToExpand = isStatus || isLinkStatusBorder ? statusModes : colorModes;
 
     // For each mode (color or status), resolve the value in that mode's context
     modesToExpand.forEach((modeToExpand) => {
@@ -573,48 +617,24 @@ function processLinkVariable(
 ) {
   let namePath = parseVariableName(variable.name);
 
-  // Check if this is a status-related link token (contains 'status' or 'validation' or 'error-message' in the path)
-  const isStatusToken = namePath.some(
-    (part) =>
-      part.includes('status') ||
-      part.includes('validation') ||
-      part.includes('error-message'),
+  // Check if this variable resolves through the Status collection
+  const isStatusToken = resolvesToStatusCollection(
+    variable,
+    allVariables,
+    allCollections,
   );
 
-  // Transform path for validation/error-message tokens to status structure
-  if (isStatusToken) {
-    // Transform: label-and-hint/error-message-colour → label-and-hint/status/message-colour
-    const errorMessageIndex = namePath.indexOf('error-message-colour');
-    if (errorMessageIndex !== -1) {
-      namePath = [
-        ...namePath.slice(0, errorMessageIndex),
-        'status',
-        'message-colour',
-        ...namePath.slice(errorMessageIndex + 1),
-      ];
-    }
+  // Special case: link/status/* tokens that are border-radius or border-width
+  // These should be treated as status tokens even if they don't resolve to Status collection
+  const isLinkStatusBorder =
+    namePath.includes('link') &&
+    namePath.includes('status') &&
+    (namePath.includes('border-radius') || namePath.includes('border-width'));
 
-    // Transform: label-and-hint/validation-message-colour → label-and-hint/status/validation-message-colour
-    const validationMessageIndex = namePath.indexOf('validation-message-colour');
-    if (validationMessageIndex !== -1) {
-      namePath = [
-        ...namePath.slice(0, validationMessageIndex),
-        'status',
-        'validation-message-colour',
-        ...namePath.slice(validationMessageIndex + 1),
-      ];
-    }
-
-    // Transform: input/validation/colour → input/status/validation-colour
-    const validationIndex = namePath.indexOf('validation');
-    if (validationIndex !== -1 && namePath[validationIndex + 1] === 'colour') {
-      namePath = [
-        ...namePath.slice(0, validationIndex),
-        'status',
-        'validation-colour',
-        ...namePath.slice(validationIndex + 2),
-      ];
-    }
+  // If it resolves to Status collection but doesn't have 'status' in path, inject it
+  if (isStatusToken && !namePath.includes('status')) {
+    // Insert 'status' after the component name (first element)
+    namePath = [namePath[0], 'status', ...namePath.slice(1)];
   }
 
   // Get the value from the Default mode
@@ -622,7 +642,7 @@ function processLinkVariable(
     const tokenType = getTokenType(variable);
 
     // If it's a status token, expand across status modes instead of color modes
-    if (isStatusToken) {
+    if (isStatusToken || isLinkStatusBorder) {
       themeModes.forEach((themeMode) => {
         statusModes.forEach((statusMode) => {
           let resolvedValue = null;
