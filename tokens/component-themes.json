@@ -1,6 +1,6 @@
 {
   "$description": "Design tokens from Component themes collection",
-  "$timestamp": "2026-04-10T08:17:10.036Z",
+  "$timestamp": "2026-04-15T09:43:39.361Z",
   "data-point": {
     "gap": {
       "Neutral": {
@@ -818,93 +818,115 @@
         }
       }
     },
-    "error-message-colour": {
-      "Neutral": {
-        "Blue": {
-          "value": "#001d6e",
-          "type": "color",
-          "description": "The colour of the the error message text and icon"
+    "status": {
+      "message-colour": {
+        "Neutral": {
+          "Info": {
+            "value": "#001d6e",
+            "type": "color",
+            "description": "The colour of the the error message text and icon"
+          },
+          "Success": {
+            "value": "#014a39",
+            "type": "color",
+            "description": "The colour of the the error message text and icon"
+          },
+          "Warning": {
+            "value": "#904029",
+            "type": "color",
+            "description": "The colour of the the error message text and icon"
+          },
+          "Error": {
+            "value": "#940824",
+            "type": "color",
+            "description": "The colour of the the error message text and icon"
+          },
+          "Generic": {
+            "value": "#1d1d1b",
+            "type": "color",
+            "description": "The colour of the the error message text and icon"
+          }
         },
-        "Green": {
-          "value": "#001d6e",
-          "type": "color",
-          "description": "The colour of the the error message text and icon"
+        "Neutral inverse": {
+          "Info": {
+            "value": "#001d6e",
+            "type": "color",
+            "description": "The colour of the the error message text and icon"
+          },
+          "Success": {
+            "value": "#014a39",
+            "type": "color",
+            "description": "The colour of the the error message text and icon"
+          },
+          "Warning": {
+            "value": "#904029",
+            "type": "color",
+            "description": "The colour of the the error message text and icon"
+          },
+          "Error": {
+            "value": "#940824",
+            "type": "color",
+            "description": "The colour of the the error message text and icon"
+          },
+          "Generic": {
+            "value": "#1d1d1b",
+            "type": "color",
+            "description": "The colour of the the error message text and icon"
+          }
         },
-        "Red": {
-          "value": "#001d6e",
-          "type": "color",
-          "description": "The colour of the the error message text and icon"
+        "Subtle": {
+          "Info": {
+            "value": "#1d1d1b",
+            "type": "color",
+            "description": "The colour of the the error message text and icon"
+          },
+          "Success": {
+            "value": "#1d1d1b",
+            "type": "color",
+            "description": "The colour of the the error message text and icon"
+          },
+          "Warning": {
+            "value": "#1d1d1b",
+            "type": "color",
+            "description": "The colour of the the error message text and icon"
+          },
+          "Error": {
+            "value": "#1d1d1b",
+            "type": "color",
+            "description": "The colour of the the error message text and icon"
+          },
+          "Generic": {
+            "value": "#1d1d1b",
+            "type": "color",
+            "description": "The colour of the the error message text and icon"
+          }
         },
-        "Yellow": {
-          "value": "#001d6e",
-          "type": "color",
-          "description": "The colour of the the error message text and icon"
-        }
-      },
-      "Neutral inverse": {
-        "Blue": {
-          "value": "#001d6e",
-          "type": "color",
-          "description": "The colour of the the error message text and icon"
-        },
-        "Green": {
-          "value": "#001d6e",
-          "type": "color",
-          "description": "The colour of the the error message text and icon"
-        },
-        "Red": {
-          "value": "#001d6e",
-          "type": "color",
-          "description": "The colour of the the error message text and icon"
-        },
-        "Yellow": {
-          "value": "#001d6e",
-          "type": "color",
-          "description": "The colour of the the error message text and icon"
-        }
-      },
-      "Subtle": {
-        "Blue": {
-          "value": "#1d1d1b",
-          "type": "color",
-          "description": "The colour of the the error message text and icon"
-        },
-        "Green": {
-          "value": "#1d1d1b",
-          "type": "color",
-          "description": "The colour of the the error message text and icon"
-        },
-        "Red": {
-          "value": "#1d1d1b",
-          "type": "color",
-          "description": "The colour of the the error message text and icon"
-        },
-        "Yellow": {
-          "value": "#1d1d1b",
-          "type": "color",
-          "description": "The colour of the the error message text and icon"
-        }
-      },
-      "Bold": {
-        "Blue": {
-          "value": "#ffffff",
-          "type": "color",
-          "description": "The colour of the the error message text and icon"
-        },
-        "Green": {
-          "value": "#ffffff",
-          "type": "color",
-          "description": "The colour of the the error message text and icon"
-        },
-        "Red": {
-          "value": "#ffffff",
-          "type": "color",
-          "description": "The colour of the the error message text and icon"
-        },
-        "Yellow": {
-          "value": "#1d1d1b",
-          "type": "color",
-          "description": "The colour of the the error message text and icon"
+        "Bold": {
+          "Info": {
+            "value": "#ffffff",
+            "type": "color",
+            "description": "The colour of the the error message text and icon"
+          },
+          "Success": {
+            "value": "#ffffff",
+            "type": "color",
+            "description": "The colour of the the error message text and icon"
+          },
+          "Warning": {
+            "value": "#1d1d1b",
+            "type": "color",
+            "description": "The colour of the the error message text and icon"
+          },
+          "Error": {
+            "value": "#ffffff",
+            "type": "color",
+            "description": "The colour of the the error message text and icon"
+          },
+          "Generic": {
+            "value": "#ffffff",
+            "type": "color",
+            "description": "The colour of the the error message text and icon"
+          }
         }
       }
     }
@@ -31502,92 +31524,112 @@
         }
       }
     },
-    "validation": {
-      "colour": {
+    "status": {
+      "validation-colour": {
         "Neutral": {
-          "Blue": {
+          "Info": {
             "value": "#001d6e",
             "type": "color",
             "description": "Use for text and icons for info, success, warning and error states"
           },
-          "Green": {
-            "value": "#001d6e",
+          "Success": {
+            "value": "#014a39",
             "type": "color",
             "description": "Use for text and icons for info, success, warning and error states"
           },
-          "Red": {
-            "value": "#001d6e",
+          "Warning": {
+            "value": "#904029",
             "type": "color",
             "description": "Use for text and icons for info, success, warning and error states"
           },
-          "Yellow": {
-            "value": "#001d6e",
+          "Error": {
+            "value": "#940824",
+            "type": "color",
+            "description": "Use for text and icons for info, success, warning and error states"
+          },
+          "Generic": {
+            "value": "#1d1d1b",
             "type": "color",
             "description": "Use for text and icons for info, success, warning and error states"
           }
         },
         "Subtle": {
-          "Blue": {
+          "Info": {
             "value": "#1d1d1b",
             "type": "color",
             "description": "Use for text and icons for info, success, warning and error states"
           },
-          "Green": {
+          "Success": {
             "value": "#1d1d1b",
             "type": "color",
             "description": "Use for text and icons for info, success, warning and error states"
           },
-          "Red": {
+          "Warning": {
             "value": "#1d1d1b",
             "type": "color",
             "description": "Use for text and icons for info, success, warning and error states"
           },
-          "Yellow": {
+          "Error": {
+            "value": "#1d1d1b",
+            "type": "color",
+            "description": "Use for text and icons for info, success, warning and error states"
+          },
+          "Generic": {
             "value": "#1d1d1b",
             "type": "color",
             "description": "Use for text and icons for info, success, warning and error states"
           }
         },
         "Bold": {
-          "Blue": {
+          "Info": {
             "value": "#ffffff",
             "type": "color",
             "description": "Use for text and icons for info, success, warning and error states"
           },
-          "Green": {
+          "Success": {
             "value": "#ffffff",
             "type": "color",
             "description": "Use for text and icons for info, success, warning and error states"
           },
-          "Red": {
-            "value": "#ffffff",
-            "type": "color",
-            "description": "Use for text and icons for info, success, warning and error states"
-          },
-          "Yellow": {
+          "Warning": {
             "value": "#1d1d1b",
+            "type": "color",
+            "description": "Use for text and icons for info, success, warning and error states"
+          },
+          "Error": {
+            "value": "#ffffff",
+            "type": "color",
+            "description": "Use for text and icons for info, success, warning and error states"
+          },
+          "Generic": {
+            "value": "#ffffff",
             "type": "color",
             "description": "Use for text and icons for info, success, warning and error states"
           }
         },
         "Neutral inverse": {
-          "Blue": {
+          "Info": {
             "value": "#001d6e",
             "type": "color",
             "description": "Use for text and icons for info, success, warning and error states"
           },
-          "Green": {
-            "value": "#001d6e",
+          "Success": {
+            "value": "#014a39",
             "type": "color",
             "description": "Use for text and icons for info, success, warning and error states"
           },
-          "Red": {
-            "value": "#001d6e",
+          "Warning": {
+            "value": "#904029",
             "type": "color",
             "description": "Use for text and icons for info, success, warning and error states"
           },
-          "Yellow": {
-            "value": "#001d6e",
+          "Error": {
+            "value": "#940824",
+            "type": "color",
+            "description": "Use for text and icons for info, success, warning and error states"
+          },
+          "Generic": {
+            "value": "#1d1d1b",
             "type": "color",
             "description": "Use for text and icons for info, success, warning and error states"
           }

@@ -334,7 +334,7 @@
   --label-and-hint-gap: 0.25rem;
   --label-and-hint-label-colour: #1d1d1b;
   --label-and-hint-hint-colour: #4d4f4f;
-  --label-and-hint-error-message-colour: #001d6e;
+  --label-and-hint-status-message-colour: #1d1d1b;
   --text-input-common-border-radius: 0.75rem;
   --text-input-common-padding-x: 1rem;
   --text-input-common-padding-y: 0.5rem;
@@ -554,7 +554,7 @@
   --input-disabled-border-colour: #d3d3d3;
   --input-disabled-colour: #a6a7a7;
   --input-disabled-border-width: 0.09375rem;
-  --input-validation-colour: #001d6e;
+  --input-status-validation-colour: #1d1d1b;
   --content-status-subtle-colour: #1d1d1b;
   --content-status-bold-colour: #ffffff;
   --content-icon-size-sm: 1.5rem;
