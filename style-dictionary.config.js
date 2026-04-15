@@ -189,9 +189,21 @@ module.exports = {
             const isStatus = token.path.includes('status');
 
             if (isStatus) {
+              // Special case: link-status border tokens should be included for Info + Neutral as default
+              const isLinkStatusBorder =
+                path.includes('link') &&
+                path.includes('status') &&
+                (path.includes('border-radius') || path.includes('border-width'));
+
               // For status tokens: path is [..., themeMode, statusMode]
               const statusMode = path[path.length - 1];
               const themeMode = path[path.length - 2];
+
+              if (isLinkStatusBorder) {
+                // Include Info + Neutral for link-status border tokens
+                return statusMode === 'Info' && themeMode === 'Neutral';
+              }
+
               return statusMode === 'Generic' && themeMode === 'Neutral';
             } else {
               // For color mode tokens: path is [..., themeMode, colorMode]
@@ -214,7 +226,29 @@ module.exports = {
             varName = 'colour-' + token.path.slice(0, -1).join('-');
           } else {
             const pathWithoutModes = token.path.slice(0, -2);
-            varName = pathWithoutModes.join('-');
+
+            // Check if 'status' was injected and should be excluded from variable name
+            const statusIndex = pathWithoutModes.indexOf('status');
+            if (statusIndex >= 0) {
+              const componentName = pathWithoutModes[0];
+              const shouldExcludeStatus =
+                componentName === 'input' ||
+                componentName === 'label-and-hint' ||
+                componentName === 'banner' ||
+                componentName === 'segment-button' ||
+                componentName === 'inline-message';
+
+              if (shouldExcludeStatus) {
+                // Remove 'status' from the path for variable naming
+                const pathBeforeStatus = pathWithoutModes.slice(0, statusIndex);
+                const pathAfterStatus = pathWithoutModes.slice(statusIndex + 1);
+                varName = [...pathBeforeStatus, ...pathAfterStatus].join('-');
+              } else {
+                varName = pathWithoutModes.join('-');
+              }
+            } else {
+              varName = pathWithoutModes.join('-');
+            }
           }
 
           output += `  --${varName}: ${token.value};\n`;
@@ -236,10 +270,9 @@ module.exports = {
 
           // Check if this is a status token (has 'status' in path)
           const isStatus = token.path.includes('status');
-          const isValidation = token.path.includes('validation');
 
-          // Skip status and validation tokens - they're handled by css/status-classes formatter
-          if (isStatus || isValidation) return;
+          // Skip status tokens - they're handled by css/status-classes formatter
+          if (isStatus) return;
 
           // Extract color mode (and optionally theme mode) from path
           const path = token.path;
@@ -422,14 +455,12 @@ module.exports = {
         const grouped = {};
 
         dictionary.allTokens.forEach((token) => {
-          // Only process status or validation tokens
-          if (!token.path.includes('status') && !token.path.includes('validation'))
-            return;
+          // Only process status tokens
+          if (!token.path.includes('status')) return;
 
           // Extract status mode and theme mode from path
           // Path structure: [component, 'status', variant, property, themeMode, statusMode]
           // or: [component, 'status', property, themeMode, statusMode]
-          // or: [component, 'validation', property, themeMode, statusMode]
           const path = token.path;
           const statusMode = path[path.length - 1]; // Info, Success, Warning, Error, Generic
           const themeMode = path[path.length - 2]; // Neutral, Subtle, Bold, Neutral inverse
@@ -496,29 +527,28 @@ module.exports = {
 
           group.tokens.forEach((token) => {
             // Remove theme mode and status mode from variable name
-            // Find 'status' or 'validation' in path and build varName
+            // Find 'status' in path and build varName
             const statusIndex = token.path.indexOf('status');
-            const validationIndex = token.path.indexOf('validation');
 
             if (statusIndex >= 0) {
               const pathBeforeStatus = token.path.slice(0, statusIndex);
               const propertyPath = token.path.slice(statusIndex + 1, -2); // exclude themeMode and statusMode
 
-              // Check if this is input or label-and-hint token (exclude 'status' from name)
+              // Check if this token should exclude the injected 'status' from its name
+              // These components had 'status' injected for routing but shouldn't have it in the variable name
               const componentName = pathBeforeStatus[0];
               const shouldExcludeStatus =
-                componentName === 'input' || componentName === 'label-and-hint';
+                componentName === 'input' ||
+                componentName === 'label-and-hint' ||
+                componentName === 'banner' ||
+                componentName === 'segment-button' ||
+                componentName === 'inline-message';
 
               // Combine paths with or without 'status' keyword based on component
               const varName = shouldExcludeStatus
                 ? [...pathBeforeStatus, ...propertyPath].join('-')
                 : [...pathBeforeStatus, 'status', ...propertyPath].join('-');
 
-              output += `  --${varName}: ${token.value};\n`;
-            } else if (validationIndex >= 0) {
-              const pathBeforeValidation = token.path.slice(0, validationIndex);
-              const propertyPath = token.path.slice(validationIndex, -2); // include 'validation', exclude themeMode and statusMode
-              const varName = [...pathBeforeValidation, ...propertyPath].join('-');
               output += `  --${varName}: ${token.value};\n`;
             }
           });
@@ -806,7 +836,7 @@ module.exports = {
               token.value !== null &&
               token.value !== undefined &&
               token.path &&
-              (token.path.includes('status') || token.path.includes('validation'))
+              token.path.includes('status')
             );
           },
           options: {

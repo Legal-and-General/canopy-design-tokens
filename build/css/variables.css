@@ -420,6 +420,7 @@
   --input-disabled-border-colour: #d3d3d3;
   --input-disabled-colour: #a6a7a7;
   --input-disabled-border-width: 0.09375rem;
+  --input-validation-colour: #1d1d1b;
   --content-status-subtle-colour: #1d1d1b;
   --content-status-bold-colour: #ffffff;
   --content-icon-size-sm: 1.5rem;
@@ -453,7 +454,7 @@
   --label-and-hint-gap: 0.25rem;
   --label-and-hint-label-colour: #1d1d1b;
   --label-and-hint-hint-colour: #4d4f4f;
-  --label-and-hint-status-validation-message-colour: #1d1d1b;
+  --label-and-hint-validation-message-colour: #1d1d1b;
   --text-input-common-border-radius: 0.75rem;
   --text-input-common-padding-x: 1rem;
   --text-input-common-padding-y: 0.5rem;
@@ -598,7 +599,7 @@
   --segment-button-focus-colour: #1d1d1b;
   --segment-button-focus-border-colour: #1d1d1b;
   --segment-button-focus-border-width: 0.1875rem;
-  --segment-button-error-background-colour: #005dba;
+  --segment-button-error-background-colour: #4d4f4f;
   --segment-button-disabled-background-colour: #d3d3d3;
   --segment-button-disabled-colour: #a6a7a7;
   --filter-button-rest-colour: #001d6e;
@@ -716,12 +717,19 @@
   --link-menu-item-focus-border-width: 0.1875rem;
   --link-menu-item-focus-colour: #1d1d1b;
   --link-menu-item-focus-colour-muted: #1d1d1b;
+  --inline-message-padding-x: 0.75rem;
+  --inline-message-padding-y: 0.75rem;
+  --inline-message-border-radius: 0.75rem;
+  --inline-message-text-colour: #1d1d1b;
+  --inline-message-background-colour: #f4f4f4;
+  --inline-message-icon-colour: #1d1d1b;
+  --inline-message-gap: 0.75rem;
   --banner-padding-x: 1rem;
   --banner-padding-y: 0.75rem;
-  --banner-background-colour: #005dba;
-  --banner-gap: 0.75rem;
+  --banner-background-colour: #4d4f4f;
   --banner-text-colour: #ffffff;
   --banner-icon-colour: #ffffff;
+  --banner-gap: 0.75rem;
   --link-gap: 0.5rem;
   --link-primary-rest-colour: #005dba;
   --link-primary-hover-colour: #001d6e;

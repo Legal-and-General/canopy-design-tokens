@@ -1,6 +1,6 @@
 {
   "$description": "Design tokens from Component themes collection",
-  "$timestamp": "2026-04-15T13:53:52.341Z",
+  "$timestamp": "2026-04-15T14:55:35.408Z",
   "footer": {
     "background-colour": {
       "Neutral": {
@@ -19738,114 +19738,116 @@
         }
       }
     },
-    "validation": {
-      "colour": {
-        "Neutral": {
-          "Info": {
-            "value": "#001d6e",
-            "type": "color",
-            "description": "Use for text and icons for info, success, warning and error states"
+    "status": {
+      "validation": {
+        "colour": {
+          "Neutral": {
+            "Info": {
+              "value": "#001d6e",
+              "type": "color",
+              "description": "Use for text and icons for info, success, warning and error states"
+            },
+            "Success": {
+              "value": "#014a39",
+              "type": "color",
+              "description": "Use for text and icons for info, success, warning and error states"
+            },
+            "Warning": {
+              "value": "#904029",
+              "type": "color",
+              "description": "Use for text and icons for info, success, warning and error states"
+            },
+            "Error": {
+              "value": "#940824",
+              "type": "color",
+              "description": "Use for text and icons for info, success, warning and error states"
+            },
+            "Generic": {
+              "value": "#1d1d1b",
+              "type": "color",
+              "description": "Use for text and icons for info, success, warning and error states"
+            }
           },
-          "Success": {
-            "value": "#014a39",
-            "type": "color",
-            "description": "Use for text and icons for info, success, warning and error states"
+          "Subtle": {
+            "Info": {
+              "value": "#1d1d1b",
+              "type": "color",
+              "description": "Use for text and icons for info, success, warning and error states"
+            },
+            "Success": {
+              "value": "#1d1d1b",
+              "type": "color",
+              "description": "Use for text and icons for info, success, warning and error states"
+            },
+            "Warning": {
+              "value": "#1d1d1b",
+              "type": "color",
+              "description": "Use for text and icons for info, success, warning and error states"
+            },
+            "Error": {
+              "value": "#1d1d1b",
+              "type": "color",
+              "description": "Use for text and icons for info, success, warning and error states"
+            },
+            "Generic": {
+              "value": "#1d1d1b",
+              "type": "color",
+              "description": "Use for text and icons for info, success, warning and error states"
+            }
           },
-          "Warning": {
-            "value": "#904029",
-            "type": "color",
-            "description": "Use for text and icons for info, success, warning and error states"
+          "Bold": {
+            "Info": {
+              "value": "#ffffff",
+              "type": "color",
+              "description": "Use for text and icons for info, success, warning and error states"
+            },
+            "Success": {
+              "value": "#ffffff",
+              "type": "color",
+              "description": "Use for text and icons for info, success, warning and error states"
+            },
+            "Warning": {
+              "value": "#1d1d1b",
+              "type": "color",
+              "description": "Use for text and icons for info, success, warning and error states"
+            },
+            "Error": {
+              "value": "#ffffff",
+              "type": "color",
+              "description": "Use for text and icons for info, success, warning and error states"
+            },
+            "Generic": {
+              "value": "#ffffff",
+              "type": "color",
+              "description": "Use for text and icons for info, success, warning and error states"
+            }
           },
-          "Error": {
-            "value": "#940824",
-            "type": "color",
-            "description": "Use for text and icons for info, success, warning and error states"
-          },
-          "Generic": {
-            "value": "#1d1d1b",
-            "type": "color",
-            "description": "Use for text and icons for info, success, warning and error states"
-          }
-        },
-        "Subtle": {
-          "Info": {
-            "value": "#1d1d1b",
-            "type": "color",
-            "description": "Use for text and icons for info, success, warning and error states"
-          },
-          "Success": {
-            "value": "#1d1d1b",
-            "type": "color",
-            "description": "Use for text and icons for info, success, warning and error states"
-          },
-          "Warning": {
-            "value": "#1d1d1b",
-            "type": "color",
-            "description": "Use for text and icons for info, success, warning and error states"
-          },
-          "Error": {
-            "value": "#1d1d1b",
-            "type": "color",
-            "description": "Use for text and icons for info, success, warning and error states"
-          },
-          "Generic": {
-            "value": "#1d1d1b",
-            "type": "color",
-            "description": "Use for text and icons for info, success, warning and error states"
-          }
-        },
-        "Bold": {
-          "Info": {
-            "value": "#ffffff",
-            "type": "color",
-            "description": "Use for text and icons for info, success, warning and error states"
-          },
-          "Success": {
-            "value": "#ffffff",
-            "type": "color",
-            "description": "Use for text and icons for info, success, warning and error states"
-          },
-          "Warning": {
-            "value": "#1d1d1b",
-            "type": "color",
-            "description": "Use for text and icons for info, success, warning and error states"
-          },
-          "Error": {
-            "value": "#ffffff",
-            "type": "color",
-            "description": "Use for text and icons for info, success, warning and error states"
-          },
-          "Generic": {
-            "value": "#ffffff",
-            "type": "color",
-            "description": "Use for text and icons for info, success, warning and error states"
-          }
-        },
-        "Neutral inverse": {
-          "Info": {
-            "value": "#001d6e",
-            "type": "color",
-            "description": "Use for text and icons for info, success, warning and error states"
-          },
-          "Success": {
-            "value": "#014a39",
-            "type": "color",
-            "description": "Use for text and icons for info, success, warning and error states"
-          },
-          "Warning": {
-            "value": "#904029",
-            "type": "color",
-            "description": "Use for text and icons for info, success, warning and error states"
-          },
-          "Error": {
-            "value": "#940824",
-            "type": "color",
-            "description": "Use for text and icons for info, success, warning and error states"
-          },
-          "Generic": {
-            "value": "#1d1d1b",
-            "type": "color",
-            "description": "Use for text and icons for info, success, warning and error states"
+          "Neutral inverse": {
+            "Info": {
+              "value": "#001d6e",
+              "type": "color",
+              "description": "Use for text and icons for info, success, warning and error states"
+            },
+            "Success": {
+              "value": "#014a39",
+              "type": "color",
+              "description": "Use for text and icons for info, success, warning and error states"
+            },
+            "Warning": {
+              "value": "#904029",
+              "type": "color",
+              "description": "Use for text and icons for info, success, warning and error states"
+            },
+            "Error": {
+              "value": "#940824",
+              "type": "color",
+              "description": "Use for text and icons for info, success, warning and error states"
+            },
+            "Generic": {
+              "value": "#1d1d1b",
+              "type": "color",
+              "description": "Use for text and icons for info, success, warning and error states"
+            }
           }
         }
       }
@@ -35550,78 +35552,96 @@
         }
       }
     },
-    "error": {
-      "background-colour": {
-        "Neutral": {
-          "Blue": {
-            "value": "#005dba",
-            "type": "color"
+    "status": {
+      "error": {
+        "background-colour": {
+          "Neutral": {
+            "Info": {
+              "value": "#005dba",
+              "type": "color"
+            },
+            "Success": {
+              "value": "#00633d",
+              "type": "color"
+            },
+            "Warning": {
+              "value": "#ffb600",
+              "type": "color"
+            },
+            "Error": {
+              "value": "#c50b30",
+              "type": "color"
+            },
+            "Generic": {
+              "value": "#4d4f4f",
+              "type": "color"
+            }
           },
-          "Green": {
-            "value": "#005dba",
-            "type": "color"
+          "Neutral inverse": {
+            "Info": {
+              "value": "#005dba",
+              "type": "color"
+            },
+            "Success": {
+              "value": "#00633d",
+              "type": "color"
+            },
+            "Warning": {
+              "value": "#ffb600",
+              "type": "color"
+            },
+            "Error": {
+              "value": "#c50b30",
+              "type": "color"
+            },
+            "Generic": {
+              "value": "#4d4f4f",
+              "type": "color"
+            }
           },
-          "Red": {
-            "value": "#005dba",
-            "type": "color"
+          "Subtle": {
+            "Info": {
+              "value": "#005dba",
+              "type": "color"
+            },
+            "Success": {
+              "value": "#00633d",
+              "type": "color"
+            },
+            "Warning": {
+              "value": "#ffb600",
+              "type": "color"
+            },
+            "Error": {
+              "value": "#c50b30",
+              "type": "color"
+            },
+            "Generic": {
+              "value": "#4d4f4f",
+              "type": "color"
+            }
           },
-          "Yellow": {
-            "value": "#005dba",
-            "type": "color"
-          }
-        },
-        "Neutral inverse": {
-          "Blue": {
-            "value": "#005dba",
-            "type": "color"
-          },
-          "Green": {
-            "value": "#005dba",
-            "type": "color"
-          },
-          "Red": {
-            "value": "#005dba",
-            "type": "color"
-          },
-          "Yellow": {
-            "value": "#005dba",
-            "type": "color"
-          }
-        },
-        "Subtle": {
-          "Blue": {
-            "value": "#005dba",
-            "type": "color"
-          },
-          "Green": {
-            "value": "#005dba",
-            "type": "color"
-          },
-          "Red": {
-            "value": "#005dba",
-            "type": "color"
-          },
-          "Yellow": {
-            "value": "#005dba",
-            "type": "color"
-          }
-        },
-        "Bold": {
-          "Blue": {
-            "value": "#005dba",
-            "type": "color"
-          },
-          "Green": {
-            "value": "#005dba",
-            "type": "color"
-          },
-          "Red": {
-            "value": "#005dba",
-            "type": "color"
-          },
-          "Yellow": {
-            "value": "#005dba",
-            "type": "color"
+          "Bold": {
+            "Info": {
+              "value": "#005dba",
+              "type": "color"
+            },
+            "Success": {
+              "value": "#00633d",
+              "type": "color"
+            },
+            "Warning": {
+              "value": "#ffb600",
+              "type": "color"
+            },
+            "Error": {
+              "value": "#c50b30",
+              "type": "color"
+            },
+            "Generic": {
+              "value": "#4d4f4f",
+              "type": "color"
+            }
           }
         }
       }
@@ -45829,6 +45849,704 @@
       }
     }
   },
+  "inline-message": {
+    "padding-x": {
+      "Neutral": {
+        "Blue": {
+          "value": 12,
+          "type": "spacing",
+          "description": "Inline message left and right padding"
+        },
+        "Green": {
+          "value": 12,
+          "type": "spacing",
+          "description": "Inline message left and right padding"
+        },
+        "Red": {
+          "value": 12,
+          "type": "spacing",
+          "description": "Inline message left and right padding"
+        },
+        "Yellow": {
+          "value": 12,
+          "type": "spacing",
+          "description": "Inline message left and right padding"
+        }
+      },
+      "Neutral inverse": {
+        "Blue": {
+          "value": 12,
+          "type": "spacing",
+          "description": "Inline message left and right padding"
+        },
+        "Green": {
+          "value": 12,
+          "type": "spacing",
+          "description": "Inline message left and right padding"
+        },
+        "Red": {
+          "value": 12,
+          "type": "spacing",
+          "description": "Inline message left and right padding"
+        },
+        "Yellow": {
+          "value": 12,
+          "type": "spacing",
+          "description": "Inline message left and right padding"
+        }
+      },
+      "Subtle": {
+        "Blue": {
+          "value": 12,
+          "type": "spacing",
+          "description": "Inline message left and right padding"
+        },
+        "Green": {
+          "value": 12,
+          "type": "spacing",
+          "description": "Inline message left and right padding"
+        },
+        "Red": {
+          "value": 12,
+          "type": "spacing",
+          "description": "Inline message left and right padding"
+        },
+        "Yellow": {
+          "value": 12,
+          "type": "spacing",
+          "description": "Inline message left and right padding"
+        }
+      },
+      "Bold": {
+        "Blue": {
+          "value": 12,
+          "type": "spacing",
+          "description": "Inline message left and right padding"
+        },
+        "Green": {
+          "value": 12,
+          "type": "spacing",
+          "description": "Inline message left and right padding"
+        },
+        "Red": {
+          "value": 12,
+          "type": "spacing",
+          "description": "Inline message left and right padding"
+        },
+        "Yellow": {
+          "value": 12,
+          "type": "spacing",
+          "description": "Inline message left and right padding"
+        }
+      }
+    },
+    "padding-y": {
+      "Neutral": {
+        "Blue": {
+          "value": 12,
+          "type": "spacing",
+          "description": "Inline message top and bottom padding"
+        },
+        "Green": {
+          "value": 12,
+          "type": "spacing",
+          "description": "Inline message top and bottom padding"
+        },
+        "Red": {
+          "value": 12,
+          "type": "spacing",
+          "description": "Inline message top and bottom padding"
+        },
+        "Yellow": {
+          "value": 12,
+          "type": "spacing",
+          "description": "Inline message top and bottom padding"
+        }
+      },
+      "Neutral inverse": {
+        "Blue": {
+          "value": 12,
+          "type": "spacing",
+          "description": "Inline message top and bottom padding"
+        },
+        "Green": {
+          "value": 12,
+          "type": "spacing",
+          "description": "Inline message top and bottom padding"
+        },
+        "Red": {
+          "value": 12,
+          "type": "spacing",
+          "description": "Inline message top and bottom padding"
+        },
+        "Yellow": {
+          "value": 12,
+          "type": "spacing",
+          "description": "Inline message top and bottom padding"
+        }
+      },
+      "Subtle": {
+        "Blue": {
+          "value": 12,
+          "type": "spacing",
+          "description": "Inline message top and bottom padding"
+        },
+        "Green": {
+          "value": 12,
+          "type": "spacing",
+          "description": "Inline message top and bottom padding"
+        },
+        "Red": {
+          "value": 12,
+          "type": "spacing",
+          "description": "Inline message top and bottom padding"
+        },
+        "Yellow": {
+          "value": 12,
+          "type": "spacing",
+          "description": "Inline message top and bottom padding"
+        }
+      },
+      "Bold": {
+        "Blue": {
+          "value": 12,
+          "type": "spacing",
+          "description": "Inline message top and bottom padding"
+        },
+        "Green": {
+          "value": 12,
+          "type": "spacing",
+          "description": "Inline message top and bottom padding"
+        },
+        "Red": {
+          "value": 12,
+          "type": "spacing",
+          "description": "Inline message top and bottom padding"
+        },
+        "Yellow": {
+          "value": 12,
+          "type": "spacing",
+          "description": "Inline message top and bottom padding"
+        }
+      }
+    },
+    "border-radius": {
+      "Neutral": {
+        "Blue": {
+          "value": 12,
+          "type": "borderRadius",
+          "description": "Inline message border radius"
+        },
+        "Green": {
+          "value": 12,
+          "type": "borderRadius",
+          "description": "Inline message border radius"
+        },
+        "Red": {
+          "value": 12,
+          "type": "borderRadius",
+          "description": "Inline message border radius"
+        },
+        "Yellow": {
+          "value": 12,
+          "type": "borderRadius",
+          "description": "Inline message border radius"
+        }
+      },
+      "Neutral inverse": {
+        "Blue": {
+          "value": 12,
+          "type": "borderRadius",
+          "description": "Inline message border radius"
+        },
+        "Green": {
+          "value": 12,
+          "type": "borderRadius",
+          "description": "Inline message border radius"
+        },
+        "Red": {
+          "value": 12,
+          "type": "borderRadius",
+          "description": "Inline message border radius"
+        },
+        "Yellow": {
+          "value": 12,
+          "type": "borderRadius",
+          "description": "Inline message border radius"
+        }
+      },
+      "Subtle": {
+        "Blue": {
+          "value": 12,
+          "type": "borderRadius",
+          "description": "Inline message border radius"
+        },
+        "Green": {
+          "value": 12,
+          "type": "borderRadius",
+          "description": "Inline message border radius"
+        },
+        "Red": {
+          "value": 12,
+          "type": "borderRadius",
+          "description": "Inline message border radius"
+        },
+        "Yellow": {
+          "value": 12,
+          "type": "borderRadius",
+          "description": "Inline message border radius"
+        }
+      },
+      "Bold": {
+        "Blue": {
+          "value": 12,
+          "type": "borderRadius",
+          "description": "Inline message border radius"
+        },
+        "Green": {
+          "value": 12,
+          "type": "borderRadius",
+          "description": "Inline message border radius"
+        },
+        "Red": {
+          "value": 12,
+          "type": "borderRadius",
+          "description": "Inline message border radius"
+        },
+        "Yellow": {
+          "value": 12,
+          "type": "borderRadius",
+          "description": "Inline message border radius"
+        }
+      }
+    },
+    "status": {
+      "text": {
+        "colour": {
+          "Neutral": {
+            "Info": {
+              "value": "#1d1d1b",
+              "type": "color",
+              "description": "Inline message text colour"
+            },
+            "Success": {
+              "value": "#1d1d1b",
+              "type": "color",
+              "description": "Inline message text colour"
+            },
+            "Warning": {
+              "value": "#1d1d1b",
+              "type": "color",
+              "description": "Inline message text colour"
+            },
+            "Error": {
+              "value": "#1d1d1b",
+              "type": "color",
+              "description": "Inline message text colour"
+            },
+            "Generic": {
+              "value": "#1d1d1b",
+              "type": "color",
+              "description": "Inline message text colour"
+            }
+          },
+          "Neutral inverse": {
+            "Info": {
+              "value": "#1d1d1b",
+              "type": "color",
+              "description": "Inline message text colour"
+            },
+            "Success": {
+              "value": "#1d1d1b",
+              "type": "color",
+              "description": "Inline message text colour"
+            },
+            "Warning": {
+              "value": "#1d1d1b",
+              "type": "color",
+              "description": "Inline message text colour"
+            },
+            "Error": {
+              "value": "#1d1d1b",
+              "type": "color",
+              "description": "Inline message text colour"
+            },
+            "Generic": {
+              "value": "#1d1d1b",
+              "type": "color",
+              "description": "Inline message text colour"
+            }
+          },
+          "Subtle": {
+            "Info": {
+              "value": "#1d1d1b",
+              "type": "color",
+              "description": "Inline message text colour"
+            },
+            "Success": {
+              "value": "#1d1d1b",
+              "type": "color",
+              "description": "Inline message text colour"
+            },
+            "Warning": {
+              "value": "#1d1d1b",
+              "type": "color",
+              "description": "Inline message text colour"
+            },
+            "Error": {
+              "value": "#1d1d1b",
+              "type": "color",
+              "description": "Inline message text colour"
+            },
+            "Generic": {
+              "value": "#1d1d1b",
+              "type": "color",
+              "description": "Inline message text colour"
+            }
+          },
+          "Bold": {
+            "Info": {
+              "value": "#1d1d1b",
+              "type": "color",
+              "description": "Inline message text colour"
+            },
+            "Success": {
+              "value": "#1d1d1b",
+              "type": "color",
+              "description": "Inline message text colour"
+            },
+            "Warning": {
+              "value": "#1d1d1b",
+              "type": "color",
+              "description": "Inline message text colour"
+            },
+            "Error": {
+              "value": "#1d1d1b",
+              "type": "color",
+              "description": "Inline message text colour"
+            },
+            "Generic": {
+              "value": "#1d1d1b",
+              "type": "color",
+              "description": "Inline message text colour"
+            }
+          }
+        }
+      },
+      "background-colour": {
+        "Neutral": {
+          "Info": {
+            "value": "#aee1f7",
+            "type": "color",
+            "description": "Inline message background colour"
+          },
+          "Success": {
+            "value": "#caeedd",
+            "type": "color",
+            "description": "Inline message background colour"
+          },
+          "Warning": {
+            "value": "#fff9c7",
+            "type": "color",
+            "description": "Inline message background colour"
+          },
+          "Error": {
+            "value": "#ffc2bd",
+            "type": "color",
+            "description": "Inline message background colour"
+          },
+          "Generic": {
+            "value": "#f4f4f4",
+            "type": "color",
+            "description": "Inline message background colour"
+          }
+        },
+        "Neutral inverse": {
+          "Info": {
+            "value": "#aee1f7",
+            "type": "color",
+            "description": "Inline message background colour"
+          },
+          "Success": {
+            "value": "#caeedd",
+            "type": "color",
+            "description": "Inline message background colour"
+          },
+          "Warning": {
+            "value": "#fff9c7",
+            "type": "color",
+            "description": "Inline message background colour"
+          },
+          "Error": {
+            "value": "#ffc2bd",
+            "type": "color",
+            "description": "Inline message background colour"
+          },
+          "Generic": {
+            "value": "#ffffff",
+            "type": "color",
+            "description": "Inline message background colour"
+          }
+        },
+        "Subtle": {
+          "Info": {
+            "value": "#ffffff",
+            "type": "color",
+            "description": "Inline message background colour"
+          },
+          "Success": {
+            "value": "#ffffff",
+            "type": "color",
+            "description": "Inline message background colour"
+          },
+          "Warning": {
+            "value": "#ffffff",
+            "type": "color",
+            "description": "Inline message background colour"
+          },
+          "Error": {
+            "value": "#ffffff",
+            "type": "color",
+            "description": "Inline message background colour"
+          },
+          "Generic": {
+            "value": "#ffffff",
+            "type": "color",
+            "description": "Inline message background colour"
+          }
+        },
+        "Bold": {
+          "Info": {
+            "value": "#ffffff",
+            "type": "color",
+            "description": "Inline message background colour"
+          },
+          "Success": {
+            "value": "#ffffff",
+            "type": "color",
+            "description": "Inline message background colour"
+          },
+          "Warning": {
+            "value": "#ffffff",
+            "type": "color",
+            "description": "Inline message background colour"
+          },
+          "Error": {
+            "value": "#ffffff",
+            "type": "color",
+            "description": "Inline message background colour"
+          },
+          "Generic": {
+            "value": "#ffffff",
+            "type": "color",
+            "description": "Inline message background colour"
+          }
+        }
+      },
+      "icon": {
+        "colour": {
+          "Neutral": {
+            "Info": {
+              "value": "#001d6e",
+              "type": "color",
+              "description": "Inline message icon colour"
+            },
+            "Success": {
+              "value": "#01312e",
+              "type": "color",
+              "description": "Inline message icon colour"
+            },
+            "Warning": {
+              "value": "#904029",
+              "type": "color",
+              "description": "Inline message icon colour"
+            },
+            "Error": {
+              "value": "#940824",
+              "type": "color",
+              "description": "Inline message icon colour"
+            },
+            "Generic": {
+              "value": "#1d1d1b",
+              "type": "color",
+              "description": "Inline message icon colour"
+            }
+          },
+          "Neutral inverse": {
+            "Info": {
+              "value": "#001d6e",
+              "type": "color",
+              "description": "Inline message icon colour"
+            },
+            "Success": {
+              "value": "#01312e",
+              "type": "color",
+              "description": "Inline message icon colour"
+            },
+            "Warning": {
+              "value": "#904029",
+              "type": "color",
+              "description": "Inline message icon colour"
+            },
+            "Error": {
+              "value": "#940824",
+              "type": "color",
+              "description": "Inline message icon colour"
+            },
+            "Generic": {
+              "value": "#1d1d1b",
+              "type": "color",
+              "description": "Inline message icon colour"
+            }
+          },
+          "Subtle": {
+            "Info": {
+              "value": "#001d6e",
+              "type": "color",
+              "description": "Inline message icon colour"
+            },
+            "Success": {
+              "value": "#01312e",
+              "type": "color",
+              "description": "Inline message icon colour"
+            },
+            "Warning": {
+              "value": "#904029",
+              "type": "color",
+              "description": "Inline message icon colour"
+            },
+            "Error": {
+              "value": "#940824",
+              "type": "color",
+              "description": "Inline message icon colour"
+            },
+            "Generic": {
+              "value": "#1d1d1b",
+              "type": "color",
+              "description": "Inline message icon colour"
+            }
+          },
+          "Bold": {
+            "Info": {
+              "value": "#001d6e",
+              "type": "color",
+              "description": "Inline message icon colour"
+            },
+            "Success": {
+              "value": "#01312e",
+              "type": "color",
+              "description": "Inline message icon colour"
+            },
+            "Warning": {
+              "value": "#904029",
+              "type": "color",
+              "description": "Inline message icon colour"
+            },
+            "Error": {
+              "value": "#940824",
+              "type": "color",
+              "description": "Inline message icon colour"
+            },
+            "Generic": {
+              "value": "#1d1d1b",
+              "type": "color",
+              "description": "Inline message icon colour"
+            }
+          }
+        }
+      }
+    },
+    "gap": {
+      "Neutral": {
+        "Blue": {
+          "value": 12,
+          "type": "sizing",
+          "description": "Gap between element inside an inline message"
+        },
+        "Green": {
+          "value": 12,
+          "type": "sizing",
+          "description": "Gap between element inside an inline message"
+        },
+        "Red": {
+          "value": 12,
+          "type": "sizing",
+          "description": "Gap between element inside an inline message"
+        },
+        "Yellow": {
+          "value": 12,
+          "type": "sizing",
+          "description": "Gap between element inside an inline message"
+        }
+      },
+      "Neutral inverse": {
+        "Blue": {
+          "value": 12,
+          "type": "sizing",
+          "description": "Gap between element inside an inline message"
+        },
+        "Green": {
+          "value": 12,
+          "type": "sizing",
+          "description": "Gap between element inside an inline message"
+        },
+        "Red": {
+          "value": 12,
+          "type": "sizing",
+          "description": "Gap between element inside an inline message"
+        },
+        "Yellow": {
+          "value": 12,
+          "type": "sizing",
+          "description": "Gap between element inside an inline message"
+        }
+      },
+      "Subtle": {
+        "Blue": {
+          "value": 12,
+          "type": "sizing",
+          "description": "Gap between element inside an inline message"
+        },
+        "Green": {
+          "value": 12,
+          "type": "sizing",
+          "description": "Gap between element inside an inline message"
+        },
+        "Red": {
+          "value": 12,
+          "type": "sizing",
+          "description": "Gap between element inside an inline message"
+        },
+        "Yellow": {
+          "value": 12,
+          "type": "sizing",
+          "description": "Gap between element inside an inline message"
+        }
+      },
+      "Bold": {
+        "Blue": {
+          "value": 12,
+          "type": "sizing",
+          "description": "Gap between element inside an inline message"
+        },
+        "Green": {
+          "value": 12,
+          "type": "sizing",
+          "description": "Gap between element inside an inline message"
+        },
+        "Red": {
+          "value": 12,
+          "type": "sizing",
+          "description": "Gap between element inside an inline message"
+        },
+        "Yellow": {
+          "value": 12,
+          "type": "sizing",
+          "description": "Gap between element inside an inline message"
+        }
+      }
+    }
+  },
   "banner": {
     "padding-x": {
       "Neutral": {
@@ -46010,93 +46728,339 @@
         }
       }
     },
-    "background-colour": {
-      "Neutral": {
-        "Blue": {
-          "value": "#005dba",
-          "type": "color",
-          "description": "Banner background colour"
+    "status": {
+      "background-colour": {
+        "Neutral": {
+          "Info": {
+            "value": "#005dba",
+            "type": "color",
+            "description": "Banner background colour"
+          },
+          "Success": {
+            "value": "#00633d",
+            "type": "color",
+            "description": "Banner background colour"
+          },
+          "Warning": {
+            "value": "#ffb600",
+            "type": "color",
+            "description": "Banner background colour"
+          },
+          "Error": {
+            "value": "#c50b30",
+            "type": "color",
+            "description": "Banner background colour"
+          },
+          "Generic": {
+            "value": "#4d4f4f",
+            "type": "color",
+            "description": "Banner background colour"
+          }
         },
-        "Green": {
-          "value": "#005dba",
-          "type": "color",
-          "description": "Banner background colour"
+        "Neutral inverse": {
+          "Info": {
+            "value": "#005dba",
+            "type": "color",
+            "description": "Banner background colour"
+          },
+          "Success": {
+            "value": "#00633d",
+            "type": "color",
+            "description": "Banner background colour"
+          },
+          "Warning": {
+            "value": "#ffb600",
+            "type": "color",
+            "description": "Banner background colour"
+          },
+          "Error": {
+            "value": "#c50b30",
+            "type": "color",
+            "description": "Banner background colour"
+          },
+          "Generic": {
+            "value": "#4d4f4f",
+            "type": "color",
+            "description": "Banner background colour"
+          }
         },
-        "Red": {
-          "value": "#005dba",
-          "type": "color",
-          "description": "Banner background colour"
+        "Subtle": {
+          "Info": {
+            "value": "#005dba",
+            "type": "color",
+            "description": "Banner background colour"
+          },
+          "Success": {
+            "value": "#00633d",
+            "type": "color",
+            "description": "Banner background colour"
+          },
+          "Warning": {
+            "value": "#ffb600",
+            "type": "color",
+            "description": "Banner background colour"
+          },
+          "Error": {
+            "value": "#c50b30",
+            "type": "color",
+            "description": "Banner background colour"
+          },
+          "Generic": {
+            "value": "#4d4f4f",
+            "type": "color",
+            "description": "Banner background colour"
+          }
         },
-        "Yellow": {
-          "value": "#005dba",
-          "type": "color",
-          "description": "Banner background colour"
+        "Bold": {
+          "Info": {
+            "value": "#005dba",
+            "type": "color",
+            "description": "Banner background colour"
+          },
+          "Success": {
+            "value": "#00633d",
+            "type": "color",
+            "description": "Banner background colour"
+          },
+          "Warning": {
+            "value": "#ffb600",
+            "type": "color",
+            "description": "Banner background colour"
+          },
+          "Error": {
+            "value": "#c50b30",
+            "type": "color",
+            "description": "Banner background colour"
+          },
+          "Generic": {
+            "value": "#4d4f4f",
+            "type": "color",
+            "description": "Banner background colour"
+          }
         }
       },
-      "Neutral inverse": {
-        "Blue": {
-          "value": "#005dba",
-          "type": "color",
-          "description": "Banner background colour"
-        },
-        "Green": {
-          "value": "#005dba",
-          "type": "color",
-          "description": "Banner background colour"
-        },
-        "Red": {
-          "value": "#005dba",
-          "type": "color",
-          "description": "Banner background colour"
-        },
-        "Yellow": {
-          "value": "#005dba",
-          "type": "color",
-          "description": "Banner background colour"
+      "text": {
+        "colour": {
+          "Neutral": {
+            "Info": {
+              "value": "#ffffff",
+              "type": "color",
+              "description": "Banner text colour"
+            },
+            "Success": {
+              "value": "#ffffff",
+              "type": "color",
+              "description": "Banner text colour"
+            },
+            "Warning": {
+              "value": "#1d1d1b",
+              "type": "color",
+              "description": "Banner text colour"
+            },
+            "Error": {
+              "value": "#ffffff",
+              "type": "color",
+              "description": "Banner text colour"
+            },
+            "Generic": {
+              "value": "#ffffff",
+              "type": "color",
+              "description": "Banner text colour"
+            }
+          },
+          "Neutral inverse": {
+            "Info": {
+              "value": "#ffffff",
+              "type": "color",
+              "description": "Banner text colour"
+            },
+            "Success": {
+              "value": "#ffffff",
+              "type": "color",
+              "description": "Banner text colour"
+            },
+            "Warning": {
+              "value": "#1d1d1b",
+              "type": "color",
+              "description": "Banner text colour"
+            },
+            "Error": {
+              "value": "#ffffff",
+              "type": "color",
+              "description": "Banner text colour"
+            },
+            "Generic": {
+              "value": "#ffffff",
+              "type": "color",
+              "description": "Banner text colour"
+            }
+          },
+          "Subtle": {
+            "Info": {
+              "value": "#ffffff",
+              "type": "color",
+              "description": "Banner text colour"
+            },
+            "Success": {
+              "value": "#ffffff",
+              "type": "color",
+              "description": "Banner text colour"
+            },
+            "Warning": {
+              "value": "#1d1d1b",
+              "type": "color",
+              "description": "Banner text colour"
+            },
+            "Error": {
+              "value": "#ffffff",
+              "type": "color",
+              "description": "Banner text colour"
+            },
+            "Generic": {
+              "value": "#ffffff",
+              "type": "color",
+              "description": "Banner text colour"
+            }
+          },
+          "Bold": {
+            "Info": {
+              "value": "#ffffff",
+              "type": "color",
+              "description": "Banner text colour"
+            },
+            "Success": {
+              "value": "#ffffff",
+              "type": "color",
+              "description": "Banner text colour"
+            },
+            "Warning": {
+              "value": "#1d1d1b",
+              "type": "color",
+              "description": "Banner text colour"
+            },
+            "Error": {
+              "value": "#ffffff",
+              "type": "color",
+              "description": "Banner text colour"
+            },
+            "Generic": {
+              "value": "#ffffff",
+              "type": "color",
+              "description": "Banner text colour"
+            }
+          }
         }
       },
-      "Subtle": {
-        "Blue": {
-          "value": "#005dba",
-          "type": "color",
-          "description": "Banner background colour"
-        },
-        "Green": {
-          "value": "#005dba",
-          "type": "color",
-          "description": "Banner background colour"
-        },
-        "Red": {
-          "value": "#005dba",
-          "type": "color",
-          "description": "Banner background colour"
-        },
-        "Yellow": {
-          "value": "#005dba",
-          "type": "color",
-          "description": "Banner background colour"
-        }
-      },
-      "Bold": {
-        "Blue": {
-          "value": "#005dba",
-          "type": "color",
-          "description": "Banner background colour"
-        },
-        "Green": {
-          "value": "#005dba",
-          "type": "color",
-          "description": "Banner background colour"
-        },
-        "Red": {
-          "value": "#005dba",
-          "type": "color",
-          "description": "Banner background colour"
-        },
-        "Yellow": {
-          "value": "#005dba",
-          "type": "color",
-          "description": "Banner background colour"
+      "icon": {
+        "colour": {
+          "Neutral": {
+            "Info": {
+              "value": "#ffffff",
+              "type": "color",
+              "description": "Banner icon colour"
+            },
+            "Success": {
+              "value": "#ffffff",
+              "type": "color",
+              "description": "Banner icon colour"
+            },
+            "Warning": {
+              "value": "#1d1d1b",
+              "type": "color",
+              "description": "Banner icon colour"
+            },
+            "Error": {
+              "value": "#ffffff",
+              "type": "color",
+              "description": "Banner icon colour"
+            },
+            "Generic": {
+              "value": "#ffffff",
+              "type": "color",
+              "description": "Banner icon colour"
+            }
+          },
+          "Neutral inverse": {
+            "Info": {
+              "value": "#ffffff",
+              "type": "color",
+              "description": "Banner icon colour"
+            },
+            "Success": {
+              "value": "#ffffff",
+              "type": "color",
+              "description": "Banner icon colour"
+            },
+            "Warning": {
+              "value": "#1d1d1b",
+              "type": "color",
+              "description": "Banner icon colour"
+            },
+            "Error": {
+              "value": "#ffffff",
+              "type": "color",
+              "description": "Banner icon colour"
+            },
+            "Generic": {
+              "value": "#ffffff",
+              "type": "color",
+              "description": "Banner icon colour"
+            }
+          },
+          "Subtle": {
+            "Info": {
+              "value": "#ffffff",
+              "type": "color",
+              "description": "Banner icon colour"
+            },
+            "Success": {
+              "value": "#ffffff",
+              "type": "color",
+              "description": "Banner icon colour"
+            },
+            "Warning": {
+              "value": "#1d1d1b",
+              "type": "color",
+              "description": "Banner icon colour"
+            },
+            "Error": {
+              "value": "#ffffff",
+              "type": "color",
+              "description": "Banner icon colour"
+            },
+            "Generic": {
+              "value": "#ffffff",
+              "type": "color",
+              "description": "Banner icon colour"
+            }
+          },
+          "Bold": {
+            "Info": {
+              "value": "#ffffff",
+              "type": "color",
+              "description": "Banner icon colour"
+            },
+            "Success": {
+              "value": "#ffffff",
+              "type": "color",
+              "description": "Banner icon colour"
+            },
+            "Warning": {
+              "value": "#1d1d1b",
+              "type": "color",
+              "description": "Banner icon colour"
+            },
+            "Error": {
+              "value": "#ffffff",
+              "type": "color",
+              "description": "Banner icon colour"
+            },
+            "Generic": {
+              "value": "#ffffff",
+              "type": "color",
+              "description": "Banner icon colour"
+            }
+          }
         }
       }
     },
@@ -46187,190 +47151,6 @@
           "value": 12,
           "type": "sizing",
           "description": "Gap between elements inside the banner"
-        }
-      }
-    },
-    "text": {
-      "colour": {
-        "Neutral": {
-          "Blue": {
-            "value": "#ffffff",
-            "type": "color",
-            "description": "Banner text colour"
-          },
-          "Green": {
-            "value": "#ffffff",
-            "type": "color",
-            "description": "Banner text colour"
-          },
-          "Red": {
-            "value": "#ffffff",
-            "type": "color",
-            "description": "Banner text colour"
-          },
-          "Yellow": {
-            "value": "#1d1d1b",
-            "type": "color",
-            "description": "Banner text colour"
-          }
-        },
-        "Neutral inverse": {
-          "Blue": {
-            "value": "#ffffff",
-            "type": "color",
-            "description": "Banner text colour"
-          },
-          "Green": {
-            "value": "#ffffff",
-            "type": "color",
-            "description": "Banner text colour"
-          },
-          "Red": {
-            "value": "#ffffff",
-            "type": "color",
-            "description": "Banner text colour"
-          },
-          "Yellow": {
-            "value": "#1d1d1b",
-            "type": "color",
-            "description": "Banner text colour"
-          }
-        },
-        "Subtle": {
-          "Blue": {
-            "value": "#ffffff",
-            "type": "color",
-            "description": "Banner text colour"
-          },
-          "Green": {
-            "value": "#ffffff",
-            "type": "color",
-            "description": "Banner text colour"
-          },
-          "Red": {
-            "value": "#ffffff",
-            "type": "color",
-            "description": "Banner text colour"
-          },
-          "Yellow": {
-            "value": "#1d1d1b",
-            "type": "color",
-            "description": "Banner text colour"
-          }
-        },
-        "Bold": {
-          "Blue": {
-            "value": "#ffffff",
-            "type": "color",
-            "description": "Banner text colour"
-          },
-          "Green": {
-            "value": "#ffffff",
-            "type": "color",
-            "description": "Banner text colour"
-          },
-          "Red": {
-            "value": "#ffffff",
-            "type": "color",
-            "description": "Banner text colour"
-          },
-          "Yellow": {
-            "value": "#1d1d1b",
-            "type": "color",
-            "description": "Banner text colour"
-          }
-        }
-      }
-    },
-    "icon": {
-      "colour": {
-        "Neutral": {
-          "Blue": {
-            "value": "#ffffff",
-            "type": "color",
-            "description": "Banner icon colour"
-          },
-          "Green": {
-            "value": "#ffffff",
-            "type": "color",
-            "description": "Banner icon colour"
-          },
-          "Red": {
-            "value": "#ffffff",
-            "type": "color",
-            "description": "Banner icon colour"
-          },
-          "Yellow": {
-            "value": "#ffffff",
-            "type": "color",
-            "description": "Banner icon colour"
-          }
-        },
-        "Neutral inverse": {
-          "Blue": {
-            "value": "#ffffff",
-            "type": "color",
-            "description": "Banner icon colour"
-          },
-          "Green": {
-            "value": "#ffffff",
-            "type": "color",
-            "description": "Banner icon colour"
-          },
-          "Red": {
-            "value": "#ffffff",
-            "type": "color",
-            "description": "Banner icon colour"
-          },
-          "Yellow": {
-            "value": "#ffffff",
-            "type": "color",
-            "description": "Banner icon colour"
-          }
-        },
-        "Subtle": {
-          "Blue": {
-            "value": "#ffffff",
-            "type": "color",
-            "description": "Banner icon colour"
-          },
-          "Green": {
-            "value": "#ffffff",
-            "type": "color",
-            "description": "Banner icon colour"
-          },
-          "Red": {
-            "value": "#ffffff",
-            "type": "color",
-            "description": "Banner icon colour"
-          },
-          "Yellow": {
-            "value": "#ffffff",
-            "type": "color",
-            "description": "Banner icon colour"
-          }
-        },
-        "Bold": {
-          "Blue": {
-            "value": "#ffffff",
-            "type": "color",
-            "description": "Banner icon colour"
-          },
-          "Green": {
-            "value": "#ffffff",
-            "type": "color",
-            "description": "Banner icon colour"
-          },
-          "Red": {
-            "value": "#ffffff",
-            "type": "color",
-            "description": "Banner icon colour"
-          },
-          "Yellow": {
-            "value": "#ffffff",
-            "type": "color",
-            "description": "Banner icon colour"
-          }
         }
       }
     }
