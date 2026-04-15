@@ -310,7 +310,6 @@
   --input-rest-indicator-colour: #005dba;
   --input-rest-neutral-background-colour: #ffffff;
   --input-rest-neutral-reverse-background-colour: #f4f4f4;
-  --input-validation-colour: #001d6e;
   --interactive-add-on-active-colour: #1d1d1b;
   --interactive-add-on-disabled-colour: #d3d3d3;
   --interactive-add-on-focus-border-colour: #1d1d1b;
@@ -407,7 +406,6 @@
   --interactive-text-mono-hover: #000000;
   --interactive-text-mono-rest: #000000;
   --interactive-text-mono-visited: #000000;
-  --label-and-hint-error-message-colour: #001d6e;
   --label-and-hint-gap: 0.25rem;
   --label-and-hint-hint-colour: #4d4f4f;
   --label-and-hint-label-colour: #1d1d1b;
@@ -866,7 +864,6 @@
   --input-rest-indicator-colour: #005dba;
   --input-rest-neutral-background-colour: #ffffff;
   --input-rest-neutral-reverse-background-colour: #f4f4f4;
-  --input-validation-colour: #1d1d1b;
   --interactive-add-on-active-colour: #1d1d1b;
   --interactive-add-on-disabled-colour: #d3d3d3;
   --interactive-add-on-focus-border-colour: #1d1d1b;
@@ -963,7 +960,6 @@
   --interactive-text-mono-hover: #000000;
   --interactive-text-mono-rest: #000000;
   --interactive-text-mono-visited: #000000;
-  --label-and-hint-error-message-colour: #1d1d1b;
   --label-and-hint-gap: 0.25rem;
   --label-and-hint-hint-colour: #1d1d1b;
   --label-and-hint-label-colour: #1d1d1b;
@@ -1422,7 +1418,6 @@
   --input-rest-indicator-colour: #005dba;
   --input-rest-neutral-background-colour: #ffffff;
   --input-rest-neutral-reverse-background-colour: #f4f4f4;
-  --input-validation-colour: #ffffff;
   --interactive-add-on-active-colour: #1d1d1b;
   --interactive-add-on-disabled-colour: #d3d3d3;
   --interactive-add-on-focus-border-colour: #1d1d1b;
@@ -1519,7 +1514,6 @@
   --interactive-text-mono-hover: #f4f4f4;
   --interactive-text-mono-rest: #f4f4f4;
   --interactive-text-mono-visited: #f4f4f4;
-  --label-and-hint-error-message-colour: #ffffff;
   --label-and-hint-gap: 0.25rem;
   --label-and-hint-hint-colour: #ffffff;
   --label-and-hint-label-colour: #ffffff;
@@ -1978,7 +1972,6 @@
   --input-rest-indicator-colour: #00633d;
   --input-rest-neutral-background-colour: #ffffff;
   --input-rest-neutral-reverse-background-colour: #f4f4f4;
-  --input-validation-colour: #001d6e;
   --interactive-add-on-active-colour: #1d1d1b;
   --interactive-add-on-disabled-colour: #d3d3d3;
   --interactive-add-on-focus-border-colour: #1d1d1b;
@@ -2075,7 +2068,6 @@
   --interactive-text-mono-hover: #000000;
   --interactive-text-mono-rest: #000000;
   --interactive-text-mono-visited: #000000;
-  --label-and-hint-error-message-colour: #001d6e;
   --label-and-hint-gap: 0.25rem;
   --label-and-hint-hint-colour: #4d4f4f;
   --label-and-hint-label-colour: #1d1d1b;
@@ -2534,7 +2526,6 @@
   --input-rest-indicator-colour: #00633d;
   --input-rest-neutral-background-colour: #ffffff;
   --input-rest-neutral-reverse-background-colour: #f4f4f4;
-  --input-validation-colour: #001d6e;
   --interactive-add-on-active-colour: #1d1d1b;
   --interactive-add-on-disabled-colour: #d3d3d3;
   --interactive-add-on-focus-border-colour: #1d1d1b;
@@ -2631,7 +2622,6 @@
   --interactive-text-mono-hover: #000000;
   --interactive-text-mono-rest: #000000;
   --interactive-text-mono-visited: #000000;
-  --label-and-hint-error-message-colour: #001d6e;
   --label-and-hint-gap: 0.25rem;
   --label-and-hint-hint-colour: #4d4f4f;
   --label-and-hint-label-colour: #1d1d1b;
@@ -3089,7 +3079,6 @@
   --input-rest-indicator-colour: #00633d;
   --input-rest-neutral-background-colour: #ffffff;
   --input-rest-neutral-reverse-background-colour: #f4f4f4;
-  --input-validation-colour: #1d1d1b;
   --interactive-add-on-active-colour: #1d1d1b;
   --interactive-add-on-disabled-colour: #d3d3d3;
   --interactive-add-on-focus-border-colour: #1d1d1b;
@@ -3186,7 +3175,6 @@
   --interactive-text-mono-hover: #000000;
   --interactive-text-mono-rest: #000000;
   --interactive-text-mono-visited: #000000;
-  --label-and-hint-error-message-colour: #1d1d1b;
   --label-and-hint-gap: 0.25rem;
   --label-and-hint-hint-colour: #1d1d1b;
   --label-and-hint-label-colour: #1d1d1b;
@@ -3644,7 +3632,6 @@
   --input-rest-indicator-colour: #00633d;
   --input-rest-neutral-background-colour: #ffffff;
   --input-rest-neutral-reverse-background-colour: #f4f4f4;
-  --input-validation-colour: #ffffff;
   --interactive-add-on-active-colour: #1d1d1b;
   --interactive-add-on-disabled-colour: #d3d3d3;
   --interactive-add-on-focus-border-colour: #1d1d1b;
@@ -3741,7 +3728,6 @@
   --interactive-text-mono-hover: #f4f4f4;
   --interactive-text-mono-rest: #f4f4f4;
   --interactive-text-mono-visited: #f4f4f4;
-  --label-and-hint-error-message-colour: #ffffff;
   --label-and-hint-gap: 0.25rem;
   --label-and-hint-hint-colour: #ffffff;
   --label-and-hint-label-colour: #ffffff;
@@ -4200,7 +4186,6 @@
   --input-rest-indicator-colour: #c50b30;
   --input-rest-neutral-background-colour: #ffffff;
   --input-rest-neutral-reverse-background-colour: #f4f4f4;
-  --input-validation-colour: #001d6e;
   --interactive-add-on-active-colour: #1d1d1b;
   --interactive-add-on-disabled-colour: #d3d3d3;
   --interactive-add-on-focus-border-colour: #1d1d1b;
@@ -4297,7 +4282,6 @@
   --interactive-text-mono-hover: #000000;
   --interactive-text-mono-rest: #000000;
   --interactive-text-mono-visited: #000000;
-  --label-and-hint-error-message-colour: #001d6e;
   --label-and-hint-gap: 0.25rem;
   --label-and-hint-hint-colour: #4d4f4f;
   --label-and-hint-label-colour: #1d1d1b;
@@ -4756,7 +4740,6 @@
   --input-rest-indicator-colour: #c50b30;
   --input-rest-neutral-background-colour: #ffffff;
   --input-rest-neutral-reverse-background-colour: #f4f4f4;
-  --input-validation-colour: #001d6e;
   --interactive-add-on-active-colour: #1d1d1b;
   --interactive-add-on-disabled-colour: #d3d3d3;
   --interactive-add-on-focus-border-colour: #1d1d1b;
@@ -4853,7 +4836,6 @@
   --interactive-text-mono-hover: #000000;
   --interactive-text-mono-rest: #000000;
   --interactive-text-mono-visited: #000000;
-  --label-and-hint-error-message-colour: #001d6e;
   --label-and-hint-gap: 0.25rem;
   --label-and-hint-hint-colour: #4d4f4f;
   --label-and-hint-label-colour: #1d1d1b;
@@ -5311,7 +5293,6 @@
   --input-rest-indicator-colour: #c50b30;
   --input-rest-neutral-background-colour: #ffffff;
   --input-rest-neutral-reverse-background-colour: #f4f4f4;
-  --input-validation-colour: #1d1d1b;
   --interactive-add-on-active-colour: #1d1d1b;
   --interactive-add-on-disabled-colour: #d3d3d3;
   --interactive-add-on-focus-border-colour: #1d1d1b;
@@ -5408,7 +5389,6 @@
   --interactive-text-mono-hover: #000000;
   --interactive-text-mono-rest: #000000;
   --interactive-text-mono-visited: #000000;
-  --label-and-hint-error-message-colour: #1d1d1b;
   --label-and-hint-gap: 0.25rem;
   --label-and-hint-hint-colour: #1d1d1b;
   --label-and-hint-label-colour: #1d1d1b;
@@ -5866,7 +5846,6 @@
   --input-rest-indicator-colour: #c50b30;
   --input-rest-neutral-background-colour: #ffffff;
   --input-rest-neutral-reverse-background-colour: #f4f4f4;
-  --input-validation-colour: #ffffff;
   --interactive-add-on-active-colour: #1d1d1b;
   --interactive-add-on-disabled-colour: #d3d3d3;
   --interactive-add-on-focus-border-colour: #1d1d1b;
@@ -5963,7 +5942,6 @@
   --interactive-text-mono-hover: #f4f4f4;
   --interactive-text-mono-rest: #f4f4f4;
   --interactive-text-mono-visited: #f4f4f4;
-  --label-and-hint-error-message-colour: #ffffff;
   --label-and-hint-gap: 0.25rem;
   --label-and-hint-hint-colour: #ffffff;
   --label-and-hint-label-colour: #ffffff;
@@ -6422,7 +6400,6 @@
   --input-rest-indicator-colour: #c86426;
   --input-rest-neutral-background-colour: #ffffff;
   --input-rest-neutral-reverse-background-colour: #f4f4f4;
-  --input-validation-colour: #001d6e;
   --interactive-add-on-active-colour: #1d1d1b;
   --interactive-add-on-disabled-colour: #d3d3d3;
   --interactive-add-on-focus-border-colour: #1d1d1b;
@@ -6519,7 +6496,6 @@
   --interactive-text-mono-hover: #000000;
   --interactive-text-mono-rest: #000000;
   --interactive-text-mono-visited: #000000;
-  --label-and-hint-error-message-colour: #001d6e;
   --label-and-hint-gap: 0.25rem;
   --label-and-hint-hint-colour: #4d4f4f;
   --label-and-hint-label-colour: #1d1d1b;
@@ -6978,7 +6954,6 @@
   --input-rest-indicator-colour: #c86426;
   --input-rest-neutral-background-colour: #ffffff;
   --input-rest-neutral-reverse-background-colour: #f4f4f4;
-  --input-validation-colour: #001d6e;
   --interactive-add-on-active-colour: #1d1d1b;
   --interactive-add-on-disabled-colour: #d3d3d3;
   --interactive-add-on-focus-border-colour: #1d1d1b;
@@ -7075,7 +7050,6 @@
   --interactive-text-mono-hover: #000000;
   --interactive-text-mono-rest: #000000;
   --interactive-text-mono-visited: #000000;
-  --label-and-hint-error-message-colour: #001d6e;
   --label-and-hint-gap: 0.25rem;
   --label-and-hint-hint-colour: #4d4f4f;
   --label-and-hint-label-colour: #1d1d1b;
@@ -7533,7 +7507,6 @@
   --input-rest-indicator-colour: #c86426;
   --input-rest-neutral-background-colour: #ffffff;
   --input-rest-neutral-reverse-background-colour: #f4f4f4;
-  --input-validation-colour: #1d1d1b;
   --interactive-add-on-active-colour: #1d1d1b;
   --interactive-add-on-disabled-colour: #d3d3d3;
   --interactive-add-on-focus-border-colour: #1d1d1b;
@@ -7630,7 +7603,6 @@
   --interactive-text-mono-hover: #000000;
   --interactive-text-mono-rest: #000000;
   --interactive-text-mono-visited: #000000;
-  --label-and-hint-error-message-colour: #1d1d1b;
   --label-and-hint-gap: 0.25rem;
   --label-and-hint-hint-colour: #000000;
   --label-and-hint-label-colour: #1d1d1b;
@@ -8088,7 +8060,6 @@
   --input-rest-indicator-colour: #c86426;
   --input-rest-neutral-background-colour: #ffffff;
   --input-rest-neutral-reverse-background-colour: #f4f4f4;
-  --input-validation-colour: #1d1d1b;
   --interactive-add-on-active-colour: #1d1d1b;
   --interactive-add-on-disabled-colour: #d3d3d3;
   --interactive-add-on-focus-border-colour: #1d1d1b;
@@ -8185,7 +8156,6 @@
   --interactive-text-mono-hover: #1d1d1b;
   --interactive-text-mono-rest: #1d1d1b;
   --interactive-text-mono-visited: #1d1d1b;
-  --label-and-hint-error-message-colour: #1d1d1b;
   --label-and-hint-gap: 0.25rem;
   --label-and-hint-hint-colour: #1d1d1b;
   --label-and-hint-label-colour: #1d1d1b;

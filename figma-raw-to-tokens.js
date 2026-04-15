@@ -447,6 +447,36 @@ function processVariablesByCollection(variables, collections) {
 }
 
 /**
+ * Reorganizes validation and error-message tokens into status structure
+ */
+function reorganizeValidationTokensToStatus(componentThemesTokens) {
+  // Find and move label-and-hint/error-message-colour to label-and-hint/status/message-colour
+  if (
+    componentThemesTokens['label-and-hint'] &&
+    componentThemesTokens['label-and-hint']['error-message-colour']
+  ) {
+    if (!componentThemesTokens['label-and-hint']['status']) {
+      componentThemesTokens['label-and-hint']['status'] = {};
+    }
+    componentThemesTokens['label-and-hint']['status']['message-colour'] =
+      componentThemesTokens['label-and-hint']['error-message-colour'];
+    delete componentThemesTokens['label-and-hint']['error-message-colour'];
+  }
+
+  // Find and move input/validation/colour to input/status/validation-colour
+  if (componentThemesTokens['input'] && componentThemesTokens['input']['validation']) {
+    if (!componentThemesTokens['input']['status']) {
+      componentThemesTokens['input']['status'] = {};
+    }
+    componentThemesTokens['input']['status']['validation-colour'] =
+      componentThemesTokens['input']['validation']['colour'];
+    delete componentThemesTokens['input']['validation'];
+  }
+
+  return componentThemesTokens;
+}
+
+/**
  * Processes a standard variable (not component themes)
  */
 function processStandardVariable(variable, collection, allVariables, output) {
@@ -499,7 +529,10 @@ function processComponentThemeVariable(
   statusModes,
 ) {
   const namePath = parseVariableName(variable.name);
-  const isStatus = variable.name.toLowerCase().includes('status');
+  const isStatus =
+    variable.name.toLowerCase().includes('status') ||
+    variable.name.toLowerCase().includes('validation') ||
+    variable.name.toLowerCase().includes('error-message');
 
   // Get the original modes (Neutral, Subtle, Bold, Neutral inverse)
   Object.entries(variable.valuesByMode).forEach(([modeId, value]) => {
@@ -570,8 +603,13 @@ function processLinkVariable(
 ) {
   const namePath = parseVariableName(variable.name);
 
-  // Check if this is a status-related link token (contains 'status' in the path)
-  const isStatusToken = namePath.includes('status');
+  // Check if this is a status-related link token (contains 'status' or 'validation' or 'error-message' in the path)
+  const isStatusToken = namePath.some(
+    (part) =>
+      part.includes('status') ||
+      part.includes('validation') ||
+      part.includes('error-message'),
+  );
 
   // Get the value from the Default mode
   Object.entries(variable.valuesByMode).forEach(([modeId, value]) => {
@@ -727,6 +765,11 @@ async function main() {
       variables,
       variableCollections,
     );
+
+    // Reorganize validation tokens into status structure
+    if (tokensByCollection['Component themes']) {
+      reorganizeValidationTokensToStatus(tokensByCollection['Component themes']);
+    }
 
     // Filter to specific collections
     // Note: Button, Link, Link menu, and Content area are merged into Component themes
