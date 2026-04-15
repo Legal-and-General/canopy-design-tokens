@@ -21,7 +21,7 @@
   --container-status-subtle-background-colour: #aee1f7;
   --content-status-bold-colour: #ffffff;
   --content-status-subtle-colour: #001d6e;
-  --input-status-validation-colour: #001d6e;
+  --input-validation-colour: #001d6e;
   --interactive-status-active-background-colour: #000a52;
   --interactive-status-active-border-colour: #000a52;
   --interactive-status-active-colour: #ffffff;
@@ -47,7 +47,7 @@
   --interactive-text-status-subtle-hover: #000039;
   --interactive-text-status-subtle-rest: #000039;
   --interactive-text-status-subtle-visited: #000039;
-  --label-and-hint-status-message-colour: #001d6e;
+  --label-and-hint-validation-message-colour: #001d6e;
   --link-status-bold-active-colour: #f4f4f4;
   --link-status-bold-focus-border-radius: 0.25rem;
   --link-status-bold-focus-border-width: 0.0625rem;
@@ -87,7 +87,7 @@
   --container-status-subtle-background-colour: #aee1f7;
   --content-status-bold-colour: #ffffff;
   --content-status-subtle-colour: #001d6e;
-  --input-status-validation-colour: #001d6e;
+  --input-validation-colour: #001d6e;
   --interactive-status-active-background-colour: #000a52;
   --interactive-status-active-border-colour: #000a52;
   --interactive-status-active-colour: #ffffff;
@@ -113,7 +113,7 @@
   --interactive-text-status-subtle-hover: #000039;
   --interactive-text-status-subtle-rest: #000039;
   --interactive-text-status-subtle-visited: #000039;
-  --label-and-hint-status-message-colour: #001d6e;
+  --label-and-hint-validation-message-colour: #001d6e;
   --link-status-bold-active-colour: #f4f4f4;
   --link-status-bold-focus-border-radius: 0.25rem;
   --link-status-bold-focus-border-width: 0.0625rem;
@@ -153,7 +153,7 @@
   --container-status-subtle-background-colour: #ffffff;
   --content-status-bold-colour: #ffffff;
   --content-status-subtle-colour: #001d6e;
-  --input-status-validation-colour: #1d1d1b;
+  --input-validation-colour: #1d1d1b;
   --interactive-status-active-background-colour: #000a52;
   --interactive-status-active-border-colour: #000a52;
   --interactive-status-active-colour: #ffffff;
@@ -179,7 +179,7 @@
   --interactive-text-status-subtle-hover: #000039;
   --interactive-text-status-subtle-rest: #000039;
   --interactive-text-status-subtle-visited: #000039;
-  --label-and-hint-status-message-colour: #1d1d1b;
+  --label-and-hint-validation-message-colour: #1d1d1b;
   --link-status-bold-active-colour: #f4f4f4;
   --link-status-bold-focus-border-radius: 0.25rem;
   --link-status-bold-focus-border-width: 0.0625rem;
@@ -219,7 +219,7 @@
   --container-status-subtle-background-colour: #ffffff;
   --content-status-bold-colour: #ffffff;
   --content-status-subtle-colour: #001d6e;
-  --input-status-validation-colour: #ffffff;
+  --input-validation-colour: #ffffff;
   --interactive-status-active-background-colour: #000a52;
   --interactive-status-active-border-colour: #000a52;
   --interactive-status-active-colour: #ffffff;
@@ -245,7 +245,7 @@
   --interactive-text-status-subtle-hover: #000039;
   --interactive-text-status-subtle-rest: #000039;
   --interactive-text-status-subtle-visited: #000039;
-  --label-and-hint-status-message-colour: #ffffff;
+  --label-and-hint-validation-message-colour: #ffffff;
   --link-status-bold-active-colour: #f4f4f4;
   --link-status-bold-focus-border-radius: 0.25rem;
   --link-status-bold-focus-border-width: 0.0625rem;
@@ -285,7 +285,7 @@
   --container-status-subtle-background-colour: #caeedd;
   --content-status-bold-colour: #ffffff;
   --content-status-subtle-colour: #01312e;
-  --input-status-validation-colour: #014a39;
+  --input-validation-colour: #014a39;
   --interactive-status-active-background-colour: #012425;
   --interactive-status-active-border-colour: #012425;
   --interactive-status-active-colour: #ffffff;
@@ -311,7 +311,7 @@
   --interactive-text-status-subtle-hover: #011b1f;
   --interactive-text-status-subtle-rest: #011b1f;
   --interactive-text-status-subtle-visited: #011b1f;
-  --label-and-hint-status-message-colour: #014a39;
+  --label-and-hint-validation-message-colour: #014a39;
   --link-status-bold-active-colour: #f4f4f4;
   --link-status-bold-focus-border-radius: 0.25rem;
   --link-status-bold-focus-border-width: 0.0625rem;
@@ -351,7 +351,7 @@
   --container-status-subtle-background-colour: #caeedd;
   --content-status-bold-colour: #ffffff;
   --content-status-subtle-colour: #01312e;
-  --input-status-validation-colour: #014a39;
+  --input-validation-colour: #014a39;
   --interactive-status-active-background-colour: #012425;
   --interactive-status-active-border-colour: #012425;
   --interactive-status-active-colour: #ffffff;
@@ -377,7 +377,7 @@
   --interactive-text-status-subtle-hover: #011b1f;
   --interactive-text-status-subtle-rest: #011b1f;
   --interactive-text-status-subtle-visited: #011b1f;
-  --label-and-hint-status-message-colour: #014a39;
+  --label-and-hint-validation-message-colour: #014a39;
   --link-status-bold-active-colour: #f4f4f4;
   --link-status-bold-focus-border-radius: 0.25rem;
   --link-status-bold-focus-border-width: 0.0625rem;
@@ -417,7 +417,7 @@
   --container-status-subtle-background-colour: #ffffff;
   --content-status-bold-colour: #ffffff;
   --content-status-subtle-colour: #01312e;
-  --input-status-validation-colour: #1d1d1b;
+  --input-validation-colour: #1d1d1b;
   --interactive-status-active-background-colour: #012425;
   --interactive-status-active-border-colour: #012425;
   --interactive-status-active-colour: #ffffff;
@@ -443,7 +443,7 @@
   --interactive-text-status-subtle-hover: #011b1f;
   --interactive-text-status-subtle-rest: #011b1f;
   --interactive-text-status-subtle-visited: #011b1f;
-  --label-and-hint-status-message-colour: #1d1d1b;
+  --label-and-hint-validation-message-colour: #1d1d1b;
   --link-status-bold-active-colour: #f4f4f4;
   --link-status-bold-focus-border-radius: 0.25rem;
   --link-status-bold-focus-border-width: 0.0625rem;
@@ -483,7 +483,7 @@
   --container-status-subtle-background-colour: #ffffff;
   --content-status-bold-colour: #ffffff;
   --content-status-subtle-colour: #01312e;
-  --input-status-validation-colour: #ffffff;
+  --input-validation-colour: #ffffff;
   --interactive-status-active-background-colour: #012425;
   --interactive-status-active-border-colour: #012425;
   --interactive-status-active-colour: #ffffff;
@@ -509,7 +509,7 @@
   --interactive-text-status-subtle-hover: #011b1f;
   --interactive-text-status-subtle-rest: #011b1f;
   --interactive-text-status-subtle-visited: #011b1f;
-  --label-and-hint-status-message-colour: #ffffff;
+  --label-and-hint-validation-message-colour: #ffffff;
   --link-status-bold-active-colour: #f4f4f4;
   --link-status-bold-focus-border-radius: 0.25rem;
   --link-status-bold-focus-border-width: 0.0625rem;
@@ -549,7 +549,7 @@
   --container-status-subtle-background-colour: #fff9c7;
   --content-status-bold-colour: #1d1d1b;
   --content-status-subtle-colour: #904029;
-  --input-status-validation-colour: #904029;
+  --input-validation-colour: #904029;
   --interactive-status-active-background-colour: #572722;
   --interactive-status-active-border-colour: #572722;
   --interactive-status-active-colour: #ffffff;
@@ -575,7 +575,7 @@
   --interactive-text-status-subtle-hover: #000000;
   --interactive-text-status-subtle-rest: #000000;
   --interactive-text-status-subtle-visited: #000000;
-  --label-and-hint-status-message-colour: #904029;
+  --label-and-hint-validation-message-colour: #904029;
   --link-status-bold-active-colour: #1d1d1b;
   --link-status-bold-focus-border-radius: 0.25rem;
   --link-status-bold-focus-border-width: 0.0625rem;
@@ -615,7 +615,7 @@
   --container-status-subtle-background-colour: #fff9c7;
   --content-status-bold-colour: #1d1d1b;
   --content-status-subtle-colour: #904029;
-  --input-status-validation-colour: #904029;
+  --input-validation-colour: #904029;
   --interactive-status-active-background-colour: #572722;
   --interactive-status-active-border-colour: #572722;
   --interactive-status-active-colour: #ffffff;
@@ -641,7 +641,7 @@
   --interactive-text-status-subtle-hover: #000000;
   --interactive-text-status-subtle-rest: #000000;
   --interactive-text-status-subtle-visited: #000000;
-  --label-and-hint-status-message-colour: #904029;
+  --label-and-hint-validation-message-colour: #904029;
   --link-status-bold-active-colour: #1d1d1b;
   --link-status-bold-focus-border-radius: 0.25rem;
   --link-status-bold-focus-border-width: 0.0625rem;
@@ -681,7 +681,7 @@
   --container-status-subtle-background-colour: #ffffff;
   --content-status-bold-colour: #1d1d1b;
   --content-status-subtle-colour: #904029;
-  --input-status-validation-colour: #1d1d1b;
+  --input-validation-colour: #1d1d1b;
   --interactive-status-active-background-colour: #572722;
   --interactive-status-active-border-colour: #572722;
   --interactive-status-active-colour: #ffffff;
@@ -707,7 +707,7 @@
   --interactive-text-status-subtle-hover: #000000;
   --interactive-text-status-subtle-rest: #000000;
   --interactive-text-status-subtle-visited: #000000;
-  --label-and-hint-status-message-colour: #1d1d1b;
+  --label-and-hint-validation-message-colour: #1d1d1b;
   --link-status-bold-active-colour: #1d1d1b;
   --link-status-bold-focus-border-radius: 0.25rem;
   --link-status-bold-focus-border-width: 0.0625rem;
@@ -747,7 +747,7 @@
   --container-status-subtle-background-colour: #ffffff;
   --content-status-bold-colour: #1d1d1b;
   --content-status-subtle-colour: #904029;
-  --input-status-validation-colour: #1d1d1b;
+  --input-validation-colour: #1d1d1b;
   --interactive-status-active-background-colour: #572722;
   --interactive-status-active-border-colour: #572722;
   --interactive-status-active-colour: #ffffff;
@@ -773,7 +773,7 @@
   --interactive-text-status-subtle-hover: #000000;
   --interactive-text-status-subtle-rest: #000000;
   --interactive-text-status-subtle-visited: #000000;
-  --label-and-hint-status-message-colour: #1d1d1b;
+  --label-and-hint-validation-message-colour: #1d1d1b;
   --link-status-bold-active-colour: #1d1d1b;
   --link-status-bold-focus-border-radius: 0.25rem;
   --link-status-bold-focus-border-width: 0.0625rem;
@@ -813,7 +813,7 @@
   --container-status-subtle-background-colour: #ffc2bd;
   --content-status-bold-colour: #ffffff;
   --content-status-subtle-colour: #940824;
-  --input-status-validation-colour: #940824;
+  --input-validation-colour: #940824;
   --interactive-status-active-background-colour: #6e061b;
   --interactive-status-active-border-colour: #6e061b;
   --interactive-status-active-colour: #ffffff;
@@ -839,7 +839,7 @@
   --interactive-text-status-subtle-hover: #000000;
   --interactive-text-status-subtle-rest: #000000;
   --interactive-text-status-subtle-visited: #000000;
-  --label-and-hint-status-message-colour: #940824;
+  --label-and-hint-validation-message-colour: #940824;
   --link-status-bold-active-colour: #f4f4f4;
   --link-status-bold-focus-border-radius: 0.25rem;
   --link-status-bold-focus-border-width: 0.0625rem;
@@ -879,7 +879,7 @@
   --container-status-subtle-background-colour: #ffc2bd;
   --content-status-bold-colour: #ffffff;
   --content-status-subtle-colour: #940824;
-  --input-status-validation-colour: #940824;
+  --input-validation-colour: #940824;
   --interactive-status-active-background-colour: #6e061b;
   --interactive-status-active-border-colour: #6e061b;
   --interactive-status-active-colour: #ffffff;
@@ -905,7 +905,7 @@
   --interactive-text-status-subtle-hover: #000000;
   --interactive-text-status-subtle-rest: #000000;
   --interactive-text-status-subtle-visited: #000000;
-  --label-and-hint-status-message-colour: #940824;
+  --label-and-hint-validation-message-colour: #940824;
   --link-status-bold-active-colour: #f4f4f4;
   --link-status-bold-focus-border-radius: 0.25rem;
   --link-status-bold-focus-border-width: 0.0625rem;
@@ -945,7 +945,7 @@
   --container-status-subtle-background-colour: #ffffff;
   --content-status-bold-colour: #ffffff;
   --content-status-subtle-colour: #940824;
-  --input-status-validation-colour: #1d1d1b;
+  --input-validation-colour: #1d1d1b;
   --interactive-status-active-background-colour: #6e061b;
   --interactive-status-active-border-colour: #6e061b;
   --interactive-status-active-colour: #ffffff;
@@ -971,7 +971,7 @@
   --interactive-text-status-subtle-hover: #000000;
   --interactive-text-status-subtle-rest: #000000;
   --interactive-text-status-subtle-visited: #000000;
-  --label-and-hint-status-message-colour: #1d1d1b;
+  --label-and-hint-validation-message-colour: #1d1d1b;
   --link-status-bold-active-colour: #f4f4f4;
   --link-status-bold-focus-border-radius: 0.25rem;
   --link-status-bold-focus-border-width: 0.0625rem;
@@ -1011,7 +1011,7 @@
   --container-status-subtle-background-colour: #ffffff;
   --content-status-bold-colour: #ffffff;
   --content-status-subtle-colour: #940824;
-  --input-status-validation-colour: #ffffff;
+  --input-validation-colour: #ffffff;
   --interactive-status-active-background-colour: #6e061b;
   --interactive-status-active-border-colour: #6e061b;
   --interactive-status-active-colour: #ffffff;
@@ -1037,7 +1037,7 @@
   --interactive-text-status-subtle-hover: #000000;
   --interactive-text-status-subtle-rest: #000000;
   --interactive-text-status-subtle-visited: #000000;
-  --label-and-hint-status-message-colour: #ffffff;
+  --label-and-hint-validation-message-colour: #ffffff;
   --link-status-bold-active-colour: #f4f4f4;
   --link-status-bold-focus-border-radius: 0.25rem;
   --link-status-bold-focus-border-width: 0.0625rem;
@@ -1077,7 +1077,7 @@
   --container-status-subtle-background-colour: #f4f4f4;
   --content-status-bold-colour: #ffffff;
   --content-status-subtle-colour: #1d1d1b;
-  --input-status-validation-colour: #1d1d1b;
+  --input-validation-colour: #1d1d1b;
   --interactive-status-active-background-colour: #1d1d1b;
   --interactive-status-active-border-colour: #1d1d1b;
   --interactive-status-active-colour: #ffffff;
@@ -1103,7 +1103,7 @@
   --interactive-text-status-subtle-hover: #000000;
   --interactive-text-status-subtle-rest: #000000;
   --interactive-text-status-subtle-visited: #000000;
-  --label-and-hint-status-message-colour: #1d1d1b;
+  --label-and-hint-validation-message-colour: #1d1d1b;
   --link-status-bold-active-colour: #f4f4f4;
   --link-status-bold-focus-border-radius: 0.25rem;
   --link-status-bold-focus-border-width: 0.0625rem;
@@ -1143,7 +1143,7 @@
   --container-status-subtle-background-colour: #ffffff;
   --content-status-bold-colour: #ffffff;
   --content-status-subtle-colour: #1d1d1b;
-  --input-status-validation-colour: #1d1d1b;
+  --input-validation-colour: #1d1d1b;
   --interactive-status-active-background-colour: #1d1d1b;
   --interactive-status-active-border-colour: #1d1d1b;
   --interactive-status-active-colour: #ffffff;
@@ -1169,7 +1169,7 @@
   --interactive-text-status-subtle-hover: #000000;
   --interactive-text-status-subtle-rest: #000000;
   --interactive-text-status-subtle-visited: #000000;
-  --label-and-hint-status-message-colour: #1d1d1b;
+  --label-and-hint-validation-message-colour: #1d1d1b;
   --link-status-bold-active-colour: #f4f4f4;
   --link-status-bold-focus-border-radius: 0.25rem;
   --link-status-bold-focus-border-width: 0.0625rem;
@@ -1209,7 +1209,7 @@
   --container-status-subtle-background-colour: #ffffff;
   --content-status-bold-colour: #ffffff;
   --content-status-subtle-colour: #1d1d1b;
-  --input-status-validation-colour: #1d1d1b;
+  --input-validation-colour: #1d1d1b;
   --interactive-status-active-background-colour: #1d1d1b;
   --interactive-status-active-border-colour: #1d1d1b;
   --interactive-status-active-colour: #ffffff;
@@ -1235,7 +1235,7 @@
   --interactive-text-status-subtle-hover: #000000;
   --interactive-text-status-subtle-rest: #000000;
   --interactive-text-status-subtle-visited: #000000;
-  --label-and-hint-status-message-colour: #1d1d1b;
+  --label-and-hint-validation-message-colour: #1d1d1b;
   --link-status-bold-active-colour: #f4f4f4;
   --link-status-bold-focus-border-radius: 0.25rem;
   --link-status-bold-focus-border-width: 0.0625rem;
@@ -1275,7 +1275,7 @@
   --container-status-subtle-background-colour: #ffffff;
   --content-status-bold-colour: #ffffff;
   --content-status-subtle-colour: #1d1d1b;
-  --input-status-validation-colour: #ffffff;
+  --input-validation-colour: #ffffff;
   --interactive-status-active-background-colour: #1d1d1b;
   --interactive-status-active-border-colour: #1d1d1b;
   --interactive-status-active-colour: #ffffff;
@@ -1301,7 +1301,7 @@
   --interactive-text-status-subtle-hover: #000000;
   --interactive-text-status-subtle-rest: #000000;
   --interactive-text-status-subtle-visited: #000000;
-  --label-and-hint-status-message-colour: #ffffff;
+  --label-and-hint-validation-message-colour: #ffffff;
   --link-status-bold-active-colour: #f4f4f4;
   --link-status-bold-focus-border-radius: 0.25rem;
   --link-status-bold-focus-border-width: 0.0625rem;

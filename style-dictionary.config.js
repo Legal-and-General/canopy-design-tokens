@@ -493,13 +493,22 @@ module.exports = {
 
           group.tokens.forEach((token) => {
             // Remove theme mode and status mode from variable name
-            // Find 'status' in path and build varName from there
+            // Find 'status' in path and build varName
             const statusIndex = token.path.indexOf('status');
             if (statusIndex >= 0) {
               const pathBeforeStatus = token.path.slice(0, statusIndex);
               const propertyPath = token.path.slice(statusIndex + 1, -2); // exclude themeMode and statusMode
 
-              const varName = [...pathBeforeStatus, 'status', ...propertyPath].join('-');
+              // Check if this is input or label-and-hint token (exclude 'status' from name)
+              const componentName = pathBeforeStatus[0];
+              const shouldExcludeStatus =
+                componentName === 'input' || componentName === 'label-and-hint';
+
+              // Combine paths with or without 'status' keyword based on component
+              const varName = shouldExcludeStatus
+                ? [...pathBeforeStatus, ...propertyPath].join('-')
+                : [...pathBeforeStatus, 'status', ...propertyPath].join('-');
+
               output += `  --${varName}: ${token.value};\n`;
             }
           });
