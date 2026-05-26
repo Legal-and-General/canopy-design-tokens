@@ -18,16 +18,16 @@
     "prepublishOnly": "cp -r build/css css && cp -r build/ts ts"
   },
   "devDependencies": {
-    "@commitlint/cli": "^17.4.2",
-    "@commitlint/config-conventional": "^17.4.2",
-    "@semantic-release/changelog": "^6.0.3",
-    "@semantic-release/git": "^10.0.1",
-    "commitizen": "^4.3.0",
-    "cz-conventional-changelog": "^3.3.0",
-    "husky": "^8.0.3",
-    "prettier": "^3.7.4",
-    "semantic-release": "^25.0.2",
-    "style-dictionary": "^5.1.1"
+    "@commitlint/cli": "17.4.2",
+    "@commitlint/config-conventional": "17.4.2",
+    "@semantic-release/changelog": "6.0.3",
+    "@semantic-release/git": "10.0.1",
+    "commitizen": "4.3.0",
+    "cz-conventional-changelog": "3.3.0",
+    "husky": "8.0.3",
+    "prettier": "3.7.4",
+    "semantic-release": "25.0.2",
+    "style-dictionary": "5.1.1"
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
