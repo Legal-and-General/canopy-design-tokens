@@ -418,7 +418,7 @@ function processVariablesByCollection(variables, collections) {
       collectionName === 'Data point' ||
       collectionName === 'Filter Button' ||
       collectionName === 'Inline message' ||
-      collectionName === 'Nav' ||
+      collectionName === 'Header' ||
       collectionName === 'Pagination' ||
       collectionName === 'Details' ||
       collectionName === 'Breadcrumb'
