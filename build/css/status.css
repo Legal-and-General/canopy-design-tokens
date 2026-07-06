@@ -23,6 +23,7 @@
   --container-status-bold-background-colour: #005dba;
   --container-status-subtle-background-colour: #aee1f7;
   --content-status-bold-colour: #ffffff;
+  --content-status-pictogram-status-fill: #42aeea;
   --content-status-subtle-colour: #001d6e;
   --details-status-background-colour: #aee1f7;
   --details-status-icon-colour: #001d6e;
@@ -99,6 +100,7 @@
   --container-status-bold-background-colour: #005dba;
   --container-status-subtle-background-colour: #aee1f7;
   --content-status-bold-colour: #ffffff;
+  --content-status-pictogram-status-fill: #42aeea;
   --content-status-subtle-colour: #001d6e;
   --details-status-background-colour: #aee1f7;
   --details-status-icon-colour: #001d6e;
@@ -175,6 +177,7 @@
   --container-status-bold-background-colour: #005dba;
   --container-status-subtle-background-colour: #ffffff;
   --content-status-bold-colour: #ffffff;
+  --content-status-pictogram-status-fill: #42aeea;
   --content-status-subtle-colour: #001d6e;
   --details-status-background-colour: #ffffff;
   --details-status-icon-colour: #001d6e;
@@ -251,6 +254,7 @@
   --container-status-bold-background-colour: #005dba;
   --container-status-subtle-background-colour: #ffffff;
   --content-status-bold-colour: #ffffff;
+  --content-status-pictogram-status-fill: #42aeea;
   --content-status-subtle-colour: #001d6e;
   --details-status-background-colour: #ffffff;
   --details-status-icon-colour: #001d6e;
@@ -327,6 +331,7 @@
   --container-status-bold-background-colour: #00633d;
   --container-status-subtle-background-colour: #caeedd;
   --content-status-bold-colour: #ffffff;
+  --content-status-pictogram-status-fill: #43af6e;
   --content-status-subtle-colour: #01312e;
   --details-status-background-colour: #caeedd;
   --details-status-icon-colour: #01312e;
@@ -403,6 +408,7 @@
   --container-status-bold-background-colour: #00633d;
   --container-status-subtle-background-colour: #caeedd;
   --content-status-bold-colour: #ffffff;
+  --content-status-pictogram-status-fill: #43af6e;
   --content-status-subtle-colour: #01312e;
   --details-status-background-colour: #caeedd;
   --details-status-icon-colour: #01312e;
@@ -479,6 +485,7 @@
   --container-status-bold-background-colour: #00633d;
   --container-status-subtle-background-colour: #ffffff;
   --content-status-bold-colour: #ffffff;
+  --content-status-pictogram-status-fill: #43af6e;
   --content-status-subtle-colour: #01312e;
   --details-status-background-colour: #ffffff;
   --details-status-icon-colour: #01312e;
@@ -555,6 +562,7 @@
   --container-status-bold-background-colour: #00633d;
   --container-status-subtle-background-colour: #ffffff;
   --content-status-bold-colour: #ffffff;
+  --content-status-pictogram-status-fill: #43af6e;
   --content-status-subtle-colour: #01312e;
   --details-status-background-colour: #ffffff;
   --details-status-icon-colour: #01312e;
@@ -631,6 +639,7 @@
   --container-status-bold-background-colour: #ffb600;
   --container-status-subtle-background-colour: #fff9c7;
   --content-status-bold-colour: #1d1d1b;
+  --content-status-pictogram-status-fill: #ffe969;
   --content-status-subtle-colour: #904029;
   --details-status-background-colour: #fff9c7;
   --details-status-icon-colour: #904029;
@@ -707,6 +716,7 @@
   --container-status-bold-background-colour: #ffb600;
   --container-status-subtle-background-colour: #fff9c7;
   --content-status-bold-colour: #1d1d1b;
+  --content-status-pictogram-status-fill: #ffe969;
   --content-status-subtle-colour: #904029;
   --details-status-background-colour: #fff9c7;
   --details-status-icon-colour: #904029;
@@ -783,6 +793,7 @@
   --container-status-bold-background-colour: #ffb600;
   --container-status-subtle-background-colour: #ffffff;
   --content-status-bold-colour: #1d1d1b;
+  --content-status-pictogram-status-fill: #ffe969;
   --content-status-subtle-colour: #904029;
   --details-status-background-colour: #ffffff;
   --details-status-icon-colour: #904029;
@@ -859,6 +870,7 @@
   --container-status-bold-background-colour: #ffb600;
   --container-status-subtle-background-colour: #ffffff;
   --content-status-bold-colour: #1d1d1b;
+  --content-status-pictogram-status-fill: #ffe969;
   --content-status-subtle-colour: #904029;
   --details-status-background-colour: #ffffff;
   --details-status-icon-colour: #904029;
@@ -935,6 +947,7 @@
   --container-status-bold-background-colour: #c50b30;
   --container-status-subtle-background-colour: #ffc2bd;
   --content-status-bold-colour: #ffffff;
+  --content-status-pictogram-status-fill: #ff3e51;
   --content-status-subtle-colour: #940824;
   --details-status-background-colour: #ffc2bd;
   --details-status-icon-colour: #940824;
@@ -1011,6 +1024,7 @@
   --container-status-bold-background-colour: #c50b30;
   --container-status-subtle-background-colour: #ffc2bd;
   --content-status-bold-colour: #ffffff;
+  --content-status-pictogram-status-fill: #ff3e51;
   --content-status-subtle-colour: #940824;
   --details-status-background-colour: #ffc2bd;
   --details-status-icon-colour: #940824;
@@ -1087,6 +1101,7 @@
   --container-status-bold-background-colour: #c50b30;
   --container-status-subtle-background-colour: #ffffff;
   --content-status-bold-colour: #ffffff;
+  --content-status-pictogram-status-fill: #ff3e51;
   --content-status-subtle-colour: #940824;
   --details-status-background-colour: #ffffff;
   --details-status-icon-colour: #940824;
@@ -1163,6 +1178,7 @@
   --container-status-bold-background-colour: #c50b30;
   --container-status-subtle-background-colour: #ffffff;
   --content-status-bold-colour: #ffffff;
+  --content-status-pictogram-status-fill: #ff3e51;
   --content-status-subtle-colour: #940824;
   --details-status-background-colour: #ffffff;
   --details-status-icon-colour: #940824;
@@ -1239,6 +1255,7 @@
   --container-status-bold-background-colour: #4d4f4f;
   --container-status-subtle-background-colour: #f4f4f4;
   --content-status-bold-colour: #ffffff;
+  --content-status-pictogram-status-fill: #d3d3d3;
   --content-status-subtle-colour: #1d1d1b;
   --details-status-background-colour: #f4f4f4;
   --details-status-icon-colour: #1d1d1b;
@@ -1315,6 +1332,7 @@
   --container-status-bold-background-colour: #4d4f4f;
   --container-status-subtle-background-colour: #ffffff;
   --content-status-bold-colour: #ffffff;
+  --content-status-pictogram-status-fill: #d3d3d3;
   --content-status-subtle-colour: #1d1d1b;
   --details-status-background-colour: #ffffff;
   --details-status-icon-colour: #1d1d1b;
@@ -1391,6 +1409,7 @@
   --container-status-bold-background-colour: #4d4f4f;
   --container-status-subtle-background-colour: #ffffff;
   --content-status-bold-colour: #ffffff;
+  --content-status-pictogram-status-fill: #d3d3d3;
   --content-status-subtle-colour: #1d1d1b;
   --details-status-background-colour: #ffffff;
   --details-status-icon-colour: #1d1d1b;
@@ -1467,6 +1486,7 @@
   --container-status-bold-background-colour: #4d4f4f;
   --container-status-subtle-background-colour: #ffffff;
   --content-status-bold-colour: #ffffff;
+  --content-status-pictogram-status-fill: #d3d3d3;
   --content-status-subtle-colour: #1d1d1b;
   --details-status-background-colour: #ffffff;
   --details-status-icon-colour: #1d1d1b;

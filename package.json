@@ -11,6 +11,7 @@
     "tokens:fetch-raw": "node fetch-figma-tokens.js",
     "tokens:process-raw": "node figma-raw-to-tokens.js",
     "build:tokens": "style-dictionary build --config style-dictionary.config.js",
+    "tokens:list-changed-vars": "node list-changed-css-variables.js",
     "commit": "npx git-cz",
     "format": "prettier --write .",
     "format:check": "prettier --check .",
