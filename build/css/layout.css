@@ -5,6 +5,11 @@
 :root {
 
   /* SM tokens */
+  --asset-size-lg-sm: 5rem;
+  --asset-size-md-sm: 2rem;
+  --asset-size-sm-sm: 1.5rem;
+  --asset-size-xl-sm: 10rem;
+  --asset-size-xs-sm: 1rem;
   --border-radius-1-sm: 0.25rem;
   --border-radius-10-sm: 5.25rem;
   --border-radius-2-sm: 0.5rem;
@@ -75,6 +80,11 @@
   --visibility-show-at-sm-sm: true;
 
   /* MD tokens */
+  --asset-size-lg-md: 5rem;
+  --asset-size-md-md: 2rem;
+  --asset-size-sm-md: 1.5rem;
+  --asset-size-xl-md: 10rem;
+  --asset-size-xs-md: 1rem;
   --border-radius-1-md: 0.25rem;
   --border-radius-10-md: 5.25rem;
   --border-radius-2-md: 0.5rem;
@@ -145,6 +155,11 @@
   --visibility-show-at-sm-md: true;
 
   /* LG tokens */
+  --asset-size-lg-lg: 7.5rem;
+  --asset-size-md-lg: 2rem;
+  --asset-size-sm-lg: 1.5rem;
+  --asset-size-xl-lg: 10rem;
+  --asset-size-xs-lg: 1rem;
   --border-radius-1-lg: 0.25rem;
   --border-radius-10-lg: 9.75rem;
   --border-radius-2-lg: 0.5rem;
@@ -215,6 +230,11 @@
   --visibility-show-at-sm-lg: true;
 
   /* XL tokens */
+  --asset-size-lg-xl: 7.5rem;
+  --asset-size-md-xl: 2rem;
+  --asset-size-sm-xl: 1.5rem;
+  --asset-size-xl-xl: 10rem;
+  --asset-size-xs-xl: 1rem;
   --border-radius-1-xl: 0.25rem;
   --border-radius-10-xl: 9.75rem;
   --border-radius-2-xl: 0.5rem;
@@ -285,6 +305,11 @@
   --visibility-show-at-xl-xl: true;
 
   /* XXL tokens */
+  --asset-size-lg-xxl: 10rem;
+  --asset-size-md-xxl: 2rem;
+  --asset-size-sm-xxl: 1.5rem;
+  --asset-size-xl-xxl: 10rem;
+  --asset-size-xs-xxl: 1rem;
   --border-radius-1-xxl: 0.25rem;
   --border-radius-10-xxl: 9.75rem;
   --border-radius-2-xxl: 0.5rem;

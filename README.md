@@ -253,6 +253,7 @@ For local development or manual updates:
 npm run tokens:fetch-raw      # Step 1: Fetch raw data from Figma
 npm run tokens:process-raw    # Step 2: Process into token files
 npm run build:tokens          # Step 3: Generate CSS files
+npm run tokens:list-changed-vars # Optional: List changed variable names in build/css/variables.css
 ```
 
 ##### Individual Steps

@@ -1,7 +1,33 @@
 {
   "$description": "Design tokens from Foundations collection",
-  "$timestamp": "2026-06-25T13:25:31.134Z",
+  "$timestamp": "2026-07-06T09:36:33.953Z",
   "dimensions": {
+    "assets": {
+      "1": {
+        "value": 16,
+        "type": "sizing"
+      },
+      "2": {
+        "value": 24,
+        "type": "sizing"
+      },
+      "3": {
+        "value": 32,
+        "type": "sizing"
+      },
+      "4": {
+        "value": 80,
+        "type": "sizing"
+      },
+      "5": {
+        "value": 120,
+        "type": "sizing"
+      },
+      "6": {
+        "value": 160,
+        "type": "sizing"
+      }
+    },
     "small": {
       "1": {
         "value": 4,

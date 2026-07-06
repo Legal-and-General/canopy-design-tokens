@@ -1,6 +1,6 @@
 {
   "$description": "Design tokens from Layout collection",
-  "$timestamp": "2026-06-25T13:25:31.135Z",
+  "$timestamp": "2026-07-06T09:36:33.952Z",
   "border-radius": {
     "1": {
       "SM": {
@@ -1749,6 +1749,120 @@
           "value": true,
           "type": "other",
           "description": "Show content at XL breakpoint and above"
+        }
+      }
+    }
+  },
+  "asset": {
+    "size": {
+      "xs": {
+        "SM": {
+          "value": 16,
+          "type": "sizing"
+        },
+        "MD": {
+          "value": 16,
+          "type": "sizing"
+        },
+        "LG": {
+          "value": 16,
+          "type": "sizing"
+        },
+        "XL": {
+          "value": 16,
+          "type": "sizing"
+        },
+        "XXL": {
+          "value": 16,
+          "type": "sizing"
+        }
+      },
+      "sm": {
+        "SM": {
+          "value": 24,
+          "type": "sizing"
+        },
+        "MD": {
+          "value": 24,
+          "type": "sizing"
+        },
+        "LG": {
+          "value": 24,
+          "type": "sizing"
+        },
+        "XL": {
+          "value": 24,
+          "type": "sizing"
+        },
+        "XXL": {
+          "value": 24,
+          "type": "sizing"
+        }
+      },
+      "md": {
+        "SM": {
+          "value": 32,
+          "type": "sizing"
+        },
+        "MD": {
+          "value": 32,
+          "type": "sizing"
+        },
+        "LG": {
+          "value": 32,
+          "type": "sizing"
+        },
+        "XL": {
+          "value": 32,
+          "type": "sizing"
+        },
+        "XXL": {
+          "value": 32,
+          "type": "sizing"
+        }
+      },
+      "lg": {
+        "SM": {
+          "value": 80,
+          "type": "sizing"
+        },
+        "MD": {
+          "value": 80,
+          "type": "sizing"
+        },
+        "LG": {
+          "value": 120,
+          "type": "sizing"
+        },
+        "XL": {
+          "value": 120,
+          "type": "sizing"
+        },
+        "XXL": {
+          "value": 160,
+          "type": "sizing"
+        }
+      },
+      "xl": {
+        "SM": {
+          "value": 160,
+          "type": "sizing"
+        },
+        "MD": {
+          "value": 160,
+          "type": "sizing"
+        },
+        "LG": {
+          "value": 160,
+          "type": "sizing"
+        },
+        "XL": {
+          "value": 160,
+          "type": "sizing"
+        },
+        "XXL": {
+          "value": 160,
+          "type": "sizing"
         }
       }
     }
