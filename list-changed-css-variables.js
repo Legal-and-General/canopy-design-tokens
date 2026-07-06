@@ -9,7 +9,7 @@
  *   node list-changed-css-variables.js --file build/css/variables.css
  */
 
-const { execSync } = require('node:child_process');
+const { execFileSync } = require('node:child_process');
 
 const DEFAULT_FILE = 'build/css/variables.css';
 
@@ -54,10 +54,8 @@ function printHelp() {
 
 function getDiff(ref, file) {
   // `git diff <ref> -- <file>` compares working tree + index against the ref.
-  const command = `git diff ${escapeShellArg(ref)} -- ${escapeShellArg(file)}`;
-
   try {
-    return execSync(command, {
+    return execFileSync('git', ['diff', String(ref), '--', String(file)], {
       encoding: 'utf8',
       stdio: ['ignore', 'pipe', 'pipe'],
     });
@@ -66,11 +64,6 @@ function getDiff(ref, file) {
     const message = stderr || error.message || 'Failed to run git diff';
     throw new Error(message);
   }
-}
-
-function escapeShellArg(value) {
-  const escapedSingleQuote = String.raw`'\''`;
-  return `'${String(value).replaceAll("'", escapedSingleQuote)}'`;
 }
 
 function isDiffMetaLine(line) {
