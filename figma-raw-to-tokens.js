@@ -421,7 +421,8 @@ function processVariablesByCollection(variables, collections) {
       collectionName === 'Header' ||
       collectionName === 'Pagination' ||
       collectionName === 'Details' ||
-      collectionName === 'Breadcrumb'
+      collectionName === 'Breadcrumb' ||
+      collectionName === 'List'
     ) {
       // Merge Button/Link/Content area/Form Elements/Footer/Banner/Card/Data point/Filter Button/Inline message tokens into Component themes, expanding across color/theme modes
       // These collections have a "Default" mode that should map to all theme modes
@@ -803,6 +804,7 @@ async function main() {
       'Component themes',
       'Foundations',
       'Layout',
+      'List',
       'Typography',
     ];
     const filteredTokens = {};

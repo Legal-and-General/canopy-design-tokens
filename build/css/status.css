@@ -2,6 +2,70 @@
  * Do not edit directly, this file was auto-generated.
  */
 
+.lg-status-blue.lg-theme-neutral {
+  --container-status-subtle-focus-indicator-colour: #1d1d1b;
+}
+
+.lg-status-green.lg-theme-neutral {
+  --container-status-subtle-focus-indicator-colour: #1d1d1b;
+}
+
+.lg-status-red.lg-theme-neutral {
+  --container-status-subtle-focus-indicator-colour: #1d1d1b;
+}
+
+.lg-status-yellow.lg-theme-neutral {
+  --container-status-subtle-focus-indicator-colour: #1d1d1b;
+}
+
+.lg-status-blue.lg-theme-neutral-inverse {
+  --container-status-subtle-focus-indicator-colour: #1d1d1b;
+}
+
+.lg-status-green.lg-theme-neutral-inverse {
+  --container-status-subtle-focus-indicator-colour: #1d1d1b;
+}
+
+.lg-status-red.lg-theme-neutral-inverse {
+  --container-status-subtle-focus-indicator-colour: #1d1d1b;
+}
+
+.lg-status-yellow.lg-theme-neutral-inverse {
+  --container-status-subtle-focus-indicator-colour: #1d1d1b;
+}
+
+.lg-status-blue.lg-theme-subtle {
+  --container-status-subtle-focus-indicator-colour: #1d1d1b;
+}
+
+.lg-status-green.lg-theme-subtle {
+  --container-status-subtle-focus-indicator-colour: #1d1d1b;
+}
+
+.lg-status-red.lg-theme-subtle {
+  --container-status-subtle-focus-indicator-colour: #1d1d1b;
+}
+
+.lg-status-yellow.lg-theme-subtle {
+  --container-status-subtle-focus-indicator-colour: #1d1d1b;
+}
+
+.lg-status-blue.lg-theme-bold {
+  --container-status-subtle-focus-indicator-colour: #1d1d1b;
+}
+
+.lg-status-green.lg-theme-bold {
+  --container-status-subtle-focus-indicator-colour: #1d1d1b;
+}
+
+.lg-status-red.lg-theme-bold {
+  --container-status-subtle-focus-indicator-colour: #1d1d1b;
+}
+
+.lg-status-yellow.lg-theme-bold {
+  --container-status-subtle-focus-indicator-colour: #1d1d1b;
+}
+
 .lg-status-info.lg-theme-neutral {
   --banner-background-colour: #005dba;
   --banner-icon-colour: #ffffff;
