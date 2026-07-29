@@ -28,7 +28,7 @@
     "husky": "8.0.3",
     "prettier": "3.7.4",
     "semantic-release": "25.0.2",
-    "style-dictionary": "5.1.1"
+    "style-dictionary": "5.4.4"
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
