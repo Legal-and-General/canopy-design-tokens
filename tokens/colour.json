@@ -1,6 +1,6 @@
 {
   "$description": "Design tokens from Colour collection",
-  "$timestamp": "2026-07-14T15:02:24.350Z",
+  "$timestamp": "2026-08-11T09:55:59.093Z",
   "brand": {
     "tint": {
       "1": {
@@ -229,44 +229,44 @@
       },
       "4": {
         "Blue": {
-          "value": "#a6a7a7",
+          "value": "#858686",
           "type": "color",
           "description": "Use for borders / outlines"
         },
         "Green": {
-          "value": "#a6a7a7",
+          "value": "#858686",
           "type": "color",
           "description": "Use for borders / outlines"
         },
         "Red": {
-          "value": "#a6a7a7",
+          "value": "#858686",
           "type": "color",
           "description": "Use for borders / outlines"
         },
         "Yellow": {
-          "value": "#a6a7a7",
+          "value": "#858686",
           "type": "color",
           "description": "Use for borders / outlines"
         }
       },
       "5": {
         "Blue": {
-          "value": "#7a7b7b",
+          "value": "#4d4f4f",
           "type": "color",
           "description": "Use for borders / outlines"
         },
         "Green": {
-          "value": "#7a7b7b",
+          "value": "#4d4f4f",
           "type": "color",
           "description": "Use for borders / outlines"
         },
         "Red": {
-          "value": "#7a7b7b",
+          "value": "#4d4f4f",
           "type": "color",
           "description": "Use for borders / outlines"
         },
         "Yellow": {
-          "value": "#7a7b7b",
+          "value": "#4d4f4f",
           "type": "color",
           "description": "Use for borders / outlines"
         }

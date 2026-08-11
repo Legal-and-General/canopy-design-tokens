@@ -20,7 +20,7 @@
   --border-radius-7-sm: 2.25rem;
   --border-radius-8-sm: 3rem;
   --border-radius-9-sm: 3.75rem;
-  --border-width-lg-sm: 0.1875rem;
+  --border-width-lg-sm: 0.25rem;
   --border-width-md-sm: 0.125rem;
   --border-width-sm-sm: 0.09375rem;
   --border-width-xs-sm: 0.0625rem;
@@ -36,6 +36,7 @@
   --colspan-7-sm: 18rem;
   --colspan-8-sm: 18rem;
   --colspan-9-sm: 18rem;
+  --component-min-width-sm: 14.5rem;
   --font-size-0-6-sm: 0.75rem;
   --font-size-0-8-sm: 0.875rem;
   --font-size-1-sm: 1rem;
@@ -95,7 +96,7 @@
   --border-radius-7-md: 2.25rem;
   --border-radius-8-md: 3rem;
   --border-radius-9-md: 3.75rem;
-  --border-width-lg-md: 0.1875rem;
+  --border-width-lg-md: 0.25rem;
   --border-width-md-md: 0.125rem;
   --border-width-sm-md: 0.09375rem;
   --border-width-xs-md: 0.0625rem;
@@ -111,6 +112,7 @@
   --colspan-7-md: 25.25rem;
   --colspan-8-md: 29.0625rem;
   --colspan-9-md: 32.9375rem;
+  --component-min-width-md: 14.5rem;
   --font-size-0-6-md: 0.75rem;
   --font-size-0-8-md: 0.875rem;
   --font-size-1-md: 1rem;
@@ -170,7 +172,7 @@
   --border-radius-7-lg: 3rem;
   --border-radius-8-lg: 4.5rem;
   --border-radius-9-lg: 6.5rem;
-  --border-width-lg-lg: 0.1875rem;
+  --border-width-lg-lg: 0.25rem;
   --border-width-md-lg: 0.125rem;
   --border-width-sm-lg: 0.09375rem;
   --border-width-xs-lg: 0.0625rem;
@@ -186,6 +188,7 @@
   --colspan-7-lg: 34.1875rem;
   --colspan-8-lg: 39.3125rem;
   --colspan-9-lg: 44.5rem;
+  --component-min-width-lg: 14.5rem;
   --font-size-0-6-lg: 0.75rem;
   --font-size-0-8-lg: 0.875rem;
   --font-size-1-lg: 1rem;
@@ -245,7 +248,7 @@
   --border-radius-7-xl: 3rem;
   --border-radius-8-xl: 4.5rem;
   --border-radius-9-xl: 6.5rem;
-  --border-width-lg-xl: 0.1875rem;
+  --border-width-lg-xl: 0.25rem;
   --border-width-md-xl: 0.125rem;
   --border-width-sm-xl: 0.09375rem;
   --border-width-xs-xl: 0.0625rem;
@@ -261,6 +264,7 @@
   --colspan-7-xl: 40.5625rem;
   --colspan-8-xl: 46.625rem;
   --colspan-9-xl: 52.75rem;
+  --component-min-width-xl: 14.5rem;
   --font-size-0-6-xl: 0.75rem;
   --font-size-0-8-xl: 0.875rem;
   --font-size-1-xl: 1rem;
@@ -320,7 +324,7 @@
   --border-radius-7-xxl: 3rem;
   --border-radius-8-xxl: 4.5rem;
   --border-radius-9-xxl: 6.5rem;
-  --border-width-lg-xxl: 0.1875rem;
+  --border-width-lg-xxl: 0.25rem;
   --border-width-md-xxl: 0.125rem;
   --border-width-sm-xxl: 0.09375rem;
   --border-width-xs-xxl: 0.0625rem;
@@ -336,6 +340,7 @@
   --colspan-7-xxl: 44.0625rem;
   --colspan-8-xxl: 50.625rem;
   --colspan-9-xxl: 57.25rem;
+  --component-min-width-xxl: 14.5rem;
   --font-size-0-6-xxl: 0.75rem;
   --font-size-0-8-xxl: 0.875rem;
   --font-size-1-xxl: 1rem;
