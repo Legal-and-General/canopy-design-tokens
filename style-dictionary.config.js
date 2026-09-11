@@ -1,3 +1,27 @@
+// The Figma->tokens transform injects a 'status' path segment for routing purposes even when
+// a segment already contains the word "status" (e.g. "status-fill"); drop the injected marker
+// in that case so the generated variable name doesn't repeat the word.
+function hasRedundantStatusWord(segments) {
+  return segments.some((part) => part.split('-').includes('status'));
+}
+
+// Rebuilds a camelCase name from a token path, mirroring the default naming convention
+function toCamelName(path) {
+  return path
+    .map((segment, segmentIndex) =>
+      segment
+        .split(/[-\s]+/)
+        .filter(Boolean)
+        .map((word, wordIndex) =>
+          segmentIndex === 0 && wordIndex === 0
+            ? word.charAt(0).toLowerCase() + word.slice(1)
+            : word.charAt(0).toUpperCase() + word.slice(1),
+        )
+        .join(''),
+    )
+    .join('');
+}
+
 module.exports = {
   source: [
     'tokens/colour.json',
@@ -231,17 +255,18 @@ module.exports = {
             const statusIndex = pathWithoutModes.indexOf('status');
             if (statusIndex >= 0) {
               const componentName = pathWithoutModes[0];
+              const pathBeforeStatus = pathWithoutModes.slice(0, statusIndex);
+              const pathAfterStatus = pathWithoutModes.slice(statusIndex + 1);
               const shouldExcludeStatus =
                 componentName === 'input' ||
                 componentName === 'label-and-hint' ||
                 componentName === 'banner' ||
                 componentName === 'segment-button' ||
-                componentName === 'inline-message';
+                componentName === 'inline-message' ||
+                hasRedundantStatusWord(pathAfterStatus);
 
               if (shouldExcludeStatus) {
                 // Remove 'status' from the path for variable naming
-                const pathBeforeStatus = pathWithoutModes.slice(0, statusIndex);
-                const pathAfterStatus = pathWithoutModes.slice(statusIndex + 1);
                 varName = [...pathBeforeStatus, ...pathAfterStatus].join('-');
               } else {
                 varName = pathWithoutModes.join('-');
@@ -542,7 +567,8 @@ module.exports = {
                 componentName === 'label-and-hint' ||
                 componentName === 'banner' ||
                 componentName === 'segment-button' ||
-                componentName === 'inline-message';
+                componentName === 'inline-message' ||
+                hasRedundantStatusWord(propertyPath);
 
               // Combine paths with or without 'status' keyword based on component
               const varName = shouldExcludeStatus
@@ -653,7 +679,23 @@ module.exports = {
 
         // Generate tokens - skip typography tokens, simple exports for others
         allTokens.forEach((token) => {
-          const name = token.name.replace(/-/g, '_').replace(/^_+/, '');
+          let name = token.name;
+
+          // If 'status' was injected into the path but a later segment already contains the
+          // word (e.g. 'status-fill'), drop the injected marker so the export name isn't doubled
+          const statusIndex = token.path.indexOf('status');
+          if (statusIndex >= 0) {
+            const pathAfterStatus = token.path.slice(statusIndex + 1, -2);
+            if (hasRedundantStatusWord(pathAfterStatus)) {
+              const dedupedPath = [
+                ...token.path.slice(0, statusIndex),
+                ...token.path.slice(statusIndex + 1),
+              ];
+              name = toCamelName(dedupedPath);
+            }
+          }
+
+          name = name.replace(/-/g, '_').replace(/^_+/, '');
 
           if (!isTypographyToken(token)) {
             // Simple export for non-typography tokens
