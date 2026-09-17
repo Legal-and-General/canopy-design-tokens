@@ -76,8 +76,14 @@ function resolveAliasWithModeContext(
   let modeId = null;
 
   if (collection) {
+    if (collection.name === 'Layout' && modeContext.layoutModeName) {
+      const layoutMode = collection.modes?.find(
+        (mode) => mode.name.toUpperCase() === modeContext.layoutModeName.toUpperCase(),
+      );
+      modeId = layoutMode?.modeId;
+    }
     // Check if this is Component themes collection - use theme mode
-    if (collection.name === 'Component themes' && modeContext.themeModeId) {
+    else if (collection.name === 'Component themes' && modeContext.themeModeId) {
       modeId = modeContext.themeModeId;
     }
     // Check if this is Colour collection - use color mode
@@ -648,6 +654,14 @@ function processLinkVariable(
   // Get the value from the Default mode
   Object.entries(variable.valuesByMode).forEach(([modeId, value]) => {
     const tokenType = getTokenType(variable);
+    const responsiveModes =
+      variable.name === 'notice/pictogram/size'
+        ? [
+            { name: 'md', layoutMode: 'MD' },
+            { name: 'lg', layoutMode: 'LG' },
+            { name: 'xl', layoutMode: 'LG' },
+          ]
+        : [null];
 
     // If it's a status token, expand across status modes instead of color modes
     if (isStatusToken || isLinkStatusBorder) {
@@ -695,42 +709,50 @@ function processLinkVariable(
       // Regular link token - expand across color modes
       themeModes.forEach((themeMode) => {
         colorModes.forEach((colorMode) => {
-          let resolvedValue = null;
+          responsiveModes.forEach((responsiveMode) => {
+            let resolvedValue = null;
 
-          // If this is an alias, resolve it with both theme and color mode context
-          if (typeof value === 'object' && value.type === 'VARIABLE_ALIAS') {
-            resolvedValue = resolveAliasWithModeContext(
-              value.id,
-              allVariables,
-              allCollections,
-              {
-                themeModeId: themeMode.modeId,
-                colorModeId: colorMode.modeId,
-              },
-            );
-          } else {
-            // Direct value (not an alias)
-            resolvedValue = convertVariableValue(
-              variable,
-              value,
-              allVariables,
-              colorMode.modeId,
-            );
-          }
+            // If this is an alias, resolve it with theme, color, and layout mode context
+            if (typeof value === 'object' && value.type === 'VARIABLE_ALIAS') {
+              resolvedValue = resolveAliasWithModeContext(
+                value.id,
+                allVariables,
+                allCollections,
+                {
+                  themeModeId: themeMode.modeId,
+                  colorModeId: colorMode.modeId,
+                  layoutModeName: responsiveMode?.layoutMode,
+                },
+              );
+            } else {
+              // Direct value (not an alias)
+              resolvedValue = convertVariableValue(
+                variable,
+                value,
+                allVariables,
+                colorMode.modeId,
+              );
+            }
 
-          if (resolvedValue === null) return;
+            if (resolvedValue === null) return;
 
-          const token = {
-            value: resolvedValue,
-            type: tokenType,
-          };
+            const token = {
+              value: resolvedValue,
+              type: tokenType,
+            };
 
-          if (variable.description) {
-            token.description = variable.description;
-          }
+            if (variable.description) {
+              token.description = variable.description;
+            }
 
-          const fullPath = [...namePath, themeMode.name, colorMode.name];
-          setNestedValue(output, fullPath, token);
+            const fullPath = [
+              ...namePath,
+              ...(responsiveMode ? [responsiveMode.name] : []),
+              themeMode.name,
+              colorMode.name,
+            ];
+            setNestedValue(output, fullPath, token);
+          });
         });
       });
     }

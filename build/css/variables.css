@@ -765,7 +765,9 @@
   --link-menu-item-focus-border-width: 0.1875rem;
   --link-menu-item-focus-colour: #1d1d1b;
   --link-menu-item-focus-colour-muted: #1d1d1b;
-  --notice-pictogram-size: 5rem;
+  --notice-pictogram-size-md: 5rem;
+  --notice-pictogram-size-lg: 7.5rem;
+  --notice-pictogram-size-xl: 7.5rem;
   --notice-gap: 1.75rem;
   --notice-content-gap: 1rem;
   --notice-pictogram-size: 5rem;
