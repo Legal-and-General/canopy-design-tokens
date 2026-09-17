@@ -1,6 +1,6 @@
 {
   "$description": "Design tokens from Component themes collection",
-  "$timestamp": "2026-09-17T14:43:40.642Z",
+  "$timestamp": "2026-09-17T15:09:43.946Z",
   "inline-message": {
     "padding-x": {
       "Neutral": {
@@ -33226,92 +33226,274 @@
   "notice": {
     "pictogram": {
       "size": {
-        "Neutral": {
-          "Blue": {
-            "value": 80,
-            "type": "sizing",
-            "description": "The height and width of the pictogram in the notice"
+        "md": {
+          "Neutral": {
+            "Blue": {
+              "value": 80,
+              "type": "sizing",
+              "description": "The height and width of the pictogram in the notice"
+            },
+            "Green": {
+              "value": 80,
+              "type": "sizing",
+              "description": "The height and width of the pictogram in the notice"
+            },
+            "Red": {
+              "value": 80,
+              "type": "sizing",
+              "description": "The height and width of the pictogram in the notice"
+            },
+            "Yellow": {
+              "value": 80,
+              "type": "sizing",
+              "description": "The height and width of the pictogram in the notice"
+            }
           },
-          "Green": {
-            "value": 80,
-            "type": "sizing",
-            "description": "The height and width of the pictogram in the notice"
+          "Neutral inverse": {
+            "Blue": {
+              "value": 80,
+              "type": "sizing",
+              "description": "The height and width of the pictogram in the notice"
+            },
+            "Green": {
+              "value": 80,
+              "type": "sizing",
+              "description": "The height and width of the pictogram in the notice"
+            },
+            "Red": {
+              "value": 80,
+              "type": "sizing",
+              "description": "The height and width of the pictogram in the notice"
+            },
+            "Yellow": {
+              "value": 80,
+              "type": "sizing",
+              "description": "The height and width of the pictogram in the notice"
+            }
           },
-          "Red": {
-            "value": 80,
-            "type": "sizing",
-            "description": "The height and width of the pictogram in the notice"
+          "Subtle": {
+            "Blue": {
+              "value": 80,
+              "type": "sizing",
+              "description": "The height and width of the pictogram in the notice"
+            },
+            "Green": {
+              "value": 80,
+              "type": "sizing",
+              "description": "The height and width of the pictogram in the notice"
+            },
+            "Red": {
+              "value": 80,
+              "type": "sizing",
+              "description": "The height and width of the pictogram in the notice"
+            },
+            "Yellow": {
+              "value": 80,
+              "type": "sizing",
+              "description": "The height and width of the pictogram in the notice"
+            }
           },
-          "Yellow": {
-            "value": 80,
-            "type": "sizing",
-            "description": "The height and width of the pictogram in the notice"
+          "Bold": {
+            "Blue": {
+              "value": 80,
+              "type": "sizing",
+              "description": "The height and width of the pictogram in the notice"
+            },
+            "Green": {
+              "value": 80,
+              "type": "sizing",
+              "description": "The height and width of the pictogram in the notice"
+            },
+            "Red": {
+              "value": 80,
+              "type": "sizing",
+              "description": "The height and width of the pictogram in the notice"
+            },
+            "Yellow": {
+              "value": 80,
+              "type": "sizing",
+              "description": "The height and width of the pictogram in the notice"
+            }
           }
         },
-        "Neutral inverse": {
-          "Blue": {
-            "value": 80,
-            "type": "sizing",
-            "description": "The height and width of the pictogram in the notice"
+        "lg": {
+          "Neutral": {
+            "Blue": {
+              "value": 120,
+              "type": "sizing",
+              "description": "The height and width of the pictogram in the notice"
+            },
+            "Green": {
+              "value": 120,
+              "type": "sizing",
+              "description": "The height and width of the pictogram in the notice"
+            },
+            "Red": {
+              "value": 120,
+              "type": "sizing",
+              "description": "The height and width of the pictogram in the notice"
+            },
+            "Yellow": {
+              "value": 120,
+              "type": "sizing",
+              "description": "The height and width of the pictogram in the notice"
+            }
           },
-          "Green": {
-            "value": 80,
-            "type": "sizing",
-            "description": "The height and width of the pictogram in the notice"
+          "Neutral inverse": {
+            "Blue": {
+              "value": 120,
+              "type": "sizing",
+              "description": "The height and width of the pictogram in the notice"
+            },
+            "Green": {
+              "value": 120,
+              "type": "sizing",
+              "description": "The height and width of the pictogram in the notice"
+            },
+            "Red": {
+              "value": 120,
+              "type": "sizing",
+              "description": "The height and width of the pictogram in the notice"
+            },
+            "Yellow": {
+              "value": 120,
+              "type": "sizing",
+              "description": "The height and width of the pictogram in the notice"
+            }
           },
-          "Red": {
-            "value": 80,
-            "type": "sizing",
-            "description": "The height and width of the pictogram in the notice"
+          "Subtle": {
+            "Blue": {
+              "value": 120,
+              "type": "sizing",
+              "description": "The height and width of the pictogram in the notice"
+            },
+            "Green": {
+              "value": 120,
+              "type": "sizing",
+              "description": "The height and width of the pictogram in the notice"
+            },
+            "Red": {
+              "value": 120,
+              "type": "sizing",
+              "description": "The height and width of the pictogram in the notice"
+            },
+            "Yellow": {
+              "value": 120,
+              "type": "sizing",
+              "description": "The height and width of the pictogram in the notice"
+            }
           },
-          "Yellow": {
-            "value": 80,
-            "type": "sizing",
-            "description": "The height and width of the pictogram in the notice"
+          "Bold": {
+            "Blue": {
+              "value": 120,
+              "type": "sizing",
+              "description": "The height and width of the pictogram in the notice"
+            },
+            "Green": {
+              "value": 120,
+              "type": "sizing",
+              "description": "The height and width of the pictogram in the notice"
+            },
+            "Red": {
+              "value": 120,
+              "type": "sizing",
+              "description": "The height and width of the pictogram in the notice"
+            },
+            "Yellow": {
+              "value": 120,
+              "type": "sizing",
+              "description": "The height and width of the pictogram in the notice"
+            }
           }
         },
-        "Subtle": {
-          "Blue": {
-            "value": 80,
-            "type": "sizing",
-            "description": "The height and width of the pictogram in the notice"
+        "xl": {
+          "Neutral": {
+            "Blue": {
+              "value": 120,
+              "type": "sizing",
+              "description": "The height and width of the pictogram in the notice"
+            },
+            "Green": {
+              "value": 120,
+              "type": "sizing",
+              "description": "The height and width of the pictogram in the notice"
+            },
+            "Red": {
+              "value": 120,
+              "type": "sizing",
+              "description": "The height and width of the pictogram in the notice"
+            },
+            "Yellow": {
+              "value": 120,
+              "type": "sizing",
+              "description": "The height and width of the pictogram in the notice"
+            }
           },
-          "Green": {
-            "value": 80,
-            "type": "sizing",
-            "description": "The height and width of the pictogram in the notice"
+          "Neutral inverse": {
+            "Blue": {
+              "value": 120,
+              "type": "sizing",
+              "description": "The height and width of the pictogram in the notice"
+            },
+            "Green": {
+              "value": 120,
+              "type": "sizing",
+              "description": "The height and width of the pictogram in the notice"
+            },
+            "Red": {
+              "value": 120,
+              "type": "sizing",
+              "description": "The height and width of the pictogram in the notice"
+            },
+            "Yellow": {
+              "value": 120,
+              "type": "sizing",
+              "description": "The height and width of the pictogram in the notice"
+            }
           },
-          "Red": {
-            "value": 80,
-            "type": "sizing",
-            "description": "The height and width of the pictogram in the notice"
+          "Subtle": {
+            "Blue": {
+              "value": 120,
+              "type": "sizing",
+              "description": "The height and width of the pictogram in the notice"
+            },
+            "Green": {
+              "value": 120,
+              "type": "sizing",
+              "description": "The height and width of the pictogram in the notice"
+            },
+            "Red": {
+              "value": 120,
+              "type": "sizing",
+              "description": "The height and width of the pictogram in the notice"
+            },
+            "Yellow": {
+              "value": 120,
+              "type": "sizing",
+              "description": "The height and width of the pictogram in the notice"
+            }
           },
-          "Yellow": {
-            "value": 80,
-            "type": "sizing",
-            "description": "The height and width of the pictogram in the notice"
-          }
-        },
-        "Bold": {
-          "Blue": {
-            "value": 80,
-            "type": "sizing",
-            "description": "The height and width of the pictogram in the notice"
-          },
-          "Green": {
-            "value": 80,
-            "type": "sizing",
-            "description": "The height and width of the pictogram in the notice"
-          },
-          "Red": {
-            "value": 80,
-            "type": "sizing",
-            "description": "The height and width of the pictogram in the notice"
-          },
-          "Yellow": {
-            "value": 80,
-            "type": "sizing",
-            "description": "The height and width of the pictogram in the notice"
+          "Bold": {
+            "Blue": {
+              "value": 120,
+              "type": "sizing",
+              "description": "The height and width of the pictogram in the notice"
+            },
+            "Green": {
+              "value": 120,
+              "type": "sizing",
+              "description": "The height and width of the pictogram in the notice"
+            },
+            "Red": {
+              "value": 120,
+              "type": "sizing",
+              "description": "The height and width of the pictogram in the notice"
+            },
+            "Yellow": {
+              "value": 120,
+              "type": "sizing",
+              "description": "The height and width of the pictogram in the notice"
+            }
           }
         }
       }
