@@ -5,11 +5,13 @@
 :root {
 
   /* SM tokens */
+  --asset-size-lg-responsive-sm: 5rem;
   --asset-size-lg-sm: 5rem;
   --asset-size-md-sm: 2rem;
   --asset-size-sm-sm: 1.5rem;
-  --asset-size-xl-sm: 10rem;
+  --asset-size-xl-sm: 7.5rem;
   --asset-size-xs-sm: 1rem;
+  --asset-size-xxl-sm: 10rem;
   --border-radius-1-sm: 0.25rem;
   --border-radius-10-sm: 5.25rem;
   --border-radius-2-sm: 0.5rem;
@@ -20,7 +22,7 @@
   --border-radius-7-sm: 2.25rem;
   --border-radius-8-sm: 3rem;
   --border-radius-9-sm: 3.75rem;
-  --border-width-lg-sm: 0.25rem;
+  --border-width-lg-sm: 0.1875rem;
   --border-width-md-sm: 0.125rem;
   --border-width-sm-sm: 0.09375rem;
   --border-width-xs-sm: 0.0625rem;
@@ -82,10 +84,12 @@
 
   /* MD tokens */
   --asset-size-lg-md: 5rem;
+  --asset-size-lg-responsive-md: 5rem;
   --asset-size-md-md: 2rem;
   --asset-size-sm-md: 1.5rem;
-  --asset-size-xl-md: 10rem;
+  --asset-size-xl-md: 7.5rem;
   --asset-size-xs-md: 1rem;
+  --asset-size-xxl-md: 10rem;
   --border-radius-1-md: 0.25rem;
   --border-radius-10-md: 5.25rem;
   --border-radius-2-md: 0.5rem;
@@ -96,7 +100,7 @@
   --border-radius-7-md: 2.25rem;
   --border-radius-8-md: 3rem;
   --border-radius-9-md: 3.75rem;
-  --border-width-lg-md: 0.25rem;
+  --border-width-lg-md: 0.1875rem;
   --border-width-md-md: 0.125rem;
   --border-width-sm-md: 0.09375rem;
   --border-width-xs-md: 0.0625rem;
@@ -157,11 +161,13 @@
   --visibility-show-at-sm-md: true;
 
   /* LG tokens */
-  --asset-size-lg-lg: 7.5rem;
+  --asset-size-lg-lg: 5rem;
+  --asset-size-lg-responsive-lg: 7.5rem;
   --asset-size-md-lg: 2rem;
   --asset-size-sm-lg: 1.5rem;
-  --asset-size-xl-lg: 10rem;
+  --asset-size-xl-lg: 7.5rem;
   --asset-size-xs-lg: 1rem;
+  --asset-size-xxl-lg: 10rem;
   --border-radius-1-lg: 0.25rem;
   --border-radius-10-lg: 9.75rem;
   --border-radius-2-lg: 0.5rem;
@@ -172,7 +178,7 @@
   --border-radius-7-lg: 3rem;
   --border-radius-8-lg: 4.5rem;
   --border-radius-9-lg: 6.5rem;
-  --border-width-lg-lg: 0.25rem;
+  --border-width-lg-lg: 0.1875rem;
   --border-width-md-lg: 0.125rem;
   --border-width-sm-lg: 0.09375rem;
   --border-width-xs-lg: 0.0625rem;
@@ -233,11 +239,13 @@
   --visibility-show-at-sm-lg: true;
 
   /* XL tokens */
-  --asset-size-lg-xl: 7.5rem;
+  --asset-size-lg-responsive-xl: 7.5rem;
+  --asset-size-lg-xl: 5rem;
   --asset-size-md-xl: 2rem;
   --asset-size-sm-xl: 1.5rem;
-  --asset-size-xl-xl: 10rem;
+  --asset-size-xl-xl: 7.5rem;
   --asset-size-xs-xl: 1rem;
+  --asset-size-xxl-xl: 10rem;
   --border-radius-1-xl: 0.25rem;
   --border-radius-10-xl: 9.75rem;
   --border-radius-2-xl: 0.5rem;
@@ -248,7 +256,7 @@
   --border-radius-7-xl: 3rem;
   --border-radius-8-xl: 4.5rem;
   --border-radius-9-xl: 6.5rem;
-  --border-width-lg-xl: 0.25rem;
+  --border-width-lg-xl: 0.1875rem;
   --border-width-md-xl: 0.125rem;
   --border-width-sm-xl: 0.09375rem;
   --border-width-xs-xl: 0.0625rem;
@@ -309,11 +317,13 @@
   --visibility-show-at-xl-xl: true;
 
   /* XXL tokens */
-  --asset-size-lg-xxl: 10rem;
+  --asset-size-lg-responsive-xxl: 10rem;
+  --asset-size-lg-xxl: 5rem;
   --asset-size-md-xxl: 2rem;
   --asset-size-sm-xxl: 1.5rem;
-  --asset-size-xl-xxl: 10rem;
+  --asset-size-xl-xxl: 7.5rem;
   --asset-size-xs-xxl: 1rem;
+  --asset-size-xxl-xxl: 10rem;
   --border-radius-1-xxl: 0.25rem;
   --border-radius-10-xxl: 9.75rem;
   --border-radius-2-xxl: 0.5rem;
@@ -324,7 +334,7 @@
   --border-radius-7-xxl: 3rem;
   --border-radius-8-xxl: 4.5rem;
   --border-radius-9-xxl: 6.5rem;
-  --border-width-lg-xxl: 0.25rem;
+  --border-width-lg-xxl: 0.1875rem;
   --border-width-md-xxl: 0.125rem;
   --border-width-sm-xxl: 0.09375rem;
   --border-width-xs-xxl: 0.0625rem;

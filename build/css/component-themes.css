@@ -268,8 +268,9 @@
   --content-pictogram-fill: #42aeea;
   --content-pictogram-has-fill: true;
   --content-pictogram-outline: #1d1d1b;
-  --content-pictogram-size-lg: 5rem;
-  --content-pictogram-size-md: 2rem;
+  --content-pictogram-size-lg: 7.5rem;
+  --content-pictogram-size-md: 5rem;
+  --content-pictogram-size-responsive: 5rem;
   --content-pictogram-size-xl: 10rem;
   --content-seperator-border-width-sm: 0.09375rem;
   --content-seperator-border-width-xs: 0.0625rem;
@@ -593,6 +594,7 @@
   --list-item-positive-colour: #00633d;
   --notice-content-gap: 1rem;
   --notice-gap: 1.75rem;
+  --notice-pictogram-size: 5rem;
   --notice-pictogram-size: 5rem;
   --notification-badge-background-colour: #005dba;
   --notification-badge-border-radius: 1rem;
@@ -1023,8 +1025,9 @@
   --content-indicator-progress-size: 0.25rem;
   --content-pictogram-fill: #aee1f7;
   --content-pictogram-outline: #1d1d1b;
-  --content-pictogram-size-lg: 5rem;
-  --content-pictogram-size-md: 2rem;
+  --content-pictogram-size-lg: 7.5rem;
+  --content-pictogram-size-md: 5rem;
+  --content-pictogram-size-responsive: 5rem;
   --content-pictogram-size-xl: 10rem;
   --content-seperator-border-width-sm: 0.09375rem;
   --content-seperator-border-width-xs: 0.0625rem;
@@ -1348,6 +1351,7 @@
   --list-item-positive-colour: #1d1d1b;
   --notice-content-gap: 1rem;
   --notice-gap: 1.75rem;
+  --notice-pictogram-size: 5rem;
   --notice-pictogram-size: 5rem;
   --notification-badge-background-colour: #005dba;
   --notification-badge-border-radius: 1rem;
@@ -1778,8 +1782,9 @@
   --content-indicator-progress-size: 0.25rem;
   --content-pictogram-fill: #005dba;
   --content-pictogram-outline: #f4f4f4;
-  --content-pictogram-size-lg: 5rem;
-  --content-pictogram-size-md: 2rem;
+  --content-pictogram-size-lg: 7.5rem;
+  --content-pictogram-size-md: 5rem;
+  --content-pictogram-size-responsive: 5rem;
   --content-pictogram-size-xl: 10rem;
   --content-seperator-border-width-sm: 0.09375rem;
   --content-seperator-border-width-xs: 0.0625rem;
@@ -2103,6 +2108,7 @@
   --list-item-positive-colour: #ffffff;
   --notice-content-gap: 1rem;
   --notice-gap: 1.75rem;
+  --notice-pictogram-size: 5rem;
   --notice-pictogram-size: 5rem;
   --notification-badge-background-colour: #ffffff;
   --notification-badge-border-radius: 1rem;
@@ -2533,8 +2539,9 @@
   --content-pictogram-fill: #42aeea;
   --content-pictogram-has-fill: true;
   --content-pictogram-outline: #1d1d1b;
-  --content-pictogram-size-lg: 5rem;
-  --content-pictogram-size-md: 2rem;
+  --content-pictogram-size-lg: 7.5rem;
+  --content-pictogram-size-md: 5rem;
+  --content-pictogram-size-responsive: 5rem;
   --content-pictogram-size-xl: 10rem;
   --content-seperator-border-width-sm: 0.09375rem;
   --content-seperator-border-width-xs: 0.0625rem;
@@ -2858,6 +2865,7 @@
   --list-item-positive-colour: #00633d;
   --notice-content-gap: 1rem;
   --notice-gap: 1.75rem;
+  --notice-pictogram-size: 5rem;
   --notice-pictogram-size: 5rem;
   --notification-badge-background-colour: #00633d;
   --notification-badge-border-radius: 1rem;
@@ -3288,8 +3296,9 @@
   --content-pictogram-fill: #42aeea;
   --content-pictogram-has-fill: true;
   --content-pictogram-outline: #1d1d1b;
-  --content-pictogram-size-lg: 5rem;
-  --content-pictogram-size-md: 2rem;
+  --content-pictogram-size-lg: 7.5rem;
+  --content-pictogram-size-md: 5rem;
+  --content-pictogram-size-responsive: 5rem;
   --content-pictogram-size-xl: 10rem;
   --content-seperator-border-width-sm: 0.09375rem;
   --content-seperator-border-width-xs: 0.0625rem;
@@ -3613,6 +3622,7 @@
   --list-item-positive-colour: #00633d;
   --notice-content-gap: 1rem;
   --notice-gap: 1.75rem;
+  --notice-pictogram-size: 5rem;
   --notice-pictogram-size: 5rem;
   --notification-badge-background-colour: #00633d;
   --notification-badge-border-radius: 1rem;
@@ -4042,8 +4052,9 @@
   --content-indicator-progress-size: 0.25rem;
   --content-pictogram-fill: #aee1f7;
   --content-pictogram-outline: #1d1d1b;
-  --content-pictogram-size-lg: 5rem;
-  --content-pictogram-size-md: 2rem;
+  --content-pictogram-size-lg: 7.5rem;
+  --content-pictogram-size-md: 5rem;
+  --content-pictogram-size-responsive: 5rem;
   --content-pictogram-size-xl: 10rem;
   --content-seperator-border-width-sm: 0.09375rem;
   --content-seperator-border-width-xs: 0.0625rem;
@@ -4367,6 +4378,7 @@
   --list-item-positive-colour: #1d1d1b;
   --notice-content-gap: 1rem;
   --notice-gap: 1.75rem;
+  --notice-pictogram-size: 5rem;
   --notice-pictogram-size: 5rem;
   --notification-badge-background-colour: #00633d;
   --notification-badge-border-radius: 1rem;
@@ -4796,8 +4808,9 @@
   --content-indicator-progress-size: 0.25rem;
   --content-pictogram-fill: #005dba;
   --content-pictogram-outline: #f4f4f4;
-  --content-pictogram-size-lg: 5rem;
-  --content-pictogram-size-md: 2rem;
+  --content-pictogram-size-lg: 7.5rem;
+  --content-pictogram-size-md: 5rem;
+  --content-pictogram-size-responsive: 5rem;
   --content-pictogram-size-xl: 10rem;
   --content-seperator-border-width-sm: 0.09375rem;
   --content-seperator-border-width-xs: 0.0625rem;
@@ -5121,6 +5134,7 @@
   --list-item-positive-colour: #ffffff;
   --notice-content-gap: 1rem;
   --notice-gap: 1.75rem;
+  --notice-pictogram-size: 5rem;
   --notice-pictogram-size: 5rem;
   --notification-badge-background-colour: #ffffff;
   --notification-badge-border-radius: 1rem;
@@ -5551,8 +5565,9 @@
   --content-pictogram-fill: #42aeea;
   --content-pictogram-has-fill: true;
   --content-pictogram-outline: #1d1d1b;
-  --content-pictogram-size-lg: 5rem;
-  --content-pictogram-size-md: 2rem;
+  --content-pictogram-size-lg: 7.5rem;
+  --content-pictogram-size-md: 5rem;
+  --content-pictogram-size-responsive: 5rem;
   --content-pictogram-size-xl: 10rem;
   --content-seperator-border-width-sm: 0.09375rem;
   --content-seperator-border-width-xs: 0.0625rem;
@@ -5876,6 +5891,7 @@
   --list-item-positive-colour: #00633d;
   --notice-content-gap: 1rem;
   --notice-gap: 1.75rem;
+  --notice-pictogram-size: 5rem;
   --notice-pictogram-size: 5rem;
   --notification-badge-background-colour: #c50b30;
   --notification-badge-border-radius: 1rem;
@@ -6306,8 +6322,9 @@
   --content-pictogram-fill: #42aeea;
   --content-pictogram-has-fill: true;
   --content-pictogram-outline: #1d1d1b;
-  --content-pictogram-size-lg: 5rem;
-  --content-pictogram-size-md: 2rem;
+  --content-pictogram-size-lg: 7.5rem;
+  --content-pictogram-size-md: 5rem;
+  --content-pictogram-size-responsive: 5rem;
   --content-pictogram-size-xl: 10rem;
   --content-seperator-border-width-sm: 0.09375rem;
   --content-seperator-border-width-xs: 0.0625rem;
@@ -6631,6 +6648,7 @@
   --list-item-positive-colour: #00633d;
   --notice-content-gap: 1rem;
   --notice-gap: 1.75rem;
+  --notice-pictogram-size: 5rem;
   --notice-pictogram-size: 5rem;
   --notification-badge-background-colour: #c50b30;
   --notification-badge-border-radius: 1rem;
@@ -7060,8 +7078,9 @@
   --content-indicator-progress-size: 0.25rem;
   --content-pictogram-fill: #aee1f7;
   --content-pictogram-outline: #1d1d1b;
-  --content-pictogram-size-lg: 5rem;
-  --content-pictogram-size-md: 2rem;
+  --content-pictogram-size-lg: 7.5rem;
+  --content-pictogram-size-md: 5rem;
+  --content-pictogram-size-responsive: 5rem;
   --content-pictogram-size-xl: 10rem;
   --content-seperator-border-width-sm: 0.09375rem;
   --content-seperator-border-width-xs: 0.0625rem;
@@ -7385,6 +7404,7 @@
   --list-item-positive-colour: #1d1d1b;
   --notice-content-gap: 1rem;
   --notice-gap: 1.75rem;
+  --notice-pictogram-size: 5rem;
   --notice-pictogram-size: 5rem;
   --notification-badge-background-colour: #c50b30;
   --notification-badge-border-radius: 1rem;
@@ -7814,8 +7834,9 @@
   --content-indicator-progress-size: 0.25rem;
   --content-pictogram-fill: #005dba;
   --content-pictogram-outline: #f4f4f4;
-  --content-pictogram-size-lg: 5rem;
-  --content-pictogram-size-md: 2rem;
+  --content-pictogram-size-lg: 7.5rem;
+  --content-pictogram-size-md: 5rem;
+  --content-pictogram-size-responsive: 5rem;
   --content-pictogram-size-xl: 10rem;
   --content-seperator-border-width-sm: 0.09375rem;
   --content-seperator-border-width-xs: 0.0625rem;
@@ -8139,6 +8160,7 @@
   --list-item-positive-colour: #ffffff;
   --notice-content-gap: 1rem;
   --notice-gap: 1.75rem;
+  --notice-pictogram-size: 5rem;
   --notice-pictogram-size: 5rem;
   --notification-badge-background-colour: #ffffff;
   --notification-badge-border-radius: 1rem;
@@ -8569,8 +8591,9 @@
   --content-pictogram-fill: #42aeea;
   --content-pictogram-has-fill: true;
   --content-pictogram-outline: #1d1d1b;
-  --content-pictogram-size-lg: 5rem;
-  --content-pictogram-size-md: 2rem;
+  --content-pictogram-size-lg: 7.5rem;
+  --content-pictogram-size-md: 5rem;
+  --content-pictogram-size-responsive: 5rem;
   --content-pictogram-size-xl: 10rem;
   --content-seperator-border-width-sm: 0.09375rem;
   --content-seperator-border-width-xs: 0.0625rem;
@@ -8894,6 +8917,7 @@
   --list-item-positive-colour: #00633d;
   --notice-content-gap: 1rem;
   --notice-gap: 1.75rem;
+  --notice-pictogram-size: 5rem;
   --notice-pictogram-size: 5rem;
   --notification-badge-background-colour: #ffb600;
   --notification-badge-border-radius: 1rem;
@@ -9324,8 +9348,9 @@
   --content-pictogram-fill: #42aeea;
   --content-pictogram-has-fill: true;
   --content-pictogram-outline: #1d1d1b;
-  --content-pictogram-size-lg: 5rem;
-  --content-pictogram-size-md: 2rem;
+  --content-pictogram-size-lg: 7.5rem;
+  --content-pictogram-size-md: 5rem;
+  --content-pictogram-size-responsive: 5rem;
   --content-pictogram-size-xl: 10rem;
   --content-seperator-border-width-sm: 0.09375rem;
   --content-seperator-border-width-xs: 0.0625rem;
@@ -9649,6 +9674,7 @@
   --list-item-positive-colour: #00633d;
   --notice-content-gap: 1rem;
   --notice-gap: 1.75rem;
+  --notice-pictogram-size: 5rem;
   --notice-pictogram-size: 5rem;
   --notification-badge-background-colour: #ffb600;
   --notification-badge-border-radius: 1rem;
@@ -10078,8 +10104,9 @@
   --content-indicator-progress-size: 0.25rem;
   --content-pictogram-fill: #aee1f7;
   --content-pictogram-outline: #1d1d1b;
-  --content-pictogram-size-lg: 5rem;
-  --content-pictogram-size-md: 2rem;
+  --content-pictogram-size-lg: 7.5rem;
+  --content-pictogram-size-md: 5rem;
+  --content-pictogram-size-responsive: 5rem;
   --content-pictogram-size-xl: 10rem;
   --content-seperator-border-width-sm: 0.09375rem;
   --content-seperator-border-width-xs: 0.0625rem;
@@ -10403,6 +10430,7 @@
   --list-item-positive-colour: #1d1d1b;
   --notice-content-gap: 1rem;
   --notice-gap: 1.75rem;
+  --notice-pictogram-size: 5rem;
   --notice-pictogram-size: 5rem;
   --notification-badge-background-colour: #ffb600;
   --notification-badge-border-radius: 1rem;
@@ -10832,8 +10860,9 @@
   --content-indicator-progress-size: 0.25rem;
   --content-pictogram-fill: #005dba;
   --content-pictogram-outline: #1d1d1b;
-  --content-pictogram-size-lg: 5rem;
-  --content-pictogram-size-md: 2rem;
+  --content-pictogram-size-lg: 7.5rem;
+  --content-pictogram-size-md: 5rem;
+  --content-pictogram-size-responsive: 5rem;
   --content-pictogram-size-xl: 10rem;
   --content-seperator-border-width-sm: 0.09375rem;
   --content-seperator-border-width-xs: 0.0625rem;
@@ -11157,6 +11186,7 @@
   --list-item-positive-colour: #1d1d1b;
   --notice-content-gap: 1rem;
   --notice-gap: 1.75rem;
+  --notice-pictogram-size: 5rem;
   --notice-pictogram-size: 5rem;
   --notification-badge-background-colour: #ffffff;
   --notification-badge-border-radius: 1rem;
