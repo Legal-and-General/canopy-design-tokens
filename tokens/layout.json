@@ -1,6 +1,6 @@
 {
   "$description": "Design tokens from Layout collection",
-  "$timestamp": "2026-09-09T08:24:15.885Z",
+  "$timestamp": "2026-09-17T14:43:40.640Z",
   "page": {
     "cols": {
       "SM": {
@@ -503,27 +503,27 @@
     },
     "lg": {
       "SM": {
-        "value": 4,
+        "value": 3,
         "type": "borderWidth",
         "description": "use for thick border widths"
       },
       "MD": {
-        "value": 4,
+        "value": 3,
         "type": "borderWidth",
         "description": "use for thick border widths"
       },
       "LG": {
-        "value": 4,
+        "value": 3,
         "type": "borderWidth",
         "description": "use for thick border widths"
       },
       "XL": {
-        "value": 4,
+        "value": 3,
         "type": "borderWidth",
         "description": "use for thick border widths"
       },
       "XXL": {
-        "value": 4,
+        "value": 3,
         "type": "borderWidth",
         "description": "use for thick border widths"
       }
@@ -1860,6 +1860,28 @@
           "type": "sizing"
         },
         "LG": {
+          "value": 80,
+          "type": "sizing"
+        },
+        "XL": {
+          "value": 80,
+          "type": "sizing"
+        },
+        "XXL": {
+          "value": 80,
+          "type": "sizing"
+        }
+      },
+      "xl": {
+        "SM": {
+          "value": 120,
+          "type": "sizing"
+        },
+        "MD": {
+          "value": 120,
+          "type": "sizing"
+        },
+        "LG": {
           "value": 120,
           "type": "sizing"
         },
@@ -1868,11 +1890,11 @@
           "type": "sizing"
         },
         "XXL": {
-          "value": 160,
+          "value": 120,
           "type": "sizing"
         }
       },
-      "xl": {
+      "xxl": {
         "SM": {
           "value": 160,
           "type": "sizing"
@@ -1887,6 +1909,28 @@
         },
         "XL": {
           "value": 160,
+          "type": "sizing"
+        },
+        "XXL": {
+          "value": 160,
+          "type": "sizing"
+        }
+      },
+      "lg-responsive": {
+        "SM": {
+          "value": 80,
+          "type": "sizing"
+        },
+        "MD": {
+          "value": 80,
+          "type": "sizing"
+        },
+        "LG": {
+          "value": 120,
+          "type": "sizing"
+        },
+        "XL": {
+          "value": 120,
           "type": "sizing"
         },
         "XXL": {
