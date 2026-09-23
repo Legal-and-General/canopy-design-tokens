@@ -1,0 +1,2456 @@
+/**
+ * Do not edit directly, this file was auto-generated.
+ */
+
+:root {
+
+  /**
+   * @tokens Colour
+   * @presenter Color
+   */
+  --accordion-background-colour: #ffffff; /* The background colour of the accordion */
+  --accordion-border-colour: #d3d3d3;
+  --accordion-header-focus-indicator-colour: #1d1d1b; /* The colour of the accordion focus indicator */
+  --add-on-button-active-colour: #1d1d1b; /* The colour of the add-on button in active state */
+  --add-on-button-disabled-colour: #d3d3d3; /* The colour of the add-on button in disabled state */
+  --add-on-button-focus-border-colour: #1d1d1b; /* The border colour of the add-on button in rest state */
+  --add-on-button-focus-colour: #858686; /* The colour of the add-on button in focus state */
+  --add-on-button-hover-colour: #4d4f4f; /* The colour of the add-on button in hover state */
+  --add-on-button-rest-colour: #858686; /* The colour of the add-on button in rest state */
+  --banner-background-colour: #4d4f4f; /* Banner background colour */
+  --banner-icon-colour: #ffffff; /* Banner icon colour */
+  --banner-text-colour: #ffffff; /* Banner text colour */
+  --body-bold-background-colour: #005dba;
+  --body-default-background-colour: #f4f4f4; /* The default page background colour */
+  --body-regal-background-colour: #001d6e;
+  --body-subtle-background-colour: #42aeea;
+  --breadcrumb-border-colour: #d3d3d3; /* The border colour of the page-level breadcrumb */
+  --button-primary-active-background-colour: #000039; /* Primary button active background */
+  --button-primary-active-border-colour: #000039; /* Primary button active border colour */
+  --button-primary-active-colour: #ffffff; /* Primary button active text and icon colour */
+  --button-primary-disabled-background-colour: #d3d3d3; /* Primary button disabled background */
+  --button-primary-disabled-border-colour: #d3d3d3; /* Primary button disabled border colour */
+  --button-primary-disabled-colour: #7a7b7b; /* Primary button disabled text and icon colour */
+  --button-primary-focus-background-colour: #005dba; /* Primary button focus background */
+  --button-primary-focus-colour: #ffffff; /* Primary button focus text and icon colour */
+  --button-primary-hover-background-colour: #001d6e; /* Primary button hover background */
+  --button-primary-hover-border-colour: #001d6e; /* Primary button hover border colour */
+  --button-primary-hover-colour: #ffffff; /* Primary button hover text and icon colour */
+  --button-primary-rest-background-colour: #005dba; /* Primary button default background */
+  --button-primary-rest-border-colour: #005dba; /* Primary button default border colour */
+  --button-primary-rest-colour: #ffffff; /* Primary button default text and icon colour */
+  --button-secondary-active-background-colour: #000039; /* Secondary button active background */
+  --button-secondary-active-border-colour: #000039; /* Secondary button active border colour */
+  --button-secondary-active-colour: #ffffff; /* Secondary button active text and icon colour */
+  --button-secondary-disabled-background-colour: #d3d3d3; /* Secondary button disabled background */
+  --button-secondary-disabled-border-colour: #d3d3d3; /* Secondary button disabled border colou */
+  --button-secondary-disabled-colour: #7a7b7b; /* Secondary button disabled text and icon colour */
+  --button-secondary-focus-background-colour: #ffffff; /* Secondary button focus background */
+  --button-secondary-focus-border-colour: #1d1d1b; /* Secondary button focus border colour */
+  --button-secondary-focus-colour: #1d1d1b; /* Secondary button focus text and icon colour */
+  --button-secondary-hover-background-colour: #001d6e; /* Secondary button hover background */
+  --button-secondary-hover-border-colour: #001d6e; /* Secondary button hover border colour */
+  --button-secondary-hover-colour: #ffffff; /* Secondary button hover text and icon colour */
+  --button-secondary-rest-background-colour: #ffffff; /* Secondary button default background */
+  --button-secondary-rest-border-colour: #1d1d1b; /* Secondary button default border colour */
+  --button-secondary-rest-colour: #1d1d1b; /* Secondary button default text and icon colour */
+  --button-status-active-background-colour: #1d1d1b; /* Status button active background */
+  --button-status-active-border-colour: #1d1d1b; /* Status button active border colour */
+  --button-status-active-colour: #ffffff; /* Status button active text and icon colour */
+  --button-status-disabled-background-colour: #bcbdbd; /* Status button disabled background */
+  --button-status-disabled-border-colour: #bcbdbd; /* Status button disabled border colour */
+  --button-status-disabled-colour: #858686; /* Status button disabled text and icon colour */
+  --button-status-focus-background-colour: #4d4f4f; /* Status button focus background */
+  --button-status-focus-colour: #ffffff; /* Status button focus text and icon colour */
+  --button-status-hover-background-colour: #343634; /* Status button hover background */
+  --button-status-hover-border-colour: #343634; /* Status button hover border colour */
+  --button-status-hover-colour: #ffffff; /* Status button hover text and icon colour */
+  --button-status-rest-background-colour: #4d4f4f; /* Status button default background */
+  --button-status-rest-border-colour: #4d4f4f; /* Status button default border colour */
+  --button-status-rest-colour: #ffffff; /* Status button default text and icon colour */
+  --card-background-colour: #ffffff; /* Background colour of a card */
+  --card-border-colour: #d3d3d3; /* Border colour of a card */
+  --card-colour: #1d1d1b; /* Foreground colour of a card */
+  --card-interactive-active-background-colour: #005dba; /* Card header active state background colour */
+  --card-interactive-active-border-colour: #005dba; /* Card header active state border colour */
+  --card-interactive-active-colour: #ffffff; /* Card header active state foreground colour */
+  --card-interactive-focus-background-colour: #ffffff; /* Card header focus state background colour */
+  --card-interactive-focus-border-colour: #1d1d1b; /* Card header focus state border colour */
+  --card-interactive-focus-colour: #005dba; /* Card header focus state foreground colour */
+  --card-interactive-hover-background-colour: #aee1f7; /* Card header hover state background colour */
+  --card-interactive-hover-border-colour: #001d6e; /* Card header hover state border colour */
+  --card-interactive-hover-colour: #1d1d1b; /* Card header hover state foreground colour */
+  --card-interactive-rest-background-colour: #ffffff; /* Card header rest state background colour */
+  --card-interactive-rest-border-colour: #d3d3d3; /* Card header rest state border colour */
+  --card-interactive-rest-colour: #005dba; /* Card header rest state foreground colour */
+  --checkbox-common-colour: #1d1d1b; /* Checkbox button label colour */
+  --checkbox-disabled-control-background-colour: #f4f4f4; /* Background colour of the checkbox control in disabled state */
+  --checkbox-disabled-control-border-colour: #d3d3d3; /* Border colour of the checkbox control in disabled state */
+  --checkbox-disabled-indicator-background-colour: #d3d3d3; /* Colour of the checkbox indicator in disabled state */
+  --checkbox-disabled-indicator-colour: #d3d3d3; /* Colour of the checkbox indicator in disabled state */
+  --checkbox-disabled-label-colour: #a6a7a7; /* Colour of the checkbox label in disabled state */
+  --checkbox-error-control-background-colour: #ffffff; /* Background colour of the checkbox control in error state */
+  --checkbox-error-control-border-colour: #c50b30; /* Border colour of the checkbox control in error state */
+  --checkbox-error-indicator-colour: #c50b30; /* Colour of the checkbox indicator in error state */
+  --checkbox-focus-control-background-colour: #ffffff; /* Background colour of the checkbox control in focus state */
+  --checkbox-focus-control-border-colour: #1d1d1b; /* Border colour of the checkbox control in focus state */
+  --checkbox-focus-indicator-colour: #005dba; /* Colour of the checkbox indicator in focus state */
+  --checkbox-hover-control-background-colour: #ffffff; /* Background colour of the checkbox control in hover state */
+  --checkbox-hover-control-border-colour: #4d4f4f; /* Border colour of the checkbox control in hover state */
+  --checkbox-hover-indicator-colour: #001d6e; /* Colour of the checkbox indicator in hover state */
+  --checkbox-rest-control-background-colour: #ffffff; /* Background colour of the checkbox control in rest state */
+  --checkbox-rest-control-border-colour: #858686; /* Border colour of the checkbox control in rest state */
+  --checkbox-rest-indicator-colour: #005dba; /* Colour of the checkbox indicator in rest state */
+  --colour-blue-0: #ffffff;
+  --colour-blue-100: #d2effb;
+  --colour-blue-1000: #000039;
+  --colour-blue-200: #aee1f7; /* Light Blue */
+  --colour-blue-300: #76c8f1;
+  --colour-blue-400: #42aeea; /* Accent Blue */
+  --colour-blue-500: #1e84d2;
+  --colour-blue-600: #005dba; /* Breezy Blue */
+  --colour-blue-700: #003894;
+  --colour-blue-800: #001d6e; /* Regal Blue */
+  --colour-blue-900: #000a52;
+  --colour-border-colour-1: #42aeea; /* Use for borders / outlines */
+  --colour-border-colour-2: #001d6e; /* Use for borders / outlines */
+  --colour-border-mono-1: #ffffff; /* Use for borders / outlines. Switches colour on yellow theme. */
+  --colour-border-mono-2: #f4f4f4; /* Use for borders / outlines. Switches colour on yellow theme. */
+  --colour-border-mono-3: #d3d3d3; /* Use for borders / outlines */
+  --colour-border-mono-4: #858686; /* Use for borders / outlines */
+  --colour-border-mono-5: #4d4f4f; /* Use for borders / outlines */
+  --colour-border-mono-6: #1d1d1b; /* Use for borders / outlines */
+  --colour-brand-tint-1: #d2effb; /* Tints that can be used to pull brand colours into elements. Lowest numbers should always be lighter and run sequentially to darkest. */
+  --colour-brand-tint-2: #aee1f7; /* Tints that can be used to pull brand colours into elements. Lowest numbers should always be lighter and run sequentially to darkest. */
+  --colour-brand-tint-3: #42aeea; /* Tints that can be used to pull brand colours into elements. Lowest numbers should always be lighter and run sequentially to darkest. */
+  --colour-brand-tint-4: #005dba; /* Tints that can be used to pull brand colours into elements. Lowest numbers should always be lighter and run sequentially to darkest. */
+  --colour-brand-tint-5: #001d6e; /* Tints that can be used to pull brand colours into elements. Lowest numbers should always be lighter and run sequentially to darkest. */
+  --colour-brand-tint-6: #000a52; /* Tints that can be used to pull brand colours into elements. Lowest numbers should always be lighter and run sequentially to darkest. */
+  --colour-brand-tint-7: #000039; /* Tints that can be used to pull brand colours into elements. Lowest numbers should always be lighter and run sequentially to darkest. */
+  --colour-green-0: #ffffff;
+  --colour-green-100: #dff6eb;
+  --colour-green-1000: #011b1f;
+  --colour-green-200: #caeedd; /* Light Green */
+  --colour-green-300: #7fce9f;
+  --colour-green-400: #43af6e; /* Accent Green */
+  --colour-green-500: #1a8952;
+  --colour-green-600: #00633d; /* Plush Green */
+  --colour-green-700: #014a39;
+  --colour-green-800: #01312e; /* Regal Green */
+  --colour-green-900: #012425;
+  --colour-greyscale-0: #ffffff; /* White */
+  --colour-greyscale-100: #f4f4f4; /* Off White */
+  --colour-greyscale-1000: #000000; /* Black */
+  --colour-greyscale-200: #d3d3d3; /* Light Grey */
+  --colour-greyscale-300: #bcbdbd;
+  --colour-greyscale-400: #a6a7a7; /* Warm Grey */
+  --colour-greyscale-500: #858686;
+  --colour-greyscale-600: #7a7b7b; /* Taupe Grey */
+  --colour-greyscale-700: #4d4f4f; /* Dark Grey */
+  --colour-greyscale-800: #343634;
+  --colour-greyscale-900: #1d1d1b; /* Off Black */
+  --colour-interactive-default-1: #ffffff; /* Use to style foreground, background and border properties of interactive elements */
+  --colour-interactive-default-10: #1d1d1b; /* Use to style foreground, background and border properties of interactive elements */
+  --colour-interactive-default-2: #ffffff; /* Use to style foreground, background and border properties of interactive elements */
+  --colour-interactive-default-3: #d2effb; /* Use to style foreground, background and border properties of interactive elements */
+  --colour-interactive-default-4: #005dba; /* Use to style foreground, background and border properties of interactive elements */
+  --colour-interactive-default-5: #001d6e; /* Use to style foreground, background and border properties of interactive elements */
+  --colour-interactive-default-6: #001d6e; /* Use to style foreground, background and border properties of interactive elements */
+  --colour-interactive-default-7: #000039; /* Use to style foreground, background and border properties of interactive elements */
+  --colour-interactive-default-8: #000039; /* Use to style foreground, background and border properties of interactive elements */
+  --colour-interactive-default-9: #1d1d1b; /* Use to style foreground, background and border properties of interactive elements */
+  --colour-interactive-disabled-1: #f4f4f4;
+  --colour-interactive-disabled-2: #d3d3d3;
+  --colour-interactive-disabled-3: #7a7b7b;
+  --colour-interactive-disabled-4: #d2effb;
+  --colour-interactive-disabled-5: #76c8f1;
+  --colour-interactive-disabled-6: #1e84d2;
+  --colour-interactive-disabled-7: #1e84d2;
+  --colour-interactive-disabled-8: #001d6e;
+  --colour-interactive-reversed-1: #1d1d1b; /* Use to style foreground, background and border properties of reversed interactive elements */
+  --colour-interactive-reversed-2: #4d4f4f; /* Use to style foreground, background and border properties of reversed interactive elements */
+  --colour-interactive-reversed-3: #001d6e; /* Use to style foreground, background and border properties of reversed interactive elements */
+  --colour-interactive-reversed-4: #005dba; /* Use to style foreground, background and border properties of reversed interactive elements */
+  --colour-interactive-reversed-5: #42aeea; /* Use to style foreground, background and border properties of reversed interactive elements */
+  --colour-interactive-reversed-6: #aee1f7; /* Use to style foreground, background and border properties of reversed interactive elements */
+  --colour-interactive-reversed-7: #f4f4f4; /* Use to style foreground, background and border properties of reversed interactive elements */
+  --colour-interactive-reversed-8: #ffffff; /* Use to style foreground, background and border properties of reversed interactive elements */
+  --colour-interactive-reversed-9: #ffffff; /* Use to style foreground, background and border properties of reversed interactive elements */
+  --colour-red-0: #ffffff;
+  --colour-red-100: #ffd5d2;
+  --colour-red-1000: #480411;
+  --colour-red-200: #ffc2bd; /* Light Red */
+  --colour-red-300: #ff7e7e;
+  --colour-red-400: #ff3e51; /* Accent Red */
+  --colour-red-500: #e2223e;
+  --colour-red-600: #c50b30; /* Crimson Blaze */
+  --colour-red-700: #ad092a;
+  --colour-red-800: #940824; /* Regal Red */
+  --colour-red-900: #6e061b;
+  --colour-surface-fill-1: #ffffff; /* Use in containers and page backgrounds */
+  --colour-surface-fill-2: #f4f4f4; /* Use in containers and page backgrounds */
+  --colour-surface-fill-3: #aee1f7; /* Use in containers and page backgrounds */
+  --colour-surface-fill-4: #42aeea; /* Use sparingly for containers */
+  --colour-surface-fill-5: #005dba; /* Use sparingly on page backgrounds and containers */
+  --colour-surface-fill-6: #005dba; /* Use sparingly on page backgrounds and containers */
+  --colour-surface-fill-7: #001d6e; /* Use sparingly in containers and page backgrounds */
+  --colour-surface-has-fill: true; /* Controls whether or not a fill is visible */
+  --colour-text-interactive-1: #f4f4f4;
+  --colour-text-interactive-2: #005dba;
+  --colour-text-interactive-3: #001d6e;
+  --colour-text-interactive-4: #000a52;
+  --colour-text-interactive-5: #000039; /* Use to style interactive text such as links */
+  --colour-text-interactive-6: #000000; /* Use to style interactive text such as links */
+  --colour-text-static-1: #1d1d1b; /* Text colour for neutral and subtle backgrounds */
+  --colour-text-static-2: #4d4f4f; /* Text colour for neutral backgrounds */
+  --colour-text-static-3: #001d6e; /* Text colour for subtle backgrounds */
+  --colour-text-static-4: #d2effb; /* Text colour for bold backgrounds */
+  --colour-text-static-5: #ffffff; /* Text colour for bold backgrounds */
+  --colour-yellow-0: #ffffff;
+  --colour-yellow-100: #fffbdc;
+  --colour-yellow-1000: #572722;
+  --colour-yellow-200: #fff9c7; /* Light Yellow */
+  --colour-yellow-300: #fff298;
+  --colour-yellow-400: #ffe969; /* Accent Yellow */
+  --colour-yellow-500: #ffd335;
+  --colour-yellow-600: #ffb600; /* Golden Sun */
+  --colour-yellow-700: #e48616;
+  --colour-yellow-800: #c86426; /* Regal Yellow */
+  --colour-yellow-900: #904029;
+  --container-default-accent-1: #42aeea; /* Complementary colours to be used to give a pop of colour to containers */
+  --container-default-accent-2: #005dba; /* Complementary colours to be used to give a pop of colour to containers */
+  --container-default-background-colour: #ffffff; /* Background colours for containers */
+  --container-default-background-colour-reversed: #f4f4f4; /* Background colours for containers */
+  --container-default-border-colour-1: #d3d3d3; /* Border colours for containers. Use for separators and borders, when required. */
+  --container-default-border-colour-2: #d3d3d3; /* Border colours for containers. Use for separators and borders, when required. */
+  --container-default-border-colour-3: #4d4f4f; /* Border colours for containers. Use for separators and borders, when required. */
+  --container-default-border-colour-4: #f4f4f4; /* Border colours for containers. Use for separators and borders, when required. */
+  --container-default-focus-indicator-colour: #1d1d1b; /* The colour of the focus indicator for containers */
+  --container-status-bold-background-colour: #4d4f4f; /* Use for background colours on info, success, warning and error containers */
+  --container-status-subtle-background-colour: #f4f4f4; /* Use for background colours on info, success, warning and error containers */
+  --content-area-background-colour: #ffffff; /* Content area background colour */
+  --content-area-border-colour: #d3d3d3; /* Content area border colour */
+  --content-area-colour: #1d1d1b; /* Content area foreground colour */
+  --content-icon-brand-primary-colour: #005dba; /* For setting the colour fill of icons to the primary brand colour */
+  --content-icon-negative-colour: #c50b30; /* For setting the colour fill of icons to the primary brand colour */
+  --content-icon-positive-colour: #00633d; /* For setting the colour fill of icons to the primary brand colour */
+  --content-indicator-bold-background-colour: #005dba;
+  --content-indicator-bold-colour: #ffffff;
+  --content-indicator-progress-background-colour: #42aeea;
+  --content-indicator-progress-colour: #001d6e;
+  --content-pictogram-fill: #42aeea; /* Use for pictogram fills */
+  --content-pictogram-outline: #1d1d1b; /* Use for pictogram outlines */
+  --content-pictogram-status-fill: #d3d3d3; /* Use for pictogram fills */
+  --content-seperator-colour: #d3d3d3;
+  --content-status-bold-colour: #ffffff; /* Use to fill graphic elements with a status colour on bold backgrounds */
+  --content-status-subtle-colour: #1d1d1b; /* Use to fill graphic elements with a status colour on subtle backgrounds */
+  --data-point-label-colour: #4d4f4f; /* The label text colour */
+  --data-point-value-colour: #1d1d1b; /* The value text colour */
+  --details-focus-indicator-colour: #1d1d1b; /* Details component focus indicator colour */
+  --details-status-background-colour: #f4f4f4; /* Details component background colour */
+  --details-status-icon-colour: #1d1d1b; /* Details component icon colour */
+  --details-status-text-colour: #1d1d1b; /* Details component text colour */
+  --filter-button-active-background-colour: #001d6e; /* Filter button active state background colour */
+  --filter-button-active-border-colour: #001d6e; /* Filter button active state border colour */
+  --filter-button-active-colour: #ffffff; /* Filter button active state text and icon colour */
+  --filter-button-disabled-background-colour: #f4f4f4; /* Filter button default state background colour */
+  --filter-button-disabled-border-colour: #d3d3d3; /* Filter button default state border colour */
+  --filter-button-disabled-colour: #d3d3d3; /* Filter button default state text and icon colour */
+  --filter-button-focus-background-colour: #aee1f7; /* Filter button focus state background colour */
+  --filter-button-focus-border-colour: #001d6e; /* Filter button focus state border colour */
+  --filter-button-focus-colour: #001d6e; /* Filter button focus state text and icon colour */
+  --filter-button-hover-background-colour: #005dba; /* Filter button hover state background colour */
+  --filter-button-hover-border-colour: #005dba; /* Filter button hover state border colour */
+  --filter-button-hover-colour: #ffffff; /* Filter button hover state text and icon colour */
+  --filter-button-rest-background-colour: #aee1f7; /* Filter button default state background colour */
+  --filter-button-rest-border-colour: #001d6e; /* Filter button default state border colour */
+  --filter-button-rest-colour: #001d6e; /* Filter button default state text and icon colour */
+  --footer-background-colour: #ffffff; /* Footer background colour */
+  --footer-border-colour: #d3d3d3; /* Footer borders and separators colour */
+  --header-button-active-colour: #001d6e; /* Hover state text colour of the nav button */
+  --header-button-active-hover-indicator: #001d6e; /* Hover state hover indicator colour of the nav button */
+  --header-button-expanded-background-colour: #005dba; /* Active state background colour of the nav button */
+  --header-button-expanded-colour: #ffffff; /* Active state text colour of the nav button */
+  --header-button-expanded-hover-indicator: #005dba; /* Active state hover indicator colour of the nav button */
+  --header-button-focus-border-colour: #ffffff; /* Focus state border colour of the nav button */
+  --header-button-focus-colour: #1d1d1b; /* Focus state text colour of the nav button */
+  --header-button-hover-colour: #1d1d1b; /* Hover state text colour of the nav button */
+  --header-button-hover-hover-indicator: #005dba; /* Hover state hover indicator colour of the nav button */
+  --header-button-rest-colour: #1d1d1b; /* Rest state hover text colour of the nav button */
+  --header-button-rest-hover-indicator: #d3d3d3; /* Rest state hover indicator colour of the nav button */
+  --header-container-background-colour: #ffffff; /* Background colour of the nav container */
+  --inline-message-background-colour: #f4f4f4; /* Inline message background colour */
+  --inline-message-icon-colour: #1d1d1b; /* Inline message icon colour */
+  --inline-message-text-colour: #1d1d1b; /* Inline message text colour */
+  --input-disabled-border-colour: #d3d3d3;
+  --input-disabled-colour: #a6a7a7;
+  --input-disabled-indicator-colour: #d3d3d3; /* For inputs that can be selected or deselected, use this colour as the indicator fill for the disabled state */
+  --input-disabled-neutral-background-colour: #f4f4f4;
+  --input-disabled-neutral-reverse-background-colour: #f4f4f4;
+  --input-error-border-colour: #c50b30;
+  --input-error-colour: #1d1d1b;
+  --input-error-indicator-colour: #c50b30; /* For inputs that can be selected or deselected, use this colour as the indicator fill for the error state */
+  --input-error-neutral-background-colour: #ffffff;
+  --input-error-neutral-reverse-background-colour: #f4f4f4;
+  --input-focus-border-colour: #1d1d1b;
+  --input-focus-colour: #1d1d1b;
+  --input-focus-indicator-colour: #005dba; /* For inputs that can be selected or deselected, use this colour as the indicator fill for the focus state */
+  --input-focus-neutral-background-colour: #ffffff;
+  --input-focus-neutral-reverse-background-colour: #f4f4f4;
+  --input-hover-border-colour: #4d4f4f;
+  --input-hover-colour: #1d1d1b;
+  --input-hover-indicator-colour: #001d6e; /* For inputs that can be selected or deselected, use this colour as the indicator fill for the hover state */
+  --input-hover-neutral-background-colour: #ffffff;
+  --input-hover-neutral-reverse-background-colour: #f4f4f4;
+  --input-rest-border-colour: #858686;
+  --input-rest-colour: #1d1d1b;
+  --input-rest-indicator-colour: #005dba; /* For inputs that can be selected or deselected, use this colour as the indicator fill for the rest state */
+  --input-rest-neutral-background-colour: #ffffff;
+  --input-rest-neutral-reverse-background-colour: #f4f4f4;
+  --input-validation-colour: #1d1d1b; /* Use for text and icons for info, success, warning and error states */
+  --interactive-add-on-active-colour: #1d1d1b;
+  --interactive-add-on-disabled-colour: #d3d3d3;
+  --interactive-add-on-focus-border-colour: #1d1d1b;
+  --interactive-add-on-focus-colour: #858686;
+  --interactive-add-on-hover-colour: #4d4f4f;
+  --interactive-add-on-rest-colour: #858686;
+  --interactive-primary-active-background-colour: #000039; /* Primary active background colour for interactive components */
+  --interactive-primary-active-border-colour: #000039; /* Primary active border colour for interactive components */
+  --interactive-primary-active-colour: #ffffff; /* Primary active foreground colour for interactive components. Use for text and icons. */
+  --interactive-primary-disabled-background-colour: #d3d3d3; /* Primary disabled background colour for interactive components */
+  --interactive-primary-disabled-border-colour: #d3d3d3; /* Primary disabled foreground colour for interactive components. Use for text and icons. */
+  --interactive-primary-disabled-colour: #7a7b7b; /* Primary disabled border colour for interactive components */
+  --interactive-primary-focus-background-colour: #005dba; /* Primary focus background colour for interactive components */
+  --interactive-primary-focus-border-colour: #005dba; /* Primary focus border colour for interactive components */
+  --interactive-primary-focus-colour: #ffffff; /* Primary focus foreground colour for interactive components. Use for text and icons. */
+  --interactive-primary-hover-background-colour: #001d6e; /* Primary hover background colour for interactive components */
+  --interactive-primary-hover-border-colour: #001d6e; /* Primary hover border colour for interactive components */
+  --interactive-primary-hover-colour: #ffffff; /* Primary hover foreground colour for interactive components. Use for text and icons. */
+  --interactive-primary-rest-background-colour: #005dba; /* Primary default background colour for interactive components */
+  --interactive-primary-rest-border-colour: #005dba; /* Primary default border colour for interactive components */
+  --interactive-primary-rest-colour: #ffffff; /* Primary default foreground colour for interactive components. Use for text and icons. */
+  --interactive-primary-reversed-active-background-colour: #005dba; /* Primary active background colour for reversed interactive components */
+  --interactive-primary-reversed-active-border-colour-dark: #005dba;
+  --interactive-primary-reversed-active-border-colour-light: #ffffff; /* Primary active border colour for reversed interactive components */
+  --interactive-primary-reversed-active-colour: #ffffff; /* Primary active foreground colour for reversed interactive components. Use for text and icons. */
+  --interactive-primary-reversed-active-colour-muted: #ffffff; /* Primary active foreground colour for reversed interactive components. Use for text and icons. */
+  --interactive-primary-reversed-disabled-background-colour: #f4f4f4; /* Primary disabled background colour for reversed interactive components */
+  --interactive-primary-reversed-disabled-border-colour: #d3d3d3; /* Primary disabled border colour for reversed interactive components */
+  --interactive-primary-reversed-disabled-colour: #d3d3d3; /* Primary disabled foreground colour for reversed interactive components. Use for text and icons. */
+  --interactive-primary-reversed-focus-background-colour: #ffffff; /* Primary focus background colour for reversed interactive components */
+  --interactive-primary-reversed-focus-border-colour-dark: #ffffff;
+  --interactive-primary-reversed-focus-border-colour-light: #ffffff; /* Primary focus border colour for reversed interactive components */
+  --interactive-primary-reversed-focus-colour: #1d1d1b; /* Primary focus foreground colour for reversed interactive components. Use for text and icons. */
+  --interactive-primary-reversed-focus-colour-muted: #1d1d1b; /* Primary focus foreground colour for reversed interactive components. Use for text and icons. */
+  --interactive-primary-reversed-hover-background-colour: #aee1f7; /* Primary hover background colour for reversed interactive components */
+  --interactive-primary-reversed-hover-border-colour-dark: #1d1d1b;
+  --interactive-primary-reversed-hover-border-colour-light: #001d6e; /* Primary hover border colour for reversed interactive components */
+  --interactive-primary-reversed-hover-colour: #1d1d1b; /* Primary hover foreground colour for reversed interactive components. Use for text and icons. */
+  --interactive-primary-reversed-hover-colour-muted: #1d1d1b; /* Primary hover foreground colour for reversed interactive components. Use for text and icons. */
+  --interactive-primary-reversed-rest-background-colour: #ffffff; /* Primary default background colour for reversed interactive components */
+  --interactive-primary-reversed-rest-border-colour-dark: #1d1d1b;
+  --interactive-primary-reversed-rest-border-colour-light: #d3d3d3; /* Primary default border colour for reversed interactive components */
+  --interactive-primary-reversed-rest-colour: #1d1d1b; /* Primary default foreground colour for reversed interactive components. Use for text and icons. */
+  --interactive-primary-reversed-rest-colour-muted: #4d4f4f; /* Primary default foreground colour for reversed interactive components. Use for text and icons. */
+  --interactive-primary-reversed-subtle-active-background-colour: #001d6e; /* Primary active background colour for reversed interactive components */
+  --interactive-primary-reversed-subtle-active-border-colour: #001d6e;
+  --interactive-primary-reversed-subtle-active-colour: #ffffff; /* Primary active foreground colour for reversed interactive components. Use for text and icons. */
+  --interactive-primary-reversed-subtle-disabled-background-colour: #d3d3d3; /* Primary disabled background colour for reversed interactive components */
+  --interactive-primary-reversed-subtle-disabled-border-colour: #d3d3d3; /* Primary disabled border colour for reversed interactive components */
+  --interactive-primary-reversed-subtle-disabled-colour: #7a7b7b; /* Primary disabled foreground colour for reversed interactive components. Use for text and icons. */
+  --interactive-primary-reversed-subtle-focus-background-colour: #aee1f7; /* Primary focus background colour for reversed interactive components */
+  --interactive-primary-reversed-subtle-focus-border-colour: #001d6e;
+  --interactive-primary-reversed-subtle-focus-colour: #001d6e; /* Primary focus foreground colour for reversed interactive components. Use for text and icons. */
+  --interactive-primary-reversed-subtle-hover-background-colour: #005dba; /* Primary hover background colour for reversed interactive components */
+  --interactive-primary-reversed-subtle-hover-border-colour: #005dba;
+  --interactive-primary-reversed-subtle-hover-colour: #ffffff; /* Primary hover foreground colour for reversed interactive components. Use for text and icons. */
+  --interactive-primary-reversed-subtle-rest-background-colour: #aee1f7; /* Primary default background colour for reversed interactive components */
+  --interactive-primary-reversed-subtle-rest-border-colour: #001d6e;
+  --interactive-primary-reversed-subtle-rest-colour: #001d6e; /* Primary default foreground colour for reversed interactive components. Use for text and icons. */
+  --interactive-secondary-active-background-colour: #000039; /* Secondary active background colour for interactive components */
+  --interactive-secondary-active-border-colour: #000039; /* Secondary active border colour for interactive components */
+  --interactive-secondary-active-colour: #ffffff; /* Secondary active foreground colour for interactive components. Use for text and icons. */
+  --interactive-secondary-disabled-background-colour: #d3d3d3; /* Secondary disabled background colour for interactive components */
+  --interactive-secondary-disabled-border-colour: #d3d3d3; /* Secondary disabled border colour for interactive components */
+  --interactive-secondary-disabled-colour: #7a7b7b; /* Secondary disabled foreground colour for interactive components. Use for text and icons. */
+  --interactive-secondary-focus-background-colour: #ffffff; /* Secondary focus background colour for interactive components */
+  --interactive-secondary-focus-border-colour: #1d1d1b; /* Secondary focus border colour for interactive components */
+  --interactive-secondary-focus-colour: #1d1d1b; /* Secondary focus foreground colour for interactive components. Use for text and icons. */
+  --interactive-secondary-hover-background-colour: #001d6e; /* Secondary hover background colour for interactive components */
+  --interactive-secondary-hover-border-colour: #001d6e; /* Secondary hover border colour for interactive components */
+  --interactive-secondary-hover-colour: #ffffff; /* Secondary hover foreground colour for interactive components. Use for text and icons. */
+  --interactive-secondary-rest-background-colour: #ffffff; /* Secondary default background colour for interactive components */
+  --interactive-secondary-rest-border-colour: #1d1d1b; /* Secondary default border colour for interactive components */
+  --interactive-secondary-rest-colour: #1d1d1b; /* Secondary default foreground colour for interactive components. Use for text and icons. */
+  --interactive-secondary-reversed-active-border-colour: #001d6e; /* Primary hover border colour for reversed interactive components */
+  --interactive-secondary-reversed-active-colour: #001d6e; /* Primary hover foreground colour for reversed interactive components. Use for text and icons. */
+  --interactive-secondary-reversed-disabled-background-colour: #f4f4f4; /* Primary disabled background colour for reversed interactive components */
+  --interactive-secondary-reversed-disabled-border-colour: #d3d3d3; /* Primary disabled border colour for reversed interactive components */
+  --interactive-secondary-reversed-disabled-colour: #d3d3d3; /* Primary disabled foreground colour for reversed interactive components. Use for text and icons. */
+  --interactive-secondary-reversed-expanded-background-colour: #005dba; /* Primary active background colour for reversed interactive components */
+  --interactive-secondary-reversed-expanded-border-colour: #ffffff; /* Primary active border colour for reversed interactive components */
+  --interactive-secondary-reversed-expanded-colour: #ffffff; /* Primary active foreground colour for reversed interactive components. Use for text and icons. */
+  --interactive-secondary-reversed-focus-border-colour: #ffffff; /* Primary focus border colour for reversed interactive components */
+  --interactive-secondary-reversed-focus-colour: #1d1d1b; /* Primary focus foreground colour for reversed interactive components. Use for text and icons. */
+  --interactive-secondary-reversed-hover-border-colour: #005dba; /* Primary hover border colour for reversed interactive components */
+  --interactive-secondary-reversed-hover-colour: #1d1d1b; /* Primary hover foreground colour for reversed interactive components. Use for text and icons. */
+  --interactive-secondary-reversed-rest-border-colour: #d3d3d3; /* Primary default border colour for reversed interactive components */
+  --interactive-secondary-reversed-rest-colour: #1d1d1b; /* Primary default foreground colour for reversed interactive components. Use for text and icons. */
+  --interactive-status-active-background-colour: #1d1d1b; /* Primary active background colour for interactive components */
+  --interactive-status-active-border-colour: #1d1d1b; /* Primary active border colour for interactive components */
+  --interactive-status-active-colour: #ffffff; /* Primary active foreground colour for interactive components. Use for text and icons. */
+  --interactive-status-disabled-background-colour: #bcbdbd; /* Primary disabled background colour for interactive components */
+  --interactive-status-disabled-border-colour: #bcbdbd; /* Primary disabled foreground colour for interactive components. Use for text and icons. */
+  --interactive-status-disabled-colour: #858686; /* Primary disabled border colour for interactive components */
+  --interactive-status-focus-background-colour: #4d4f4f; /* Primary focus background colour for interactive components */
+  --interactive-status-focus-border-colour: #4d4f4f; /* Primary focus border colour for interactive components */
+  --interactive-status-focus-colour: #ffffff; /* Primary focus foreground colour for interactive components. Use for text and icons. */
+  --interactive-status-hover-background-colour: #343634; /* Primary hover background colour for interactive components */
+  --interactive-status-hover-border-colour: #343634; /* Primary hover border colour for interactive components */
+  --interactive-status-hover-colour: #ffffff; /* Primary hover foreground colour for interactive components. Use for text and icons. */
+  --interactive-status-rest-background-colour: #4d4f4f; /* Primary default background colour for interactive components */
+  --interactive-status-rest-border-colour: #4d4f4f; /* Primary default border colour for interactive components */
+  --interactive-status-rest-colour: #ffffff; /* Primary default foreground colour for interactive components. Use for text and icons. */
+  --interactive-text-default-active: #000a52; /* Active interactive text colour */
+  --interactive-text-default-focus: #005dba; /* Focus interactive text and focus indicator colour */
+  --interactive-text-default-hover: #001d6e; /* Hover interactive text colour */
+  --interactive-text-default-rest: #005dba; /* Default interactive text colour */
+  --interactive-text-default-visited: #005dba; /* Visited interactive text colour */
+  --interactive-text-mono-active: #000000; /* Active interactive text colour */
+  --interactive-text-mono-focus: #000000; /* Focus interactive text and focus indicator colour */
+  --interactive-text-mono-hover: #000000; /* Hover interactive text colour */
+  --interactive-text-mono-rest: #000000; /* Default interactive text colour */
+  --interactive-text-mono-visited: #000000; /* Visited interactive text colour */
+  --interactive-text-status-bold-active: #f4f4f4; /* Active interactive text colour */
+  --interactive-text-status-bold-focus: #f4f4f4; /* Focus interactive text and focus indicator colour */
+  --interactive-text-status-bold-hover: #f4f4f4; /* Hover interactive text colour */
+  --interactive-text-status-bold-rest: #f4f4f4; /* Default interactive text colour */
+  --interactive-text-status-bold-visited: #f4f4f4; /* Visited interactive text colour */
+  --interactive-text-status-subtle-active: #000000; /* Active interactive text colour */
+  --interactive-text-status-subtle-focus: #000000; /* Focus interactive text and focus indicator colour */
+  --interactive-text-status-subtle-hover: #000000; /* Hover interactive text colour */
+  --interactive-text-status-subtle-rest: #000000; /* Default interactive text colour */
+  --interactive-text-status-subtle-visited: #000000; /* Visited interactive text colour */
+  --label-and-hint-hint-colour: #4d4f4f; /* The colour of the the hint text */
+  --label-and-hint-label-colour: #1d1d1b; /* The colour of the the label text */
+  --label-and-hint-validation-message-colour: #1d1d1b; /* The colour of the the error message text and icon */
+  --link-menu-border-colour: #d3d3d3;
+  --link-menu-item-active-background-colour: #005dba;
+  --link-menu-item-active-border-colour: #ffffff;
+  --link-menu-item-active-colour: #ffffff;
+  --link-menu-item-active-colour-muted: #ffffff;
+  --link-menu-item-focus-border-colour: #1d1d1b;
+  --link-menu-item-focus-colour: #1d1d1b;
+  --link-menu-item-focus-colour-muted: #1d1d1b;
+  --link-menu-item-hover-background-colour: #aee1f7;
+  --link-menu-item-hover-border-colour: #001d6e;
+  --link-menu-item-hover-colour: #1d1d1b;
+  --link-menu-item-hover-colour-muted: #1d1d1b;
+  --link-menu-item-rest-border-colour: #d3d3d3;
+  --link-menu-item-rest-colour: #1d1d1b;
+  --link-menu-item-rest-colour-muted: #4d4f4f;
+  --link-mono-active-colour: #000000; /* Footer link active colour */
+  --link-mono-focus-colour: #000000; /* Footer link focus colour */
+  --link-mono-hover-colour: #000000; /* Footer link hover colour */
+  --link-mono-rest-colour: #000000; /* Footer link rest colour */
+  --link-mono-visited-colour: #000000; /* Footer link visited colour */
+  --link-primary-active-colour: #000a52; /* Primary link active text and icon colour */
+  --link-primary-focus-colour: #005dba; /* Primary link focus text and icon colour */
+  --link-primary-hover-colour: #001d6e; /* Primary link hover text and icon colour */
+  --link-primary-rest-colour: #005dba; /* Primary link rest text and icon colour */
+  --link-primary-visited-colour: #1d1d1b; /* Primary link visited text and icon colour */
+  --link-status-bold-active-colour: #f4f4f4; /* Bold status link active text and icon colour */
+  --link-status-bold-focus-colour: #f4f4f4; /* Bold status link focus text and icon colour */
+  --link-status-bold-hover-colour: #f4f4f4; /* Bold status link hover text and icon colour */
+  --link-status-bold-rest-colour: #f4f4f4; /* Bold status link rest text and icon colour */
+  --link-status-bold-visited-colour: #f4f4f4; /* Bold status link visited text and icon colour */
+  --link-status-subtle-active-colour: #000000; /* Subtle status link active text and icon colour */
+  --link-status-subtle-focus-colour: #000000; /* Subtle status link focus text and icon colour */
+  --link-status-subtle-hover-colour: #000000; /* Subtle status link hover text and icon colour */
+  --link-status-subtle-rest-colour: #000000; /* Subtle status link rest text and icon colour */
+  --link-status-subtle-visited-colour: #000000; /* Subtle status link visited text and icon colour */
+  --list-item-negative-colour: #c50b30; /* Sets the bullet colour to red for scenarios when negative information needs to be conveyed */
+  --list-item-positive-colour: #00633d; /* Sets the bullet colour to green for scenarios when positive information needs to be conveyed */
+  --notification-badge-background-colour: #005dba; /* The background colour of the badge */
+  --notification-badge-colour: #ffffff; /* Text colour on the badge */
+  --pagination-colour: #1d1d1b; /* The colour of the text elements in the pagination component */
+  --pagination-page-active-background-colour: #005dba; /* Pagination button active state background colour */
+  --pagination-page-active-colour: #ffffff; /* Pagination button active state colour */
+  --pagination-page-active-hover-indicator-colour: #005dba; /* Pagination button active state hover indicator colour */
+  --pagination-page-disabled-background-colour: #f4f4f4; /* Pagination button disabled state background colour */
+  --pagination-page-disabled-colour: #d3d3d3; /* Pagination button disabled state colour */
+  --pagination-page-disabled-hover-indicator-colour: #f4f4f4; /* Pagination button active state disabled indicator colour */
+  --pagination-page-focus-background-colour: #ffffff; /* Pagination button focus state background colour */
+  --pagination-page-focus-border-colour: #1d1d1b; /* Pagination button focus state border colour */
+  --pagination-page-focus-colour: #1d1d1b; /* Pagination button focus state colour */
+  --pagination-page-focus-hover-indicator-colour: #ffffff; /* Pagination button focus state hover indicator colour */
+  --pagination-page-hover-background-colour: #aee1f7; /* Pagination button hover state background colour */
+  --pagination-page-hover-colour: #1d1d1b; /* Pagination button hover state colour */
+  --pagination-page-hover-hover-indicator-colour: #001d6e; /* Pagination button hover state hover indicator colour */
+  --pagination-page-rest-background-colour: #ffffff; /* Pagination button rest state background colour */
+  --pagination-page-rest-colour: #1d1d1b; /* Pagination button rest state colour */
+  --pagination-page-rest-hover-indicator-colour: #ffffff; /* Pagination button rest state hover indicator colour */
+  --radio-common-colour: #1d1d1b; /* Radio button label colour */
+  --radio-disabled-control-background-colour: #f4f4f4; /* Background colour of the radio control in disabled state */
+  --radio-disabled-control-border-colour: #d3d3d3; /* Border colour of the radio control in disabled state */
+  --radio-disabled-indicator-colour: #d3d3d3; /* Colour of the radio indicator in disabled state */
+  --radio-disabled-label-colour: #a6a7a7; /* Colour of the radio label in disabled state */
+  --radio-error-control-background-colour: #ffffff; /* Background colour of the radio control in error state */
+  --radio-error-control-border-colour: #c50b30; /* Border colour of the radio control in error state */
+  --radio-error-indicator-colour: #c50b30; /* Colour of the radio indicator in error state */
+  --radio-focus-control-background-colour: #ffffff; /* Background colour of the radio control in focus state */
+  --radio-focus-control-border-colour: #1d1d1b; /* Border colour of the radio control in focus state */
+  --radio-focus-indicator-colour: #005dba; /* Colour of the radio indicator in focus state */
+  --radio-hover-control-background-colour: #ffffff; /* Background colour of the radio control in hover state */
+  --radio-hover-control-border-colour: #4d4f4f; /* Border colour of the radio control in hover state */
+  --radio-hover-indicator-colour: #001d6e; /* Colour of the radio indicator in hover state */
+  --radio-rest-control-background-colour: #ffffff; /* Background colour of the radio control in rest state */
+  --radio-rest-control-border-colour: #858686; /* Border colour of the radio control in rest state */
+  --radio-rest-indicator-colour: #005dba; /* Colour of the radio indicator in rest state */
+  --segment-button-active-background-colour: #005dba;
+  --segment-button-active-colour: #ffffff;
+  --segment-button-disabled-background-colour: #d3d3d3;
+  --segment-button-disabled-colour: #a6a7a7;
+  --segment-button-error-background-colour: #4d4f4f;
+  --segment-button-focus-background-colour: #ffffff;
+  --segment-button-focus-border-colour: #1d1d1b;
+  --segment-button-focus-colour: #1d1d1b;
+  --segment-button-hover-background-colour: #aee1f7;
+  --segment-button-hover-colour: #1d1d1b;
+  --segment-button-rest-background-colour: #ffffff;
+  --segment-button-rest-colour: #1d1d1b;
+  --segment-control-common-background-colour: #f4f4f4;
+  --segment-control-common-border-colour: #858686;
+  --segment-control-error-border-colour: #c50b30;
+  --segment-control-focus-border-colour: #1d1d1b;
+  --select-disabled-background-colour: #f4f4f4; /* Text input background colour in disabled state */
+  --select-disabled-border-colour: #d3d3d3; /* Text input border colour in disabled state */
+  --select-disabled-colour: #a6a7a7; /* Text input text colour in disabled state */
+  --select-error-background-colour: #ffffff; /* Text input background colour in error state */
+  --select-error-border-colour: #c50b30; /* Text input border colour in error state */
+  --select-error-colour: #1d1d1b; /* Text input text colour in error state */
+  --select-focus-background-colour: #ffffff; /* Text input background colour in focus state */
+  --select-focus-border-colour: #1d1d1b; /* Text input border colour in focus state */
+  --select-focus-colour: #1d1d1b; /* Text input text colour in focus state */
+  --select-hover-background-colour: #ffffff; /* Text input background colour in hover state */
+  --select-hover-border-colour: #4d4f4f; /* Text input border colour in hover state */
+  --select-hover-colour: #1d1d1b; /* Text input text colour in hover state */
+  --select-rest-background-colour: #ffffff; /* Text input background colour in rest state */
+  --select-rest-border-colour: #858686; /* Text input border colour in rest state */
+  --select-rest-colour: #1d1d1b; /* Text input text colour in rest state */
+  --table-background-colour: #ffffff;
+  --table-border-colour: #d3d3d3;
+  --table-cell-common-background-colour: #ffffff;
+  --table-cell-common-background-colour-even: #ffffff;
+  --table-cell-common-border-colour: #d3d3d3;
+  --table-cell-common-colour: #1d1d1b;
+  --table-cell-header-border-colour: #4d4f4f;
+  --table-cell-highlight-background-colour: #ffffff;
+  --table-status-cell-error-background-colour: #f4f4f4;
+  --text-default-accent-colour: #001d6e; /* Use for limited cases where additional brand expression is needed */
+  --text-default-primary-colour: #1d1d1b; /* Use for the majority of text and accompanying UI icons */
+  --text-default-secondary-colour: #4d4f4f; /* Use sparingly for secondary, supporting text. */
+  --text-input-disabled-background-colour: #f4f4f4; /* Text input background colour in disabled state */
+  --text-input-disabled-border-colour: #d3d3d3; /* Text input border colour in disabled state */
+  --text-input-disabled-colour: #a6a7a7; /* Text input text colour in disabled state */
+  --text-input-error-background-colour: #ffffff; /* Text input background colour in error state */
+  --text-input-error-border-colour: #c50b30; /* Text input border colour in error state */
+  --text-input-error-colour: #1d1d1b; /* Text input text colour in error state */
+  --text-input-focus-background-colour: #ffffff; /* Text input background colour in focus state */
+  --text-input-focus-border-colour: #1d1d1b; /* Text input border colour in focus state */
+  --text-input-focus-colour: #1d1d1b; /* Text input text colour in focus state */
+  --text-input-hover-background-colour: #ffffff; /* Text input background colour in hover state */
+  --text-input-hover-border-colour: #4d4f4f; /* Text input border colour in hover state */
+  --text-input-hover-colour: #1d1d1b; /* Text input text colour in hover state */
+  --text-input-rest-background-colour: #ffffff; /* Text input background colour in rest state */
+  --text-input-rest-border-colour: #858686; /* Text input border colour in rest state */
+  --text-input-rest-colour: #1d1d1b; /* Text input text colour in rest state */
+  --text-status-bold-primary-colour: #ffffff; /* Use for the majority of text and accompanying UI icons */
+  --text-status-bold-secondary-colour: #4d4f4f; /* Use sparingly for secondary, supporting text. */
+  --text-status-subtle-primary-colour: #1d1d1b; /* Use for the majority of text and accompanying UI icons */
+  --text-status-subtle-secondary-colour: #4d4f4f; /* Use sparingly for secondary, supporting text. */
+
+  /**
+   * @tokens Spacing
+   * @presenter Spacing
+   */
+  --accordion-content-gap: 1.25rem; /* The gap between elements in the accordion content slot */
+  --accordion-gap: 1.25rem; /* The gap between elements in the overall accordion */
+  --accordion-group-gap: 1rem; /* The gap between accordions in an accordion group */
+  --accordion-header-custom-content-height: 0.75rem; /* The gap between elements in the accordion header */
+  --accordion-header-gap: 1rem; /* The gap between elements in the accordion header */
+  --accordion-header-label-gap: 0.75rem; /* The gap between elements in the accordion header */
+  --accordion-header-label-min-width: 8.75rem;
+  --accordion-padding-x: 1.25rem; /* Left and right padding of the accordion */
+  --accordion-padding-y: 1.25rem; /* Top and bottom padding of the accordion */
+  --asset-size-lg-lg: 5rem;
+  --asset-size-lg-md: 5rem;
+  --asset-size-lg-responsive-lg: 7.5rem;
+  --asset-size-lg-responsive-md: 5rem;
+  --asset-size-lg-responsive-sm: 5rem;
+  --asset-size-lg-responsive-xl: 7.5rem;
+  --asset-size-lg-responsive-xxl: 10rem;
+  --asset-size-lg-sm: 5rem;
+  --asset-size-lg-xl: 5rem;
+  --asset-size-lg-xxl: 5rem;
+  --asset-size-md-lg: 2rem;
+  --asset-size-md-md: 2rem;
+  --asset-size-md-sm: 2rem;
+  --asset-size-md-xl: 2rem;
+  --asset-size-md-xxl: 2rem;
+  --asset-size-sm-lg: 1.5rem;
+  --asset-size-sm-md: 1.5rem;
+  --asset-size-sm-sm: 1.5rem;
+  --asset-size-sm-xl: 1.5rem;
+  --asset-size-sm-xxl: 1.5rem;
+  --asset-size-xl-lg: 7.5rem;
+  --asset-size-xl-md: 7.5rem;
+  --asset-size-xl-sm: 7.5rem;
+  --asset-size-xl-xl: 7.5rem;
+  --asset-size-xl-xxl: 7.5rem;
+  --asset-size-xs-lg: 1rem;
+  --asset-size-xs-md: 1rem;
+  --asset-size-xs-sm: 1rem;
+  --asset-size-xs-xl: 1rem;
+  --asset-size-xs-xxl: 1rem;
+  --asset-size-xxl-lg: 10rem;
+  --asset-size-xxl-md: 10rem;
+  --asset-size-xxl-sm: 10rem;
+  --asset-size-xxl-xl: 10rem;
+  --asset-size-xxl-xxl: 10rem;
+  --banner-gap: 0.75rem; /* Gap between elements inside the banner */
+  --banner-padding-x: 1rem; /* Banner left and right padding */
+  --banner-padding-y: 0.75rem; /* Banner top and bottom padding */
+  --breadcrumb-gap: 0.5rem; /* The gap between links in the breadcrumb */
+  --breadcrumb-min-width: 20rem; /* The min width of the page-level breadcrumb, matching page breakpoint min width */
+  --breadcrumb-padding-x: 1rem; /* The left and right padding of the page-level breadcrumb, matching the page margin */
+  --breadcrumb-padding-y: 0.75rem; /* The top and bottom padding of the page-level breadcrumb */
+  --button-common-icon-only-min-height: 3rem; /* Button minimum height */
+  --button-common-icon-only-min-width: 3rem; /* Button minimum width */
+  --button-common-icon-only-padding-x: 0.75rem; /* Button padding left and right */
+  --button-common-icon-only-padding-y: 0.75rem; /* Button padding top and bottom */
+  --button-common-labelled-min-height: 3rem; /* Button minimum height */
+  --button-common-labelled-min-width: 3rem; /* Button minimum width */
+  --button-common-labelled-padding-x: 1rem; /* Button padding left and right */
+  --button-common-labelled-padding-y: 0.75rem; /* Button padding top and bottom */
+  --button-gap: 0.5rem; /* The gap between elements within a button */
+  --button-group-gap: 1rem; /* The gap between buttons in a group */
+  --button-icon-width: 1.5rem;
+  --card-gap: 1.25rem; /* Gap between elements in a card */
+  --card-interactive-active-padding-right: 1.25rem; /* Card heading right padding value that allows the arrow to animate on hover */
+  --card-interactive-hover-padding-right: 1.25rem; /* Card heading right padding value that allows the arrow to animate on hover */
+  --card-min-width: 18rem; /* The minimum width a card can be in columns */
+  --card-padding-bottom: 1.25rem;
+  --card-padding-right: 1.75rem;
+  --card-padding-x: 1.75rem; /* Card padding left and right */
+  --card-padding-y: 1.25rem; /* Card padding top and bottom */
+  --checkbox-common-gap: 0.75rem; /* The gap between checkbox control and label */
+  --checkbox-group-lg-gap: 1.25rem;
+  --checkbox-group-sm-gap: 1rem;
+  --checkbox-scale-lg-control-size: 1.75rem; /* The width and height of the large checkbox button control */
+  --checkbox-scale-lg-gap: 2.25rem; /* The gap between radio control and label */
+  --checkbox-scale-lg-indicator-size: 1.75rem; /* The width and height of the large checkbox button indicator */
+  --checkbox-scale-sm-control-size: 1rem; /* The width and height of the small checkbox button control */
+  --checkbox-scale-sm-gap: 1.75rem; /* The gap between radio control and label */
+  --checkbox-scale-sm-indicator-size: 1rem; /* The width and height of the small checkbox button inidcator */
+  --component-min-width-lg: 14.5rem; /* Use to set the min-width of components, if required. Should not be referenced by components directly - instead use via component themes tier. */
+  --component-min-width-md: 14.5rem; /* Use to set the min-width of components, if required. Should not be referenced by components directly - instead use via component themes tier. */
+  --component-min-width-sm: 14.5rem; /* Use to set the min-width of components, if required. Should not be referenced by components directly - instead use via component themes tier. */
+  --component-min-width-xl: 14.5rem; /* Use to set the min-width of components, if required. Should not be referenced by components directly - instead use via component themes tier. */
+  --component-min-width-xxl: 14.5rem; /* Use to set the min-width of components, if required. Should not be referenced by components directly - instead use via component themes tier. */
+  --container-common-min-width: 18rem; /* The min width that any container can be in columns */
+  --container-common-padding-lg: 1.75rem; /* Container padding left and right */
+  --container-common-padding-md: 1.25rem; /* Container padding top and bottom */
+  --container-common-padding-sm: 1rem; /* Container padding top and bottom */
+  --container-common-padding-xs: 0.75rem; /* Container padding top and bottom */
+  --container-common-size-xs: 1rem;
+  --content-area-gap: 1.75rem; /* The row gap between items in a content area */
+  --content-area-padding-x: 1.75rem; /* Content area padding left and right */
+  --content-area-padding-y: 1.25rem; /* Content area padding top and bottom */
+  --content-gap-column-lg: 2.25rem; /* For spacing several content components horizontally */
+  --content-gap-column-md: 1.75rem; /* For spacing several content components horizontally */
+  --content-gap-column-sm: 1.25rem; /* For spacing several content components horizontally */
+  --content-gap-column-xl: 3rem; /* For spacing several content components horizontally */
+  --content-gap-column-xs: 1rem; /* For spacing several content components horizontally */
+  --content-gap-inside-lg: 1rem; /* For spacing content inside a content component */
+  --content-gap-inside-md: 0.75rem; /* For spacing content inside a content component */
+  --content-gap-inside-sm: 0.5rem; /* For spacing content inside a content component */
+  --content-gap-inside-xl: 1.25rem; /* For spacing content inside a content component */
+  --content-gap-inside-xs: 0.25rem; /* For spacing content inside a content component */
+  --content-gap-row-lg: 2.25rem; /* For spacing several content components vertically */
+  --content-gap-row-md: 1.75rem; /* For spacing several content components vertically */
+  --content-gap-row-sm: 1.25rem; /* For spacing several content components vertically */
+  --content-gap-row-xl: 3rem; /* For spacing several content components vertically */
+  --content-gap-row-xs: 1rem; /* For spacing several content components vertically */
+  --content-icon-size-sm: 1.5rem; /* Defines baseline width and height for the UI icon */
+  --content-indicator-bold-padding: 0.25rem;
+  --content-indicator-bold-size: 1rem;
+  --content-indicator-progress-size: 0.25rem;
+  --content-pictogram-size-lg: 7.5rem;
+  --content-pictogram-size-md: 5rem;
+  --content-pictogram-size-responsive: 5rem;
+  --content-pictogram-size-xl: 10rem;
+  --data-point-gap: 0.25rem; /* The gap between the label and value */
+  --data-point-group-column-gap: 2.25rem; /* The gap between data points */
+  --data-point-group-row-gap: 2.25rem; /* The gap between data points */
+  --details-active-padding-bottom: 1rem; /* Details component bottom padding applied when component is active (open) */
+  --details-gap: 0.75rem; /* Gap between element inside an Details component */
+  --details-padding-x: 0.75rem; /* Details component left and right padding */
+  --details-padding-y: 0.75rem; /* Details component top and bottom padding */
+  --dimensions-assets-1: 1rem;
+  --dimensions-assets-2: 1.5rem;
+  --dimensions-assets-3: 2rem;
+  --dimensions-assets-4: 5rem;
+  --dimensions-assets-5: 7.5rem;
+  --dimensions-assets-6: 10rem;
+  --dimensions-large-1: 0.25rem;
+  --dimensions-large-10: 9.75rem;
+  --dimensions-large-2: 0.5rem;
+  --dimensions-large-3: 0.75rem;
+  --dimensions-large-4: 1rem;
+  --dimensions-large-5: 1.5rem;
+  --dimensions-large-6: 2rem;
+  --dimensions-large-7: 3rem;
+  --dimensions-large-8: 4.5rem;
+  --dimensions-large-9: 6.5rem;
+  --dimensions-small-1: 0.25rem;
+  --dimensions-small-10: 5.25rem;
+  --dimensions-small-2: 0.5rem;
+  --dimensions-small-3: 0.75rem;
+  --dimensions-small-4: 1rem;
+  --dimensions-small-5: 1.25rem;
+  --dimensions-small-6: 1.75rem;
+  --dimensions-small-7: 2.25rem;
+  --dimensions-small-8: 3rem;
+  --dimensions-small-9: 3.75rem;
+  --filter-button-gap: 0.5rem; /* Filter button internal gap */
+  --filter-button-group-gap: 1rem; /* The gap between buttons in a group */
+  --filter-button-min-height: 3rem; /* Focus button minimum height */
+  --filter-button-padding-x: 1rem; /* Filter button left and right padding */
+  --footer-gap: 1.75rem; /* Gap between elements in the footer */
+  --footer-link-group-link-gap: 1rem; /* The gap between links */
+  --footer-link-group-social-gap: 0.75rem; /* The gap between social icons */
+  --footer-logo-gap: 2.25rem; /* Gap between the logo and stickers in the footer */
+  --footer-logo-size: 5rem; /* The size of the logo in the footer. Currently connected to the wrong variable and needs replacing with a structure that mimics the header */
+  --footer-min-width: 20rem; /* The minimum width of the footer, matching page min-width */
+  --footer-padding-x: 1rem; /* The left and right padding of the footer, matching page margin */
+  --footer-padding-y: 1.75rem; /* The top and bottom padding of the footer */
+  --form-field-gap: 1rem; /* The gap between label and hint and the field itself */
+  --header-button-active-indicator-height: 0.125rem; /* The height of the underline on the header button active state */
+  --header-button-gap: 0.5rem; /* Gap between elements inside the nav button */
+  --header-button-hover-indicator-height: 0.125rem; /* The height of the underline on the header button hover state */
+  --header-button-icon-size: 1.5rem; /* The width and height of the icon */
+  --header-button-min-height: 3rem; /* Min height of the nav button */
+  --header-button-min-width: 3rem; /* Min width of the nav button */
+  --header-button-padding-bottom: 0.75rem;
+  --header-button-padding-default-x: 0.75rem; /* Left and right padding of the nav button */
+  --header-button-padding-right: 0.75rem;
+  --header-button-padding-small-x: 0.5rem; /* Left and right padding of the nav button */
+  --header-button-padding-y: 0.75rem; /* Top and bottom padding of the nav button */
+  --header-button-text-icon-label-height: 0.875rem; /* Ensures the label container height matches the text line height when the badge is visible */
+  --header-button-text-label-height: 1.375rem; /* Ensures the label container height matches the text line height when the badge is visible */
+  --header-container-gap: 1.75rem; /* Gap between elements inside the nav container */
+  --header-container-logo-gap-lg: 1.25rem; /* Gap between logos in the nav for LG+ breakpoint */
+  --header-container-logo-gap-sm: 1rem; /* Gap between logos in the nav for SM breakpoint */
+  --header-container-max-height: 5.5625rem; /* The overall max height of the nav bar */
+  --header-container-min-width: 20rem; /* Min width of nav container */
+  --header-container-padding-x: 1rem; /* Left and right padding of nav container */
+  --header-container-padding-y: 0.5rem; /* Top and bottom padding of nav container */
+  --header-logo-container-max-height-lg: 4rem; /* The max height of the logo slot for LG+ breakpoints */
+  --header-logo-container-max-height-sm: 2.75rem; /* The max height of the logo slot for SM breakpoint */
+  --header-logo-container-max-width-lg: 14.5rem; /* The max width of the logo slot for LG+ breakpoints */
+  --header-logo-container-max-width-sm: 10.3125rem; /* The max width of the logo slot for SM breakpoint */
+  --header-logo-container-padding-bottom-lg: 0.75rem; /* Padding to ensure that the logo optically aligns to other content in the nav */
+  --header-logo-container-padding-bottom-sm: 0.5rem; /* Padding to ensure that the logo optically aligns to other content in the nav */
+  --header-logo-primary-max-height-lg: 3.25rem; /* The max height of the primary logo for LG+ breakpoints */
+  --header-logo-primary-max-height-sm: 2.25rem; /* The max height of the primary logo for SM breakpoint */
+  --header-logo-secondary-height-lg: 2.25rem; /* The height of the secondary logo for LG+ breakpoints */
+  --header-logo-secondary-height-sm: 1.5625rem; /* The height of the secondary logo for SM breakpoint */
+  --header-logo-secondary-max-width-lg: 7.5rem; /* The max width of the secondary logo for LG+ breakpoints */
+  --header-logo-secondary-max-width-sm: 5.25rem; /* The max width of the secondary logo for SM breakpoint */
+  --inline-message-gap: 0.75rem; /* Gap between element inside an inline message */
+  --inline-message-padding-x: 0.75rem; /* Inline message left and right padding */
+  --inline-message-padding-y: 0.75rem; /* Inline message top and bottom padding */
+  --input-common-gap-lg: 1rem;
+  --input-common-gap-md: 0.75rem;
+  --input-common-gap-sm: 0.5rem;
+  --input-common-gap-xl: 1.25rem;
+  --input-common-gap-xs: 0.25rem;
+  --input-common-gap-xxl: 1.75rem;
+  --input-common-gap-xxxl: 2.25rem;
+  --input-common-min-width: 14.5rem;
+  --input-common-padding-lg: 1rem;
+  --input-common-padding-md: 0.75rem;
+  --input-common-padding-sm: 0.5rem;
+  --input-common-padding-xs: 0.25rem;
+  --input-common-scale-lg: 1.75rem; /* Use for defining width or height of an input */
+  --input-common-scale-md: 1.25rem; /* Use for defining width or height of an input */
+  --input-common-scale-sm: 1rem; /* Use for defining width or height of an input */
+  --input-common-scale-xl: 2.25rem; /* Use for defining width or height of an input */
+  --input-common-scale-xs: 0.75rem; /* Use for defining width or height of an input */
+  --input-common-scale-xxl: 3rem; /* Use for defining width or height of an input */
+  --input-common-scale-xxs: 0.5rem; /* Use for defining width or height of an input */
+  --interactive-gap: 0.5rem; /* Gap between elements within component */
+  --interactive-min-height: 3rem; /* Component minimum height */
+  --interactive-min-width: 3rem; /* Component minimum width */
+  --interactive-padding-lg: 1.25rem; /* Component bottom padding */
+  --interactive-padding-md: 1rem; /* Component bottom padding */
+  --interactive-padding-sm: 0.75rem; /* Component bottom padding */
+  --interactive-padding-xs: 0.5rem; /* Component bottom padding */
+  --label-and-hint-gap: 0.25rem; /* The gap between label and hint */
+  --link-gap: 0.5rem; /* Gap between elements inside a link */
+  --link-group-gap: 1rem; /* The gap between links in a link group */
+  --link-menu-item-gap: 0.75rem;
+  --link-menu-item-hover-padding-right: 0.5rem;
+  --link-menu-item-padding-bottom: 1rem;
+  --link-menu-item-padding-left: 1rem;
+  --link-menu-item-padding-right: 0.5rem;
+  --link-menu-item-padding-top: 1rem;
+  --list-gap: 1.25rem; /* The gap between list items in a list */
+  --list-item-common-gap: 0.75rem; /* The gap between icon or number and text in a list item */
+  --list-item-common-padding-left: 0.75rem; /* Left padding applied to child list items to ident them */
+  --notice-content-gap: 1rem; /* The gap between content within the body of the notice */
+  --notice-gap: 1.75rem; /* The gap between content in the overall notice */
+  --notice-pictogram-size: 5rem; /* The height and width of the pictogram in the notice */
+  --notice-pictogram-size-lg: 7.5rem; /* The height and width of the pictogram in the notice */
+  --notice-pictogram-size-md: 5rem; /* The height and width of the pictogram in the notice */
+  --notice-pictogram-size-xl: 7.5rem; /* The height and width of the pictogram in the notice */
+  --notification-badge-height: 1rem; /* The height of the badge */
+  --notification-badge-min-width: 1rem; /* The min-width of the badge */
+  --notification-badge-padding: 0.25rem; /* The min-width of the badge */
+  --pagination-horizontal-gap: 1.75rem; /* The vertical gap between elements in the pagination component */
+  --pagination-inside-gap: 0.5rem; /* The gap between page buttons in the pagination component */
+  --pagination-page-common-hover-indicator-width: 0.125rem; /* Pagination button hover indicator width */
+  --pagination-vertical-gap: 1rem; /* The vertical gap between elements in the pagination component */
+  --radio-group-lg-gap: 1.25rem;
+  --radio-group-sm-gap: 1rem;
+  --radio-scale-lg-control-size: 1.75rem; /* The width and height of the large radio button control */
+  --radio-scale-lg-gap: 2.25rem; /* The gap between radio control and label */
+  --radio-scale-lg-indicator-size: 1rem; /* The width and height of the large radio button indicator */
+  --radio-scale-sm-control-size: 1rem; /* The width and height of the small radio button control */
+  --radio-scale-sm-gap: 1.75rem; /* The gap between radio control and label */
+  --radio-scale-sm-indicator-size: 0.5rem; /* The width and height of the small radio button inidcator */
+  --segment-button-common-min-height: 2.25rem;
+  --segment-button-common-padding-x: 0.5rem;
+  --segment-button-common-padding-y: 0.5rem;
+  --segment-control-common-gap: 0.25rem;
+  --segment-control-common-min-width: 14.5rem; /* The minimum width of a stacked segment control */
+  --segment-control-common-padding-x: 0.25rem;
+  --segment-control-common-padding-y: 0.25rem;
+  --select-common-button-gap: 1rem; /* The gap between text elements and the add-on button in the text input field */
+  --select-common-height: 3rem; /* The height of the select */
+  --select-common-padding-x: 1rem; /* The left and right padding of the text input field */
+  --select-common-padding-y: 0.5rem; /* The top and bottom padding of the text input field */
+  --select-common-text-gap: 0.5rem; /* The gap between text elements in the text input field */
+  --table-cell-common-padding-x: 1rem;
+  --table-cell-common-padding-y-lg: 1rem;
+  --table-cell-common-padding-y-sm: 0.75rem;
+  --table-row-vertical-gap: 1rem;
+  --text-input-common-addon-button-gap: 1rem; /* The gap between text elements and the add-on button in the text input field */
+  --text-input-common-button-gap: 0.5rem; /* The gap between the text input and external button */
+  --text-input-common-height: 3rem; /* The height of the text input */
+  --text-input-common-padding-x: 1rem; /* The left and right padding of the text input field */
+  --text-input-common-padding-y: 0.5rem; /* The top and bottom padding of the text input field */
+  --text-input-common-text-gap: 0.5rem; /* The gap between text elements in the text input field */
+
+  /**
+   * @tokens Border
+   * @presenter Border
+   */
+  --accordion-border-width: 0.0625rem;
+  --accordion-header-focus-indicator-border-width: 0.1875rem; /* The border width of the accordion focus indicator */
+  --add-on-button-focus-border-width: 0.1875rem; /* Add-on button border width in focus state */
+  --breadcrumb-border-width: 0.0625rem; /* The border width of the page-level breadcrumb */
+  --button-border-width: 0.09375rem; /* Button border width */
+  --button-border-width-focus: 0.1875rem; /* Button focus border width */
+  --card-border-width: 0.0625rem; /* Border width of a card */
+  --card-interactive-active-border-width: 0.1875rem; /* Card header active state border width */
+  --card-interactive-focus-border-width: 0.1875rem; /* Card header focus state border width */
+  --card-interactive-hover-border-width: 0.1875rem; /* Card header hover state border width */
+  --card-interactive-rest-border-width: 0.0625rem; /* Card header rest state border width */
+  --checkbox-disabled-control-border-width: 0.09375rem; /* Border width of the checkbox control in disabled state */
+  --checkbox-error-control-border-width: 0.09375rem; /* Border width of the checkbox control in error state */
+  --checkbox-error-control-focus-border-width: 0.1875rem; /* The border width of the checkbox when it has an error and is focused */
+  --checkbox-focus-control-border-width: 0.1875rem; /* Border width of the checkbox control in focus state */
+  --checkbox-hover-control-border-width: 0.09375rem; /* Border width of the checkbox control in hover state */
+  --checkbox-rest-control-border-width: 0.09375rem; /* Border width of the checkbox control in rest state */
+  --container-common-border-width-md: 0.125rem;
+  --container-common-border-width-xs: 0.0625rem;
+  --container-common-focus-indicator-border-width: 0.1875rem; /* The border width of the focus indicator for containers */
+  --content-area-border-width: 0.0625rem; /* Content area border width */
+  --content-seperator-border-width-sm: 0.09375rem;
+  --content-seperator-border-width-xs: 0.0625rem;
+  --details-focus-indicator-border-width: 0.1875rem; /* Details component focus indicator border width */
+  --filter-button-border-width: 0.09375rem; /* Filter button border width */
+  --filter-button-border-width-focus: 0.1875rem; /* Filter button border width on focus only */
+  --footer-border-width: 0.0625rem; /* Footer borders and separators width */
+  --header-button-border-width-focus: 0.1875rem; /* Border width of the focus state of the nav button */
+  --input-disabled-border-width: 0.09375rem;
+  --input-error-border-width: 0.09375rem;
+  --input-error-focus-border-width: 0.1875rem; /* The border width of an input when it has an error and is focused */
+  --input-focus-border-width: 0.1875rem;
+  --input-hover-border-width: 0.09375rem;
+  --input-rest-border-width: 0.09375rem;
+  --interactive-border-width-lg: 0.1875rem; /* Component border width */
+  --interactive-border-width-md: 0.125rem; /* Component border width */
+  --interactive-border-width-sm: 0.09375rem; /* Component border width */
+  --interactive-border-width-xs: 0.0625rem; /* Component border width */
+  --interactive-focus-border-width: 0.1875rem; /* Component border width on focus */
+  --interactive-text-focus-border-width: 0.0625rem;
+  --interactive-underline-border-width: 0.125rem; /* Use for the underline borders e.g. on hover */
+  --link-menu-border-width: 0.0625rem;
+  --link-menu-item-active-border-width-bottom: 0.0625rem;
+  --link-menu-item-focus-border-width: 0.1875rem;
+  --link-menu-item-hover-border-width-bottom: 0.1875rem;
+  --link-menu-item-rest-border-width-bottom: 0.0625rem;
+  --link-mono-focus-border-width: 0.0625rem; /* Link focus indicator border width */
+  --link-primary-focus-border-width: 0.0625rem; /* Link focus indicator border width */
+  --link-status-bold-focus-border-width: 0.0625rem; /* Link focus indicator border width */
+  --link-status-subtle-focus-border-width: 0.0625rem; /* Link focus indicator border width */
+  --pagination-page-focus-border-width: 0.1875rem; /* Pagination button focus state border width */
+  --radio-disabled-control-border-width: 0.09375rem; /* Border width of the radio control in disabled state */
+  --radio-error-control-border-width: 0.09375rem; /* Border width of the radio control in error state */
+  --radio-error-control-focus-border-width: 0.1875rem; /* The border width of the radio when it has an error and is focused */
+  --radio-focus-control-border-width: 0.1875rem; /* Border width of the radio control in focus state */
+  --radio-hover-control-border-width: 0.09375rem; /* Border width of the radio control in hover state */
+  --radio-rest-control-border-width: 0.09375rem; /* Border width of the radio control in rest state */
+  --segment-button-focus-border-width: 0.1875rem;
+  --segment-control-common-border-width: 0.09375rem;
+  --segment-control-error-border-width: 0.09375rem; /* Border width of the segment control in error state */
+  --segment-control-error-focus-border-width: 0.1875rem; /* The border width of the segment control when it has an error and is focused */
+  --segment-control-focus-border-width: 0.1875rem;
+  --select-disabled-border-width: 0.09375rem; /* Text input border width in disabled state */
+  --select-error-border-width: 0.09375rem; /* Text input border width in error state */
+  --select-error-focus-border-width: 0.1875rem; /* The border width of the select input when it has an error and is focused */
+  --select-focus-border-width: 0.1875rem; /* Text input border width in focus state */
+  --select-hover-border-width: 0.09375rem; /* Text input border width in hover state */
+  --select-rest-border-width: 0.09375rem; /* Text input border width in rest state */
+  --table-cell-common-border-width: 0.0625rem;
+  --table-cell-header-border-width: 0.125rem;
+  --text-input-disabled-border-width: 0.09375rem; /* Text input border width in disabled state */
+  --text-input-error-border-width: 0.09375rem; /* Text input border width in error state */
+  --text-input-error-focus-border-width: 0.1875rem; /* The border width of the text input when it has an error and is focused */
+  --text-input-focus-border-width: 0.1875rem; /* Text input border width in focus state */
+  --text-input-hover-border-width: 0.09375rem; /* Text input border width in hover state */
+  --text-input-rest-border-width: 0.09375rem; /* Text input border width in rest state */
+
+  /**
+   * @tokens Border
+   * @presenter BorderRadius
+   */
+  --accordion-border-radius: 0.75rem; /* The border radius of the accordion */
+  --accordion-header-focus-indicator-border-radius: 0.5rem; /* The border radius of the accordion focus indicator */
+  --add-on-button-focus-border-radius: 0.75rem; /* The radius of the focus indicator on the add-on button */
+  --button-border-radius: 0.75rem; /* Button border radius */
+  --card-border-radius: 1.75rem; /* Border radius of a card */
+  --checkbox-common-border-radius: 0.25rem; /* The border radius of the checkbox control */
+  --container-common-border-radius-lg: 1.75rem;
+  --container-common-border-radius-md: 1.25rem;
+  --container-common-border-radius-sm: 1rem;
+  --container-common-border-radius-xs: 0.75rem;
+  --container-common-focus-indicator-border-radius-sm: 0.5rem; /* The border radius of the focus indicator for containers inside other containers */
+  --content-area-border-radius: 1.75rem; /* Content area border radius */
+  --content-indicator-bold-border-radius: 1rem;
+  --details-border-radius: 0.75rem; /* Details component border radius */
+  --details-focus-indicator-border-radius: 0.5rem; /* Details component focus indicator border radius */
+  --filter-button-border-radius: 1.75rem; /* Filter button border radius */
+  --header-button-border-radius: 0.75rem; /* Border radius of the nav button */
+  --inline-message-border-radius: 0.75rem; /* Inline message border radius */
+  --input-common-border-radius-lg: 1rem;
+  --input-common-border-radius-md: 0.75rem;
+  --input-common-border-radius-sm: 0.5rem;
+  --input-common-border-radius-xs: 0.25rem;
+  --interactive-border-radius-default: 0.75rem; /* Component border radius */
+  --interactive-border-radius-pill: 1.75rem; /* Component border radius */
+  --interactive-text-focus-border-radius: 0.25rem;
+  --link-menu-border-radius: 1rem;
+  --link-mono-focus-border-radius: 0.25rem; /* Link focus indicator border radius */
+  --link-primary-focus-border-radius: 0.25rem; /* Link focus indicator border radius */
+  --link-status-bold-focus-border-radius: 0.25rem; /* Link focus indicator border radius */
+  --link-status-subtle-focus-border-radius: 0.25rem; /* Link focus indicator border radius */
+  --notification-badge-border-radius: 1rem; /* The border radius of the badge */
+  --radio-common-border-radius: 1rem; /* The border radius of the radio control and indicator */
+  --segment-button-common-border-radius: 0.5rem;
+  --segment-control-common-border-radius: 0.75rem;
+  --select-common-border-radius: 0.75rem; /* The radius of the text input field */
+  --table-border-radius: 1rem;
+  --text-input-common-border-radius: 0.75rem; /* The radius of the text input field */
+
+  /**
+   * @tokens Component themes
+   * @presenter Spacing
+   */
+  --content-pictogram-has-fill: true; /* Enables or disables the fill on pictograms */
+
+  /**
+   * @tokens Typography
+   * @presenter FontSize
+   */
+  --font-size-large-0-6: 0.75rem;
+  --font-size-large-0-8: 0.875rem;
+  --font-size-large-1: 1rem;
+  --font-size-large-2: 1.25rem;
+  --font-size-large-3: 1.5rem;
+  --font-size-large-4: 2rem;
+  --font-size-large-5: 2.5rem;
+  --font-size-large-6: 3rem;
+  --font-size-large-7: 3.875rem;
+  --font-size-large-8: 4.75rem;
+  --font-size-large-9: 7.1875rem;
+  --font-size-small-0-6: 0.75rem;
+  --font-size-small-0-8: 0.875rem;
+  --font-size-small-1: 1rem;
+  --font-size-small-2: 1.25rem;
+  --font-size-small-3: 1.5rem;
+  --font-size-small-4: 1.75rem;
+  --font-size-small-5: 2rem;
+  --font-size-small-6: 2.5rem;
+  --font-size-small-7: 3rem;
+  --font-size-small-8: 3.5rem;
+  --font-size-small-9: 4.25rem;
+
+  /**
+   * @tokens Typography
+   * @presenter LineHeight
+   */
+  --line-height-large-0-6: 0.875rem;
+  --line-height-large-0-8: 1.0625rem;
+  --line-height-large-1: 1.375rem;
+  --line-height-large-2: 1.75rem;
+  --line-height-large-3: 2.125rem;
+  --line-height-large-4: 2.625rem;
+  --line-height-large-5: 3rem;
+  --line-height-large-6: 3.625rem;
+  --line-height-large-7: 4.625rem;
+  --line-height-large-8: 5.6875rem;
+  --line-height-large-9: 7.1875rem;
+  --line-height-small-0-6: 0.875rem;
+  --line-height-small-0-8: 1.0625rem;
+  --line-height-small-1: 1.375rem;
+  --line-height-small-2: 1.75rem;
+  --line-height-small-3: 2.125rem;
+  --line-height-small-4: 2.25rem;
+  --line-height-small-5: 2.375rem;
+  --line-height-small-6: 3rem;
+  --line-height-small-7: 3.625rem;
+  --line-height-small-8: 4.1875rem;
+  --line-height-small-9: 4.8125rem;
+
+  /**
+   * @tokens Typography
+   * @presenter FontWeight
+   */
+  --font-weight-300-expressive: 300; /* Light font weight */
+  --font-weight-300-productive: 300; /* Light font weight */
+  --font-weight-400-expressive: 400; /* Regular font weight */
+  --font-weight-400-productive: 400; /* Regular font weight */
+  --font-weight-500-expressive: 500; /* Medium font weight */
+  --font-weight-500-productive: 500; /* Medium font weight */
+  --font-weight-700-expressive: 700; /* Bold font weight */
+  --font-weight-700-productive: 700; /* Bold font weight */
+
+  /**
+   * @tokens Typography
+   * @presenter LetterSpacing
+   */
+  --letter-spacing-condensed-expressive: -0.07500rem;
+  --letter-spacing-condensed-productive: -0.00625rem;
+  --letter-spacing-expanded-productive: 0.01875rem;
+  --letter-spacing-normal-expressive: -0.03125rem;
+  --letter-spacing-normal-productive: 0.01250rem;
+  --letter-spacing-ultra-condensed-expressive: -0.08125rem;
+  --letter-spacing-ultra-condensed-productive: -0.01250rem;
+
+  /**
+   * @tokens Typography
+   * @presenter FontFamily
+   */
+  --typeface-expressive: 'ABC Otto'; /* Defines the font family */
+  --typeface-productive: 'Nunito Sans'; /* Defines the font family */
+
+  /**
+   * @tokens Accordion
+   * @presenter Color
+   */
+  --accordion-background-colour: #ffffff; /* The background colour of the accordion */
+  --accordion-border-colour: #d3d3d3;
+  --accordion-header-focus-indicator-colour: #1d1d1b; /* The colour of the accordion focus indicator */
+
+  /**
+   * @tokens Accordion
+   * @presenter BorderRadius
+   */
+  --accordion-border-radius: 0.75rem; /* The border radius of the accordion */
+  --accordion-header-focus-indicator-border-radius: 0.5rem; /* The border radius of the accordion focus indicator */
+
+  /**
+   * @tokens Accordion
+   * @presenter Border
+   */
+  --accordion-border-width: 0.0625rem;
+  --accordion-header-focus-indicator-border-width: 0.1875rem; /* The border width of the accordion focus indicator */
+
+  /**
+   * @tokens Accordion
+   * @presenter Spacing
+   */
+  --accordion-content-gap: 1.25rem; /* The gap between elements in the accordion content slot */
+  --accordion-gap: 1.25rem; /* The gap between elements in the overall accordion */
+  --accordion-header-custom-content-height: 0.75rem; /* The gap between elements in the accordion header */
+  --accordion-header-gap: 1rem; /* The gap between elements in the accordion header */
+  --accordion-header-label-gap: 0.75rem; /* The gap between elements in the accordion header */
+  --accordion-header-label-min-width: 8.75rem;
+  --accordion-padding-x: 1.25rem; /* Left and right padding of the accordion */
+  --accordion-padding-y: 1.25rem; /* Top and bottom padding of the accordion */
+
+  /**
+   * @tokens Accordion Group
+   * @presenter Spacing
+   */
+  --accordion-group-gap: 1rem; /* The gap between accordions in an accordion group */
+
+  /**
+   * @tokens Add On Button
+   * @presenter Color
+   */
+  --add-on-button-active-colour: #1d1d1b; /* The colour of the add-on button in active state */
+  --add-on-button-disabled-colour: #d3d3d3; /* The colour of the add-on button in disabled state */
+  --add-on-button-focus-border-colour: #1d1d1b; /* The border colour of the add-on button in rest state */
+  --add-on-button-focus-colour: #858686; /* The colour of the add-on button in focus state */
+  --add-on-button-hover-colour: #4d4f4f; /* The colour of the add-on button in hover state */
+  --add-on-button-rest-colour: #858686; /* The colour of the add-on button in rest state */
+
+  /**
+   * @tokens Add On Button
+   * @presenter Border
+   */
+  --add-on-button-focus-border-width: 0.1875rem; /* Add-on button border width in focus state */
+
+  /**
+   * @tokens Add On Button
+   * @presenter BorderRadius
+   */
+  --add-on-button-focus-border-radius: 0.75rem; /* The radius of the focus indicator on the add-on button */
+
+  /**
+   * @tokens Banner
+   * @presenter Spacing
+   */
+  --banner-gap: 0.75rem; /* Gap between elements inside the banner */
+  --banner-padding-x: 1rem; /* Banner left and right padding */
+  --banner-padding-y: 0.75rem; /* Banner top and bottom padding */
+
+  /**
+   * @tokens Banner
+   * @presenter Color
+   */
+  --banner-background-colour: #4d4f4f; /* Banner background colour */
+  --banner-icon-colour: #ffffff; /* Banner icon colour */
+  --banner-text-colour: #ffffff; /* Banner text colour */
+
+  /**
+   * @tokens Body
+   * @presenter Color
+   */
+  --body-bold-background-colour: #005dba;
+  --body-default-background-colour: #f4f4f4; /* The default page background colour */
+  --body-regal-background-colour: #001d6e;
+  --body-subtle-background-colour: #42aeea;
+
+  /**
+   * @tokens Breadcrumb
+   * @presenter Border
+   */
+  --breadcrumb-border-width: 0.0625rem; /* The border width of the page-level breadcrumb */
+
+  /**
+   * @tokens Breadcrumb
+   * @presenter Color
+   */
+  --breadcrumb-border-colour: #d3d3d3; /* The border colour of the page-level breadcrumb */
+
+  /**
+   * @tokens Breadcrumb
+   * @presenter Spacing
+   */
+  --breadcrumb-gap: 0.5rem; /* The gap between links in the breadcrumb */
+  --breadcrumb-min-width: 20rem; /* The min width of the page-level breadcrumb, matching page breakpoint min width */
+  --breadcrumb-padding-x: 1rem; /* The left and right padding of the page-level breadcrumb, matching the page margin */
+  --breadcrumb-padding-y: 0.75rem; /* The top and bottom padding of the page-level breadcrumb */
+
+  /**
+   * @tokens Button
+   * @presenter BorderRadius
+   */
+  --button-border-radius: 0.75rem; /* Button border radius */
+
+  /**
+   * @tokens Button
+   * @presenter Border
+   */
+  --button-border-width: 0.09375rem; /* Button border width */
+  --button-border-width-focus: 0.1875rem; /* Button focus border width */
+
+  /**
+   * @tokens Button
+   * @presenter Spacing
+   */
+  --button-common-icon-only-min-height: 3rem; /* Button minimum height */
+  --button-common-icon-only-min-width: 3rem; /* Button minimum width */
+  --button-common-icon-only-padding-x: 0.75rem; /* Button padding left and right */
+  --button-common-icon-only-padding-y: 0.75rem; /* Button padding top and bottom */
+  --button-common-labelled-min-height: 3rem; /* Button minimum height */
+  --button-common-labelled-min-width: 3rem; /* Button minimum width */
+  --button-common-labelled-padding-x: 1rem; /* Button padding left and right */
+  --button-common-labelled-padding-y: 0.75rem; /* Button padding top and bottom */
+  --button-gap: 0.5rem; /* The gap between elements within a button */
+  --button-icon-width: 1.5rem;
+
+  /**
+   * @tokens Button
+   * @presenter Color
+   */
+  --button-primary-active-background-colour: #000039; /* Primary button active background */
+  --button-primary-active-border-colour: #000039; /* Primary button active border colour */
+  --button-primary-active-colour: #ffffff; /* Primary button active text and icon colour */
+  --button-primary-disabled-background-colour: #d3d3d3; /* Primary button disabled background */
+  --button-primary-disabled-border-colour: #d3d3d3; /* Primary button disabled border colour */
+  --button-primary-disabled-colour: #7a7b7b; /* Primary button disabled text and icon colour */
+  --button-primary-focus-background-colour: #005dba; /* Primary button focus background */
+  --button-primary-focus-colour: #ffffff; /* Primary button focus text and icon colour */
+  --button-primary-hover-background-colour: #001d6e; /* Primary button hover background */
+  --button-primary-hover-border-colour: #001d6e; /* Primary button hover border colour */
+  --button-primary-hover-colour: #ffffff; /* Primary button hover text and icon colour */
+  --button-primary-rest-background-colour: #005dba; /* Primary button default background */
+  --button-primary-rest-border-colour: #005dba; /* Primary button default border colour */
+  --button-primary-rest-colour: #ffffff; /* Primary button default text and icon colour */
+  --button-secondary-active-background-colour: #000039; /* Secondary button active background */
+  --button-secondary-active-border-colour: #000039; /* Secondary button active border colour */
+  --button-secondary-active-colour: #ffffff; /* Secondary button active text and icon colour */
+  --button-secondary-disabled-background-colour: #d3d3d3; /* Secondary button disabled background */
+  --button-secondary-disabled-border-colour: #d3d3d3; /* Secondary button disabled border colou */
+  --button-secondary-disabled-colour: #7a7b7b; /* Secondary button disabled text and icon colour */
+  --button-secondary-focus-background-colour: #ffffff; /* Secondary button focus background */
+  --button-secondary-focus-border-colour: #1d1d1b; /* Secondary button focus border colour */
+  --button-secondary-focus-colour: #1d1d1b; /* Secondary button focus text and icon colour */
+  --button-secondary-hover-background-colour: #001d6e; /* Secondary button hover background */
+  --button-secondary-hover-border-colour: #001d6e; /* Secondary button hover border colour */
+  --button-secondary-hover-colour: #ffffff; /* Secondary button hover text and icon colour */
+  --button-secondary-rest-background-colour: #ffffff; /* Secondary button default background */
+  --button-secondary-rest-border-colour: #1d1d1b; /* Secondary button default border colour */
+  --button-secondary-rest-colour: #1d1d1b; /* Secondary button default text and icon colour */
+  --button-status-active-background-colour: #1d1d1b; /* Status button active background */
+  --button-status-active-border-colour: #1d1d1b; /* Status button active border colour */
+  --button-status-active-colour: #ffffff; /* Status button active text and icon colour */
+  --button-status-disabled-background-colour: #bcbdbd; /* Status button disabled background */
+  --button-status-disabled-border-colour: #bcbdbd; /* Status button disabled border colour */
+  --button-status-disabled-colour: #858686; /* Status button disabled text and icon colour */
+  --button-status-focus-background-colour: #4d4f4f; /* Status button focus background */
+  --button-status-focus-colour: #ffffff; /* Status button focus text and icon colour */
+  --button-status-hover-background-colour: #343634; /* Status button hover background */
+  --button-status-hover-border-colour: #343634; /* Status button hover border colour */
+  --button-status-hover-colour: #ffffff; /* Status button hover text and icon colour */
+  --button-status-rest-background-colour: #4d4f4f; /* Status button default background */
+  --button-status-rest-border-colour: #4d4f4f; /* Status button default border colour */
+  --button-status-rest-colour: #ffffff; /* Status button default text and icon colour */
+
+  /**
+   * @tokens Button Group
+   * @presenter Spacing
+   */
+  --button-group-gap: 1rem; /* The gap between buttons in a group */
+
+  /**
+   * @tokens Card
+   * @presenter Color
+   */
+  --card-background-colour: #ffffff; /* Background colour of a card */
+  --card-border-colour: #d3d3d3; /* Border colour of a card */
+  --card-colour: #1d1d1b; /* Foreground colour of a card */
+  --card-interactive-active-background-colour: #005dba; /* Card header active state background colour */
+  --card-interactive-active-border-colour: #005dba; /* Card header active state border colour */
+  --card-interactive-active-colour: #ffffff; /* Card header active state foreground colour */
+  --card-interactive-focus-background-colour: #ffffff; /* Card header focus state background colour */
+  --card-interactive-focus-border-colour: #1d1d1b; /* Card header focus state border colour */
+  --card-interactive-focus-colour: #005dba; /* Card header focus state foreground colour */
+  --card-interactive-hover-background-colour: #aee1f7; /* Card header hover state background colour */
+  --card-interactive-hover-border-colour: #001d6e; /* Card header hover state border colour */
+  --card-interactive-hover-colour: #1d1d1b; /* Card header hover state foreground colour */
+  --card-interactive-rest-background-colour: #ffffff; /* Card header rest state background colour */
+  --card-interactive-rest-border-colour: #d3d3d3; /* Card header rest state border colour */
+  --card-interactive-rest-colour: #005dba; /* Card header rest state foreground colour */
+
+  /**
+   * @tokens Card
+   * @presenter BorderRadius
+   */
+  --card-border-radius: 1.75rem; /* Border radius of a card */
+
+  /**
+   * @tokens Card
+   * @presenter Border
+   */
+  --card-border-width: 0.0625rem; /* Border width of a card */
+  --card-interactive-active-border-width: 0.1875rem; /* Card header active state border width */
+  --card-interactive-focus-border-width: 0.1875rem; /* Card header focus state border width */
+  --card-interactive-hover-border-width: 0.1875rem; /* Card header hover state border width */
+  --card-interactive-rest-border-width: 0.0625rem; /* Card header rest state border width */
+
+  /**
+   * @tokens Card
+   * @presenter Spacing
+   */
+  --card-gap: 1.25rem; /* Gap between elements in a card */
+  --card-interactive-active-padding-right: 1.25rem; /* Card heading right padding value that allows the arrow to animate on hover */
+  --card-interactive-hover-padding-right: 1.25rem; /* Card heading right padding value that allows the arrow to animate on hover */
+  --card-min-width: 18rem; /* The minimum width a card can be in columns */
+  --card-padding-bottom: 1.25rem;
+  --card-padding-right: 1.75rem;
+  --card-padding-x: 1.75rem; /* Card padding left and right */
+  --card-padding-y: 1.25rem; /* Card padding top and bottom */
+
+  /**
+   * @tokens Checkbox
+   * @presenter Spacing
+   */
+  --checkbox-common-gap: 0.75rem; /* The gap between checkbox control and label */
+  --checkbox-scale-lg-control-size: 1.75rem; /* The width and height of the large checkbox button control */
+  --checkbox-scale-lg-gap: 2.25rem; /* The gap between radio control and label */
+  --checkbox-scale-lg-indicator-size: 1.75rem; /* The width and height of the large checkbox button indicator */
+  --checkbox-scale-sm-control-size: 1rem; /* The width and height of the small checkbox button control */
+  --checkbox-scale-sm-gap: 1.75rem; /* The gap between radio control and label */
+  --checkbox-scale-sm-indicator-size: 1rem; /* The width and height of the small checkbox button inidcator */
+
+  /**
+   * @tokens Checkbox
+   * @presenter Color
+   */
+  --checkbox-common-colour: #1d1d1b; /* Checkbox button label colour */
+  --checkbox-disabled-control-background-colour: #f4f4f4; /* Background colour of the checkbox control in disabled state */
+  --checkbox-disabled-control-border-colour: #d3d3d3; /* Border colour of the checkbox control in disabled state */
+  --checkbox-disabled-indicator-background-colour: #d3d3d3; /* Colour of the checkbox indicator in disabled state */
+  --checkbox-disabled-indicator-colour: #d3d3d3; /* Colour of the checkbox indicator in disabled state */
+  --checkbox-disabled-label-colour: #a6a7a7; /* Colour of the checkbox label in disabled state */
+  --checkbox-error-control-background-colour: #ffffff; /* Background colour of the checkbox control in error state */
+  --checkbox-error-control-border-colour: #c50b30; /* Border colour of the checkbox control in error state */
+  --checkbox-error-indicator-colour: #c50b30; /* Colour of the checkbox indicator in error state */
+  --checkbox-focus-control-background-colour: #ffffff; /* Background colour of the checkbox control in focus state */
+  --checkbox-focus-control-border-colour: #1d1d1b; /* Border colour of the checkbox control in focus state */
+  --checkbox-focus-indicator-colour: #005dba; /* Colour of the checkbox indicator in focus state */
+  --checkbox-hover-control-background-colour: #ffffff; /* Background colour of the checkbox control in hover state */
+  --checkbox-hover-control-border-colour: #4d4f4f; /* Border colour of the checkbox control in hover state */
+  --checkbox-hover-indicator-colour: #001d6e; /* Colour of the checkbox indicator in hover state */
+  --checkbox-rest-control-background-colour: #ffffff; /* Background colour of the checkbox control in rest state */
+  --checkbox-rest-control-border-colour: #858686; /* Border colour of the checkbox control in rest state */
+  --checkbox-rest-indicator-colour: #005dba; /* Colour of the checkbox indicator in rest state */
+
+  /**
+   * @tokens Checkbox
+   * @presenter BorderRadius
+   */
+  --checkbox-common-border-radius: 0.25rem; /* The border radius of the checkbox control */
+
+  /**
+   * @tokens Checkbox
+   * @presenter Border
+   */
+  --checkbox-disabled-control-border-width: 0.09375rem; /* Border width of the checkbox control in disabled state */
+  --checkbox-error-control-border-width: 0.09375rem; /* Border width of the checkbox control in error state */
+  --checkbox-error-control-focus-border-width: 0.1875rem; /* The border width of the checkbox when it has an error and is focused */
+  --checkbox-focus-control-border-width: 0.1875rem; /* Border width of the checkbox control in focus state */
+  --checkbox-hover-control-border-width: 0.09375rem; /* Border width of the checkbox control in hover state */
+  --checkbox-rest-control-border-width: 0.09375rem; /* Border width of the checkbox control in rest state */
+
+  /**
+   * @tokens Checkbox Group
+   * @presenter Spacing
+   */
+  --checkbox-group-lg-gap: 1.25rem;
+  --checkbox-group-sm-gap: 1rem;
+
+  /**
+   * @tokens Container
+   * @presenter Spacing
+   */
+  --container-common-min-width: 18rem; /* The min width that any container can be in columns */
+  --container-common-padding-lg: 1.75rem; /* Container padding left and right */
+  --container-common-padding-md: 1.25rem; /* Container padding top and bottom */
+  --container-common-padding-sm: 1rem; /* Container padding top and bottom */
+  --container-common-padding-xs: 0.75rem; /* Container padding top and bottom */
+  --container-common-size-xs: 1rem;
+
+  /**
+   * @tokens Container
+   * @presenter BorderRadius
+   */
+  --container-common-border-radius-lg: 1.75rem;
+  --container-common-border-radius-md: 1.25rem;
+  --container-common-border-radius-sm: 1rem;
+  --container-common-border-radius-xs: 0.75rem;
+  --container-common-focus-indicator-border-radius-sm: 0.5rem; /* The border radius of the focus indicator for containers inside other containers */
+
+  /**
+   * @tokens Container
+   * @presenter Border
+   */
+  --container-common-border-width-md: 0.125rem;
+  --container-common-border-width-xs: 0.0625rem;
+  --container-common-focus-indicator-border-width: 0.1875rem; /* The border width of the focus indicator for containers */
+
+  /**
+   * @tokens Container
+   * @presenter Color
+   */
+  --container-default-accent-1: #42aeea; /* Complementary colours to be used to give a pop of colour to containers */
+  --container-default-accent-2: #005dba; /* Complementary colours to be used to give a pop of colour to containers */
+  --container-default-background-colour: #ffffff; /* Background colours for containers */
+  --container-default-background-colour-reversed: #f4f4f4; /* Background colours for containers */
+  --container-default-border-colour-1: #d3d3d3; /* Border colours for containers. Use for separators and borders, when required. */
+  --container-default-border-colour-2: #d3d3d3; /* Border colours for containers. Use for separators and borders, when required. */
+  --container-default-border-colour-3: #4d4f4f; /* Border colours for containers. Use for separators and borders, when required. */
+  --container-default-border-colour-4: #f4f4f4; /* Border colours for containers. Use for separators and borders, when required. */
+  --container-default-focus-indicator-colour: #1d1d1b; /* The colour of the focus indicator for containers */
+  --container-status-bold-background-colour: #4d4f4f; /* Use for background colours on info, success, warning and error containers */
+  --container-status-subtle-background-colour: #f4f4f4; /* Use for background colours on info, success, warning and error containers */
+
+  /**
+   * @tokens Content
+   * @presenter Spacing
+   */
+  --content-gap-column-lg: 2.25rem; /* For spacing several content components horizontally */
+  --content-gap-column-md: 1.75rem; /* For spacing several content components horizontally */
+  --content-gap-column-sm: 1.25rem; /* For spacing several content components horizontally */
+  --content-gap-column-xl: 3rem; /* For spacing several content components horizontally */
+  --content-gap-column-xs: 1rem; /* For spacing several content components horizontally */
+  --content-gap-inside-lg: 1rem; /* For spacing content inside a content component */
+  --content-gap-inside-md: 0.75rem; /* For spacing content inside a content component */
+  --content-gap-inside-sm: 0.5rem; /* For spacing content inside a content component */
+  --content-gap-inside-xl: 1.25rem; /* For spacing content inside a content component */
+  --content-gap-inside-xs: 0.25rem; /* For spacing content inside a content component */
+  --content-gap-row-lg: 2.25rem; /* For spacing several content components vertically */
+  --content-gap-row-md: 1.75rem; /* For spacing several content components vertically */
+  --content-gap-row-sm: 1.25rem; /* For spacing several content components vertically */
+  --content-gap-row-xl: 3rem; /* For spacing several content components vertically */
+  --content-gap-row-xs: 1rem; /* For spacing several content components vertically */
+  --content-icon-size-sm: 1.5rem; /* Defines baseline width and height for the UI icon */
+  --content-indicator-bold-padding: 0.25rem;
+  --content-indicator-bold-size: 1rem;
+  --content-indicator-progress-size: 0.25rem;
+  --content-pictogram-has-fill: true; /* Enables or disables the fill on pictograms */
+  --content-pictogram-size-lg: 7.5rem;
+  --content-pictogram-size-md: 5rem;
+  --content-pictogram-size-responsive: 5rem;
+  --content-pictogram-size-xl: 10rem;
+
+  /**
+   * @tokens Content
+   * @presenter Color
+   */
+  --content-icon-brand-primary-colour: #005dba; /* For setting the colour fill of icons to the primary brand colour */
+  --content-icon-negative-colour: #c50b30; /* For setting the colour fill of icons to the primary brand colour */
+  --content-icon-positive-colour: #00633d; /* For setting the colour fill of icons to the primary brand colour */
+  --content-indicator-bold-background-colour: #005dba;
+  --content-indicator-bold-colour: #ffffff;
+  --content-indicator-progress-background-colour: #42aeea;
+  --content-indicator-progress-colour: #001d6e;
+  --content-pictogram-fill: #42aeea; /* Use for pictogram fills */
+  --content-pictogram-outline: #1d1d1b; /* Use for pictogram outlines */
+  --content-pictogram-status-fill: #d3d3d3; /* Use for pictogram fills */
+  --content-seperator-colour: #d3d3d3;
+  --content-status-bold-colour: #ffffff; /* Use to fill graphic elements with a status colour on bold backgrounds */
+  --content-status-subtle-colour: #1d1d1b; /* Use to fill graphic elements with a status colour on subtle backgrounds */
+
+  /**
+   * @tokens Content
+   * @presenter BorderRadius
+   */
+  --content-indicator-bold-border-radius: 1rem;
+
+  /**
+   * @tokens Content
+   * @presenter Border
+   */
+  --content-seperator-border-width-sm: 0.09375rem;
+  --content-seperator-border-width-xs: 0.0625rem;
+
+  /**
+   * @tokens Content Area
+   * @presenter Spacing
+   */
+  --content-area-gap: 1.75rem; /* The row gap between items in a content area */
+  --content-area-padding-x: 1.75rem; /* Content area padding left and right */
+  --content-area-padding-y: 1.25rem; /* Content area padding top and bottom */
+
+  /**
+   * @tokens Content Area
+   * @presenter BorderRadius
+   */
+  --content-area-border-radius: 1.75rem; /* Content area border radius */
+
+  /**
+   * @tokens Content Area
+   * @presenter Color
+   */
+  --content-area-background-colour: #ffffff; /* Content area background colour */
+  --content-area-border-colour: #d3d3d3; /* Content area border colour */
+  --content-area-colour: #1d1d1b; /* Content area foreground colour */
+
+  /**
+   * @tokens Content Area
+   * @presenter Border
+   */
+  --content-area-border-width: 0.0625rem; /* Content area border width */
+
+  /**
+   * @tokens Data Point
+   * @presenter Spacing
+   */
+  --data-point-gap: 0.25rem; /* The gap between the label and value */
+
+  /**
+   * @tokens Data Point
+   * @presenter Color
+   */
+  --data-point-label-colour: #4d4f4f; /* The label text colour */
+  --data-point-value-colour: #1d1d1b; /* The value text colour */
+
+  /**
+   * @tokens Data Point Group
+   * @presenter Spacing
+   */
+  --data-point-group-column-gap: 2.25rem; /* The gap between data points */
+  --data-point-group-row-gap: 2.25rem; /* The gap between data points */
+
+  /**
+   * @tokens Details
+   * @presenter Spacing
+   */
+  --details-active-padding-bottom: 1rem; /* Details component bottom padding applied when component is active (open) */
+  --details-gap: 0.75rem; /* Gap between element inside an Details component */
+  --details-padding-x: 0.75rem; /* Details component left and right padding */
+  --details-padding-y: 0.75rem; /* Details component top and bottom padding */
+
+  /**
+   * @tokens Details
+   * @presenter BorderRadius
+   */
+  --details-border-radius: 0.75rem; /* Details component border radius */
+  --details-focus-indicator-border-radius: 0.5rem; /* Details component focus indicator border radius */
+
+  /**
+   * @tokens Details
+   * @presenter Color
+   */
+  --details-focus-indicator-colour: #1d1d1b; /* Details component focus indicator colour */
+  --details-status-background-colour: #f4f4f4; /* Details component background colour */
+  --details-status-icon-colour: #1d1d1b; /* Details component icon colour */
+  --details-status-text-colour: #1d1d1b; /* Details component text colour */
+
+  /**
+   * @tokens Details
+   * @presenter Border
+   */
+  --details-focus-indicator-border-width: 0.1875rem; /* Details component focus indicator border width */
+
+  /**
+   * @tokens Filter Button
+   * @presenter Color
+   */
+  --filter-button-active-background-colour: #001d6e; /* Filter button active state background colour */
+  --filter-button-active-border-colour: #001d6e; /* Filter button active state border colour */
+  --filter-button-active-colour: #ffffff; /* Filter button active state text and icon colour */
+  --filter-button-disabled-background-colour: #f4f4f4; /* Filter button default state background colour */
+  --filter-button-disabled-border-colour: #d3d3d3; /* Filter button default state border colour */
+  --filter-button-disabled-colour: #d3d3d3; /* Filter button default state text and icon colour */
+  --filter-button-focus-background-colour: #aee1f7; /* Filter button focus state background colour */
+  --filter-button-focus-border-colour: #001d6e; /* Filter button focus state border colour */
+  --filter-button-focus-colour: #001d6e; /* Filter button focus state text and icon colour */
+  --filter-button-hover-background-colour: #005dba; /* Filter button hover state background colour */
+  --filter-button-hover-border-colour: #005dba; /* Filter button hover state border colour */
+  --filter-button-hover-colour: #ffffff; /* Filter button hover state text and icon colour */
+  --filter-button-rest-background-colour: #aee1f7; /* Filter button default state background colour */
+  --filter-button-rest-border-colour: #001d6e; /* Filter button default state border colour */
+  --filter-button-rest-colour: #001d6e; /* Filter button default state text and icon colour */
+
+  /**
+   * @tokens Filter Button
+   * @presenter BorderRadius
+   */
+  --filter-button-border-radius: 1.75rem; /* Filter button border radius */
+
+  /**
+   * @tokens Filter Button
+   * @presenter Border
+   */
+  --filter-button-border-width: 0.09375rem; /* Filter button border width */
+  --filter-button-border-width-focus: 0.1875rem; /* Filter button border width on focus only */
+
+  /**
+   * @tokens Filter Button
+   * @presenter Spacing
+   */
+  --filter-button-gap: 0.5rem; /* Filter button internal gap */
+  --filter-button-min-height: 3rem; /* Focus button minimum height */
+  --filter-button-padding-x: 1rem; /* Filter button left and right padding */
+
+  /**
+   * @tokens Filter Button Group
+   * @presenter Spacing
+   */
+  --filter-button-group-gap: 1rem; /* The gap between buttons in a group */
+
+  /**
+   * @tokens Footer
+   * @presenter Color
+   */
+  --footer-background-colour: #ffffff; /* Footer background colour */
+  --footer-border-colour: #d3d3d3; /* Footer borders and separators colour */
+
+  /**
+   * @tokens Footer
+   * @presenter Border
+   */
+  --footer-border-width: 0.0625rem; /* Footer borders and separators width */
+
+  /**
+   * @tokens Footer
+   * @presenter Spacing
+   */
+  --footer-gap: 1.75rem; /* Gap between elements in the footer */
+  --footer-logo-gap: 2.25rem; /* Gap between the logo and stickers in the footer */
+  --footer-logo-size: 5rem; /* The size of the logo in the footer. Currently connected to the wrong variable and needs replacing with a structure that mimics the header */
+  --footer-min-width: 20rem; /* The minimum width of the footer, matching page min-width */
+  --footer-padding-x: 1rem; /* The left and right padding of the footer, matching page margin */
+  --footer-padding-y: 1.75rem; /* The top and bottom padding of the footer */
+
+  /**
+   * @tokens Footer Link Group
+   * @presenter Spacing
+   */
+  --footer-link-group-link-gap: 1rem; /* The gap between links */
+  --footer-link-group-social-gap: 0.75rem; /* The gap between social icons */
+
+  /**
+   * @tokens Form Field
+   * @presenter Spacing
+   */
+  --form-field-gap: 1rem; /* The gap between label and hint and the field itself */
+
+  /**
+   * @tokens Header
+   * @presenter Color
+   */
+  --header-button-active-colour: #001d6e; /* Hover state text colour of the nav button */
+  --header-button-active-hover-indicator: #001d6e; /* Hover state hover indicator colour of the nav button */
+  --header-button-expanded-background-colour: #005dba; /* Active state background colour of the nav button */
+  --header-button-expanded-colour: #ffffff; /* Active state text colour of the nav button */
+  --header-button-expanded-hover-indicator: #005dba; /* Active state hover indicator colour of the nav button */
+  --header-button-focus-border-colour: #ffffff; /* Focus state border colour of the nav button */
+  --header-button-focus-colour: #1d1d1b; /* Focus state text colour of the nav button */
+  --header-button-hover-colour: #1d1d1b; /* Hover state text colour of the nav button */
+  --header-button-hover-hover-indicator: #005dba; /* Hover state hover indicator colour of the nav button */
+  --header-button-rest-colour: #1d1d1b; /* Rest state hover text colour of the nav button */
+  --header-button-rest-hover-indicator: #d3d3d3; /* Rest state hover indicator colour of the nav button */
+  --header-container-background-colour: #ffffff; /* Background colour of the nav container */
+
+  /**
+   * @tokens Header
+   * @presenter Spacing
+   */
+  --header-button-active-indicator-height: 0.125rem; /* The height of the underline on the header button active state */
+  --header-button-gap: 0.5rem; /* Gap between elements inside the nav button */
+  --header-button-hover-indicator-height: 0.125rem; /* The height of the underline on the header button hover state */
+  --header-button-icon-size: 1.5rem; /* The width and height of the icon */
+  --header-button-min-height: 3rem; /* Min height of the nav button */
+  --header-button-min-width: 3rem; /* Min width of the nav button */
+  --header-button-padding-bottom: 0.75rem;
+  --header-button-padding-default-x: 0.75rem; /* Left and right padding of the nav button */
+  --header-button-padding-right: 0.75rem;
+  --header-button-padding-small-x: 0.5rem; /* Left and right padding of the nav button */
+  --header-button-padding-y: 0.75rem; /* Top and bottom padding of the nav button */
+  --header-button-text-icon-label-height: 0.875rem; /* Ensures the label container height matches the text line height when the badge is visible */
+  --header-button-text-label-height: 1.375rem; /* Ensures the label container height matches the text line height when the badge is visible */
+  --header-container-gap: 1.75rem; /* Gap between elements inside the nav container */
+  --header-container-logo-gap-lg: 1.25rem; /* Gap between logos in the nav for LG+ breakpoint */
+  --header-container-logo-gap-sm: 1rem; /* Gap between logos in the nav for SM breakpoint */
+  --header-container-max-height: 5.5625rem; /* The overall max height of the nav bar */
+  --header-container-min-width: 20rem; /* Min width of nav container */
+  --header-container-padding-x: 1rem; /* Left and right padding of nav container */
+  --header-container-padding-y: 0.5rem; /* Top and bottom padding of nav container */
+  --header-logo-container-max-height-lg: 4rem; /* The max height of the logo slot for LG+ breakpoints */
+  --header-logo-container-max-height-sm: 2.75rem; /* The max height of the logo slot for SM breakpoint */
+  --header-logo-container-max-width-lg: 14.5rem; /* The max width of the logo slot for LG+ breakpoints */
+  --header-logo-container-max-width-sm: 10.3125rem; /* The max width of the logo slot for SM breakpoint */
+  --header-logo-container-padding-bottom-lg: 0.75rem; /* Padding to ensure that the logo optically aligns to other content in the nav */
+  --header-logo-container-padding-bottom-sm: 0.5rem; /* Padding to ensure that the logo optically aligns to other content in the nav */
+  --header-logo-primary-max-height-lg: 3.25rem; /* The max height of the primary logo for LG+ breakpoints */
+  --header-logo-primary-max-height-sm: 2.25rem; /* The max height of the primary logo for SM breakpoint */
+  --header-logo-secondary-height-lg: 2.25rem; /* The height of the secondary logo for LG+ breakpoints */
+  --header-logo-secondary-height-sm: 1.5625rem; /* The height of the secondary logo for SM breakpoint */
+  --header-logo-secondary-max-width-lg: 7.5rem; /* The max width of the secondary logo for LG+ breakpoints */
+  --header-logo-secondary-max-width-sm: 5.25rem; /* The max width of the secondary logo for SM breakpoint */
+
+  /**
+   * @tokens Header
+   * @presenter BorderRadius
+   */
+  --header-button-border-radius: 0.75rem; /* Border radius of the nav button */
+
+  /**
+   * @tokens Header
+   * @presenter Border
+   */
+  --header-button-border-width-focus: 0.1875rem; /* Border width of the focus state of the nav button */
+
+  /**
+   * @tokens Inline Message
+   * @presenter Spacing
+   */
+  --inline-message-gap: 0.75rem; /* Gap between element inside an inline message */
+  --inline-message-padding-x: 0.75rem; /* Inline message left and right padding */
+  --inline-message-padding-y: 0.75rem; /* Inline message top and bottom padding */
+
+  /**
+   * @tokens Inline Message
+   * @presenter BorderRadius
+   */
+  --inline-message-border-radius: 0.75rem; /* Inline message border radius */
+
+  /**
+   * @tokens Inline Message
+   * @presenter Color
+   */
+  --inline-message-background-colour: #f4f4f4; /* Inline message background colour */
+  --inline-message-icon-colour: #1d1d1b; /* Inline message icon colour */
+  --inline-message-text-colour: #1d1d1b; /* Inline message text colour */
+
+  /**
+   * @tokens Input
+   * @presenter BorderRadius
+   */
+  --input-common-border-radius-lg: 1rem;
+  --input-common-border-radius-md: 0.75rem;
+  --input-common-border-radius-sm: 0.5rem;
+  --input-common-border-radius-xs: 0.25rem;
+
+  /**
+   * @tokens Input
+   * @presenter Spacing
+   */
+  --input-common-gap-lg: 1rem;
+  --input-common-gap-md: 0.75rem;
+  --input-common-gap-sm: 0.5rem;
+  --input-common-gap-xl: 1.25rem;
+  --input-common-gap-xs: 0.25rem;
+  --input-common-gap-xxl: 1.75rem;
+  --input-common-gap-xxxl: 2.25rem;
+  --input-common-min-width: 14.5rem;
+  --input-common-padding-lg: 1rem;
+  --input-common-padding-md: 0.75rem;
+  --input-common-padding-sm: 0.5rem;
+  --input-common-padding-xs: 0.25rem;
+  --input-common-scale-lg: 1.75rem; /* Use for defining width or height of an input */
+  --input-common-scale-md: 1.25rem; /* Use for defining width or height of an input */
+  --input-common-scale-sm: 1rem; /* Use for defining width or height of an input */
+  --input-common-scale-xl: 2.25rem; /* Use for defining width or height of an input */
+  --input-common-scale-xs: 0.75rem; /* Use for defining width or height of an input */
+  --input-common-scale-xxl: 3rem; /* Use for defining width or height of an input */
+  --input-common-scale-xxs: 0.5rem; /* Use for defining width or height of an input */
+
+  /**
+   * @tokens Input
+   * @presenter Color
+   */
+  --input-disabled-border-colour: #d3d3d3;
+  --input-disabled-colour: #a6a7a7;
+  --input-disabled-indicator-colour: #d3d3d3; /* For inputs that can be selected or deselected, use this colour as the indicator fill for the disabled state */
+  --input-disabled-neutral-background-colour: #f4f4f4;
+  --input-disabled-neutral-reverse-background-colour: #f4f4f4;
+  --input-error-border-colour: #c50b30;
+  --input-error-colour: #1d1d1b;
+  --input-error-indicator-colour: #c50b30; /* For inputs that can be selected or deselected, use this colour as the indicator fill for the error state */
+  --input-error-neutral-background-colour: #ffffff;
+  --input-error-neutral-reverse-background-colour: #f4f4f4;
+  --input-focus-border-colour: #1d1d1b;
+  --input-focus-colour: #1d1d1b;
+  --input-focus-indicator-colour: #005dba; /* For inputs that can be selected or deselected, use this colour as the indicator fill for the focus state */
+  --input-focus-neutral-background-colour: #ffffff;
+  --input-focus-neutral-reverse-background-colour: #f4f4f4;
+  --input-hover-border-colour: #4d4f4f;
+  --input-hover-colour: #1d1d1b;
+  --input-hover-indicator-colour: #001d6e; /* For inputs that can be selected or deselected, use this colour as the indicator fill for the hover state */
+  --input-hover-neutral-background-colour: #ffffff;
+  --input-hover-neutral-reverse-background-colour: #f4f4f4;
+  --input-rest-border-colour: #858686;
+  --input-rest-colour: #1d1d1b;
+  --input-rest-indicator-colour: #005dba; /* For inputs that can be selected or deselected, use this colour as the indicator fill for the rest state */
+  --input-rest-neutral-background-colour: #ffffff;
+  --input-rest-neutral-reverse-background-colour: #f4f4f4;
+  --input-validation-colour: #1d1d1b; /* Use for text and icons for info, success, warning and error states */
+
+  /**
+   * @tokens Input
+   * @presenter Border
+   */
+  --input-disabled-border-width: 0.09375rem;
+  --input-error-border-width: 0.09375rem;
+  --input-error-focus-border-width: 0.1875rem; /* The border width of an input when it has an error and is focused */
+  --input-focus-border-width: 0.1875rem;
+  --input-hover-border-width: 0.09375rem;
+  --input-rest-border-width: 0.09375rem;
+
+  /**
+   * @tokens Interactive
+   * @presenter Color
+   */
+  --interactive-add-on-active-colour: #1d1d1b;
+  --interactive-add-on-disabled-colour: #d3d3d3;
+  --interactive-add-on-focus-border-colour: #1d1d1b;
+  --interactive-add-on-focus-colour: #858686;
+  --interactive-add-on-hover-colour: #4d4f4f;
+  --interactive-add-on-rest-colour: #858686;
+  --interactive-primary-active-background-colour: #000039; /* Primary active background colour for interactive components */
+  --interactive-primary-active-border-colour: #000039; /* Primary active border colour for interactive components */
+  --interactive-primary-active-colour: #ffffff; /* Primary active foreground colour for interactive components. Use for text and icons. */
+  --interactive-primary-disabled-background-colour: #d3d3d3; /* Primary disabled background colour for interactive components */
+  --interactive-primary-disabled-border-colour: #d3d3d3; /* Primary disabled foreground colour for interactive components. Use for text and icons. */
+  --interactive-primary-disabled-colour: #7a7b7b; /* Primary disabled border colour for interactive components */
+  --interactive-primary-focus-background-colour: #005dba; /* Primary focus background colour for interactive components */
+  --interactive-primary-focus-border-colour: #005dba; /* Primary focus border colour for interactive components */
+  --interactive-primary-focus-colour: #ffffff; /* Primary focus foreground colour for interactive components. Use for text and icons. */
+  --interactive-primary-hover-background-colour: #001d6e; /* Primary hover background colour for interactive components */
+  --interactive-primary-hover-border-colour: #001d6e; /* Primary hover border colour for interactive components */
+  --interactive-primary-hover-colour: #ffffff; /* Primary hover foreground colour for interactive components. Use for text and icons. */
+  --interactive-primary-rest-background-colour: #005dba; /* Primary default background colour for interactive components */
+  --interactive-primary-rest-border-colour: #005dba; /* Primary default border colour for interactive components */
+  --interactive-primary-rest-colour: #ffffff; /* Primary default foreground colour for interactive components. Use for text and icons. */
+  --interactive-primary-reversed-active-background-colour: #005dba; /* Primary active background colour for reversed interactive components */
+  --interactive-primary-reversed-active-border-colour-dark: #005dba;
+  --interactive-primary-reversed-active-border-colour-light: #ffffff; /* Primary active border colour for reversed interactive components */
+  --interactive-primary-reversed-active-colour: #ffffff; /* Primary active foreground colour for reversed interactive components. Use for text and icons. */
+  --interactive-primary-reversed-active-colour-muted: #ffffff; /* Primary active foreground colour for reversed interactive components. Use for text and icons. */
+  --interactive-primary-reversed-disabled-background-colour: #f4f4f4; /* Primary disabled background colour for reversed interactive components */
+  --interactive-primary-reversed-disabled-border-colour: #d3d3d3; /* Primary disabled border colour for reversed interactive components */
+  --interactive-primary-reversed-disabled-colour: #d3d3d3; /* Primary disabled foreground colour for reversed interactive components. Use for text and icons. */
+  --interactive-primary-reversed-focus-background-colour: #ffffff; /* Primary focus background colour for reversed interactive components */
+  --interactive-primary-reversed-focus-border-colour-dark: #ffffff;
+  --interactive-primary-reversed-focus-border-colour-light: #ffffff; /* Primary focus border colour for reversed interactive components */
+  --interactive-primary-reversed-focus-colour: #1d1d1b; /* Primary focus foreground colour for reversed interactive components. Use for text and icons. */
+  --interactive-primary-reversed-focus-colour-muted: #1d1d1b; /* Primary focus foreground colour for reversed interactive components. Use for text and icons. */
+  --interactive-primary-reversed-hover-background-colour: #aee1f7; /* Primary hover background colour for reversed interactive components */
+  --interactive-primary-reversed-hover-border-colour-dark: #1d1d1b;
+  --interactive-primary-reversed-hover-border-colour-light: #001d6e; /* Primary hover border colour for reversed interactive components */
+  --interactive-primary-reversed-hover-colour: #1d1d1b; /* Primary hover foreground colour for reversed interactive components. Use for text and icons. */
+  --interactive-primary-reversed-hover-colour-muted: #1d1d1b; /* Primary hover foreground colour for reversed interactive components. Use for text and icons. */
+  --interactive-primary-reversed-rest-background-colour: #ffffff; /* Primary default background colour for reversed interactive components */
+  --interactive-primary-reversed-rest-border-colour-dark: #1d1d1b;
+  --interactive-primary-reversed-rest-border-colour-light: #d3d3d3; /* Primary default border colour for reversed interactive components */
+  --interactive-primary-reversed-rest-colour: #1d1d1b; /* Primary default foreground colour for reversed interactive components. Use for text and icons. */
+  --interactive-primary-reversed-rest-colour-muted: #4d4f4f; /* Primary default foreground colour for reversed interactive components. Use for text and icons. */
+  --interactive-primary-reversed-subtle-active-background-colour: #001d6e; /* Primary active background colour for reversed interactive components */
+  --interactive-primary-reversed-subtle-active-border-colour: #001d6e;
+  --interactive-primary-reversed-subtle-active-colour: #ffffff; /* Primary active foreground colour for reversed interactive components. Use for text and icons. */
+  --interactive-primary-reversed-subtle-disabled-background-colour: #d3d3d3; /* Primary disabled background colour for reversed interactive components */
+  --interactive-primary-reversed-subtle-disabled-border-colour: #d3d3d3; /* Primary disabled border colour for reversed interactive components */
+  --interactive-primary-reversed-subtle-disabled-colour: #7a7b7b; /* Primary disabled foreground colour for reversed interactive components. Use for text and icons. */
+  --interactive-primary-reversed-subtle-focus-background-colour: #aee1f7; /* Primary focus background colour for reversed interactive components */
+  --interactive-primary-reversed-subtle-focus-border-colour: #001d6e;
+  --interactive-primary-reversed-subtle-focus-colour: #001d6e; /* Primary focus foreground colour for reversed interactive components. Use for text and icons. */
+  --interactive-primary-reversed-subtle-hover-background-colour: #005dba; /* Primary hover background colour for reversed interactive components */
+  --interactive-primary-reversed-subtle-hover-border-colour: #005dba;
+  --interactive-primary-reversed-subtle-hover-colour: #ffffff; /* Primary hover foreground colour for reversed interactive components. Use for text and icons. */
+  --interactive-primary-reversed-subtle-rest-background-colour: #aee1f7; /* Primary default background colour for reversed interactive components */
+  --interactive-primary-reversed-subtle-rest-border-colour: #001d6e;
+  --interactive-primary-reversed-subtle-rest-colour: #001d6e; /* Primary default foreground colour for reversed interactive components. Use for text and icons. */
+  --interactive-secondary-active-background-colour: #000039; /* Secondary active background colour for interactive components */
+  --interactive-secondary-active-border-colour: #000039; /* Secondary active border colour for interactive components */
+  --interactive-secondary-active-colour: #ffffff; /* Secondary active foreground colour for interactive components. Use for text and icons. */
+  --interactive-secondary-disabled-background-colour: #d3d3d3; /* Secondary disabled background colour for interactive components */
+  --interactive-secondary-disabled-border-colour: #d3d3d3; /* Secondary disabled border colour for interactive components */
+  --interactive-secondary-disabled-colour: #7a7b7b; /* Secondary disabled foreground colour for interactive components. Use for text and icons. */
+  --interactive-secondary-focus-background-colour: #ffffff; /* Secondary focus background colour for interactive components */
+  --interactive-secondary-focus-border-colour: #1d1d1b; /* Secondary focus border colour for interactive components */
+  --interactive-secondary-focus-colour: #1d1d1b; /* Secondary focus foreground colour for interactive components. Use for text and icons. */
+  --interactive-secondary-hover-background-colour: #001d6e; /* Secondary hover background colour for interactive components */
+  --interactive-secondary-hover-border-colour: #001d6e; /* Secondary hover border colour for interactive components */
+  --interactive-secondary-hover-colour: #ffffff; /* Secondary hover foreground colour for interactive components. Use for text and icons. */
+  --interactive-secondary-rest-background-colour: #ffffff; /* Secondary default background colour for interactive components */
+  --interactive-secondary-rest-border-colour: #1d1d1b; /* Secondary default border colour for interactive components */
+  --interactive-secondary-rest-colour: #1d1d1b; /* Secondary default foreground colour for interactive components. Use for text and icons. */
+  --interactive-secondary-reversed-active-border-colour: #001d6e; /* Primary hover border colour for reversed interactive components */
+  --interactive-secondary-reversed-active-colour: #001d6e; /* Primary hover foreground colour for reversed interactive components. Use for text and icons. */
+  --interactive-secondary-reversed-disabled-background-colour: #f4f4f4; /* Primary disabled background colour for reversed interactive components */
+  --interactive-secondary-reversed-disabled-border-colour: #d3d3d3; /* Primary disabled border colour for reversed interactive components */
+  --interactive-secondary-reversed-disabled-colour: #d3d3d3; /* Primary disabled foreground colour for reversed interactive components. Use for text and icons. */
+  --interactive-secondary-reversed-expanded-background-colour: #005dba; /* Primary active background colour for reversed interactive components */
+  --interactive-secondary-reversed-expanded-border-colour: #ffffff; /* Primary active border colour for reversed interactive components */
+  --interactive-secondary-reversed-expanded-colour: #ffffff; /* Primary active foreground colour for reversed interactive components. Use for text and icons. */
+  --interactive-secondary-reversed-focus-border-colour: #ffffff; /* Primary focus border colour for reversed interactive components */
+  --interactive-secondary-reversed-focus-colour: #1d1d1b; /* Primary focus foreground colour for reversed interactive components. Use for text and icons. */
+  --interactive-secondary-reversed-hover-border-colour: #005dba; /* Primary hover border colour for reversed interactive components */
+  --interactive-secondary-reversed-hover-colour: #1d1d1b; /* Primary hover foreground colour for reversed interactive components. Use for text and icons. */
+  --interactive-secondary-reversed-rest-border-colour: #d3d3d3; /* Primary default border colour for reversed interactive components */
+  --interactive-secondary-reversed-rest-colour: #1d1d1b; /* Primary default foreground colour for reversed interactive components. Use for text and icons. */
+  --interactive-status-active-background-colour: #1d1d1b; /* Primary active background colour for interactive components */
+  --interactive-status-active-border-colour: #1d1d1b; /* Primary active border colour for interactive components */
+  --interactive-status-active-colour: #ffffff; /* Primary active foreground colour for interactive components. Use for text and icons. */
+  --interactive-status-disabled-background-colour: #bcbdbd; /* Primary disabled background colour for interactive components */
+  --interactive-status-disabled-border-colour: #bcbdbd; /* Primary disabled foreground colour for interactive components. Use for text and icons. */
+  --interactive-status-disabled-colour: #858686; /* Primary disabled border colour for interactive components */
+  --interactive-status-focus-background-colour: #4d4f4f; /* Primary focus background colour for interactive components */
+  --interactive-status-focus-border-colour: #4d4f4f; /* Primary focus border colour for interactive components */
+  --interactive-status-focus-colour: #ffffff; /* Primary focus foreground colour for interactive components. Use for text and icons. */
+  --interactive-status-hover-background-colour: #343634; /* Primary hover background colour for interactive components */
+  --interactive-status-hover-border-colour: #343634; /* Primary hover border colour for interactive components */
+  --interactive-status-hover-colour: #ffffff; /* Primary hover foreground colour for interactive components. Use for text and icons. */
+  --interactive-status-rest-background-colour: #4d4f4f; /* Primary default background colour for interactive components */
+  --interactive-status-rest-border-colour: #4d4f4f; /* Primary default border colour for interactive components */
+  --interactive-status-rest-colour: #ffffff; /* Primary default foreground colour for interactive components. Use for text and icons. */
+  --interactive-text-default-active: #000a52; /* Active interactive text colour */
+  --interactive-text-default-focus: #005dba; /* Focus interactive text and focus indicator colour */
+  --interactive-text-default-hover: #001d6e; /* Hover interactive text colour */
+  --interactive-text-default-rest: #005dba; /* Default interactive text colour */
+  --interactive-text-default-visited: #005dba; /* Visited interactive text colour */
+  --interactive-text-mono-active: #000000; /* Active interactive text colour */
+  --interactive-text-mono-focus: #000000; /* Focus interactive text and focus indicator colour */
+  --interactive-text-mono-hover: #000000; /* Hover interactive text colour */
+  --interactive-text-mono-rest: #000000; /* Default interactive text colour */
+  --interactive-text-mono-visited: #000000; /* Visited interactive text colour */
+  --interactive-text-status-bold-active: #f4f4f4; /* Active interactive text colour */
+  --interactive-text-status-bold-focus: #f4f4f4; /* Focus interactive text and focus indicator colour */
+  --interactive-text-status-bold-hover: #f4f4f4; /* Hover interactive text colour */
+  --interactive-text-status-bold-rest: #f4f4f4; /* Default interactive text colour */
+  --interactive-text-status-bold-visited: #f4f4f4; /* Visited interactive text colour */
+  --interactive-text-status-subtle-active: #000000; /* Active interactive text colour */
+  --interactive-text-status-subtle-focus: #000000; /* Focus interactive text and focus indicator colour */
+  --interactive-text-status-subtle-hover: #000000; /* Hover interactive text colour */
+  --interactive-text-status-subtle-rest: #000000; /* Default interactive text colour */
+  --interactive-text-status-subtle-visited: #000000; /* Visited interactive text colour */
+
+  /**
+   * @tokens Interactive
+   * @presenter Spacing
+   */
+  --interactive-gap: 0.5rem; /* Gap between elements within component */
+  --interactive-min-height: 3rem; /* Component minimum height */
+  --interactive-min-width: 3rem; /* Component minimum width */
+  --interactive-padding-lg: 1.25rem; /* Component bottom padding */
+  --interactive-padding-md: 1rem; /* Component bottom padding */
+  --interactive-padding-sm: 0.75rem; /* Component bottom padding */
+  --interactive-padding-xs: 0.5rem; /* Component bottom padding */
+
+  /**
+   * @tokens Interactive
+   * @presenter Border
+   */
+  --interactive-border-width-lg: 0.1875rem; /* Component border width */
+  --interactive-border-width-md: 0.125rem; /* Component border width */
+  --interactive-border-width-sm: 0.09375rem; /* Component border width */
+  --interactive-border-width-xs: 0.0625rem; /* Component border width */
+  --interactive-focus-border-width: 0.1875rem; /* Component border width on focus */
+  --interactive-text-focus-border-width: 0.0625rem;
+  --interactive-underline-border-width: 0.125rem; /* Use for the underline borders e.g. on hover */
+
+  /**
+   * @tokens Interactive
+   * @presenter BorderRadius
+   */
+  --interactive-border-radius-default: 0.75rem; /* Component border radius */
+  --interactive-border-radius-pill: 1.75rem; /* Component border radius */
+  --interactive-text-focus-border-radius: 0.25rem;
+
+  /**
+   * @tokens Label and Hint
+   * @presenter Spacing
+   */
+  --label-and-hint-gap: 0.25rem; /* The gap between label and hint */
+
+  /**
+   * @tokens Label and Hint
+   * @presenter Color
+   */
+  --label-and-hint-hint-colour: #4d4f4f; /* The colour of the the hint text */
+  --label-and-hint-label-colour: #1d1d1b; /* The colour of the the label text */
+  --label-and-hint-validation-message-colour: #1d1d1b; /* The colour of the the error message text and icon */
+
+  /**
+   * @tokens Link
+   * @presenter Spacing
+   */
+  --link-gap: 0.5rem; /* Gap between elements inside a link */
+
+  /**
+   * @tokens Link
+   * @presenter Color
+   */
+  --link-mono-active-colour: #000000; /* Footer link active colour */
+  --link-mono-focus-colour: #000000; /* Footer link focus colour */
+  --link-mono-hover-colour: #000000; /* Footer link hover colour */
+  --link-mono-rest-colour: #000000; /* Footer link rest colour */
+  --link-mono-visited-colour: #000000; /* Footer link visited colour */
+  --link-primary-active-colour: #000a52; /* Primary link active text and icon colour */
+  --link-primary-focus-colour: #005dba; /* Primary link focus text and icon colour */
+  --link-primary-hover-colour: #001d6e; /* Primary link hover text and icon colour */
+  --link-primary-rest-colour: #005dba; /* Primary link rest text and icon colour */
+  --link-primary-visited-colour: #1d1d1b; /* Primary link visited text and icon colour */
+  --link-status-bold-active-colour: #f4f4f4; /* Bold status link active text and icon colour */
+  --link-status-bold-focus-colour: #f4f4f4; /* Bold status link focus text and icon colour */
+  --link-status-bold-hover-colour: #f4f4f4; /* Bold status link hover text and icon colour */
+  --link-status-bold-rest-colour: #f4f4f4; /* Bold status link rest text and icon colour */
+  --link-status-bold-visited-colour: #f4f4f4; /* Bold status link visited text and icon colour */
+  --link-status-subtle-active-colour: #000000; /* Subtle status link active text and icon colour */
+  --link-status-subtle-focus-colour: #000000; /* Subtle status link focus text and icon colour */
+  --link-status-subtle-hover-colour: #000000; /* Subtle status link hover text and icon colour */
+  --link-status-subtle-rest-colour: #000000; /* Subtle status link rest text and icon colour */
+  --link-status-subtle-visited-colour: #000000; /* Subtle status link visited text and icon colour */
+
+  /**
+   * @tokens Link
+   * @presenter BorderRadius
+   */
+  --link-mono-focus-border-radius: 0.25rem; /* Link focus indicator border radius */
+  --link-primary-focus-border-radius: 0.25rem; /* Link focus indicator border radius */
+  --link-status-bold-focus-border-radius: 0.25rem; /* Link focus indicator border radius */
+  --link-status-subtle-focus-border-radius: 0.25rem; /* Link focus indicator border radius */
+
+  /**
+   * @tokens Link
+   * @presenter Border
+   */
+  --link-mono-focus-border-width: 0.0625rem; /* Link focus indicator border width */
+  --link-primary-focus-border-width: 0.0625rem; /* Link focus indicator border width */
+  --link-status-bold-focus-border-width: 0.0625rem; /* Link focus indicator border width */
+  --link-status-subtle-focus-border-width: 0.0625rem; /* Link focus indicator border width */
+
+  /**
+   * @tokens Link Group
+   * @presenter Spacing
+   */
+  --link-group-gap: 1rem; /* The gap between links in a link group */
+
+  /**
+   * @tokens Link Menu
+   * @presenter Color
+   */
+  --link-menu-border-colour: #d3d3d3;
+
+  /**
+   * @tokens Link Menu
+   * @presenter Border
+   */
+  --link-menu-border-width: 0.0625rem;
+
+  /**
+   * @tokens Link Menu
+   * @presenter BorderRadius
+   */
+  --link-menu-border-radius: 1rem;
+
+  /**
+   * @tokens Link Menu Item
+   * @presenter Spacing
+   */
+  --link-menu-item-gap: 0.75rem;
+  --link-menu-item-hover-padding-right: 0.5rem;
+  --link-menu-item-padding-bottom: 1rem;
+  --link-menu-item-padding-left: 1rem;
+  --link-menu-item-padding-right: 0.5rem;
+  --link-menu-item-padding-top: 1rem;
+
+  /**
+   * @tokens Link Menu Item
+   * @presenter Color
+   */
+  --link-menu-item-active-background-colour: #005dba;
+  --link-menu-item-active-border-colour: #ffffff;
+  --link-menu-item-active-colour: #ffffff;
+  --link-menu-item-active-colour-muted: #ffffff;
+  --link-menu-item-focus-border-colour: #1d1d1b;
+  --link-menu-item-focus-colour: #1d1d1b;
+  --link-menu-item-focus-colour-muted: #1d1d1b;
+  --link-menu-item-hover-background-colour: #aee1f7;
+  --link-menu-item-hover-border-colour: #001d6e;
+  --link-menu-item-hover-colour: #1d1d1b;
+  --link-menu-item-hover-colour-muted: #1d1d1b;
+  --link-menu-item-rest-border-colour: #d3d3d3;
+  --link-menu-item-rest-colour: #1d1d1b;
+  --link-menu-item-rest-colour-muted: #4d4f4f;
+
+  /**
+   * @tokens Link Menu Item
+   * @presenter Border
+   */
+  --link-menu-item-active-border-width-bottom: 0.0625rem;
+  --link-menu-item-focus-border-width: 0.1875rem;
+  --link-menu-item-hover-border-width-bottom: 0.1875rem;
+  --link-menu-item-rest-border-width-bottom: 0.0625rem;
+
+  /**
+   * @tokens List
+   * @presenter Spacing
+   */
+  --list-gap: 1.25rem; /* The gap between list items in a list */
+
+  /**
+   * @tokens List Item
+   * @presenter Spacing
+   */
+  --list-item-common-gap: 0.75rem; /* The gap between icon or number and text in a list item */
+  --list-item-common-padding-left: 0.75rem; /* Left padding applied to child list items to ident them */
+
+  /**
+   * @tokens List Item
+   * @presenter Color
+   */
+  --list-item-negative-colour: #c50b30; /* Sets the bullet colour to red for scenarios when negative information needs to be conveyed */
+  --list-item-positive-colour: #00633d; /* Sets the bullet colour to green for scenarios when positive information needs to be conveyed */
+
+  /**
+   * @tokens Notice
+   * @presenter Spacing
+   */
+  --notice-content-gap: 1rem; /* The gap between content within the body of the notice */
+  --notice-gap: 1.75rem; /* The gap between content in the overall notice */
+  --notice-pictogram-size: 5rem; /* The height and width of the pictogram in the notice */
+  --notice-pictogram-size-lg: 7.5rem; /* The height and width of the pictogram in the notice */
+  --notice-pictogram-size-md: 5rem; /* The height and width of the pictogram in the notice */
+  --notice-pictogram-size-xl: 7.5rem; /* The height and width of the pictogram in the notice */
+
+  /**
+   * @tokens Notification Badge
+   * @presenter Color
+   */
+  --notification-badge-background-colour: #005dba; /* The background colour of the badge */
+  --notification-badge-colour: #ffffff; /* Text colour on the badge */
+
+  /**
+   * @tokens Notification Badge
+   * @presenter BorderRadius
+   */
+  --notification-badge-border-radius: 1rem; /* The border radius of the badge */
+
+  /**
+   * @tokens Notification Badge
+   * @presenter Spacing
+   */
+  --notification-badge-height: 1rem; /* The height of the badge */
+  --notification-badge-min-width: 1rem; /* The min-width of the badge */
+  --notification-badge-padding: 0.25rem; /* The min-width of the badge */
+
+  /**
+   * @tokens Pagination
+   * @presenter Color
+   */
+  --pagination-colour: #1d1d1b; /* The colour of the text elements in the pagination component */
+
+  /**
+   * @tokens Pagination
+   * @presenter Spacing
+   */
+  --pagination-horizontal-gap: 1.75rem; /* The vertical gap between elements in the pagination component */
+  --pagination-inside-gap: 0.5rem; /* The gap between page buttons in the pagination component */
+  --pagination-vertical-gap: 1rem; /* The vertical gap between elements in the pagination component */
+
+  /**
+   * @tokens Pagination Page
+   * @presenter Spacing
+   */
+  --pagination-page-common-hover-indicator-width: 0.125rem; /* Pagination button hover indicator width */
+
+  /**
+   * @tokens Pagination Page
+   * @presenter Color
+   */
+  --pagination-page-active-background-colour: #005dba; /* Pagination button active state background colour */
+  --pagination-page-active-colour: #ffffff; /* Pagination button active state colour */
+  --pagination-page-active-hover-indicator-colour: #005dba; /* Pagination button active state hover indicator colour */
+  --pagination-page-disabled-background-colour: #f4f4f4; /* Pagination button disabled state background colour */
+  --pagination-page-disabled-colour: #d3d3d3; /* Pagination button disabled state colour */
+  --pagination-page-disabled-hover-indicator-colour: #f4f4f4; /* Pagination button active state disabled indicator colour */
+  --pagination-page-focus-background-colour: #ffffff; /* Pagination button focus state background colour */
+  --pagination-page-focus-border-colour: #1d1d1b; /* Pagination button focus state border colour */
+  --pagination-page-focus-colour: #1d1d1b; /* Pagination button focus state colour */
+  --pagination-page-focus-hover-indicator-colour: #ffffff; /* Pagination button focus state hover indicator colour */
+  --pagination-page-hover-background-colour: #aee1f7; /* Pagination button hover state background colour */
+  --pagination-page-hover-colour: #1d1d1b; /* Pagination button hover state colour */
+  --pagination-page-hover-hover-indicator-colour: #001d6e; /* Pagination button hover state hover indicator colour */
+  --pagination-page-rest-background-colour: #ffffff; /* Pagination button rest state background colour */
+  --pagination-page-rest-colour: #1d1d1b; /* Pagination button rest state colour */
+  --pagination-page-rest-hover-indicator-colour: #ffffff; /* Pagination button rest state hover indicator colour */
+
+  /**
+   * @tokens Pagination Page
+   * @presenter Border
+   */
+  --pagination-page-focus-border-width: 0.1875rem; /* Pagination button focus state border width */
+
+  /**
+   * @tokens Radio
+   * @presenter Spacing
+   */
+  --radio-scale-lg-control-size: 1.75rem; /* The width and height of the large radio button control */
+  --radio-scale-lg-gap: 2.25rem; /* The gap between radio control and label */
+  --radio-scale-lg-indicator-size: 1rem; /* The width and height of the large radio button indicator */
+  --radio-scale-sm-control-size: 1rem; /* The width and height of the small radio button control */
+  --radio-scale-sm-gap: 1.75rem; /* The gap between radio control and label */
+  --radio-scale-sm-indicator-size: 0.5rem; /* The width and height of the small radio button inidcator */
+
+  /**
+   * @tokens Radio
+   * @presenter Color
+   */
+  --radio-common-colour: #1d1d1b; /* Radio button label colour */
+  --radio-disabled-control-background-colour: #f4f4f4; /* Background colour of the radio control in disabled state */
+  --radio-disabled-control-border-colour: #d3d3d3; /* Border colour of the radio control in disabled state */
+  --radio-disabled-indicator-colour: #d3d3d3; /* Colour of the radio indicator in disabled state */
+  --radio-disabled-label-colour: #a6a7a7; /* Colour of the radio label in disabled state */
+  --radio-error-control-background-colour: #ffffff; /* Background colour of the radio control in error state */
+  --radio-error-control-border-colour: #c50b30; /* Border colour of the radio control in error state */
+  --radio-error-indicator-colour: #c50b30; /* Colour of the radio indicator in error state */
+  --radio-focus-control-background-colour: #ffffff; /* Background colour of the radio control in focus state */
+  --radio-focus-control-border-colour: #1d1d1b; /* Border colour of the radio control in focus state */
+  --radio-focus-indicator-colour: #005dba; /* Colour of the radio indicator in focus state */
+  --radio-hover-control-background-colour: #ffffff; /* Background colour of the radio control in hover state */
+  --radio-hover-control-border-colour: #4d4f4f; /* Border colour of the radio control in hover state */
+  --radio-hover-indicator-colour: #001d6e; /* Colour of the radio indicator in hover state */
+  --radio-rest-control-background-colour: #ffffff; /* Background colour of the radio control in rest state */
+  --radio-rest-control-border-colour: #858686; /* Border colour of the radio control in rest state */
+  --radio-rest-indicator-colour: #005dba; /* Colour of the radio indicator in rest state */
+
+  /**
+   * @tokens Radio
+   * @presenter Border
+   */
+  --radio-disabled-control-border-width: 0.09375rem; /* Border width of the radio control in disabled state */
+  --radio-error-control-border-width: 0.09375rem; /* Border width of the radio control in error state */
+  --radio-error-control-focus-border-width: 0.1875rem; /* The border width of the radio when it has an error and is focused */
+  --radio-focus-control-border-width: 0.1875rem; /* Border width of the radio control in focus state */
+  --radio-hover-control-border-width: 0.09375rem; /* Border width of the radio control in hover state */
+  --radio-rest-control-border-width: 0.09375rem; /* Border width of the radio control in rest state */
+
+  /**
+   * @tokens Radio
+   * @presenter BorderRadius
+   */
+  --radio-common-border-radius: 1rem; /* The border radius of the radio control and indicator */
+
+  /**
+   * @tokens Radio Group
+   * @presenter Spacing
+   */
+  --radio-group-lg-gap: 1.25rem;
+  --radio-group-sm-gap: 1rem;
+
+  /**
+   * @tokens Segment Button
+   * @presenter Spacing
+   */
+  --segment-button-common-min-height: 2.25rem;
+  --segment-button-common-padding-x: 0.5rem;
+  --segment-button-common-padding-y: 0.5rem;
+
+  /**
+   * @tokens Segment Button
+   * @presenter BorderRadius
+   */
+  --segment-button-common-border-radius: 0.5rem;
+
+  /**
+   * @tokens Segment Button
+   * @presenter Color
+   */
+  --segment-button-active-background-colour: #005dba;
+  --segment-button-active-colour: #ffffff;
+  --segment-button-disabled-background-colour: #d3d3d3;
+  --segment-button-disabled-colour: #a6a7a7;
+  --segment-button-error-background-colour: #4d4f4f;
+  --segment-button-focus-background-colour: #ffffff;
+  --segment-button-focus-border-colour: #1d1d1b;
+  --segment-button-focus-colour: #1d1d1b;
+  --segment-button-hover-background-colour: #aee1f7;
+  --segment-button-hover-colour: #1d1d1b;
+  --segment-button-rest-background-colour: #ffffff;
+  --segment-button-rest-colour: #1d1d1b;
+
+  /**
+   * @tokens Segment Button
+   * @presenter Border
+   */
+  --segment-button-focus-border-width: 0.1875rem;
+
+  /**
+   * @tokens Segment Control
+   * @presenter Color
+   */
+  --segment-control-common-background-colour: #f4f4f4;
+  --segment-control-common-border-colour: #858686;
+  --segment-control-error-border-colour: #c50b30;
+  --segment-control-focus-border-colour: #1d1d1b;
+
+  /**
+   * @tokens Segment Control
+   * @presenter BorderRadius
+   */
+  --segment-control-common-border-radius: 0.75rem;
+
+  /**
+   * @tokens Segment Control
+   * @presenter Border
+   */
+  --segment-control-common-border-width: 0.09375rem;
+  --segment-control-error-border-width: 0.09375rem; /* Border width of the segment control in error state */
+  --segment-control-error-focus-border-width: 0.1875rem; /* The border width of the segment control when it has an error and is focused */
+  --segment-control-focus-border-width: 0.1875rem;
+
+  /**
+   * @tokens Segment Control
+   * @presenter Spacing
+   */
+  --segment-control-common-gap: 0.25rem;
+  --segment-control-common-min-width: 14.5rem; /* The minimum width of a stacked segment control */
+  --segment-control-common-padding-x: 0.25rem;
+  --segment-control-common-padding-y: 0.25rem;
+
+  /**
+   * @tokens Select
+   * @presenter BorderRadius
+   */
+  --select-common-border-radius: 0.75rem; /* The radius of the text input field */
+
+  /**
+   * @tokens Select
+   * @presenter Spacing
+   */
+  --select-common-button-gap: 1rem; /* The gap between text elements and the add-on button in the text input field */
+  --select-common-height: 3rem; /* The height of the select */
+  --select-common-padding-x: 1rem; /* The left and right padding of the text input field */
+  --select-common-padding-y: 0.5rem; /* The top and bottom padding of the text input field */
+  --select-common-text-gap: 0.5rem; /* The gap between text elements in the text input field */
+
+  /**
+   * @tokens Select
+   * @presenter Color
+   */
+  --select-disabled-background-colour: #f4f4f4; /* Text input background colour in disabled state */
+  --select-disabled-border-colour: #d3d3d3; /* Text input border colour in disabled state */
+  --select-disabled-colour: #a6a7a7; /* Text input text colour in disabled state */
+  --select-error-background-colour: #ffffff; /* Text input background colour in error state */
+  --select-error-border-colour: #c50b30; /* Text input border colour in error state */
+  --select-error-colour: #1d1d1b; /* Text input text colour in error state */
+  --select-focus-background-colour: #ffffff; /* Text input background colour in focus state */
+  --select-focus-border-colour: #1d1d1b; /* Text input border colour in focus state */
+  --select-focus-colour: #1d1d1b; /* Text input text colour in focus state */
+  --select-hover-background-colour: #ffffff; /* Text input background colour in hover state */
+  --select-hover-border-colour: #4d4f4f; /* Text input border colour in hover state */
+  --select-hover-colour: #1d1d1b; /* Text input text colour in hover state */
+  --select-rest-background-colour: #ffffff; /* Text input background colour in rest state */
+  --select-rest-border-colour: #858686; /* Text input border colour in rest state */
+  --select-rest-colour: #1d1d1b; /* Text input text colour in rest state */
+
+  /**
+   * @tokens Select
+   * @presenter Border
+   */
+  --select-disabled-border-width: 0.09375rem; /* Text input border width in disabled state */
+  --select-error-border-width: 0.09375rem; /* Text input border width in error state */
+  --select-error-focus-border-width: 0.1875rem; /* The border width of the select input when it has an error and is focused */
+  --select-focus-border-width: 0.1875rem; /* Text input border width in focus state */
+  --select-hover-border-width: 0.09375rem; /* Text input border width in hover state */
+  --select-rest-border-width: 0.09375rem; /* Text input border width in rest state */
+
+  /**
+   * @tokens Table
+   * @presenter Color
+   */
+  --table-background-colour: #ffffff;
+  --table-border-colour: #d3d3d3;
+  --table-cell-common-background-colour: #ffffff;
+  --table-cell-common-background-colour-even: #ffffff;
+  --table-cell-common-border-colour: #d3d3d3;
+  --table-cell-common-colour: #1d1d1b;
+  --table-cell-header-border-colour: #4d4f4f;
+  --table-cell-highlight-background-colour: #ffffff;
+  --table-status-cell-error-background-colour: #f4f4f4;
+
+  /**
+   * @tokens Table
+   * @presenter Border
+   */
+  --table-cell-common-border-width: 0.0625rem;
+  --table-cell-header-border-width: 0.125rem;
+
+  /**
+   * @tokens Table
+   * @presenter Spacing
+   */
+  --table-cell-common-padding-x: 1rem;
+  --table-cell-common-padding-y-lg: 1rem;
+  --table-cell-common-padding-y-sm: 0.75rem;
+  --table-row-vertical-gap: 1rem;
+
+  /**
+   * @tokens Table
+   * @presenter BorderRadius
+   */
+  --table-border-radius: 1rem;
+
+  /**
+   * @tokens Text
+   * @presenter Color
+   */
+  --text-default-accent-colour: #001d6e; /* Use for limited cases where additional brand expression is needed */
+  --text-default-primary-colour: #1d1d1b; /* Use for the majority of text and accompanying UI icons */
+  --text-default-secondary-colour: #4d4f4f; /* Use sparingly for secondary, supporting text. */
+  --text-status-bold-primary-colour: #ffffff; /* Use for the majority of text and accompanying UI icons */
+  --text-status-bold-secondary-colour: #4d4f4f; /* Use sparingly for secondary, supporting text. */
+  --text-status-subtle-primary-colour: #1d1d1b; /* Use for the majority of text and accompanying UI icons */
+  --text-status-subtle-secondary-colour: #4d4f4f; /* Use sparingly for secondary, supporting text. */
+
+  /**
+   * @tokens Text Input
+   * @presenter BorderRadius
+   */
+  --text-input-common-border-radius: 0.75rem; /* The radius of the text input field */
+
+  /**
+   * @tokens Text Input
+   * @presenter Spacing
+   */
+  --text-input-common-addon-button-gap: 1rem; /* The gap between text elements and the add-on button in the text input field */
+  --text-input-common-button-gap: 0.5rem; /* The gap between the text input and external button */
+  --text-input-common-height: 3rem; /* The height of the text input */
+  --text-input-common-padding-x: 1rem; /* The left and right padding of the text input field */
+  --text-input-common-padding-y: 0.5rem; /* The top and bottom padding of the text input field */
+  --text-input-common-text-gap: 0.5rem; /* The gap between text elements in the text input field */
+
+  /**
+   * @tokens Text Input
+   * @presenter Color
+   */
+  --text-input-disabled-background-colour: #f4f4f4; /* Text input background colour in disabled state */
+  --text-input-disabled-border-colour: #d3d3d3; /* Text input border colour in disabled state */
+  --text-input-disabled-colour: #a6a7a7; /* Text input text colour in disabled state */
+  --text-input-error-background-colour: #ffffff; /* Text input background colour in error state */
+  --text-input-error-border-colour: #c50b30; /* Text input border colour in error state */
+  --text-input-error-colour: #1d1d1b; /* Text input text colour in error state */
+  --text-input-focus-background-colour: #ffffff; /* Text input background colour in focus state */
+  --text-input-focus-border-colour: #1d1d1b; /* Text input border colour in focus state */
+  --text-input-focus-colour: #1d1d1b; /* Text input text colour in focus state */
+  --text-input-hover-background-colour: #ffffff; /* Text input background colour in hover state */
+  --text-input-hover-border-colour: #4d4f4f; /* Text input border colour in hover state */
+  --text-input-hover-colour: #1d1d1b; /* Text input text colour in hover state */
+  --text-input-rest-background-colour: #ffffff; /* Text input background colour in rest state */
+  --text-input-rest-border-colour: #858686; /* Text input border colour in rest state */
+  --text-input-rest-colour: #1d1d1b; /* Text input text colour in rest state */
+
+  /**
+   * @tokens Text Input
+   * @presenter Border
+   */
+  --text-input-disabled-border-width: 0.09375rem; /* Text input border width in disabled state */
+  --text-input-error-border-width: 0.09375rem; /* Text input border width in error state */
+  --text-input-error-focus-border-width: 0.1875rem; /* The border width of the text input when it has an error and is focused */
+  --text-input-focus-border-width: 0.1875rem; /* Text input border width in focus state */
+  --text-input-hover-border-width: 0.09375rem; /* Text input border width in hover state */
+  --text-input-rest-border-width: 0.09375rem; /* Text input border width in rest state */
+}
