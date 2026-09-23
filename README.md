@@ -21,13 +21,14 @@ A design tokens system that fetches variables from Figma's REST API and transfor
 
 ## Output Files
 
-The build process generates 5 CSS files in `build/css/`:
+The build process generates CSS files in `build/css/`:
 
 - **`component-themes.css`** - Component theme tokens including color tokens with class selectors: `.lg-mode-blue.lg-neutral`, `.lg-mode-green.lg-subtle`, etc. (16 combinations)
 - **`status.css`** - Status tokens with class selectors: `.lg-status-info`, `.lg-status-success`, `.lg-status-warning`, `.lg-status-error`, `.lg-status-generic` combined with theme modes (20 combinations)
 - **`layout.css`** - Layout tokens grouped by breakpoint suffix (sm, md, lg, xl, xxl)
 - **`typography.css`** - Typography tokens (typeface, weights, letter-spacing)
 - **`variables.css`** - Combined file with all tokens in `:root` (includes all foundation tokens: dimensions, colours, font sizes, line heights)
+- **`storybook-tokens.css`** - Storybook design-token documentation file with `@tokens` and `@presenter` annotations for `storybook-design-token`
 
 [All output files can be found here](https://github.com/Legal-and-General/canopy-design-tokens/blob/master/build/css/)
 

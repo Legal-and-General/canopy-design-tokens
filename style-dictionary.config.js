@@ -22,6 +22,225 @@ function toCamelName(path) {
     .join('');
 }
 
+function isBreakpointLayoutToken(token) {
+  if (!token.filePath.includes('layout')) return false;
+
+  const name = token.name;
+  const breakpointSuffixes = ['-sm', '-md', '-lg', '-xl', '-xxl'];
+
+  const excludePatterns = [
+    'font-size-',
+    'line-height-',
+    'space-',
+    'border-radius-',
+    'border-width-',
+    'colspan-',
+    'page-cols-',
+    'page-gutter-',
+    'page-margin-',
+    'page-min-width-',
+    'page-max-width-',
+    'visibility-',
+  ];
+
+  const hasBreakpointSuffix = breakpointSuffixes.some((suffix) => name.endsWith(suffix));
+  const matchesExcludePattern = excludePatterns.some((pattern) => name.includes(pattern));
+
+  return hasBreakpointSuffix && matchesExcludePattern;
+}
+
+function getDefaultThemeVariableName(token) {
+  if (token.filePath.includes('colour.json')) {
+    return 'colour-' + token.path.slice(0, -1).join('-');
+  }
+
+  const pathWithoutModes = token.path.slice(0, -2);
+  const statusIndex = pathWithoutModes.indexOf('status');
+
+  if (statusIndex >= 0) {
+    const componentName = pathWithoutModes[0];
+    const pathBeforeStatus = pathWithoutModes.slice(0, statusIndex);
+    const pathAfterStatus = pathWithoutModes.slice(statusIndex + 1);
+    const shouldExcludeStatus =
+      componentName === 'input' ||
+      componentName === 'label-and-hint' ||
+      componentName === 'banner' ||
+      componentName === 'segment-button' ||
+      componentName === 'inline-message' ||
+      hasRedundantStatusWord(pathAfterStatus);
+
+    if (shouldExcludeStatus) {
+      return [...pathBeforeStatus, ...pathAfterStatus].join('-');
+    }
+  }
+
+  return pathWithoutModes.join('-');
+}
+
+function isDefaultRootToken(token) {
+  const isComponentTheme = token.filePath.includes('component-themes');
+  const isColour = token.filePath.includes('colour.json');
+
+  if (!isComponentTheme && !isColour) {
+    return !isBreakpointLayoutToken(token);
+  }
+
+  const path = token.path;
+
+  if (isComponentTheme) {
+    const isStatus = token.path.includes('status');
+
+    if (isStatus) {
+      const isLinkStatusBorder =
+        path.includes('link') &&
+        path.includes('status') &&
+        (path.includes('border-radius') || path.includes('border-width'));
+      const statusMode = path[path.length - 1];
+      const themeMode = path[path.length - 2];
+
+      if (isLinkStatusBorder) {
+        return statusMode === 'Info' && themeMode === 'Neutral';
+      }
+
+      return statusMode === 'Generic' && themeMode === 'Neutral';
+    }
+
+    const colorMode = path[path.length - 1];
+    const themeMode = path[path.length - 2];
+    return colorMode === 'Blue' && themeMode === 'Neutral';
+  }
+
+  const colorMode = path[path.length - 1];
+  return colorMode === 'Blue';
+}
+
+function getStorybookTokenGroup(token) {
+  const path = token.path.map((part) => part.toLowerCase());
+  const name = token.name.toLowerCase();
+  const type = token.type;
+
+  if (
+    token.filePath.includes('colour.json') ||
+    type === 'color' ||
+    name.includes('colour')
+  ) {
+    return { label: 'Colour', presenter: 'Color' };
+  }
+
+  if (path.some((part) => part.includes('font-family') || part.includes('typeface'))) {
+    return { label: 'Typography', presenter: 'FontFamily' };
+  }
+
+  if (path.some((part) => part.includes('font-size'))) {
+    return { label: 'Typography', presenter: 'FontSize' };
+  }
+
+  if (type === 'fontWeights' || path.some((part) => part.includes('font-weight'))) {
+    return { label: 'Typography', presenter: 'FontWeight' };
+  }
+
+  if (path.some((part) => part.includes('line-height'))) {
+    return { label: 'Typography', presenter: 'LineHeight' };
+  }
+
+  if (path.some((part) => part.includes('letter-spacing'))) {
+    return { label: 'Typography', presenter: 'LetterSpacing' };
+  }
+
+  if (path.some((part) => part.includes('shadow'))) {
+    return { label: 'Foundations', presenter: 'Shadow' };
+  }
+
+  if (path.some((part) => part.includes('opacity'))) {
+    return { label: 'Foundations', presenter: 'Opacity' };
+  }
+
+  if (type === 'borderRadius' || path.some((part) => part.includes('radius'))) {
+    return { label: 'Border', presenter: 'BorderRadius' };
+  }
+
+  if (path.some((part) => part.includes('border'))) {
+    return { label: 'Border', presenter: 'Border' };
+  }
+
+  if (
+    type === 'spacing' ||
+    type === 'sizing' ||
+    path.some(
+      (part) =>
+        part.includes('spacing') ||
+        part.includes('space') ||
+        part.includes('gap') ||
+        part.includes('padding') ||
+        part.includes('margin') ||
+        part.includes('gutter'),
+    )
+  ) {
+    return { label: 'Spacing', presenter: 'Spacing' };
+  }
+
+  if (token.filePath.includes('layout')) {
+    return { label: 'Layout', presenter: 'Spacing' };
+  }
+
+  if (token.path.includes('status')) {
+    return { label: 'Status', presenter: 'Spacing' };
+  }
+
+  if (token.filePath.includes('component-themes')) {
+    return { label: 'Component themes', presenter: 'Spacing' };
+  }
+
+  return { label: 'Foundations', presenter: 'Spacing' };
+}
+
+function getTokenDescription(token) {
+  return token.description || token.$description;
+}
+
+function formatInlineCssDescription(description) {
+  return String(description).replace(/\*\//g, '* /').replace(/\s+/g, ' ').trim();
+}
+
+function formatStorybookCategoryName(category) {
+  return category
+    .split('-')
+    .filter(Boolean)
+    .map((word) => (word === 'and' ? word : word.charAt(0).toUpperCase() + word.slice(1)))
+    .join(' ');
+}
+
+function getStorybookComponentGroup(token) {
+  if (!token.filePath.includes('component-themes')) return null;
+
+  const componentName = token.path[0];
+  if (!componentName) return null;
+
+  return {
+    label: formatStorybookCategoryName(componentName.toLowerCase()),
+    presenter: getStorybookTokenGroup(token).presenter,
+  };
+}
+
+function addStorybookTokenToGroup(groups, group, token) {
+  const key = `${group.label}|${group.presenter}`;
+
+  if (!groups.has(key)) {
+    groups.set(key, { ...group, tokens: [] });
+  }
+
+  groups.get(key).tokens.push(token);
+}
+
+function formatStorybookToken(token) {
+  const description = getTokenDescription(token);
+  const inlineDescription = description
+    ? ` /* ${formatInlineCssDescription(description)} */`
+    : '';
+
+  return `  --${token.variableName}: ${token.value};${inlineDescription}\n`;
+}
+
 module.exports = {
   source: [
     'tokens/colour.json',
@@ -278,6 +497,57 @@ module.exports = {
 
           output += `  --${varName}: ${token.value};\n`;
         });
+
+        output += '}\n';
+        return output;
+      },
+      'css/canopy-storybook': function ({ dictionary }) {
+        const groups = new Map();
+        const componentGroups = new Map();
+
+        dictionary.allTokens.filter(isDefaultRootToken).forEach((token) => {
+          const group = getStorybookTokenGroup(token);
+          const storybookToken = {
+            ...token,
+            variableName:
+              token.filePath.includes('component-themes') ||
+              token.filePath.includes('colour.json')
+                ? getDefaultThemeVariableName(token)
+                : token.name,
+          };
+          const componentGroup = getStorybookComponentGroup(token);
+
+          addStorybookTokenToGroup(groups, group, storybookToken);
+
+          if (componentGroup) {
+            addStorybookTokenToGroup(componentGroups, componentGroup, storybookToken);
+          }
+        });
+
+        let output =
+          '/**\n * Do not edit directly, this file was auto-generated.\n */\n\n:root {\n';
+
+        Array.from(groups.values()).forEach((group) => {
+          output += `\n  /**\n   * @tokens ${group.label}\n   * @presenter ${group.presenter}\n   */\n`;
+
+          group.tokens
+            .sort((a, b) => a.variableName.localeCompare(b.variableName))
+            .forEach((token) => {
+              output += formatStorybookToken(token);
+            });
+        });
+
+        Array.from(componentGroups.values())
+          .sort((a, b) => a.label.localeCompare(b.label))
+          .forEach((group) => {
+            output += `\n  /**\n   * @tokens ${group.label}\n   * @presenter ${group.presenter}\n   */\n`;
+
+            group.tokens
+              .sort((a, b) => a.variableName.localeCompare(b.variableName))
+              .forEach((token) => {
+                output += formatStorybookToken(token);
+              });
+          });
 
         output += '}\n';
         return output;
@@ -1061,6 +1331,41 @@ module.exports = {
         {
           destination: 'variables.css',
           format: 'css/variables-with-defaults',
+          filter: function (token) {
+            return token.value !== null && token.value !== undefined;
+          },
+          options: {
+            outputReferences: false,
+          },
+        },
+      ],
+    },
+
+    // Storybook design-token docs - default root tokens with presenter annotations
+    'css-storybook': {
+      transforms: [
+        'attribute/cti',
+        'name/kebab',
+        'time/seconds',
+        'html/icon',
+        'size/pxToRem',
+        'size/letterSpacingRound',
+        'color/css',
+        'asset/url',
+        'asset/fontFamily',
+        'fontFamily/css',
+        'cubicBezier/css',
+        'strokeStyle/css/shorthand',
+        'border/css/shorthand',
+        'typography/css/shorthand',
+        'transition/css/shorthand',
+        'shadow/css/shorthand',
+      ],
+      buildPath: 'build/css/',
+      files: [
+        {
+          destination: 'storybook-tokens.css',
+          format: 'css/canopy-storybook',
           filter: function (token) {
             return token.value !== null && token.value !== undefined;
           },
