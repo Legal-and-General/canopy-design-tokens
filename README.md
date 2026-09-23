@@ -21,7 +21,7 @@ A design tokens system that fetches variables from Figma's REST API and transfor
 
 ## Output Files
 
-The build process generates CSS files in `build/css/`:
+The build process generates CSS files locally in `build/css/`. When the package is published, `prepublishOnly` copies those files to `css/`, so consuming applications should import them from `@legal-and-general/canopy-design-tokens/css/...`.
 
 - **`component-themes.css`** - Component theme tokens including color tokens with class selectors: `.lg-mode-blue.lg-neutral`, `.lg-mode-green.lg-subtle`, etc. (16 combinations)
 - **`status.css`** - Status tokens with class selectors: `.lg-status-info`, `.lg-status-success`, `.lg-status-warning`, `.lg-status-error`, `.lg-status-generic` combined with theme modes (20 combinations)
