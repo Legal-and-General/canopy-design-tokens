@@ -431,7 +431,10 @@ function processVariablesByCollection(variables, collections) {
       collectionName === 'List' ||
       collectionName === 'Table' ||
       collectionName === 'Accordion' ||
-      collectionName === 'Notice'
+      collectionName === 'Notice' ||
+      collectionName === 'Hero' ||
+      collectionName === 'Modal' ||
+      collectionName === 'Tabs'
     ) {
       // Merge Button/Link/Content area/Form Elements/Footer/Banner/Card/Data point/Filter Button/Inline message tokens into Component themes, expanding across color/theme modes
       // These collections have a "Default" mode that should map to all theme modes
