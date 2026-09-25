@@ -1,6 +1,6 @@
 {
   "$description": "Design tokens from Colour collection",
-  "$timestamp": "2026-09-17T15:09:43.955Z",
+  "$timestamp": "2026-09-25T07:46:11.855Z",
   "brand": {
     "tint": {
       "1": {
@@ -768,145 +768,177 @@
       "1": {
         "Blue": {
           "value": "#f4f4f4",
-          "type": "color"
+          "type": "color",
+          "description": "Use to style disabled interactive elements"
         },
         "Green": {
           "value": "#f4f4f4",
-          "type": "color"
+          "type": "color",
+          "description": "Use to style disabled interactive elements"
         },
         "Red": {
           "value": "#f4f4f4",
-          "type": "color"
+          "type": "color",
+          "description": "Use to style disabled interactive elements"
         },
         "Yellow": {
           "value": "#f4f4f4",
-          "type": "color"
+          "type": "color",
+          "description": "Use to style disabled interactive elements"
         }
       },
       "2": {
         "Blue": {
           "value": "#d3d3d3",
-          "type": "color"
+          "type": "color",
+          "description": "Use to style disabled interactive elements"
         },
         "Green": {
           "value": "#d3d3d3",
-          "type": "color"
+          "type": "color",
+          "description": "Use to style disabled interactive elements"
         },
         "Red": {
           "value": "#d3d3d3",
-          "type": "color"
+          "type": "color",
+          "description": "Use to style disabled interactive elements"
         },
         "Yellow": {
           "value": "#d3d3d3",
-          "type": "color"
+          "type": "color",
+          "description": "Use to style disabled interactive elements"
         }
       },
       "3": {
         "Blue": {
           "value": "#7a7b7b",
-          "type": "color"
+          "type": "color",
+          "description": "Use to style disabled interactive elements"
         },
         "Green": {
           "value": "#7a7b7b",
-          "type": "color"
+          "type": "color",
+          "description": "Use to style disabled interactive elements"
         },
         "Red": {
           "value": "#7a7b7b",
-          "type": "color"
+          "type": "color",
+          "description": "Use to style disabled interactive elements"
         },
         "Yellow": {
           "value": "#7a7b7b",
-          "type": "color"
+          "type": "color",
+          "description": "Use to style disabled interactive elements"
         }
       },
       "4": {
         "Blue": {
           "value": "#d2effb",
-          "type": "color"
+          "type": "color",
+          "description": "Use to style disabled interactive elements"
         },
         "Green": {
           "value": "#dff6eb",
-          "type": "color"
+          "type": "color",
+          "description": "Use to style disabled interactive elements"
         },
         "Red": {
           "value": "#ffd5d2",
-          "type": "color"
+          "type": "color",
+          "description": "Use to style disabled interactive elements"
         },
         "Yellow": {
           "value": "#fffbdc",
-          "type": "color"
+          "type": "color",
+          "description": "Use to style disabled interactive elements"
         }
       },
       "5": {
         "Blue": {
           "value": "#76c8f1",
-          "type": "color"
+          "type": "color",
+          "description": "Use to style disabled interactive elements"
         },
         "Green": {
           "value": "#7fce9f",
-          "type": "color"
+          "type": "color",
+          "description": "Use to style disabled interactive elements"
         },
         "Red": {
           "value": "#ff7e7e",
-          "type": "color"
+          "type": "color",
+          "description": "Use to style disabled interactive elements"
         },
         "Yellow": {
           "value": "#ffe969",
-          "type": "color"
+          "type": "color",
+          "description": "Use to style disabled interactive elements"
         }
       },
       "6": {
         "Blue": {
           "value": "#1e84d2",
-          "type": "color"
+          "type": "color",
+          "description": "Use to style disabled interactive elements"
         },
         "Green": {
           "value": "#1a8952",
-          "type": "color"
+          "type": "color",
+          "description": "Use to style disabled interactive elements"
         },
         "Red": {
           "value": "#e2223e",
-          "type": "color"
+          "type": "color",
+          "description": "Use to style disabled interactive elements"
         },
         "Yellow": {
           "value": "#ffb600",
-          "type": "color"
+          "type": "color",
+          "description": "Use to style disabled interactive elements"
         }
       },
       "7": {
         "Blue": {
           "value": "#1e84d2",
-          "type": "color"
+          "type": "color",
+          "description": "Use to style disabled interactive elements"
         },
         "Green": {
           "value": "#1a8952",
-          "type": "color"
+          "type": "color",
+          "description": "Use to style disabled interactive elements"
         },
         "Red": {
           "value": "#ff3e51",
-          "type": "color"
+          "type": "color",
+          "description": "Use to style disabled interactive elements"
         },
         "Yellow": {
           "value": "#e48616",
-          "type": "color"
+          "type": "color",
+          "description": "Use to style disabled interactive elements"
         }
       },
       "8": {
         "Blue": {
           "value": "#001d6e",
-          "type": "color"
+          "type": "color",
+          "description": "Use to style disabled interactive elements"
         },
         "Green": {
           "value": "#014a39",
-          "type": "color"
+          "type": "color",
+          "description": "Use to style disabled interactive elements"
         },
         "Red": {
           "value": "#940824",
-          "type": "color"
+          "type": "color",
+          "description": "Use to style disabled interactive elements"
         },
         "Yellow": {
           "value": "#c86426",
-          "type": "color"
+          "type": "color",
+          "description": "Use to style disabled interactive elements"
         }
       }
     }
@@ -1081,73 +1113,89 @@
       "1": {
         "Blue": {
           "value": "#f4f4f4",
-          "type": "color"
+          "type": "color",
+          "description": "Use to style interactive text such as links"
         },
         "Green": {
           "value": "#f4f4f4",
-          "type": "color"
+          "type": "color",
+          "description": "Use to style interactive text such as links"
         },
         "Red": {
           "value": "#f4f4f4",
-          "type": "color"
+          "type": "color",
+          "description": "Use to style interactive text such as links"
         },
         "Yellow": {
           "value": "#1d1d1b",
-          "type": "color"
+          "type": "color",
+          "description": "Use to style interactive text such as links"
         }
       },
       "2": {
         "Blue": {
           "value": "#005dba",
-          "type": "color"
+          "type": "color",
+          "description": "Use to style interactive text such as links"
         },
         "Green": {
           "value": "#00633d",
-          "type": "color"
+          "type": "color",
+          "description": "Use to style interactive text such as links"
         },
         "Red": {
           "value": "#c50b30",
-          "type": "color"
+          "type": "color",
+          "description": "Use to style interactive text such as links"
         },
         "Yellow": {
           "value": "#1d1d1b",
-          "type": "color"
+          "type": "color",
+          "description": "Use to style interactive text such as links"
         }
       },
       "3": {
         "Blue": {
           "value": "#001d6e",
-          "type": "color"
+          "type": "color",
+          "description": "Use to style interactive text such as links"
         },
         "Green": {
           "value": "#01312e",
-          "type": "color"
+          "type": "color",
+          "description": "Use to style interactive text such as links"
         },
         "Red": {
           "value": "#940824",
-          "type": "color"
+          "type": "color",
+          "description": "Use to style interactive text such as links"
         },
         "Yellow": {
           "value": "#1d1d1b",
-          "type": "color"
+          "type": "color",
+          "description": "Use to style interactive text such as links"
         }
       },
       "4": {
         "Blue": {
           "value": "#000a52",
-          "type": "color"
+          "type": "color",
+          "description": "Use to style interactive text such as links"
         },
         "Green": {
           "value": "#012425",
-          "type": "color"
+          "type": "color",
+          "description": "Use to style interactive text such as links"
         },
         "Red": {
           "value": "#6e061b",
-          "type": "color"
+          "type": "color",
+          "description": "Use to style interactive text such as links"
         },
         "Yellow": {
           "value": "#1d1d1b",
-          "type": "color"
+          "type": "color",
+          "description": "Use to style interactive text such as links"
         }
       },
       "5": {
