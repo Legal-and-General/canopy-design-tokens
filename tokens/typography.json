@@ -1,6 +1,6 @@
 {
   "$description": "Design tokens from Typography collection",
-  "$timestamp": "2026-09-25T07:46:11.849Z",
+  "$timestamp": "2026-10-06T09:41:20.611Z",
   "font-weight": {
     "300": {
       "Productive": {
@@ -55,37 +55,44 @@
     "ultra-condensed": {
       "Productive": {
         "value": -0.20000000298023224,
-        "type": "sizing"
+        "type": "sizing",
+        "description": "Tightest letter spacing in the typography scale. Use modes to switch between Productive and Expressive letter spacing."
       },
       "Expressive": {
         "value": -1.2999999523162842,
-        "type": "sizing"
+        "type": "sizing",
+        "description": "Tightest letter spacing in the typography scale. Use modes to switch between Productive and Expressive letter spacing."
       }
     },
     "condensed": {
       "Productive": {
         "value": -0.10000000149011612,
-        "type": "sizing"
+        "type": "sizing",
+        "description": "Condensed letter spacing in the typography scale. Use modes to switch between Productive and Expressive letter spacing."
       },
       "Expressive": {
         "value": -1.2000000476837158,
-        "type": "sizing"
+        "type": "sizing",
+        "description": "Condensed letter spacing in the typography scale. Use modes to switch between Productive and Expressive letter spacing."
       }
     },
     "normal": {
       "Productive": {
         "value": 0.20000000298023224,
-        "type": "sizing"
+        "type": "sizing",
+        "description": "Normal letter spacing in the typography scale. Use modes to switch between Productive and Expressive letter spacing."
       },
       "Expressive": {
         "value": -0.5,
-        "type": "sizing"
+        "type": "sizing",
+        "description": "Normal letter spacing in the typography scale. Use modes to switch between Productive and Expressive letter spacing."
       }
     },
     "expanded": {
       "Productive": {
         "value": 0.30000001192092896,
-        "type": "sizing"
+        "type": "sizing",
+        "description": "Widest letter spacing in the typography scale. Use modes to switch between Productive and Expressive letter spacing."
       }
     }
   },

@@ -1,57 +1,69 @@
 {
   "$description": "Design tokens from Foundations collection",
-  "$timestamp": "2026-09-25T07:46:11.828Z",
+  "$timestamp": "2026-10-06T09:41:20.415Z",
   "dimensions": {
     "assets": {
       "1": {
         "value": 16,
-        "type": "sizing"
+        "type": "sizing",
+        "description": "Step 1 in the asset dimension scale. Foundational dimension value for higher-tier tokens. Should not be directly used on component tokens."
       },
       "2": {
         "value": 24,
-        "type": "sizing"
+        "type": "sizing",
+        "description": "Step 2 in the asset dimension scale. Foundational dimension value for higher-tier tokens. Should not be directly used on component tokens."
       },
       "3": {
         "value": 32,
-        "type": "sizing"
+        "type": "sizing",
+        "description": "Step 3 in the asset dimension scale. Foundational dimension value for higher-tier tokens. Should not be directly used on component tokens."
       },
       "4": {
         "value": 80,
-        "type": "sizing"
+        "type": "sizing",
+        "description": "Step 4 in the asset dimension scale. Foundational dimension value for higher-tier tokens. Should not be directly used on component tokens."
       },
       "5": {
         "value": 120,
-        "type": "sizing"
+        "type": "sizing",
+        "description": "Step 5 in the asset dimension scale. Foundational dimension value for higher-tier tokens. Should not be directly used on component tokens."
       },
       "6": {
         "value": 160,
-        "type": "sizing"
+        "type": "sizing",
+        "description": "Step 6 in the asset dimension scale. Foundational dimension value for higher-tier tokens. Should not be directly used on component tokens."
       }
     },
     "small": {
       "1": {
         "value": 4,
-        "type": "sizing"
+        "type": "sizing",
+        "description": "Step 1 in the small dimension scale. Foundational dimension value for higher-tier tokens. Should not be directly used on component tokens."
       },
       "2": {
         "value": 8,
-        "type": "sizing"
+        "type": "sizing",
+        "description": "Step 2 in the small dimension scale. Foundational dimension value for higher-tier tokens. Should not be directly used on component tokens."
       },
       "3": {
         "value": 12,
-        "type": "sizing"
+        "type": "sizing",
+        "description": "Step 3 in the small dimension scale. Foundational dimension value for higher-tier tokens. Should not be directly used on component tokens."
       },
       "4": {
         "value": 16,
-        "type": "sizing"
+        "type": "sizing",
+        "description": "Step 4 in the small dimension scale. Foundational dimension value for higher-tier tokens. Should not be directly used on component tokens."
       },
       "5": {
         "value": 20,
-        "type": "sizing"
+        "type": "sizing",
+        "description": "Step 5 in the small dimension scale. Foundational dimension value for higher-tier tokens. Should not be directly used on component tokens."
       },
       "6": {
         "value": 28,
-        "type": "sizing"
+        "type": "sizing",
+        "description": "Step 6 in the small dimension scale. Foundational dimension value for higher-tier tokens. Should not be directly used on component tokens."
       },
       "7": {
         "value": 36,
@@ -59,37 +71,45 @@
       },
       "8": {
         "value": 48,
-        "type": "sizing"
+        "type": "sizing",
+        "description": "Step 8 in the small dimension scale. Foundational dimension value for higher-tier tokens. Should not be directly used on component tokens."
       },
       "9": {
         "value": 60,
-        "type": "sizing"
+        "type": "sizing",
+        "description": "Step 9 in the small dimension scale. Foundational dimension value for higher-tier tokens. Should not be directly used on component tokens."
       },
       "10": {
         "value": 84,
-        "type": "sizing"
+        "type": "sizing",
+        "description": "Step 10 in the small dimension scale. Foundational dimension value for higher-tier tokens. Should not be directly used on component tokens."
       }
     },
     "large": {
       "1": {
         "value": 4,
-        "type": "sizing"
+        "type": "sizing",
+        "description": "Step 1 in the large dimension scale. Foundational dimension value for higher-tier tokens. Should not be directly used on component tokens."
       },
       "2": {
         "value": 8,
-        "type": "sizing"
+        "type": "sizing",
+        "description": "Step 2 in the large dimension scale. Foundational dimension value for higher-tier tokens. Should not be directly used on component tokens."
       },
       "3": {
         "value": 12,
-        "type": "sizing"
+        "type": "sizing",
+        "description": "Step 3 in the large dimension scale. Foundational dimension value for higher-tier tokens. Should not be directly used on component tokens."
       },
       "4": {
         "value": 16,
-        "type": "sizing"
+        "type": "sizing",
+        "description": "Step 4 in the large dimension scale. Foundational dimension value for higher-tier tokens. Should not be directly used on component tokens."
       },
       "5": {
         "value": 24,
-        "type": "sizing"
+        "type": "sizing",
+        "description": "Step 5 in the large dimension scale. Foundational dimension value for higher-tier tokens. Should not be directly used on component tokens."
       },
       "6": {
         "value": 32,
@@ -97,19 +117,23 @@
       },
       "7": {
         "value": 48,
-        "type": "sizing"
+        "type": "sizing",
+        "description": "Step 7 in the large dimension scale. Foundational dimension value for higher-tier tokens. Should not be directly used on component tokens."
       },
       "8": {
         "value": 72,
-        "type": "sizing"
+        "type": "sizing",
+        "description": "Step 8 in the large dimension scale. Foundational dimension value for higher-tier tokens. Should not be directly used on component tokens."
       },
       "9": {
         "value": 104,
-        "type": "sizing"
+        "type": "sizing",
+        "description": "Step 9 in the large dimension scale. Foundational dimension value for higher-tier tokens. Should not be directly used on component tokens."
       },
       "10": {
         "value": 156,
-        "type": "sizing"
+        "type": "sizing",
+        "description": "Step 10 in the large dimension scale. Foundational dimension value for higher-tier tokens. Should not be directly used on component tokens."
       }
     }
   },
@@ -117,11 +141,13 @@
     "blue": {
       "0": {
         "value": "#ffffff",
-        "type": "color"
+        "type": "color",
+        "description": "Step 0 in the blue colour scale. Foundational colour value for Component themes. Should not be directly used on component tokens."
       },
       "100": {
         "value": "#d2effb",
-        "type": "color"
+        "type": "color",
+        "description": "Step 100 in the blue colour scale. Foundational colour value for Component themes. Should not be directly used on component tokens."
       },
       "200": {
         "value": "#aee1f7",
@@ -130,7 +156,8 @@
       },
       "300": {
         "value": "#76c8f1",
-        "type": "color"
+        "type": "color",
+        "description": "Step 300 in the blue colour scale. Foundational colour value for Component themes. Should not be directly used on component tokens."
       },
       "400": {
         "value": "#42aeea",
@@ -139,7 +166,8 @@
       },
       "500": {
         "value": "#1e84d2",
-        "type": "color"
+        "type": "color",
+        "description": "Step 500 in the blue colour scale. Foundational colour value for Component themes. Should not be directly used on component tokens."
       },
       "600": {
         "value": "#005dba",
@@ -148,7 +176,8 @@
       },
       "700": {
         "value": "#003894",
-        "type": "color"
+        "type": "color",
+        "description": "Step 700 in the blue colour scale. Foundational colour value for Component themes. Should not be directly used on component tokens."
       },
       "800": {
         "value": "#001d6e",
@@ -157,21 +186,25 @@
       },
       "900": {
         "value": "#000a52",
-        "type": "color"
+        "type": "color",
+        "description": "Step 900 in the blue colour scale. Foundational colour value for Component themes. Should not be directly used on component tokens."
       },
       "1000": {
         "value": "#000039",
-        "type": "color"
+        "type": "color",
+        "description": "Step 1000 in the blue colour scale. Foundational colour value for Component themes. Should not be directly used on component tokens."
       }
     },
     "green": {
       "0": {
         "value": "#ffffff",
-        "type": "color"
+        "type": "color",
+        "description": "Step 0 in the green colour scale. Foundational colour value for Component themes. Should not be directly used on component tokens."
       },
       "100": {
         "value": "#dff6eb",
-        "type": "color"
+        "type": "color",
+        "description": "Step 100 in the green colour scale. Foundational colour value for Component themes. Should not be directly used on component tokens."
       },
       "200": {
         "value": "#caeedd",
@@ -180,7 +213,8 @@
       },
       "300": {
         "value": "#7fce9f",
-        "type": "color"
+        "type": "color",
+        "description": "Step 300 in the green colour scale. Foundational colour value for Component themes. Should not be directly used on component tokens."
       },
       "400": {
         "value": "#43af6e",
@@ -189,7 +223,8 @@
       },
       "500": {
         "value": "#1a8952",
-        "type": "color"
+        "type": "color",
+        "description": "Step 500 in the green colour scale. Foundational colour value for Component themes. Should not be directly used on component tokens."
       },
       "600": {
         "value": "#00633d",
@@ -198,7 +233,8 @@
       },
       "700": {
         "value": "#014a39",
-        "type": "color"
+        "type": "color",
+        "description": "Step 700 in the green colour scale. Foundational colour value for Component themes. Should not be directly used on component tokens."
       },
       "800": {
         "value": "#01312e",
@@ -207,21 +243,25 @@
       },
       "900": {
         "value": "#012425",
-        "type": "color"
+        "type": "color",
+        "description": "Step 900 in the green colour scale. Foundational colour value for Component themes. Should not be directly used on component tokens."
       },
       "1000": {
         "value": "#011b1f",
-        "type": "color"
+        "type": "color",
+        "description": "Step 1000 in the green colour scale. Foundational colour value for Component themes. Should not be directly used on component tokens."
       }
     },
     "red": {
       "0": {
         "value": "#ffffff",
-        "type": "color"
+        "type": "color",
+        "description": "Step 0 in the red colour scale. Foundational colour value for Component themes. Should not be directly used on component tokens."
       },
       "100": {
         "value": "#ffd5d2",
-        "type": "color"
+        "type": "color",
+        "description": "Step 100 in the red colour scale. Foundational colour value for Component themes. Should not be directly used on component tokens."
       },
       "200": {
         "value": "#ffc2bd",
@@ -230,7 +270,8 @@
       },
       "300": {
         "value": "#ff7e7e",
-        "type": "color"
+        "type": "color",
+        "description": "Step 300 in the red colour scale. Foundational colour value for Component themes. Should not be directly used on component tokens."
       },
       "400": {
         "value": "#ff3e51",
@@ -239,7 +280,8 @@
       },
       "500": {
         "value": "#e2223e",
-        "type": "color"
+        "type": "color",
+        "description": "Step 500 in the red colour scale. Foundational colour value for Component themes. Should not be directly used on component tokens."
       },
       "600": {
         "value": "#c50b30",
@@ -248,7 +290,8 @@
       },
       "700": {
         "value": "#ad092a",
-        "type": "color"
+        "type": "color",
+        "description": "Step 700 in the red colour scale. Foundational colour value for Component themes. Should not be directly used on component tokens."
       },
       "800": {
         "value": "#940824",
@@ -257,21 +300,25 @@
       },
       "900": {
         "value": "#6e061b",
-        "type": "color"
+        "type": "color",
+        "description": "Step 900 in the red colour scale. Foundational colour value for Component themes. Should not be directly used on component tokens."
       },
       "1000": {
         "value": "#480411",
-        "type": "color"
+        "type": "color",
+        "description": "Step 1000 in the red colour scale. Foundational colour value for Component themes. Should not be directly used on component tokens."
       }
     },
     "yellow": {
       "0": {
         "value": "#ffffff",
-        "type": "color"
+        "type": "color",
+        "description": "Step 0 in the yellow colour scale. Foundational colour value for Component themes. Should not be directly used on component tokens."
       },
       "100": {
         "value": "#fffbdc",
-        "type": "color"
+        "type": "color",
+        "description": "Step 100 in the yellow colour scale. Foundational colour value for Component themes. Should not be directly used on component tokens."
       },
       "200": {
         "value": "#fff9c7",
@@ -280,7 +327,8 @@
       },
       "300": {
         "value": "#fff298",
-        "type": "color"
+        "type": "color",
+        "description": "Step 300 in the yellow colour scale. Foundational colour value for Component themes. Should not be directly used on component tokens."
       },
       "400": {
         "value": "#ffe969",
@@ -289,7 +337,8 @@
       },
       "500": {
         "value": "#ffd335",
-        "type": "color"
+        "type": "color",
+        "description": "Step 500 in the yellow colour scale. Foundational colour value for Component themes. Should not be directly used on component tokens."
       },
       "600": {
         "value": "#ffb600",
@@ -298,7 +347,8 @@
       },
       "700": {
         "value": "#e48616",
-        "type": "color"
+        "type": "color",
+        "description": "Step 700 in the yellow colour scale. Foundational colour value for Component themes. Should not be directly used on component tokens."
       },
       "800": {
         "value": "#c86426",
@@ -307,11 +357,13 @@
       },
       "900": {
         "value": "#904029",
-        "type": "color"
+        "type": "color",
+        "description": "Step 900 in the yellow colour scale. Foundational colour value for Component themes. Should not be directly used on component tokens."
       },
       "1000": {
         "value": "#572722",
-        "type": "color"
+        "type": "color",
+        "description": "Step 1000 in the yellow colour scale. Foundational colour value for Component themes. Should not be directly used on component tokens."
       }
     },
     "greyscale": {
@@ -332,7 +384,8 @@
       },
       "300": {
         "value": "#bcbdbd",
-        "type": "color"
+        "type": "color",
+        "description": "Step 300 in the greyscale colour scale. Foundational colour value for Component themes. Should not be directly used on component tokens."
       },
       "400": {
         "value": "#a6a7a7",
@@ -341,7 +394,8 @@
       },
       "500": {
         "value": "#858686",
-        "type": "color"
+        "type": "color",
+        "description": "Step 500 in the greyscale colour scale. Foundational colour value for Component themes. Should not be directly used on component tokens."
       },
       "600": {
         "value": "#7a7b7b",
@@ -355,7 +409,8 @@
       },
       "800": {
         "value": "#343634",
-        "type": "color"
+        "type": "color",
+        "description": "Step 800 in the greyscale colour scale. Foundational colour value for Component themes. Should not be directly used on component tokens."
       },
       "900": {
         "value": "#1d1d1b",
@@ -373,93 +428,115 @@
     "small": {
       "1": {
         "value": 16,
-        "type": "fontSizes"
+        "type": "fontSizes",
+        "description": "Step 1 in the small font-size scale. Foundational typography value for higher-tier tokens. Should not be directly used on component tokens."
       },
       "2": {
         "value": 20,
-        "type": "fontSizes"
+        "type": "fontSizes",
+        "description": "Step 2 in the small font-size scale. Foundational typography value for higher-tier tokens. Should not be directly used on component tokens."
       },
       "3": {
         "value": 24,
-        "type": "fontSizes"
+        "type": "fontSizes",
+        "description": "Step 3 in the small font-size scale. Foundational typography value for higher-tier tokens. Should not be directly used on component tokens."
       },
       "4": {
         "value": 28,
-        "type": "fontSizes"
+        "type": "fontSizes",
+        "description": "Step 4 in the small font-size scale. Foundational typography value for higher-tier tokens. Should not be directly used on component tokens."
       },
       "5": {
         "value": 32,
-        "type": "fontSizes"
+        "type": "fontSizes",
+        "description": "Step 5 in the small font-size scale. Foundational typography value for higher-tier tokens. Should not be directly used on component tokens."
       },
       "6": {
         "value": 40,
-        "type": "fontSizes"
+        "type": "fontSizes",
+        "description": "Step 6 in the small font-size scale. Foundational typography value for higher-tier tokens. Should not be directly used on component tokens."
       },
       "7": {
         "value": 48,
-        "type": "fontSizes"
+        "type": "fontSizes",
+        "description": "Step 7 in the small font-size scale. Foundational typography value for higher-tier tokens. Should not be directly used on component tokens."
       },
       "8": {
         "value": 56,
-        "type": "fontSizes"
+        "type": "fontSizes",
+        "description": "Step 8 in the small font-size scale. Foundational typography value for higher-tier tokens. Should not be directly used on component tokens."
       },
       "9": {
         "value": 68,
-        "type": "fontSizes"
+        "type": "fontSizes",
+        "description": "Step 9 in the small font-size scale. Foundational typography value for higher-tier tokens. Should not be directly used on component tokens."
       },
       "0-6": {
         "value": 12,
-        "type": "fontSizes"
+        "type": "fontSizes",
+        "description": "Step 0-6 in the small font-size scale. Foundational typography value for higher-tier tokens. Should not be directly used on component tokens."
       },
       "0-8": {
         "value": 14,
-        "type": "fontSizes"
+        "type": "fontSizes",
+        "description": "Step 0-8 in the small font-size scale. Foundational typography value for higher-tier tokens. Should not be directly used on component tokens."
       }
     },
     "large": {
       "1": {
         "value": 16,
-        "type": "fontSizes"
+        "type": "fontSizes",
+        "description": "Step 1 in the large font-size scale. Foundational typography value for higher-tier tokens. Should not be directly used on component tokens."
       },
       "2": {
         "value": 20,
-        "type": "fontSizes"
+        "type": "fontSizes",
+        "description": "Step 2 in the large font-size scale. Foundational typography value for higher-tier tokens. Should not be directly used on component tokens."
       },
       "3": {
         "value": 24,
-        "type": "fontSizes"
+        "type": "fontSizes",
+        "description": "Step 3 in the large font-size scale. Foundational typography value for higher-tier tokens. Should not be directly used on component tokens."
       },
       "4": {
         "value": 32,
-        "type": "fontSizes"
+        "type": "fontSizes",
+        "description": "Step 4 in the large font-size scale. Foundational typography value for higher-tier tokens. Should not be directly used on component tokens."
       },
       "5": {
         "value": 40,
-        "type": "fontSizes"
+        "type": "fontSizes",
+        "description": "Step 5 in the large font-size scale. Foundational typography value for higher-tier tokens. Should not be directly used on component tokens."
       },
       "6": {
         "value": 48,
-        "type": "fontSizes"
+        "type": "fontSizes",
+        "description": "Step 6 in the large font-size scale. Foundational typography value for higher-tier tokens. Should not be directly used on component tokens."
       },
       "7": {
         "value": 62,
-        "type": "fontSizes"
+        "type": "fontSizes",
+        "description": "Step 7 in the large font-size scale. Foundational typography value for higher-tier tokens. Should not be directly used on component tokens."
       },
       "8": {
         "value": 76,
-        "type": "fontSizes"
+        "type": "fontSizes",
+        "description": "Step 8 in the large font-size scale. Foundational typography value for higher-tier tokens. Should not be directly used on component tokens."
       },
       "9": {
         "value": 115,
-        "type": "fontSizes"
+        "type": "fontSizes",
+        "description": "Step 9 in the large font-size scale. Foundational typography value for higher-tier tokens. Should not be directly used on component tokens."
       },
       "0-6": {
         "value": 12,
-        "type": "fontSizes"
+        "type": "fontSizes",
+        "description": "Step 0-6 in the large font-size scale. Foundational typography value for higher-tier tokens. Should not be directly used on component tokens."
       },
       "0-8": {
         "value": 14,
-        "type": "fontSizes"
+        "type": "fontSizes",
+        "description": "Step 0-8 in the large font-size scale. Foundational typography value for higher-tier tokens. Should not be directly used on component tokens."
       }
     }
   },
@@ -467,93 +544,115 @@
     "small": {
       "1": {
         "value": 22,
-        "type": "lineHeights"
+        "type": "lineHeights",
+        "description": "Step 1 in the small line-height scale. Foundational typography value for higher-tier tokens. Should not be directly used on component tokens."
       },
       "2": {
         "value": 28,
-        "type": "lineHeights"
+        "type": "lineHeights",
+        "description": "Step 2 in the small line-height scale. Foundational typography value for higher-tier tokens. Should not be directly used on component tokens."
       },
       "3": {
         "value": 34,
-        "type": "lineHeights"
+        "type": "lineHeights",
+        "description": "Step 3 in the small line-height scale. Foundational typography value for higher-tier tokens. Should not be directly used on component tokens."
       },
       "4": {
         "value": 36,
-        "type": "lineHeights"
+        "type": "lineHeights",
+        "description": "Step 4 in the small line-height scale. Foundational typography value for higher-tier tokens. Should not be directly used on component tokens."
       },
       "5": {
         "value": 38,
-        "type": "lineHeights"
+        "type": "lineHeights",
+        "description": "Step 5 in the small line-height scale. Foundational typography value for higher-tier tokens. Should not be directly used on component tokens."
       },
       "6": {
         "value": 48,
-        "type": "lineHeights"
+        "type": "lineHeights",
+        "description": "Step 6 in the small line-height scale. Foundational typography value for higher-tier tokens. Should not be directly used on component tokens."
       },
       "7": {
         "value": 58,
-        "type": "lineHeights"
+        "type": "lineHeights",
+        "description": "Step 7 in the small line-height scale. Foundational typography value for higher-tier tokens. Should not be directly used on component tokens."
       },
       "8": {
         "value": 67,
-        "type": "lineHeights"
+        "type": "lineHeights",
+        "description": "Step 8 in the small line-height scale. Foundational typography value for higher-tier tokens. Should not be directly used on component tokens."
       },
       "9": {
         "value": 77,
-        "type": "lineHeights"
+        "type": "lineHeights",
+        "description": "Step 9 in the small line-height scale. Foundational typography value for higher-tier tokens. Should not be directly used on component tokens."
       },
       "0-6": {
         "value": 14,
-        "type": "lineHeights"
+        "type": "lineHeights",
+        "description": "Step 0-6 in the small line-height scale. Foundational typography value for higher-tier tokens. Should not be directly used on component tokens."
       },
       "0-8": {
         "value": 17,
-        "type": "lineHeights"
+        "type": "lineHeights",
+        "description": "Step 0-8 in the small line-height scale. Foundational typography value for higher-tier tokens. Should not be directly used on component tokens."
       }
     },
     "large": {
       "1": {
         "value": 22,
-        "type": "lineHeights"
+        "type": "lineHeights",
+        "description": "Step 1 in the large line-height scale. Foundational typography value for higher-tier tokens. Should not be directly used on component tokens."
       },
       "2": {
         "value": 28,
-        "type": "lineHeights"
+        "type": "lineHeights",
+        "description": "Step 2 in the large line-height scale. Foundational typography value for higher-tier tokens. Should not be directly used on component tokens."
       },
       "3": {
         "value": 34,
-        "type": "lineHeights"
+        "type": "lineHeights",
+        "description": "Step 3 in the large line-height scale. Foundational typography value for higher-tier tokens. Should not be directly used on component tokens."
       },
       "4": {
         "value": 42,
-        "type": "lineHeights"
+        "type": "lineHeights",
+        "description": "Step 4 in the large line-height scale. Foundational typography value for higher-tier tokens. Should not be directly used on component tokens."
       },
       "5": {
         "value": 48,
-        "type": "lineHeights"
+        "type": "lineHeights",
+        "description": "Step 5 in the large line-height scale. Foundational typography value for higher-tier tokens. Should not be directly used on component tokens."
       },
       "6": {
         "value": 58,
-        "type": "lineHeights"
+        "type": "lineHeights",
+        "description": "Step 6 in the large line-height scale. Foundational typography value for higher-tier tokens. Should not be directly used on component tokens."
       },
       "7": {
         "value": 74,
-        "type": "lineHeights"
+        "type": "lineHeights",
+        "description": "Step 7 in the large line-height scale. Foundational typography value for higher-tier tokens. Should not be directly used on component tokens."
       },
       "8": {
         "value": 91,
-        "type": "lineHeights"
+        "type": "lineHeights",
+        "description": "Step 8 in the large line-height scale. Foundational typography value for higher-tier tokens. Should not be directly used on component tokens."
       },
       "9": {
         "value": 115,
-        "type": "lineHeights"
+        "type": "lineHeights",
+        "description": "Step 9 in the large line-height scale. Foundational typography value for higher-tier tokens. Should not be directly used on component tokens."
       },
       "0-6": {
         "value": 14,
-        "type": "lineHeights"
+        "type": "lineHeights",
+        "description": "Step 0-6 in the large line-height scale. Foundational typography value for higher-tier tokens. Should not be directly used on component tokens."
       },
       "0-8": {
         "value": 17,
-        "type": "lineHeights"
+        "type": "lineHeights",
+        "description": "Step 0-8 in the large line-height scale. Foundational typography value for higher-tier tokens. Should not be directly used on component tokens."
       }
     }
   }
