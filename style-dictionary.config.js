@@ -22,6 +22,19 @@ function toCamelName(path) {
     .join('');
 }
 
+function toKebabTokenName(name) {
+  return name
+    .replace(/([a-z])([A-Z])/g, '$1-$2')
+    .replace(/[\s_]+/g, '-')
+    .toLowerCase();
+}
+
+const deletedFigmaVariableNames = new Set(
+  Object.values(require('./tokens/figma-variables-raw.json').meta.variables)
+    .filter((variable) => variable.deletedButReferenced)
+    .map((variable) => variable.name.split('/').map(toKebabTokenName).join('-')),
+);
+
 function isBreakpointLayoutToken(token) {
   if (!token.filePath.includes('layout')) return false;
 
@@ -515,6 +528,10 @@ module.exports = {
                 ? getDefaultThemeVariableName(token)
                 : token.name,
           };
+          if (deletedFigmaVariableNames.has(storybookToken.variableName.toLowerCase())) {
+            return;
+          }
+
           const componentGroup = getStorybookComponentGroup(token);
 
           addStorybookTokenToGroup(groups, group, storybookToken);
