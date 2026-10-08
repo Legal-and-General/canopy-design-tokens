@@ -90,6 +90,60 @@ function getDefaultThemeVariableName(token) {
   return pathWithoutModes.join('-');
 }
 
+function formatLayoutSize(value) {
+  return `${value / 16}rem`;
+}
+
+function formatResponsiveLayoutTokens(groups) {
+  const breakpoints = require('./tokens/layout.json').page['min-width'];
+  const responsiveGroups = groups.map((group) => ({
+    ...group,
+    tokens: group.tokens.filter((token) => token.$extensions?.canopy?.layoutValues),
+    previousValues: new Map(
+      group.tokens
+        .filter((token) => token.$extensions?.canopy?.layoutValues)
+        .map((token) => [token.path.join('|'), token.$extensions.canopy.layoutValues.sm]),
+    ),
+  }));
+  let output = '';
+
+  for (const mode of ['md', 'lg', 'xl', 'xxl']) {
+    let declarations = '';
+    for (const group of responsiveGroups) {
+      const changedTokens = group.tokens.filter(
+        (token) =>
+          token.$extensions.canopy.layoutValues[mode] !==
+          group.previousValues.get(token.path.join('|')),
+      );
+      if (changedTokens.length === 0) continue;
+
+      declarations += `  ${group.selector} {\n`;
+      for (const token of changedTokens) {
+        const value = token.$extensions.canopy.layoutValues[mode];
+        if (typeof value !== 'number' || !Number.isFinite(value)) {
+          throw new Error(`Invalid ${mode} layout value for ${token.name}`);
+        }
+        declarations += `    --${getDefaultThemeVariableName(token)}: ${formatLayoutSize(value)};\n`;
+        group.previousValues.set(token.path.join('|'), value);
+      }
+      declarations += '  }\n';
+    }
+    if (!declarations) continue;
+
+    const breakpoint = breakpoints[mode.toUpperCase()]?.value;
+    if (
+      typeof breakpoint !== 'number' ||
+      !Number.isFinite(breakpoint) ||
+      breakpoint <= 0
+    ) {
+      throw new Error(`Missing or invalid page-min-width-${mode} for responsive tokens`);
+    }
+    output += `\n@media (min-width: ${formatLayoutSize(breakpoint)}) {\n${declarations}}\n`;
+  }
+
+  return output;
+}
+
 function isDefaultRootToken(token) {
   const isComponentTheme = token.filePath.includes('component-themes');
   const isColour = token.filePath.includes('colour.json');
@@ -309,8 +363,7 @@ module.exports = {
         },
         transform: function (token) {
           // Convert px to rem (assuming 16px base)
-          const remValue = token.value / 16;
-          return `${remValue}rem`;
+          return formatLayoutSize(token.value);
         },
       },
       'name/kebab': {
@@ -512,6 +565,9 @@ module.exports = {
         });
 
         output += '}\n';
+        output += formatResponsiveLayoutTokens([
+          { selector: ':root', tokens: dictionary.allTokens.filter(isDefaultRootToken) },
+        ]);
         return output;
       },
       'css/canopy-storybook': function ({ dictionary }) {
@@ -579,6 +635,7 @@ module.exports = {
           const isColour = token.filePath.includes('colour.json');
 
           if (!isComponentTheme && !isColour) return;
+          if (token.$extensions?.canopy?.layoutValues) return;
 
           // Check if this is a status token (has 'status' in path)
           const isStatus = token.path.includes('status');
@@ -698,6 +755,18 @@ module.exports = {
 
           output += '}\n\n';
         });
+
+        output += formatResponsiveLayoutTokens(
+          sortedKeys
+            .map((key) => grouped[key])
+            .filter(
+              (group) => !(group.colorClass === 'blue' && group.themeClass === 'neutral'),
+            )
+            .map((group) => ({
+              selector: `.lg-mode-${group.colorClass}.lg-theme-${group.themeClass}`,
+              tokens: group.tokens,
+            })),
+        );
 
         return output;
       },
@@ -868,6 +937,13 @@ module.exports = {
 
           output += '}\n\n';
         });
+
+        output += formatResponsiveLayoutTokens(
+          sortedKeys.map((key) => ({
+            selector: `.lg-status-${grouped[key].statusClass}.lg-theme-${grouped[key].themeClass}`,
+            tokens: grouped[key].tokens,
+          })),
+        );
 
         return output;
       },

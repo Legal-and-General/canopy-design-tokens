@@ -1,6 +1,6 @@
 {
   "$description": "Design tokens from Component themes collection",
-  "$timestamp": "2026-10-06T09:41:20.360Z",
+  "$timestamp": "2026-10-07T14:47:31.099Z",
   "breadcrumb": {
     "border-width": {
       "Neutral": {
@@ -60827,21 +60827,65 @@
         "Blue": {
           "value": 28,
           "type": "spacing",
+          "$extensions": {
+            "canopy": {
+              "layoutValues": {
+                "sm": 28,
+                "md": 28,
+                "lg": 32,
+                "xl": 32,
+                "xxl": 32
+              }
+            }
+          },
           "description": "Content area padding left and right"
         },
         "Green": {
           "value": 28,
           "type": "spacing",
+          "$extensions": {
+            "canopy": {
+              "layoutValues": {
+                "sm": 28,
+                "md": 28,
+                "lg": 32,
+                "xl": 32,
+                "xxl": 32
+              }
+            }
+          },
           "description": "Content area padding left and right"
         },
         "Red": {
           "value": 28,
           "type": "spacing",
+          "$extensions": {
+            "canopy": {
+              "layoutValues": {
+                "sm": 28,
+                "md": 28,
+                "lg": 32,
+                "xl": 32,
+                "xxl": 32
+              }
+            }
+          },
           "description": "Content area padding left and right"
         },
         "Yellow": {
           "value": 28,
           "type": "spacing",
+          "$extensions": {
+            "canopy": {
+              "layoutValues": {
+                "sm": 28,
+                "md": 28,
+                "lg": 32,
+                "xl": 32,
+                "xxl": 32
+              }
+            }
+          },
           "description": "Content area padding left and right"
         }
       },
@@ -60849,21 +60893,65 @@
         "Blue": {
           "value": 28,
           "type": "spacing",
+          "$extensions": {
+            "canopy": {
+              "layoutValues": {
+                "sm": 28,
+                "md": 28,
+                "lg": 32,
+                "xl": 32,
+                "xxl": 32
+              }
+            }
+          },
           "description": "Content area padding left and right"
         },
         "Green": {
           "value": 28,
           "type": "spacing",
+          "$extensions": {
+            "canopy": {
+              "layoutValues": {
+                "sm": 28,
+                "md": 28,
+                "lg": 32,
+                "xl": 32,
+                "xxl": 32
+              }
+            }
+          },
           "description": "Content area padding left and right"
         },
         "Red": {
           "value": 28,
           "type": "spacing",
+          "$extensions": {
+            "canopy": {
+              "layoutValues": {
+                "sm": 28,
+                "md": 28,
+                "lg": 32,
+                "xl": 32,
+                "xxl": 32
+              }
+            }
+          },
           "description": "Content area padding left and right"
         },
         "Yellow": {
           "value": 28,
           "type": "spacing",
+          "$extensions": {
+            "canopy": {
+              "layoutValues": {
+                "sm": 28,
+                "md": 28,
+                "lg": 32,
+                "xl": 32,
+                "xxl": 32
+              }
+            }
+          },
           "description": "Content area padding left and right"
         }
       },
@@ -60871,21 +60959,65 @@
         "Blue": {
           "value": 28,
           "type": "spacing",
+          "$extensions": {
+            "canopy": {
+              "layoutValues": {
+                "sm": 28,
+                "md": 28,
+                "lg": 32,
+                "xl": 32,
+                "xxl": 32
+              }
+            }
+          },
           "description": "Content area padding left and right"
         },
         "Green": {
           "value": 28,
           "type": "spacing",
+          "$extensions": {
+            "canopy": {
+              "layoutValues": {
+                "sm": 28,
+                "md": 28,
+                "lg": 32,
+                "xl": 32,
+                "xxl": 32
+              }
+            }
+          },
           "description": "Content area padding left and right"
         },
         "Red": {
           "value": 28,
           "type": "spacing",
+          "$extensions": {
+            "canopy": {
+              "layoutValues": {
+                "sm": 28,
+                "md": 28,
+                "lg": 32,
+                "xl": 32,
+                "xxl": 32
+              }
+            }
+          },
           "description": "Content area padding left and right"
         },
         "Yellow": {
           "value": 28,
           "type": "spacing",
+          "$extensions": {
+            "canopy": {
+              "layoutValues": {
+                "sm": 28,
+                "md": 28,
+                "lg": 32,
+                "xl": 32,
+                "xxl": 32
+              }
+            }
+          },
           "description": "Content area padding left and right"
         }
       },
@@ -60893,21 +61025,65 @@
         "Blue": {
           "value": 28,
           "type": "spacing",
+          "$extensions": {
+            "canopy": {
+              "layoutValues": {
+                "sm": 28,
+                "md": 28,
+                "lg": 32,
+                "xl": 32,
+                "xxl": 32
+              }
+            }
+          },
           "description": "Content area padding left and right"
         },
         "Green": {
           "value": 28,
           "type": "spacing",
+          "$extensions": {
+            "canopy": {
+              "layoutValues": {
+                "sm": 28,
+                "md": 28,
+                "lg": 32,
+                "xl": 32,
+                "xxl": 32
+              }
+            }
+          },
           "description": "Content area padding left and right"
         },
         "Red": {
           "value": 28,
           "type": "spacing",
+          "$extensions": {
+            "canopy": {
+              "layoutValues": {
+                "sm": 28,
+                "md": 28,
+                "lg": 32,
+                "xl": 32,
+                "xxl": 32
+              }
+            }
+          },
           "description": "Content area padding left and right"
         },
         "Yellow": {
           "value": 28,
           "type": "spacing",
+          "$extensions": {
+            "canopy": {
+              "layoutValues": {
+                "sm": 28,
+                "md": 28,
+                "lg": 32,
+                "xl": 32,
+                "xxl": 32
+              }
+            }
+          },
           "description": "Content area padding left and right"
         }
       }
@@ -60917,21 +61093,65 @@
         "Blue": {
           "value": 20,
           "type": "spacing",
+          "$extensions": {
+            "canopy": {
+              "layoutValues": {
+                "sm": 20,
+                "md": 20,
+                "lg": 24,
+                "xl": 24,
+                "xxl": 24
+              }
+            }
+          },
           "description": "Content area padding top and bottom"
         },
         "Green": {
           "value": 20,
           "type": "spacing",
+          "$extensions": {
+            "canopy": {
+              "layoutValues": {
+                "sm": 20,
+                "md": 20,
+                "lg": 24,
+                "xl": 24,
+                "xxl": 24
+              }
+            }
+          },
           "description": "Content area padding top and bottom"
         },
         "Red": {
           "value": 20,
           "type": "spacing",
+          "$extensions": {
+            "canopy": {
+              "layoutValues": {
+                "sm": 20,
+                "md": 20,
+                "lg": 24,
+                "xl": 24,
+                "xxl": 24
+              }
+            }
+          },
           "description": "Content area padding top and bottom"
         },
         "Yellow": {
           "value": 20,
           "type": "spacing",
+          "$extensions": {
+            "canopy": {
+              "layoutValues": {
+                "sm": 20,
+                "md": 20,
+                "lg": 24,
+                "xl": 24,
+                "xxl": 24
+              }
+            }
+          },
           "description": "Content area padding top and bottom"
         }
       },
@@ -60939,21 +61159,65 @@
         "Blue": {
           "value": 20,
           "type": "spacing",
+          "$extensions": {
+            "canopy": {
+              "layoutValues": {
+                "sm": 20,
+                "md": 20,
+                "lg": 24,
+                "xl": 24,
+                "xxl": 24
+              }
+            }
+          },
           "description": "Content area padding top and bottom"
         },
         "Green": {
           "value": 20,
           "type": "spacing",
+          "$extensions": {
+            "canopy": {
+              "layoutValues": {
+                "sm": 20,
+                "md": 20,
+                "lg": 24,
+                "xl": 24,
+                "xxl": 24
+              }
+            }
+          },
           "description": "Content area padding top and bottom"
         },
         "Red": {
           "value": 20,
           "type": "spacing",
+          "$extensions": {
+            "canopy": {
+              "layoutValues": {
+                "sm": 20,
+                "md": 20,
+                "lg": 24,
+                "xl": 24,
+                "xxl": 24
+              }
+            }
+          },
           "description": "Content area padding top and bottom"
         },
         "Yellow": {
           "value": 20,
           "type": "spacing",
+          "$extensions": {
+            "canopy": {
+              "layoutValues": {
+                "sm": 20,
+                "md": 20,
+                "lg": 24,
+                "xl": 24,
+                "xxl": 24
+              }
+            }
+          },
           "description": "Content area padding top and bottom"
         }
       },
@@ -60961,21 +61225,65 @@
         "Blue": {
           "value": 20,
           "type": "spacing",
+          "$extensions": {
+            "canopy": {
+              "layoutValues": {
+                "sm": 20,
+                "md": 20,
+                "lg": 24,
+                "xl": 24,
+                "xxl": 24
+              }
+            }
+          },
           "description": "Content area padding top and bottom"
         },
         "Green": {
           "value": 20,
           "type": "spacing",
+          "$extensions": {
+            "canopy": {
+              "layoutValues": {
+                "sm": 20,
+                "md": 20,
+                "lg": 24,
+                "xl": 24,
+                "xxl": 24
+              }
+            }
+          },
           "description": "Content area padding top and bottom"
         },
         "Red": {
           "value": 20,
           "type": "spacing",
+          "$extensions": {
+            "canopy": {
+              "layoutValues": {
+                "sm": 20,
+                "md": 20,
+                "lg": 24,
+                "xl": 24,
+                "xxl": 24
+              }
+            }
+          },
           "description": "Content area padding top and bottom"
         },
         "Yellow": {
           "value": 20,
           "type": "spacing",
+          "$extensions": {
+            "canopy": {
+              "layoutValues": {
+                "sm": 20,
+                "md": 20,
+                "lg": 24,
+                "xl": 24,
+                "xxl": 24
+              }
+            }
+          },
           "description": "Content area padding top and bottom"
         }
       },
@@ -60983,21 +61291,65 @@
         "Blue": {
           "value": 20,
           "type": "spacing",
+          "$extensions": {
+            "canopy": {
+              "layoutValues": {
+                "sm": 20,
+                "md": 20,
+                "lg": 24,
+                "xl": 24,
+                "xxl": 24
+              }
+            }
+          },
           "description": "Content area padding top and bottom"
         },
         "Green": {
           "value": 20,
           "type": "spacing",
+          "$extensions": {
+            "canopy": {
+              "layoutValues": {
+                "sm": 20,
+                "md": 20,
+                "lg": 24,
+                "xl": 24,
+                "xxl": 24
+              }
+            }
+          },
           "description": "Content area padding top and bottom"
         },
         "Red": {
           "value": 20,
           "type": "spacing",
+          "$extensions": {
+            "canopy": {
+              "layoutValues": {
+                "sm": 20,
+                "md": 20,
+                "lg": 24,
+                "xl": 24,
+                "xxl": 24
+              }
+            }
+          },
           "description": "Content area padding top and bottom"
         },
         "Yellow": {
           "value": 20,
           "type": "spacing",
+          "$extensions": {
+            "canopy": {
+              "layoutValues": {
+                "sm": 20,
+                "md": 20,
+                "lg": 24,
+                "xl": 24,
+                "xxl": 24
+              }
+            }
+          },
           "description": "Content area padding top and bottom"
         }
       }
@@ -61007,21 +61359,65 @@
         "Blue": {
           "value": 28,
           "type": "borderRadius",
+          "$extensions": {
+            "canopy": {
+              "layoutValues": {
+                "sm": 28,
+                "md": 28,
+                "lg": 32,
+                "xl": 32,
+                "xxl": 32
+              }
+            }
+          },
           "description": "Content area border radius"
         },
         "Green": {
           "value": 28,
           "type": "borderRadius",
+          "$extensions": {
+            "canopy": {
+              "layoutValues": {
+                "sm": 28,
+                "md": 28,
+                "lg": 32,
+                "xl": 32,
+                "xxl": 32
+              }
+            }
+          },
           "description": "Content area border radius"
         },
         "Red": {
           "value": 28,
           "type": "borderRadius",
+          "$extensions": {
+            "canopy": {
+              "layoutValues": {
+                "sm": 28,
+                "md": 28,
+                "lg": 32,
+                "xl": 32,
+                "xxl": 32
+              }
+            }
+          },
           "description": "Content area border radius"
         },
         "Yellow": {
           "value": 28,
           "type": "borderRadius",
+          "$extensions": {
+            "canopy": {
+              "layoutValues": {
+                "sm": 28,
+                "md": 28,
+                "lg": 32,
+                "xl": 32,
+                "xxl": 32
+              }
+            }
+          },
           "description": "Content area border radius"
         }
       },
@@ -61029,21 +61425,65 @@
         "Blue": {
           "value": 28,
           "type": "borderRadius",
+          "$extensions": {
+            "canopy": {
+              "layoutValues": {
+                "sm": 28,
+                "md": 28,
+                "lg": 32,
+                "xl": 32,
+                "xxl": 32
+              }
+            }
+          },
           "description": "Content area border radius"
         },
         "Green": {
           "value": 28,
           "type": "borderRadius",
+          "$extensions": {
+            "canopy": {
+              "layoutValues": {
+                "sm": 28,
+                "md": 28,
+                "lg": 32,
+                "xl": 32,
+                "xxl": 32
+              }
+            }
+          },
           "description": "Content area border radius"
         },
         "Red": {
           "value": 28,
           "type": "borderRadius",
+          "$extensions": {
+            "canopy": {
+              "layoutValues": {
+                "sm": 28,
+                "md": 28,
+                "lg": 32,
+                "xl": 32,
+                "xxl": 32
+              }
+            }
+          },
           "description": "Content area border radius"
         },
         "Yellow": {
           "value": 28,
           "type": "borderRadius",
+          "$extensions": {
+            "canopy": {
+              "layoutValues": {
+                "sm": 28,
+                "md": 28,
+                "lg": 32,
+                "xl": 32,
+                "xxl": 32
+              }
+            }
+          },
           "description": "Content area border radius"
         }
       },
@@ -61051,21 +61491,65 @@
         "Blue": {
           "value": 28,
           "type": "borderRadius",
+          "$extensions": {
+            "canopy": {
+              "layoutValues": {
+                "sm": 28,
+                "md": 28,
+                "lg": 32,
+                "xl": 32,
+                "xxl": 32
+              }
+            }
+          },
           "description": "Content area border radius"
         },
         "Green": {
           "value": 28,
           "type": "borderRadius",
+          "$extensions": {
+            "canopy": {
+              "layoutValues": {
+                "sm": 28,
+                "md": 28,
+                "lg": 32,
+                "xl": 32,
+                "xxl": 32
+              }
+            }
+          },
           "description": "Content area border radius"
         },
         "Red": {
           "value": 28,
           "type": "borderRadius",
+          "$extensions": {
+            "canopy": {
+              "layoutValues": {
+                "sm": 28,
+                "md": 28,
+                "lg": 32,
+                "xl": 32,
+                "xxl": 32
+              }
+            }
+          },
           "description": "Content area border radius"
         },
         "Yellow": {
           "value": 28,
           "type": "borderRadius",
+          "$extensions": {
+            "canopy": {
+              "layoutValues": {
+                "sm": 28,
+                "md": 28,
+                "lg": 32,
+                "xl": 32,
+                "xxl": 32
+              }
+            }
+          },
           "description": "Content area border radius"
         }
       },
@@ -61073,21 +61557,65 @@
         "Blue": {
           "value": 28,
           "type": "borderRadius",
+          "$extensions": {
+            "canopy": {
+              "layoutValues": {
+                "sm": 28,
+                "md": 28,
+                "lg": 32,
+                "xl": 32,
+                "xxl": 32
+              }
+            }
+          },
           "description": "Content area border radius"
         },
         "Green": {
           "value": 28,
           "type": "borderRadius",
+          "$extensions": {
+            "canopy": {
+              "layoutValues": {
+                "sm": 28,
+                "md": 28,
+                "lg": 32,
+                "xl": 32,
+                "xxl": 32
+              }
+            }
+          },
           "description": "Content area border radius"
         },
         "Red": {
           "value": 28,
           "type": "borderRadius",
+          "$extensions": {
+            "canopy": {
+              "layoutValues": {
+                "sm": 28,
+                "md": 28,
+                "lg": 32,
+                "xl": 32,
+                "xxl": 32
+              }
+            }
+          },
           "description": "Content area border radius"
         },
         "Yellow": {
           "value": 28,
           "type": "borderRadius",
+          "$extensions": {
+            "canopy": {
+              "layoutValues": {
+                "sm": 28,
+                "md": 28,
+                "lg": 32,
+                "xl": 32,
+                "xxl": 32
+              }
+            }
+          },
           "description": "Content area border radius"
         }
       }
@@ -61547,21 +62075,65 @@
         "Blue": {
           "value": 28,
           "type": "sizing",
+          "$extensions": {
+            "canopy": {
+              "layoutValues": {
+                "sm": 28,
+                "md": 28,
+                "lg": 32,
+                "xl": 32,
+                "xxl": 32
+              }
+            }
+          },
           "description": "Row gap between items in a content area"
         },
         "Green": {
           "value": 28,
           "type": "sizing",
+          "$extensions": {
+            "canopy": {
+              "layoutValues": {
+                "sm": 28,
+                "md": 28,
+                "lg": 32,
+                "xl": 32,
+                "xxl": 32
+              }
+            }
+          },
           "description": "Row gap between items in a content area"
         },
         "Red": {
           "value": 28,
           "type": "sizing",
+          "$extensions": {
+            "canopy": {
+              "layoutValues": {
+                "sm": 28,
+                "md": 28,
+                "lg": 32,
+                "xl": 32,
+                "xxl": 32
+              }
+            }
+          },
           "description": "Row gap between items in a content area"
         },
         "Yellow": {
           "value": 28,
           "type": "sizing",
+          "$extensions": {
+            "canopy": {
+              "layoutValues": {
+                "sm": 28,
+                "md": 28,
+                "lg": 32,
+                "xl": 32,
+                "xxl": 32
+              }
+            }
+          },
           "description": "Row gap between items in a content area"
         }
       },
@@ -61569,21 +62141,65 @@
         "Blue": {
           "value": 28,
           "type": "sizing",
+          "$extensions": {
+            "canopy": {
+              "layoutValues": {
+                "sm": 28,
+                "md": 28,
+                "lg": 32,
+                "xl": 32,
+                "xxl": 32
+              }
+            }
+          },
           "description": "Row gap between items in a content area"
         },
         "Green": {
           "value": 28,
           "type": "sizing",
+          "$extensions": {
+            "canopy": {
+              "layoutValues": {
+                "sm": 28,
+                "md": 28,
+                "lg": 32,
+                "xl": 32,
+                "xxl": 32
+              }
+            }
+          },
           "description": "Row gap between items in a content area"
         },
         "Red": {
           "value": 28,
           "type": "sizing",
+          "$extensions": {
+            "canopy": {
+              "layoutValues": {
+                "sm": 28,
+                "md": 28,
+                "lg": 32,
+                "xl": 32,
+                "xxl": 32
+              }
+            }
+          },
           "description": "Row gap between items in a content area"
         },
         "Yellow": {
           "value": 28,
           "type": "sizing",
+          "$extensions": {
+            "canopy": {
+              "layoutValues": {
+                "sm": 28,
+                "md": 28,
+                "lg": 32,
+                "xl": 32,
+                "xxl": 32
+              }
+            }
+          },
           "description": "Row gap between items in a content area"
         }
       },
@@ -61591,21 +62207,65 @@
         "Blue": {
           "value": 28,
           "type": "sizing",
+          "$extensions": {
+            "canopy": {
+              "layoutValues": {
+                "sm": 28,
+                "md": 28,
+                "lg": 32,
+                "xl": 32,
+                "xxl": 32
+              }
+            }
+          },
           "description": "Row gap between items in a content area"
         },
         "Green": {
           "value": 28,
           "type": "sizing",
+          "$extensions": {
+            "canopy": {
+              "layoutValues": {
+                "sm": 28,
+                "md": 28,
+                "lg": 32,
+                "xl": 32,
+                "xxl": 32
+              }
+            }
+          },
           "description": "Row gap between items in a content area"
         },
         "Red": {
           "value": 28,
           "type": "sizing",
+          "$extensions": {
+            "canopy": {
+              "layoutValues": {
+                "sm": 28,
+                "md": 28,
+                "lg": 32,
+                "xl": 32,
+                "xxl": 32
+              }
+            }
+          },
           "description": "Row gap between items in a content area"
         },
         "Yellow": {
           "value": 28,
           "type": "sizing",
+          "$extensions": {
+            "canopy": {
+              "layoutValues": {
+                "sm": 28,
+                "md": 28,
+                "lg": 32,
+                "xl": 32,
+                "xxl": 32
+              }
+            }
+          },
           "description": "Row gap between items in a content area"
         }
       },
@@ -61613,21 +62273,65 @@
         "Blue": {
           "value": 28,
           "type": "sizing",
+          "$extensions": {
+            "canopy": {
+              "layoutValues": {
+                "sm": 28,
+                "md": 28,
+                "lg": 32,
+                "xl": 32,
+                "xxl": 32
+              }
+            }
+          },
           "description": "Row gap between items in a content area"
         },
         "Green": {
           "value": 28,
           "type": "sizing",
+          "$extensions": {
+            "canopy": {
+              "layoutValues": {
+                "sm": 28,
+                "md": 28,
+                "lg": 32,
+                "xl": 32,
+                "xxl": 32
+              }
+            }
+          },
           "description": "Row gap between items in a content area"
         },
         "Red": {
           "value": 28,
           "type": "sizing",
+          "$extensions": {
+            "canopy": {
+              "layoutValues": {
+                "sm": 28,
+                "md": 28,
+                "lg": 32,
+                "xl": 32,
+                "xxl": 32
+              }
+            }
+          },
           "description": "Row gap between items in a content area"
         },
         "Yellow": {
           "value": 28,
           "type": "sizing",
+          "$extensions": {
+            "canopy": {
+              "layoutValues": {
+                "sm": 28,
+                "md": 28,
+                "lg": 32,
+                "xl": 32,
+                "xxl": 32
+              }
+            }
+          },
           "description": "Row gap between items in a content area"
         }
       }
