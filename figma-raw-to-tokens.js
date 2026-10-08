@@ -538,6 +538,44 @@ function resolvesToStatusCollection(variable, allVariables, allCollections) {
 /**
  * Processes a component theme variable - expands across color or status modes
  */
+function addResponsiveLayoutValues(
+  token,
+  variable,
+  value,
+  variables,
+  collections,
+  context,
+) {
+  const componentName = variable.name.split('/')[0];
+  if (componentName !== 'content-area') return;
+
+  const isSpacingOrRadius =
+    ['spacing', 'borderRadius'].includes(token.type) ||
+    variable.name.split('/').some((part) => ['gap', 'gutter'].includes(part));
+  if (!isSpacingOrRadius || variable.resolvedType !== 'FLOAT') return;
+  if (!value || value.type !== 'VARIABLE_ALIAS') return;
+
+  const layoutValues = Object.fromEntries(
+    ['SM', 'MD', 'LG', 'XL', 'XXL'].map((mode) => [
+      mode.toLowerCase(),
+      resolveAliasWithModeContext(value.id, variables, collections, {
+        ...context,
+        layoutModeName: mode,
+      }),
+    ]),
+  );
+  const values = Object.values(layoutValues);
+  if (
+    !values.every((resolved) => typeof resolved === 'number' && Number.isFinite(resolved))
+  ) {
+    throw new Error(`Invalid responsive layout value for ${variable.name}`);
+  }
+  if (values.every((resolved) => resolved === layoutValues.sm)) return;
+
+  token.value = layoutValues.sm;
+  token.$extensions = { canopy: { layoutValues } };
+}
+
 function processComponentThemeVariable(
   variable,
   collection,
@@ -607,6 +645,13 @@ function processComponentThemeVariable(
         value: convertedValue,
         type: tokenType,
       };
+
+      addResponsiveLayoutValues(token, variable, value, allVariables, allCollections, {
+        themeModeId: modeId,
+        ...(isStatus || isLinkStatusBorder
+          ? { statusModeId: modeToExpand.modeId }
+          : { colorModeId: modeToExpand.modeId }),
+      });
 
       if (variable.description) {
         token.description = variable.description;
@@ -700,6 +745,18 @@ function processLinkVariable(
             type: tokenType,
           };
 
+          addResponsiveLayoutValues(
+            token,
+            variable,
+            value,
+            allVariables,
+            allCollections,
+            {
+              themeModeId: themeMode.modeId,
+              statusModeId: statusMode.modeId,
+            },
+          );
+
           if (variable.description) {
             token.description = variable.description;
           }
@@ -744,13 +801,25 @@ function processLinkVariable(
               type: tokenType,
             };
 
+            addResponsiveLayoutValues(
+              token,
+              variable,
+              value,
+              allVariables,
+              allCollections,
+              {
+                themeModeId: themeMode.modeId,
+                colorModeId: colorMode.modeId,
+              },
+            );
+
             if (variable.description) {
               token.description = variable.description;
             }
 
             const fullPath = [
               ...namePath,
-              ...(responsiveMode ? [responsiveMode.name] : []),
+              ...(responsiveMode?.name ? [responsiveMode.name] : []),
               themeMode.name,
               colorMode.name,
             ];

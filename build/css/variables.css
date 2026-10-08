@@ -1061,3 +1061,12 @@
   --accordion-content-gap: 1.25rem;
   --accordion-group-gap: 1rem;
 }
+
+@media (min-width: 64rem) {
+  :root {
+    --content-area-padding-x: 2rem;
+    --content-area-padding-y: 1.5rem;
+    --content-area-border-radius: 2rem;
+    --content-area-gap: 2rem;
+  }
+}
