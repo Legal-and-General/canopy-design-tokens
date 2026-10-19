@@ -1,6 +1,6 @@
 {
   "$description": "Design tokens from Layout collection",
-  "$timestamp": "2026-10-07T14:47:31.118Z",
+  "$timestamp": "2026-10-19T12:07:45.903Z",
   "border-radius": {
     "1": {
       "SM": {
@@ -1889,193 +1889,241 @@
   },
   "asset": {
     "size": {
-      "xs": {
-        "SM": {
-          "value": 16,
-          "type": "sizing",
-          "description": "Extra-small asset size. Remains consistent across breakpoints. Should not be referenced directly by components. Use via the Component themes tier."
-        },
-        "MD": {
-          "value": 16,
-          "type": "sizing",
-          "description": "Extra-small asset size. Remains consistent across breakpoints. Should not be referenced directly by components. Use via the Component themes tier."
-        },
-        "LG": {
-          "value": 16,
-          "type": "sizing",
-          "description": "Extra-small asset size. Remains consistent across breakpoints. Should not be referenced directly by components. Use via the Component themes tier."
-        },
-        "XL": {
-          "value": 16,
-          "type": "sizing",
-          "description": "Extra-small asset size. Remains consistent across breakpoints. Should not be referenced directly by components. Use via the Component themes tier."
-        },
-        "XXL": {
-          "value": 16,
-          "type": "sizing",
-          "description": "Extra-small asset size. Remains consistent across breakpoints. Should not be referenced directly by components. Use via the Component themes tier."
-        }
-      },
       "sm": {
-        "SM": {
-          "value": 24,
-          "type": "sizing",
-          "description": "Small asset size. Remains consistent across breakpoints. Should not be referenced directly by components. Use via the Component themes tier."
+        "1": {
+          "SM": {
+            "value": 16,
+            "type": "sizing",
+            "description": "Extra-small asset size. Remains consistent across breakpoints. Should not be referenced directly by components. Use via the Component themes tier."
+          },
+          "MD": {
+            "value": 16,
+            "type": "sizing",
+            "description": "Extra-small asset size. Remains consistent across breakpoints. Should not be referenced directly by components. Use via the Component themes tier."
+          },
+          "LG": {
+            "value": 16,
+            "type": "sizing",
+            "description": "Extra-small asset size. Remains consistent across breakpoints. Should not be referenced directly by components. Use via the Component themes tier."
+          },
+          "XL": {
+            "value": 16,
+            "type": "sizing",
+            "description": "Extra-small asset size. Remains consistent across breakpoints. Should not be referenced directly by components. Use via the Component themes tier."
+          },
+          "XXL": {
+            "value": 16,
+            "type": "sizing",
+            "description": "Extra-small asset size. Remains consistent across breakpoints. Should not be referenced directly by components. Use via the Component themes tier."
+          }
         },
-        "MD": {
-          "value": 24,
-          "type": "sizing",
-          "description": "Small asset size. Remains consistent across breakpoints. Should not be referenced directly by components. Use via the Component themes tier."
+        "2": {
+          "SM": {
+            "value": 22,
+            "type": "sizing"
+          },
+          "MD": {
+            "value": 22,
+            "type": "sizing"
+          },
+          "LG": {
+            "value": 22,
+            "type": "sizing"
+          },
+          "XL": {
+            "value": 22,
+            "type": "sizing"
+          },
+          "XXL": {
+            "value": 22,
+            "type": "sizing"
+          }
         },
-        "LG": {
-          "value": 24,
-          "type": "sizing",
-          "description": "Small asset size. Remains consistent across breakpoints. Should not be referenced directly by components. Use via the Component themes tier."
+        "3": {
+          "SM": {
+            "value": 24,
+            "type": "sizing",
+            "description": "Small asset size. Remains consistent across breakpoints. Should not be referenced directly by components. Use via the Component themes tier."
+          },
+          "MD": {
+            "value": 24,
+            "type": "sizing",
+            "description": "Small asset size. Remains consistent across breakpoints. Should not be referenced directly by components. Use via the Component themes tier."
+          },
+          "LG": {
+            "value": 24,
+            "type": "sizing",
+            "description": "Small asset size. Remains consistent across breakpoints. Should not be referenced directly by components. Use via the Component themes tier."
+          },
+          "XL": {
+            "value": 24,
+            "type": "sizing",
+            "description": "Small asset size. Remains consistent across breakpoints. Should not be referenced directly by components. Use via the Component themes tier."
+          },
+          "XXL": {
+            "value": 24,
+            "type": "sizing",
+            "description": "Small asset size. Remains consistent across breakpoints. Should not be referenced directly by components. Use via the Component themes tier."
+          }
         },
-        "XL": {
-          "value": 24,
-          "type": "sizing",
-          "description": "Small asset size. Remains consistent across breakpoints. Should not be referenced directly by components. Use via the Component themes tier."
+        "4": {
+          "SM": {
+            "value": 28,
+            "type": "sizing"
+          },
+          "MD": {
+            "value": 28,
+            "type": "sizing"
+          },
+          "LG": {
+            "value": 28,
+            "type": "sizing"
+          },
+          "XL": {
+            "value": 28,
+            "type": "sizing"
+          },
+          "XXL": {
+            "value": 28,
+            "type": "sizing"
+          }
         },
-        "XXL": {
-          "value": 24,
-          "type": "sizing",
-          "description": "Small asset size. Remains consistent across breakpoints. Should not be referenced directly by components. Use via the Component themes tier."
+        "5": {
+          "SM": {
+            "value": 32,
+            "type": "sizing",
+            "description": "Medium asset size. Remains consistent across breakpoints. Should not be referenced directly by components. Use via the Component themes tier."
+          },
+          "MD": {
+            "value": 32,
+            "type": "sizing",
+            "description": "Medium asset size. Remains consistent across breakpoints. Should not be referenced directly by components. Use via the Component themes tier."
+          },
+          "LG": {
+            "value": 32,
+            "type": "sizing",
+            "description": "Medium asset size. Remains consistent across breakpoints. Should not be referenced directly by components. Use via the Component themes tier."
+          },
+          "XL": {
+            "value": 32,
+            "type": "sizing",
+            "description": "Medium asset size. Remains consistent across breakpoints. Should not be referenced directly by components. Use via the Component themes tier."
+          },
+          "XXL": {
+            "value": 32,
+            "type": "sizing",
+            "description": "Medium asset size. Remains consistent across breakpoints. Should not be referenced directly by components. Use via the Component themes tier."
+          }
         }
       },
       "md": {
-        "SM": {
-          "value": 32,
-          "type": "sizing",
-          "description": "Medium asset size. Remains consistent across breakpoints. Should not be referenced directly by components. Use via the Component themes tier."
+        "lg": {
+          "SM": {
+            "value": 80,
+            "type": "sizing",
+            "description": "Large asset size. Remains consistent across breakpoints. Should not be referenced directly by components. Use via the Component themes tier."
+          },
+          "MD": {
+            "value": 80,
+            "type": "sizing",
+            "description": "Large asset size. Remains consistent across breakpoints. Should not be referenced directly by components. Use via the Component themes tier."
+          },
+          "LG": {
+            "value": 80,
+            "type": "sizing",
+            "description": "Large asset size. Remains consistent across breakpoints. Should not be referenced directly by components. Use via the Component themes tier."
+          },
+          "XL": {
+            "value": 80,
+            "type": "sizing",
+            "description": "Large asset size. Remains consistent across breakpoints. Should not be referenced directly by components. Use via the Component themes tier."
+          },
+          "XXL": {
+            "value": 80,
+            "type": "sizing",
+            "description": "Large asset size. Remains consistent across breakpoints. Should not be referenced directly by components. Use via the Component themes tier."
+          }
         },
-        "MD": {
-          "value": 32,
-          "type": "sizing",
-          "description": "Medium asset size. Remains consistent across breakpoints. Should not be referenced directly by components. Use via the Component themes tier."
+        "xl": {
+          "SM": {
+            "value": 120,
+            "type": "sizing",
+            "description": "Extra-large asset size. Remains consistent across breakpoints. Should not be referenced directly by components. Use via the Component themes tier."
+          },
+          "MD": {
+            "value": 120,
+            "type": "sizing",
+            "description": "Extra-large asset size. Remains consistent across breakpoints. Should not be referenced directly by components. Use via the Component themes tier."
+          },
+          "LG": {
+            "value": 120,
+            "type": "sizing",
+            "description": "Extra-large asset size. Remains consistent across breakpoints. Should not be referenced directly by components. Use via the Component themes tier."
+          },
+          "XL": {
+            "value": 120,
+            "type": "sizing",
+            "description": "Extra-large asset size. Remains consistent across breakpoints. Should not be referenced directly by components. Use via the Component themes tier."
+          },
+          "XXL": {
+            "value": 120,
+            "type": "sizing",
+            "description": "Extra-large asset size. Remains consistent across breakpoints. Should not be referenced directly by components. Use via the Component themes tier."
+          }
         },
-        "LG": {
-          "value": 32,
-          "type": "sizing",
-          "description": "Medium asset size. Remains consistent across breakpoints. Should not be referenced directly by components. Use via the Component themes tier."
+        "xxl": {
+          "SM": {
+            "value": 160,
+            "type": "sizing",
+            "description": "Extra-extra-large asset size. Remains consistent across breakpoints. Should not be referenced directly by components. Use via the Component themes tier."
+          },
+          "MD": {
+            "value": 160,
+            "type": "sizing",
+            "description": "Extra-extra-large asset size. Remains consistent across breakpoints. Should not be referenced directly by components. Use via the Component themes tier."
+          },
+          "LG": {
+            "value": 160,
+            "type": "sizing",
+            "description": "Extra-extra-large asset size. Remains consistent across breakpoints. Should not be referenced directly by components. Use via the Component themes tier."
+          },
+          "XL": {
+            "value": 160,
+            "type": "sizing",
+            "description": "Extra-extra-large asset size. Remains consistent across breakpoints. Should not be referenced directly by components. Use via the Component themes tier."
+          },
+          "XXL": {
+            "value": 160,
+            "type": "sizing",
+            "description": "Extra-extra-large asset size. Remains consistent across breakpoints. Should not be referenced directly by components. Use via the Component themes tier."
+          }
         },
-        "XL": {
-          "value": 32,
-          "type": "sizing",
-          "description": "Medium asset size. Remains consistent across breakpoints. Should not be referenced directly by components. Use via the Component themes tier."
-        },
-        "XXL": {
-          "value": 32,
-          "type": "sizing",
-          "description": "Medium asset size. Remains consistent across breakpoints. Should not be referenced directly by components. Use via the Component themes tier."
-        }
-      },
-      "lg": {
-        "SM": {
-          "value": 80,
-          "type": "sizing",
-          "description": "Large asset size. Remains consistent across breakpoints. Should not be referenced directly by components. Use via the Component themes tier."
-        },
-        "MD": {
-          "value": 80,
-          "type": "sizing",
-          "description": "Large asset size. Remains consistent across breakpoints. Should not be referenced directly by components. Use via the Component themes tier."
-        },
-        "LG": {
-          "value": 80,
-          "type": "sizing",
-          "description": "Large asset size. Remains consistent across breakpoints. Should not be referenced directly by components. Use via the Component themes tier."
-        },
-        "XL": {
-          "value": 80,
-          "type": "sizing",
-          "description": "Large asset size. Remains consistent across breakpoints. Should not be referenced directly by components. Use via the Component themes tier."
-        },
-        "XXL": {
-          "value": 80,
-          "type": "sizing",
-          "description": "Large asset size. Remains consistent across breakpoints. Should not be referenced directly by components. Use via the Component themes tier."
-        }
-      },
-      "xl": {
-        "SM": {
-          "value": 120,
-          "type": "sizing",
-          "description": "Extra-large asset size. Remains consistent across breakpoints. Should not be referenced directly by components. Use via the Component themes tier."
-        },
-        "MD": {
-          "value": 120,
-          "type": "sizing",
-          "description": "Extra-large asset size. Remains consistent across breakpoints. Should not be referenced directly by components. Use via the Component themes tier."
-        },
-        "LG": {
-          "value": 120,
-          "type": "sizing",
-          "description": "Extra-large asset size. Remains consistent across breakpoints. Should not be referenced directly by components. Use via the Component themes tier."
-        },
-        "XL": {
-          "value": 120,
-          "type": "sizing",
-          "description": "Extra-large asset size. Remains consistent across breakpoints. Should not be referenced directly by components. Use via the Component themes tier."
-        },
-        "XXL": {
-          "value": 120,
-          "type": "sizing",
-          "description": "Extra-large asset size. Remains consistent across breakpoints. Should not be referenced directly by components. Use via the Component themes tier."
-        }
-      },
-      "xxl": {
-        "SM": {
-          "value": 160,
-          "type": "sizing",
-          "description": "Extra-extra-large asset size. Remains consistent across breakpoints. Should not be referenced directly by components. Use via the Component themes tier."
-        },
-        "MD": {
-          "value": 160,
-          "type": "sizing",
-          "description": "Extra-extra-large asset size. Remains consistent across breakpoints. Should not be referenced directly by components. Use via the Component themes tier."
-        },
-        "LG": {
-          "value": 160,
-          "type": "sizing",
-          "description": "Extra-extra-large asset size. Remains consistent across breakpoints. Should not be referenced directly by components. Use via the Component themes tier."
-        },
-        "XL": {
-          "value": 160,
-          "type": "sizing",
-          "description": "Extra-extra-large asset size. Remains consistent across breakpoints. Should not be referenced directly by components. Use via the Component themes tier."
-        },
-        "XXL": {
-          "value": 160,
-          "type": "sizing",
-          "description": "Extra-extra-large asset size. Remains consistent across breakpoints. Should not be referenced directly by components. Use via the Component themes tier."
-        }
-      },
-      "lg-responsive": {
-        "SM": {
-          "value": 80,
-          "type": "sizing",
-          "description": "Responsive asset size. Uses the large size at SM and MD, extra-large at LG and XL, and extra-extra-large at XXL. Should not be referenced directly by components. Use via the Component themes tier."
-        },
-        "MD": {
-          "value": 80,
-          "type": "sizing",
-          "description": "Responsive asset size. Uses the large size at SM and MD, extra-large at LG and XL, and extra-extra-large at XXL. Should not be referenced directly by components. Use via the Component themes tier."
-        },
-        "LG": {
-          "value": 120,
-          "type": "sizing",
-          "description": "Responsive asset size. Uses the large size at SM and MD, extra-large at LG and XL, and extra-extra-large at XXL. Should not be referenced directly by components. Use via the Component themes tier."
-        },
-        "XL": {
-          "value": 120,
-          "type": "sizing",
-          "description": "Responsive asset size. Uses the large size at SM and MD, extra-large at LG and XL, and extra-extra-large at XXL. Should not be referenced directly by components. Use via the Component themes tier."
-        },
-        "XXL": {
-          "value": 160,
-          "type": "sizing",
-          "description": "Responsive asset size. Uses the large size at SM and MD, extra-large at LG and XL, and extra-extra-large at XXL. Should not be referenced directly by components. Use via the Component themes tier."
+        "lg-responsive": {
+          "SM": {
+            "value": 80,
+            "type": "sizing",
+            "description": "Responsive asset size. Uses the large size at SM and MD, extra-large at LG and XL, and extra-extra-large at XXL. Should not be referenced directly by components. Use via the Component themes tier."
+          },
+          "MD": {
+            "value": 80,
+            "type": "sizing",
+            "description": "Responsive asset size. Uses the large size at SM and MD, extra-large at LG and XL, and extra-extra-large at XXL. Should not be referenced directly by components. Use via the Component themes tier."
+          },
+          "LG": {
+            "value": 120,
+            "type": "sizing",
+            "description": "Responsive asset size. Uses the large size at SM and MD, extra-large at LG and XL, and extra-extra-large at XXL. Should not be referenced directly by components. Use via the Component themes tier."
+          },
+          "XL": {
+            "value": 120,
+            "type": "sizing",
+            "description": "Responsive asset size. Uses the large size at SM and MD, extra-large at LG and XL, and extra-extra-large at XXL. Should not be referenced directly by components. Use via the Component themes tier."
+          },
+          "XXL": {
+            "value": 160,
+            "type": "sizing",
+            "description": "Responsive asset size. Uses the large size at SM and MD, extra-large at LG and XL, and extra-extra-large at XXL. Should not be referenced directly by components. Use via the Component themes tier."
+          }
         }
       }
     }

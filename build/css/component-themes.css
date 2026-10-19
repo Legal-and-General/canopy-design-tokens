@@ -253,7 +253,10 @@
   --content-icon-brand-primary-colour: #005dba;
   --content-icon-negative-colour: #c50b30;
   --content-icon-positive-colour: #00633d;
-  --content-icon-size-sm: 1.5rem;
+  --content-icon-size-lg: 1.75rem;
+  --content-icon-size-md: 1.5rem;
+  --content-icon-size-sm: 1.375rem;
+  --content-icon-size-xl: 2rem;
   --content-indicator-bold-background-colour: #005dba;
   --content-indicator-bold-colour: #ffffff;
   --content-indicator-bold-padding: 0.25rem;
@@ -447,6 +450,7 @@
   --interactive-focus-border-width: 0.1875rem;
   --interactive-gap: 0.5rem;
   --interactive-min-height: 3rem;
+  --interactive-min-width-labelled: 5.25rem;
   --interactive-min-width: 3rem;
   --interactive-padding-lg: 1.25rem;
   --interactive-padding-md: 1rem;
@@ -600,6 +604,8 @@
   --link-primary-visited-colour: #1d1d1b;
   --list-gap: 1.25rem;
   --list-item-common-gap: 0.75rem;
+  --list-item-common-icon-size-default: 1.375rem;
+  --list-item-common-icon-size-large: 1.75rem;
   --list-item-common-padding-left: 0.75rem;
   --list-item-negative-colour: #c50b30;
   --list-item-positive-colour: #00633d;
@@ -684,6 +690,7 @@
   --segment-button-active-colour: #ffffff;
   --segment-button-common-border-radius: 0.5rem;
   --segment-button-common-min-height: 2.25rem;
+  --segment-button-common-min-width: 5.25rem;
   --segment-button-common-padding-x: 0.5rem;
   --segment-button-common-padding-y: 0.5rem;
   --segment-button-disabled-background-colour: #d3d3d3;
@@ -1052,7 +1059,10 @@
   --content-icon-brand-primary-colour: #001d6e;
   --content-icon-negative-colour: #1d1d1b;
   --content-icon-positive-colour: #1d1d1b;
-  --content-icon-size-sm: 1.5rem;
+  --content-icon-size-lg: 1.75rem;
+  --content-icon-size-md: 1.5rem;
+  --content-icon-size-sm: 1.375rem;
+  --content-icon-size-xl: 2rem;
   --content-indicator-bold-background-colour: #005dba;
   --content-indicator-bold-colour: #ffffff;
   --content-indicator-bold-padding: 0.25rem;
@@ -1245,6 +1255,7 @@
   --interactive-focus-border-width: 0.1875rem;
   --interactive-gap: 0.5rem;
   --interactive-min-height: 3rem;
+  --interactive-min-width-labelled: 5.25rem;
   --interactive-min-width: 3rem;
   --interactive-padding-lg: 1.25rem;
   --interactive-padding-md: 1rem;
@@ -1398,6 +1409,8 @@
   --link-primary-visited-colour: #1d1d1b;
   --list-gap: 1.25rem;
   --list-item-common-gap: 0.75rem;
+  --list-item-common-icon-size-default: 1.375rem;
+  --list-item-common-icon-size-large: 1.75rem;
   --list-item-common-padding-left: 0.75rem;
   --list-item-negative-colour: #1d1d1b;
   --list-item-positive-colour: #1d1d1b;
@@ -1482,6 +1495,7 @@
   --segment-button-active-colour: #ffffff;
   --segment-button-common-border-radius: 0.5rem;
   --segment-button-common-min-height: 2.25rem;
+  --segment-button-common-min-width: 5.25rem;
   --segment-button-common-padding-x: 0.5rem;
   --segment-button-common-padding-y: 0.5rem;
   --segment-button-disabled-background-colour: #d3d3d3;
@@ -1850,7 +1864,10 @@
   --content-icon-brand-primary-colour: #ffffff;
   --content-icon-negative-colour: #ffffff;
   --content-icon-positive-colour: #ffffff;
-  --content-icon-size-sm: 1.5rem;
+  --content-icon-size-lg: 1.75rem;
+  --content-icon-size-md: 1.5rem;
+  --content-icon-size-sm: 1.375rem;
+  --content-icon-size-xl: 2rem;
   --content-indicator-bold-background-colour: #ffffff;
   --content-indicator-bold-colour: #1d1d1b;
   --content-indicator-bold-padding: 0.25rem;
@@ -2044,6 +2061,7 @@
   --interactive-gap: 0.5rem;
   --interactive-min-height: 3rem;
   --interactive-min-width: 3rem;
+  --interactive-min-width-labelled: 5.25rem;
   --interactive-padding-lg: 1.25rem;
   --interactive-padding-md: 1rem;
   --interactive-padding-sm: 0.75rem;
@@ -2196,6 +2214,8 @@
   --link-primary-visited-colour: #ffffff;
   --list-gap: 1.25rem;
   --list-item-common-gap: 0.75rem;
+  --list-item-common-icon-size-default: 1.375rem;
+  --list-item-common-icon-size-large: 1.75rem;
   --list-item-common-padding-left: 0.75rem;
   --list-item-negative-colour: #ffffff;
   --list-item-positive-colour: #ffffff;
@@ -2280,6 +2300,7 @@
   --segment-button-active-colour: #1d1d1b;
   --segment-button-common-border-radius: 0.5rem;
   --segment-button-common-min-height: 2.25rem;
+  --segment-button-common-min-width: 5.25rem;
   --segment-button-common-padding-x: 0.5rem;
   --segment-button-common-padding-y: 0.5rem;
   --segment-button-disabled-background-colour: #d3d3d3;
@@ -2647,7 +2668,10 @@
   --content-icon-brand-primary-colour: #00633d;
   --content-icon-negative-colour: #c50b30;
   --content-icon-positive-colour: #00633d;
-  --content-icon-size-sm: 1.5rem;
+  --content-icon-size-lg: 1.75rem;
+  --content-icon-size-md: 1.5rem;
+  --content-icon-size-sm: 1.375rem;
+  --content-icon-size-xl: 2rem;
   --content-indicator-bold-background-colour: #00633d;
   --content-indicator-bold-colour: #ffffff;
   --content-indicator-bold-padding: 0.25rem;
@@ -2841,6 +2865,7 @@
   --interactive-focus-border-width: 0.1875rem;
   --interactive-gap: 0.5rem;
   --interactive-min-height: 3rem;
+  --interactive-min-width-labelled: 5.25rem;
   --interactive-min-width: 3rem;
   --interactive-padding-lg: 1.25rem;
   --interactive-padding-md: 1rem;
@@ -2994,6 +3019,8 @@
   --link-primary-visited-colour: #1d1d1b;
   --list-gap: 1.25rem;
   --list-item-common-gap: 0.75rem;
+  --list-item-common-icon-size-default: 1.375rem;
+  --list-item-common-icon-size-large: 1.75rem;
   --list-item-common-padding-left: 0.75rem;
   --list-item-negative-colour: #c50b30;
   --list-item-positive-colour: #00633d;
@@ -3078,6 +3105,7 @@
   --segment-button-active-colour: #ffffff;
   --segment-button-common-border-radius: 0.5rem;
   --segment-button-common-min-height: 2.25rem;
+  --segment-button-common-min-width: 5.25rem;
   --segment-button-common-padding-x: 0.5rem;
   --segment-button-common-padding-y: 0.5rem;
   --segment-button-disabled-background-colour: #d3d3d3;
@@ -3445,7 +3473,10 @@
   --content-icon-brand-primary-colour: #00633d;
   --content-icon-negative-colour: #c50b30;
   --content-icon-positive-colour: #00633d;
-  --content-icon-size-sm: 1.5rem;
+  --content-icon-size-lg: 1.75rem;
+  --content-icon-size-md: 1.5rem;
+  --content-icon-size-sm: 1.375rem;
+  --content-icon-size-xl: 2rem;
   --content-indicator-bold-background-colour: #00633d;
   --content-indicator-bold-colour: #ffffff;
   --content-indicator-bold-padding: 0.25rem;
@@ -3639,6 +3670,7 @@
   --interactive-focus-border-width: 0.1875rem;
   --interactive-gap: 0.5rem;
   --interactive-min-height: 3rem;
+  --interactive-min-width-labelled: 5.25rem;
   --interactive-min-width: 3rem;
   --interactive-padding-lg: 1.25rem;
   --interactive-padding-md: 1rem;
@@ -3792,6 +3824,8 @@
   --link-primary-visited-colour: #1d1d1b;
   --list-gap: 1.25rem;
   --list-item-common-gap: 0.75rem;
+  --list-item-common-icon-size-default: 1.375rem;
+  --list-item-common-icon-size-large: 1.75rem;
   --list-item-common-padding-left: 0.75rem;
   --list-item-negative-colour: #c50b30;
   --list-item-positive-colour: #00633d;
@@ -3876,6 +3910,7 @@
   --segment-button-active-colour: #ffffff;
   --segment-button-common-border-radius: 0.5rem;
   --segment-button-common-min-height: 2.25rem;
+  --segment-button-common-min-width: 5.25rem;
   --segment-button-common-padding-x: 0.5rem;
   --segment-button-common-padding-y: 0.5rem;
   --segment-button-disabled-background-colour: #d3d3d3;
@@ -4243,7 +4278,10 @@
   --content-icon-brand-primary-colour: #01312e;
   --content-icon-negative-colour: #1d1d1b;
   --content-icon-positive-colour: #1d1d1b;
-  --content-icon-size-sm: 1.5rem;
+  --content-icon-size-lg: 1.75rem;
+  --content-icon-size-md: 1.5rem;
+  --content-icon-size-sm: 1.375rem;
+  --content-icon-size-xl: 2rem;
   --content-indicator-bold-background-colour: #00633d;
   --content-indicator-bold-colour: #ffffff;
   --content-indicator-bold-padding: 0.25rem;
@@ -4436,6 +4474,7 @@
   --interactive-focus-border-width: 0.1875rem;
   --interactive-gap: 0.5rem;
   --interactive-min-height: 3rem;
+  --interactive-min-width-labelled: 5.25rem;
   --interactive-min-width: 3rem;
   --interactive-padding-lg: 1.25rem;
   --interactive-padding-md: 1rem;
@@ -4589,6 +4628,8 @@
   --link-primary-visited-colour: #1d1d1b;
   --list-gap: 1.25rem;
   --list-item-common-gap: 0.75rem;
+  --list-item-common-icon-size-default: 1.375rem;
+  --list-item-common-icon-size-large: 1.75rem;
   --list-item-common-padding-left: 0.75rem;
   --list-item-negative-colour: #1d1d1b;
   --list-item-positive-colour: #1d1d1b;
@@ -4673,6 +4714,7 @@
   --segment-button-active-colour: #ffffff;
   --segment-button-common-border-radius: 0.5rem;
   --segment-button-common-min-height: 2.25rem;
+  --segment-button-common-min-width: 5.25rem;
   --segment-button-common-padding-x: 0.5rem;
   --segment-button-common-padding-y: 0.5rem;
   --segment-button-disabled-background-colour: #d3d3d3;
@@ -5040,7 +5082,10 @@
   --content-icon-brand-primary-colour: #ffffff;
   --content-icon-negative-colour: #ffffff;
   --content-icon-positive-colour: #ffffff;
-  --content-icon-size-sm: 1.5rem;
+  --content-icon-size-lg: 1.75rem;
+  --content-icon-size-md: 1.5rem;
+  --content-icon-size-sm: 1.375rem;
+  --content-icon-size-xl: 2rem;
   --content-indicator-bold-background-colour: #ffffff;
   --content-indicator-bold-colour: #1d1d1b;
   --content-indicator-bold-padding: 0.25rem;
@@ -5234,6 +5279,7 @@
   --interactive-gap: 0.5rem;
   --interactive-min-height: 3rem;
   --interactive-min-width: 3rem;
+  --interactive-min-width-labelled: 5.25rem;
   --interactive-padding-lg: 1.25rem;
   --interactive-padding-md: 1rem;
   --interactive-padding-sm: 0.75rem;
@@ -5386,6 +5432,8 @@
   --link-primary-visited-colour: #ffffff;
   --list-gap: 1.25rem;
   --list-item-common-gap: 0.75rem;
+  --list-item-common-icon-size-default: 1.375rem;
+  --list-item-common-icon-size-large: 1.75rem;
   --list-item-common-padding-left: 0.75rem;
   --list-item-negative-colour: #ffffff;
   --list-item-positive-colour: #ffffff;
@@ -5470,6 +5518,7 @@
   --segment-button-active-colour: #1d1d1b;
   --segment-button-common-border-radius: 0.5rem;
   --segment-button-common-min-height: 2.25rem;
+  --segment-button-common-min-width: 5.25rem;
   --segment-button-common-padding-x: 0.5rem;
   --segment-button-common-padding-y: 0.5rem;
   --segment-button-disabled-background-colour: #d3d3d3;
@@ -5837,7 +5886,10 @@
   --content-icon-brand-primary-colour: #c50b30;
   --content-icon-negative-colour: #c50b30;
   --content-icon-positive-colour: #00633d;
-  --content-icon-size-sm: 1.5rem;
+  --content-icon-size-lg: 1.75rem;
+  --content-icon-size-md: 1.5rem;
+  --content-icon-size-sm: 1.375rem;
+  --content-icon-size-xl: 2rem;
   --content-indicator-bold-background-colour: #c50b30;
   --content-indicator-bold-colour: #ffffff;
   --content-indicator-bold-padding: 0.25rem;
@@ -6031,6 +6083,7 @@
   --interactive-focus-border-width: 0.1875rem;
   --interactive-gap: 0.5rem;
   --interactive-min-height: 3rem;
+  --interactive-min-width-labelled: 5.25rem;
   --interactive-min-width: 3rem;
   --interactive-padding-lg: 1.25rem;
   --interactive-padding-md: 1rem;
@@ -6184,6 +6237,8 @@
   --link-primary-visited-colour: #1d1d1b;
   --list-gap: 1.25rem;
   --list-item-common-gap: 0.75rem;
+  --list-item-common-icon-size-default: 1.375rem;
+  --list-item-common-icon-size-large: 1.75rem;
   --list-item-common-padding-left: 0.75rem;
   --list-item-negative-colour: #c50b30;
   --list-item-positive-colour: #00633d;
@@ -6268,6 +6323,7 @@
   --segment-button-active-colour: #ffffff;
   --segment-button-common-border-radius: 0.5rem;
   --segment-button-common-min-height: 2.25rem;
+  --segment-button-common-min-width: 5.25rem;
   --segment-button-common-padding-x: 0.5rem;
   --segment-button-common-padding-y: 0.5rem;
   --segment-button-disabled-background-colour: #d3d3d3;
@@ -6635,7 +6691,10 @@
   --content-icon-brand-primary-colour: #c50b30;
   --content-icon-negative-colour: #c50b30;
   --content-icon-positive-colour: #00633d;
-  --content-icon-size-sm: 1.5rem;
+  --content-icon-size-lg: 1.75rem;
+  --content-icon-size-md: 1.5rem;
+  --content-icon-size-sm: 1.375rem;
+  --content-icon-size-xl: 2rem;
   --content-indicator-bold-background-colour: #c50b30;
   --content-indicator-bold-colour: #ffffff;
   --content-indicator-bold-padding: 0.25rem;
@@ -6829,6 +6888,7 @@
   --interactive-focus-border-width: 0.1875rem;
   --interactive-gap: 0.5rem;
   --interactive-min-height: 3rem;
+  --interactive-min-width-labelled: 5.25rem;
   --interactive-min-width: 3rem;
   --interactive-padding-lg: 1.25rem;
   --interactive-padding-md: 1rem;
@@ -6982,6 +7042,8 @@
   --link-primary-visited-colour: #1d1d1b;
   --list-gap: 1.25rem;
   --list-item-common-gap: 0.75rem;
+  --list-item-common-icon-size-default: 1.375rem;
+  --list-item-common-icon-size-large: 1.75rem;
   --list-item-common-padding-left: 0.75rem;
   --list-item-negative-colour: #c50b30;
   --list-item-positive-colour: #00633d;
@@ -7066,6 +7128,7 @@
   --segment-button-active-colour: #ffffff;
   --segment-button-common-border-radius: 0.5rem;
   --segment-button-common-min-height: 2.25rem;
+  --segment-button-common-min-width: 5.25rem;
   --segment-button-common-padding-x: 0.5rem;
   --segment-button-common-padding-y: 0.5rem;
   --segment-button-disabled-background-colour: #d3d3d3;
@@ -7433,7 +7496,10 @@
   --content-icon-brand-primary-colour: #940824;
   --content-icon-negative-colour: #1d1d1b;
   --content-icon-positive-colour: #1d1d1b;
-  --content-icon-size-sm: 1.5rem;
+  --content-icon-size-lg: 1.75rem;
+  --content-icon-size-md: 1.5rem;
+  --content-icon-size-sm: 1.375rem;
+  --content-icon-size-xl: 2rem;
   --content-indicator-bold-background-colour: #c50b30;
   --content-indicator-bold-colour: #ffffff;
   --content-indicator-bold-padding: 0.25rem;
@@ -7626,6 +7692,7 @@
   --interactive-focus-border-width: 0.1875rem;
   --interactive-gap: 0.5rem;
   --interactive-min-height: 3rem;
+  --interactive-min-width-labelled: 5.25rem;
   --interactive-min-width: 3rem;
   --interactive-padding-lg: 1.25rem;
   --interactive-padding-md: 1rem;
@@ -7779,6 +7846,8 @@
   --link-primary-visited-colour: #1d1d1b;
   --list-gap: 1.25rem;
   --list-item-common-gap: 0.75rem;
+  --list-item-common-icon-size-default: 1.375rem;
+  --list-item-common-icon-size-large: 1.75rem;
   --list-item-common-padding-left: 0.75rem;
   --list-item-negative-colour: #1d1d1b;
   --list-item-positive-colour: #1d1d1b;
@@ -7863,6 +7932,7 @@
   --segment-button-active-colour: #ffffff;
   --segment-button-common-border-radius: 0.5rem;
   --segment-button-common-min-height: 2.25rem;
+  --segment-button-common-min-width: 5.25rem;
   --segment-button-common-padding-x: 0.5rem;
   --segment-button-common-padding-y: 0.5rem;
   --segment-button-disabled-background-colour: #d3d3d3;
@@ -8230,7 +8300,10 @@
   --content-icon-brand-primary-colour: #ffffff;
   --content-icon-negative-colour: #ffffff;
   --content-icon-positive-colour: #ffffff;
-  --content-icon-size-sm: 1.5rem;
+  --content-icon-size-lg: 1.75rem;
+  --content-icon-size-md: 1.5rem;
+  --content-icon-size-sm: 1.375rem;
+  --content-icon-size-xl: 2rem;
   --content-indicator-bold-background-colour: #ffffff;
   --content-indicator-bold-colour: #1d1d1b;
   --content-indicator-bold-padding: 0.25rem;
@@ -8424,6 +8497,7 @@
   --interactive-gap: 0.5rem;
   --interactive-min-height: 3rem;
   --interactive-min-width: 3rem;
+  --interactive-min-width-labelled: 5.25rem;
   --interactive-padding-lg: 1.25rem;
   --interactive-padding-md: 1rem;
   --interactive-padding-sm: 0.75rem;
@@ -8576,6 +8650,8 @@
   --link-primary-visited-colour: #ffffff;
   --list-gap: 1.25rem;
   --list-item-common-gap: 0.75rem;
+  --list-item-common-icon-size-default: 1.375rem;
+  --list-item-common-icon-size-large: 1.75rem;
   --list-item-common-padding-left: 0.75rem;
   --list-item-negative-colour: #ffffff;
   --list-item-positive-colour: #ffffff;
@@ -8660,6 +8736,7 @@
   --segment-button-active-colour: #1d1d1b;
   --segment-button-common-border-radius: 0.5rem;
   --segment-button-common-min-height: 2.25rem;
+  --segment-button-common-min-width: 5.25rem;
   --segment-button-common-padding-x: 0.5rem;
   --segment-button-common-padding-y: 0.5rem;
   --segment-button-disabled-background-colour: #d3d3d3;
@@ -9027,7 +9104,10 @@
   --content-icon-brand-primary-colour: #ffb600;
   --content-icon-negative-colour: #c50b30;
   --content-icon-positive-colour: #00633d;
-  --content-icon-size-sm: 1.5rem;
+  --content-icon-size-lg: 1.75rem;
+  --content-icon-size-md: 1.5rem;
+  --content-icon-size-sm: 1.375rem;
+  --content-icon-size-xl: 2rem;
   --content-indicator-bold-background-colour: #ffb600;
   --content-indicator-bold-colour: #1d1d1b;
   --content-indicator-bold-padding: 0.25rem;
@@ -9221,6 +9301,7 @@
   --interactive-focus-border-width: 0.1875rem;
   --interactive-gap: 0.5rem;
   --interactive-min-height: 3rem;
+  --interactive-min-width-labelled: 5.25rem;
   --interactive-min-width: 3rem;
   --interactive-padding-lg: 1.25rem;
   --interactive-padding-md: 1rem;
@@ -9374,6 +9455,8 @@
   --link-primary-visited-colour: #1d1d1b;
   --list-gap: 1.25rem;
   --list-item-common-gap: 0.75rem;
+  --list-item-common-icon-size-default: 1.375rem;
+  --list-item-common-icon-size-large: 1.75rem;
   --list-item-common-padding-left: 0.75rem;
   --list-item-negative-colour: #c50b30;
   --list-item-positive-colour: #00633d;
@@ -9458,6 +9541,7 @@
   --segment-button-active-colour: #1d1d1b;
   --segment-button-common-border-radius: 0.5rem;
   --segment-button-common-min-height: 2.25rem;
+  --segment-button-common-min-width: 5.25rem;
   --segment-button-common-padding-x: 0.5rem;
   --segment-button-common-padding-y: 0.5rem;
   --segment-button-disabled-background-colour: #d3d3d3;
@@ -9825,7 +9909,10 @@
   --content-icon-brand-primary-colour: #ffb600;
   --content-icon-negative-colour: #c50b30;
   --content-icon-positive-colour: #00633d;
-  --content-icon-size-sm: 1.5rem;
+  --content-icon-size-lg: 1.75rem;
+  --content-icon-size-md: 1.5rem;
+  --content-icon-size-sm: 1.375rem;
+  --content-icon-size-xl: 2rem;
   --content-indicator-bold-background-colour: #ffb600;
   --content-indicator-bold-colour: #1d1d1b;
   --content-indicator-bold-padding: 0.25rem;
@@ -10019,6 +10106,7 @@
   --interactive-focus-border-width: 0.1875rem;
   --interactive-gap: 0.5rem;
   --interactive-min-height: 3rem;
+  --interactive-min-width-labelled: 5.25rem;
   --interactive-min-width: 3rem;
   --interactive-padding-lg: 1.25rem;
   --interactive-padding-md: 1rem;
@@ -10172,6 +10260,8 @@
   --link-primary-visited-colour: #1d1d1b;
   --list-gap: 1.25rem;
   --list-item-common-gap: 0.75rem;
+  --list-item-common-icon-size-default: 1.375rem;
+  --list-item-common-icon-size-large: 1.75rem;
   --list-item-common-padding-left: 0.75rem;
   --list-item-negative-colour: #c50b30;
   --list-item-positive-colour: #00633d;
@@ -10256,6 +10346,7 @@
   --segment-button-active-colour: #1d1d1b;
   --segment-button-common-border-radius: 0.5rem;
   --segment-button-common-min-height: 2.25rem;
+  --segment-button-common-min-width: 5.25rem;
   --segment-button-common-padding-x: 0.5rem;
   --segment-button-common-padding-y: 0.5rem;
   --segment-button-disabled-background-colour: #d3d3d3;
@@ -10623,7 +10714,10 @@
   --content-icon-brand-primary-colour: #904029;
   --content-icon-negative-colour: #1d1d1b;
   --content-icon-positive-colour: #1d1d1b;
-  --content-icon-size-sm: 1.5rem;
+  --content-icon-size-lg: 1.75rem;
+  --content-icon-size-md: 1.5rem;
+  --content-icon-size-sm: 1.375rem;
+  --content-icon-size-xl: 2rem;
   --content-indicator-bold-background-colour: #ffb600;
   --content-indicator-bold-colour: #1d1d1b;
   --content-indicator-bold-padding: 0.25rem;
@@ -10816,6 +10910,7 @@
   --interactive-focus-border-width: 0.1875rem;
   --interactive-gap: 0.5rem;
   --interactive-min-height: 3rem;
+  --interactive-min-width-labelled: 5.25rem;
   --interactive-min-width: 3rem;
   --interactive-padding-lg: 1.25rem;
   --interactive-padding-md: 1rem;
@@ -10969,6 +11064,8 @@
   --link-primary-visited-colour: #1d1d1b;
   --list-gap: 1.25rem;
   --list-item-common-gap: 0.75rem;
+  --list-item-common-icon-size-default: 1.375rem;
+  --list-item-common-icon-size-large: 1.75rem;
   --list-item-common-padding-left: 0.75rem;
   --list-item-negative-colour: #1d1d1b;
   --list-item-positive-colour: #1d1d1b;
@@ -11053,6 +11150,7 @@
   --segment-button-active-colour: #1d1d1b;
   --segment-button-common-border-radius: 0.5rem;
   --segment-button-common-min-height: 2.25rem;
+  --segment-button-common-min-width: 5.25rem;
   --segment-button-common-padding-x: 0.5rem;
   --segment-button-common-padding-y: 0.5rem;
   --segment-button-disabled-background-colour: #d3d3d3;
@@ -11420,7 +11518,10 @@
   --content-icon-brand-primary-colour: #1d1d1b;
   --content-icon-negative-colour: #1d1d1b;
   --content-icon-positive-colour: #1d1d1b;
-  --content-icon-size-sm: 1.5rem;
+  --content-icon-size-lg: 1.75rem;
+  --content-icon-size-md: 1.5rem;
+  --content-icon-size-sm: 1.375rem;
+  --content-icon-size-xl: 2rem;
   --content-indicator-bold-background-colour: #ffffff;
   --content-indicator-bold-colour: #1d1d1b;
   --content-indicator-bold-padding: 0.25rem;
@@ -11614,6 +11715,7 @@
   --interactive-gap: 0.5rem;
   --interactive-min-height: 3rem;
   --interactive-min-width: 3rem;
+  --interactive-min-width-labelled: 5.25rem;
   --interactive-padding-lg: 1.25rem;
   --interactive-padding-md: 1rem;
   --interactive-padding-sm: 0.75rem;
@@ -11766,6 +11868,8 @@
   --link-primary-visited-colour: #1d1d1b;
   --list-gap: 1.25rem;
   --list-item-common-gap: 0.75rem;
+  --list-item-common-icon-size-default: 1.375rem;
+  --list-item-common-icon-size-large: 1.75rem;
   --list-item-common-padding-left: 0.75rem;
   --list-item-negative-colour: #1d1d1b;
   --list-item-positive-colour: #1d1d1b;
@@ -11850,6 +11954,7 @@
   --segment-button-active-colour: #000000;
   --segment-button-common-border-radius: 0.5rem;
   --segment-button-common-min-height: 2.25rem;
+  --segment-button-common-min-width: 5.25rem;
   --segment-button-common-padding-x: 0.5rem;
   --segment-button-common-padding-y: 0.5rem;
   --segment-button-disabled-background-colour: #d3d3d3;
