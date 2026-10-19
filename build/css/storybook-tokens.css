@@ -603,41 +603,51 @@
   --accordion-header-label-min-width: 8.75rem; /* Minimum width of the accordion label in the header */
   --accordion-padding-x: 1.25rem; /* Left and right padding of the accordion */
   --accordion-padding-y: 1.25rem; /* Top and bottom padding of the accordion */
-  --asset-size-lg-lg: 5rem; /* Large asset size. Remains consistent across breakpoints. Should not be referenced directly by components. Use via the Component themes tier. */
-  --asset-size-lg-md: 5rem; /* Large asset size. Remains consistent across breakpoints. Should not be referenced directly by components. Use via the Component themes tier. */
-  --asset-size-lg-responsive-lg: 7.5rem; /* Responsive asset size. Uses the large size at SM and MD, extra-large at LG and XL, and extra-extra-large at XXL. Should not be referenced directly by components. Use via the Component themes tier. */
-  --asset-size-lg-responsive-md: 5rem; /* Responsive asset size. Uses the large size at SM and MD, extra-large at LG and XL, and extra-extra-large at XXL. Should not be referenced directly by components. Use via the Component themes tier. */
-  --asset-size-lg-responsive-sm: 5rem; /* Responsive asset size. Uses the large size at SM and MD, extra-large at LG and XL, and extra-extra-large at XXL. Should not be referenced directly by components. Use via the Component themes tier. */
-  --asset-size-lg-responsive-xl: 7.5rem; /* Responsive asset size. Uses the large size at SM and MD, extra-large at LG and XL, and extra-extra-large at XXL. Should not be referenced directly by components. Use via the Component themes tier. */
-  --asset-size-lg-responsive-xxl: 10rem; /* Responsive asset size. Uses the large size at SM and MD, extra-large at LG and XL, and extra-extra-large at XXL. Should not be referenced directly by components. Use via the Component themes tier. */
-  --asset-size-lg-sm: 5rem; /* Large asset size. Remains consistent across breakpoints. Should not be referenced directly by components. Use via the Component themes tier. */
-  --asset-size-lg-xl: 5rem; /* Large asset size. Remains consistent across breakpoints. Should not be referenced directly by components. Use via the Component themes tier. */
-  --asset-size-lg-xxl: 5rem; /* Large asset size. Remains consistent across breakpoints. Should not be referenced directly by components. Use via the Component themes tier. */
-  --asset-size-md-lg: 2rem; /* Medium asset size. Remains consistent across breakpoints. Should not be referenced directly by components. Use via the Component themes tier. */
-  --asset-size-md-md: 2rem; /* Medium asset size. Remains consistent across breakpoints. Should not be referenced directly by components. Use via the Component themes tier. */
-  --asset-size-md-sm: 2rem; /* Medium asset size. Remains consistent across breakpoints. Should not be referenced directly by components. Use via the Component themes tier. */
-  --asset-size-md-xl: 2rem; /* Medium asset size. Remains consistent across breakpoints. Should not be referenced directly by components. Use via the Component themes tier. */
-  --asset-size-md-xxl: 2rem; /* Medium asset size. Remains consistent across breakpoints. Should not be referenced directly by components. Use via the Component themes tier. */
-  --asset-size-sm-lg: 1.5rem; /* Small asset size. Remains consistent across breakpoints. Should not be referenced directly by components. Use via the Component themes tier. */
-  --asset-size-sm-md: 1.5rem; /* Small asset size. Remains consistent across breakpoints. Should not be referenced directly by components. Use via the Component themes tier. */
-  --asset-size-sm-sm: 1.5rem; /* Small asset size. Remains consistent across breakpoints. Should not be referenced directly by components. Use via the Component themes tier. */
-  --asset-size-sm-xl: 1.5rem; /* Small asset size. Remains consistent across breakpoints. Should not be referenced directly by components. Use via the Component themes tier. */
-  --asset-size-sm-xxl: 1.5rem; /* Small asset size. Remains consistent across breakpoints. Should not be referenced directly by components. Use via the Component themes tier. */
-  --asset-size-xl-lg: 7.5rem; /* Extra-large asset size. Remains consistent across breakpoints. Should not be referenced directly by components. Use via the Component themes tier. */
-  --asset-size-xl-md: 7.5rem; /* Extra-large asset size. Remains consistent across breakpoints. Should not be referenced directly by components. Use via the Component themes tier. */
-  --asset-size-xl-sm: 7.5rem; /* Extra-large asset size. Remains consistent across breakpoints. Should not be referenced directly by components. Use via the Component themes tier. */
-  --asset-size-xl-xl: 7.5rem; /* Extra-large asset size. Remains consistent across breakpoints. Should not be referenced directly by components. Use via the Component themes tier. */
-  --asset-size-xl-xxl: 7.5rem; /* Extra-large asset size. Remains consistent across breakpoints. Should not be referenced directly by components. Use via the Component themes tier. */
-  --asset-size-xs-lg: 1rem; /* Extra-small asset size. Remains consistent across breakpoints. Should not be referenced directly by components. Use via the Component themes tier. */
-  --asset-size-xs-md: 1rem; /* Extra-small asset size. Remains consistent across breakpoints. Should not be referenced directly by components. Use via the Component themes tier. */
-  --asset-size-xs-sm: 1rem; /* Extra-small asset size. Remains consistent across breakpoints. Should not be referenced directly by components. Use via the Component themes tier. */
-  --asset-size-xs-xl: 1rem; /* Extra-small asset size. Remains consistent across breakpoints. Should not be referenced directly by components. Use via the Component themes tier. */
-  --asset-size-xs-xxl: 1rem; /* Extra-small asset size. Remains consistent across breakpoints. Should not be referenced directly by components. Use via the Component themes tier. */
-  --asset-size-xxl-lg: 10rem; /* Extra-extra-large asset size. Remains consistent across breakpoints. Should not be referenced directly by components. Use via the Component themes tier. */
-  --asset-size-xxl-md: 10rem; /* Extra-extra-large asset size. Remains consistent across breakpoints. Should not be referenced directly by components. Use via the Component themes tier. */
-  --asset-size-xxl-sm: 10rem; /* Extra-extra-large asset size. Remains consistent across breakpoints. Should not be referenced directly by components. Use via the Component themes tier. */
-  --asset-size-xxl-xl: 10rem; /* Extra-extra-large asset size. Remains consistent across breakpoints. Should not be referenced directly by components. Use via the Component themes tier. */
-  --asset-size-xxl-xxl: 10rem; /* Extra-extra-large asset size. Remains consistent across breakpoints. Should not be referenced directly by components. Use via the Component themes tier. */
+  --asset-size-md-lg-lg: 5rem; /* Large asset size. Remains consistent across breakpoints. Should not be referenced directly by components. Use via the Component themes tier. */
+  --asset-size-md-lg-md: 5rem; /* Large asset size. Remains consistent across breakpoints. Should not be referenced directly by components. Use via the Component themes tier. */
+  --asset-size-md-lg-responsive-lg: 7.5rem; /* Responsive asset size. Uses the large size at SM and MD, extra-large at LG and XL, and extra-extra-large at XXL. Should not be referenced directly by components. Use via the Component themes tier. */
+  --asset-size-md-lg-responsive-md: 5rem; /* Responsive asset size. Uses the large size at SM and MD, extra-large at LG and XL, and extra-extra-large at XXL. Should not be referenced directly by components. Use via the Component themes tier. */
+  --asset-size-md-lg-responsive-sm: 5rem; /* Responsive asset size. Uses the large size at SM and MD, extra-large at LG and XL, and extra-extra-large at XXL. Should not be referenced directly by components. Use via the Component themes tier. */
+  --asset-size-md-lg-responsive-xl: 7.5rem; /* Responsive asset size. Uses the large size at SM and MD, extra-large at LG and XL, and extra-extra-large at XXL. Should not be referenced directly by components. Use via the Component themes tier. */
+  --asset-size-md-lg-responsive-xxl: 10rem; /* Responsive asset size. Uses the large size at SM and MD, extra-large at LG and XL, and extra-extra-large at XXL. Should not be referenced directly by components. Use via the Component themes tier. */
+  --asset-size-md-lg-sm: 5rem; /* Large asset size. Remains consistent across breakpoints. Should not be referenced directly by components. Use via the Component themes tier. */
+  --asset-size-md-lg-xl: 5rem; /* Large asset size. Remains consistent across breakpoints. Should not be referenced directly by components. Use via the Component themes tier. */
+  --asset-size-md-lg-xxl: 5rem; /* Large asset size. Remains consistent across breakpoints. Should not be referenced directly by components. Use via the Component themes tier. */
+  --asset-size-md-xl-lg: 7.5rem; /* Extra-large asset size. Remains consistent across breakpoints. Should not be referenced directly by components. Use via the Component themes tier. */
+  --asset-size-md-xl-md: 7.5rem; /* Extra-large asset size. Remains consistent across breakpoints. Should not be referenced directly by components. Use via the Component themes tier. */
+  --asset-size-md-xl-sm: 7.5rem; /* Extra-large asset size. Remains consistent across breakpoints. Should not be referenced directly by components. Use via the Component themes tier. */
+  --asset-size-md-xl-xl: 7.5rem; /* Extra-large asset size. Remains consistent across breakpoints. Should not be referenced directly by components. Use via the Component themes tier. */
+  --asset-size-md-xl-xxl: 7.5rem; /* Extra-large asset size. Remains consistent across breakpoints. Should not be referenced directly by components. Use via the Component themes tier. */
+  --asset-size-md-xxl-lg: 10rem; /* Extra-extra-large asset size. Remains consistent across breakpoints. Should not be referenced directly by components. Use via the Component themes tier. */
+  --asset-size-md-xxl-md: 10rem; /* Extra-extra-large asset size. Remains consistent across breakpoints. Should not be referenced directly by components. Use via the Component themes tier. */
+  --asset-size-md-xxl-sm: 10rem; /* Extra-extra-large asset size. Remains consistent across breakpoints. Should not be referenced directly by components. Use via the Component themes tier. */
+  --asset-size-md-xxl-xl: 10rem; /* Extra-extra-large asset size. Remains consistent across breakpoints. Should not be referenced directly by components. Use via the Component themes tier. */
+  --asset-size-md-xxl-xxl: 10rem; /* Extra-extra-large asset size. Remains consistent across breakpoints. Should not be referenced directly by components. Use via the Component themes tier. */
+  --asset-size-sm-1-lg: 1rem; /* Extra-small asset size. Remains consistent across breakpoints. Should not be referenced directly by components. Use via the Component themes tier. */
+  --asset-size-sm-1-md: 1rem; /* Extra-small asset size. Remains consistent across breakpoints. Should not be referenced directly by components. Use via the Component themes tier. */
+  --asset-size-sm-1-sm: 1rem; /* Extra-small asset size. Remains consistent across breakpoints. Should not be referenced directly by components. Use via the Component themes tier. */
+  --asset-size-sm-1-xl: 1rem; /* Extra-small asset size. Remains consistent across breakpoints. Should not be referenced directly by components. Use via the Component themes tier. */
+  --asset-size-sm-1-xxl: 1rem; /* Extra-small asset size. Remains consistent across breakpoints. Should not be referenced directly by components. Use via the Component themes tier. */
+  --asset-size-sm-2-lg: 1.375rem;
+  --asset-size-sm-2-md: 1.375rem;
+  --asset-size-sm-2-sm: 1.375rem;
+  --asset-size-sm-2-xl: 1.375rem;
+  --asset-size-sm-2-xxl: 1.375rem;
+  --asset-size-sm-3-lg: 1.5rem; /* Small asset size. Remains consistent across breakpoints. Should not be referenced directly by components. Use via the Component themes tier. */
+  --asset-size-sm-3-md: 1.5rem; /* Small asset size. Remains consistent across breakpoints. Should not be referenced directly by components. Use via the Component themes tier. */
+  --asset-size-sm-3-sm: 1.5rem; /* Small asset size. Remains consistent across breakpoints. Should not be referenced directly by components. Use via the Component themes tier. */
+  --asset-size-sm-3-xl: 1.5rem; /* Small asset size. Remains consistent across breakpoints. Should not be referenced directly by components. Use via the Component themes tier. */
+  --asset-size-sm-3-xxl: 1.5rem; /* Small asset size. Remains consistent across breakpoints. Should not be referenced directly by components. Use via the Component themes tier. */
+  --asset-size-sm-4-lg: 1.75rem;
+  --asset-size-sm-4-md: 1.75rem;
+  --asset-size-sm-4-sm: 1.75rem;
+  --asset-size-sm-4-xl: 1.75rem;
+  --asset-size-sm-4-xxl: 1.75rem;
+  --asset-size-sm-5-lg: 2rem; /* Medium asset size. Remains consistent across breakpoints. Should not be referenced directly by components. Use via the Component themes tier. */
+  --asset-size-sm-5-md: 2rem; /* Medium asset size. Remains consistent across breakpoints. Should not be referenced directly by components. Use via the Component themes tier. */
+  --asset-size-sm-5-sm: 2rem; /* Medium asset size. Remains consistent across breakpoints. Should not be referenced directly by components. Use via the Component themes tier. */
+  --asset-size-sm-5-xl: 2rem; /* Medium asset size. Remains consistent across breakpoints. Should not be referenced directly by components. Use via the Component themes tier. */
+  --asset-size-sm-5-xxl: 2rem; /* Medium asset size. Remains consistent across breakpoints. Should not be referenced directly by components. Use via the Component themes tier. */
   --banner-gap: 0.75rem; /* Gap between elements inside the banner */
   --banner-padding-x: 1rem; /* Banner left and right padding */
   --banner-padding-y: 0.75rem; /* Banner top and bottom padding */
@@ -700,7 +710,10 @@
   --content-gap-row-sm: 1.25rem; /* For spacing several content components vertically */
   --content-gap-row-xl: 3rem; /* For spacing several content components vertically */
   --content-gap-row-xs: 1rem; /* For spacing several content components vertically */
-  --content-icon-size-sm: 1.5rem; /* Defines baseline width and height for the UI icon */
+  --content-icon-size-lg: 1.75rem; /* Defines baseline width and height for the UI icon */
+  --content-icon-size-md: 1.5rem; /* Defines baseline width and height for the UI icon */
+  --content-icon-size-sm: 1.375rem; /* Defines baseline width and height for the UI icon */
+  --content-icon-size-xl: 2rem; /* Defines large width and height for the UI icon */
   --content-indicator-bold-padding: 0.25rem; /* Space between the edges of the bold content indicator and its content. */
   --content-indicator-bold-size: 1rem; /* Size of the bold content indicator. */
   --content-indicator-progress-size: 0.25rem; /* Size of the progress content indicator. */
@@ -727,7 +740,7 @@
   --dimensions-large-3: 0.75rem; /* Step 3 in the large dimension scale. Foundational dimension value for higher-tier tokens. Should not be directly used on component tokens. */
   --dimensions-large-4: 1rem; /* Step 4 in the large dimension scale. Foundational dimension value for higher-tier tokens. Should not be directly used on component tokens. */
   --dimensions-large-5: 1.5rem; /* Step 5 in the large dimension scale. Foundational dimension value for higher-tier tokens. Should not be directly used on component tokens. */
-  --dimensions-large-6: 2rem;
+  --dimensions-large-6: 2rem; /* Step 6 in the large dimension scale. Foundational dimension value for higher-tier tokens. Should not be directly used on component tokens. */
   --dimensions-large-7: 3rem; /* Step 7 in the large dimension scale. Foundational dimension value for higher-tier tokens. Should not be directly used on component tokens. */
   --dimensions-large-8: 4.5rem; /* Step 8 in the large dimension scale. Foundational dimension value for higher-tier tokens. Should not be directly used on component tokens. */
   --dimensions-large-9: 6.5rem; /* Step 9 in the large dimension scale. Foundational dimension value for higher-tier tokens. Should not be directly used on component tokens. */
@@ -738,7 +751,7 @@
   --dimensions-small-4: 1rem; /* Step 4 in the small dimension scale. Foundational dimension value for higher-tier tokens. Should not be directly used on component tokens. */
   --dimensions-small-5: 1.25rem; /* Step 5 in the small dimension scale. Foundational dimension value for higher-tier tokens. Should not be directly used on component tokens. */
   --dimensions-small-6: 1.75rem; /* Step 6 in the small dimension scale. Foundational dimension value for higher-tier tokens. Should not be directly used on component tokens. */
-  --dimensions-small-7: 2.25rem;
+  --dimensions-small-7: 2.25rem; /* Step 7 in the small dimension scale. Foundational dimension value for higher-tier tokens. Should not be directly used on component tokens. */
   --dimensions-small-8: 3rem; /* Step 8 in the small dimension scale. Foundational dimension value for higher-tier tokens. Should not be directly used on component tokens. */
   --dimensions-small-9: 3.75rem; /* Step 9 in the small dimension scale. Foundational dimension value for higher-tier tokens. Should not be directly used on component tokens. */
   --filter-button-gap: 0.5rem; /* Filter button internal gap */
@@ -815,6 +828,7 @@
   --interactive-gap: 0.5rem; /* Gap between elements within component */
   --interactive-min-height: 3rem; /* Component minimum height */
   --interactive-min-width: 3rem; /* Component minimum width */
+  --interactive-min-width-labelled: 5.25rem; /* Component minimum width */
   --interactive-padding-lg: 1.25rem; /* Component bottom padding */
   --interactive-padding-md: 1rem; /* Component bottom padding */
   --interactive-padding-sm: 0.75rem; /* Component bottom padding */
@@ -830,6 +844,8 @@
   --link-menu-item-padding-top: 1rem; /* Space between the top edge of a link menu item and its content. */
   --list-gap: 1.25rem; /* Gap between list items in a list */
   --list-item-common-gap: 0.75rem; /* Gap between icon or number and text in a list item */
+  --list-item-common-icon-size-default: 1.375rem; /* Icon width and height on the default variant for list icon item */
+  --list-item-common-icon-size-large: 1.75rem; /* Icon width and height on the large variant for list icon item */
   --list-item-common-padding-left: 0.75rem; /* Left padding applied to child list items to ident them */
   --modal-gap: 1.25rem; /* Gap between elements in a modal */
   --modal-min-width: 18rem; /* Minimum width a modal can be in columns */
@@ -856,6 +872,7 @@
   --radio-scale-sm-gap: 1.75rem; /* Gap between radio control and label */
   --radio-scale-sm-indicator-size: 0.5rem; /* Width and height of the small radio button inidcator */
   --segment-button-common-min-height: 2.25rem; /* Minimum height of a segment button. */
+  --segment-button-common-min-width: 5.25rem; /* Minimum height of a segment button. */
   --segment-button-common-padding-x: 0.5rem; /* Space between the left and right edges of a segment button and its content. */
   --segment-button-common-padding-y: 0.5rem; /* Space between the top and bottom edges of a segment button and its content. */
   --segment-control-common-gap: 0.25rem; /* Space between adjacent segment buttons within the segment control. */
@@ -1456,6 +1473,38 @@
 
   /**
    * @tokens Content
+   * @presenter Spacing
+   */
+  --content-gap-column-lg: 2.25rem; /* For spacing several content components horizontally */
+  --content-gap-column-md: 1.75rem; /* For spacing several content components horizontally */
+  --content-gap-column-sm: 1.25rem; /* For spacing several content components horizontally */
+  --content-gap-column-xl: 3rem; /* For spacing several content components horizontally */
+  --content-gap-column-xs: 1rem; /* For spacing several content components horizontally */
+  --content-gap-inside-lg: 1rem; /* For spacing content inside a content component */
+  --content-gap-inside-md: 0.75rem; /* For spacing content inside a content component */
+  --content-gap-inside-sm: 0.5rem; /* For spacing content inside a content component */
+  --content-gap-inside-xl: 1.25rem; /* For spacing content inside a content component */
+  --content-gap-inside-xs: 0.25rem; /* For spacing content inside a content component */
+  --content-gap-row-lg: 2.25rem; /* For spacing several content components vertically */
+  --content-gap-row-md: 1.75rem; /* For spacing several content components vertically */
+  --content-gap-row-sm: 1.25rem; /* For spacing several content components vertically */
+  --content-gap-row-xl: 3rem; /* For spacing several content components vertically */
+  --content-gap-row-xs: 1rem; /* For spacing several content components vertically */
+  --content-icon-size-lg: 1.75rem; /* Defines baseline width and height for the UI icon */
+  --content-icon-size-md: 1.5rem; /* Defines baseline width and height for the UI icon */
+  --content-icon-size-sm: 1.375rem; /* Defines baseline width and height for the UI icon */
+  --content-icon-size-xl: 2rem; /* Defines large width and height for the UI icon */
+  --content-indicator-bold-padding: 0.25rem; /* Space between the edges of the bold content indicator and its content. */
+  --content-indicator-bold-size: 1rem; /* Size of the bold content indicator. */
+  --content-indicator-progress-size: 0.25rem; /* Size of the progress content indicator. */
+  --content-pictogram-has-fill: true; /* Enables or disables the fill on pictograms */
+  --content-pictogram-size-lg: 7.5rem; /* Fixed pictogram size large */
+  --content-pictogram-size-md: 5rem; /* Fixed pictogram size medium */
+  --content-pictogram-size-responsive: 5rem; /* Responsive sizing for pictograms that changes across breakpoints */
+  --content-pictogram-size-xl: 10rem; /* Fixed pictogram size extra large */
+
+  /**
+   * @tokens Content
    * @presenter Color
    */
   --content-icon-brand-primary-colour: #005dba; /* For setting the colour fill of icons to the primary brand colour */
@@ -1474,46 +1523,17 @@
 
   /**
    * @tokens Content
-   * @presenter Border
-   */
-  --content-seperator-border-width-sm: 0.09375rem; /* Small border width for separators */
-  --content-seperator-border-width-xs: 0.0625rem; /* Extra small border width for separators */
-
-  /**
-   * @tokens Content
-   * @presenter Spacing
-   */
-  --content-gap-column-lg: 2.25rem; /* For spacing several content components horizontally */
-  --content-gap-column-md: 1.75rem; /* For spacing several content components horizontally */
-  --content-gap-column-sm: 1.25rem; /* For spacing several content components horizontally */
-  --content-gap-column-xl: 3rem; /* For spacing several content components horizontally */
-  --content-gap-column-xs: 1rem; /* For spacing several content components horizontally */
-  --content-gap-inside-lg: 1rem; /* For spacing content inside a content component */
-  --content-gap-inside-md: 0.75rem; /* For spacing content inside a content component */
-  --content-gap-inside-sm: 0.5rem; /* For spacing content inside a content component */
-  --content-gap-inside-xl: 1.25rem; /* For spacing content inside a content component */
-  --content-gap-inside-xs: 0.25rem; /* For spacing content inside a content component */
-  --content-gap-row-lg: 2.25rem; /* For spacing several content components vertically */
-  --content-gap-row-md: 1.75rem; /* For spacing several content components vertically */
-  --content-gap-row-sm: 1.25rem; /* For spacing several content components vertically */
-  --content-gap-row-xl: 3rem; /* For spacing several content components vertically */
-  --content-gap-row-xs: 1rem; /* For spacing several content components vertically */
-  --content-icon-size-sm: 1.5rem; /* Defines baseline width and height for the UI icon */
-  --content-indicator-bold-padding: 0.25rem; /* Space between the edges of the bold content indicator and its content. */
-  --content-indicator-bold-size: 1rem; /* Size of the bold content indicator. */
-  --content-indicator-progress-size: 0.25rem; /* Size of the progress content indicator. */
-  --content-pictogram-has-fill: true; /* Enables or disables the fill on pictograms */
-  --content-pictogram-size-lg: 7.5rem; /* Fixed pictogram size large */
-  --content-pictogram-size-md: 5rem; /* Fixed pictogram size medium */
-  --content-pictogram-size-responsive: 5rem; /* Responsive sizing for pictograms that changes across breakpoints */
-  --content-pictogram-size-xl: 10rem; /* Fixed pictogram size extra large */
-
-  /**
-   * @tokens Content
    * @presenter BorderRadius
    */
   --content-indicator-common-border-radius-lg: 1rem; /* Large corner radius for content indicators. */
   --content-indicator-common-border-radius-sm: 0.25rem; /* Small corner radius for content indicators. */
+
+  /**
+   * @tokens Content
+   * @presenter Border
+   */
+  --content-seperator-border-width-sm: 0.09375rem; /* Small border width for separators */
+  --content-seperator-border-width-xs: 0.0625rem; /* Extra small border width for separators */
 
   /**
    * @tokens Content Area
@@ -1998,6 +2018,7 @@
   --interactive-gap: 0.5rem; /* Gap between elements within component */
   --interactive-min-height: 3rem; /* Component minimum height */
   --interactive-min-width: 3rem; /* Component minimum width */
+  --interactive-min-width-labelled: 5.25rem; /* Component minimum width */
   --interactive-padding-lg: 1.25rem; /* Component bottom padding */
   --interactive-padding-md: 1rem; /* Component bottom padding */
   --interactive-padding-sm: 0.75rem; /* Component bottom padding */
@@ -2160,6 +2181,8 @@
    * @presenter Spacing
    */
   --list-item-common-gap: 0.75rem; /* Gap between icon or number and text in a list item */
+  --list-item-common-icon-size-default: 1.375rem; /* Icon width and height on the default variant for list icon item */
+  --list-item-common-icon-size-large: 1.75rem; /* Icon width and height on the large variant for list icon item */
   --list-item-common-padding-left: 0.75rem; /* Left padding applied to child list items to ident them */
 
   /**
@@ -2350,6 +2373,7 @@
    * @presenter Spacing
    */
   --segment-button-common-min-height: 2.25rem; /* Minimum height of a segment button. */
+  --segment-button-common-min-width: 5.25rem; /* Minimum height of a segment button. */
   --segment-button-common-padding-x: 0.5rem; /* Space between the left and right edges of a segment button and its content. */
   --segment-button-common-padding-y: 0.5rem; /* Space between the top and bottom edges of a segment button and its content. */
 
