@@ -181,6 +181,20 @@ function isDefaultRootToken(token) {
   return colorMode === 'Blue';
 }
 
+// Values emitted in :root of variables.css for themed tokens, keyed by CSS variable name
+function getDefaultThemeValues(tokens) {
+  const values = new Map();
+  tokens.forEach((token) => {
+    const isThemed =
+      token.filePath.includes('component-themes') ||
+      token.filePath.includes('colour.json');
+    if (!isThemed || token.$extensions?.canopy?.layoutValues) return;
+    if (isDefaultRootToken(token))
+      values.set(getDefaultThemeVariableName(token), token.value);
+  });
+  return values;
+}
+
 function getStorybookTokenGroup(token) {
   const path = token.path.map((part) => part.toLowerCase());
   const name = token.name.toLowerCase();
@@ -628,6 +642,7 @@ module.exports = {
       'css/component-themes-classes': function ({ dictionary }) {
         // Group tokens by color mode and theme mode
         const grouped = {};
+        const defaultValues = getDefaultThemeValues(dictionary.allTokens);
 
         dictionary.allTokens.forEach((token) => {
           // Process both component theme and colour tokens
@@ -732,12 +747,10 @@ module.exports = {
             return;
           }
 
-          // Create class selector
-          output += `.lg-mode-${group.colorClass}.lg-theme-${group.themeClass} {\n`;
-
           // Sort tokens by name for consistent output
           group.tokens.sort((a, b) => a.name.localeCompare(b.name));
 
+          let declarations = '';
           group.tokens.forEach((token) => {
             let varName;
 
@@ -750,10 +763,14 @@ module.exports = {
               varName = pathWithoutModes.join('-');
             }
 
-            output += `  --${varName}: ${token.value};\n`;
+            // Already inherited from :root in variables.css
+            if (defaultValues.get(varName) === token.value) return;
+
+            declarations += `  --${varName}: ${token.value};\n`;
           });
 
-          output += '}\n\n';
+          if (!declarations) return;
+          output += `.lg-mode-${group.colorClass}.lg-theme-${group.themeClass} {\n${declarations}}\n`;
         });
 
         output += formatResponsiveLayoutTokens(
@@ -834,6 +851,7 @@ module.exports = {
       'css/status-classes': function ({ dictionary }) {
         // Group tokens by status mode and theme mode
         const grouped = {};
+        const defaultValues = getDefaultThemeValues(dictionary.allTokens);
 
         dictionary.allTokens.forEach((token) => {
           // Only process status tokens
@@ -900,12 +918,10 @@ module.exports = {
         sortedKeys.forEach((key) => {
           const group = grouped[key];
 
-          // Create class selector
-          output += `.lg-status-${group.statusClass}.lg-theme-${group.themeClass} {\n`;
-
           // Sort tokens by name for consistent output
           group.tokens.sort((a, b) => a.name.localeCompare(b.name));
 
+          let declarations = '';
           group.tokens.forEach((token) => {
             // Remove theme mode and status mode from variable name
             // Find 'status' in path and build varName
@@ -931,11 +947,15 @@ module.exports = {
                 ? [...pathBeforeStatus, ...propertyPath].join('-')
                 : [...pathBeforeStatus, 'status', ...propertyPath].join('-');
 
-              output += `  --${varName}: ${token.value};\n`;
+              // Already inherited from :root in variables.css
+              if (defaultValues.get(varName) === token.value) return;
+
+              declarations += `  --${varName}: ${token.value};\n`;
             }
           });
 
-          output += '}\n\n';
+          if (!declarations) return;
+          output += `.lg-status-${group.statusClass}.lg-theme-${group.themeClass} {\n${declarations}}\n`;
         });
 
         output += formatResponsiveLayoutTokens(
@@ -954,6 +974,8 @@ module.exports = {
         dictionary.allTokens.forEach((token) => {
           // Only process layout tokens
           if (!token.filePath.includes('layout')) return;
+          // Non-breakpoint layout tokens are already declared in :root of variables.css
+          if (!isBreakpointLayoutToken(token)) return;
 
           // Extract size suffix from token name
           const name = token.name;
