@@ -1,660 +1,6 @@
 {
   "$description": "Design tokens from Layout collection",
-  "$timestamp": "2026-10-19T12:07:45.903Z",
-  "border-radius": {
-    "1": {
-      "SM": {
-        "value": 4,
-        "type": "borderRadius",
-        "description": "For use on border / corner radiuses"
-      },
-      "MD": {
-        "value": 4,
-        "type": "borderRadius",
-        "description": "For use on border / corner radiuses"
-      },
-      "LG": {
-        "value": 4,
-        "type": "borderRadius",
-        "description": "For use on border / corner radiuses"
-      },
-      "XL": {
-        "value": 4,
-        "type": "borderRadius",
-        "description": "For use on border / corner radiuses"
-      },
-      "XXL": {
-        "value": 4,
-        "type": "borderRadius",
-        "description": "For use on border / corner radiuses"
-      }
-    },
-    "2": {
-      "SM": {
-        "value": 8,
-        "type": "borderRadius",
-        "description": "For use on border / corner radiuses"
-      },
-      "MD": {
-        "value": 8,
-        "type": "borderRadius",
-        "description": "For use on border / corner radiuses"
-      },
-      "LG": {
-        "value": 8,
-        "type": "borderRadius",
-        "description": "For use on border / corner radiuses"
-      },
-      "XL": {
-        "value": 8,
-        "type": "borderRadius",
-        "description": "For use on border / corner radiuses"
-      },
-      "XXL": {
-        "value": 8,
-        "type": "borderRadius",
-        "description": "For use on border / corner radiuses"
-      }
-    },
-    "3": {
-      "SM": {
-        "value": 12,
-        "type": "borderRadius",
-        "description": "For use on border / corner radiuses"
-      },
-      "MD": {
-        "value": 12,
-        "type": "borderRadius",
-        "description": "For use on border / corner radiuses"
-      },
-      "LG": {
-        "value": 12,
-        "type": "borderRadius",
-        "description": "For use on border / corner radiuses"
-      },
-      "XL": {
-        "value": 12,
-        "type": "borderRadius",
-        "description": "For use on border / corner radiuses"
-      },
-      "XXL": {
-        "value": 12,
-        "type": "borderRadius",
-        "description": "For use on border / corner radiuses"
-      }
-    },
-    "4": {
-      "SM": {
-        "value": 16,
-        "type": "borderRadius",
-        "description": "For use on border / corner radiuses"
-      },
-      "MD": {
-        "value": 16,
-        "type": "borderRadius",
-        "description": "For use on border / corner radiuses"
-      },
-      "LG": {
-        "value": 16,
-        "type": "borderRadius",
-        "description": "For use on border / corner radiuses"
-      },
-      "XL": {
-        "value": 16,
-        "type": "borderRadius",
-        "description": "For use on border / corner radiuses"
-      },
-      "XXL": {
-        "value": 16,
-        "type": "borderRadius",
-        "description": "For use on border / corner radiuses"
-      }
-    },
-    "5": {
-      "SM": {
-        "value": 20,
-        "type": "borderRadius",
-        "description": "For use on border / corner radiuses"
-      },
-      "MD": {
-        "value": 20,
-        "type": "borderRadius",
-        "description": "For use on border / corner radiuses"
-      },
-      "LG": {
-        "value": 24,
-        "type": "borderRadius",
-        "description": "For use on border / corner radiuses"
-      },
-      "XL": {
-        "value": 24,
-        "type": "borderRadius",
-        "description": "For use on border / corner radiuses"
-      },
-      "XXL": {
-        "value": 24,
-        "type": "borderRadius",
-        "description": "For use on border / corner radiuses"
-      }
-    },
-    "6": {
-      "LG": {
-        "value": 32,
-        "type": "borderRadius",
-        "description": "For use on border / corner radiuses"
-      },
-      "XL": {
-        "value": 32,
-        "type": "borderRadius",
-        "description": "For use on border / corner radiuses"
-      },
-      "XXL": {
-        "value": 32,
-        "type": "borderRadius",
-        "description": "For use on border / corner radiuses"
-      },
-      "SM": {
-        "value": 28,
-        "type": "borderRadius",
-        "description": "For use on border / corner radiuses"
-      },
-      "MD": {
-        "value": 28,
-        "type": "borderRadius",
-        "description": "For use on border / corner radiuses"
-      }
-    },
-    "7": {
-      "SM": {
-        "value": 36,
-        "type": "borderRadius",
-        "description": "For use on border / corner radiuses"
-      },
-      "MD": {
-        "value": 36,
-        "type": "borderRadius",
-        "description": "For use on border / corner radiuses"
-      },
-      "LG": {
-        "value": 48,
-        "type": "borderRadius",
-        "description": "For use on border / corner radiuses"
-      },
-      "XL": {
-        "value": 48,
-        "type": "borderRadius",
-        "description": "For use on border / corner radiuses"
-      },
-      "XXL": {
-        "value": 48,
-        "type": "borderRadius",
-        "description": "For use on border / corner radiuses"
-      }
-    },
-    "8": {
-      "SM": {
-        "value": 48,
-        "type": "borderRadius",
-        "description": "For use on border / corner radiuses"
-      },
-      "MD": {
-        "value": 48,
-        "type": "borderRadius",
-        "description": "For use on border / corner radiuses"
-      },
-      "LG": {
-        "value": 72,
-        "type": "borderRadius",
-        "description": "For use on border / corner radiuses"
-      },
-      "XL": {
-        "value": 72,
-        "type": "borderRadius",
-        "description": "For use on border / corner radiuses"
-      },
-      "XXL": {
-        "value": 72,
-        "type": "borderRadius",
-        "description": "For use on border / corner radiuses"
-      }
-    },
-    "9": {
-      "SM": {
-        "value": 60,
-        "type": "borderRadius",
-        "description": "For use on border / corner radiuses"
-      },
-      "MD": {
-        "value": 60,
-        "type": "borderRadius",
-        "description": "For use on border / corner radiuses"
-      },
-      "LG": {
-        "value": 104,
-        "type": "borderRadius",
-        "description": "For use on border / corner radiuses"
-      },
-      "XL": {
-        "value": 104,
-        "type": "borderRadius",
-        "description": "For use on border / corner radiuses"
-      },
-      "XXL": {
-        "value": 104,
-        "type": "borderRadius",
-        "description": "For use on border / corner radiuses"
-      }
-    },
-    "10": {
-      "SM": {
-        "value": 84,
-        "type": "borderRadius",
-        "description": "For use on border / corner radiuses"
-      },
-      "MD": {
-        "value": 84,
-        "type": "borderRadius",
-        "description": "For use on border / corner radiuses"
-      },
-      "LG": {
-        "value": 156,
-        "type": "borderRadius",
-        "description": "For use on border / corner radiuses"
-      },
-      "XL": {
-        "value": 156,
-        "type": "borderRadius",
-        "description": "For use on border / corner radiuses"
-      },
-      "XXL": {
-        "value": 156,
-        "type": "borderRadius",
-        "description": "For use on border / corner radiuses"
-      }
-    }
-  },
-  "border-width": {
-    "lg": {
-      "SM": {
-        "value": 3,
-        "type": "borderWidth",
-        "description": "use for thick border widths"
-      },
-      "MD": {
-        "value": 3,
-        "type": "borderWidth",
-        "description": "use for thick border widths"
-      },
-      "LG": {
-        "value": 3,
-        "type": "borderWidth",
-        "description": "use for thick border widths"
-      },
-      "XL": {
-        "value": 3,
-        "type": "borderWidth",
-        "description": "use for thick border widths"
-      },
-      "XXL": {
-        "value": 3,
-        "type": "borderWidth",
-        "description": "use for thick border widths"
-      }
-    },
-    "xs": {
-      "SM": {
-        "value": 1,
-        "type": "borderWidth",
-        "description": "Use for thin border widths"
-      },
-      "MD": {
-        "value": 1,
-        "type": "borderWidth",
-        "description": "Use for thin border widths"
-      },
-      "LG": {
-        "value": 1,
-        "type": "borderWidth",
-        "description": "Use for thin border widths"
-      },
-      "XL": {
-        "value": 1,
-        "type": "borderWidth",
-        "description": "Use for thin border widths"
-      },
-      "XXL": {
-        "value": 1,
-        "type": "borderWidth",
-        "description": "Use for thin border widths"
-      }
-    },
-    "sm": {
-      "SM": {
-        "value": 1.5,
-        "type": "borderWidth",
-        "description": "Use for thin border widths"
-      },
-      "MD": {
-        "value": 1.5,
-        "type": "borderWidth",
-        "description": "Use for thin border widths"
-      },
-      "LG": {
-        "value": 1.5,
-        "type": "borderWidth",
-        "description": "Use for thin border widths"
-      },
-      "XL": {
-        "value": 1.5,
-        "type": "borderWidth",
-        "description": "Use for thin border widths"
-      },
-      "XXL": {
-        "value": 1.5,
-        "type": "borderWidth",
-        "description": "Use for thin border widths"
-      }
-    },
-    "md": {
-      "SM": {
-        "value": 2,
-        "type": "borderWidth",
-        "description": "Use for medium border widths"
-      },
-      "MD": {
-        "value": 2,
-        "type": "borderWidth",
-        "description": "Use for medium border widths"
-      },
-      "LG": {
-        "value": 2,
-        "type": "borderWidth",
-        "description": "Use for medium border widths"
-      },
-      "XL": {
-        "value": 2,
-        "type": "borderWidth",
-        "description": "Use for medium border widths"
-      },
-      "XXL": {
-        "value": 2,
-        "type": "borderWidth",
-        "description": "Use for medium border widths"
-      }
-    }
-  },
-  "space": {
-    "1": {
-      "SM": {
-        "value": 4,
-        "type": "spacing",
-        "description": "Use for applying consistent spacing on margin, padding and gaps"
-      },
-      "MD": {
-        "value": 4,
-        "type": "spacing",
-        "description": "Use for applying consistent spacing on margin, padding and gaps"
-      },
-      "LG": {
-        "value": 4,
-        "type": "spacing",
-        "description": "Use for applying consistent spacing on margin, padding and gaps"
-      },
-      "XL": {
-        "value": 4,
-        "type": "spacing",
-        "description": "Use for applying consistent spacing on margin, padding and gaps"
-      },
-      "XXL": {
-        "value": 4,
-        "type": "spacing",
-        "description": "Use for applying consistent spacing on margin, padding and gaps"
-      }
-    },
-    "2": {
-      "SM": {
-        "value": 8,
-        "type": "spacing",
-        "description": "Use for applying consistent spacing on margin, padding and gaps"
-      },
-      "MD": {
-        "value": 8,
-        "type": "spacing",
-        "description": "Use for applying consistent spacing on margin, padding and gaps"
-      },
-      "LG": {
-        "value": 8,
-        "type": "spacing",
-        "description": "Use for applying consistent spacing on margin, padding and gaps"
-      },
-      "XL": {
-        "value": 8,
-        "type": "spacing",
-        "description": "Use for applying consistent spacing on margin, padding and gaps"
-      },
-      "XXL": {
-        "value": 8,
-        "type": "spacing",
-        "description": "Use for applying consistent spacing on margin, padding and gaps"
-      }
-    },
-    "3": {
-      "SM": {
-        "value": 12,
-        "type": "spacing",
-        "description": "Use for applying consistent spacing on margin, padding and gaps"
-      },
-      "MD": {
-        "value": 12,
-        "type": "spacing",
-        "description": "Use for applying consistent spacing on margin, padding and gaps"
-      },
-      "LG": {
-        "value": 12,
-        "type": "spacing",
-        "description": "Use for applying consistent spacing on margin, padding and gaps"
-      },
-      "XL": {
-        "value": 12,
-        "type": "spacing",
-        "description": "Use for applying consistent spacing on margin, padding and gaps"
-      },
-      "XXL": {
-        "value": 12,
-        "type": "spacing",
-        "description": "Use for applying consistent spacing on margin, padding and gaps"
-      }
-    },
-    "4": {
-      "SM": {
-        "value": 16,
-        "type": "spacing",
-        "description": "Use for applying consistent spacing on margin, padding and gaps"
-      },
-      "MD": {
-        "value": 16,
-        "type": "spacing",
-        "description": "Use for applying consistent spacing on margin, padding and gaps"
-      },
-      "LG": {
-        "value": 16,
-        "type": "spacing",
-        "description": "Use for applying consistent spacing on margin, padding and gaps"
-      },
-      "XL": {
-        "value": 16,
-        "type": "spacing",
-        "description": "Use for applying consistent spacing on margin, padding and gaps"
-      },
-      "XXL": {
-        "value": 16,
-        "type": "spacing",
-        "description": "Use for applying consistent spacing on margin, padding and gaps"
-      }
-    },
-    "5": {
-      "SM": {
-        "value": 20,
-        "type": "spacing",
-        "description": "Use for applying consistent spacing on margin, padding and gaps"
-      },
-      "MD": {
-        "value": 20,
-        "type": "spacing",
-        "description": "Use for applying consistent spacing on margin, padding and gaps"
-      },
-      "LG": {
-        "value": 24,
-        "type": "spacing",
-        "description": "Use for applying consistent spacing on margin, padding and gaps"
-      },
-      "XL": {
-        "value": 24,
-        "type": "spacing",
-        "description": "Use for applying consistent spacing on margin, padding and gaps"
-      },
-      "XXL": {
-        "value": 24,
-        "type": "spacing",
-        "description": "Use for applying consistent spacing on margin, padding and gaps"
-      }
-    },
-    "6": {
-      "LG": {
-        "value": 32,
-        "type": "spacing",
-        "description": "Use for applying consistent spacing on margin, padding and gaps"
-      },
-      "XL": {
-        "value": 32,
-        "type": "spacing",
-        "description": "Use for applying consistent spacing on margin, padding and gaps"
-      },
-      "XXL": {
-        "value": 32,
-        "type": "spacing",
-        "description": "Use for applying consistent spacing on margin, padding and gaps"
-      },
-      "SM": {
-        "value": 28,
-        "type": "spacing",
-        "description": "Use for applying consistent spacing on margin, padding and gaps"
-      },
-      "MD": {
-        "value": 28,
-        "type": "spacing",
-        "description": "Use for applying consistent spacing on margin, padding and gaps"
-      }
-    },
-    "7": {
-      "SM": {
-        "value": 36,
-        "type": "spacing",
-        "description": "Use for applying consistent spacing on margin, padding and gaps"
-      },
-      "MD": {
-        "value": 36,
-        "type": "spacing",
-        "description": "Use for applying consistent spacing on margin, padding and gaps"
-      },
-      "LG": {
-        "value": 48,
-        "type": "spacing",
-        "description": "Use for applying consistent spacing on margin, padding and gaps"
-      },
-      "XL": {
-        "value": 48,
-        "type": "spacing",
-        "description": "Use for applying consistent spacing on margin, padding and gaps"
-      },
-      "XXL": {
-        "value": 48,
-        "type": "spacing",
-        "description": "Use for applying consistent spacing on margin, padding and gaps"
-      }
-    },
-    "8": {
-      "SM": {
-        "value": 48,
-        "type": "spacing",
-        "description": "Use for applying consistent spacing on margin, padding and gaps"
-      },
-      "MD": {
-        "value": 48,
-        "type": "spacing",
-        "description": "Use for applying consistent spacing on margin, padding and gaps"
-      },
-      "LG": {
-        "value": 72,
-        "type": "spacing",
-        "description": "Use for applying consistent spacing on margin, padding and gaps"
-      },
-      "XL": {
-        "value": 72,
-        "type": "spacing",
-        "description": "Use for applying consistent spacing on margin, padding and gaps"
-      },
-      "XXL": {
-        "value": 72,
-        "type": "spacing",
-        "description": "Use for applying consistent spacing on margin, padding and gaps"
-      }
-    },
-    "9": {
-      "SM": {
-        "value": 60,
-        "type": "spacing",
-        "description": "Use for applying consistent spacing on margin, padding and gaps"
-      },
-      "MD": {
-        "value": 60,
-        "type": "spacing",
-        "description": "Use for applying consistent spacing on margin, padding and gaps"
-      },
-      "LG": {
-        "value": 104,
-        "type": "spacing",
-        "description": "Use for applying consistent spacing on margin, padding and gaps"
-      },
-      "XL": {
-        "value": 104,
-        "type": "spacing",
-        "description": "Use for applying consistent spacing on margin, padding and gaps"
-      },
-      "XXL": {
-        "value": 104,
-        "type": "spacing",
-        "description": "Use for applying consistent spacing on margin, padding and gaps"
-      }
-    },
-    "10": {
-      "SM": {
-        "value": 84,
-        "type": "spacing",
-        "description": "Use for applying consistent spacing on margin, padding and gaps"
-      },
-      "MD": {
-        "value": 84,
-        "type": "spacing",
-        "description": "Use for applying consistent spacing on margin, padding and gaps"
-      },
-      "LG": {
-        "value": 156,
-        "type": "spacing",
-        "description": "Use for applying consistent spacing on margin, padding and gaps"
-      },
-      "XL": {
-        "value": 156,
-        "type": "spacing",
-        "description": "Use for applying consistent spacing on margin, padding and gaps"
-      },
-      "XXL": {
-        "value": 156,
-        "type": "spacing",
-        "description": "Use for applying consistent spacing on margin, padding and gaps"
-      }
-    }
-  },
+  "$timestamp": "2026-11-16T15:28:27.209Z",
   "page": {
     "cols": {
       "SM": {
@@ -818,6 +164,388 @@
         "value": 232,
         "type": "sizing",
         "description": "Use to set the min-width of components, if required. Should not be referenced by components directly - instead use via component themes tier."
+      }
+    }
+  },
+  "border-radius": {
+    "1": {
+      "SM": {
+        "value": 4,
+        "type": "borderRadius",
+        "description": "For use on border / corner radiuses"
+      },
+      "MD": {
+        "value": 4,
+        "type": "borderRadius",
+        "description": "For use on border / corner radiuses"
+      },
+      "LG": {
+        "value": 4,
+        "type": "borderRadius",
+        "description": "For use on border / corner radiuses"
+      },
+      "XL": {
+        "value": 4,
+        "type": "borderRadius",
+        "description": "For use on border / corner radiuses"
+      },
+      "XXL": {
+        "value": 4,
+        "type": "borderRadius",
+        "description": "For use on border / corner radiuses"
+      }
+    },
+    "2": {
+      "SM": {
+        "value": 8,
+        "type": "borderRadius",
+        "description": "For use on border / corner radiuses"
+      },
+      "MD": {
+        "value": 8,
+        "type": "borderRadius",
+        "description": "For use on border / corner radiuses"
+      },
+      "LG": {
+        "value": 8,
+        "type": "borderRadius",
+        "description": "For use on border / corner radiuses"
+      },
+      "XL": {
+        "value": 8,
+        "type": "borderRadius",
+        "description": "For use on border / corner radiuses"
+      },
+      "XXL": {
+        "value": 8,
+        "type": "borderRadius",
+        "description": "For use on border / corner radiuses"
+      }
+    },
+    "3": {
+      "SM": {
+        "value": 12,
+        "type": "borderRadius",
+        "description": "For use on border / corner radiuses"
+      },
+      "MD": {
+        "value": 12,
+        "type": "borderRadius",
+        "description": "For use on border / corner radiuses"
+      },
+      "LG": {
+        "value": 12,
+        "type": "borderRadius",
+        "description": "For use on border / corner radiuses"
+      },
+      "XL": {
+        "value": 12,
+        "type": "borderRadius",
+        "description": "For use on border / corner radiuses"
+      },
+      "XXL": {
+        "value": 12,
+        "type": "borderRadius",
+        "description": "For use on border / corner radiuses"
+      }
+    },
+    "4": {
+      "SM": {
+        "value": 16,
+        "type": "borderRadius",
+        "description": "For use on border / corner radiuses"
+      },
+      "MD": {
+        "value": 16,
+        "type": "borderRadius",
+        "description": "For use on border / corner radiuses"
+      },
+      "LG": {
+        "value": 16,
+        "type": "borderRadius",
+        "description": "For use on border / corner radiuses"
+      },
+      "XL": {
+        "value": 16,
+        "type": "borderRadius",
+        "description": "For use on border / corner radiuses"
+      },
+      "XXL": {
+        "value": 16,
+        "type": "borderRadius",
+        "description": "For use on border / corner radiuses"
+      }
+    },
+    "5": {
+      "SM": {
+        "value": 20,
+        "type": "borderRadius",
+        "description": "For use on border / corner radiuses"
+      },
+      "MD": {
+        "value": 20,
+        "type": "borderRadius",
+        "description": "For use on border / corner radiuses"
+      },
+      "LG": {
+        "value": 24,
+        "type": "borderRadius",
+        "description": "For use on border / corner radiuses"
+      },
+      "XL": {
+        "value": 24,
+        "type": "borderRadius",
+        "description": "For use on border / corner radiuses"
+      },
+      "XXL": {
+        "value": 24,
+        "type": "borderRadius",
+        "description": "For use on border / corner radiuses"
+      }
+    },
+    "6": {
+      "SM": {
+        "value": 28,
+        "type": "borderRadius",
+        "description": "For use on border / corner radiuses"
+      },
+      "MD": {
+        "value": 28,
+        "type": "borderRadius",
+        "description": "For use on border / corner radiuses"
+      },
+      "LG": {
+        "value": 32,
+        "type": "borderRadius",
+        "description": "For use on border / corner radiuses"
+      },
+      "XL": {
+        "value": 32,
+        "type": "borderRadius",
+        "description": "For use on border / corner radiuses"
+      },
+      "XXL": {
+        "value": 32,
+        "type": "borderRadius",
+        "description": "For use on border / corner radiuses"
+      }
+    },
+    "7": {
+      "SM": {
+        "value": 36,
+        "type": "borderRadius",
+        "description": "For use on border / corner radiuses"
+      },
+      "MD": {
+        "value": 36,
+        "type": "borderRadius",
+        "description": "For use on border / corner radiuses"
+      },
+      "LG": {
+        "value": 48,
+        "type": "borderRadius",
+        "description": "For use on border / corner radiuses"
+      },
+      "XL": {
+        "value": 48,
+        "type": "borderRadius",
+        "description": "For use on border / corner radiuses"
+      },
+      "XXL": {
+        "value": 48,
+        "type": "borderRadius",
+        "description": "For use on border / corner radiuses"
+      }
+    },
+    "8": {
+      "SM": {
+        "value": 48,
+        "type": "borderRadius",
+        "description": "For use on border / corner radiuses"
+      },
+      "MD": {
+        "value": 48,
+        "type": "borderRadius",
+        "description": "For use on border / corner radiuses"
+      },
+      "LG": {
+        "value": 72,
+        "type": "borderRadius",
+        "description": "For use on border / corner radiuses"
+      },
+      "XL": {
+        "value": 72,
+        "type": "borderRadius",
+        "description": "For use on border / corner radiuses"
+      },
+      "XXL": {
+        "value": 72,
+        "type": "borderRadius",
+        "description": "For use on border / corner radiuses"
+      }
+    },
+    "9": {
+      "SM": {
+        "value": 60,
+        "type": "borderRadius",
+        "description": "For use on border / corner radiuses"
+      },
+      "MD": {
+        "value": 60,
+        "type": "borderRadius",
+        "description": "For use on border / corner radiuses"
+      },
+      "LG": {
+        "value": 104,
+        "type": "borderRadius",
+        "description": "For use on border / corner radiuses"
+      },
+      "XL": {
+        "value": 104,
+        "type": "borderRadius",
+        "description": "For use on border / corner radiuses"
+      },
+      "XXL": {
+        "value": 104,
+        "type": "borderRadius",
+        "description": "For use on border / corner radiuses"
+      }
+    },
+    "10": {
+      "SM": {
+        "value": 84,
+        "type": "borderRadius",
+        "description": "For use on border / corner radiuses"
+      },
+      "MD": {
+        "value": 84,
+        "type": "borderRadius",
+        "description": "For use on border / corner radiuses"
+      },
+      "LG": {
+        "value": 156,
+        "type": "borderRadius",
+        "description": "For use on border / corner radiuses"
+      },
+      "XL": {
+        "value": 156,
+        "type": "borderRadius",
+        "description": "For use on border / corner radiuses"
+      },
+      "XXL": {
+        "value": 156,
+        "type": "borderRadius",
+        "description": "For use on border / corner radiuses"
+      }
+    }
+  },
+  "border-width": {
+    "xs": {
+      "SM": {
+        "value": 1,
+        "type": "borderWidth",
+        "description": "Use for thin border widths"
+      },
+      "MD": {
+        "value": 1,
+        "type": "borderWidth",
+        "description": "Use for thin border widths"
+      },
+      "LG": {
+        "value": 1,
+        "type": "borderWidth",
+        "description": "Use for thin border widths"
+      },
+      "XL": {
+        "value": 1,
+        "type": "borderWidth",
+        "description": "Use for thin border widths"
+      },
+      "XXL": {
+        "value": 1,
+        "type": "borderWidth",
+        "description": "Use for thin border widths"
+      }
+    },
+    "sm": {
+      "SM": {
+        "value": 1.5,
+        "type": "borderWidth",
+        "description": "Use for thin border widths"
+      },
+      "MD": {
+        "value": 1.5,
+        "type": "borderWidth",
+        "description": "Use for thin border widths"
+      },
+      "LG": {
+        "value": 1.5,
+        "type": "borderWidth",
+        "description": "Use for thin border widths"
+      },
+      "XL": {
+        "value": 1.5,
+        "type": "borderWidth",
+        "description": "Use for thin border widths"
+      },
+      "XXL": {
+        "value": 1.5,
+        "type": "borderWidth",
+        "description": "Use for thin border widths"
+      }
+    },
+    "md": {
+      "SM": {
+        "value": 2,
+        "type": "borderWidth",
+        "description": "Use for medium border widths"
+      },
+      "MD": {
+        "value": 2,
+        "type": "borderWidth",
+        "description": "Use for medium border widths"
+      },
+      "LG": {
+        "value": 2,
+        "type": "borderWidth",
+        "description": "Use for medium border widths"
+      },
+      "XL": {
+        "value": 2,
+        "type": "borderWidth",
+        "description": "Use for medium border widths"
+      },
+      "XXL": {
+        "value": 2,
+        "type": "borderWidth",
+        "description": "Use for medium border widths"
+      }
+    },
+    "lg": {
+      "SM": {
+        "value": 3,
+        "type": "borderWidth",
+        "description": "use for thick border widths"
+      },
+      "MD": {
+        "value": 3,
+        "type": "borderWidth",
+        "description": "use for thick border widths"
+      },
+      "LG": {
+        "value": 3,
+        "type": "borderWidth",
+        "description": "use for thick border widths"
+      },
+      "XL": {
+        "value": 3,
+        "type": "borderWidth",
+        "description": "use for thick border widths"
+      },
+      "XXL": {
+        "value": 3,
+        "type": "borderWidth",
+        "description": "use for thick border widths"
       }
     }
   },
@@ -1742,6 +1470,278 @@
         "value": 17,
         "type": "lineHeights",
         "description": "Step 0-8 in the responsive line-height scale. Uses the small foundation scale at SM and MD, and the large foundation scale at LG and above. Should not be referenced directly by components. Use via the Component themes tier."
+      }
+    }
+  },
+  "space": {
+    "1": {
+      "SM": {
+        "value": 4,
+        "type": "spacing",
+        "description": "Use for applying consistent spacing on margin, padding and gaps"
+      },
+      "MD": {
+        "value": 4,
+        "type": "spacing",
+        "description": "Use for applying consistent spacing on margin, padding and gaps"
+      },
+      "LG": {
+        "value": 4,
+        "type": "spacing",
+        "description": "Use for applying consistent spacing on margin, padding and gaps"
+      },
+      "XL": {
+        "value": 4,
+        "type": "spacing",
+        "description": "Use for applying consistent spacing on margin, padding and gaps"
+      },
+      "XXL": {
+        "value": 4,
+        "type": "spacing",
+        "description": "Use for applying consistent spacing on margin, padding and gaps"
+      }
+    },
+    "2": {
+      "SM": {
+        "value": 8,
+        "type": "spacing",
+        "description": "Use for applying consistent spacing on margin, padding and gaps"
+      },
+      "MD": {
+        "value": 8,
+        "type": "spacing",
+        "description": "Use for applying consistent spacing on margin, padding and gaps"
+      },
+      "LG": {
+        "value": 8,
+        "type": "spacing",
+        "description": "Use for applying consistent spacing on margin, padding and gaps"
+      },
+      "XL": {
+        "value": 8,
+        "type": "spacing",
+        "description": "Use for applying consistent spacing on margin, padding and gaps"
+      },
+      "XXL": {
+        "value": 8,
+        "type": "spacing",
+        "description": "Use for applying consistent spacing on margin, padding and gaps"
+      }
+    },
+    "3": {
+      "SM": {
+        "value": 12,
+        "type": "spacing",
+        "description": "Use for applying consistent spacing on margin, padding and gaps"
+      },
+      "MD": {
+        "value": 12,
+        "type": "spacing",
+        "description": "Use for applying consistent spacing on margin, padding and gaps"
+      },
+      "LG": {
+        "value": 12,
+        "type": "spacing",
+        "description": "Use for applying consistent spacing on margin, padding and gaps"
+      },
+      "XL": {
+        "value": 12,
+        "type": "spacing",
+        "description": "Use for applying consistent spacing on margin, padding and gaps"
+      },
+      "XXL": {
+        "value": 12,
+        "type": "spacing",
+        "description": "Use for applying consistent spacing on margin, padding and gaps"
+      }
+    },
+    "4": {
+      "SM": {
+        "value": 16,
+        "type": "spacing",
+        "description": "Use for applying consistent spacing on margin, padding and gaps"
+      },
+      "MD": {
+        "value": 16,
+        "type": "spacing",
+        "description": "Use for applying consistent spacing on margin, padding and gaps"
+      },
+      "LG": {
+        "value": 16,
+        "type": "spacing",
+        "description": "Use for applying consistent spacing on margin, padding and gaps"
+      },
+      "XL": {
+        "value": 16,
+        "type": "spacing",
+        "description": "Use for applying consistent spacing on margin, padding and gaps"
+      },
+      "XXL": {
+        "value": 16,
+        "type": "spacing",
+        "description": "Use for applying consistent spacing on margin, padding and gaps"
+      }
+    },
+    "5": {
+      "SM": {
+        "value": 20,
+        "type": "spacing",
+        "description": "Use for applying consistent spacing on margin, padding and gaps"
+      },
+      "MD": {
+        "value": 20,
+        "type": "spacing",
+        "description": "Use for applying consistent spacing on margin, padding and gaps"
+      },
+      "LG": {
+        "value": 24,
+        "type": "spacing",
+        "description": "Use for applying consistent spacing on margin, padding and gaps"
+      },
+      "XL": {
+        "value": 24,
+        "type": "spacing",
+        "description": "Use for applying consistent spacing on margin, padding and gaps"
+      },
+      "XXL": {
+        "value": 24,
+        "type": "spacing",
+        "description": "Use for applying consistent spacing on margin, padding and gaps"
+      }
+    },
+    "6": {
+      "SM": {
+        "value": 28,
+        "type": "spacing",
+        "description": "Use for applying consistent spacing on margin, padding and gaps"
+      },
+      "MD": {
+        "value": 28,
+        "type": "spacing",
+        "description": "Use for applying consistent spacing on margin, padding and gaps"
+      },
+      "LG": {
+        "value": 32,
+        "type": "spacing",
+        "description": "Use for applying consistent spacing on margin, padding and gaps"
+      },
+      "XL": {
+        "value": 32,
+        "type": "spacing",
+        "description": "Use for applying consistent spacing on margin, padding and gaps"
+      },
+      "XXL": {
+        "value": 32,
+        "type": "spacing",
+        "description": "Use for applying consistent spacing on margin, padding and gaps"
+      }
+    },
+    "7": {
+      "SM": {
+        "value": 36,
+        "type": "spacing",
+        "description": "Use for applying consistent spacing on margin, padding and gaps"
+      },
+      "MD": {
+        "value": 36,
+        "type": "spacing",
+        "description": "Use for applying consistent spacing on margin, padding and gaps"
+      },
+      "LG": {
+        "value": 48,
+        "type": "spacing",
+        "description": "Use for applying consistent spacing on margin, padding and gaps"
+      },
+      "XL": {
+        "value": 48,
+        "type": "spacing",
+        "description": "Use for applying consistent spacing on margin, padding and gaps"
+      },
+      "XXL": {
+        "value": 48,
+        "type": "spacing",
+        "description": "Use for applying consistent spacing on margin, padding and gaps"
+      }
+    },
+    "8": {
+      "SM": {
+        "value": 48,
+        "type": "spacing",
+        "description": "Use for applying consistent spacing on margin, padding and gaps"
+      },
+      "MD": {
+        "value": 48,
+        "type": "spacing",
+        "description": "Use for applying consistent spacing on margin, padding and gaps"
+      },
+      "LG": {
+        "value": 72,
+        "type": "spacing",
+        "description": "Use for applying consistent spacing on margin, padding and gaps"
+      },
+      "XL": {
+        "value": 72,
+        "type": "spacing",
+        "description": "Use for applying consistent spacing on margin, padding and gaps"
+      },
+      "XXL": {
+        "value": 72,
+        "type": "spacing",
+        "description": "Use for applying consistent spacing on margin, padding and gaps"
+      }
+    },
+    "9": {
+      "SM": {
+        "value": 60,
+        "type": "spacing",
+        "description": "Use for applying consistent spacing on margin, padding and gaps"
+      },
+      "MD": {
+        "value": 60,
+        "type": "spacing",
+        "description": "Use for applying consistent spacing on margin, padding and gaps"
+      },
+      "LG": {
+        "value": 104,
+        "type": "spacing",
+        "description": "Use for applying consistent spacing on margin, padding and gaps"
+      },
+      "XL": {
+        "value": 104,
+        "type": "spacing",
+        "description": "Use for applying consistent spacing on margin, padding and gaps"
+      },
+      "XXL": {
+        "value": 104,
+        "type": "spacing",
+        "description": "Use for applying consistent spacing on margin, padding and gaps"
+      }
+    },
+    "10": {
+      "SM": {
+        "value": 84,
+        "type": "spacing",
+        "description": "Use for applying consistent spacing on margin, padding and gaps"
+      },
+      "MD": {
+        "value": 84,
+        "type": "spacing",
+        "description": "Use for applying consistent spacing on margin, padding and gaps"
+      },
+      "LG": {
+        "value": 156,
+        "type": "spacing",
+        "description": "Use for applying consistent spacing on margin, padding and gaps"
+      },
+      "XL": {
+        "value": 156,
+        "type": "spacing",
+        "description": "Use for applying consistent spacing on margin, padding and gaps"
+      },
+      "XXL": {
+        "value": 156,
+        "type": "spacing",
+        "description": "Use for applying consistent spacing on margin, padding and gaps"
       }
     }
   },

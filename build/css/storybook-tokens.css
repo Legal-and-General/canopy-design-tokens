@@ -502,6 +502,10 @@
   --pagination-page-rest-background-colour: #ffffff; /* Pagination button rest state background colour */
   --pagination-page-rest-colour: #1d1d1b; /* Pagination button rest state colour */
   --pagination-page-rest-hover-indicator-colour: #ffffff; /* Pagination button rest state hover indicator colour */
+  --progress-bar-background-colour: #42aeea; /* Background colour of the progress bar */
+  --progress-bar-colour: #001d6e; /* Fill colour of the progress bar */
+  --progress-header-colour: #001d6e; /* Colour of the text of the progress header */
+  --progress-journey-colour: #4d4f4f; /* Colour of the text in the progress journey */
   --radio-common-colour: #1d1d1b; /* Radio button label colour */
   --radio-disabled-control-background-colour: #f4f4f4; /* Background colour of the radio control in disabled state */
   --radio-disabled-control-border-colour: #d3d3d3; /* Border colour of the radio control in disabled state */
@@ -550,6 +554,7 @@
   --select-rest-background-colour: #ffffff; /* Text input background colour in rest state */
   --select-rest-border-colour: #858686; /* Text input border colour in rest state */
   --select-rest-colour: #1d1d1b; /* Text input text colour in rest state */
+  --shadow-colour: [object Object]; /* Drop shadow colour and opacity */
   --tab-active-colour: #001d6e; /* Text and icon colour of the active tab */
   --tab-active-indicator-colour: #001d6e; /* Indicator colour of the active tab */
   --tab-bar-rail-colour: #d3d3d3; /* Colour of the tab bar rail */
@@ -740,7 +745,7 @@
   --dimensions-large-3: 0.75rem; /* Step 3 in the large dimension scale. Foundational dimension value for higher-tier tokens. Should not be directly used on component tokens. */
   --dimensions-large-4: 1rem; /* Step 4 in the large dimension scale. Foundational dimension value for higher-tier tokens. Should not be directly used on component tokens. */
   --dimensions-large-5: 1.5rem; /* Step 5 in the large dimension scale. Foundational dimension value for higher-tier tokens. Should not be directly used on component tokens. */
-  --dimensions-large-6: 2rem; /* Step 6 in the large dimension scale. Foundational dimension value for higher-tier tokens. Should not be directly used on component tokens. */
+  --dimensions-large-6: 2rem;
   --dimensions-large-7: 3rem; /* Step 7 in the large dimension scale. Foundational dimension value for higher-tier tokens. Should not be directly used on component tokens. */
   --dimensions-large-8: 4.5rem; /* Step 8 in the large dimension scale. Foundational dimension value for higher-tier tokens. Should not be directly used on component tokens. */
   --dimensions-large-9: 6.5rem; /* Step 9 in the large dimension scale. Foundational dimension value for higher-tier tokens. Should not be directly used on component tokens. */
@@ -751,7 +756,7 @@
   --dimensions-small-4: 1rem; /* Step 4 in the small dimension scale. Foundational dimension value for higher-tier tokens. Should not be directly used on component tokens. */
   --dimensions-small-5: 1.25rem; /* Step 5 in the small dimension scale. Foundational dimension value for higher-tier tokens. Should not be directly used on component tokens. */
   --dimensions-small-6: 1.75rem; /* Step 6 in the small dimension scale. Foundational dimension value for higher-tier tokens. Should not be directly used on component tokens. */
-  --dimensions-small-7: 2.25rem; /* Step 7 in the small dimension scale. Foundational dimension value for higher-tier tokens. Should not be directly used on component tokens. */
+  --dimensions-small-7: 2.25rem;
   --dimensions-small-8: 3rem; /* Step 8 in the small dimension scale. Foundational dimension value for higher-tier tokens. Should not be directly used on component tokens. */
   --dimensions-small-9: 3.75rem; /* Step 9 in the small dimension scale. Foundational dimension value for higher-tier tokens. Should not be directly used on component tokens. */
   --filter-button-gap: 0.5rem; /* Filter button internal gap */
@@ -762,7 +767,8 @@
   --footer-link-group-link-gap: 1rem; /* Gap between links */
   --footer-link-group-social-gap: 0.75rem; /* Gap between social icons */
   --footer-logo-gap: 2.25rem; /* Gap between the logo and stickers in the footer */
-  --footer-logo-size: 5rem; /* Size of the logo in the footer. Currently connected to the wrong variable and needs replacing with a structure that mimics the header */
+  --footer-logo-max-height-lg: 4.25rem; /* Max height of the primary logo in the footer for LG+ breakpoints */
+  --footer-logo-max-height-sm: 3.25rem; /* Max height of the primary logo in the footer for SM breakpoint */
   --footer-min-width: 20rem; /* Minimum width of the footer, matching page min-width */
   --footer-padding-x: 1rem; /* Left and right padding of the footer, matching page margin */
   --footer-padding-y: 1.75rem; /* Top and bottom padding of the footer */
@@ -848,6 +854,7 @@
   --list-item-common-icon-size-large: 1.75rem; /* Icon width and height on the large variant for list icon item */
   --list-item-common-padding-left: 0.75rem; /* Left padding applied to child list items to ident them */
   --modal-gap: 1.25rem; /* Gap between elements in a modal */
+  --modal-max-width: 18rem; /* Minimum width a modal can be in columns */
   --modal-min-width: 18rem; /* Minimum width a modal can be in columns */
   --modal-padding-x: 1.75rem; /* Modal padding left and right */
   --modal-padding-y: 1.25rem; /* Modal padding top and bottom */
@@ -863,6 +870,10 @@
   --pagination-inside-gap: 0.5rem; /* Gap between page buttons in the pagination component */
   --pagination-page-common-hover-indicator-width: 0.125rem; /* Pagination button hover indicator width */
   --pagination-vertical-gap: 1rem; /* Vertical gap between elements in the pagination component */
+  --progress-bar-gap: 0.5rem; /* Gap between the the fill and background of the progress bar */
+  --progress-bar-height: 0.25rem; /* Height of the progress bar */
+  --progress-indicator-gap: 0.5rem; /* Gap between elements in the progress indicator */
+  --progress-journey-gap: 1rem; /* Gap between content in the progress journey */
   --radio-group-lg-gap: 1.25rem; /* Large gap between radio buttons in a radio group */
   --radio-group-sm-gap: 1rem; /* Small gap between radio buttons in a radio group */
   --radio-scale-lg-control-size: 1.75rem; /* Width and height of the large radio button control */
@@ -1020,6 +1031,7 @@
   --link-status-subtle-focus-border-radius: 0.25rem; /* Link focus indicator border radius */
   --modal-border-radius: 1.75rem; /* Border radius of a modal */
   --notification-badge-border-radius: 1rem; /* Border radius of the badge */
+  --progress-bar-border-radius: 1rem; /* Border radius of the progress bar */
   --radio-common-border-radius: 1rem; /* Border radius of the radio control and indicator */
   --segment-button-common-border-radius: 0.5rem; /* Corner radius of a segment button. */
   --segment-control-common-border-radius: 0.75rem; /* Corner radius of the segment control container. */
@@ -1095,6 +1107,13 @@
   --line-height-small-7: 3.625rem; /* Step 7 in the small line-height scale. Foundational typography value for higher-tier tokens. Should not be directly used on component tokens. */
   --line-height-small-8: 4.1875rem; /* Step 8 in the small line-height scale. Foundational typography value for higher-tier tokens. Should not be directly used on component tokens. */
   --line-height-small-9: 4.8125rem; /* Step 9 in the small line-height scale. Foundational typography value for higher-tier tokens. Should not be directly used on component tokens. */
+
+  /**
+   * @tokens Foundations
+   * @presenter Shadow
+   */
+  --shadow-blur: 2rem; /* Blur amount of the drop shadow */
+  --shadow-position-y: 1.25rem; /* Y positioning of the drop shadow */
 
   /**
    * @tokens Typography
@@ -1681,7 +1700,8 @@
    */
   --footer-gap: 1.75rem; /* Gap between elements in the footer */
   --footer-logo-gap: 2.25rem; /* Gap between the logo and stickers in the footer */
-  --footer-logo-size: 5rem; /* Size of the logo in the footer. Currently connected to the wrong variable and needs replacing with a structure that mimics the header */
+  --footer-logo-max-height-lg: 4.25rem; /* Max height of the primary logo in the footer for LG+ breakpoints */
+  --footer-logo-max-height-sm: 3.25rem; /* Max height of the primary logo in the footer for SM breakpoint */
   --footer-min-width: 20rem; /* Minimum width of the footer, matching page min-width */
   --footer-padding-x: 1rem; /* Left and right padding of the footer, matching page margin */
   --footer-padding-y: 1.75rem; /* Top and bottom padding of the footer */
@@ -2217,6 +2237,7 @@
    * @presenter Spacing
    */
   --modal-gap: 1.25rem; /* Gap between elements in a modal */
+  --modal-max-width: 18rem; /* Minimum width a modal can be in columns */
   --modal-min-width: 18rem; /* Minimum width a modal can be in columns */
   --modal-padding-x: 1.75rem; /* Modal padding left and right */
   --modal-padding-y: 1.25rem; /* Modal padding top and bottom */
@@ -2310,6 +2331,50 @@
    * @presenter Border
    */
   --pagination-page-focus-border-width: 0.1875rem; /* Pagination button focus state border width */
+
+  /**
+   * @tokens Progress Bar
+   * @presenter Color
+   */
+  --progress-bar-background-colour: #42aeea; /* Background colour of the progress bar */
+  --progress-bar-colour: #001d6e; /* Fill colour of the progress bar */
+
+  /**
+   * @tokens Progress Bar
+   * @presenter Spacing
+   */
+  --progress-bar-gap: 0.5rem; /* Gap between the the fill and background of the progress bar */
+  --progress-bar-height: 0.25rem; /* Height of the progress bar */
+
+  /**
+   * @tokens Progress Bar
+   * @presenter BorderRadius
+   */
+  --progress-bar-border-radius: 1rem; /* Border radius of the progress bar */
+
+  /**
+   * @tokens Progress Header
+   * @presenter Color
+   */
+  --progress-header-colour: #001d6e; /* Colour of the text of the progress header */
+
+  /**
+   * @tokens Progress Indicator
+   * @presenter Spacing
+   */
+  --progress-indicator-gap: 0.5rem; /* Gap between elements in the progress indicator */
+
+  /**
+   * @tokens Progress Journey
+   * @presenter Color
+   */
+  --progress-journey-colour: #4d4f4f; /* Colour of the text in the progress journey */
+
+  /**
+   * @tokens Progress Journey
+   * @presenter Spacing
+   */
+  --progress-journey-gap: 1rem; /* Gap between content in the progress journey */
 
   /**
    * @tokens Radio

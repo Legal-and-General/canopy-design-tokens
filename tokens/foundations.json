@@ -1,7 +1,39 @@
 {
   "$description": "Design tokens from Foundations collection",
-  "$timestamp": "2026-10-19T12:07:45.919Z",
+  "$timestamp": "2026-11-16T15:28:27.206Z",
   "dimensions": {
+    "assets": {
+      "1": {
+        "value": 16,
+        "type": "sizing",
+        "description": "Step 1 in the asset dimension scale. Foundational dimension value for higher-tier tokens. Should not be directly used on component tokens."
+      },
+      "2": {
+        "value": 24,
+        "type": "sizing",
+        "description": "Step 2 in the asset dimension scale. Foundational dimension value for higher-tier tokens. Should not be directly used on component tokens."
+      },
+      "3": {
+        "value": 32,
+        "type": "sizing",
+        "description": "Step 3 in the asset dimension scale. Foundational dimension value for higher-tier tokens. Should not be directly used on component tokens."
+      },
+      "4": {
+        "value": 80,
+        "type": "sizing",
+        "description": "Step 4 in the asset dimension scale. Foundational dimension value for higher-tier tokens. Should not be directly used on component tokens."
+      },
+      "5": {
+        "value": 120,
+        "type": "sizing",
+        "description": "Step 5 in the asset dimension scale. Foundational dimension value for higher-tier tokens. Should not be directly used on component tokens."
+      },
+      "6": {
+        "value": 160,
+        "type": "sizing",
+        "description": "Step 6 in the asset dimension scale. Foundational dimension value for higher-tier tokens. Should not be directly used on component tokens."
+      }
+    },
     "small": {
       "1": {
         "value": 4,
@@ -35,8 +67,7 @@
       },
       "7": {
         "value": 36,
-        "type": "sizing",
-        "description": "Step 7 in the small dimension scale. Foundational dimension value for higher-tier tokens. Should not be directly used on component tokens."
+        "type": "sizing"
       },
       "8": {
         "value": 48,
@@ -82,8 +113,7 @@
       },
       "6": {
         "value": 32,
-        "type": "sizing",
-        "description": "Step 6 in the large dimension scale. Foundational dimension value for higher-tier tokens. Should not be directly used on component tokens."
+        "type": "sizing"
       },
       "7": {
         "value": 48,
@@ -104,38 +134,6 @@
         "value": 156,
         "type": "sizing",
         "description": "Step 10 in the large dimension scale. Foundational dimension value for higher-tier tokens. Should not be directly used on component tokens."
-      }
-    },
-    "assets": {
-      "1": {
-        "value": 16,
-        "type": "sizing",
-        "description": "Step 1 in the asset dimension scale. Foundational dimension value for higher-tier tokens. Should not be directly used on component tokens."
-      },
-      "2": {
-        "value": 24,
-        "type": "sizing",
-        "description": "Step 2 in the asset dimension scale. Foundational dimension value for higher-tier tokens. Should not be directly used on component tokens."
-      },
-      "3": {
-        "value": 32,
-        "type": "sizing",
-        "description": "Step 3 in the asset dimension scale. Foundational dimension value for higher-tier tokens. Should not be directly used on component tokens."
-      },
-      "4": {
-        "value": 80,
-        "type": "sizing",
-        "description": "Step 4 in the asset dimension scale. Foundational dimension value for higher-tier tokens. Should not be directly used on component tokens."
-      },
-      "5": {
-        "value": 120,
-        "type": "sizing",
-        "description": "Step 5 in the asset dimension scale. Foundational dimension value for higher-tier tokens. Should not be directly used on component tokens."
-      },
-      "6": {
-        "value": 160,
-        "type": "sizing",
-        "description": "Step 6 in the asset dimension scale. Foundational dimension value for higher-tier tokens. Should not be directly used on component tokens."
       }
     }
   },
@@ -311,63 +309,6 @@
         "description": "Step 1000 in the red colour scale. Foundational colour value for Component themes. Should not be directly used on component tokens."
       }
     },
-    "greyscale": {
-      "0": {
-        "value": "#ffffff",
-        "type": "color",
-        "description": "White"
-      },
-      "100": {
-        "value": "#f4f4f4",
-        "type": "color",
-        "description": "Off White"
-      },
-      "200": {
-        "value": "#d3d3d3",
-        "type": "color",
-        "description": "Light Grey"
-      },
-      "300": {
-        "value": "#bcbdbd",
-        "type": "color",
-        "description": "Step 300 in the greyscale colour scale. Foundational colour value for Component themes. Should not be directly used on component tokens."
-      },
-      "400": {
-        "value": "#a6a7a7",
-        "type": "color",
-        "description": "Warm Grey"
-      },
-      "500": {
-        "value": "#858686",
-        "type": "color",
-        "description": "Step 500 in the greyscale colour scale. Foundational colour value for Component themes. Should not be directly used on component tokens."
-      },
-      "600": {
-        "value": "#7a7b7b",
-        "type": "color",
-        "description": "Taupe Grey"
-      },
-      "700": {
-        "value": "#4d4f4f",
-        "type": "color",
-        "description": "Dark Grey"
-      },
-      "800": {
-        "value": "#343634",
-        "type": "color",
-        "description": "Step 800 in the greyscale colour scale. Foundational colour value for Component themes. Should not be directly used on component tokens."
-      },
-      "900": {
-        "value": "#1d1d1b",
-        "type": "color",
-        "description": "Off Black"
-      },
-      "1000": {
-        "value": "#000000",
-        "type": "color",
-        "description": "Black"
-      }
-    },
     "yellow": {
       "0": {
         "value": "#ffffff",
@@ -423,6 +364,63 @@
         "value": "#572722",
         "type": "color",
         "description": "Step 1000 in the yellow colour scale. Foundational colour value for Component themes. Should not be directly used on component tokens."
+      }
+    },
+    "greyscale": {
+      "0": {
+        "value": "#ffffff",
+        "type": "color",
+        "description": "White"
+      },
+      "100": {
+        "value": "#f4f4f4",
+        "type": "color",
+        "description": "Off White"
+      },
+      "200": {
+        "value": "#d3d3d3",
+        "type": "color",
+        "description": "Light Grey"
+      },
+      "300": {
+        "value": "#bcbdbd",
+        "type": "color",
+        "description": "Step 300 in the greyscale colour scale. Foundational colour value for Component themes. Should not be directly used on component tokens."
+      },
+      "400": {
+        "value": "#a6a7a7",
+        "type": "color",
+        "description": "Warm Grey"
+      },
+      "500": {
+        "value": "#858686",
+        "type": "color",
+        "description": "Step 500 in the greyscale colour scale. Foundational colour value for Component themes. Should not be directly used on component tokens."
+      },
+      "600": {
+        "value": "#7a7b7b",
+        "type": "color",
+        "description": "Taupe Grey"
+      },
+      "700": {
+        "value": "#4d4f4f",
+        "type": "color",
+        "description": "Dark Grey"
+      },
+      "800": {
+        "value": "#343634",
+        "type": "color",
+        "description": "Step 800 in the greyscale colour scale. Foundational colour value for Component themes. Should not be directly used on component tokens."
+      },
+      "900": {
+        "value": "#1d1d1b",
+        "type": "color",
+        "description": "Off Black"
+      },
+      "1000": {
+        "value": "#000000",
+        "type": "color",
+        "description": "Black"
       }
     }
   },
@@ -656,6 +654,29 @@
         "type": "lineHeights",
         "description": "Step 0-8 in the large line-height scale. Foundational typography value for higher-tier tokens. Should not be directly used on component tokens."
       }
+    }
+  },
+  "shadow": {
+    "colour": {
+      "value": {
+        "color": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:1017:4422"
+        },
+        "opacity": 20
+      },
+      "type": "color",
+      "description": "Drop shadow colour and opacity"
+    },
+    "position-y": {
+      "value": 20,
+      "type": "sizing",
+      "description": "Y positioning of the drop shadow"
+    },
+    "blur": {
+      "value": 32,
+      "type": "sizing",
+      "description": "Blur amount of the drop shadow"
     }
   }
 }
