@@ -36,9 +36,13 @@ The build process generates CSS files locally in `build/css/`. When the package 
 
 ### Install the Package
 
-```bash
-npm install @legal-and-general/canopy-design-tokens
-```
+1. Configure the project's `.npmrc` to use GitHub Packages for the Canopy scope: `@legal-and-general:registry=https://npm.pkg.github.com/`.
+
+2. [Authenticate against the GitHub registry](https://github.com/Legal-and-General/canopy/blob/master/docs/USAGE.md#authenticating-against-the-github-registry) using a personal access token with `read:packages` permission. Store credentials in your user's `.npmrc` or a CI secret, never in the project's committed files.
+
+3. Only after registry configuration and authentication are complete, install the package with `npm install @legal-and-general/canopy-design-tokens`.
+
+This package is hosted on GitHub Packages, not the public npm registry. If configuration, authentication, or installation fails, stop and resolve the error; do not fall back to the public npm registry or substitute a similarly named package.
 
 ### Import Individual Files
 
