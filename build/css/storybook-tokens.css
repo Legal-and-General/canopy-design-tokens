@@ -231,6 +231,7 @@
   --content-area-background-colour: #ffffff; /* Content area background colour */
   --content-area-border-colour: #d3d3d3; /* Content area border colour */
   --content-area-colour: #1d1d1b; /* Content area foreground colour */
+  --content-area-focus-indicator: #1d1d1b; /* Content area focus indicator colour */
   --content-area-title-colour: #001d6e; /* Colour of the main title text in a content area */
   --content-icon-brand-primary-colour: #005dba; /* For setting the colour fill of icons to the primary brand colour */
   --content-icon-negative-colour: #c50b30; /* For setting the colour fill of icons to the primary brand colour */
@@ -936,6 +937,7 @@
   --container-common-border-width-xs: 0.0625rem; /* Extra-small border width for containers. */
   --container-common-focus-indicator-border-width: 0.1875rem; /* Border width of the focus indicator for containers */
   --content-area-border-width: 0.0625rem; /* Content area border width */
+  --content-area-focus-indicator-border-width: 0.1875rem; /* Content area focus indicator border width */
   --content-seperator-border-width-sm: 0.09375rem; /* Small border width for separators */
   --content-seperator-border-width-xs: 0.0625rem; /* Extra small border width for separators */
   --details-focus-indicator-border-width: 0.1875rem; /* Details component focus indicator border width */
@@ -1010,6 +1012,7 @@
   --container-common-border-radius-xs: 0.75rem; /* Extra-small corner radius for containers. */
   --container-common-focus-indicator-border-radius-sm: 0.5rem; /* Border radius of the focus indicator for containers inside other containers */
   --content-area-border-radius: 1.75rem; /* Content area border radius */
+  --content-area-focus-indicator-border-radius: 0.5rem; /* Content area focus indicator border radius */
   --content-indicator-common-border-radius-lg: 1rem; /* Large corner radius for content indicators. */
   --content-indicator-common-border-radius-sm: 0.25rem; /* Small corner radius for content indicators. */
   --details-border-radius: 0.75rem; /* Details component border radius */
@@ -1567,6 +1570,7 @@
    * @presenter BorderRadius
    */
   --content-area-border-radius: 1.75rem; /* Content area border radius */
+  --content-area-focus-indicator-border-radius: 0.5rem; /* Content area focus indicator border radius */
 
   /**
    * @tokens Content Area
@@ -1575,6 +1579,7 @@
   --content-area-background-colour: #ffffff; /* Content area background colour */
   --content-area-border-colour: #d3d3d3; /* Content area border colour */
   --content-area-colour: #1d1d1b; /* Content area foreground colour */
+  --content-area-focus-indicator: #1d1d1b; /* Content area focus indicator colour */
   --content-area-title-colour: #001d6e; /* Colour of the main title text in a content area */
 
   /**
@@ -1582,6 +1587,7 @@
    * @presenter Border
    */
   --content-area-border-width: 0.0625rem; /* Content area border width */
+  --content-area-focus-indicator-border-width: 0.1875rem; /* Content area focus indicator border width */
 
   /**
    * @tokens Data Point

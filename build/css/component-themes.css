@@ -234,6 +234,9 @@
   --content-area-border-colour: #d3d3d3;
   --content-area-border-width: 0.0625rem;
   --content-area-colour: #1d1d1b;
+  --content-area-focus-indicator-border-radius: 0.5rem;
+  --content-area-focus-indicator-border-width: 0.1875rem;
+  --content-area-focus-indicator: #1d1d1b;
   --content-area-title-colour: #001d6e;
   --content-gap-column-lg: 2.25rem;
   --content-gap-column-md: 1.75rem;
@@ -1051,6 +1054,9 @@
   --content-area-border-colour: #42aeea;
   --content-area-border-width: 0.0625rem;
   --content-area-colour: #1d1d1b;
+  --content-area-focus-indicator-border-radius: 0.5rem;
+  --content-area-focus-indicator-border-width: 0.1875rem;
+  --content-area-focus-indicator: #1d1d1b;
   --content-area-title-colour: #001d6e;
   --content-gap-column-lg: 2.25rem;
   --content-gap-column-md: 1.75rem;
@@ -1867,6 +1873,9 @@
   --content-area-border-colour: #001d6e;
   --content-area-border-width: 0.0625rem;
   --content-area-colour: #ffffff;
+  --content-area-focus-indicator: #ffffff;
+  --content-area-focus-indicator-border-radius: 0.5rem;
+  --content-area-focus-indicator-border-width: 0.1875rem;
   --content-area-title-colour: #ffffff;
   --content-gap-column-lg: 2.25rem;
   --content-gap-column-md: 1.75rem;
@@ -2682,6 +2691,9 @@
   --content-area-border-colour: #d3d3d3;
   --content-area-border-width: 0.0625rem;
   --content-area-colour: #1d1d1b;
+  --content-area-focus-indicator-border-radius: 0.5rem;
+  --content-area-focus-indicator-border-width: 0.1875rem;
+  --content-area-focus-indicator: #1d1d1b;
   --content-area-title-colour: #01312e;
   --content-gap-column-lg: 2.25rem;
   --content-gap-column-md: 1.75rem;
@@ -3498,6 +3510,9 @@
   --content-area-border-colour: #d3d3d3;
   --content-area-border-width: 0.0625rem;
   --content-area-colour: #1d1d1b;
+  --content-area-focus-indicator-border-radius: 0.5rem;
+  --content-area-focus-indicator-border-width: 0.1875rem;
+  --content-area-focus-indicator: #1d1d1b;
   --content-area-title-colour: #01312e;
   --content-gap-column-lg: 2.25rem;
   --content-gap-column-md: 1.75rem;
@@ -4314,6 +4329,9 @@
   --content-area-border-colour: #43af6e;
   --content-area-border-width: 0.0625rem;
   --content-area-colour: #1d1d1b;
+  --content-area-focus-indicator-border-radius: 0.5rem;
+  --content-area-focus-indicator-border-width: 0.1875rem;
+  --content-area-focus-indicator: #1d1d1b;
   --content-area-title-colour: #01312e;
   --content-gap-column-lg: 2.25rem;
   --content-gap-column-md: 1.75rem;
@@ -5129,6 +5147,9 @@
   --content-area-border-colour: #01312e;
   --content-area-border-width: 0.0625rem;
   --content-area-colour: #ffffff;
+  --content-area-focus-indicator: #ffffff;
+  --content-area-focus-indicator-border-radius: 0.5rem;
+  --content-area-focus-indicator-border-width: 0.1875rem;
   --content-area-title-colour: #ffffff;
   --content-gap-column-lg: 2.25rem;
   --content-gap-column-md: 1.75rem;
@@ -5944,6 +5965,9 @@
   --content-area-border-colour: #d3d3d3;
   --content-area-border-width: 0.0625rem;
   --content-area-colour: #1d1d1b;
+  --content-area-focus-indicator-border-radius: 0.5rem;
+  --content-area-focus-indicator-border-width: 0.1875rem;
+  --content-area-focus-indicator: #1d1d1b;
   --content-area-title-colour: #940824;
   --content-gap-column-lg: 2.25rem;
   --content-gap-column-md: 1.75rem;
@@ -6760,6 +6784,9 @@
   --content-area-border-colour: #d3d3d3;
   --content-area-border-width: 0.0625rem;
   --content-area-colour: #1d1d1b;
+  --content-area-focus-indicator-border-radius: 0.5rem;
+  --content-area-focus-indicator-border-width: 0.1875rem;
+  --content-area-focus-indicator: #1d1d1b;
   --content-area-title-colour: #940824;
   --content-gap-column-lg: 2.25rem;
   --content-gap-column-md: 1.75rem;
@@ -7576,6 +7603,9 @@
   --content-area-border-colour: #ff3e51;
   --content-area-border-width: 0.0625rem;
   --content-area-colour: #1d1d1b;
+  --content-area-focus-indicator-border-radius: 0.5rem;
+  --content-area-focus-indicator-border-width: 0.1875rem;
+  --content-area-focus-indicator: #1d1d1b;
   --content-area-title-colour: #940824;
   --content-gap-column-lg: 2.25rem;
   --content-gap-column-md: 1.75rem;
@@ -8391,6 +8421,9 @@
   --content-area-border-colour: #940824;
   --content-area-border-width: 0.0625rem;
   --content-area-colour: #ffffff;
+  --content-area-focus-indicator: #ffffff;
+  --content-area-focus-indicator-border-radius: 0.5rem;
+  --content-area-focus-indicator-border-width: 0.1875rem;
   --content-area-title-colour: #ffffff;
   --content-gap-column-lg: 2.25rem;
   --content-gap-column-md: 1.75rem;
@@ -9206,6 +9239,9 @@
   --content-area-border-colour: #d3d3d3;
   --content-area-border-width: 0.0625rem;
   --content-area-colour: #1d1d1b;
+  --content-area-focus-indicator-border-radius: 0.5rem;
+  --content-area-focus-indicator-border-width: 0.1875rem;
+  --content-area-focus-indicator: #1d1d1b;
   --content-area-title-colour: #904029;
   --content-gap-column-lg: 2.25rem;
   --content-gap-column-md: 1.75rem;
@@ -10022,6 +10058,9 @@
   --content-area-border-colour: #d3d3d3;
   --content-area-border-width: 0.0625rem;
   --content-area-colour: #1d1d1b;
+  --content-area-focus-indicator-border-radius: 0.5rem;
+  --content-area-focus-indicator-border-width: 0.1875rem;
+  --content-area-focus-indicator: #1d1d1b;
   --content-area-title-colour: #904029;
   --content-gap-column-lg: 2.25rem;
   --content-gap-column-md: 1.75rem;
@@ -10838,6 +10877,9 @@
   --content-area-border-colour: #ffe969;
   --content-area-border-width: 0.0625rem;
   --content-area-colour: #1d1d1b;
+  --content-area-focus-indicator-border-radius: 0.5rem;
+  --content-area-focus-indicator-border-width: 0.1875rem;
+  --content-area-focus-indicator: #1d1d1b;
   --content-area-title-colour: #904029;
   --content-gap-column-lg: 2.25rem;
   --content-gap-column-md: 1.75rem;
@@ -11653,6 +11695,9 @@
   --content-area-border-colour: #c86426;
   --content-area-border-width: 0.0625rem;
   --content-area-colour: #1d1d1b;
+  --content-area-focus-indicator: #ffffff;
+  --content-area-focus-indicator-border-radius: 0.5rem;
+  --content-area-focus-indicator-border-width: 0.1875rem;
   --content-area-title-colour: #1d1d1b;
   --content-gap-column-lg: 2.25rem;
   --content-gap-column-md: 1.75rem;
